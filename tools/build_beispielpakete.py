@@ -207,7 +207,16 @@ geo = {
 }
 write('geografie-nordsee-wattenmeer.json', geo)
 
-with open(os.path.join(OUT, 'index.json'), 'w', encoding='utf-8') as f:
-    json.dump(['englisch-unit1-simple-past.json', 'geografie-nordsee-wattenmeer.json'], f, ensure_ascii=False, indent=1)
+# Liste der Pakete im Repo: vorhandene Einträge behalten (z. B. die Musikpakete) und ergänzen
+ix_path = os.path.join(OUT, 'index.json')
+try:
+    ix = json.load(open(ix_path, encoding='utf-8'))
+except Exception:
+    ix = []
+for name in ['englisch-unit1-simple-past.json', 'geografie-nordsee-wattenmeer.json']:
+    if name not in ix:
+        ix.insert(0, name)
+with open(ix_path, 'w', encoding='utf-8') as f:
+    json.dump(ix, f, ensure_ascii=False, indent=1)
     f.write('\n')
 print('geschrieben:', sorted(os.listdir(OUT)))

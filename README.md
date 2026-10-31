@@ -5,8 +5,9 @@ Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App
 ## Dateien
 
 - `index.html` – die komplette App
-- `pakete/` – Beispiel-Lernpakete (Englisch, Geografie) und `index.json` mit der Liste der Dateien
-- `tools/build_beispielpakete.py` – erzeugt die Beispielpakete neu (nur nötig, wenn du sie ändern willst)
+- `pakete/` – Lernpakete (Englisch, Geografie, Musik) und `index.json` mit der Liste der Dateien
+- `tools/build_beispielpakete.py` – erzeugt die Englisch- und Geografiepakete neu (nur nötig, wenn du sie ändern willst)
+- `tools/build_musikpakete.py` – erzeugt die drei Musikpakete; `tools/notation.py` zeichnet dafür die Notenbilder (SVG), `tools/glyphs.json` enthält die Zeichen dazu (Schlüssel, Pausen, Kreuz aus GNU FreeFont, Ziffern aus DejaVu Sans Bold)
 
 ## Einrichten auf GitHub
 
@@ -55,7 +56,7 @@ Pakete, Ergebnisse und die laufende Aufgabe liegen nur im Browser des jeweiligen
   "beschreibung": "Optionaler Text für die Karte",
   "hinweis": "Optional, z. B. was noch geprüft werden muss",
   "lernblatt": [
-    { "titel": "Brüche kürzen", "text": "- Zähler und Nenner durch dieselbe Zahl teilen", "merke": "Optional" }
+    { "titel": "Brüche kürzen", "text": "- Zähler und Nenner durch dieselbe Zahl teilen", "merke": "Optional", "bild": "Optional: SVG-Code oder Bilddatei" }
   ],
   "aufgaben": [ ... ]
 }
@@ -81,7 +82,7 @@ Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`.
 
 | `typ` | Felder | Punkte |
 |---|---|---|
-| `mc` | `antworten` (Liste), `richtig` (Nummer ab 0, oder Liste von Nummern bei mehreren richtigen), optional `mischen: false` | alles oder nichts |
+| `mc` | `antworten` (Liste), `richtig` (Nummer ab 0, oder Liste von Nummern bei mehreren richtigen), optional `mischen: false` | eine richtige Antwort: alles oder nichts. Bei einer Liste: richtige Kreuze minus falsche Kreuze, anteilig |
 | `tf` | `richtig`: `true` oder `false` | 1 |
 | `kurz` | `richtig`: Text oder Liste erlaubter Texte; optional `einheit`, `toleranz` bei Zahlen | 1 |
 | `luecke` | `text` mit Lücken `{{richtig}}` oder `{{richtig\|auch richtig}}`; optional `auswahl` (Lücken werden Auswahllisten), `wortbank` (Wörter zur Hilfe) | 1 je Lücke |
@@ -94,3 +95,4 @@ Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`.
 - **Englisch** ist frei formuliert und passt zu den Themen von Unit 1 (was/were, simple past, did, Hören, Telefonieren, Schreiben).
 - **Geografie** ist ein Entwurf. Die Schutzzonen im Nationalpark und die Jahreszahlen sollten mit Joels Unterlagen abgeglichen werden. Auch die vierte Zone des Wattenmeeres (Düne oder Deich) ist darin bewusst nicht enthalten, weil Buch und Arbeitsblatt sich dort unterscheiden.
 - „Anhören“ nutzt die Stimme des Browsers (am besten in Chrome oder Edge). Die Qualität hängt vom Gerät ab. Der Text zum Vorlesen für die Eltern ist immer aufklappbar.
+- **Musik** (drei Pakete für Klasse 6): Notennamen/Notenwerte/Vorzeichen, Pausen/Taktarten und eine Probearbeit mit 38 Punkten (Lied, Chanson, Bilder einer Ausstellung, Hören). Die Notenbilder sind SVG und entstehen aus den Aufgabendaten, die Lösungen passen also zu den Bildern. Zeichenaufgaben vom Papier sind als Auswahlaufgaben umgebaut. Das Zeichnen selbst bleibt Papierarbeit (das Lernblatt erklärt, wie). Teil D (Hören) braucht Musikausschnitte auf einem zweiten Gerät. Die Stückbeschreibungen wurden nicht angehört und sollten beim Zuhören geprüft werden. Merkmale und Schreibweisen aus dem Unterricht haben Vorrang.
