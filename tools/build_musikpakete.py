@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Erzeugt die drei Musik-Lernpakete (Klasse 6) im Ordner pakete/.
+"""Erzeugt die drei Musik-Lernpakete (Klasse 6) im Ordner pakete/joel/.
 
 Die Notenbilder zeichnet tools/notation.py als SVG, die Lösungen ergeben sich
 aus denselben Daten wie die Bilder. Aufruf: python3 tools/build_musikpakete.py
@@ -12,7 +12,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from notation import Row, N, R, GAP, doc, ORANGE, INK  # noqa: E402
 
-OUT = os.path.join(HERE, '..', 'pakete')
+OUT = os.path.join(HERE, '..', 'pakete', 'joel')
 os.makedirs(OUT, exist_ok=True)
 
 
@@ -199,7 +199,7 @@ MERKBILD_ALT = 'Notenwerte mit ihren Schlägen: ganze Note 4, halbe Note 2, Vier
 # Paket 1: Notennamen, Notenwerte, Vorzeichen
 # =====================================================================
 p1 = {
- "typ": "lernpaket", "version": 1,
+ "typ": "lernpaket", "version": 1, "person": "joel",
  "id": "musik-6-notennamen-notenwerte-vorzeichen",
  "titel": "Musik Klasse 6: Notennamen, Notenwerte, Vorzeichen",
  "fach": "Musik", "klasse": "6",
@@ -314,7 +314,7 @@ p1 = {
 # Paket 2: Pausen und Taktarten
 # =====================================================================
 p2 = {
- "typ": "lernpaket", "version": 1,
+ "typ": "lernpaket", "version": 1, "person": "joel",
  "id": "musik-6-pausen-taktarten",
  "titel": "Musik Klasse 6: Pausen und Taktarten",
  "fach": "Musik", "klasse": "6",
@@ -405,7 +405,7 @@ TEIL_C = "Teil C – Bilder einer Ausstellung (4 Punkte)"
 TEIL_D = "Teil D – Höraufgabe (7 Punkte)"
 
 p3 = {
- "typ": "lernpaket", "version": 1,
+ "typ": "lernpaket", "version": 1, "person": "joel",
  "id": "musik-6-probearbeit-wanderlied-hoeren",
  "titel": "Musik Klasse 6: Probearbeit (Lied, Chanson, Ausstellung, Hören)",
  "fach": "Musik", "klasse": "6",

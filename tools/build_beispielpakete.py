@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Erzeugt die Beispiel-Lernpakete im Ordner pakete/ (gültiges JSON, ohne Tippfehler-Risiko).
+"""Erzeugt die Beispiel-Lernpakete im Ordner pakete/joel/ (gültiges JSON, ohne Tippfehler-Risiko).
 Aufruf: python3 tools/build_beispielpakete.py
 """
 import json, os
 
-OUT = os.path.join(os.path.dirname(__file__), '..', 'pakete')
+OUT = os.path.join(os.path.dirname(__file__), '..', 'pakete', 'joel')
 os.makedirs(OUT, exist_ok=True)
 
 def write(name, obj):
@@ -14,7 +14,7 @@ def write(name, obj):
 
 # ------------------------------------------------------------------ Englisch
 english = {
- "typ": "lernpaket", "version": 1,
+ "typ": "lernpaket", "version": 1, "person": "joel",
  "id": "englisch-g-access-2-unit-1",
  "titel": "English G Access 2 – Unit 1: In the holidays",
  "fach": "Englisch", "klasse": "6",
@@ -133,7 +133,7 @@ dike_svg = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 330" widt
 </svg>'''
 
 geo = {
- "typ": "lernpaket", "version": 1,
+ "typ": "lernpaket", "version": 1, "person": "joel",
  "id": "geografie-nordsee-wattenmeer",
  "titel": "Geografie: Nordsee, Wattenmeer und Küstenschutz",
  "fach": "Geografie", "klasse": "6",
@@ -213,7 +213,7 @@ try:
     ix = json.load(open(ix_path, encoding='utf-8'))
 except Exception:
     ix = []
-for name in ['englisch-unit1-simple-past.json', 'geografie-nordsee-wattenmeer.json']:
+for name in reversed(['englisch-unit1-simple-past.json', 'geografie-nordsee-wattenmeer.json']):
     if name not in ix:
         ix.insert(0, name)
 with open(ix_path, 'w', encoding='utf-8') as f:

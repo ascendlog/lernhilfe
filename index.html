@@ -9,7 +9,10 @@
 <style>
 :root{--bg:#fbf6ee;--card:#fff;--ink:#2a2724;--muted:#6f685f;--accent:#e2701a;--accent-d:#c85d0e;--on-accent:#fff;--green:#27835a;--red:#c0392b;--amber:#a8690f;--line:#e7ddcf;--soft:#fff1e2;--ok-bg:#e6f5ec;--bad-bg:#fcebe8;--part-bg:#fdf3dc;--shadow:0 1px 2px rgba(60,40,10,.06),0 4px 14px rgba(60,40,10,.06)}
 @media (prefers-color-scheme:dark){:root{--bg:#1c1a17;--card:#26231f;--ink:#f2ece3;--muted:#a79f93;--accent:#f0893a;--accent-d:#f59d58;--on-accent:#1c1a17;--green:#5fc78d;--red:#f0806f;--amber:#e7b55a;--line:#3b3731;--soft:#342a1f;--ok-bg:#1e3327;--bad-bg:#3a2422;--part-bg:#3a321d;--shadow:none}}
+html[data-p=saskia]{--accent:#0f7b8a;--accent-d:#0b6370;--soft:#e3f4f6}
+@media (prefers-color-scheme:dark){html[data-p=saskia]{--accent:#4fc3d3;--accent-d:#7bd5e1;--on-accent:#10282c;--soft:#1d3338}}
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{font-size:17px}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
 h1,h2,h3{line-height:1.25;margin:0 0 .5rem}
@@ -133,17 +136,26 @@ dialog::backdrop{background:rgba(0,0,0,.45)}
 .errs{background:var(--bad-bg);border-radius:10px;padding:.5rem .9rem;font-size:.92rem}
 .errs ul{margin:.2rem 0}
 .lib{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.6rem 0;border-bottom:1px solid var(--line)}
+.who-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.2rem}
+.who{font:inherit;color:var(--ink);text-align:left;display:flex;align-items:center;gap:1rem;background:var(--card);border:2px solid var(--line);border-radius:18px;padding:1.2rem 1.3rem;cursor:pointer;box-shadow:var(--shadow)}
+.who:hover{border-color:var(--c)}
+.who .nm{display:block;font-size:1.35rem;font-weight:800;line-height:1.2}
+.who .muted{display:block;font-size:.9rem}
+.av{flex:none;width:3.4rem;height:3.4rem;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1.5rem;color:#fff;background:var(--c)}
+.pill{display:inline-flex;align-items:center;gap:.45rem}
+.pill .av{width:1.5rem;height:1.5rem;font-size:.8rem}
+.pill,.brand{white-space:nowrap}
 #toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:.6rem 1rem;border-radius:12px;opacity:0;pointer-events:none;transition:.25s;max-width:90vw;z-index:20;font-size:.95rem}
 #toast.on{opacity:1;transform:translateX(-50%)}
-.dropping::after{content:"Datei hier loslassen";position:fixed;inset:0;background:rgba(226,112,26,.18);display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:800;color:var(--accent-d);pointer-events:none;border:4px dashed var(--accent);z-index:30}
+.dropping::after{content:"Datei hier loslassen";position:fixed;inset:0;background:color-mix(in srgb,var(--accent) 18%,transparent);display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:800;color:var(--accent-d);pointer-events:none;border:4px dashed var(--accent);z-index:30}
 .blatt h2{color:var(--accent-d)}
 .merke{background:var(--soft);border-left:4px solid var(--accent);border-radius:8px;padding:.5rem .9rem;margin-top:.6rem}
 .merke p{margin:.2rem 0}
-@media (max-width:600px){html{font-size:16px}.pair{grid-template-columns:1fr}.opts.tf{grid-template-columns:1fr}.card{padding:1rem}}
+@media (max-width:600px){.brand .bt,.pill .wl{display:none}html{font-size:16px}.pair{grid-template-columns:1fr}.opts.tf{grid-template-columns:1fr}.card{padding:1rem}}
 </style>
 </head>
 <body>
-<header class="top"><div class="top-in"><button class="brand" data-act="home">📚 Lernhilfe</button><span id="crumb" class="crumb"></span><span class="sp"></span><button class="btn ghost sm" data-act="backup">Sicherung</button></div></header>
+<header class="top"><div class="top-in"><button class="brand" data-act="home" aria-label="Lernhilfe, zur Startseite">📚<span class="bt"> Lernhilfe</span></button><span id="crumb" class="crumb"></span><span class="sp"></span><button id="whoBtn" class="btn ghost sm pill" data-act="wechseln" aria-label="Person wechseln" hidden></button><button id="bkBtn" class="btn ghost sm" data-act="backup" hidden>Sicherung</button></div></header>
 <main id="app" tabindex="-1"></main>
 <dialog id="dlg"></dialog>
 <div id="toast" role="status" aria-live="polite"></div>
@@ -172,22 +184,64 @@ function dialog(html) { const d = $('#dlg'); d.innerHTML = '<div class="dlg-in">
 function closeDialog() { const d = $('#dlg'); if (d.open) d.close(); }
 const fmtDate = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
 
-/* ========== Speicher ========== */
-const KEY = 'lernhilfe.v1';
-let db = loadDb();
-function loadDb() {
+/* ========== Personen ========== */
+/* Wer die App nutzt. Weitere Person: einfach eine Zeile ergänzen (id klein und ohne Leerzeichen).
+   Für eine eigene Farbe zusätzlich im CSS oben eine Zeile html[data-p=<id>] ergänzen. */
+const PERSONEN = [
+  { id: 'joel', name: 'Joel', art: 'kind', farbe: '#c85d0e' },
+  { id: 'saskia', name: 'Saskia', art: 'erwachsen', farbe: '#0f7b8a' }
+];
+const ALT_BESITZER = 'joel'; /* ihm gehört der Speicherstand aus der Zeit vor den Profilen (lernhilfe.v1) */
+const personById = id => PERSONEN.find(x => x.id === id);
+const fold = s => String(s ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+let cur = null; /* gewählte Person, null = Startseite „Wer lernt?“ */
+const wort = () => cur && cur.art === 'erwachsen' ? { probe: 'Probeklausur', wie: 'wie in der Prüfung' } : { probe: 'Probearbeit', wie: 'wie in der Schule' };
+const klasseChip = k => /^\d+[a-z]?$/i.test(String(k).trim()) ? 'Klasse ' + k : String(k);
+
+/* ========== Speicher (getrennt pro Person) ========== */
+const KEY_ALT = 'lernhilfe.v1';
+const keyOf = id => 'lernhilfe.v2.' + id;
+let db = null;
+function readRaw(key) { try { const d = JSON.parse(localStorage.getItem(key) || 'null'); return d && typeof d === 'object' && !Array.isArray(d) ? d : null; } catch (e) { return null; } }
+function loadDb(id) {
+  let d = readRaw(keyOf(id)), migriert = false;
+  if (!d && id === ALT_BESITZER) { d = readRaw(KEY_ALT); migriert = !!d; } /* alter Stand bleibt als Kopie unter lernhilfe.v1 liegen */
   const base = { pakete: [], ergebnisse: {}, session: null, gesichert: null };
-  try { const d = JSON.parse(localStorage.getItem(KEY) || 'null'); if (d && typeof d === 'object') Object.assign(base, d); } catch (e) { /* leer starten */ }
+  if (d) Object.assign(base, d);
   if (!Array.isArray(base.pakete)) base.pakete = [];
   if (!base.ergebnisse || typeof base.ergebnisse !== 'object') base.ergebnisse = {};
   if (base.session && (base.session.done || !base.pakete.some(p => p.id === base.session.id))) base.session = null;
-  return base;
+  if (migriert) { try { localStorage.setItem(keyOf(id), JSON.stringify(base)); } catch (e) { /* wird beim nächsten Speichern erneut versucht */ } }
+  return { base, migriert };
 }
 let saveTimer;
 function save(now) {
   clearTimeout(saveTimer);
-  const run = () => { try { localStorage.setItem(KEY, JSON.stringify(db)); } catch (e) { toast('Speichern im Browser nicht möglich (Speicher voll oder gesperrt).'); } };
+  if (!cur || !db) return;
+  const key = keyOf(cur.id), data = db; /* Ziel jetzt festhalten, damit ein Personenwechsel nichts vermischt */
+  const run = () => { try { localStorage.setItem(key, JSON.stringify(data)); } catch (e) { toast('Speichern im Browser nicht möglich (Speicher voll oder gesperrt).'); } };
   if (now) run(); else saveTimer = setTimeout(run, 150);
+}
+function stopSpeech() { if ('speechSynthesis' in window) speechSynthesis.cancel(); }
+function enterPerson(p) {
+  if (cur && cur.id === p.id) return;
+  save(true); stopSpeech();
+  const { base, migriert } = loadDb(p.id);
+  cur = p; db = base;
+  document.documentElement.dataset.p = p.id;
+  if (migriert) toast('Die bisherigen Lernpakete und Ergebnisse sind jetzt bei ' + p.name + '.');
+}
+function leavePerson() {
+  if (!cur) return;
+  save(true); stopSpeech();
+  cur = null; db = null; delete document.documentElement.dataset.p;
+}
+function peek(id) { /* für die Startseite: Pakete und letzte Übung einer Person */
+  const d = readRaw(keyOf(id)) || (id === ALT_BESITZER ? readRaw(KEY_ALT) : null);
+  if (!d) return { n: 0, last: 0 };
+  let last = 0;
+  Object.values(d.ergebnisse && typeof d.ergebnisse === 'object' ? d.ergebnisse : {}).forEach(a => (Array.isArray(a) ? a : []).forEach(r => { if (r && r.t > last) last = r.t; }));
+  return { n: Array.isArray(d.pakete) ? d.pakete.length : 0, last };
 }
 const getPack = id => db.pakete.find(p => p.id === id);
 
@@ -311,6 +365,7 @@ function validatePack(p) {
   if (p.typ !== 'lernpaket') e.push('Feld "typ" muss "lernpaket" sein.');
   if (typeof p.id !== 'string' || !/^[a-z0-9][a-z0-9_-]*$/i.test(p.id)) e.push('Feld "id" fehlt oder enthält ungültige Zeichen (erlaubt: Buchstaben, Zahlen, - und _).');
   if (typeof p.titel !== 'string' || !p.titel.trim()) e.push('Feld "titel" fehlt.');
+  if (p.person !== undefined && typeof p.person !== 'string') e.push('"person" muss ein Text sein (z. B. "joel").');
   if (!Array.isArray(p.aufgaben) || !p.aufgaben.length) e.push('Die Liste "aufgaben" fehlt oder ist leer.');
   else p.aufgaben.forEach((t, i) => validateTask(t, i, e));
   if (p.lernblatt !== undefined && (!Array.isArray(p.lernblatt) || p.lernblatt.some(s => !s || typeof s.titel !== 'string' || typeof s.text !== 'string'))) e.push('"lernblatt" muss eine Liste von Abschnitten mit "titel" und "text" sein.');
@@ -321,13 +376,27 @@ function normalizePack(p) {
   p.aufgaben.forEach(t => { if (t.typ === 'kurz') t.richtig = [].concat(t.richtig).map(String); });
   return p;
 }
+function fremd(o) { /* Name der Person, für die ein Paket oder eine Sicherung gedacht ist – leer, wenn es zur gewählten Person passt oder niemand genannt ist */
+  const raw = [o && o.person, o && o.kind].find(x => typeof x === 'string' && x.trim()) || '';
+  const w = fold(raw); if (!w || w === fold(cur.id) || w === fold(cur.name)) return '';
+  const q = PERSONEN.find(x => w === fold(x.id) || w === fold(x.name));
+  return q ? q.name : raw.trim();
+}
 function importObj(o, label, force) {
   const res = { added: 0, updated: 0, skipped: 0, errors: [] };
   const isBackup = o && !Array.isArray(o) && o.typ === 'sicherung';
   const list = Array.isArray(o) ? o : isBackup ? (o.pakete || []) : [o];
+  if (isBackup && !force) {
+    const m = fremd(o);
+    if (m && !confirm('Diese Sicherung gehört zu ' + m + '. Trotzdem hier bei ' + cur.name + ' wiederherstellen?')) { res.skipped = Math.max(1, list.length); return res; }
+  }
   list.forEach((p, n) => {
     const errs = validatePack(p);
     if (errs.length) { res.errors.push({ name: (p && p.titel) || label + (list.length > 1 ? ' #' + (n + 1) : ''), errs }); return; }
+    if (!isBackup && !force) {
+      const m = fremd(p);
+      if (m && !confirm('„' + p.titel + '“ ist für ' + m + ' gedacht. Trotzdem hier bei ' + cur.name + ' importieren?')) { res.skipped++; return; }
+    }
     normalizePack(p);
     const ix = db.pakete.findIndex(x => x.id === p.id);
     if (ix >= 0) {
@@ -354,7 +423,7 @@ function reportImport(res) {
   if (res.skipped) bits.push(res.skipped + ' übersprungen');
   if (bits.length) toast('Import: ' + bits.join(', ') + '.');
   if (res.errors.length) {
-    dialog('<h2>Das hat nicht geklappt</h2><div class="errs">' + res.errors.map(x => '<strong>' + esc(x.name) + '</strong><ul>' + x.errs.map(m => '<li>' + esc(m) + '</li>').join('') + '</ul>').join('') + '</div><p class="muted">Schick diese Meldung im Claude-Projekt „Schulaufgaben“ an Claude, dann wird das Paket korrigiert.</p><div class="row"><button class="btn" data-act="dlg-close">OK</button></div>');
+    dialog('<h2>Das hat nicht geklappt</h2><div class="errs">' + res.errors.map(x => '<strong>' + esc(x.name) + '</strong><ul>' + x.errs.map(m => '<li>' + esc(m) + '</li>').join('') + '</ul>').join('') + '</div><p class="muted">Schick diese Meldung an Claude (am besten in dem Chat oder Projekt, in dem das Paket erstellt wurde), dann wird es korrigiert.</p><div class="row"><button class="btn" data-act="dlg-close">OK</button></div>');
   }
 }
 function importText(text, label) {
@@ -363,47 +432,68 @@ function importText(text, label) {
   reportImport(importObj(o, label || 'Eingefügter Text'));
 }
 async function importFiles(files) {
+  if (!db) { toast('Bitte zuerst auswählen, wer lernt.'); return; }
   for (const f of files) {
     try { importText(await f.text(), f.name); } catch (e) { toast('Datei nicht lesbar: ' + f.name); }
   }
 }
 
 /* ========== Router ========== */
+/* Adressen: #/ = „Wer lernt?“, #/<person> = Startseite der Person, #/<person>/aufgabe, /ergebnis, /lernblatt/<id> */
+const H = sub => '#/' + cur.id + (sub ? '/' + sub : '');
 function go(h) { if (location.hash === h) render(); else location.hash = h; }
 window.addEventListener('hashchange', render);
 function render() {
   closeDialog();
-  const h = location.hash || '#/';
-  const s = db.session;
+  const seg = (location.hash || '#/').replace(/^#\/?/, '').split('/');
+  const p = personById(seg[0]);
   window.scrollTo(0, 0);
-  if (h.startsWith('#/lernblatt/')) return renderLernblatt(decodeURIComponent(h.slice(12)));
-  if (h === '#/aufgabe') { if (s && !s.done) return renderTask(); if (s && s.done) return go('#/ergebnis'); }
-  if (h === '#/ergebnis' && s && s.done) return renderResult();
-  if (h !== '#/' && h !== '') { history.replaceState(null, '', '#/'); }
+  if (!p) {
+    leavePerson();
+    if (location.hash && location.hash !== '#/') history.replaceState(null, '', '#/'); /* alte oder falsche Adressen landen bei der Auswahl */
+    return renderChooser();
+  }
+  enterPerson(p);
+  $('#whoBtn').innerHTML = `<span class="av" style="--c:${p.farbe}" aria-hidden="true">${esc(p.name[0])}</span>${esc(p.name)}<span class="wl"> · wechseln</span>`;
+  $('#whoBtn').hidden = false; $('#bkBtn').hidden = false;
+  document.title = 'Lernhilfe – ' + p.name;
+  const s = db.session, r0 = seg[1] || '';
+  if (r0 === 'lernblatt' && seg[2]) return renderLernblatt(decodeURIComponent(seg[2]));
+  if (r0 === 'aufgabe') { if (s && !s.done) return renderTask(); if (s && s.done) return go(H('ergebnis')); }
+  if (r0 === 'ergebnis' && s && s.done) return renderResult();
+  if (r0) history.replaceState(null, '', H());
   renderHome();
 }
 
 /* ========== Startseite ========== */
+function renderChooser() {
+  $('#crumb').textContent = ''; document.title = 'Lernhilfe';
+  $('#whoBtn').hidden = true; $('#bkBtn').hidden = true;
+  $('#app').innerHTML = '<div class="hero"><h1>Lernhilfe</h1><p class="lead">Wer lernt heute?</p></div><div class="who-grid">' + PERSONEN.map(p => {
+    const k = peek(p.id);
+    return `<button class="who" style="--c:${p.farbe}" data-act="person" data-id="${esc(p.id)}"><span class="av" aria-hidden="true">${esc(p.name[0])}</span><span><span class="nm">${esc(p.name)}</span><span class="muted">${k.n ? k.n + (k.n === 1 ? ' Lernpaket' : ' Lernpakete') : 'Noch keine Lernpakete'}${k.last ? ' · zuletzt geübt am ' + fmtDate(k.last) : ''}</span></span></button>`;
+  }).join('') + '</div><p class="legend" style="margin-top:1.4rem">Jede Person hat ihre eigenen Lernpakete und Ergebnisse.</p>';
+}
 function packCard(p) {
   const res = db.ergebnisse[p.id] || [];
   const trend = res.filter(r => !r.teil && r.max).slice(-5).map(r => Math.round(100 * r.got / r.max) + ' %').join(' → ');
   const id = esc(p.id);
-  return `<article class="card pack"><div class="chips">${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">Klasse ${esc(p.klasse)}</span>` : ''}${p.kind ? `<span class="chip">${esc(p.kind)}</span>` : ''}<span class="chip">${p.aufgaben.length} Aufgaben</span></div>
+  return `<article class="card pack"><div class="chips">${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
 <h2>${esc(p.titel)}</h2>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : ''}
 ${trend ? `<p class="trend">Bisherige Ergebnisse: <strong>${trend}</strong></p>` : '<p class="trend muted">Noch nicht geübt.</p>'}
-<div class="row"><button class="btn" data-act="ueben" data-id="${id}">Üben</button><button class="btn sec" data-act="test" data-id="${id}">Probearbeit</button>${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
+<div class="row"><button class="btn" data-act="ueben" data-id="${id}">Üben</button><button class="btn sec" data-act="test" data-id="${id}">${wort().probe}</button>${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
 }
 function renderHome() {
   $('#crumb').textContent = '';
-  const s = db.session, sp = s && getPack(s.id);
-  let h = '<div class="hero"><h1>Lernhilfe</h1><p class="lead">Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.</p></div>';
-  if (s && sp) h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> läuft noch<div class="muted">${s.modus === 'test' ? 'Probearbeit' : 'Üben'} · Aufgabe ${s.pos + 1} von ${s.order.length}</div></div><div class="row"><button class="btn" data-act="resume">Fortsetzen</button><button class="btn ghost" data-act="discard">Verwerfen</button></div></div>`;
+  const s = db.session, sp = s && getPack(s.id), w = wort();
+  let h = `<div class="hero"><h1>Hallo ${esc(cur.name)}!</h1><p class="lead">${cur.art === 'erwachsen' ? 'Übungsaufgaben fürs Studium – am Bildschirm.' : 'Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.'}</p></div>`;
+  if (s && sp) h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> läuft noch<div class="muted">${s.modus === 'test' ? w.probe : 'Üben'} · Aufgabe ${s.pos + 1} von ${s.order.length}</div></div><div class="row"><button class="btn" data-act="resume">Fortsetzen</button><button class="btn ghost" data-act="discard">Verwerfen</button></div></div>`;
   h += '<div class="toolbar"><button class="btn" data-act="import">Lernpaket importieren</button><button class="btn sec" data-act="paste">Text einfügen</button><button class="btn sec" data-act="library">Pakete aus dem Repo</button></div>';
   if (!db.pakete.length) {
-    h += '<div class="card"><h2>Noch keine Lernpakete</h2><p>Lass dir im Claude-Projekt „Schulaufgaben“ ein Lernpaket erstellen (Aufgaben samt Lösungen als JSON-Datei) und importiere die Datei hier. Du kannst sie auch einfach in dieses Fenster ziehen.</p></div>';
+    h += '<div class="card"><h2>Noch keine Lernpakete</h2><p>Lass dir in Claude ein Lernpaket erstellen (Aufgaben samt Lösungen als JSON-Datei) und importiere die Datei hier. Du kannst sie auch einfach in dieses Fenster ziehen.</p></div>';
   } else {
     h += '<div class="packs">' + db.pakete.map(packCard).join('') + '</div>';
-    h += '<p class="legend"><strong>Üben:</strong> Nach jeder Aufgabe gibt es sofort die Auswertung, auf Wunsch mit Tipp. <strong>Probearbeit:</strong> wie in der Schule, ausgewertet wird erst am Ende.</p>';
+    h += '<p class="legend"><strong>Üben:</strong> Nach jeder Aufgabe gibt es sofort die Auswertung, auf Wunsch mit Tipp. <strong>' + w.probe + ':</strong> ' + w.wie + ', ausgewertet wird erst am Ende.</p>';
     const days = db.gesichert ? Math.floor((Date.now() - db.gesichert) / 864e5) : null;
     h += `<p class="legend">${db.gesichert ? 'Letzte Sicherung: ' + fmtDate(db.gesichert) : 'Noch keine Sicherung erstellt.'}${days === null || days > 30 ? ' – <button class="link" data-act="backup">jetzt sichern</button>' : ''}</p>`;
   }
@@ -412,12 +502,12 @@ function renderHome() {
 
 /* ========== Lernblatt ========== */
 function renderLernblatt(id) {
-  const p = getPack(id); if (!p) return go('#/');
+  const p = getPack(id); if (!p) return go(H());
   $('#crumb').textContent = p.titel;
   $('#app').innerHTML = `<p><button class="link" data-act="home">← Übersicht</button></p><h1>${esc(p.titel)}</h1><p class="muted">Lernblatt zum Durchlesen vor dem Üben.</p>` +
     (p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : '') +
     (p.lernblatt || []).map(sec => `<section class="card blatt"><h2>${esc(sec.titel)}</h2>${bildSrc(sec.bild) ? `<img class="bild" src="${bildSrc(sec.bild)}" alt="${esc(sec.bildAlt || 'Abbildung')}">` : ''}${rt(sec.text)}${sec.merke ? `<div class="merke"><strong>Merke:</strong> ${inl(sec.merke)}</div>` : ''}</section>`).join('') +
-    `<div class="row"><button class="btn" data-act="ueben" data-id="${esc(p.id)}">Jetzt üben</button><button class="btn sec" data-act="test" data-id="${esc(p.id)}">Probearbeit</button></div>`;
+    `<div class="row"><button class="btn" data-act="ueben" data-id="${esc(p.id)}">Jetzt üben</button><button class="btn sec" data-act="test" data-id="${esc(p.id)}">${wort().probe}</button></div>`;
 }
 
 /* ========== Sitzung ========== */
@@ -426,7 +516,7 @@ function startSession(id, modus, only) {
   if (db.session && !confirm('Es läuft noch eine andere Sitzung. Verwerfen und neu starten?')) return;
   const order = only || p.aufgaben.map((_, i) => i);
   db.session = { id, modus, order, pos: 0, answers: {}, checked: {}, self: {}, touched: {}, shuf: {}, hint: {}, done: false, started: Date.now(), teil: !!only };
-  save(true); go('#/aufgabe');
+  save(true); go(H('aufgabe'));
 }
 function curTask() { const s = db.session, p = getPack(s.id), idx = s.order[s.pos]; return { s, p, idx, t: p.aufgaben[idx] }; }
 function bildSrc(b) {
@@ -545,7 +635,7 @@ function renderTask(focusPrimary) {
   const checked = !!s.checked[idx]; const locked = s.modus === 'ueben' && checked;
   const pct = Math.round(100 * s.pos / s.order.length);
   const img = bildSrc(t.bild);
-  let h = `<div class="progress" aria-hidden="true"><div style="width:${pct}%"></div></div><div class="meta"><span>Aufgabe ${s.pos + 1} von ${s.order.length}</span><span class="chip">${s.modus === 'test' ? 'Probearbeit' : s.teil ? 'Fehler wiederholen' : 'Üben'}</span><span class="sp"></span><button class="btn ghost sm" data-act="quit">Beenden</button></div>`;
+  let h = `<div class="progress" aria-hidden="true"><div style="width:${pct}%"></div></div><div class="meta"><span>Aufgabe ${s.pos + 1} von ${s.order.length}</span><span class="chip">${s.modus === 'test' ? wort().probe : s.teil ? 'Fehler wiederholen' : 'Üben'}</span><span class="sp"></span><button class="btn ghost sm" data-act="quit">Beenden</button></div>`;
   if (s.modus === 'test') h += '<div class="jump" role="navigation" aria-label="Aufgaben">' + s.order.map((i, q) => `<button class="dot ${q === s.pos ? 'cur' : isAnswered(p.aufgaben[i], s, i) ? 'done' : ''}" data-act="jump" data-p="${q}" aria-label="Aufgabe ${q + 1}">${q + 1}</button>`).join('') + '</div>';
   h += `<article class="card task">${t.abschnitt ? `<div class="sect">${esc(t.abschnitt)}</div>` : ''}<div class="q">${rt(t.frage)}</div>`;
   if (t.text && t.typ !== 'luecke') h += `<div class="lesetext">${rt(t.text)}</div>`;
@@ -567,7 +657,7 @@ function updatePrimary() {
 }
 function onInput(e) {
   const el = e.target, k = el.dataset && el.dataset.k;
-  if (!k || !db.session || db.session.done) return;
+  if (!k || !db || !db.session || db.session.done) return;
   const { s, idx, t } = curTask();
   switch (k) {
     case 'kurz': case 'frei': s.answers[idx] = el.value; break;
@@ -611,7 +701,7 @@ function finish() {
     if (open && !confirm('Du hast noch ' + open + (open === 1 ? ' Aufgabe' : ' Aufgaben') + ' ohne Antwort. Trotzdem abgeben?')) return;
     s.order.forEach(i => { s.checked[i] = true; });
   }
-  s.done = true; saveResult(); go('#/ergebnis');
+  s.done = true; saveResult(); go(H('ergebnis'));
 }
 function msgFor(pct) {
   if (pct >= 90) return 'Sehr stark! Das sitzt. Schau dir trotzdem kurz an, was nicht ganz gestimmt hat.';
@@ -642,7 +732,7 @@ function renderResult() {
 }
 
 /* ========== Sicherung, Bibliothek ========== */
-function backupData() { return { typ: 'sicherung', version: 1, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse }; }
+function backupData() { return { typ: 'sicherung', version: 1, person: cur.id, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse }; }
 function download(name, text) {
   const b = new Blob([text], { type: 'application/json' }); const a = document.createElement('a');
   a.href = URL.createObjectURL(b); a.download = name; document.body.appendChild(a); a.click();
@@ -650,23 +740,29 @@ function download(name, text) {
 }
 let libItems = [];
 function renderLib() {
-  dialog('<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete, die im Ordner <code>pakete/</code> dieser Seite liegen.</p>' + (libItems.length ? libItems.map((x, i) => {
+  dialog('<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete für <strong>' + esc(cur.name) + '</strong> aus dem Ordner <code>pakete/' + esc(cur.id) + '/</code> dieser Seite.</p>' + (libItems.length ? libItems.map((x, i) => {
     const have = x.p && getPack(x.p.id); const same = have && JSON.stringify(have) === JSON.stringify(normalizePack(JSON.parse(JSON.stringify(x.p))));
     return `<div class="lib"><div><strong>${esc(x.p ? x.p.titel : x.f)}</strong><div class="muted">${x.errs.length ? 'Fehler: ' + esc(x.errs[0]) : esc((x.p.fach || '') + ' · ' + x.p.aufgaben.length + ' Aufgaben')}</div></div>${x.errs.length ? '' : same ? '<span class="muted">aktuell</span>' : `<button class="btn sm" data-act="lib-add" data-i="${i}">${have ? 'Aktualisieren' : 'Hinzufügen'}</button>`}</div>`;
-  }).join('') : '<p>Keine Pakete gefunden.</p>') + '<div class="row" style="margin-top:1rem"><button class="btn ghost" data-act="dlg-close">Schließen</button></div>');
+  }).join('') : '<p>Für ' + esc(cur.name) + ' liegen noch keine Pakete im Repo. Lernpakete lassen sich jederzeit als Datei importieren.</p>') + '<div class="row" style="margin-top:1rem"><button class="btn ghost" data-act="dlg-close">Schließen</button></div>');
 }
 async function openLibrary() {
+  const who = cur, base = 'pakete/' + who.id + '/';
   dialog('<h2>Pakete aus dem Repo</h2><p>Lade …</p>');
   try {
-    const r = await fetch('pakete/index.json', { cache: 'no-store' }); if (!r.ok) throw new Error('HTTP ' + r.status);
-    const list = await r.json(); libItems = [];
+    const r = await fetch(base + 'index.json', { cache: 'no-store' });
+    let list = [];
+    if (r.status !== 404) { if (!r.ok) throw new Error('HTTP ' + r.status); list = await r.json(); } /* kein Ordner = noch keine Pakete */
+    if (!Array.isArray(list)) throw new Error('index.json ist keine Liste');
+    const items = [];
     for (const f of list) {
       if (typeof f !== 'string' || !/^[\w\- .]+\.json$/.test(f)) continue;
-      try { const rr = await fetch('pakete/' + encodeURIComponent(f), { cache: 'no-store' }); const p = await rr.json(); libItems.push({ f, p, errs: validatePack(p) }); }
-      catch (e) { libItems.push({ f, p: null, errs: ['Datei nicht lesbar'] }); }
+      try { const rr = await fetch(base + encodeURIComponent(f), { cache: 'no-store' }); const p = await rr.json(); items.push({ f, p, errs: validatePack(p) }); }
+      catch (e) { items.push({ f, p: null, errs: ['Datei nicht lesbar'] }); }
     }
-    renderLib();
+    if (cur !== who) return; /* zwischendurch die Person gewechselt */
+    libItems = items; renderLib();
   } catch (e) {
+    if (cur !== who) return;
     dialog('<h2>Pakete aus dem Repo</h2><p>Die Paketliste konnte nicht geladen werden (' + esc(e.message) + ').</p><p class="muted">Das klappt nur, wenn die App über GitHub Pages oder einen Webserver geöffnet wird, nicht direkt als Datei vom Computer. Importieren per Datei funktioniert immer.</p><div class="row"><button class="btn" data-act="dlg-close">OK</button></div>');
   }
 }
@@ -675,26 +771,29 @@ async function openLibrary() {
 document.addEventListener('click', e => {
   const el = e.target.closest('[data-act]'); if (!el) return;
   const act = el.dataset.act, id = el.dataset.id;
-  const sess = db.session;
+  if (!db && act !== 'person' && act !== 'home' && act !== 'wechseln') return; /* auf der Startseite „Wer lernt?“ gibt es nur die Auswahl */
+  const sess = db && db.session;
   switch (act) {
-    case 'home': go('#/'); break;
+    case 'person': if (personById(id)) go('#/' + id); break;
+    case 'wechseln': go('#/'); break;
+    case 'home': go(cur ? H() : '#/'); break;
     case 'import': $('#file').click(); break;
     case 'paste': dialog('<h2>Lernpaket einfügen</h2><p class="muted">Den kompletten JSON-Text eines Lernpakets (oder einer Sicherung) hier einfügen.</p><textarea id="pasteTa" placeholder="{ &quot;typ&quot;: &quot;lernpaket&quot;, … }"></textarea><div class="row" style="margin-top:.8rem"><button class="btn" data-act="paste-go">Importieren</button><button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>'); setTimeout(() => { const t = $('#pasteTa'); if (t) t.focus(); }, 50); break;
     case 'paste-go': { const v = $('#pasteTa').value.trim(); if (!v) return; closeDialog(); importText(v); break; }
     case 'library': openLibrary(); break;
     case 'lib-add': { const x = libItems[+el.dataset.i]; if (!x || x.errs.length) return; reportImport(importObj(JSON.parse(JSON.stringify(x.p)), x.f, true)); renderLib(); break; }
     case 'dlg-close': closeDialog(); break;
-    case 'backup': dialog('<h2>Sicherung</h2><p>Enthält alle importierten Lernpakete und die bisherigen Ergebnisse. Die Daten liegen sonst nur in diesem Browser.</p><div class="row"><button class="btn" data-act="backup-save">Als Datei speichern</button><button class="btn sec" data-act="backup-copy">Als Text kopieren</button><button class="btn sec" data-act="import">Wiederherstellen (Datei)</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>'); break;
-    case 'backup-save': download('lernhilfe-sicherung-' + new Date().toISOString().slice(0, 10) + '.json', JSON.stringify(backupData(), null, 1)); db.gesichert = Date.now(); save(true); toast('Sicherung gespeichert.'); break;
+    case 'backup': dialog('<h2>Sicherung für ' + esc(cur.name) + '</h2><p>Enthält alle importierten Lernpakete und die bisherigen Ergebnisse von ' + esc(cur.name) + '. Die Daten liegen sonst nur in diesem Browser.</p><div class="row"><button class="btn" data-act="backup-save">Als Datei speichern</button><button class="btn sec" data-act="backup-copy">Als Text kopieren</button><button class="btn sec" data-act="import">Wiederherstellen (Datei)</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>'); break;
+    case 'backup-save': download('lernhilfe-sicherung-' + cur.id + '-' + new Date().toISOString().slice(0, 10) + '.json', JSON.stringify(backupData(), null, 1)); db.gesichert = Date.now(); save(true); toast('Sicherung gespeichert.'); break;
     case 'backup-copy': navigator.clipboard.writeText(JSON.stringify(backupData())).then(() => { db.gesichert = Date.now(); save(true); toast('Sicherung in die Zwischenablage kopiert.'); }, () => toast('Kopieren nicht möglich.')); break;
-    case 'lernblatt': go('#/lernblatt/' + encodeURIComponent(id)); break;
+    case 'lernblatt': go(H('lernblatt/' + encodeURIComponent(id))); break;
     case 'ueben': case 'test': startSession(id, act === 'test' ? 'test' : 'ueben'); break;
     case 'del': { const p = getPack(id); if (p && confirm('„' + p.titel + '“ löschen? Die Ergebnisse bleiben gespeichert, falls du das Paket später wieder importierst.')) { db.pakete = db.pakete.filter(x => x.id !== id); if (sess && sess.id === id) db.session = null; save(true); render(); } break; }
-    case 'resume': go('#/aufgabe'); break;
+    case 'resume': go(H('aufgabe')); break;
     case 'discard': if (confirm('Die laufende Sitzung verwerfen?')) { db.session = null; save(true); render(); } break;
     case 'quit': dialog('<h2>Sitzung beenden?</h2><p>Mit „Pause“ kannst du später genau hier weitermachen.</p><div class="row"><button class="btn" data-act="pause">Pause</button><button class="btn sec" data-act="discard-go">Verwerfen</button><button class="btn ghost" data-act="dlg-close">Weitermachen</button></div>'); break;
-    case 'pause': closeDialog(); go('#/'); break;
-    case 'discard-go': db.session = null; save(true); closeDialog(); go('#/'); break;
+    case 'pause': closeDialog(); go(H()); break;
+    case 'discard-go': db.session = null; save(true); closeDialog(); go(H()); break;
     case 'hint': { const { s, idx } = curTask(); s.hint[idx] = true; save(); renderTask(); break; }
     case 'speak': { const { t } = curTask(); speak(t.vorlesen.text, t.vorlesen.sprache); break; }
     case 'stop': if ('speechSynthesis' in window) speechSynthesis.cancel(); break;
@@ -709,7 +808,7 @@ document.addEventListener('click', e => {
     case 'self-r': { const s = db.session; s.self[+el.dataset.i] = parseFloat(el.dataset.v); saveResult(); const keep = $$('details.rrow').map(d => d.open); const y = window.scrollY; renderResult(); $$('details.rrow').forEach((d, i) => { d.open = keep[i]; }); window.scrollTo(0, y); break; }
     case 'retry-wrong': { const { s, p } = curTask(); const wrong = s.order.filter(i => { const r = taskScore(p, s, i); return r.got < r.max && p.aufgaben[i].typ !== 'frei'; }); db.session = null; startSession(s.id, 'ueben', wrong); break; }
     case 'again': { const { s } = curTask(); const id2 = s.id, m = s.modus; db.session = null; startSession(id2, m); break; }
-    case 'finish-home': db.session = null; save(true); go('#/'); break;
+    case 'finish-home': db.session = null; save(true); go(H()); break;
   }
 });
 window.addEventListener('pagehide', () => save(true));
