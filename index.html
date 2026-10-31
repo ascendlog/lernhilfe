@@ -1,0 +1,740 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Lernhilfe</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E📚%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#fbf6ee;--card:#fff;--ink:#2a2724;--muted:#6f685f;--accent:#e2701a;--accent-d:#c85d0e;--on-accent:#fff;--green:#27835a;--red:#c0392b;--amber:#a8690f;--line:#e7ddcf;--soft:#fff1e2;--ok-bg:#e6f5ec;--bad-bg:#fcebe8;--part-bg:#fdf3dc;--shadow:0 1px 2px rgba(60,40,10,.06),0 4px 14px rgba(60,40,10,.06)}
+@media (prefers-color-scheme:dark){:root{--bg:#1c1a17;--card:#26231f;--ink:#f2ece3;--muted:#a79f93;--accent:#f0893a;--accent-d:#f59d58;--on-accent:#1c1a17;--green:#5fc78d;--red:#f0806f;--amber:#e7b55a;--line:#3b3731;--soft:#342a1f;--ok-bg:#1e3327;--bad-bg:#3a2422;--part-bg:#3a321d;--shadow:none}}
+*{box-sizing:border-box}
+html{font-size:17px}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.5}
+h1,h2,h3{line-height:1.25;margin:0 0 .5rem}
+h1{font-size:1.9rem}h2{font-size:1.25rem}
+p{margin:.4rem 0 .8rem}
+ul,ol{margin:.3rem 0 .8rem;padding-left:1.3rem}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.top-in{max-width:860px;margin:0 auto;padding:.5rem 1rem;display:flex;align-items:center;gap:.8rem}
+.brand{font:inherit;font-weight:800;font-size:1.1rem;background:none;border:0;color:var(--ink);cursor:pointer;padding:.2rem .3rem}
+.crumb{color:var(--muted);font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.sp{flex:1}
+main{max-width:860px;margin:0 auto;padding:1.2rem 1rem 4rem;outline:none}
+.muted{color:var(--muted)}
+.center{text-align:center}
+.hero{margin:.5rem 0 1.2rem}
+.lead{font-size:1.1rem;color:var(--muted);margin:0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:1.2rem 1.3rem;box-shadow:var(--shadow);margin:0 0 1rem}
+.row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+.toolbar{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 1.2rem}
+.btn{font:inherit;font-weight:650;border:2px solid var(--accent);background:var(--accent);color:var(--on-accent);padding:.6rem 1.15rem;border-radius:12px;cursor:pointer}
+.btn:hover:not(:disabled){background:var(--accent-d);border-color:var(--accent-d);color:var(--on-accent)}
+.btn.sec{background:transparent;color:var(--accent-d)}
+.btn.sec:hover:not(:disabled){background:var(--soft);color:var(--accent-d)}
+.btn.ghost{background:transparent;border-color:var(--line);color:var(--ink)}
+.btn.ghost:hover:not(:disabled){background:var(--soft);color:var(--ink);border-color:var(--line)}
+.btn.sm{padding:.3rem .75rem;font-size:.85rem;border-radius:10px}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.link{font:inherit;background:none;border:0;color:var(--accent-d);cursor:pointer;padding:0;text-decoration:underline}
+.chips{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.5rem}
+.chip{font-size:.78rem;font-weight:650;padding:.1rem .55rem;border-radius:99px;background:var(--soft);color:var(--accent-d);border:1px solid var(--line)}
+.note{background:var(--part-bg);border-radius:10px;padding:.5rem .7rem;font-size:.9rem}
+.trend{margin:.2rem 0 .9rem}
+.resume{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center;border-color:var(--accent);background:var(--soft)}
+.legend{font-size:.85rem;color:var(--muted)}
+.progress{height:8px;border-radius:99px;background:var(--line);overflow:hidden;margin:.2rem 0 .5rem}
+.progress>div{height:100%;background:var(--accent);transition:width .25s}
+.meta{display:flex;align-items:center;gap:.6rem;color:var(--muted);font-size:.9rem;margin-bottom:.7rem;flex-wrap:wrap}
+.sect{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--accent-d);margin-bottom:.3rem}
+.q{font-size:1.2rem;font-weight:650;margin:0 0 .8rem}
+.q p{margin:0 0 .4rem}
+.lesetext{background:var(--soft);border-left:4px solid var(--accent);border-radius:8px;padding:.6rem 1rem;margin:0 0 1rem}
+.lesetext p{margin:.3rem 0}
+.bild{display:block;max-width:100%;max-height:420px;margin:.2rem auto 1rem;border-radius:10px;border:1px solid var(--line);background:#fff}
+.listen{margin:0 0 1rem}
+.listen .row{margin-bottom:.4rem}
+.script{font-size:.92rem;background:var(--soft);border-radius:10px;padding:.4rem .8rem}
+.script summary{cursor:pointer;color:var(--muted)}
+.opts{display:grid;gap:.55rem}
+.opts.tf{grid-template-columns:1fr 1fr}
+.opt{display:flex;gap:.7rem;align-items:center;padding:.7rem .9rem;border:2px solid var(--line);border-radius:12px;cursor:pointer;background:var(--card)}
+.opt:hover{border-color:var(--accent)}
+.opt input{width:1.15rem;height:1.15rem;accent-color:var(--accent);flex:none}
+.opt:has(input:checked){border-color:var(--accent);background:var(--soft)}
+.opt.ok{border-color:var(--green);background:var(--ok-bg)}
+.opt.bad{border-color:var(--red);background:var(--bad-bg)}
+.opt.miss{border-color:var(--green);border-style:dashed;background:var(--card)}
+.hintline{color:var(--muted);font-size:.9rem;margin:0 0 .5rem}
+.txt,.area,.gap,.sel{font:inherit;color:var(--ink)}
+.kurz{display:flex;align-items:center;gap:.6rem}
+input.txt{width:100%;max-width:30rem;padding:.6rem .8rem;border:2px solid var(--line);border-radius:12px;background:var(--card)}
+.area{width:100%;padding:.7rem .8rem;border:2px solid var(--line);border-radius:12px;background:var(--card);resize:vertical}
+.txt:focus,.area:focus{border-color:var(--accent);outline:none}
+.unit{color:var(--muted)}
+.gaptext{font-size:1.1rem;line-height:2.4}
+.gap{border:0;border-bottom:2px solid var(--accent);background:var(--soft);padding:.1rem .4rem;border-radius:6px 6px 0 0;text-align:center;font-size:1.05rem}
+select.gap{text-align:left;padding:.1rem .2rem}
+.gap:focus{outline:none;background:var(--card);border-bottom-color:var(--accent-d)}
+.bank{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.5rem}
+.bank span{background:var(--soft);border:1px solid var(--line);border-radius:8px;padding:.1rem .6rem;font-size:.95rem}
+.ok{border-color:var(--green)!important}
+strong.bad{color:var(--red)}
+.bad{border-color:var(--red)!important}
+input.ok,select.ok,.gap.ok{background:var(--ok-bg)}
+input.bad,select.bad,.gap.bad{background:var(--bad-bg)}
+.pairs{display:grid;gap:.5rem}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:.7rem;align-items:center}
+.sel{padding:.5rem .6rem;border:2px solid var(--line);border-radius:10px;background:var(--card);width:100%}
+.order{list-style:none;padding:0;margin:0;display:grid;gap:.5rem;counter-reset:o}
+.order li{counter-increment:o;display:flex;align-items:center;gap:.7rem;border:2px solid var(--line);border-radius:12px;padding:.5rem .8rem;background:var(--card)}
+.order li::before{content:counter(o);font-weight:800;color:var(--accent-d);width:1.4rem}
+.order li.ok{background:var(--ok-bg)}.order li.bad{background:var(--bad-bg)}
+.order .txt{flex:1}
+.mv{display:flex;gap:.3rem}
+.mini{font:inherit;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;width:2.2rem;height:2rem;cursor:pointer}
+.mini:hover:not(:disabled){background:var(--soft)}
+.mini:disabled{opacity:.3;cursor:default}
+.fb{margin-top:1rem;border-radius:12px;padding:.8rem 1rem;border:2px solid var(--line)}
+.fb.ok{background:var(--ok-bg);border-color:var(--green)}
+.fb.bad{background:var(--bad-bg);border-color:var(--red)}
+.fb.part{background:var(--part-bg);border-color:var(--amber)}
+.fb.neutral{background:var(--soft)}
+.fb h3{font-size:1.05rem;margin:0 0 .3rem}
+.fb p{margin:.3rem 0}
+.fill{background:var(--ok-bg);border-radius:5px;padding:0 .3rem}
+.sol{margin:.3rem 0}
+.rate{display:flex;flex-wrap:wrap;gap:.5rem;margin:.6rem 0 .2rem}
+.rate .btn.on{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.nav{display:flex;gap:.6rem;flex-wrap:wrap;margin-top:1.2rem;align-items:center}
+.jump{display:flex;flex-wrap:wrap;gap:.35rem;margin:0 0 .9rem}
+.dot{font:inherit;font-size:.8rem;font-weight:700;width:2rem;height:2rem;border-radius:8px;border:2px solid var(--line);background:var(--card);color:var(--muted);cursor:pointer}
+.dot.done{background:var(--soft);color:var(--accent-d);border-color:var(--accent)}
+.dot.cur{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.score{text-align:center}
+.score .big{font-size:3.2rem;font-weight:850;color:var(--accent-d);line-height:1.1}
+.bar{height:12px;border-radius:99px;background:var(--line);overflow:hidden;margin:.6rem 0}
+.bar>div{height:100%;background:var(--green)}
+details.rrow{border:1px solid var(--line);border-radius:12px;margin:0 0 .6rem;background:var(--card)}
+details.rrow summary{cursor:pointer;padding:.6rem .9rem;display:flex;gap:.6rem;align-items:center}
+details.rrow summary>.t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+details.rrow .body{padding:.2rem 1rem 1rem}
+.badge{font-weight:800;width:1.5rem;text-align:center}
+.st-ok .badge{color:var(--green)}.st-bad .badge{color:var(--red)}.st-part .badge{color:var(--amber)}
+.pts{color:var(--muted);font-size:.85rem}
+.kv{margin:.3rem 0}
+.kv b{display:inline-block;min-width:8.5rem;color:var(--muted);font-weight:650}
+dialog{border:1px solid var(--line);border-radius:16px;padding:0;background:var(--card);color:var(--ink);max-width:min(640px,94vw);width:100%;box-shadow:0 10px 40px rgba(0,0,0,.3)}
+dialog::backdrop{background:rgba(0,0,0,.45)}
+.dlg-in{padding:1.2rem 1.4rem}
+.dlg-in textarea{width:100%;min-height:12rem;font:.85rem/1.4 ui-monospace,Consolas,monospace;padding:.6rem;border:2px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
+.errs{background:var(--bad-bg);border-radius:10px;padding:.5rem .9rem;font-size:.92rem}
+.errs ul{margin:.2rem 0}
+.lib{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.6rem 0;border-bottom:1px solid var(--line)}
+#toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:.6rem 1rem;border-radius:12px;opacity:0;pointer-events:none;transition:.25s;max-width:90vw;z-index:20;font-size:.95rem}
+#toast.on{opacity:1;transform:translateX(-50%)}
+.dropping::after{content:"Datei hier loslassen";position:fixed;inset:0;background:rgba(226,112,26,.18);display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:800;color:var(--accent-d);pointer-events:none;border:4px dashed var(--accent);z-index:30}
+.blatt h2{color:var(--accent-d)}
+.merke{background:var(--soft);border-left:4px solid var(--accent);border-radius:8px;padding:.5rem .9rem;margin-top:.6rem}
+.merke p{margin:.2rem 0}
+@media (max-width:600px){html{font-size:16px}.pair{grid-template-columns:1fr}.opts.tf{grid-template-columns:1fr}.card{padding:1rem}}
+</style>
+</head>
+<body>
+<header class="top"><div class="top-in"><button class="brand" data-act="home">📚 Lernhilfe</button><span id="crumb" class="crumb"></span><span class="sp"></span><button class="btn ghost sm" data-act="backup">Sicherung</button></div></header>
+<main id="app" tabindex="-1"></main>
+<dialog id="dlg"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<input type="file" id="file" accept=".json,application/json" multiple hidden>
+
+<script>
+'use strict';
+/* ========== Hilfsfunktionen ========== */
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const inl = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+function rt(s) {
+  if (!s) return '';
+  return String(s).split(/\n{2,}/).map(par => {
+    const lines = par.split('\n');
+    if (lines.every(l => /^\s*[-•]\s+/.test(l))) return '<ul>' + lines.map(l => '<li>' + inl(l.replace(/^\s*[-•]\s+/, '')) + '</li>').join('') + '</ul>';
+    return '<p>' + inl(par) + '</p>';
+  }).join('');
+}
+const plain = s => String(s || '').replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
+function shuffle(a) { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; }
+let toastTimer;
+function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('on'), 3800); }
+function dialog(html) { const d = $('#dlg'); d.innerHTML = '<div class="dlg-in">' + html + '</div>'; if (!d.open) d.showModal(); }
+function closeDialog() { const d = $('#dlg'); if (d.open) d.close(); }
+const fmtDate = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
+
+/* ========== Speicher ========== */
+const KEY = 'lernhilfe.v1';
+let db = loadDb();
+function loadDb() {
+  const base = { pakete: [], ergebnisse: {}, session: null, gesichert: null };
+  try { const d = JSON.parse(localStorage.getItem(KEY) || 'null'); if (d && typeof d === 'object') Object.assign(base, d); } catch (e) { /* leer starten */ }
+  if (!Array.isArray(base.pakete)) base.pakete = [];
+  if (!base.ergebnisse || typeof base.ergebnisse !== 'object') base.ergebnisse = {};
+  if (base.session && (base.session.done || !base.pakete.some(p => p.id === base.session.id))) base.session = null;
+  return base;
+}
+let saveTimer;
+function save(now) {
+  clearTimeout(saveTimer);
+  const run = () => { try { localStorage.setItem(KEY, JSON.stringify(db)); } catch (e) { toast('Speichern im Browser nicht möglich (Speicher voll oder gesperrt).'); } };
+  if (now) run(); else saveTimer = setTimeout(run, 150);
+}
+const getPack = id => db.pakete.find(p => p.id === id);
+
+/* ========== Lernpaket: Lücken, Prüfen, Punkte ========== */
+const TYPES = ['mc', 'tf', 'kurz', 'luecke', 'zuordnen', 'reihenfolge', 'frei'];
+function parseSegs(text) {
+  const segs = []; const re = /\{\{([\s\S]*?)\}\}/g; let last = 0, m;
+  while ((m = re.exec(text))) {
+    if (m.index > last) segs.push({ k: 't', v: text.slice(last, m.index) });
+    segs.push({ k: 'g', ans: m[1].split('|').map(s => s.trim()).filter(Boolean) });
+    last = re.lastIndex;
+  }
+  if (last < text.length) segs.push({ k: 't', v: text.slice(last) });
+  return segs;
+}
+const segCache = new WeakMap();
+function segs(t) { let s = segCache.get(t); if (!s) { s = parseSegs(t.text || ''); segCache.set(t, s); } return s; }
+const gapsOf = t => segs(t).filter(s => s.k === 'g');
+function normText(s, t) {
+  let x = String(s ?? '').normalize('NFC').replace(/[’‘`´]/g, "'").replace(/[“”„]/g, '"').replace(/ß/g, 'ss').replace(/\s+/g, ' ').trim();
+  if (!(t && t.gross)) x = x.toLowerCase();
+  return x.replace(/[.!?,;:]+$/, '').trim();
+}
+function toNum(s) { const x = String(s).trim().replace(',', '.'); return /^-?\d+(\.\d+)?$/.test(x) ? parseFloat(x) : null; }
+function matches(input, expected, t) {
+  const n = normText(input, t); if (!n) return false;
+  return [].concat(expected).some(e => {
+    if (normText(e, t) === n) return true;
+    const a = toNum(input), b = toNum(e);
+    return a !== null && b !== null && Math.abs(a - b) <= (t.toleranz || 0);
+  });
+}
+function maxPoints(t) {
+  switch (t.typ) {
+    case 'luecke': return gapsOf(t).length;
+    case 'zuordnen': return t.paare.length;
+    case 'frei': return t.punkte || 2;
+    default: return t.punkte || 1;
+  }
+}
+function evaluate(t, a, touched = true) {
+  const max = maxPoints(t); let got = 0, parts = null;
+  switch (t.typ) {
+    case 'mc': {
+      const exp = [].concat(t.richtig).map(Number).sort((x, y) => x - y);
+      const sel = (a || []).slice().sort((x, y) => x - y);
+      got = sel.length && JSON.stringify(sel) === JSON.stringify(exp) ? max : 0; break;
+    }
+    case 'tf': got = a === t.richtig ? max : 0; break;
+    case 'kurz': got = matches(a || '', t.richtig, t) ? max : 0; break;
+    case 'luecke': parts = gapsOf(t).map((g, i) => matches((a && a[i]) || '', g.ans, t)); got = parts.filter(Boolean).length; break;
+    case 'zuordnen': parts = t.paare.map((p, i) => normText((a && a[i]) || '', t) === normText(p[1], t)); got = parts.filter(Boolean).length; break;
+    case 'reihenfolge': {
+      const n = t.schritte.length;
+      parts = (a || []).map((v, i) => touched && v === i);
+      got = touched && a && a.length === n ? max * parts.filter(Boolean).length / n : 0; break;
+    }
+    case 'frei': got = 0; break;
+  }
+  return { got, max, parts };
+}
+function isAnswered(t, s, idx) {
+  const a = s.answers[idx];
+  switch (t.typ) {
+    case 'mc': return !!(a && a.length);
+    case 'tf': return a === true || a === false;
+    case 'kurz': case 'frei': return !!(a && a.trim());
+    case 'luecke': case 'zuordnen': return !!(a && a.some(x => x && String(x).trim()));
+    case 'reihenfolge': return !!s.touched[idx];
+  }
+  return false;
+}
+function taskScore(pack, s, idx) {
+  const t = pack.aufgaben[idx];
+  if (t.typ === 'frei') { const max = maxPoints(t); const v = s.self[idx]; return { got: (v || 0) * max, max, parts: null, rated: v !== undefined }; }
+  const r = evaluate(t, s.answers[idx], s.touched[idx]); r.rated = true; return r;
+}
+
+/* ========== Validierung & Import ========== */
+function validateTask(t, i, e) {
+  const w = 'Aufgabe ' + (i + 1) + (t && t.typ ? ' (' + t.typ + ')' : '') + ': ';
+  if (!t || typeof t !== 'object') { e.push(w + 'kein Objekt.'); return; }
+  if (!TYPES.includes(t.typ)) { e.push(w + 'unbekannter Typ "' + t.typ + '". Erlaubt: ' + TYPES.join(', ') + '.'); return; }
+  if (typeof t.frage !== 'string' || !t.frage.trim()) e.push(w + '"frage" fehlt.');
+  switch (t.typ) {
+    case 'mc':
+      if (!Array.isArray(t.antworten) || t.antworten.length < 2) e.push(w + '"antworten" braucht mindestens 2 Einträge.');
+      else { const r = [].concat(t.richtig); if (t.richtig === undefined || !r.length || r.some(x => !Number.isInteger(x) || x < 0 || x >= t.antworten.length)) e.push(w + '"richtig" muss die Nummer (ab 0) einer Antwort sein oder eine Liste solcher Nummern.'); }
+      break;
+    case 'tf': if (typeof t.richtig !== 'boolean') e.push(w + '"richtig" muss true oder false sein.'); break;
+    case 'kurz': { const r = [].concat(t.richtig); if (t.richtig === undefined || !r.length || r.some(x => (typeof x !== 'string' && typeof x !== 'number') || String(x).trim() === '')) e.push(w + '"richtig" fehlt (Text oder Liste möglicher Texte).'); break; }
+    case 'luecke':
+      if (typeof t.text !== 'string' || !/\{\{[\s\S]+?\}\}/.test(t.text)) e.push(w + '"text" braucht mindestens eine Lücke im Format {{Antwort}} oder {{Antwort|Alternative}}.');
+      else {
+        const g = parseSegs(t.text).filter(s => s.k === 'g');
+        g.forEach((x, n) => { if (!x.ans.length) e.push(w + 'Lücke ' + (n + 1) + ' ist leer.'); });
+        if (t.auswahl !== undefined) {
+          if (!Array.isArray(t.auswahl) || t.auswahl.length < 2) e.push(w + '"auswahl" muss eine Liste mit mindestens 2 Wörtern sein.');
+          else g.forEach((x, n) => { if (x.ans.length && !x.ans.some(a => t.auswahl.includes(a))) e.push(w + 'Lücke ' + (n + 1) + ' ("' + x.ans[0] + '") kommt nicht in "auswahl" vor.'); });
+        }
+      }
+      break;
+    case 'zuordnen':
+      if (!Array.isArray(t.paare) || t.paare.length < 2 || !t.paare.every(p => Array.isArray(p) && p.length === 2 && p.every(x => typeof x === 'string' && x.trim()))) e.push(w + '"paare" braucht mindestens 2 Paare der Form ["links","rechts"].');
+      break;
+    case 'reihenfolge':
+      if (!Array.isArray(t.schritte) || t.schritte.length < 2 || !t.schritte.every(x => typeof x === 'string' && x.trim())) e.push(w + '"schritte" braucht mindestens 2 Texte in der richtigen Reihenfolge.');
+      break;
+    case 'frei': if (typeof t.muster !== 'string' || !t.muster.trim()) e.push(w + '"muster" (Musterlösung) fehlt.'); break;
+  }
+  if (t.vorlesen !== undefined && (!t.vorlesen || typeof t.vorlesen.text !== 'string' || !t.vorlesen.text.trim())) e.push(w + '"vorlesen" braucht {"text": "...", "sprache": "en-GB"}.');
+  if (t.bild !== undefined && typeof t.bild !== 'string') e.push(w + '"bild" muss ein Text sein (SVG-Code oder Bilddatei).');
+}
+function validatePack(p) {
+  const e = [];
+  if (!p || typeof p !== 'object' || Array.isArray(p)) return ['Kein Lernpaket (ein Objekt mit "typ": "lernpaket" wird erwartet).'];
+  if (p.typ !== 'lernpaket') e.push('Feld "typ" muss "lernpaket" sein.');
+  if (typeof p.id !== 'string' || !/^[a-z0-9][a-z0-9_-]*$/i.test(p.id)) e.push('Feld "id" fehlt oder enthält ungültige Zeichen (erlaubt: Buchstaben, Zahlen, - und _).');
+  if (typeof p.titel !== 'string' || !p.titel.trim()) e.push('Feld "titel" fehlt.');
+  if (!Array.isArray(p.aufgaben) || !p.aufgaben.length) e.push('Die Liste "aufgaben" fehlt oder ist leer.');
+  else p.aufgaben.forEach((t, i) => validateTask(t, i, e));
+  if (p.lernblatt !== undefined && (!Array.isArray(p.lernblatt) || p.lernblatt.some(s => !s || typeof s.titel !== 'string' || typeof s.text !== 'string'))) e.push('"lernblatt" muss eine Liste von Abschnitten mit "titel" und "text" sein.');
+  return e;
+}
+function normalizePack(p) {
+  p.aufgaben.forEach(t => { if (t.typ === 'kurz') t.richtig = [].concat(t.richtig).map(String); });
+  return p;
+}
+function importObj(o, label, force) {
+  const res = { added: 0, updated: 0, skipped: 0, errors: [] };
+  const isBackup = o && !Array.isArray(o) && o.typ === 'sicherung';
+  const list = Array.isArray(o) ? o : isBackup ? (o.pakete || []) : [o];
+  list.forEach((p, n) => {
+    const errs = validatePack(p);
+    if (errs.length) { res.errors.push({ name: (p && p.titel) || label + (list.length > 1 ? ' #' + (n + 1) : ''), errs }); return; }
+    normalizePack(p);
+    const ix = db.pakete.findIndex(x => x.id === p.id);
+    if (ix >= 0) {
+      if (isBackup) { res.skipped++; return; }
+      if (!force && !confirm('„' + p.titel + '“ ist schon vorhanden. Durch die neue Fassung ersetzen? (Bisherige Ergebnisse bleiben erhalten.)')) { res.skipped++; return; }
+      db.pakete[ix] = p; res.updated++;
+      if (db.session && db.session.id === p.id) db.session = null;
+    } else { db.pakete.push(p); res.added++; }
+  });
+  if (isBackup && o.ergebnisse && typeof o.ergebnisse === 'object') {
+    Object.keys(o.ergebnisse).forEach(id => {
+      const have = db.ergebnisse[id] = db.ergebnisse[id] || [];
+      (o.ergebnisse[id] || []).forEach(r => { if (r && !have.some(x => x.t === r.t)) have.push(r); });
+      have.sort((a, b) => a.t - b.t);
+    });
+  }
+  return res;
+}
+function reportImport(res) {
+  save(true); render();
+  const bits = [];
+  if (res.added) bits.push(res.added + ' neu');
+  if (res.updated) bits.push(res.updated + ' aktualisiert');
+  if (res.skipped) bits.push(res.skipped + ' übersprungen');
+  if (bits.length) toast('Import: ' + bits.join(', ') + '.');
+  if (res.errors.length) {
+    dialog('<h2>Das hat nicht geklappt</h2><div class="errs">' + res.errors.map(x => '<strong>' + esc(x.name) + '</strong><ul>' + x.errs.map(m => '<li>' + esc(m) + '</li>').join('') + '</ul>').join('') + '</div><p class="muted">Schick diese Meldung im Claude-Projekt „Schulaufgaben“ an Claude, dann wird das Paket korrigiert.</p><div class="row"><button class="btn" data-act="dlg-close">OK</button></div>');
+  }
+}
+function importText(text, label) {
+  let o;
+  try { o = JSON.parse(text); } catch (e) { reportImport({ added: 0, updated: 0, skipped: 0, errors: [{ name: label || 'Eingefügter Text', errs: ['Das ist kein gültiges JSON (' + e.message + '). Typische Ursache: ein Komma zu viel oder eine fehlende Klammer.'] }] }); return; }
+  reportImport(importObj(o, label || 'Eingefügter Text'));
+}
+async function importFiles(files) {
+  for (const f of files) {
+    try { importText(await f.text(), f.name); } catch (e) { toast('Datei nicht lesbar: ' + f.name); }
+  }
+}
+
+/* ========== Router ========== */
+function go(h) { if (location.hash === h) render(); else location.hash = h; }
+window.addEventListener('hashchange', render);
+function render() {
+  closeDialog();
+  const h = location.hash || '#/';
+  const s = db.session;
+  window.scrollTo(0, 0);
+  if (h.startsWith('#/lernblatt/')) return renderLernblatt(decodeURIComponent(h.slice(12)));
+  if (h === '#/aufgabe') { if (s && !s.done) return renderTask(); if (s && s.done) return go('#/ergebnis'); }
+  if (h === '#/ergebnis' && s && s.done) return renderResult();
+  if (h !== '#/' && h !== '') { history.replaceState(null, '', '#/'); }
+  renderHome();
+}
+
+/* ========== Startseite ========== */
+function packCard(p) {
+  const res = db.ergebnisse[p.id] || [];
+  const trend = res.filter(r => !r.teil && r.max).slice(-5).map(r => Math.round(100 * r.got / r.max) + ' %').join(' → ');
+  const id = esc(p.id);
+  return `<article class="card pack"><div class="chips">${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">Klasse ${esc(p.klasse)}</span>` : ''}${p.kind ? `<span class="chip">${esc(p.kind)}</span>` : ''}<span class="chip">${p.aufgaben.length} Aufgaben</span></div>
+<h2>${esc(p.titel)}</h2>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : ''}
+${trend ? `<p class="trend">Bisherige Ergebnisse: <strong>${trend}</strong></p>` : '<p class="trend muted">Noch nicht geübt.</p>'}
+<div class="row"><button class="btn" data-act="ueben" data-id="${id}">Üben</button><button class="btn sec" data-act="test" data-id="${id}">Probearbeit</button>${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
+}
+function renderHome() {
+  $('#crumb').textContent = '';
+  const s = db.session, sp = s && getPack(s.id);
+  let h = '<div class="hero"><h1>Lernhilfe</h1><p class="lead">Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.</p></div>';
+  if (s && sp) h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> läuft noch<div class="muted">${s.modus === 'test' ? 'Probearbeit' : 'Üben'} · Aufgabe ${s.pos + 1} von ${s.order.length}</div></div><div class="row"><button class="btn" data-act="resume">Fortsetzen</button><button class="btn ghost" data-act="discard">Verwerfen</button></div></div>`;
+  h += '<div class="toolbar"><button class="btn" data-act="import">Lernpaket importieren</button><button class="btn sec" data-act="paste">Text einfügen</button><button class="btn sec" data-act="library">Pakete aus dem Repo</button></div>';
+  if (!db.pakete.length) {
+    h += '<div class="card"><h2>Noch keine Lernpakete</h2><p>Lass dir im Claude-Projekt „Schulaufgaben“ ein Lernpaket erstellen (Aufgaben samt Lösungen als JSON-Datei) und importiere die Datei hier. Du kannst sie auch einfach in dieses Fenster ziehen.</p></div>';
+  } else {
+    h += '<div class="packs">' + db.pakete.map(packCard).join('') + '</div>';
+    h += '<p class="legend"><strong>Üben:</strong> Nach jeder Aufgabe gibt es sofort die Auswertung, auf Wunsch mit Tipp. <strong>Probearbeit:</strong> wie in der Schule, ausgewertet wird erst am Ende.</p>';
+    const days = db.gesichert ? Math.floor((Date.now() - db.gesichert) / 864e5) : null;
+    h += `<p class="legend">${db.gesichert ? 'Letzte Sicherung: ' + fmtDate(db.gesichert) : 'Noch keine Sicherung erstellt.'}${days === null || days > 30 ? ' – <button class="link" data-act="backup">jetzt sichern</button>' : ''}</p>`;
+  }
+  $('#app').innerHTML = h;
+}
+
+/* ========== Lernblatt ========== */
+function renderLernblatt(id) {
+  const p = getPack(id); if (!p) return go('#/');
+  $('#crumb').textContent = p.titel;
+  $('#app').innerHTML = `<p><button class="link" data-act="home">← Übersicht</button></p><h1>${esc(p.titel)}</h1><p class="muted">Lernblatt zum Durchlesen vor dem Üben.</p>` +
+    (p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : '') +
+    (p.lernblatt || []).map(sec => `<section class="card blatt"><h2>${esc(sec.titel)}</h2>${rt(sec.text)}${sec.merke ? `<div class="merke"><strong>Merke:</strong> ${inl(sec.merke)}</div>` : ''}</section>`).join('') +
+    `<div class="row"><button class="btn" data-act="ueben" data-id="${esc(p.id)}">Jetzt üben</button><button class="btn sec" data-act="test" data-id="${esc(p.id)}">Probearbeit</button></div>`;
+}
+
+/* ========== Sitzung ========== */
+function startSession(id, modus, only) {
+  const p = getPack(id); if (!p) return;
+  if (db.session && !confirm('Es läuft noch eine andere Sitzung. Verwerfen und neu starten?')) return;
+  const order = only || p.aufgaben.map((_, i) => i);
+  db.session = { id, modus, order, pos: 0, answers: {}, checked: {}, self: {}, touched: {}, shuf: {}, hint: {}, done: false, started: Date.now(), teil: !!only };
+  save(true); go('#/aufgabe');
+}
+function curTask() { const s = db.session, p = getPack(s.id), idx = s.order[s.pos]; return { s, p, idx, t: p.aufgaben[idx] }; }
+function bildSrc(b) {
+  if (!b) return '';
+  if (b.trim().startsWith('<svg')) return 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(b);
+  if (/^data:image\/(png|jpe?g|gif|webp|svg\+xml)[;,]/i.test(b)) return b;
+  if (/^[\w\-./ ]+\.(png|jpe?g|gif|webp|svg)$/i.test(b) && !b.includes('..')) return b;
+  return '';
+}
+function listenHtml(t) {
+  if (!t.vorlesen) return '';
+  return `<div class="listen"><div class="row"><button type="button" class="btn sec" data-act="speak">🔊 Anhören</button><button type="button" class="btn ghost sm" data-act="stop">Stopp</button></div><details class="script"><summary>Text zum Vorlesen (für Eltern)</summary>${rt(t.vorlesen.text)}</details></div>`;
+}
+function answerHtml(t, idx, s, locked) {
+  const a = s.answers[idx]; const ev = locked ? evaluate(t, a, s.touched[idx]) : null; const dis = locked ? 'disabled' : '';
+  switch (t.typ) {
+    case 'mc': {
+      const multi = Array.isArray(t.richtig); const exp = [].concat(t.richtig).map(Number);
+      const order = s.shuf[idx] || (s.shuf[idx] = t.mischen === false ? t.antworten.map((_, i) => i) : shuffle(t.antworten.map((_, i) => i)));
+      const sel = a || [];
+      return (multi ? '<p class="hintline">Mehrere Antworten können richtig sein.</p>' : '') + '<div class="opts">' + order.map(i => {
+        const on = sel.includes(i); let cls = '';
+        if (locked) { if (exp.includes(i)) cls = on ? 'ok' : 'miss'; else if (on) cls = 'bad'; }
+        return `<label class="opt ${cls}"><input type="${multi ? 'checkbox' : 'radio'}" name="mc" data-k="mc" value="${i}" ${on ? 'checked' : ''} ${dis}><span>${inl(t.antworten[i])}</span></label>`;
+      }).join('') + '</div>';
+    }
+    case 'tf':
+      return '<div class="opts tf">' + [[true, 'Richtig'], [false, 'Falsch']].map(([v, l]) => {
+        const on = a === v; let cls = '';
+        if (locked) { if (t.richtig === v) cls = on ? 'ok' : 'miss'; else if (on) cls = 'bad'; }
+        return `<label class="opt ${cls}"><input type="radio" name="tf" data-k="tf" value="${v}" ${on ? 'checked' : ''} ${dis}><span>${l}</span></label>`;
+      }).join('') + '</div>';
+    case 'kurz':
+      return `<div class="kurz"><input type="text" class="txt ${locked ? (ev.got ? 'ok' : 'bad') : ''}" data-k="kurz" value="${esc(a || '')}" ${dis} autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Antwort">${t.einheit ? `<span class="unit">${esc(t.einheit)}</span>` : ''}</div>`;
+    case 'luecke': {
+      let gi = 0;
+      const body = segs(t).map(sg => {
+        if (sg.k === 't') return inl(sg.v);
+        const i = gi++; const v = (a && a[i]) || ''; const cls = locked ? (ev.parts[i] ? 'ok' : 'bad') : '';
+        if (t.auswahl) return `<select class="gap ${cls}" data-k="gap" data-i="${i}" ${dis} aria-label="Lücke ${i + 1}"><option value="">…</option>${t.auswahl.map(o => `<option value="${esc(o)}" ${o === v ? 'selected' : ''}>${esc(o)}</option>`).join('')}</select>`;
+        const w = Math.max(5, Math.max(...sg.ans.map(x => x.length)) + 2);
+        return `<input type="text" class="gap ${cls}" data-k="gap" data-i="${i}" value="${esc(v)}" style="width:${w}ch" ${dis} autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Lücke ${i + 1}">`;
+      }).join('');
+      return `<div class="gaptext">${body}</div>` + (t.wortbank ? `<div class="bank">${t.wortbank.map(w => `<span>${esc(w)}</span>`).join('')}</div>` : '');
+    }
+    case 'zuordnen': {
+      const rights = s.shuf[idx] || (s.shuf[idx] = shuffle([...new Set([...t.paare.map(p => p[1]), ...(t.extra || [])])]));
+      return '<div class="pairs">' + t.paare.map((p, i) => {
+        const v = (a && a[i]) || ''; const cls = locked ? (ev.parts[i] ? 'ok' : 'bad') : '';
+        return `<div class="pair"><div class="left">${inl(p[0])}</div><select class="sel ${cls}" data-k="pair" data-i="${i}" ${dis} aria-label="Zuordnung ${i + 1}"><option value="">– wählen –</option>${rights.map(r => `<option value="${esc(r)}" ${r === v ? 'selected' : ''}>${esc(r)}</option>`).join('')}</select></div>`;
+      }).join('') + '</div>';
+    }
+    case 'reihenfolge': {
+      const n = t.schritte.length; let ord = s.answers[idx];
+      if (!ord) { do { ord = shuffle(t.schritte.map((_, i) => i)); } while (n > 1 && ord.every((v, i) => v === i)); s.answers[idx] = ord; }
+      return '<p class="hintline">Mit ▲ und ▼ in die richtige Reihenfolge bringen.</p><ol class="order">' + ord.map((v, pos) => {
+        const cls = locked ? (ev.parts[pos] ? 'ok' : 'bad') : '';
+        return `<li class="${cls}"><span class="txt">${inl(t.schritte[v])}</span>${locked ? '' : `<span class="mv"><button type="button" class="mini" data-act="up" data-pos="${pos}" ${pos === 0 ? 'disabled' : ''} aria-label="nach oben">▲</button><button type="button" class="mini" data-act="down" data-pos="${pos}" ${pos === n - 1 ? 'disabled' : ''} aria-label="nach unten">▼</button></span>`}</li>`;
+      }).join('') + '</ol>';
+    }
+    case 'frei':
+      return `<textarea class="area" data-k="frei" rows="7" ${dis} placeholder="Schreibe hier deine Antwort …">${esc(a || '')}</textarea>`;
+  }
+  return '';
+}
+function solutionHtml(t) {
+  switch (t.typ) {
+    case 'mc': return '<ul>' + [].concat(t.richtig).map(i => '<li>' + inl(t.antworten[i]) + '</li>').join('') + '</ul>';
+    case 'tf': return t.richtig ? 'Richtig' : 'Falsch';
+    case 'kurz': { const r = [].concat(t.richtig); return '<strong>' + esc(r[0]) + '</strong>' + (r.length > 1 ? ' <span class="muted">(auch möglich: ' + r.slice(1).map(esc).join(' · ') + ')</span>' : ''); }
+    case 'luecke': { let gi = 0; const g = gapsOf(t); return '<div>' + segs(t).map(sg => sg.k === 't' ? inl(sg.v) : '<strong class="fill">' + esc(g[gi++].ans[0]) + '</strong>').join('') + '</div>'; }
+    case 'zuordnen': return '<ul>' + t.paare.map(p => '<li>' + inl(p[0]) + ' → <strong>' + esc(p[1]) + '</strong></li>').join('') + '</ul>';
+    case 'reihenfolge': return '<ol>' + t.schritte.map(x => '<li>' + inl(x) + '</li>').join('') + '</ol>';
+    case 'frei': return rt(t.muster) + (t.kriterien && t.kriterien.length ? '<p><strong>Das gehört dazu:</strong></p><ul>' + t.kriterien.map(k => '<li>' + inl(k) + '</li>').join('') + '</ul>' : '');
+  }
+  return '';
+}
+function givenHtml(t, a, touched) {
+  const none = '<span class="muted">– keine Antwort –</span>';
+  switch (t.typ) {
+    case 'mc': return a && a.length ? a.map(i => inl(t.antworten[i])).join(' · ') : none;
+    case 'tf': return a === true ? 'Richtig' : a === false ? 'Falsch' : none;
+    case 'kurz': return a && a.trim() ? esc(a) : none;
+    case 'frei': return a && a.trim() ? inl(a) : none;
+    case 'luecke': { const ev = evaluate(t, a); let gi = 0; return '<div>' + segs(t).map(sg => { if (sg.k === 't') return inl(sg.v); const i = gi++; const v = (a && a[i]) || ''; return `<strong class="${ev.parts[i] ? 'fill' : 'bad'}" style="border:0;${ev.parts[i] ? '' : 'text-decoration:line-through'}">${esc(v || '___')}</strong>`; }).join('') + '</div>'; }
+    case 'zuordnen': { const ev = evaluate(t, a); return '<ul>' + t.paare.map((p, i) => '<li>' + inl(p[0]) + ' → ' + (a && a[i] ? esc(a[i]) : none) + ' ' + (ev.parts[i] ? '✓' : '✗') + '</li>').join('') + '</ul>'; }
+    case 'reihenfolge': return a && touched ? '<ol>' + a.map((v, i) => '<li>' + inl(t.schritte[v]) + (v === i ? ' ✓' : ' ✗') + '</li>').join('') + '</ol>' : none;
+  }
+  return '';
+}
+function ratingHtml(s, idx) {
+  const v = s.self[idx];
+  return '<p><strong>Wie gut war deine Antwort im Vergleich zur Musterlösung?</strong></p><div class="rate">' + [[1, '✓ Passt'], [0.5, '½ Teilweise'], [0, '✗ Noch nicht']].map(([x, l]) => `<button type="button" class="btn sec ${v === x ? 'on' : ''}" data-act="self" data-v="${x}">${l}</button>`).join('') + '</div>';
+}
+function feedbackHtml(t, idx, s, p) {
+  if (t.typ === 'frei') return `<div class="fb neutral" id="fb"><h3>Musterlösung</h3>${solutionHtml(t)}${t.info ? `<p class="muted">${inl(t.info)}</p>` : ''}${ratingHtml(s, idx)}</div>`;
+  const r = taskScore(p, s, idx);
+  const cls = r.got >= r.max ? 'ok' : r.got > 0 ? 'part' : 'bad';
+  const head = r.got >= r.max ? '✓ Richtig!' : r.got > 0 ? `Fast: ${+r.got.toFixed(1)} von ${r.max} Punkten` : '✗ Nicht ganz.';
+  return `<div class="fb ${cls}" id="fb"><h3>${head}</h3>${r.got < r.max ? `<div class="sol"><strong>Richtig wäre:</strong>${solutionHtml(t)}</div>` : ''}${t.info ? `<p>💡 ${inl(t.info)}</p>` : ''}</div>`;
+}
+function navHtml(t, idx, s) {
+  const last = s.pos === s.order.length - 1; const checked = !!s.checked[idx];
+  if (s.modus === 'test') {
+    return `<div class="nav"><button class="btn ghost" data-act="prev" ${s.pos === 0 ? 'disabled' : ''}>← Zurück</button><span class="sp"></span>${last ? '<button class="btn" id="primary" data-act="finish">Abgeben</button>' : '<button class="btn" id="primary" data-act="next">Weiter →</button>'}</div>`;
+  }
+  if (!checked) {
+    return `<div class="nav"><button class="btn" id="primary" data-act="check" ${isAnswered(t, s, idx) ? '' : 'disabled'}>${t.typ === 'frei' ? 'Musterlösung zeigen' : 'Prüfen'}</button>${t.typ === 'frei' ? '' : '<button class="btn ghost" data-act="check" data-force="1">Weiß ich nicht</button>'}</div>`;
+  }
+  const blocked = t.typ === 'frei' && s.self[idx] === undefined;
+  return `<div class="nav"><button class="btn" id="primary" data-act="${last ? 'finish' : 'next'}" ${blocked ? 'disabled' : ''}>${last ? 'Ergebnis ansehen' : 'Weiter →'}</button>${blocked ? '<span class="muted">Bewerte zuerst deine Antwort.</span>' : ''}</div>`;
+}
+function renderTask(focusPrimary) {
+  const { s, p, idx, t } = curTask();
+  $('#crumb').textContent = p.titel;
+  const checked = !!s.checked[idx]; const locked = s.modus === 'ueben' && checked;
+  const pct = Math.round(100 * s.pos / s.order.length);
+  const img = bildSrc(t.bild);
+  let h = `<div class="progress" aria-hidden="true"><div style="width:${pct}%"></div></div><div class="meta"><span>Aufgabe ${s.pos + 1} von ${s.order.length}</span><span class="chip">${s.modus === 'test' ? 'Probearbeit' : s.teil ? 'Fehler wiederholen' : 'Üben'}</span><span class="sp"></span><button class="btn ghost sm" data-act="quit">Beenden</button></div>`;
+  if (s.modus === 'test') h += '<div class="jump" role="navigation" aria-label="Aufgaben">' + s.order.map((i, q) => `<button class="dot ${q === s.pos ? 'cur' : isAnswered(p.aufgaben[i], s, i) ? 'done' : ''}" data-act="jump" data-p="${q}" aria-label="Aufgabe ${q + 1}">${q + 1}</button>`).join('') + '</div>';
+  h += `<article class="card task">${t.abschnitt ? `<div class="sect">${esc(t.abschnitt)}</div>` : ''}<div class="q">${rt(t.frage)}</div>`;
+  if (t.text && t.typ !== 'luecke') h += `<div class="lesetext">${rt(t.text)}</div>`;
+  if (img) h += `<img class="bild" src="${img}" alt="${esc(t.bildAlt || 'Abbildung zur Aufgabe')}">`;
+  h += listenHtml(t);
+  h += `<div id="ans">${answerHtml(t, idx, s, locked)}</div>`;
+  if (s.modus === 'ueben' && t.tipp && !locked) h += s.hint[idx] ? `<div class="fb neutral">💡 ${inl(t.tipp)}</div>` : '<p><button type="button" class="btn ghost sm" data-act="hint">💡 Tipp anzeigen</button></p>';
+  h += locked ? feedbackHtml(t, idx, s, p) : '';
+  h += navHtml(t, idx, s) + '</article>';
+  $('#app').innerHTML = h;
+  if (focusPrimary) { const b = $('#primary'); if (b && !b.disabled) b.focus(); }
+  else if (!locked) { const f = $('#ans input[type=text], #ans textarea'); if (f) f.focus(); }
+  save();
+}
+function updatePrimary() {
+  const { s, idx, t } = curTask(); const b = $('#primary');
+  if (b && b.dataset.act === 'check') b.disabled = !isAnswered(t, s, idx);
+  if (s.modus === 'test') { const q = $$('.dot')[s.pos]; if (q) q.classList.toggle('done', isAnswered(t, s, idx)); }
+}
+function onInput(e) {
+  const el = e.target, k = el.dataset && el.dataset.k;
+  if (!k || !db.session || db.session.done) return;
+  const { s, idx, t } = curTask();
+  switch (k) {
+    case 'kurz': case 'frei': s.answers[idx] = el.value; break;
+    case 'gap': case 'pair': { const a = s.answers[idx] = s.answers[idx] || []; a[+el.dataset.i] = el.value; break; }
+    case 'mc': s.answers[idx] = Array.isArray(t.richtig) ? $$('input[data-k=mc]:checked').map(x => +x.value) : [+el.value]; break;
+    case 'tf': s.answers[idx] = el.value === 'true'; break;
+  }
+  updatePrimary(); save();
+}
+function moveStep(pos, d) {
+  const { s, idx } = curTask(); const a = s.answers[idx]; const q = pos + d;
+  if (q < 0 || q >= a.length) return;
+  [a[pos], a[q]] = [a[q], a[pos]]; s.touched[idx] = true;
+  const { t } = curTask(); $('#ans').innerHTML = answerHtml(t, idx, s, false);
+  const dir = d < 0 ? 'up' : 'down', other = d < 0 ? 'down' : 'up';
+  const btn = [...$$(`#ans [data-act=${dir}][data-pos="${q}"]`), ...$$(`#ans [data-act=${other}][data-pos="${q}"]`)].find(b => !b.disabled);
+  if (btn) btn.focus();
+  updatePrimary(); save();
+}
+
+/* ========== Ergebnis ========== */
+function totals(p, s) {
+  let got = 0, max = 0;
+  s.order.forEach(i => { const r = taskScore(p, s, i); got += r.got; max += r.max; });
+  return { got, max, pct: max ? Math.round(100 * got / max) : 0 };
+}
+function saveResult() {
+  const s = db.session, p = getPack(s.id), tt = totals(p, s);
+  if (!s.resultT) s.resultT = Date.now();
+  const arr = db.ergebnisse[s.id] = db.ergebnisse[s.id] || [];
+  const e = { t: s.resultT, modus: s.modus, teil: !!s.teil, got: +tt.got.toFixed(2), max: tt.max };
+  const k = arr.findIndex(x => x.t === s.resultT);
+  if (k >= 0) arr[k] = e; else arr.push(e);
+  if (arr.length > 40) arr.splice(0, arr.length - 40);
+  save(true);
+}
+function finish() {
+  const { s, p } = curTask();
+  if (s.modus === 'test') {
+    const open = s.order.filter(i => !isAnswered(p.aufgaben[i], s, i)).length;
+    if (open && !confirm('Du hast noch ' + open + (open === 1 ? ' Aufgabe' : ' Aufgaben') + ' ohne Antwort. Trotzdem abgeben?')) return;
+    s.order.forEach(i => { s.checked[i] = true; });
+  }
+  s.done = true; saveResult(); go('#/ergebnis');
+}
+function msgFor(pct) {
+  if (pct >= 90) return 'Sehr stark! Das sitzt. Schau dir trotzdem kurz an, was nicht ganz gestimmt hat.';
+  if (pct >= 75) return 'Gut gemacht! Mit den markierten Aufgaben bist du bald fertig.';
+  if (pct >= 50) return 'Auf dem richtigen Weg. Die markierten Aufgaben lohnen sich noch einmal.';
+  return 'Das braucht noch etwas Übung – völlig normal. Probier die Fehler gleich noch einmal.';
+}
+function resultRows(p, s) {
+  return s.order.map((idx, n) => {
+    const t = p.aufgaben[idx], r = taskScore(p, s, idx);
+    const full = r.got >= r.max;
+    const st = !r.rated ? 'part' : full ? 'ok' : r.got > 0 ? 'part' : 'bad';
+    const badge = !r.rated ? '?' : full ? '✓' : r.got > 0 ? '½' : '✗';
+    const title = plain(t.frage) || plain(t.abschnitt);
+    let body = `<div class="q" style="font-size:1rem">${rt(t.frage)}</div>`;
+    if (t.typ === 'frei') body += `<div class="kv"><b>Deine Antwort:</b>${givenHtml(t, s.answers[idx], s.touched[idx])}</div><div class="kv"><b>Musterlösung:</b></div>${solutionHtml(t)}${ratingHtml(s, idx).replace(/data-act="self"/g, 'data-act="self-r" data-i="' + idx + '"')}`;
+    else body += `<div class="kv"><b>Deine Antwort:</b>${givenHtml(t, s.answers[idx], s.touched[idx])}</div>${full ? '' : `<div class="kv"><b>Richtig:</b></div>${solutionHtml(t)}`}`;
+    if (t.info && t.typ !== 'frei') body += `<p>💡 ${inl(t.info)}</p>`;
+    return `<details class="rrow st-${st}" ${full && r.rated ? '' : 'open'}><summary><span class="badge">${badge}</span><span class="t">${n + 1}. ${esc(title.slice(0, 90))}</span><span class="pts">${+r.got.toFixed(1)}/${r.max}</span></summary><div class="body">${body}</div></details>`;
+  }).join('');
+}
+function renderResult() {
+  const { s, p } = curTask(); const tt = totals(p, s);
+  $('#crumb').textContent = p.titel;
+  const wrong = s.order.filter(i => { const r = taskScore(p, s, i); return r.got < r.max && p.aufgaben[i].typ !== 'frei'; });
+  const unrated = s.order.filter(i => p.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
+  $('#app').innerHTML = `<h1>Ergebnis</h1><div class="card score"><div class="big" id="pct">${tt.pct} %</div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div><div class="bar"><div id="barfill" style="width:${tt.pct}%"></div></div><p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div><h2>Alle Aufgaben</h2>${resultRows(p, s)}`;
+}
+
+/* ========== Sicherung, Bibliothek ========== */
+function backupData() { return { typ: 'sicherung', version: 1, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse }; }
+function download(name, text) {
+  const b = new Blob([text], { type: 'application/json' }); const a = document.createElement('a');
+  a.href = URL.createObjectURL(b); a.download = name; document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
+}
+let libItems = [];
+function renderLib() {
+  dialog('<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete, die im Ordner <code>pakete/</code> dieser Seite liegen.</p>' + (libItems.length ? libItems.map((x, i) => {
+    const have = x.p && getPack(x.p.id); const same = have && JSON.stringify(have) === JSON.stringify(normalizePack(JSON.parse(JSON.stringify(x.p))));
+    return `<div class="lib"><div><strong>${esc(x.p ? x.p.titel : x.f)}</strong><div class="muted">${x.errs.length ? 'Fehler: ' + esc(x.errs[0]) : esc((x.p.fach || '') + ' · ' + x.p.aufgaben.length + ' Aufgaben')}</div></div>${x.errs.length ? '' : same ? '<span class="muted">aktuell</span>' : `<button class="btn sm" data-act="lib-add" data-i="${i}">${have ? 'Aktualisieren' : 'Hinzufügen'}</button>`}</div>`;
+  }).join('') : '<p>Keine Pakete gefunden.</p>') + '<div class="row" style="margin-top:1rem"><button class="btn ghost" data-act="dlg-close">Schließen</button></div>');
+}
+async function openLibrary() {
+  dialog('<h2>Pakete aus dem Repo</h2><p>Lade …</p>');
+  try {
+    const r = await fetch('pakete/index.json', { cache: 'no-store' }); if (!r.ok) throw new Error('HTTP ' + r.status);
+    const list = await r.json(); libItems = [];
+    for (const f of list) {
+      if (typeof f !== 'string' || !/^[\w\- .]+\.json$/.test(f)) continue;
+      try { const rr = await fetch('pakete/' + encodeURIComponent(f), { cache: 'no-store' }); const p = await rr.json(); libItems.push({ f, p, errs: validatePack(p) }); }
+      catch (e) { libItems.push({ f, p: null, errs: ['Datei nicht lesbar'] }); }
+    }
+    renderLib();
+  } catch (e) {
+    dialog('<h2>Pakete aus dem Repo</h2><p>Die Paketliste konnte nicht geladen werden (' + esc(e.message) + ').</p><p class="muted">Das klappt nur, wenn die App über GitHub Pages oder einen Webserver geöffnet wird, nicht direkt als Datei vom Computer. Importieren per Datei funktioniert immer.</p><div class="row"><button class="btn" data-act="dlg-close">OK</button></div>');
+  }
+}
+
+/* ========== Klicks & Tastatur ========== */
+document.addEventListener('click', e => {
+  const el = e.target.closest('[data-act]'); if (!el) return;
+  const act = el.dataset.act, id = el.dataset.id;
+  const sess = db.session;
+  switch (act) {
+    case 'home': go('#/'); break;
+    case 'import': $('#file').click(); break;
+    case 'paste': dialog('<h2>Lernpaket einfügen</h2><p class="muted">Den kompletten JSON-Text eines Lernpakets (oder einer Sicherung) hier einfügen.</p><textarea id="pasteTa" placeholder="{ &quot;typ&quot;: &quot;lernpaket&quot;, … }"></textarea><div class="row" style="margin-top:.8rem"><button class="btn" data-act="paste-go">Importieren</button><button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>'); setTimeout(() => { const t = $('#pasteTa'); if (t) t.focus(); }, 50); break;
+    case 'paste-go': { const v = $('#pasteTa').value.trim(); if (!v) return; closeDialog(); importText(v); break; }
+    case 'library': openLibrary(); break;
+    case 'lib-add': { const x = libItems[+el.dataset.i]; if (!x || x.errs.length) return; reportImport(importObj(JSON.parse(JSON.stringify(x.p)), x.f, true)); renderLib(); break; }
+    case 'dlg-close': closeDialog(); break;
+    case 'backup': dialog('<h2>Sicherung</h2><p>Enthält alle importierten Lernpakete und die bisherigen Ergebnisse. Die Daten liegen sonst nur in diesem Browser.</p><div class="row"><button class="btn" data-act="backup-save">Als Datei speichern</button><button class="btn sec" data-act="backup-copy">Als Text kopieren</button><button class="btn sec" data-act="import">Wiederherstellen (Datei)</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>'); break;
+    case 'backup-save': download('lernhilfe-sicherung-' + new Date().toISOString().slice(0, 10) + '.json', JSON.stringify(backupData(), null, 1)); db.gesichert = Date.now(); save(true); toast('Sicherung gespeichert.'); break;
+    case 'backup-copy': navigator.clipboard.writeText(JSON.stringify(backupData())).then(() => { db.gesichert = Date.now(); save(true); toast('Sicherung in die Zwischenablage kopiert.'); }, () => toast('Kopieren nicht möglich.')); break;
+    case 'lernblatt': go('#/lernblatt/' + encodeURIComponent(id)); break;
+    case 'ueben': case 'test': startSession(id, act === 'test' ? 'test' : 'ueben'); break;
+    case 'del': { const p = getPack(id); if (p && confirm('„' + p.titel + '“ löschen? Die Ergebnisse bleiben gespeichert, falls du das Paket später wieder importierst.')) { db.pakete = db.pakete.filter(x => x.id !== id); if (sess && sess.id === id) db.session = null; save(true); render(); } break; }
+    case 'resume': go('#/aufgabe'); break;
+    case 'discard': if (confirm('Die laufende Sitzung verwerfen?')) { db.session = null; save(true); render(); } break;
+    case 'quit': dialog('<h2>Sitzung beenden?</h2><p>Mit „Pause“ kannst du später genau hier weitermachen.</p><div class="row"><button class="btn" data-act="pause">Pause</button><button class="btn sec" data-act="discard-go">Verwerfen</button><button class="btn ghost" data-act="dlg-close">Weitermachen</button></div>'); break;
+    case 'pause': closeDialog(); go('#/'); break;
+    case 'discard-go': db.session = null; save(true); closeDialog(); go('#/'); break;
+    case 'hint': { const { s, idx } = curTask(); s.hint[idx] = true; save(); renderTask(); break; }
+    case 'speak': { const { t } = curTask(); speak(t.vorlesen.text, t.vorlesen.sprache); break; }
+    case 'stop': if ('speechSynthesis' in window) speechSynthesis.cancel(); break;
+    case 'up': moveStep(+el.dataset.pos, -1); break;
+    case 'down': moveStep(+el.dataset.pos, 1); break;
+    case 'check': { const { s, idx } = curTask(); s.checked[idx] = true; save(); renderTask(true); break; }
+    case 'next': { const { s } = curTask(); if (s.pos < s.order.length - 1) { s.pos++; save(); renderTask(); window.scrollTo(0, 0); } break; }
+    case 'prev': { const { s } = curTask(); if (s.pos > 0) { s.pos--; save(); renderTask(); window.scrollTo(0, 0); } break; }
+    case 'jump': { const { s } = curTask(); s.pos = +el.dataset.p; save(); renderTask(); break; }
+    case 'finish': finish(); break;
+    case 'self': { const { s, idx } = curTask(); s.self[idx] = parseFloat(el.dataset.v); save(); renderTask(true); break; }
+    case 'self-r': { const s = db.session; s.self[+el.dataset.i] = parseFloat(el.dataset.v); saveResult(); const keep = $$('details.rrow').map(d => d.open); const y = window.scrollY; renderResult(); $$('details.rrow').forEach((d, i) => { d.open = keep[i]; }); window.scrollTo(0, y); break; }
+    case 'retry-wrong': { const { s, p } = curTask(); const wrong = s.order.filter(i => { const r = taskScore(p, s, i); return r.got < r.max && p.aufgaben[i].typ !== 'frei'; }); db.session = null; startSession(s.id, 'ueben', wrong); break; }
+    case 'again': { const { s } = curTask(); const id2 = s.id, m = s.modus; db.session = null; startSession(id2, m); break; }
+    case 'finish-home': db.session = null; save(true); go('#/'); break;
+  }
+});
+window.addEventListener('pagehide', () => save(true));
+document.addEventListener('input', onInput);
+document.addEventListener('change', onInput);
+document.addEventListener('keydown', e => {
+  if (e.key !== 'Enter' || e.isComposing) return;
+  const el = e.target;
+  if (el.tagName === 'INPUT' && el.type === 'text' && el.closest('.task')) { const b = $('#primary'); if (b && !b.disabled) { e.preventDefault(); b.click(); } }
+  if (el.tagName === 'TEXTAREA' && (e.ctrlKey || e.metaKey) && el.closest('.task')) { const b = $('#primary'); if (b && !b.disabled) { e.preventDefault(); b.click(); } }
+});
+$('#file').addEventListener('change', e => { const f = Array.from(e.target.files); e.target.value = ''; closeDialog(); if (f.length) importFiles(f); });
+$('#dlg').addEventListener('click', e => { if (e.target === $('#dlg')) closeDialog(); });
+let dragDepth = 0;
+window.addEventListener('dragenter', e => { if (e.dataTransfer && Array.from(e.dataTransfer.types).includes('Files')) { dragDepth++; document.body.classList.add('dropping'); } });
+window.addEventListener('dragleave', () => { dragDepth = Math.max(0, dragDepth - 1); if (!dragDepth) document.body.classList.remove('dropping'); });
+window.addEventListener('dragover', e => e.preventDefault());
+window.addEventListener('drop', e => { e.preventDefault(); dragDepth = 0; document.body.classList.remove('dropping'); const f = Array.from(e.dataTransfer.files || []).filter(x => /\.json$/i.test(x.name)); if (f.length) importFiles(f); });
+
+/* ========== Vorlesen ========== */
+function speak(text, lang) {
+  if (!('speechSynthesis' in window)) { toast('Dein Browser kann nicht vorlesen. Öffne „Text zum Vorlesen“ für die Eltern.'); return; }
+  const ss = window.speechSynthesis; ss.cancel();
+  const u = new SpeechSynthesisUtterance(text); const l = lang || 'en-GB'; u.lang = l; u.rate = 0.88;
+  const vs = ss.getVoices();
+  const v = vs.find(x => x.lang.replace('_', '-').toLowerCase() === l.toLowerCase()) || vs.find(x => x.lang.toLowerCase().startsWith(l.slice(0, 2).toLowerCase()));
+  if (v) u.voice = v; ss.speak(u);
+}
+
+render();
+</script>
+</body>
+</html>
