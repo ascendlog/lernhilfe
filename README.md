@@ -25,6 +25,7 @@ Zum Ausprobieren reicht es auch, `index.html` per Doppelklick zu öffnen. Nur �
 - Importiert man ein Paket (oder eine Sicherung), das laut `person` für jemand anderen gedacht ist, fragt die App vorher nach.
 - Das ist eine Ordnungshilfe und **keine Zugangssperre**: Jeder, der den Link und den Browser hat, kann jeden Bereich öffnen.
 - Saskia sieht „Probeklausur“ statt „Probearbeit“ und den Hinweis „fürs Studium“. Das steuert das Feld `art` in der Personenliste.
+- **Optik:** Standardmäßig dunkel, mit dem Sonne/Mond-Knopf oben rechts lässt sich auf hell umschalten (wird pro Gerät gemerkt). Jede Person hat ihre eigene Akzentfarbe, Joel gold, Saskia türkis. Fächer bekommen automatisch ein Symbol und eine Farbe. Die Schriften kommen vom Gerät (Überschriften auf Windows in Bahnschrift), es werden keine Schriften aus dem Internet geladen.
 - **Weitere Person (z. B. Aurelio oder Lili) ergänzen:** In `index.html` steht oben im Skript die Liste `PERSONEN`. Eine Zeile mehr genügt, z. B. `{ id: 'aurelio', name: 'Aurelio', art: 'kind', farbe: '#7a4fd0' }`. Danach den Ordner `pakete/aurelio/` mit einer `index.json` (`[]`) anlegen, wenn Pakete im Repo liegen sollen. Eine eigene Akzentfarbe gibt es mit einer Zeile `html[data-p=aurelio]{…}` im CSS (Vorlage: die Zeilen für `saskia`).
 - **Altdaten:** Wer die App schon vor den Profilen benutzt hat, findet alles bei **Joel** wieder. Beim ersten Öffnen von Joels Bereich wird der alte Speicherstand (`lernhilfe.v1`) dorthin kopiert. Die alte Kopie bleibt im Browser unangetastet liegen.
 
