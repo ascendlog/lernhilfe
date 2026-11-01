@@ -879,7 +879,7 @@ async function openLibrary() {
 /* ========== Lücken: Wörter ziehen oder antippen ========== */
 let actGap = null, drag = null;
 function eingabe() { try { return localStorage.getItem('lernhilfe.eingabe') === 'tippen' ? 'tippen' : 'ziehen'; } catch (err) { return 'ziehen'; } }
-const kannZiehen = t => !!(t.wortbank && !t.auswahl && cur && cur.art === 'erwachsen'); /* nur Saskia (Tablet); Joel am Laptop tippt */
+const kannZiehen = t => !!(t.wortbank && !t.auswahl); /* Lücken mit Wortbank: Wörter ziehen (Maus oder Touch) oder antippen */
 const dragMode = t => kannZiehen(t) && eingabe() === 'ziehen';
 function bankWords(t) { const out = []; const add = w => { if (w && !out.includes(w)) out.push(w); }; (t.wortbank || []).forEach(add); gapsOf(t).forEach(g => add(g.ans[0])); return out; }
 function redrawAnswer() { const { s, idx, t } = curTask(); $('#ans').innerHTML = answerHtml(t, idx, s, false); updatePrimary(); save(); }
