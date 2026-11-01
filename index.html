@@ -660,7 +660,7 @@ function answerHtml(t, idx, s, locked) {
         return `<div class="gaptext">${body}</div><div class="bank live" role="group" aria-label="Wortbank">${words.map(w => `<button type="button" class="wchip ${used.has(w) ? 'used' : ''}" data-k="wc" data-w="${esc(w)}" ${dis}>${esc(w)}</button>`).join('')}</div>` +
           (locked ? '' : '<div class="modeline"><span class="muted">Wörter in die Lücken ziehen oder antippen.</span><button type="button" class="btn ghost sm" data-act="eingabe">⌨ Lieber tippen</button></div>');
       }
-      return `<div class="gaptext">${body}</div>` + (t.wortbank ? `<div class="bank">${t.wortbank.map(w => `<span>${esc(w)}</span>`).join('')}</div>` + (locked || t.auswahl ? '' : '<div class="modeline"><button type="button" class="btn ghost sm" data-act="eingabe">↔ Wörter ziehen</button></div>') : '');
+      return `<div class="gaptext">${body}</div>` + (t.wortbank ? `<div class="bank">${t.wortbank.map(w => `<span>${esc(w)}</span>`).join('')}</div>` + (locked || !kannZiehen(t) ? '' : '<div class="modeline"><button type="button" class="btn ghost sm" data-act="eingabe">↔ Wörter ziehen</button></div>') : '');
     }
     case 'zuordnen': {
       const rights = s.shuf[idx] || (s.shuf[idx] = shuffle([...new Set([...t.paare.map(p => p[1]), ...(t.extra || [])])]));
@@ -879,7 +879,8 @@ async function openLibrary() {
 /* ========== Lücken: Wörter ziehen oder antippen ========== */
 let actGap = null, drag = null;
 function eingabe() { try { return localStorage.getItem('lernhilfe.eingabe') === 'tippen' ? 'tippen' : 'ziehen'; } catch (err) { return 'ziehen'; } }
-const dragMode = t => !!(t.wortbank && !t.auswahl && eingabe() === 'ziehen');
+const kannZiehen = t => !!(t.wortbank && !t.auswahl && cur && cur.art === 'erwachsen'); /* nur Saskia (Tablet); Joel am Laptop tippt */
+const dragMode = t => kannZiehen(t) && eingabe() === 'ziehen';
 function bankWords(t) { const out = []; const add = w => { if (w && !out.includes(w)) out.push(w); }; (t.wortbank || []).forEach(add); gapsOf(t).forEach(g => add(g.ans[0])); return out; }
 function redrawAnswer() { const { s, idx, t } = curTask(); $('#ans').innerHTML = answerHtml(t, idx, s, false); updatePrimary(); save(); }
 function gapValues() { const { s, idx, t } = curTask(); const a = s.answers[idx] = s.answers[idx] || []; for (let i = 0; i < gapsOf(t).length; i++) if (a[i] === undefined) a[i] = ''; return a; }
