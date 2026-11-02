@@ -1,0 +1,582 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-4d-sieltor",
+ "titel": "Geografie Teil 4d: Küstenschutz – Sieltor",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Wie das Sieltor bei Ebbe und Flut arbeitet, Zeichnungen lesen und Deich, Düne und Sieltor vergleichen. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Die Zeichnungen des Sieltors sind vereinfacht und selbst gezeichnet.",
+ "lernblatt": [
+  {
+   "titel": "Das Sieltor",
+   "text": "Ein **Siel** ist ein Durchlass im Deich. Durch ihn läuft das Wasser aus dem Hinterland, der **Marsch**, in die Nordsee. Das Tor geht von selbst auf, wenn Ebbe ist, und von selbst zu, wenn Flut ist.\n- **Ebbe**: Draußen ist das Wasser niedrig. Das Wasser von der Landseite drückt das Tor auf und fließt ins Meer ab.\n- **Flut**: Draußen ist das Wasser hoch. Es drückt das Tor zu, und so kann kein Salzwasser ins Land kommen.\nWenn das nicht genügt, pumpen **Schöpfwerke** das Wasser über den Deich. Die Zeichnung ist vereinfacht.",
+   "merke": "Das Sieltor lässt bei Ebbe Wasser aus dem Land ins Meer ab und hält bei Flut das Meer draußen.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><text x=\"70\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"114\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Ebbe</text><rect x=\"400\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"140\" x2=\"560\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"560\" y1=\"225\" x2=\"560\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"430\" y1=\"200\" x2=\"552\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,200 541.9,204.3 541.9,195.7\" fill=\"#1f78b4\"/><line x1=\"430\" y1=\"160\" x2=\"552\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,160 541.9,164.3 541.9,155.7\" fill=\"#1f78b4\"/><text x=\"470\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"536\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Flut</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich: links bei Ebbe mit geöffnetem Tor und abfließendem Wasser, rechts bei Flut mit geschlossenem Tor"
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "tf",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Ein Siel ist ein Durchlass im Deich.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Durch das Siel fließt das Wasser aus der Marsch zur Nordsee ab.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Das Sieltor öffnet sich bei Flut.",
+   "info": "Bei Flut wird das Tor vom Meerwasser zugedrückt. Es öffnet sich bei Ebbe.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Das Sieltor öffnet sich bei Ebbe.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Bei Flut kommt durch das Sieltor Salzwasser ins Land.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Das Sieltor wird von Hand geöffnet und geschlossen.",
+   "info": "Das Tor öffnet und schließt sich automatisch, durch den Druck des Wassers.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Was ist ein Siel?",
+   "antworten": [
+    "ein Durchlass im Deich, durch den das Wasser aus dem Land abfließt",
+    "ein Gebäude auf der Düne",
+    "ein Boot für das Watt",
+    "eine Pflanze im Watt"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Wohin fließt das Wasser durch das Siel?",
+   "antworten": [
+    "aus dem Hinterland (Marsch) in die Nordsee",
+    "aus der Nordsee ins Land",
+    "aus dem Watt in die Düne",
+    "von der Salzwiese in den Deich"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Wann öffnet sich das Sieltor?",
+   "antworten": [
+    "bei Ebbe",
+    "bei Flut",
+    "bei Vollmond",
+    "nur bei Sturmflut"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Wann schließt sich das Sieltor?",
+   "antworten": [
+    "bei Flut",
+    "bei Ebbe",
+    "bei Niedrigwasser",
+    "nie"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Warum öffnet sich das Sieltor bei Ebbe?",
+   "antworten": [
+    "Das Wasser steht draußen niedrig. Das Tor wird vom Wasser aus dem Land aufgedrückt.",
+    "Das Meerwasser zieht das Tor auf.",
+    "Ein Wärter öffnet es.",
+    "Der Mond schiebt es auf."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Warum schließt sich das Sieltor bei Flut?",
+   "antworten": [
+    "Das hohe Meerwasser drückt das Tor zu.",
+    "Es friert zu.",
+    "Das Land drückt das Tor zu.",
+    "Der Wind bläst es zu."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Warum soll bei Flut kein Wasser durch das Siel ins Land?",
+   "antworten": [
+    "Es wäre Salzwasser und würde das Land überfluten.",
+    "Es wäre zu kalt.",
+    "Es wäre zu süß.",
+    "Es wäre zu schmutzig für die Schafe."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Was machen Schöpfwerke?",
+   "antworten": [
+    "Sie pumpen das Wasser über den Deich, wenn das Siel nicht reicht.",
+    "Sie bauen Dünen auf.",
+    "Sie fangen Fische.",
+    "Sie bringen das Meerwasser ins Land."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Was passiert wann?",
+   "paare": [
+    [
+     "Ebbe",
+     "Das Tor öffnet sich und Wasser aus dem Land fließt ins Meer ab."
+    ],
+    [
+     "Flut",
+     "Das Meerwasser drückt das Tor zu, kein Salzwasser kommt ins Land."
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Beschreibe das Wasser draußen und das Tor.",
+   "paare": [
+    [
+     "Ebbe: Wasser draußen",
+     "niedrig"
+    ],
+    [
+     "Flut: Wasser draußen",
+     "hoch"
+    ],
+    [
+     "Ebbe: Sieltor",
+     "geöffnet"
+    ],
+    [
+     "Flut: Sieltor",
+     "geschlossen"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Ergänze die Tabelle als Text.",
+   "text": "Bei {{Ebbe}} steht das Wasser draußen niedrig. Das Sieltor {{öffnet}} sich und das Wasser aus dem Land fließt ins Meer ab. Bei {{Flut}} drückt das Meerwasser das Tor zu, sodass kein {{Salzwasser}} ins Land kommt.",
+   "wortbank": [
+    "Ebbe",
+    "öffnet",
+    "Flut",
+    "Salzwasser",
+    "Süßwasser",
+    "Sturm"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Ergänze den Text über das Siel.",
+   "text": "Ein {{Siel}} ist ein Durchlass im {{Deich}}. Durch ihn fließt das Wasser aus der {{Marsch}} zur Nordsee ab. Reicht das nicht, pumpen {{Schöpfwerke}} das Wasser über den Deich.",
+   "wortbank": [
+    "Siel",
+    "Deich",
+    "Marsch",
+    "Schöpfwerke",
+    "Düne",
+    "Watt"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Bringe den Ablauf in die richtige Reihenfolge (Start: Ebbe).",
+   "schritte": [
+    "Das Meerwasser draußen sinkt (Ebbe).",
+    "Das Tor öffnet sich durch den Druck des Wassers von der Landseite.",
+    "Wasser aus dem Land fließt ins Meer ab.",
+    "Die Flut kommt und das Wasser draußen steigt.",
+    "Das Meerwasser drückt das Tor zu."
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Erkläre, wie ein Sieltor funktioniert.",
+   "punkte": 3,
+   "muster": "Das Sieltor ist ein Durchlass im Deich. Bei Ebbe steht das Wasser draußen niedrig, das Tor wird vom Wasser aus dem Land aufgedrückt und das Wasser fließt ins Meer ab. Bei Flut drückt das hohe Meerwasser das Tor zu, sodass kein Salzwasser ins Land kommt.",
+   "kriterien": [
+    "Siel als Durchlass im Deich genannt",
+    "Ebbe: Tor öffnet sich, Wasser fließt ab",
+    "Flut: Tor schließt sich, Meer bleibt draußen"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Wozu braucht man zusätzlich Schöpfwerke?",
+   "punkte": 2,
+   "muster": "Wenn das Wasser aus dem Land nicht schnell genug durch das Siel abfließen kann (zum Beispiel weil das Tor wegen der Flut geschlossen ist), pumpen Schöpfwerke das Wasser über den Deich.",
+   "kriterien": [
+    "Schöpfwerke pumpen Wasser über den Deich",
+    "Wenn das Siel nicht reicht"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Wie nennt man den Durchlass im Deich, durch den das Wasser aus dem Land abfließt?",
+   "richtig": [
+    "Siel",
+    "Sieltor"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Das Sieltor: Ebbe und Flut",
+   "frage": "Wie nennt man die Anlagen, die das Wasser über den Deich pumpen?",
+   "richtig": [
+    "Schöpfwerk",
+    "Schöpfwerke"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Welche Zeichnung zeigt Ebbe?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><text x=\"70\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"114\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung A</text><rect x=\"400\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"140\" x2=\"560\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"560\" y1=\"225\" x2=\"560\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"430\" y1=\"200\" x2=\"552\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,200 541.9,204.3 541.9,195.7\" fill=\"#1f78b4\"/><line x1=\"430\" y1=\"160\" x2=\"552\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,160 541.9,164.3 541.9,155.7\" fill=\"#1f78b4\"/><text x=\"470\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"536\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung B</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich nebeneinander, Zeichnung A und Zeichnung B",
+   "tipp": "Bei Ebbe steht das Meerwasser niedrig und das Tor ist offen.",
+   "antworten": [
+    "Zeichnung A",
+    "Zeichnung B"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Welche Zeichnung zeigt Flut?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><text x=\"70\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"114\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung A</text><rect x=\"400\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"140\" x2=\"560\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"560\" y1=\"225\" x2=\"560\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"430\" y1=\"200\" x2=\"552\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,200 541.9,204.3 541.9,195.7\" fill=\"#1f78b4\"/><line x1=\"430\" y1=\"160\" x2=\"552\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,160 541.9,164.3 541.9,155.7\" fill=\"#1f78b4\"/><text x=\"470\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"536\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung B</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich nebeneinander, Zeichnung A und Zeichnung B",
+   "antworten": [
+    "Zeichnung B",
+    "Zeichnung A"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Welche Zeichnung zeigt Ebbe?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><text x=\"70\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"136\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung A</text><rect x=\"400\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"270\" x2=\"560\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"560\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"560\" y1=\"225\" x2=\"522\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"680\" y1=\"262\" x2=\"505\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"505,262 515.1,257.7 515.1,266.3\" fill=\"#1f78b4\"/><text x=\"470\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"514\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung B</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich nebeneinander, Zeichnung A und Zeichnung B",
+   "tipp": "Achte auf den Wasserstand im Meer und auf das Tor.",
+   "antworten": [
+    "Zeichnung B",
+    "Zeichnung A"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Welche Zeichnung zeigt Flut?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><text x=\"70\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"136\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung A</text><rect x=\"400\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"270\" x2=\"560\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"560\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"560\" y1=\"225\" x2=\"522\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"680\" y1=\"262\" x2=\"505\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"505,262 515.1,257.7 515.1,266.3\" fill=\"#1f78b4\"/><text x=\"470\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"514\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung B</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich nebeneinander, Zeichnung A und Zeichnung B",
+   "antworten": [
+    "Zeichnung A",
+    "Zeichnung B"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "In welcher Zeichnung ist das Sieltor geschlossen?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><text x=\"70\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"136\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung A</text><rect x=\"400\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"270\" x2=\"560\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"560\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"560\" y1=\"225\" x2=\"522\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"680\" y1=\"262\" x2=\"505\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"505,262 515.1,257.7 515.1,266.3\" fill=\"#1f78b4\"/><text x=\"470\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"514\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung B</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich nebeneinander, Zeichnung A und Zeichnung B",
+   "antworten": [
+    "Zeichnung A",
+    "Zeichnung B",
+    "in beiden Zeichnungen",
+    "in keiner Zeichnung"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "In welcher Zeichnung fließt das Wasser aus dem Land ins Meer ab?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><text x=\"70\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"136\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung A</text><rect x=\"400\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"270\" x2=\"560\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"560\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"560\" y1=\"225\" x2=\"522\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"680\" y1=\"262\" x2=\"505\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"505,262 515.1,257.7 515.1,266.3\" fill=\"#1f78b4\"/><text x=\"470\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"514\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung B</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich nebeneinander, Zeichnung A und Zeichnung B",
+   "antworten": [
+    "Zeichnung B",
+    "Zeichnung A",
+    "in beiden Zeichnungen",
+    "in keiner Zeichnung"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Beschrifte das Sieltor bei Ebbe.",
+   "text": "(1) {{Meer}}\n(2) {{Deich}}\n(3) {{Tor|Sieltor}}\n(4) {{Land|Marsch|Land (Marsch)}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><circle cx=\"70\" cy=\"282\" r=\"13\" fill=\"#e2701a\"/><text x=\"70\" y=\"287.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"190.0\" cy=\"105\" r=\"13\" fill=\"#e2701a\"/><text x=\"190.0\" y=\"110.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"136\" cy=\"206\" r=\"13\" fill=\"#e2701a\"/><text x=\"136\" y=\"211.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"320\" cy=\"280\" r=\"13\" fill=\"#e2701a\"/><text x=\"320\" y=\"285.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Ebbe, mit Nummern 1 bis 4",
+   "tipp": "Der Deich steht in der Mitte, das Meer liegt auf der Seite mit dem Wasser draußen.",
+   "wortbank": [
+    "Meer",
+    "Deich",
+    "Tor",
+    "Land",
+    "Düne",
+    "Watt"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Beschrifte das Sieltor bei Flut.",
+   "text": "(1) {{Meer}}\n(2) {{Deich}}\n(3) {{Tor|Sieltor}}\n(4) {{Land|Marsch|Land (Marsch)}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><circle cx=\"70\" cy=\"278\" r=\"13\" fill=\"#e2701a\"/><text x=\"70\" y=\"283.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"190.0\" cy=\"105\" r=\"13\" fill=\"#e2701a\"/><text x=\"190.0\" y=\"110.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"136\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"136\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"320\" cy=\"280\" r=\"13\" fill=\"#e2701a\"/><text x=\"320\" y=\"285.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Flut, mit Nummern 1 bis 4",
+   "wortbank": [
+    "Meer",
+    "Deich",
+    "Tor",
+    "Land",
+    "Düne",
+    "Watt"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Was zeigt diese Zeichnung?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><text x=\"70\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"114\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Ebbe",
+   "antworten": [
+    "Ebbe: Das Tor ist geöffnet, Wasser aus dem Land fließt ins Meer ab.",
+    "Flut: Das Tor ist geöffnet, Wasser aus dem Land fließt ins Meer ab.",
+    "Flut: Das Meerwasser fließt durch das Siel ins Land.",
+    "Ebbe: Das Tor ist geschlossen, das Meer bleibt draußen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Was zeigt diese Zeichnung?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><text x=\"70\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"136\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Flut",
+   "antworten": [
+    "Flut: Das Tor ist geschlossen, das Meerwasser bleibt draußen.",
+    "Ebbe: Das Tor ist geschlossen, das Meerwasser bleibt draußen.",
+    "Ebbe: Das Tor ist geöffnet, Wasser aus dem Land fließt ab.",
+    "Flut: Das Meerwasser fließt durch das Siel ins Land."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "In dieser Zeichnung ist Flut, denn das Meerwasser drückt das Tor zu.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><text x=\"70\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"136\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Flut",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "In dieser Zeichnung ist Flut, denn das Tor ist geöffnet.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><text x=\"70\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"114\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Ebbe",
+   "info": "Das Tor ist geöffnet, weil Ebbe ist. Das Wasser aus dem Land fließt ins Meer ab.",
+   "richtig": false
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Schau dir die Zeichnung an. Beschreibe, was am Sieltor passiert.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><text x=\"70\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"114\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Ebbe",
+   "punkte": 3,
+   "muster": "Bei Ebbe steht das Wasser im Meer niedrig. Das Tor ist geöffnet und das Wasser aus dem Land fließt durch den Deich ins Meer ab.",
+   "kriterien": [
+    "Ebbe erkannt (niedriger Wasserstand im Meer)",
+    "Tor ist geöffnet",
+    "Wasser aus dem Land fließt ab"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "E – Sieltor zeichnen und lesen",
+   "frage": "Schau dir die Zeichnung an. Beschreibe, was am Sieltor passiert.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 330\" width=\"380\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"160\" y1=\"225\" x2=\"160\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"30\" y1=\"200\" x2=\"152\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,200 141.9,204.3 141.9,195.7\" fill=\"#1f78b4\"/><line x1=\"30\" y1=\"160\" x2=\"152\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"152,160 141.9,164.3 141.9,155.7\" fill=\"#1f78b4\"/><text x=\"70\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"136\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit Sieltor: Meer auf der einen, Land (Marsch) auf der anderen Seite des Deichs bei Flut",
+   "punkte": 3,
+   "muster": "Bei Flut steht das Wasser im Meer hoch. Das Meerwasser drückt das Tor zu. Es kommt kein Salzwasser ins Land.",
+   "kriterien": [
+    "Flut erkannt (hoher Wasserstand im Meer)",
+    "Tor ist geschlossen",
+    "Kein Salzwasser kommt ins Land"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Welcher Küstenschutz ist gemeint?",
+   "paare": [
+    [
+     "langer Erdwall mit Sandkern, Klei und Grasdecke",
+     "Deich"
+    ],
+    [
+     "Sandberg, der vom Wind aufgeweht und vom Strandhafer gehalten wird",
+     "Düne"
+    ],
+    [
+     "Durchlass im Deich, der sich bei Ebbe öffnet",
+     "Sieltor"
+    ],
+    [
+     "pumpt Wasser über den Deich",
+     "Schöpfwerk"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Was schützt vor allem die Inseln?",
+   "antworten": [
+    "die Dünen",
+    "das Sieltor",
+    "der Sandkern",
+    "die Marsch"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Was schützt vor allem das Festland an der Küste?",
+   "antworten": [
+    "der Deich",
+    "der Strandhafer",
+    "der Queller",
+    "das Watt"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Was lässt Wasser aus dem Land abfließen und hält das Meer draußen?",
+   "antworten": [
+    "das Sieltor",
+    "die Deichkrone",
+    "die Düne",
+    "der Deichfuß"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Was gehört zum Deich, nicht zur Düne?",
+   "antworten": [
+    "Klei",
+    "Strandhafer",
+    "Wind",
+    "Wurzeln"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Was gehört zur Düne, nicht zum Deich?",
+   "antworten": [
+    "Strandhafer",
+    "Klei",
+    "Deichkrone",
+    "Sandkern"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Eine Düne entsteht durch Wind und Strandhafer, ein Deich wird von Menschen gebaut.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Das Sieltor ist ein Teil des Deichs.",
+   "info": "Es ist ein Durchlass im Deich.",
+   "richtig": true
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Vergleiche Deich und Düne: Was ist gleich, was ist verschieden?",
+   "punkte": 3,
+   "muster": "Beide schützen das Land vor dem Meer. Der Deich ist vom Menschen gebaut (Sandkern, Klei, Grasdecke), die Düne ist ein natürlicher Sandberg, der durch Wind und Strandhafer wächst. Die Düne schützt vor allem die Inseln.",
+   "kriterien": [
+    "Beide schützen vor dem Meer",
+    "Deich gebaut mit Aufbau genannt",
+    "Düne natürlich durch Wind und Strandhafer"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Deich, Düne und Siel im Vergleich",
+   "frage": "Erkläre, wie Deich, Düne und Sieltor zusammen die Küste schützen.",
+   "punkte": 3,
+   "muster": "Der Deich schützt das Land vor Überflutung, vor allem bei Sturmflut. Auf den Inseln schützen die Dünen, die vom Strandhafer festgehalten werden. Das Sieltor lässt bei Ebbe Wasser aus dem Land abfließen und hält bei Flut das Meer draußen.",
+   "kriterien": [
+    "Deich schützt vor Überflutung",
+    "Dünen schützen vor allem die Inseln",
+    "Sieltor lässt Wasser ab und hält das Meer draußen"
+   ]
+  }
+ ]
+}

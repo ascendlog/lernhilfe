@@ -6,7 +6,8 @@ Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App
 
 - `index.html` – die komplette App
 - `pakete/<person>/` – Lernpakete im Repo, je Person ein Ordner (`pakete/joel/`, `pakete/dario/`, `pakete/saskia/`) mit einer `index.json`, die die Dateien dieser Person auflistet. Dazu der **gemeinsame Ordner `pakete/joel-dario/`** für Pakete, die beide lernen sollen (Joel und Dario sind Klassenkameraden): Er wird bei beiden unter „Pakete aus dem Repo“ angezeigt. Bei Joel: Englisch und Musik (nur Joel), Geografie (gemeinsam mit Dario)
-- `tools/build_beispielpakete.py` – erzeugt das Englischpaket in `pakete/joel/` und das Geografiepaket in `pakete/joel-dario/` neu (nur nötig, wenn du sie ändern willst)
+- `tools/build_beispielpakete.py` – erzeugt das Englischpaket in `pakete/joel/` neu (nur nötig, wenn du es ändern willst)
+- `tools/build_geografie.py` – erzeugt die zehn Geografiepakete in `pakete/joel-dario/` (Aufgaben, Zeichnungen und Lösungen werden in `tools/geo_*.py` berechnet und mit `assert` geprüft; `geo_lib.py` enthält die Bausteine und die Zeichnungen von Gezeiten, Watt und Deich, `geo_svg2.py` Düne, Sieltor und Deichprofile)
 - `tools/build_musikpakete.py` – erzeugt die drei Musikpakete in `pakete/joel/`; `tools/notation.py` zeichnet dafür die Notenbilder (SVG), `tools/glyphs.json` enthält die Zeichen dazu (Schlüssel, Pausen, Kreuz aus GNU FreeFont, Ziffern aus DejaVu Sans Bold)
 
 ## Einrichten auf GitHub
@@ -105,6 +106,6 @@ Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`.
 ## Hinweise zu den Beispielpaketen
 
 - **Englisch** ist frei formuliert und passt zu den Themen von Unit 1 (was/were, simple past, did, Hören, Telefonieren, Schreiben).
-- **Geografie** ist ein Entwurf. Die Schutzzonen im Nationalpark und die Jahreszahlen sollten mit Joels Unterlagen abgeglichen werden. Auch die vierte Zone des Wattenmeeres (Düne oder Deich) ist darin bewusst nicht enthalten, weil Buch und Arbeitsblatt sich dort unterscheiden.
+- **Geografie** (Klasse 6, für Joel und Dario, 10 Pakete mit zusammen rund 440 Aufgaben): Teil 1 Nord- und Ostsee, Teil 2a/2b Gezeiten (Grundlagen, Kurve und Tidenkalender), Teil 3a/3b Wattenmeer (Lebensraum und Zonen, Schutz), Teil 4a bis 4d Küstenschutz (Deich, Deich beschriften und Deichhöhen, Dünen, Sieltor) und eine eigene Probearbeit mit 48 Punkten (etwa 45 Minuten, alle Aufgaben neu). Jedes Übungspaket hat ein Lernblatt und 34 bis 68 Aufgaben in Blöcken. Die Zeichnungen sind selbst gezeichnet, die Tidenkalender und Kurven erfunden. Die vierte Zone des Watts heißt im Buch „Düne“, im Arbeitsblatt „Deich“: Die Aufgaben werten beides als richtig. Die Probearbeit ist selbst entworfen, weil der Lehrer keine vorgegeben hat.
 - „Anhören“ nutzt die Stimme des Browsers (am besten in Chrome oder Edge). Die Qualität hängt vom Gerät ab. Der Text zum Vorlesen für die Eltern ist immer aufklappbar.
 - **Musik** (drei Pakete für Klasse 6): Notennamen/Notenwerte/Vorzeichen, Pausen/Taktarten und eine Probearbeit mit 38 Punkten (Lied, Chanson, Bilder einer Ausstellung, Hören). Die Notenbilder sind SVG und entstehen aus den Aufgabendaten, die Lösungen passen also zu den Bildern. Zeichenaufgaben vom Papier sind als Auswahlaufgaben umgebaut. Das Zeichnen selbst bleibt Papierarbeit (das Lernblatt erklärt, wie). Teil D (Hören) braucht Musikausschnitte auf einem zweiten Gerät. Die Stückbeschreibungen wurden nicht angehört und sollten beim Zuhören geprüft werden. Merkmale und Schreibweisen aus dem Unterricht haben Vorrang.

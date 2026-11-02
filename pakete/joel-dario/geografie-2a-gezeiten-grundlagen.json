@@ -1,0 +1,652 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-2a-gezeiten-grundlagen",
+ "titel": "Geografie Teil 2a: Gezeiten – Grundlagen",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Wie die Gezeiten entstehen, wichtige Begriffe und der Tidenhub an verschiedenen Orten. Mit Lernblatt und vielen Übungsaufgaben.",
+ "lernblatt": [
+  {
+   "titel": "So entstehen die Gezeiten",
+   "text": "- Der **Mond** zieht mit seiner **Anziehungskraft** das Wasser der Erde an. Auf der Seite, die dem Mond zugewandt ist, entsteht ein „Wasserberg“. Dort ist **Flut**.\n- Erde und Mond drehen sich um einen gemeinsamen **Schwerpunkt**. Er liegt nicht genau in der Mitte, sondern näher an der Erde, weil die Erde viel schwerer ist als der Mond. Wie bei einer Wippe: Die schwere Person muss näher an der Mitte sitzen, damit die Wippe im Gleichgewicht ist.\n- Durch die Drehung entsteht die **Fliehkraft**. Dreht sich eine Wippe, fliegen lange Haare nach außen. So wird auch auf der Seite der Erde, die vom Mond abgewandt ist, das Wasser nach außen gedrückt. Auch dort entsteht ein Wasserberg und somit Flut.\n- Die Erde dreht sich einmal am Tag um ihre Achse unter den beiden Wasserbergen hindurch. Darum gibt es an der Küste **zweimal Flut und zweimal Ebbe** am Tag. Von einer Flut bis zur nächsten vergehen etwa **12 Stunden und 25 Minuten**.\n- Zusatzwissen: Auch die Sonne zieht am Wasser, aber der Mond hat den größeren Einfluss.",
+   "merke": "Die Anziehungskraft des Mondes (zugewandte Seite) und die Fliehkraft (abgewandte Seite) lassen zwei Wasserberge entstehen, also zwei Fluten gleichzeitig. An den Seiten dazwischen ist Ebbe.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 340\" width=\"600\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"600\" height=\"340\" fill=\"#ffffff\"/><ellipse cx=\"200\" cy=\"170\" rx=\"104\" ry=\"72\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"170\" r=\"60\" fill=\"#d9cfa8\" stroke=\"#8a7a45\" stroke-width=\"2\"/><circle cx=\"530\" cy=\"170\" r=\"26\" fill=\"#cfcfcf\" stroke=\"#777\" stroke-width=\"2\"/><line x1=\"312\" y1=\"170\" x2=\"494\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"494,170 483.9,174.3 483.9,165.7\" fill=\"#333\"/><line x1=\"88\" y1=\"170\" x2=\"24\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"24,170 34.1,165.7 34.1,174.3\" fill=\"#333\"/><text x=\"530\" y=\"130\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mond</text><text x=\"430\" y=\"144\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Anziehungskraft</text><text x=\"430\" y=\"161\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">des Mondes</text><text x=\"200\" y=\"175\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Erde</text><text x=\"282\" y=\"175\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Flut</text><text x=\"118\" y=\"175\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Flut</text><text x=\"200\" y=\"76\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Ebbe</text><text x=\"200\" y=\"272\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Ebbe</text><text x=\"56\" y=\"144\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Fliehkraft</text><text x=\"56\" y=\"161\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">der Erde</text></svg>",
+   "bildAlt": "Skizze: Die Erde mit zwei Wasserbergen (Flut), dazwischen Ebbe. Rechts der Mond mit der Anziehungskraft, links die Fliehkraft der Erde."
+  },
+  {
+   "titel": "Wichtige Begriffe",
+   "text": "- **Gezeiten (Tide)**: das Wechselspiel von Ebbe und Flut.\n- **Ebbe**: Das Wasser läuft ab, der Wasserstand sinkt (etwa 6 Stunden).\n- **Flut**: Das Wasser läuft auf, der Wasserstand steigt (etwa 6 Stunden).\n- **Niedrigwasser (NW)**: der niedrigste Wasserstand, am Ende der Ebbe.\n- **Hochwasser (HW)**: der höchste Wasserstand, am Ende der Flut.\n- **Tidenhub**: der Höhenunterschied zwischen Hochwasser und Niedrigwasser. An der deutschen Nordseeküste beträgt er etwa 3 bis 4 m.",
+   "merke": "In 12 Stunden und 25 Minuten hebt und senkt sich der Meeresspiegel einmal: erst Ebbe bis zum Niedrigwasser, dann Flut bis zum Hochwasser. Der Tidenhub ist der Unterschied dazwischen."
+  },
+  {
+   "titel": "Der Tidenhub ist nicht überall gleich",
+   "text": "- **Bristol (England)**: 12 m. Das ist für Schiffe ein Problem. Man baute einen neuen Hafen direkt an der Küste.\n- **Saint-Malo (Frankreich)**: 11 m. Das ist groß genug für ein Gezeitenkraftwerk.\n- **Bremerhaven**: 4 m. Das behindert die Schifffahrt. Man baute einen Hafen mit Schleusen.\n- **Hallig Langeneß**: 3 m. Die Häuser stehen auf **Warften** (aufgeschütteten Hügeln), damit sie nicht überschwemmt werden.\n- **Rostock (Ostsee)**: Gezeiten spürt man kaum.\n- **Warum sind die Gezeiten in der Ostsee so schwach?** Die Flutwelle läuft von Norden in die Nordsee, an der englischen, niederländischen und deutschen Küste entlang und läuft bei Dänemark aus. Nur ein kleiner Teil strömt um Dänemark herum in die Ostsee. Die dänischen Inseln stehen im Weg und verringern die Flutwelle weiter."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Wodurch entstehen die Gezeiten vor allem?",
+   "antworten": [
+    "durch die Anziehungskraft des Mondes",
+    "durch den Wind",
+    "durch Regen und Flüsse",
+    "durch die Wellen der Schiffe"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Welche zwei Kräfte lassen die zwei Wasserberge entstehen?",
+   "info": "Die Anziehungskraft des Mondes wirkt auf der zugewandten Seite, die Fliehkraft auf der abgewandten Seite.",
+   "antworten": [
+    "Anziehungskraft des Mondes",
+    "Fliehkraft",
+    "Windkraft",
+    "Reibungskraft"
+   ],
+   "richtig": [
+    0,
+    1
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Auf der Seite der Erde, die dem Mond zugewandt ist, entsteht ein Wasserberg.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Auf der Seite der Erde, die vom Mond abgewandt ist, entsteht auch ein Wasserberg.",
+   "info": "Dort drückt die Fliehkraft das Wasser nach außen.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Der gemeinsame Schwerpunkt von Erde und Mond liegt genau in der Mitte zwischen beiden.",
+   "info": "Er liegt näher an der Erde, weil die Erde viel schwerer ist als der Mond.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Warum liegt der gemeinsame Schwerpunkt näher an der Erde?",
+   "antworten": [
+    "Weil die Erde viel schwerer ist als der Mond.",
+    "Weil die Erde schneller ist.",
+    "Weil der Mond kleiner aussieht.",
+    "Weil das Meer die Erde festhält."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Womit vergleicht man den gemeinsamen Schwerpunkt von Erde und Mond im Unterricht?",
+   "info": "Auf einer Wippe sitzt die schwere Person näher an der Mitte, damit die Wippe im Gleichgewicht ist.",
+   "antworten": [
+    "mit einer Wippe",
+    "mit einem Fahrstuhl",
+    "mit einem Staubsauger",
+    "mit einem Trampolin"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Wo entsteht durch die Fliehkraft ein Wasserberg?",
+   "antworten": [
+    "auf der Seite der Erde, die vom Mond abgewandt ist",
+    "auf der Seite der Erde, die dem Mond zugewandt ist",
+    "nur am Nordpol",
+    "nur im Ostseeraum"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Wie oft am Tag gibt es an der Küste Flut?",
+   "info": "Die Erde dreht sich einmal am Tag unter den beiden Wasserbergen hindurch.",
+   "richtig": [
+    "2",
+    "zweimal",
+    "2 mal",
+    "2x"
+   ],
+   "einheit": "mal"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Wie oft am Tag gibt es an der Küste Ebbe?",
+   "richtig": [
+    "2",
+    "zweimal",
+    "2 mal",
+    "2x"
+   ],
+   "einheit": "mal"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Wie lange dauert es von einer Flut bis zur nächsten Flut etwa?",
+   "antworten": [
+    "12 Stunden und 25 Minuten",
+    "6 Stunden und 12 Minuten",
+    "24 Stunden",
+    "28 Tage"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Auch die Sonne beeinflusst die Gezeiten, aber der Mond hat den größeren Einfluss.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Ergänze den Text zur Entstehung der Gezeiten.",
+   "text": "Der {{Mond}} zieht mit seiner {{Anziehungskraft}} das Wasser an. Auf der abgewandten Seite drückt die {{Fliehkraft}} das Wasser nach außen. Es entstehen {{zwei}} Wasserberge, an der Küste also zweimal {{Flut}} und zweimal {{Ebbe}} am Tag.",
+   "wortbank": [
+    "Mond",
+    "Anziehungskraft",
+    "Fliehkraft",
+    "zwei",
+    "Flut",
+    "Ebbe",
+    "Wind",
+    "drei"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Bringe die Entstehung der Gezeiten in die richtige Reihenfolge.",
+   "schritte": [
+    "Der Mond zieht mit seiner Anziehungskraft das Wasser an, ein Wasserberg entsteht",
+    "Erde und Mond drehen sich um einen gemeinsamen Schwerpunkt",
+    "Die Fliehkraft drückt das Wasser auf der abgewandten Seite nach außen, ein zweiter Wasserberg entsteht",
+    "Die Erde dreht sich einmal am Tag unter den Wasserbergen hindurch: zweimal Flut, zweimal Ebbe"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Beschrifte die Skizze. Welcher Begriff gehört zu welcher Nummer? (Die Nummern 4 und 5 kommen jeweils zweimal vor.)",
+   "text": "(1) {{Mond}}\n(2) {{Anziehungskraft des Mondes|Anziehungskraft}}\n(3) {{Erde}}\n(4) {{Flut|Flut (Wasserberg)|Wasserberg}}\n(5) {{Ebbe}}\n(6) {{Fliehkraft der Erde|Fliehkraft}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 340\" width=\"600\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"600\" height=\"340\" fill=\"#ffffff\"/><ellipse cx=\"200\" cy=\"170\" rx=\"104\" ry=\"72\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"170\" r=\"60\" fill=\"#d9cfa8\" stroke=\"#8a7a45\" stroke-width=\"2\"/><circle cx=\"530\" cy=\"170\" r=\"26\" fill=\"#cfcfcf\" stroke=\"#777\" stroke-width=\"2\"/><line x1=\"312\" y1=\"170\" x2=\"494\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"494,170 483.9,174.3 483.9,165.7\" fill=\"#333\"/><line x1=\"88\" y1=\"170\" x2=\"24\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"24,170 34.1,165.7 34.1,174.3\" fill=\"#333\"/><circle cx=\"530\" cy=\"122\" r=\"13\" fill=\"#e2701a\"/><text x=\"530\" y=\"127.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"430\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"430\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"200\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"200\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"282\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"282\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><circle cx=\"118\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"118\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><circle cx=\"200\" cy=\"76\" r=\"13\" fill=\"#e2701a\"/><text x=\"200\" y=\"81.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"200\" y1=\"89\" x2=\"200\" y2=\"104\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"264\" r=\"13\" fill=\"#e2701a\"/><text x=\"200\" y=\"269.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"200\" y1=\"251\" x2=\"200\" y2=\"236\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"56\" cy=\"148\" r=\"13\" fill=\"#e2701a\"/><text x=\"56\" y=\"153.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Skizze der Gezeiten mit den Nummern 1 bis 6: Mond, Anziehungskraft, Erde, zwei Fluten, zwei Ebben, Fliehkraft",
+   "tipp": "Bei den Wasserbergen ist Flut, an den Seiten dazwischen Ebbe.",
+   "wortbank": [
+    "Mond",
+    "Anziehungskraft des Mondes",
+    "Erde",
+    "Flut",
+    "Ebbe",
+    "Fliehkraft der Erde",
+    "Sonne",
+    "Hochwasser"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Noch eine Skizze (der Mond ist hier links). Beschrifte sie.",
+   "text": "(1) {{Mond}}\n(2) {{Anziehungskraft des Mondes|Anziehungskraft}}\n(3) {{Erde}}\n(4) {{Flut|Flut (Wasserberg)|Wasserberg}}\n(5) {{Ebbe}}\n(6) {{Fliehkraft der Erde|Fliehkraft}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 340\" width=\"600\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"600\" height=\"340\" fill=\"#ffffff\"/><ellipse cx=\"400\" cy=\"170\" rx=\"104\" ry=\"72\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><circle cx=\"400\" cy=\"170\" r=\"60\" fill=\"#d9cfa8\" stroke=\"#8a7a45\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"170\" r=\"26\" fill=\"#cfcfcf\" stroke=\"#777\" stroke-width=\"2\"/><line x1=\"288\" y1=\"170\" x2=\"106\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"106,170 116.1,165.7 116.1,174.3\" fill=\"#333\"/><line x1=\"512\" y1=\"170\" x2=\"576\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"576,170 565.9,174.3 565.9,165.7\" fill=\"#333\"/><circle cx=\"70\" cy=\"122\" r=\"13\" fill=\"#e2701a\"/><text x=\"70\" y=\"127.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"170\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"170\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"400\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"400\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"318\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"318\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><circle cx=\"482\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"482\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><circle cx=\"400\" cy=\"76\" r=\"13\" fill=\"#e2701a\"/><text x=\"400\" y=\"81.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"400\" y1=\"89\" x2=\"400\" y2=\"104\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"400\" cy=\"264\" r=\"13\" fill=\"#e2701a\"/><text x=\"400\" y=\"269.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"400\" y1=\"251\" x2=\"400\" y2=\"236\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"544\" cy=\"148\" r=\"13\" fill=\"#e2701a\"/><text x=\"544\" y=\"153.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Skizze der Gezeiten, der Mond links, mit den Nummern 1 bis 6",
+   "wortbank": [
+    "Mond",
+    "Anziehungskraft des Mondes",
+    "Erde",
+    "Flut",
+    "Ebbe",
+    "Fliehkraft der Erde",
+    "Sonne",
+    "Niedrigwasser"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Wo ist an der Erde gleichzeitig Flut?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 340\" width=\"600\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"600\" height=\"340\" fill=\"#ffffff\"/><ellipse cx=\"200\" cy=\"170\" rx=\"104\" ry=\"72\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"170\" r=\"60\" fill=\"#d9cfa8\" stroke=\"#8a7a45\" stroke-width=\"2\"/><circle cx=\"530\" cy=\"170\" r=\"26\" fill=\"#cfcfcf\" stroke=\"#777\" stroke-width=\"2\"/><line x1=\"312\" y1=\"170\" x2=\"494\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"494,170 483.9,174.3 483.9,165.7\" fill=\"#333\"/><line x1=\"88\" y1=\"170\" x2=\"24\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"24,170 34.1,165.7 34.1,174.3\" fill=\"#333\"/><text x=\"530\" y=\"130\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mond</text><text x=\"430\" y=\"144\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Anziehungskraft</text><text x=\"430\" y=\"161\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">des Mondes</text><text x=\"200\" y=\"175\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Erde</text><text x=\"282\" y=\"175\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Flut</text><text x=\"118\" y=\"175\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Flut</text><text x=\"200\" y=\"76\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Ebbe</text><text x=\"200\" y=\"272\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\">Ebbe</text><text x=\"56\" y=\"144\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Fliehkraft</text><text x=\"56\" y=\"161\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">der Erde</text></svg>",
+   "bildAlt": "Erde mit zwei Wasserbergen",
+   "antworten": [
+    "auf der dem Mond zugewandten und auf der abgewandten Seite",
+    "nur auf der dem Mond zugewandten Seite",
+    "nur an den Seiten zwischen den Wasserbergen",
+    "nirgendwo"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Erkläre in drei bis vier Sätzen, wie die Gezeiten entstehen.",
+   "punkte": 4,
+   "muster": "Der Mond zieht mit seiner Anziehungskraft das Wasser der Erde an, auf der dem Mond zugewandten Seite entsteht ein Wasserberg und dort ist Flut. Erde und Mond drehen sich um einen gemeinsamen Schwerpunkt, der näher an der Erde liegt, weil die Erde schwerer ist. Durch die Drehung entsteht die Fliehkraft, sie drückt das Wasser auf der abgewandten Seite nach außen und es entsteht ein zweiter Wasserberg. Die Erde dreht sich einmal am Tag unter den beiden Wasserbergen hindurch, deshalb gibt es zweimal am Tag Flut und zweimal Ebbe.",
+   "kriterien": [
+    "Der Mond zieht das Wasser an (Anziehungskraft)",
+    "Wasserberg auf der zugewandten Seite = Flut",
+    "Fliehkraft auf der abgewandten Seite, zweiter Wasserberg",
+    "Die Erde dreht sich unter den Wasserbergen hindurch: zweimal Flut und zweimal Ebbe am Tag"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "A – So entstehen die Gezeiten",
+   "frage": "Erkläre mit dem Bild einer Wippe, warum der gemeinsame Schwerpunkt von Erde und Mond näher an der Erde liegt.",
+   "punkte": 2,
+   "muster": "Bei einer Wippe muss die schwere Person näher an der Mitte sitzen, damit die Wippe im Gleichgewicht ist. Die Erde ist viel schwerer als der Mond. Darum liegt der gemeinsame Schwerpunkt näher an der Erde.",
+   "kriterien": [
+    "Die schwere Person sitzt näher an der Mitte",
+    "Die Erde ist viel schwerer als der Mond",
+    "Der Schwerpunkt liegt deshalb näher an der Erde"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Ordne dem Begriff die richtige Bedeutung zu.",
+   "paare": [
+    [
+     "Ebbe",
+     "Das Wasser läuft ab, der Wasserstand sinkt."
+    ],
+    [
+     "Flut",
+     "Das Wasser läuft auf, der Wasserstand steigt."
+    ],
+    [
+     "Hochwasser",
+     "höchster Wasserstand, am Ende der Flut"
+    ],
+    [
+     "Niedrigwasser",
+     "niedrigster Wasserstand, am Ende der Ebbe"
+    ],
+    [
+     "Tidenhub",
+     "Höhenunterschied zwischen Hochwasser und Niedrigwasser"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Wie nennt man den niedrigsten Wasserstand?",
+   "richtig": [
+    "Niedrigwasser",
+    "NW"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Wie nennt man den höchsten Wasserstand?",
+   "richtig": [
+    "Hochwasser",
+    "HW"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Wie nennt man den Höhenunterschied zwischen Hochwasser und Niedrigwasser?",
+   "richtig": [
+    "Tidenhub",
+    "der Tidenhub"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Was bedeutet Ebbe?",
+   "antworten": [
+    "Das Wasser läuft ab und der Wasserstand sinkt.",
+    "Das Wasser steigt.",
+    "Das Meer ist ganz zugefroren.",
+    "Es gibt einen Sturm."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Was bedeutet Flut?",
+   "antworten": [
+    "Das Wasser läuft auf und der Wasserstand steigt.",
+    "Das Wasser sinkt.",
+    "Das Watt fällt trocken.",
+    "Es regnet viel."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Was ist am Ende der Ebbe?",
+   "antworten": [
+    "Niedrigwasser",
+    "Hochwasser",
+    "Flut",
+    "Sturmflut"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Was ist am Ende der Flut?",
+   "antworten": [
+    "Hochwasser",
+    "Niedrigwasser",
+    "Ebbe",
+    "Tidenhub"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Wie lange dauert Ebbe oder Flut etwa?",
+   "antworten": [
+    "etwa 6 Stunden",
+    "etwa 1 Stunde",
+    "etwa 12 Stunden",
+    "etwa 24 Stunden"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Wie groß ist der Tidenhub an der deutschen Nordseeküste etwa?",
+   "antworten": [
+    "etwa 3 bis 4 m",
+    "etwa 30 cm",
+    "etwa 12 m",
+    "etwa 100 m"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Was bedeutet das Wort „Gezeiten“ (Tide)?",
+   "antworten": [
+    "das Wechselspiel von Ebbe und Flut",
+    "ein starker Sturm",
+    "ein Hafen",
+    "die Uhrzeit des Sonnenaufgangs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Am Ende der Flut ist Niedrigwasser.",
+   "info": "Am Ende der Flut ist Hochwasser.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Bei Ebbe sinkt der Wasserstand.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Der Tidenhub ist der Unterschied zwischen Hochwasser und Niedrigwasser.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Ergänze die Begriffe.",
+   "text": "Bei {{Ebbe}} läuft das Wasser ab, bei {{Flut}} kommt es zurück. Den höchsten Wasserstand nennt man {{Hochwasser}}, den niedrigsten {{Niedrigwasser}}. Der Unterschied zwischen beiden heißt {{Tidenhub}}.",
+   "wortbank": [
+    "Ebbe",
+    "Flut",
+    "Hochwasser",
+    "Niedrigwasser",
+    "Tidenhub",
+    "Sturmflut",
+    "Brandung"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Bringe den Ablauf der Gezeiten in die richtige Reihenfolge (Start: Hochwasser).",
+   "schritte": [
+    "Hochwasser: Das Wasser steht am höchsten",
+    "Ebbe: Das Wasser läuft ab",
+    "Niedrigwasser: Das Wasser steht am tiefsten",
+    "Flut: Das Wasser kommt zurück"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Wichtige Begriffe",
+   "frage": "Erkläre in je einem Satz die Begriffe Ebbe, Flut und Tidenhub.",
+   "punkte": 3,
+   "muster": "Ebbe: Das Wasser läuft ab und der Wasserstand sinkt. Flut: Das Wasser läuft auf und der Wasserstand steigt. Tidenhub: Das ist der Höhenunterschied zwischen Hochwasser und Niedrigwasser.",
+   "kriterien": [
+    "Ebbe richtig erklärt",
+    "Flut richtig erklärt",
+    "Tidenhub richtig erklärt"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Ordne dem Ort den Tidenhub zu.",
+   "paare": [
+    [
+     "Bristol (England)",
+     "12 m"
+    ],
+    [
+     "Saint-Malo (Frankreich)",
+     "11 m"
+    ],
+    [
+     "Bremerhaven",
+     "4 m"
+    ],
+    [
+     "Hallig Langeneß",
+     "3 m"
+    ],
+    [
+     "Rostock (Ostsee)",
+     "kaum spürbar"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "An welchem Ort ist der Tidenhub am größten?",
+   "antworten": [
+    "Bristol",
+    "Bremerhaven",
+    "Hallig Langeneß",
+    "Rostock"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "An welchem Ort spürt man die Gezeiten kaum?",
+   "antworten": [
+    "Rostock",
+    "Bristol",
+    "Saint-Malo",
+    "Bremerhaven"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Wie groß ist der Tidenhub in Bremerhaven?",
+   "richtig": [
+    "4",
+    "4 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Wie viel größer ist der Tidenhub in Bristol (12 m) als in Bremerhaven (4 m)?",
+   "info": "12 m − 4 m = 8 m",
+   "richtig": [
+    "8",
+    "8 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Wie viel größer ist der Tidenhub in Bremerhaven (4 m) als auf der Hallig Langeneß (3 m)?",
+   "info": "4 m − 3 m = 1 m",
+   "richtig": [
+    "1",
+    "1 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Wie viel größer ist der Tidenhub in Bristol (12 m) als in Saint-Malo (11 m)?",
+   "info": "12 m − 11 m = 1 m",
+   "richtig": [
+    "1",
+    "1 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Welche Folge hat der große Tidenhub an dem Ort?",
+   "paare": [
+    [
+     "Bristol",
+     "Man baute einen neuen Hafen direkt an der Küste."
+    ],
+    [
+     "Saint-Malo",
+     "Der Tidenhub ist groß genug für ein Gezeitenkraftwerk."
+    ],
+    [
+     "Bremerhaven",
+     "Man baute einen Hafen mit Schleusen."
+    ],
+    [
+     "Hallig Langeneß",
+     "Die Häuser stehen auf Warften."
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Warum stehen auf der Hallig Langeneß die Häuser auf Warften?",
+   "antworten": [
+    "Damit sie nicht überschwemmt werden.",
+    "Damit man weit aufs Meer sehen kann.",
+    "Damit die Schafe Platz haben.",
+    "Weil der Boden dort aus Eis besteht."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Ein Gezeitenkraftwerk braucht einen großen Tidenhub.",
+   "info": "Saint-Malo mit 11 m Tidenhub ist ein Beispiel.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Der Tidenhub ist überall auf der Erde gleich groß.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Welche Aussage über Bremerhaven stimmt?",
+   "antworten": [
+    "Der Tidenhub von etwa 4 m behindert die Schifffahrt, deshalb gibt es einen Hafen mit Schleusen.",
+    "Dort gibt es keine Gezeiten.",
+    "Dort liegt der Tidenhub bei 12 m.",
+    "Dort baute man ein Gezeitenkraftwerk."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Ergänze: Warum sind die Gezeiten in der Ostsee so schwach?",
+   "text": "Die Flutwelle läuft von {{Norden}} in die {{Nordsee}} und läuft bei {{Dänemark}} aus. Nur ein {{kleiner}} Teil strömt um Dänemark herum in die Ostsee. Die dänischen {{Inseln}} stehen im Weg.",
+   "wortbank": [
+    "Norden",
+    "Nordsee",
+    "Dänemark",
+    "kleiner",
+    "Inseln",
+    "Süden",
+    "großer"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Warum sind die Gezeiten in der Ostsee so schwach?",
+   "antworten": [
+    "Die Flutwelle kommt nur durch eine enge Passage und die dänischen Inseln verringern sie weiter.",
+    "Es gibt in der Ostsee keinen Mond.",
+    "Das Wasser ist zu kalt für Gezeiten.",
+    "Die Ostsee ist zu tief."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "C – Der Tidenhub an verschiedenen Orten",
+   "frage": "Erkläre, warum es in der Ostsee kaum Gezeiten gibt.",
+   "punkte": 2,
+   "muster": "Die Flutwelle läuft von Norden in die Nordsee, an der englischen, niederländischen und deutschen Küste entlang und bei Dänemark wieder hinaus. Nur ein kleiner Teil strömt um Dänemark herum in die Ostsee, und die dänischen Inseln stehen im Weg und verringern die Flutwelle weiter.",
+   "kriterien": [
+    "Nur ein kleiner Teil der Flutwelle gelangt in die Ostsee",
+    "Die dänischen Inseln stehen im Weg",
+    "Deshalb sind die Gezeiten sehr schwach"
+   ]
+  }
+ ]
+}

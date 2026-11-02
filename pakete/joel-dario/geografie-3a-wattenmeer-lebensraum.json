@@ -1,0 +1,621 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-3a-wattenmeer-lebensraum",
+ "titel": "Geografie Teil 3a: Wattenmeer – Lebensraum und Zonen",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Der Lebensraum Watt, wer wo lebt und die vier Zonen des Watts. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Die vierte Zone heißt im Buch (S. 130) „Düne“, im Arbeitsblatt „Deich“. In den Aufgaben werden beide Antworten als richtig gewertet. Bei Abweichungen zählt, was im Unterricht gelernt wurde.",
+ "lernblatt": [
+  {
+   "titel": "Das Wattenmeer: ein besonderer Lebensraum",
+   "text": "Das Wattenmeer zieht sich an der Nordsee entlang, vom niederländischen Den Helder bis nach Dänemark. Bei **Ebbe** läuft das Wasser ab und der Meeresboden liegt frei, bei **Flut** kommt das Wasser zurück. Von weitem sieht das Watt grau und leer aus. In Wahrheit ist es voller Leben und gehört zu den letzten Landschaften, die der Mensch kaum verändert hat.\n- **Viel Nahrung**: Im Wattboden leben Millionen winziger Algen, Würmer, Muscheln und Schnecken. Der Wattwurm frisst Schlick und hinterlässt kleine Kothäufchen, die man bei Ebbe sieht.\n- **Kinderstube**: Junge Fische, Garnelen und andere Jungtiere wachsen im flachen Wasser auf. Dort sind sie vor großen Raubfischen sicher.\n- **Seehunde** ziehen auf den Sandbänken ihre Jungen groß.\n- **Zugvögel**: Im Frühjahr und im Herbst machen Millionen Zugvögel hier Rast, weil sie viel Futter finden. Manche brüten auch hier. Das Watt gehört zu den vogelreichsten Gebieten der Erde.\n- **Salzpflanzen**: Der **Queller** (fleischig, mit kleinen schuppigen Blättern) und der **Strandflieder** vertragen Salzwasser. Der Queller hält außerdem den Schlick fest.\n- **Angepasst**: Viele Tiere sind genau auf diesen Lebensraum eingestellt. Wird er gestört, kommen sie schlecht zurecht.",
+   "merke": "Das Watt bietet viel Nahrung. Darum ist es Futterplatz, Kinderstube für Fische und Brut- und Rastplatz für Vögel. Weil die Tiere so angepasst sind, schadet jede Störung."
+  },
+  {
+   "titel": "Wer lebt wo? Meer, Watt und Salzwiese",
+   "text": "- **Meer** (immer unter Wasser): Hier suchen Schwimm- und Tauchvögel Futter, hier leben die Fische, und Seehunde ruhen auf Sandbänken.\n- **Watt** (zweimal am Tag unter Wasser): Zuhause von Garnelen, Jungfischen, Muscheln, Krebstieren und Wattwürmern. Auch der Austernfischer sucht hier sein Futter.\n- **Salzwiese** (nur selten unter Wasser): Hier brüten Vögel, und die Salzpflanzen wachsen (Queller, Strandflieder).\n- **Priele** sind Rinnen im Watt, in denen das Wasser abläuft und wieder zuläuft. Für Badende und Wattwanderer sind sie gefährlich. Eine Wattwanderung ohne Wattführer ist riskant, denn die Flut kommt schnell und die Priele laufen zuerst voll.",
+   "merke": "Je weiter weg vom Meer, desto seltener steht eine Zone unter Wasser: Meer, Watt, Salzwiese."
+  },
+  {
+   "titel": "Die vier Zonen des Watts",
+   "text": "Von der See zum Land (Arbeitsblatt „Lebensraum Watt“, Buch S. 130):\n- **Meer**: ständig unter Wasser.\n- **Watt**: zweimal am Tag unter Wasser, bei Ebbe trocken. Es liegt zwischen dem mittleren Niedrigwasser und dem mittleren Hochwasser.\n- **Salzwiese**: nur selten unter Wasser. Hier wachsen Salzpflanzen wie der Queller, und Vögel brüten.\n- **Deich**: schützt das Land und steht nicht unter Wasser. Im Buch (S. 130) steht an dieser Stelle „Düne“. Beide Antworten zählen in den Aufgaben als richtig.\nDie Grenze zwischen Meer und Watt ist das **mittlere Niedrigwasser**, die Grenze zwischen Watt und Salzwiese das **mittlere Hochwasser**.",
+   "merke": "Meer, Watt, Salzwiese, Deich: Je weiter weg vom Meer, desto seltener steht die Zone unter Wasser.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 330\" width=\"760\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"330\" fill=\"#ffffff\"/><polygon points=\"0,160 460,160 260,215 0,262\" fill=\"#cfe7f6\"/><polygon points=\"0,262 260,215 460,160 520,150 640,146 740,70 760,70 760,330 0,330\" fill=\"#cdb98a\" stroke=\"#8a7a45\" stroke-width=\"2\"/><polyline points=\"460,160 520,150 640,146\" fill=\"none\" stroke=\"#6aa84f\" stroke-width=\"7\"/><polyline points=\"640,146 740,70\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"9\"/><line x1=\"0\" y1=\"160\" x2=\"460\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"215\" x2=\"260\" y2=\"215\" stroke=\"#1f78b4\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><line x1=\"460\" y1=\"40\" x2=\"460\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><line x1=\"640\" y1=\"40\" x2=\"640\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><text x=\"130\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Meer</text><text x=\"360\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Watt</text><text x=\"550\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Salzwiese</text><text x=\"700\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Deich</text><text x=\"8\" y=\"152\" font-size=\"13\" font-weight=\"normal\" fill=\"#1f5f8f\" text-anchor=\"start\">mittleres Hochwasser</text><text x=\"8\" y=\"207\" font-size=\"13\" font-weight=\"normal\" fill=\"#1f5f8f\" text-anchor=\"start\">mittleres Niedrigwasser</text></svg>",
+   "bildAlt": "Querschnitt von der See zum Land mit den vier Zonen Meer, Watt, Salzwiese und Deich und den Marken für mittleres Niedrigwasser und mittleres Hochwasser"
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Das Watt fällt zweimal am Tag trocken.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Im Wattenmeer leben nur sehr wenige Tiere.",
+   "info": "Im Wattenmeer leben sehr viele Tiere, es ist reich an Nährstoffen.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Das Wattenmeer ist eine Kinderstube für junge Fische.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Der Queller wächst in der Salzwiese und verträgt Salzwasser.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Ohne Wattführer ist eine Wattwanderung ungefährlich.",
+   "info": "Die Flut kommt schnell und die Priele füllen sich zuerst.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Zugvögel nutzen das Wattenmeer als Rastplatz.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Das Wattenmeer ist arm an Nährstoffen.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Seehunde ziehen auf den Sandbänken ihre Jungtiere auf.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Wie oft am Tag wird das Watt überflutet?",
+   "antworten": [
+    "zweimal",
+    "einmal",
+    "gar nicht",
+    "dreimal"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Was passiert im Watt bei Ebbe?",
+   "antworten": [
+    "Das Meer fließt ab und der Meeresboden fällt trocken.",
+    "Das Watt wird besonders tief überflutet.",
+    "Das Wasser friert zu.",
+    "Das Watt verschwindet für immer."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Warum ist das Wattenmeer ein wichtiger Futterplatz?",
+   "antworten": [
+    "Im und auf dem Boden leben Millionen Algen, Würmer, Muscheln und Schnecken.",
+    "Dort wachsen große Obstbäume.",
+    "Dort gibt es viele Restaurants.",
+    "Dort liegt das ganze Jahr Schnee."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Warum nennt man das Wattenmeer eine Kinderstube?",
+   "antworten": [
+    "Fische, Garnelen und andere Tiere ziehen dort geschützt ihren Nachwuchs auf.",
+    "Dort gibt es viele Kindergärten.",
+    "Dort spielen Kinder am Strand.",
+    "Dort werden Boote gebaut."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Wo sammeln sich im Frühjahr und Herbst Millionen Zugvögel?",
+   "antworten": [
+    "im Watt",
+    "in der Wüste",
+    "im Hochgebirge",
+    "in der Stadt"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Was zeigt der Wattwurm durch seine Kothäufchen?",
+   "antworten": [
+    "Er frisst sich durch den Schlick.",
+    "Er baut Burgen aus Sand.",
+    "Er sucht Wasser.",
+    "Er will Vögel anlocken."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Warum ist jede Störung im Watt gefährlich?",
+   "antworten": [
+    "Die Tiere sind angepasst und spezialisiert, deshalb gefährdet jede Störung ihre Lebensbedingungen.",
+    "Weil Störungen das Wasser süßer machen.",
+    "Weil der Mond dann stärker zieht.",
+    "Weil sonst die Gezeiten ausfallen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Ergänze den Text über den Lebensraum Watt.",
+   "text": "Bei {{Ebbe}} fällt das Watt trocken, bei {{Flut}} wird es überflutet. Das geschieht {{zweimal}} am Tag. Das Wattenmeer ist reich an {{Nährstoffen}}. Viele Fische ziehen hier ihren {{Nachwuchs}} auf.",
+   "wortbank": [
+    "Ebbe",
+    "Flut",
+    "zweimal",
+    "Nährstoffen",
+    "Nachwuchs",
+    "Sturm",
+    "Eis"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Ergänze: Warum ist das Wattenmeer wichtig?",
+   "text": "Das Watt ist {{Futterplatz}}, {{Kinderstube}} für Fische und Brut- und {{Rastplatz}} für Vögel. Millionen {{Zugvögel}} machen hier im Frühjahr und Herbst Halt.",
+   "wortbank": [
+    "Futterplatz",
+    "Kinderstube",
+    "Rastplatz",
+    "Zugvögel",
+    "Parkplatz",
+    "Spielplatz"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Welche fleischige Salzpflanze wächst in der Salzwiese und hält den Schlick fest?",
+   "info": "Auch der Strandflieder verträgt Salzwasser.",
+   "richtig": "Queller"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "A – Der Lebensraum Watt",
+   "frage": "Beschreibe den Lebensraum Watt in drei Sätzen.",
+   "punkte": 3,
+   "muster": "Das Watt wird zweimal am Tag überflutet und fällt bei Ebbe trocken. Hier leben Garnelen, Jungfische, Muscheln und Würmer, die sich an den Wechsel angepasst haben. Vögel finden viel Nahrung, und Seehunde ruhen auf den Sandbänken.",
+   "kriterien": [
+    "Wechsel von Überflutung und Trockenfallen genannt",
+    "Tiere und Pflanzen genannt (zum Beispiel Wattwurm, Muscheln, Garnelen, Queller)",
+    "Bedeutung als Futterplatz, Kinderstube oder Rastplatz erklärt"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Wo kommt das im Lebensraum Watt vor? (Meer, Watt oder Salzwiese)",
+   "paare": [
+    [
+     "Brutplätze der Vögel",
+     "Salzwiese"
+    ],
+    [
+     "Rastplatz der Seehunde",
+     "Meer"
+    ],
+    [
+     "Lebensraum der Garnelen und Jungfische",
+     "Watt"
+    ],
+    [
+     "Nahrungsgebiet der Schwimm- und Tauchvögel",
+     "Meer"
+    ],
+    [
+     "Lebensraum der Salzpflanzen (Queller)",
+     "Salzwiese"
+    ],
+    [
+     "Wattwurm und Muscheln",
+     "Watt"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Wo kommt das im Lebensraum Watt vor? (Meer, Watt oder Salzwiese)",
+   "paare": [
+    [
+     "Austernfischer sucht Futter",
+     "Watt"
+    ],
+    [
+     "Strandflieder",
+     "Salzwiese"
+    ],
+    [
+     "Lebensraum der Fische",
+     "Meer"
+    ],
+    [
+     "Krebstiere",
+     "Watt"
+    ],
+    [
+     "Seehunde auf Sandbänken",
+     "Meer"
+    ],
+    [
+     "Vögel brüten",
+     "Salzwiese"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Wie oft wird die Zone überflutet?",
+   "paare": [
+    [
+     "Meer",
+     "immer überflutet"
+    ],
+    [
+     "Watt",
+     "zweimal täglich überflutet"
+    ],
+    [
+     "Salzwiese",
+     "selten überflutet"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Wo leben der Wattwurm und die Muscheln?",
+   "antworten": [
+    "im Watt",
+    "in der Salzwiese",
+    "im Meer ganz weit draußen",
+    "auf dem Deich"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Wo brüten viele Vögel?",
+   "antworten": [
+    "in der Salzwiese",
+    "im Meer",
+    "im Watt bei Flut",
+    "unter Wasser"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Welche Zone nennt das Arbeitsblatt als Rastplatz der Seehunde (auf Sandbänken)?",
+   "antworten": [
+    "das Meer",
+    "die Salzwiese",
+    "der Deich",
+    "die Dünen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Welche Pflanzen wachsen in der Salzwiese?",
+   "antworten": [
+    "Salzpflanzen wie Queller und Strandflieder",
+    "Eichen und Buchen",
+    "Weizen und Mais",
+    "Kakteen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Welches Tier sucht im Watt bei Ebbe sein Futter?",
+   "antworten": [
+    "der Austernfischer",
+    "der Uhu",
+    "das Reh",
+    "der Feldhase"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Was sind Priele?",
+   "antworten": [
+    "Rinnen im Watt, in denen das Wasser auf- und abläuft",
+    "Muscheln im Watt",
+    "Sandburgen",
+    "Schilder im Nationalpark"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Priele sind für Badende und Wattwanderer gefährlich.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Warum ist eine Wattwanderung ohne Wattführer gefährlich?",
+   "antworten": [
+    "Die Flut kommt schnell und die Priele füllen sich zuerst.",
+    "Das Wasser ist dort immer eiskalt.",
+    "Man versinkt im Watt sofort bis zum Hals.",
+    "Bei Ebbe fließt das Wasser aus dem Meer ins Watt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Wer lebt wo? Meer, Watt und Salzwiese",
+   "frage": "Wie heißen die Rinnen im Watt, in denen das Wasser auf- und abläuft?",
+   "richtig": [
+    "Priele",
+    "Prielen",
+    "Priel"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Beschrifte die Zeichnung. Welche Zone gehört zu welcher Nummer?",
+   "text": "(1) {{Meer}}\n(2) {{Watt}}\n(3) {{Salzwiese}}\n(4) {{Deich|Düne}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 330\" width=\"760\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"330\" fill=\"#ffffff\"/><polygon points=\"0,160 460,160 260,215 0,262\" fill=\"#cfe7f6\"/><polygon points=\"0,262 260,215 460,160 520,150 640,146 740,70 760,70 760,330 0,330\" fill=\"#cdb98a\" stroke=\"#8a7a45\" stroke-width=\"2\"/><polyline points=\"460,160 520,150 640,146\" fill=\"none\" stroke=\"#6aa84f\" stroke-width=\"7\"/><polyline points=\"640,146 740,70\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"9\"/><line x1=\"0\" y1=\"160\" x2=\"460\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"215\" x2=\"260\" y2=\"215\" stroke=\"#1f78b4\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><line x1=\"460\" y1=\"40\" x2=\"460\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><line x1=\"640\" y1=\"40\" x2=\"640\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><circle cx=\"130\" cy=\"62\" r=\"13\" fill=\"#e2701a\"/><text x=\"130\" y=\"67.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"360\" cy=\"62\" r=\"13\" fill=\"#e2701a\"/><text x=\"360\" y=\"67.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"550\" cy=\"62\" r=\"13\" fill=\"#e2701a\"/><text x=\"550\" y=\"67.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"700\" cy=\"62\" r=\"13\" fill=\"#e2701a\"/><text x=\"700\" y=\"67.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><text x=\"8\" y=\"152\" font-size=\"13\" font-weight=\"normal\" fill=\"#1f5f8f\" text-anchor=\"start\">mittleres Hochwasser</text><text x=\"8\" y=\"207\" font-size=\"13\" font-weight=\"normal\" fill=\"#1f5f8f\" text-anchor=\"start\">mittleres Niedrigwasser</text></svg>",
+   "bildAlt": "Querschnitt von der See zum Land mit den Zonen 1 bis 4",
+   "tipp": "Je weiter weg vom Meer, desto seltener wird die Zone überflutet.",
+   "info": "Im Buch (S. 130) heißt die vierte Zone „Düne“, im Arbeitsblatt „Deich“.",
+   "wortbank": [
+    "Meer",
+    "Watt",
+    "Salzwiese",
+    "Deich",
+    "Strand",
+    "Insel"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Ordne die Zonen von der See zum Land.",
+   "schritte": [
+    "Meer",
+    "Watt",
+    "Salzwiese",
+    "Deich"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Wie oft wird die Zone überflutet?",
+   "paare": [
+    [
+     "Meer",
+     "ständig"
+    ],
+    [
+     "Watt",
+     "zweimal täglich"
+    ],
+    [
+     "Salzwiese",
+     "selten"
+    ],
+    [
+     "Deich",
+     "nicht"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Welche Zone wird zweimal am Tag überflutet?",
+   "antworten": [
+    "Watt",
+    "Meer",
+    "Salzwiese",
+    "Deich"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Welche Zone wird selten überflutet?",
+   "antworten": [
+    "Salzwiese",
+    "Meer",
+    "Watt",
+    "Deich"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Welche Zone ist ständig überflutet?",
+   "antworten": [
+    "Meer",
+    "Watt",
+    "Salzwiese",
+    "Deich"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Wo liegt das Watt?",
+   "antworten": [
+    "zwischen mittlerem Niedrigwasser und mittlerem Hochwasser",
+    "oberhalb des Deichs",
+    "ganz tief im Meer",
+    "zwischen Deich und Land"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Was ist die Grenze zwischen Meer und Watt?",
+   "antworten": [
+    "das mittlere Niedrigwasser",
+    "das mittlere Hochwasser",
+    "der Deich",
+    "die Salzwiese"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Was ist die Grenze zwischen Watt und Salzwiese?",
+   "antworten": [
+    "das mittlere Hochwasser",
+    "das mittlere Niedrigwasser",
+    "der Deichfuß",
+    "die Düne"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Welche Zone schützt das Land und wird nicht überflutet?",
+   "info": "Im Buch steht an dieser Stelle „Düne“.",
+   "antworten": [
+    "der Deich",
+    "das Meer",
+    "das Watt",
+    "die Salzwiese"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Je weiter man vom Meer entfernt ist, desto seltener wird die Zone überflutet.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Die Salzwiese wird häufiger überflutet als das Watt.",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Ergänze die Zonen von der See zum Land.",
+   "text": "{{Meer}}, {{Watt}}, {{Salzwiese}}, {{Deich|Düne}}",
+   "wortbank": [
+    "Meer",
+    "Watt",
+    "Salzwiese",
+    "Deich",
+    "Strand",
+    "Marsch"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Ergänze den Text zu den Zonen.",
+   "text": "Die Grenze zwischen Meer und Watt ist das mittlere {{Niedrigwasser}}. Die Grenze zwischen Watt und Salzwiese ist das mittlere {{Hochwasser}}. Das Watt wird {{zweimal}} täglich überflutet.",
+   "wortbank": [
+    "Niedrigwasser",
+    "Hochwasser",
+    "zweimal",
+    "Sturmflut",
+    "dreimal"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Was passiert in der Zone?",
+   "paare": [
+    [
+     "Meer",
+     "Nahrungsgebiet der Schwimm- und Tauchvögel"
+    ],
+    [
+     "Watt",
+     "Lebensraum der Garnelen, Muscheln und Wattwürmer"
+    ],
+    [
+     "Salzwiese",
+     "Brutplätze der Vögel und Salzpflanzen"
+    ],
+    [
+     "Deich",
+     "schützt das Land vor Überflutung"
+    ]
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Beschreibe eine der vier Zonen in einem Satz.",
+   "punkte": 2,
+   "muster": "Zum Beispiel: Die Salzwiese wird selten überflutet. Hier wachsen Queller und Strandflieder, und Vögel brüten. (Oder: Das Watt wird zweimal täglich überflutet und liegt zwischen mittlerem Niedrigwasser und mittlerem Hochwasser.)",
+   "kriterien": [
+    "Eine Zone richtig benannt",
+    "Eine passende Eigenschaft genannt (Überflutung, Pflanzen oder Tiere)"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Die vier Zonen des Watts",
+   "frage": "Erkläre, wie sich die vier Zonen von der See zum Land unterscheiden.",
+   "punkte": 4,
+   "muster": "Das Meer ist ständig überflutet. Das Watt wird zweimal täglich überflutet und fällt bei Ebbe trocken. Die Salzwiese wird nur selten überflutet. Der Deich schützt das Land und wird nicht überflutet. Je weiter von der See entfernt, desto seltener wird die Zone überflutet.",
+   "kriterien": [
+    "Meer ständig überflutet",
+    "Watt zweimal täglich",
+    "Salzwiese selten",
+    "Deich nicht überflutet (schützt das Land)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,302 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-probearbeit",
+ "titel": "Geografie Klasse 6: Probearbeit (Nord- und Ostsee, Gezeiten, Wattenmeer, Küstenschutz)",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Eigene Probearbeit mit 48 Punkten in vier Teilen, etwa 45 Minuten. Alle Aufgaben sind neu. Gut für die Probearbeit-Funktion.",
+ "hinweis": "Das ist eine eigene Probearbeit, nicht die des Lehrers (es gibt keine). Aufbau, Punkte und Zeit sind selbst festgelegt. Tidenkalender und Wasserstände sind erfunden. Die vierte Zone des Watts heißt im Buch „Düne“, im Arbeitsblatt „Deich“.",
+ "lernblatt": [
+  {
+   "titel": "So läuft die Probearbeit",
+   "text": "Das ist eine **eigene Probearbeit**. Dein Lehrer hat keine vorgegeben, deshalb wurde sie nach den 13 Punkten des Wissenschecks selbst zusammengestellt. Die echte Arbeit kann anders aufgebaut sein.\n- **Zeit**: etwa 45 Minuten.\n- **Punkte**: 48 Punkte in vier Teilen: A Nord- und Ostsee (9), B Gezeiten (15), C Wattenmeer (12), D Küstenschutz (12). Die Punkte stehen über jedem Teil.\n- **Hilfsmittel**: keine. Schlage nichts nach, lies das Lernblatt erst danach.\n- Die Aufgaben sind neu. Sie stehen nicht in den Übungspaketen.\n- Faustregel zur Selbsteinschätzung: Ab etwa 38 Punkten (80 %) sitzt der Stoff gut. Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer.",
+   "merke": "Erst alles ohne Hilfe lösen, dann vergleichen. Wo Punkte fehlen, geh in das passende Übungspaket zurück."
+  },
+  {
+   "titel": "Was die Arbeitsaufträge verlangen",
+   "text": "- **Nenne**: kurz aufzählen, ganze Sätze sind nicht nötig.\n- **Beschrifte** oder **ordne zu**: Wörter oder Nummern richtig eintragen.\n- **Lies ab**: Werte aus der Kurve oder dem Tidenkalender nehmen. Bei der Kurve genügt die Uhrzeit auf eine halbe Stunde genau.\n- **Berechne**: rechnen und die Einheit schreiben, zum Beispiel Tidenhub = Hochwasser − Niedrigwasser.\n- **Erkläre** und **begründe**: einen Zusammenhang mit „weil“ oder „deshalb“ darlegen.",
+   "merke": "Bei Aufgaben mit 2 oder 3 Punkten wollen die Lehrer meist 2 oder 3 Gedanken sehen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Nord- und Ostsee (9 Punkte)",
+   "frage": "Aufgabe 1: Ergänze die Bundesländer.",
+   "text": "Die Bundesländer an der Nordsee sind Schleswig-Holstein und {{Niedersachsen}}. An der Ostsee liegen Schleswig-Holstein und {{Mecklenburg-Vorpommern}}. Das Bundesland {{Schleswig-Holstein}} liegt an beiden Meeren.",
+   "wortbank": [
+    "Niedersachsen",
+    "Mecklenburg-Vorpommern",
+    "Schleswig-Holstein",
+    "Bayern",
+    "Sachsen"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil A – Nord- und Ostsee (9 Punkte)",
+   "frage": "Aufgabe 2: Welche Eigenschaft passt zu welchem Meer? Ordne zu.",
+   "paare": [
+    [
+     "im Durchschnitt etwa 52 m tief",
+     "Ostsee"
+    ],
+    [
+     "etwa 3,5 % Salz",
+     "Nordsee"
+    ],
+    [
+     "kaum Gezeiten",
+     "Ostsee"
+    ],
+    [
+     "Watt und Dünen",
+     "Nordsee"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Nord- und Ostsee (9 Punkte)",
+   "frage": "Aufgabe 3: Ergänze die Inselgruppen.",
+   "text": "Sylt gehört zu den {{nordfriesischen}} Inseln und Borkum zu den {{ostfriesischen}} Inseln.",
+   "wortbank": [
+    "nordfriesischen",
+    "ostfriesischen",
+    "westfriesischen",
+    "ostseeischen"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil B – Gezeiten (15 Punkte)",
+   "frage": "Aufgabe 4: Beschrifte die Zeichnung der Gezeiten. Welches Wort gehört zu welcher Nummer?",
+   "text": "(1) {{Mond}}\n(2) {{Anziehungskraft|Anziehungskraft des Mondes}}\n(3) {{Erde}}\n(4) {{Flut}}\n(5) {{Ebbe}}\n(6) {{Fliehkraft|Fliehkraft der Erde}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 340\" width=\"600\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"600\" height=\"340\" fill=\"#ffffff\"/><ellipse cx=\"400\" cy=\"170\" rx=\"104\" ry=\"72\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><circle cx=\"400\" cy=\"170\" r=\"60\" fill=\"#d9cfa8\" stroke=\"#8a7a45\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"170\" r=\"26\" fill=\"#cfcfcf\" stroke=\"#777\" stroke-width=\"2\"/><line x1=\"288\" y1=\"170\" x2=\"106\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"106,170 116.1,165.7 116.1,174.3\" fill=\"#333\"/><line x1=\"512\" y1=\"170\" x2=\"576\" y2=\"170\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"576,170 565.9,174.3 565.9,165.7\" fill=\"#333\"/><circle cx=\"70\" cy=\"122\" r=\"13\" fill=\"#e2701a\"/><text x=\"70\" y=\"127.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"170\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"170\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"400\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"400\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"318\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"318\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><circle cx=\"482\" cy=\"170\" r=\"13\" fill=\"#e2701a\"/><text x=\"482\" y=\"175.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><circle cx=\"400\" cy=\"76\" r=\"13\" fill=\"#e2701a\"/><text x=\"400\" y=\"81.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"400\" y1=\"89\" x2=\"400\" y2=\"104\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"400\" cy=\"264\" r=\"13\" fill=\"#e2701a\"/><text x=\"400\" y=\"269.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"400\" y1=\"251\" x2=\"400\" y2=\"236\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"544\" cy=\"148\" r=\"13\" fill=\"#e2701a\"/><text x=\"544\" y=\"153.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Die Erde mit zwei Wasserbergen und dem Mond links daneben, mit den Nummern 1 bis 6",
+   "wortbank": [
+    "Mond",
+    "Anziehungskraft",
+    "Erde",
+    "Flut",
+    "Ebbe",
+    "Fliehkraft",
+    "Sonne",
+    "Gezeit"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil B – Gezeiten (15 Punkte)",
+   "frage": "Aufgabe 5: Erkläre, warum es an der Küste zweimal am Tag Flut gibt.",
+   "punkte": 2,
+   "muster": "Der Mond zieht mit seiner Anziehungskraft das Wasser auf der zugewandten Seite der Erde an, dort entsteht ein Wasserberg. Auf der abgewandten Seite drückt die Fliehkraft das Wasser nach außen, dort entsteht ein zweiter Wasserberg. Die Erde dreht sich unter den beiden Wasserbergen hindurch, deshalb gibt es zweimal am Tag Flut und dazwischen Ebbe.",
+   "kriterien": [
+    "Anziehungskraft des Mondes oder Wasserberg auf der zugewandten Seite",
+    "Fliehkraft oder zweiter Wasserberg auf der abgewandten Seite",
+    "Erde dreht sich unter den Wasserbergen hindurch (zweimal Flut, zweimal Ebbe)"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil B – Gezeiten (15 Punkte)",
+   "frage": "Aufgabe 6a: Lies die Gezeitenkurve ab. Um wie viel Uhr ist das erste Hochwasser des Tages? (Auf eine halbe Stunde genau.)",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 395\" width=\"760\" height=\"395\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"395\" fill=\"#ffffff\"/><line x1=\"70.0\" y1=\"30\" x2=\"70.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"70.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">0</text><line x1=\"97.5\" y1=\"30\" x2=\"97.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"30\" x2=\"125.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"152.5\" y1=\"30\" x2=\"152.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"152.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">3</text><line x1=\"180.0\" y1=\"30\" x2=\"180.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"207.5\" y1=\"30\" x2=\"207.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"235.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><line x1=\"262.5\" y1=\"30\" x2=\"262.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"290.0\" y1=\"30\" x2=\"290.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"317.5\" y1=\"30\" x2=\"317.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"317.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">9</text><line x1=\"345.0\" y1=\"30\" x2=\"345.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"372.5\" y1=\"30\" x2=\"372.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"400.0\" y1=\"30\" x2=\"400.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"400.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12</text><line x1=\"427.5\" y1=\"30\" x2=\"427.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"455.0\" y1=\"30\" x2=\"455.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"482.5\" y1=\"30\" x2=\"482.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"482.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">15</text><line x1=\"510.0\" y1=\"30\" x2=\"510.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"537.5\" y1=\"30\" x2=\"537.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"565.0\" y1=\"30\" x2=\"565.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"565.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">18</text><line x1=\"592.5\" y1=\"30\" x2=\"592.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"620.0\" y1=\"30\" x2=\"620.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"647.5\" y1=\"30\" x2=\"647.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"647.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21</text><line x1=\"675.0\" y1=\"30\" x2=\"675.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"702.5\" y1=\"30\" x2=\"702.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"730.0\" y1=\"30\" x2=\"730.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"730.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">24</text><line x1=\"70\" y1=\"330.0\" x2=\"730\" y2=\"330.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"335.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"292.5\" x2=\"730\" y2=\"292.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"297.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0,5</text><line x1=\"70\" y1=\"255.0\" x2=\"730\" y2=\"255.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"260.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1</text><line x1=\"70\" y1=\"217.5\" x2=\"730\" y2=\"217.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"222.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1,5</text><line x1=\"70\" y1=\"180.0\" x2=\"730\" y2=\"180.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"185.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"70\" y1=\"142.5\" x2=\"730\" y2=\"142.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"147.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2,5</text><line x1=\"70\" y1=\"105.0\" x2=\"730\" y2=\"105.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3</text><line x1=\"70\" y1=\"67.5\" x2=\"730\" y2=\"67.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"72.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3,5</text><line x1=\"70\" y1=\"30.0\" x2=\"730\" y2=\"30.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"35.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><polyline points=\"70.0,202.4 76.9,190.7 83.8,178.8 90.6,167.0 97.5,155.5 104.4,144.5 111.2,134.1 118.1,124.4 125.0,115.7 131.9,108.1 138.8,101.7 145.6,96.7 152.5,93.0 159.4,90.7 166.2,90.0 173.1,90.7 180.0,93.0 186.9,96.7 193.8,101.7 200.6,108.1 207.5,115.7 214.4,124.4 221.2,134.1 228.1,144.5 235.0,155.5 241.9,167.0 248.8,178.8 255.6,190.7 262.5,202.4 269.4,213.8 276.2,224.8 283.1,235.1 290.0,244.6 296.9,253.1 303.8,260.5 310.6,266.7 317.5,271.5 324.4,275.0 331.2,277.0 338.1,277.5 345.0,276.5 351.9,274.0 358.8,270.1 365.6,264.8 372.5,258.2 379.4,250.4 386.2,241.5 393.1,231.8 400.0,221.2 406.9,210.1 413.8,198.5 420.6,186.7 427.5,174.9 434.4,163.2 441.2,151.8 448.1,140.9 455.0,130.7 461.9,121.4 468.8,113.1 475.6,105.9 482.5,99.9 489.4,95.3 496.2,92.1 503.1,90.3 510.0,90.1 516.9,91.3 523.8,94.1 530.6,98.2 537.5,103.7 544.4,110.5 551.2,118.5 558.1,127.5 565.0,137.4 571.9,148.1 578.8,159.3 585.6,170.9 592.5,182.8 599.4,194.6 606.2,206.3 613.1,217.6 620.0,228.3 626.9,238.4 633.8,247.6 640.6,255.7 647.5,262.7 654.4,268.5 661.2,272.9 668.1,275.8 675.0,277.3 681.9,277.3 688.8,275.8 695.6,272.9 702.5,268.5 709.4,262.7 716.2,255.7 723.1,247.6 730.0,238.4\" fill=\"none\" stroke=\"#1f78b4\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"330\" x2=\"730\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"70\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"400\" y=\"378\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uhrzeit (Stunden)</text><text x=\"22\" y=\"180\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" transform=\"rotate(-90 22 180)\">Wasserstand in m</text></svg>",
+   "bildAlt": "Gezeitenkurve eines Tages (0 bis 24 Uhr), waagerecht die Uhrzeit, senkrecht der Wasserstand in Metern.",
+   "antworten": [
+    "3:30 Uhr",
+    "9:30 Uhr",
+    "6:30 Uhr",
+    "12:30 Uhr"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil B – Gezeiten (15 Punkte)",
+   "frage": "Aufgabe 6b: Berechne den Tidenhub an diesem Tag. Lies erst Hochwasser und Niedrigwasser ab. (2 Punkte)",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 395\" width=\"760\" height=\"395\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"395\" fill=\"#ffffff\"/><line x1=\"70.0\" y1=\"30\" x2=\"70.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"70.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">0</text><line x1=\"97.5\" y1=\"30\" x2=\"97.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"30\" x2=\"125.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"152.5\" y1=\"30\" x2=\"152.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"152.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">3</text><line x1=\"180.0\" y1=\"30\" x2=\"180.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"207.5\" y1=\"30\" x2=\"207.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"235.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><line x1=\"262.5\" y1=\"30\" x2=\"262.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"290.0\" y1=\"30\" x2=\"290.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"317.5\" y1=\"30\" x2=\"317.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"317.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">9</text><line x1=\"345.0\" y1=\"30\" x2=\"345.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"372.5\" y1=\"30\" x2=\"372.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"400.0\" y1=\"30\" x2=\"400.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"400.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12</text><line x1=\"427.5\" y1=\"30\" x2=\"427.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"455.0\" y1=\"30\" x2=\"455.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"482.5\" y1=\"30\" x2=\"482.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"482.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">15</text><line x1=\"510.0\" y1=\"30\" x2=\"510.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"537.5\" y1=\"30\" x2=\"537.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"565.0\" y1=\"30\" x2=\"565.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"565.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">18</text><line x1=\"592.5\" y1=\"30\" x2=\"592.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"620.0\" y1=\"30\" x2=\"620.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"647.5\" y1=\"30\" x2=\"647.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"647.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21</text><line x1=\"675.0\" y1=\"30\" x2=\"675.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"702.5\" y1=\"30\" x2=\"702.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"730.0\" y1=\"30\" x2=\"730.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"730.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">24</text><line x1=\"70\" y1=\"330.0\" x2=\"730\" y2=\"330.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"335.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"292.5\" x2=\"730\" y2=\"292.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"297.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0,5</text><line x1=\"70\" y1=\"255.0\" x2=\"730\" y2=\"255.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"260.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1</text><line x1=\"70\" y1=\"217.5\" x2=\"730\" y2=\"217.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"222.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1,5</text><line x1=\"70\" y1=\"180.0\" x2=\"730\" y2=\"180.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"185.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"70\" y1=\"142.5\" x2=\"730\" y2=\"142.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"147.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2,5</text><line x1=\"70\" y1=\"105.0\" x2=\"730\" y2=\"105.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3</text><line x1=\"70\" y1=\"67.5\" x2=\"730\" y2=\"67.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"72.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3,5</text><line x1=\"70\" y1=\"30.0\" x2=\"730\" y2=\"30.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"35.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><polyline points=\"70.0,202.4 76.9,190.7 83.8,178.8 90.6,167.0 97.5,155.5 104.4,144.5 111.2,134.1 118.1,124.4 125.0,115.7 131.9,108.1 138.8,101.7 145.6,96.7 152.5,93.0 159.4,90.7 166.2,90.0 173.1,90.7 180.0,93.0 186.9,96.7 193.8,101.7 200.6,108.1 207.5,115.7 214.4,124.4 221.2,134.1 228.1,144.5 235.0,155.5 241.9,167.0 248.8,178.8 255.6,190.7 262.5,202.4 269.4,213.8 276.2,224.8 283.1,235.1 290.0,244.6 296.9,253.1 303.8,260.5 310.6,266.7 317.5,271.5 324.4,275.0 331.2,277.0 338.1,277.5 345.0,276.5 351.9,274.0 358.8,270.1 365.6,264.8 372.5,258.2 379.4,250.4 386.2,241.5 393.1,231.8 400.0,221.2 406.9,210.1 413.8,198.5 420.6,186.7 427.5,174.9 434.4,163.2 441.2,151.8 448.1,140.9 455.0,130.7 461.9,121.4 468.8,113.1 475.6,105.9 482.5,99.9 489.4,95.3 496.2,92.1 503.1,90.3 510.0,90.1 516.9,91.3 523.8,94.1 530.6,98.2 537.5,103.7 544.4,110.5 551.2,118.5 558.1,127.5 565.0,137.4 571.9,148.1 578.8,159.3 585.6,170.9 592.5,182.8 599.4,194.6 606.2,206.3 613.1,217.6 620.0,228.3 626.9,238.4 633.8,247.6 640.6,255.7 647.5,262.7 654.4,268.5 661.2,272.9 668.1,275.8 675.0,277.3 681.9,277.3 688.8,275.8 695.6,272.9 702.5,268.5 709.4,262.7 716.2,255.7 723.1,247.6 730.0,238.4\" fill=\"none\" stroke=\"#1f78b4\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"330\" x2=\"730\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"70\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"400\" y=\"378\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uhrzeit (Stunden)</text><text x=\"22\" y=\"180\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" transform=\"rotate(-90 22 180)\">Wasserstand in m</text></svg>",
+   "bildAlt": "Gezeitenkurve eines Tages (0 bis 24 Uhr), waagerecht die Uhrzeit, senkrecht der Wasserstand in Metern.",
+   "info": "Tidenhub = Hochwasser − Niedrigwasser = 3,2 m − 0,7 m = 2,5 m.",
+   "richtig": [
+    "2,5",
+    "2.5"
+   ],
+   "einheit": "m",
+   "punkte": 2
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil B – Gezeiten (15 Punkte)",
+   "frage": "Aufgabe 6c: Was ist um 7 Uhr: Ebbe oder Flut?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 395\" width=\"760\" height=\"395\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"395\" fill=\"#ffffff\"/><line x1=\"70.0\" y1=\"30\" x2=\"70.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"70.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">0</text><line x1=\"97.5\" y1=\"30\" x2=\"97.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"30\" x2=\"125.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"152.5\" y1=\"30\" x2=\"152.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"152.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">3</text><line x1=\"180.0\" y1=\"30\" x2=\"180.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"207.5\" y1=\"30\" x2=\"207.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"235.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><line x1=\"262.5\" y1=\"30\" x2=\"262.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"290.0\" y1=\"30\" x2=\"290.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"317.5\" y1=\"30\" x2=\"317.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"317.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">9</text><line x1=\"345.0\" y1=\"30\" x2=\"345.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"372.5\" y1=\"30\" x2=\"372.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"400.0\" y1=\"30\" x2=\"400.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"400.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12</text><line x1=\"427.5\" y1=\"30\" x2=\"427.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"455.0\" y1=\"30\" x2=\"455.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"482.5\" y1=\"30\" x2=\"482.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"482.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">15</text><line x1=\"510.0\" y1=\"30\" x2=\"510.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"537.5\" y1=\"30\" x2=\"537.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"565.0\" y1=\"30\" x2=\"565.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"565.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">18</text><line x1=\"592.5\" y1=\"30\" x2=\"592.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"620.0\" y1=\"30\" x2=\"620.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"647.5\" y1=\"30\" x2=\"647.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"647.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21</text><line x1=\"675.0\" y1=\"30\" x2=\"675.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"702.5\" y1=\"30\" x2=\"702.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"730.0\" y1=\"30\" x2=\"730.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"730.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">24</text><line x1=\"70\" y1=\"330.0\" x2=\"730\" y2=\"330.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"335.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"292.5\" x2=\"730\" y2=\"292.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"297.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0,5</text><line x1=\"70\" y1=\"255.0\" x2=\"730\" y2=\"255.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"260.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1</text><line x1=\"70\" y1=\"217.5\" x2=\"730\" y2=\"217.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"222.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1,5</text><line x1=\"70\" y1=\"180.0\" x2=\"730\" y2=\"180.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"185.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"70\" y1=\"142.5\" x2=\"730\" y2=\"142.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"147.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2,5</text><line x1=\"70\" y1=\"105.0\" x2=\"730\" y2=\"105.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3</text><line x1=\"70\" y1=\"67.5\" x2=\"730\" y2=\"67.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"72.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3,5</text><line x1=\"70\" y1=\"30.0\" x2=\"730\" y2=\"30.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"35.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><polyline points=\"70.0,202.4 76.9,190.7 83.8,178.8 90.6,167.0 97.5,155.5 104.4,144.5 111.2,134.1 118.1,124.4 125.0,115.7 131.9,108.1 138.8,101.7 145.6,96.7 152.5,93.0 159.4,90.7 166.2,90.0 173.1,90.7 180.0,93.0 186.9,96.7 193.8,101.7 200.6,108.1 207.5,115.7 214.4,124.4 221.2,134.1 228.1,144.5 235.0,155.5 241.9,167.0 248.8,178.8 255.6,190.7 262.5,202.4 269.4,213.8 276.2,224.8 283.1,235.1 290.0,244.6 296.9,253.1 303.8,260.5 310.6,266.7 317.5,271.5 324.4,275.0 331.2,277.0 338.1,277.5 345.0,276.5 351.9,274.0 358.8,270.1 365.6,264.8 372.5,258.2 379.4,250.4 386.2,241.5 393.1,231.8 400.0,221.2 406.9,210.1 413.8,198.5 420.6,186.7 427.5,174.9 434.4,163.2 441.2,151.8 448.1,140.9 455.0,130.7 461.9,121.4 468.8,113.1 475.6,105.9 482.5,99.9 489.4,95.3 496.2,92.1 503.1,90.3 510.0,90.1 516.9,91.3 523.8,94.1 530.6,98.2 537.5,103.7 544.4,110.5 551.2,118.5 558.1,127.5 565.0,137.4 571.9,148.1 578.8,159.3 585.6,170.9 592.5,182.8 599.4,194.6 606.2,206.3 613.1,217.6 620.0,228.3 626.9,238.4 633.8,247.6 640.6,255.7 647.5,262.7 654.4,268.5 661.2,272.9 668.1,275.8 675.0,277.3 681.9,277.3 688.8,275.8 695.6,272.9 702.5,268.5 709.4,262.7 716.2,255.7 723.1,247.6 730.0,238.4\" fill=\"none\" stroke=\"#1f78b4\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"330\" x2=\"730\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"70\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"400\" y=\"378\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uhrzeit (Stunden)</text><text x=\"22\" y=\"180\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" transform=\"rotate(-90 22 180)\">Wasserstand in m</text></svg>",
+   "bildAlt": "Gezeitenkurve eines Tages (0 bis 24 Uhr), waagerecht die Uhrzeit, senkrecht der Wasserstand in Metern.",
+   "antworten": [
+    "Ebbe",
+    "Flut",
+    "Hochwasser",
+    "Niedrigwasser"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil B – Gezeiten (15 Punkte)",
+   "frage": "Aufgabe 7a: Lies den Tidenkalender ab. Wann ist am 2. Tag das erste Hochwasser? (Schreibe die Uhrzeit so: 04:05)",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 710 248\" width=\"710\" height=\"248\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"710\" height=\"248\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"90\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tag</text><rect x=\"100\" y=\"10\" width=\"140\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Hochwasser</text><rect x=\"240\" y=\"10\" width=\"140\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Hochwasser</text><rect x=\"380\" y=\"10\" width=\"160\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Niedrigwasser</text><rect x=\"540\" y=\"10\" width=\"160\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Niedrigwasser</text><rect x=\"10\" y=\"48\" width=\"90\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1. Tag</text><rect x=\"100\" y=\"48\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">06:05</text><rect x=\"240\" y=\"48\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">18:30</text><rect x=\"380\" y=\"48\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12:18</text><rect x=\"540\" y=\"48\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">–</text><rect x=\"10\" y=\"86\" width=\"90\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">2. Tag</text><rect x=\"100\" y=\"86\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">06:55</text><rect x=\"240\" y=\"86\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">19:20</text><rect x=\"380\" y=\"86\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">00:43</text><rect x=\"540\" y=\"86\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">13:08</text><rect x=\"10\" y=\"124\" width=\"90\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3. Tag</text><rect x=\"100\" y=\"124\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">07:45</text><rect x=\"240\" y=\"124\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">20:10</text><rect x=\"380\" y=\"124\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">01:33</text><rect x=\"540\" y=\"124\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">13:58</text><rect x=\"10\" y=\"162\" width=\"90\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4. Tag</text><rect x=\"100\" y=\"162\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">08:35</text><rect x=\"240\" y=\"162\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21:00</text><rect x=\"380\" y=\"162\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">02:23</text><rect x=\"540\" y=\"162\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">14:48</text><rect x=\"10\" y=\"200\" width=\"90\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"225.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">5. Tag</text><rect x=\"100\" y=\"200\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">09:25</text><rect x=\"240\" y=\"200\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21:50</text><rect x=\"380\" y=\"200\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">03:13</text><rect x=\"540\" y=\"200\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">15:38</text></svg>",
+   "bildAlt": "Tidenkalender (Uhrzeiten). Tidenkalender (Uhrzeiten): 1. Tag: HW 06:05 und 18:30, NW 12:18 und –; 2. Tag: HW 06:55 und 19:20, NW 00:43 und 13:08; 3. Tag: HW 07:45 und 20:10, NW 01:33 und 13:58; 4. Tag: HW 08:35 und 21:00, NW 02:23 und 14:48; 5. Tag: HW 09:25 und 21:50, NW 03:13 und 15:38",
+   "richtig": [
+    "06:55",
+    "6:55"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil B – Gezeiten (15 Punkte)",
+   "frage": "Aufgabe 7b: Im Tidenkalender wird das Hochwasser jeden Tag später. Erkläre, warum das so ist.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 710 248\" width=\"710\" height=\"248\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"710\" height=\"248\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"90\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tag</text><rect x=\"100\" y=\"10\" width=\"140\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Hochwasser</text><rect x=\"240\" y=\"10\" width=\"140\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Hochwasser</text><rect x=\"380\" y=\"10\" width=\"160\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Niedrigwasser</text><rect x=\"540\" y=\"10\" width=\"160\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Niedrigwasser</text><rect x=\"10\" y=\"48\" width=\"90\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1. Tag</text><rect x=\"100\" y=\"48\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">06:05</text><rect x=\"240\" y=\"48\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">18:30</text><rect x=\"380\" y=\"48\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12:18</text><rect x=\"540\" y=\"48\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">–</text><rect x=\"10\" y=\"86\" width=\"90\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">2. Tag</text><rect x=\"100\" y=\"86\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">06:55</text><rect x=\"240\" y=\"86\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">19:20</text><rect x=\"380\" y=\"86\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">00:43</text><rect x=\"540\" y=\"86\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">13:08</text><rect x=\"10\" y=\"124\" width=\"90\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3. Tag</text><rect x=\"100\" y=\"124\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">07:45</text><rect x=\"240\" y=\"124\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">20:10</text><rect x=\"380\" y=\"124\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">01:33</text><rect x=\"540\" y=\"124\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">13:58</text><rect x=\"10\" y=\"162\" width=\"90\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4. Tag</text><rect x=\"100\" y=\"162\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">08:35</text><rect x=\"240\" y=\"162\" width=\"140\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21:00</text><rect x=\"380\" y=\"162\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">02:23</text><rect x=\"540\" y=\"162\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">14:48</text><rect x=\"10\" y=\"200\" width=\"90\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"55.0\" y=\"225.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">5. Tag</text><rect x=\"100\" y=\"200\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"170.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">09:25</text><rect x=\"240\" y=\"200\" width=\"140\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"310.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21:50</text><rect x=\"380\" y=\"200\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"460.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">03:13</text><rect x=\"540\" y=\"200\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"620.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">15:38</text></svg>",
+   "bildAlt": "Tidenkalender (Uhrzeiten). Tidenkalender (Uhrzeiten): 1. Tag: HW 06:05 und 18:30, NW 12:18 und –; 2. Tag: HW 06:55 und 19:20, NW 00:43 und 13:08; 3. Tag: HW 07:45 und 20:10, NW 01:33 und 13:58; 4. Tag: HW 08:35 und 21:00, NW 02:23 und 14:48; 5. Tag: HW 09:25 und 21:50, NW 03:13 und 15:38",
+   "punkte": 2,
+   "muster": "Der Mond umrundet die Erde in etwa 28 Tagen. Wenn sich die Erde nach 24 Stunden einmal gedreht hat, ist der Mond ein Stück weitergewandert. Die Erde braucht noch etwa 50 Minuten, bis sie ihn eingeholt hat. Deshalb verschieben sich die Gezeiten jeden Tag um etwa 50 Minuten.",
+   "kriterien": [
+    "Mond wandert auf seiner Bahn weiter",
+    "Erde braucht etwa 50 Minuten länger, bis sie den Mond eingeholt hat"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil C – Wattenmeer (12 Punkte)",
+   "frage": "Aufgabe 8: Erkläre, warum das Wattenmeer ein wichtiger Lebensraum ist. Nenne drei Aufgaben des Watts für Tiere.",
+   "punkte": 3,
+   "muster": "Das Watt ist reich an Nährstoffen und deshalb ein Futterplatz für viele Tiere. Es ist eine Kinderstube für Fische, Garnelen und Seehunde. Außerdem ist es ein Brut- und Rastplatz für Zugvögel.",
+   "kriterien": [
+    "Futterplatz (viele Nährstoffe)",
+    "Kinderstube für Fische oder andere Jungtiere",
+    "Brut- oder Rastplatz für Vögel"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil C – Wattenmeer (12 Punkte)",
+   "frage": "Aufgabe 9: Welche Zone des Watts ist gemeint? Ordne zu.",
+   "info": "Im Buch steht an der Stelle des Deichs „Düne“. Das gilt hier auch.",
+   "paare": [
+    [
+     "wird zweimal am Tag überflutet",
+     "Watt"
+    ],
+    [
+     "wird selten überflutet, Queller wächst hier",
+     "Salzwiese"
+    ],
+    [
+     "ist ständig überflutet",
+     "Meer"
+    ],
+    [
+     "schützt das Land und wird nicht überflutet",
+     "Deich"
+    ]
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil C – Wattenmeer (12 Punkte)",
+   "frage": "Aufgabe 10: Das Wattenmeer wird geschützt. Nenne einen Grund und zwei Schutzmaßnahmen.",
+   "punkte": 3,
+   "muster": "Grund: Das Watt ist einzigartig auf der Erde und die Tiere sind angepasst, jede Störung gefährdet sie. Schutzmaßnahmen: Es ist Nationalpark (seit 1986) und Weltnaturerbe (seit 2009), außerdem gibt es Schutzzonen und Hinweisschilder.",
+   "kriterien": [
+    "Ein Grund genannt (einzigartig, empfindlich, Tiere nicht stören)",
+    "Erste Schutzmaßnahme genannt",
+    "Zweite Schutzmaßnahme genannt (zum Beispiel Nationalpark, Weltnaturerbe, Schutzzonen, Schilder)"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil C – Wattenmeer (12 Punkte)",
+   "frage": "Aufgabe 11: Ergänze die Schutzzonen.",
+   "text": "Die Zone mit den strengsten Regeln heißt {{Ruhezone}}. Zur {{Erholungszone}} gehören die Badestrände.",
+   "wortbank": [
+    "Ruhezone",
+    "Erholungszone",
+    "Brutzone",
+    "Zwischenzone"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil D – Küstenschutz (12 Punkte)",
+   "frage": "Aufgabe 12: Beschrifte den Deich. Hier liegt das Meer rechts. Schreibe zu jeder genannten Nummer das passende Wort.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><g transform=\"translate(640 0) scale(-1 1)\"><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/></g><text x=\"600\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"80\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"490\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"490\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"120\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"120\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"290\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"290\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"410\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"410\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"378\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"378\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"255\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"578\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"578\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"530\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"530\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"590\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"590\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich, das Meer liegt rechts, das Land links, mit den Nummern 1 bis 9. Gefragt sind fünf der neun Nummern.",
+   "paare": [
+    [
+     "Nummer 2",
+     "Deichkrone"
+    ],
+    [
+     "Nummer 4",
+     "Grasdecke"
+    ],
+    [
+     "Nummer 5",
+     "Deichfuß"
+    ],
+    [
+     "Nummer 7",
+     "Sandkern"
+    ],
+    [
+     "Nummer 9",
+     "Landseite"
+    ]
+   ],
+   "extra": [
+    "Düne",
+    "Priel"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil D – Küstenschutz (12 Punkte)",
+   "frage": "Aufgabe 13: Erkläre, welche Aufgabe die Steine am Deichfuß und die Grasdecke haben.",
+   "punkte": 2,
+   "muster": "Am Deichfuß treffen die Wellen zuerst auf den Deich. Die Steine verhindern, dass das Wasser den Fuß aushöhlt und wegspült. Die Wurzeln der Grasdecke halten den Boden fest, sodass der Deich nicht von Wellen, Wind und Regen abgetragen wird.",
+   "kriterien": [
+    "Steine schützen den Deichfuß vor dem Aushöhlen",
+    "Gras hält mit den Wurzeln den Boden fest"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil D – Küstenschutz (12 Punkte)",
+   "frage": "Aufgabe 14: Ergänze, wie eine Düne wächst.",
+   "text": "Der Wind weht Sand vom Strand landeinwärts. Der {{Strandhafer}} hält den Sand mit seinen {{Wurzeln}} fest. Wird er mit Sand zugeschüttet, wächst er oben wieder {{heraus}}.",
+   "wortbank": [
+    "Strandhafer",
+    "Wurzeln",
+    "heraus",
+    "Muscheln",
+    "hinein"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil D – Küstenschutz (12 Punkte)",
+   "frage": "Aufgabe 15: Schau dir die Zeichnungen an. Welche Zeichnung zeigt Flut? Beschreibe, was am Sieltor passiert, und erkläre warum.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 780 330\" width=\"780\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"780\" height=\"330\" fill=\"#ffffff\"/><rect x=\"0\" y=\"270\" width=\"160\" height=\"30\" fill=\"#bfe0f3\"/><line x1=\"0\" y1=\"270\" x2=\"160\" y2=\"270\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"220\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"220\" y1=\"238\" x2=\"380\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"0\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"160\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"160\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"160\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><rect x=\"160\" y=\"242\" width=\"60\" height=\"58\" fill=\"#aed6ee\"/><line x1=\"160\" y1=\"225\" x2=\"122\" y2=\"286\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"160\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"280\" y1=\"262\" x2=\"105\" y2=\"262\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"105,262 115.1,257.7 115.1,266.3\" fill=\"#1f78b4\"/><text x=\"70\" y=\"236\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"190.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"300\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"114\" y=\"213\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"190\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung 1</text><rect x=\"400\" y=\"140\" width=\"160\" height=\"160\" fill=\"#bfe0f3\"/><line x1=\"400\" y1=\"140\" x2=\"560\" y2=\"140\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><rect x=\"620\" y=\"238\" width=\"160\" height=\"62\" fill=\"#d6edf9\"/><line x1=\"620\" y1=\"238\" x2=\"780\" y2=\"238\" stroke=\"#7bb9dc\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><rect x=\"400\" y=\"300\" width=\"380\" height=\"30\" fill=\"#c9ad7a\"/><rect x=\"560\" y=\"60\" width=\"60\" height=\"240\" fill=\"#9a6b43\"/><rect x=\"560\" y=\"56\" width=\"60\" height=\"10\" fill=\"#4f9d3a\"/><rect x=\"560\" y=\"225\" width=\"60\" height=\"75\" fill=\"#d6edf9\"/><line x1=\"560\" y1=\"225\" x2=\"560\" y2=\"300\" stroke=\"#222\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"560\" cy=\"225\" r=\"5\" fill=\"#fff\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"430\" y1=\"200\" x2=\"552\" y2=\"200\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,200 541.9,204.3 541.9,195.7\" fill=\"#1f78b4\"/><line x1=\"430\" y1=\"160\" x2=\"552\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"3.5\"/><polygon points=\"552,160 541.9,164.3 541.9,155.7\" fill=\"#1f78b4\"/><text x=\"470\" y=\"128\" font-size=\"21\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"590.0\" y=\"108\" font-size=\"19\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">Deich</text><text x=\"700\" y=\"292\" font-size=\"17\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land (Marsch)</text><text x=\"536\" y=\"268\" font-size=\"21\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tor</text><text x=\"590\" y=\"36\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Zeichnung 2</text><line x1=\"390\" y1=\"20\" x2=\"390\" y2=\"320\" stroke=\"#bbb\" stroke-width=\"1.5\"/></svg>",
+   "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich, Zeichnung 1 links und Zeichnung 2 rechts",
+   "punkte": 2,
+   "muster": "Zeichnung 2 zeigt Flut. Das Meerwasser steht hoch und drückt das Tor zu. So kommt kein Salzwasser ins Land. (Zeichnung 1 zeigt Ebbe: Das Tor ist offen und das Wasser aus dem Land fließt ins Meer ab.)",
+   "kriterien": [
+    "Flut richtig zugeordnet (Zeichnung 2) und Tor geschlossen",
+    "Erklärt, dass das Meerwasser das Tor zudrückt und kein Salzwasser ins Land kommt"
+   ]
+  }
+ ]
+}

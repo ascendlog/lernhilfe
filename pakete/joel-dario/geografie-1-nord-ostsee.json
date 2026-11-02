@@ -1,0 +1,926 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-1-nord-ostsee",
+ "titel": "Geografie Teil 1: Nord- und Ostsee",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Bundesländer und Länder, Unterschiede zwischen Nord- und Ostsee, Städte, Flüsse, Inseln. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Die Karte zu diesem Teil lag nicht vor. Städte, Flüsse und Inseln bitte mit dem Atlas oder der Karte aus dem Unterricht abgleichen.",
+ "lernblatt": [
+  {
+   "titel": "Länder und Bundesländer an den Meeren",
+   "text": "- **Nordsee**: Die deutschen Bundesländer an der Nordsee sind **Schleswig-Holstein** und **Niedersachsen**. Dazu kommen die Stadtstaaten **Hamburg** (an der Elbe) und **Bremen** (an der Weser).\n- **Ostsee**: Die deutschen Bundesländer an der Ostsee sind **Schleswig-Holstein** und **Mecklenburg-Vorpommern**.\n- Länder rund um die **Nordsee**: Deutschland, Dänemark, Niederlande, Belgien, Frankreich, Vereinigtes Königreich und Norwegen.\n- Länder rund um die **Ostsee**: Deutschland, Dänemark, Schweden, Finnland, Russland, Estland, Lettland, Litauen und Polen.\n- Der **Nord-Ostsee-Kanal** verbindet beide Meere. Er verläuft von Brunsbüttel (Nordsee) nach Kiel (Ostsee).",
+   "merke": "Schleswig-Holstein ist das einzige Bundesland, das an beiden Meeren liegt."
+  },
+  {
+   "titel": "Nordsee und Ostsee im Vergleich",
+   "text": "- **Gezeiten**: Die Nordsee hat Ebbe und Flut (Tidenhub etwa 3 bis 4 m). In der Ostsee gibt es kaum Gezeiten, denn die Flutwelle kommt nur durch eine enge Passage zwischen den dänischen Inseln hinein.\n- **Salzgehalt**: Die Nordsee hat etwa 3,5 % Salz. Die Ostsee hat nur etwa 1 % und ist **Brackwasser** (ein Gemisch aus Salz- und Süßwasser). Sie ist das größte Brackwassermeer der Welt.\n- **Verbindung zum Ozean**: Die Nordsee ist weit zum Atlantik geöffnet. Die Ostsee ist fast abgeschlossen und hat nur schmale Zugänge (ein **Binnenmeer**).\n- **Tiefe**: Die Nordsee ist im Durchschnitt etwa 94 m tief. Die Ostsee ist flacher, im Durchschnitt etwa 52 m. Ihre tiefste Stelle liegt bei etwa 459 m.\n- **Küste**: An der Nordsee gibt es Watt, Deiche und Dünen. An der Ostsee gibt es **Förden** (lange Meeresbuchten), **Bodden** (flache Buchten), Steilküsten und Sandstrände.\n- **Wellen**: Die Nordsee ist oft rau mit hohen Wellen. Die Ostsee ist meist ruhiger. In kalten Wintern kann sie teilweise zufrieren.",
+   "merke": "Vier Unterschiede reichen: Gezeiten, Salzgehalt, Tiefe und Küstenform. Die Nordsee hat Ebbe und Flut, ist salziger und tiefer. Die Ostsee hat kaum Gezeiten, ist Brackwasser und flacher."
+  },
+  {
+   "titel": "Städte, Flüsse und Inseln",
+   "text": "- **Städte an der Nordsee**: Cuxhaven, Bremerhaven, Wilhelmshaven, Emden, Husum. (Hamburg und Bremen liegen weiter landeinwärts an Elbe und Weser.)\n- **Städte an der Ostsee**: Flensburg, Kiel, Lübeck, Wismar, Rostock, Stralsund, Greifswald.\n- **Flüsse zur Nordsee**: Ems, Weser, Elbe, Eider.\n- **Flüsse zur Ostsee**: Trave, Warnow, Peene, Oder.\n- **Inseln in der Nordsee**: Sylt, Föhr, Amrum, Pellworm, Helgoland, Borkum, Norderney.\n- **Inseln in der Ostsee**: Fehmarn, Rügen, Usedom, Hiddensee.",
+   "merke": "Rügen ist die größte deutsche Insel. Die Elbe fließt bei Hamburg vorbei und mündet bei Cuxhaven in die Nordsee. Bei Namen hilft der Blick in den Atlas."
+  },
+  {
+   "titel": "Nordfriesische und Ostfriesische Inseln",
+   "text": "- Die **Nordfriesischen Inseln** liegen vor Schleswig-Holstein: Sylt, Föhr, Amrum, Pellworm.\n- Die **Ostfriesischen Inseln** liegen vor Niedersachsen. Von West nach Ost: Borkum, Juist, Norderney, Baltrum, Langeoog, Spiekeroog, Wangerooge.\n- **Helgoland** liegt weit draußen in der Nordsee und gehört zu keiner der beiden Gruppen.\n- Eselsbrücke (ein Vorschlag, du kannst dir auch eine eigene ausdenken): **B**ei **J**edem **N**ordwind **B**rauchen **L**ange **S**ieben **W**indjacken.",
+   "merke": "Für den Wissenscheck brauchst du eine nordfriesische und mindestens zwei ostfriesische Inseln, zum Beispiel Sylt, Borkum und Norderney."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Welches Bundesland liegt an der Nordsee und an der Ostsee?",
+   "antworten": [
+    "Schleswig-Holstein",
+    "Niedersachsen",
+    "Mecklenburg-Vorpommern",
+    "Bremen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Welches Bundesland liegt nur an der Ostsee?",
+   "info": "Schleswig-Holstein liegt an beiden Meeren, Niedersachsen nur an der Nordsee.",
+   "antworten": [
+    "Mecklenburg-Vorpommern",
+    "Niedersachsen",
+    "Schleswig-Holstein",
+    "Hamburg"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "An welchem Meer liegt Niedersachsen?",
+   "antworten": [
+    "Nordsee",
+    "Ostsee",
+    "Nordsee und Ostsee",
+    "Mittelmeer"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Ordne jedem Bundesland sein Meer zu.",
+   "paare": [
+    [
+     "Schleswig-Holstein",
+     "Nordsee und Ostsee"
+    ],
+    [
+     "Niedersachsen",
+     "nur Nordsee"
+    ],
+    [
+     "Mecklenburg-Vorpommern",
+     "nur Ostsee"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Ergänze den Text über die deutschen Meere.",
+   "text": "Schleswig-Holstein liegt an der {{Nordsee}} und an der {{Ostsee}}. Der {{Nord-Ostsee-Kanal}} verbindet beide Meere miteinander. Er verläuft von {{Brunsbüttel}} nach Kiel.",
+   "wortbank": [
+    "Nordsee",
+    "Ostsee",
+    "Nord-Ostsee-Kanal",
+    "Brunsbüttel",
+    "Mittelmeer",
+    "Rhein"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Hamburg und Bremen sind Stadtstaaten. Sie liegen an der Elbe und an der Weser.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Welches Land liegt an der Nordsee, aber nicht an der Ostsee?",
+   "antworten": [
+    "Niederlande",
+    "Polen",
+    "Estland",
+    "Litauen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Welches Land liegt an der Ostsee, aber nicht an der Nordsee?",
+   "antworten": [
+    "Polen",
+    "Niederlande",
+    "Belgien",
+    "Vereinigtes Königreich"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Zu welchem Meer gehört das Land?",
+   "paare": [
+    [
+     "Niederlande",
+     "Nordsee"
+    ],
+    [
+     "Polen",
+     "Ostsee"
+    ],
+    [
+     "Belgien",
+     "Nordsee"
+    ],
+    [
+     "Estland",
+     "Ostsee"
+    ],
+    [
+     "Lettland",
+     "Ostsee"
+    ],
+    [
+     "Norwegen",
+     "Nordsee"
+    ]
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Dänemark hat eine Küste an der Nordsee und an der Ostsee.",
+   "richtig": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "Wie heißt der Kanal, der die Nordsee mit der Ostsee verbindet?",
+   "info": "Der Kanal verläuft von Brunsbüttel an der Elbmündung bis nach Kiel.",
+   "richtig": [
+    "Nord-Ostsee-Kanal",
+    "Nord-Ostsee Kanal",
+    "Kiel-Kanal",
+    "NOK"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meere und Länder",
+   "frage": "In welcher Stadt endet der Nord-Ostsee-Kanal an der Ostsee?",
+   "antworten": [
+    "Kiel",
+    "Rostock",
+    "Cuxhaven",
+    "Husum"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Welches Meer hat deutliche Gezeiten (Ebbe und Flut)?",
+   "antworten": [
+    "Nordsee",
+    "Ostsee",
+    "Beide gleich stark",
+    "Keines von beiden"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Wie viel Salz enthält das Wasser der Nordsee etwa?",
+   "antworten": [
+    "etwa 3,5 %",
+    "etwa 1 %",
+    "etwa 10 %",
+    "etwa 0,1 %"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Wie viel Prozent Salz hat die Ostsee etwa?",
+   "info": "Wegen des geringen Salzgehalts nennt man die Ostsee ein Brackwassermeer.",
+   "richtig": [
+    "1",
+    "1 %",
+    "1%"
+   ],
+   "einheit": "%"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Wie nennt man Wasser, das aus einer Mischung von Salz- und Süßwasser besteht?",
+   "antworten": [
+    "Brackwasser",
+    "Meerwasser",
+    "Quellwasser",
+    "Sole"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Die Ostsee ist tiefer als die Nordsee.",
+   "info": "Die Nordsee ist im Durchschnitt etwa 94 m tief, die Ostsee nur etwa 52 m.",
+   "richtig": false
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Wie tief ist die Nordsee im Durchschnitt?",
+   "richtig": [
+    "94",
+    "94 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Wie tief ist die Ostsee im Durchschnitt?",
+   "richtig": [
+    "52",
+    "52 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Welche Küstenformen gibt es an der Ostsee?",
+   "antworten": [
+    "Förden, Bodden und Steilküsten",
+    "Watt, Deiche und Dünen",
+    "Wüsten und Oasen",
+    "Fjorde und Gletscher"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Welche Küstenformen gibt es an der Nordsee?",
+   "antworten": [
+    "Watt, Deiche und Dünen",
+    "Förden, Bodden und Steilküsten",
+    "Korallenriffe",
+    "Vulkane"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Gehört das zur Nordsee oder zur Ostsee?",
+   "paare": [
+    [
+     "Ebbe und Flut",
+     "Nordsee"
+    ],
+    [
+     "Brackwasser",
+     "Ostsee"
+    ],
+    [
+     "Watt",
+     "Nordsee"
+    ],
+    [
+     "Förden",
+     "Ostsee"
+    ],
+    [
+     "Bodden",
+     "Ostsee"
+    ],
+    [
+     "Deiche",
+     "Nordsee"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Ergänze den Vergleich.",
+   "text": "Die {{Nordsee}} ist weit zum Atlantik geöffnet, deshalb gibt es dort Ebbe und Flut. Die {{Ostsee}} ist fast abgeschlossen. Sie ist ein {{Binnenmeer}} und enthält nur etwa 1 % Salz, also {{Brackwasser}}.",
+   "wortbank": [
+    "Nordsee",
+    "Ostsee",
+    "Binnenmeer",
+    "Brackwasser",
+    "Ozean",
+    "Süßwasser"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Warum gibt es in der Ostsee kaum Gezeiten?",
+   "antworten": [
+    "Die Flutwelle kommt nur durch eine enge Passage zwischen den dänischen Inseln hinein.",
+    "Die Ostsee ist zu kalt.",
+    "Der Mond zieht dort nicht am Wasser.",
+    "Es gibt in der Ostsee keine Küsten."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Die Ostsee ist mit dem Atlantik nur durch schmale Zugänge verbunden.",
+   "info": "Darum sagt man auch Binnenmeer.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "In sehr kalten Wintern kann die Ostsee teilweise zufrieren.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Die Ostsee ist das größte Brackwassermeer der Welt.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Wie tief ist die Ostsee an ihrer tiefsten Stelle etwa?",
+   "antworten": [
+    "etwa 459 m",
+    "etwa 59 m",
+    "etwa 159 m",
+    "etwa 1459 m"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Welche Aussage über die Nordsee stimmt?",
+   "antworten": [
+    "Sie ist oft rau mit hohen Wellen.",
+    "Sie ist ein Binnenmeer.",
+    "Sie hat nur 1 % Salz.",
+    "Sie ist flacher als die Ostsee."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Nenne vier Unterschiede zwischen Nordsee und Ostsee.",
+   "punkte": 4,
+   "muster": "Gezeiten: Die Nordsee hat Ebbe und Flut, die Ostsee kaum. Salzgehalt: Die Nordsee hat etwa 3,5 %, die Ostsee etwa 1 % (Brackwasser). Tiefe: Die Nordsee ist im Durchschnitt etwa 94 m tief, die Ostsee nur etwa 52 m. Küste: An der Nordsee gibt es Watt, Deiche und Dünen, an der Ostsee Förden, Bodden und Steilküsten.",
+   "kriterien": [
+    "Gezeiten richtig genannt",
+    "Salzgehalt richtig genannt",
+    "Tiefe richtig genannt",
+    "Küstenform richtig genannt"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Unterschiede zwischen Nordsee und Ostsee",
+   "frage": "Erkläre, warum man an der Ostsee kaum Gezeiten spürt.",
+   "punkte": 2,
+   "muster": "Die Flutwelle läuft von Norden in die Nordsee, an der englischen, niederländischen und deutschen Küste entlang und bei Dänemark wieder hinaus. Nur ein kleiner Teil strömt um Dänemark herum in die Ostsee, und die dänischen Inseln stehen im Weg. Deshalb spürt man in der Ostsee kaum Gezeiten.",
+   "kriterien": [
+    "Die Flutwelle kommt nur durch eine enge Passage in die Ostsee",
+    "Die dänischen Inseln stehen im Weg",
+    "Deshalb kaum Gezeiten"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Zu welchem Meer gehört die Stadt?",
+   "paare": [
+    [
+     "Kiel",
+     "Ostsee"
+    ],
+    [
+     "Cuxhaven",
+     "Nordsee"
+    ],
+    [
+     "Rostock",
+     "Ostsee"
+    ],
+    [
+     "Emden",
+     "Nordsee"
+    ],
+    [
+     "Lübeck",
+     "Ostsee"
+    ],
+    [
+     "Husum",
+     "Nordsee"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Zu welchem Meer gehört die Stadt?",
+   "paare": [
+    [
+     "Flensburg",
+     "Ostsee"
+    ],
+    [
+     "Wilhelmshaven",
+     "Nordsee"
+    ],
+    [
+     "Stralsund",
+     "Ostsee"
+    ],
+    [
+     "Bremerhaven",
+     "Nordsee"
+    ],
+    [
+     "Wismar",
+     "Ostsee"
+    ],
+    [
+     "Greifswald",
+     "Ostsee"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Welche Stadt liegt an der Ostsee?",
+   "antworten": [
+    "Rostock",
+    "Emden",
+    "Husum",
+    "Wilhelmshaven"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Welche Stadt liegt an der Nordsee?",
+   "antworten": [
+    "Cuxhaven",
+    "Kiel",
+    "Lübeck",
+    "Stralsund"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Welche Stadt liegt nicht an der Ostsee?",
+   "antworten": [
+    "Bremerhaven",
+    "Flensburg",
+    "Wismar",
+    "Greifswald"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Welche Stadt liegt nicht an der Nordsee?",
+   "antworten": [
+    "Lübeck",
+    "Emden",
+    "Cuxhaven",
+    "Husum"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Ergänze die Städte.",
+   "text": "An der Nordsee liegen zum Beispiel {{Cuxhaven}}, {{Emden}} und {{Husum}}. An der Ostsee liegen zum Beispiel {{Kiel}}, {{Lübeck}} und {{Rostock}}.",
+   "wortbank": [
+    "Cuxhaven",
+    "Emden",
+    "Husum",
+    "Kiel",
+    "Lübeck",
+    "Rostock",
+    "Hamburg",
+    "Dresden"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Hamburg liegt nicht direkt am Meer. Wo liegt Hamburg?",
+   "antworten": [
+    "an der Elbe, weiter landeinwärts",
+    "an der Ostsee",
+    "an der Weser",
+    "auf einer Insel"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Ordne diese Städte an der Ostsee von West nach Ost.",
+   "tipp": "Kiel liegt in Schleswig-Holstein, Greifswald in Mecklenburg-Vorpommern ganz im Osten.",
+   "schritte": [
+    "Kiel",
+    "Lübeck",
+    "Rostock",
+    "Stralsund",
+    "Greifswald"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Ordne diese Städte an der Nordsee von West nach Ost.",
+   "schritte": [
+    "Emden",
+    "Wilhelmshaven",
+    "Bremerhaven",
+    "Cuxhaven",
+    "Husum"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Welche Hafenstadt liegt an der Mündung der Elbe in die Nordsee?",
+   "richtig": "Cuxhaven"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Städte an den Küsten",
+   "frage": "Schleswig-Holstein hat Städte an der Nordsee und an der Ostsee.",
+   "info": "Zum Beispiel Husum an der Nordsee und Kiel an der Ostsee.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Flüsse",
+   "frage": "In welches Meer mündet der Fluss?",
+   "paare": [
+    [
+     "Elbe",
+     "Nordsee"
+    ],
+    [
+     "Warnow",
+     "Ostsee"
+    ],
+    [
+     "Weser",
+     "Nordsee"
+    ],
+    [
+     "Trave",
+     "Ostsee"
+    ],
+    [
+     "Ems",
+     "Nordsee"
+    ],
+    [
+     "Peene",
+     "Ostsee"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Flüsse",
+   "frage": "Welcher Fluss mündet in die Ostsee?",
+   "antworten": [
+    "Warnow",
+    "Weser",
+    "Elbe",
+    "Eider"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Flüsse",
+   "frage": "Welcher Fluss mündet in die Nordsee?",
+   "antworten": [
+    "Weser",
+    "Trave",
+    "Peene",
+    "Oder"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Flüsse",
+   "frage": "Welcher Fluss fließt bei Hamburg vorbei und mündet bei Cuxhaven in die Nordsee?",
+   "antworten": [
+    "Elbe",
+    "Ems",
+    "Trave",
+    "Oder"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Flüsse",
+   "frage": "An welchem Fluss liegt Hamburg?",
+   "richtig": "Elbe"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Flüsse",
+   "frage": "An welchem Fluss liegt Bremen?",
+   "richtig": "Weser"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Flüsse",
+   "frage": "An welchem Fluss liegt Rostock?",
+   "info": "Die Warnow mündet bei Warnemünde in die Ostsee.",
+   "richtig": "Warnow"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Flüsse",
+   "frage": "An welchem Fluss liegt Lübeck?",
+   "info": "Die Trave mündet bei Travemünde in die Ostsee.",
+   "richtig": "Trave"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Flüsse",
+   "frage": "Ergänze die Flüsse.",
+   "text": "Die {{Elbe}}, die {{Weser}} und die {{Ems}} fließen in die Nordsee. Die {{Warnow}}, die {{Trave}} und die {{Oder}} fließen in die Ostsee.",
+   "wortbank": [
+    "Elbe",
+    "Weser",
+    "Ems",
+    "Warnow",
+    "Trave",
+    "Oder",
+    "Donau",
+    "Rhein"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Flüsse",
+   "frage": "Die Ems mündet in die Ostsee.",
+   "info": "Die Ems mündet in die Nordsee.",
+   "richtig": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Inseln",
+   "frage": "In welchem Meer liegt die Insel?",
+   "paare": [
+    [
+     "Sylt",
+     "Nordsee"
+    ],
+    [
+     "Rügen",
+     "Ostsee"
+    ],
+    [
+     "Borkum",
+     "Nordsee"
+    ],
+    [
+     "Fehmarn",
+     "Ostsee"
+    ],
+    [
+     "Norderney",
+     "Nordsee"
+    ],
+    [
+     "Usedom",
+     "Ostsee"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Inseln",
+   "frage": "Welches ist die größte deutsche Insel?",
+   "antworten": [
+    "Rügen",
+    "Sylt",
+    "Borkum",
+    "Fehmarn"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Inseln",
+   "frage": "Welche Insel liegt in der Ostsee?",
+   "antworten": [
+    "Hiddensee",
+    "Föhr",
+    "Amrum",
+    "Helgoland"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Inseln",
+   "frage": "Welche Insel liegt in der Nordsee?",
+   "antworten": [
+    "Pellworm",
+    "Usedom",
+    "Rügen",
+    "Fehmarn"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Inseln",
+   "frage": "Gehört die Insel zu den Nordfriesischen oder zu den Ostfriesischen Inseln?",
+   "paare": [
+    [
+     "Sylt",
+     "Nordfriesisch"
+    ],
+    [
+     "Borkum",
+     "Ostfriesisch"
+    ],
+    [
+     "Föhr",
+     "Nordfriesisch"
+    ],
+    [
+     "Norderney",
+     "Ostfriesisch"
+    ],
+    [
+     "Amrum",
+     "Nordfriesisch"
+    ],
+    [
+     "Spiekeroog",
+     "Ostfriesisch"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Inseln",
+   "frage": "Vor welchem Bundesland liegen die Nordfriesischen Inseln?",
+   "antworten": [
+    "Schleswig-Holstein",
+    "Niedersachsen",
+    "Mecklenburg-Vorpommern",
+    "Bremen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Inseln",
+   "frage": "Vor welchem Bundesland liegen die Ostfriesischen Inseln?",
+   "antworten": [
+    "Niedersachsen",
+    "Schleswig-Holstein",
+    "Mecklenburg-Vorpommern",
+    "Hamburg"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Inseln",
+   "frage": "Welche Insel gehört nicht zu den Ostfriesischen Inseln?",
+   "antworten": [
+    "Sylt",
+    "Juist",
+    "Baltrum",
+    "Langeoog"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Inseln",
+   "frage": "Helgoland gehört zu den Ostfriesischen Inseln.",
+   "info": "Helgoland liegt weit draußen in der Nordsee und gehört zu keiner der beiden Inselgruppen.",
+   "richtig": false
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "E – Inseln",
+   "frage": "Ordne die sieben Ostfriesischen Inseln von West nach Ost.",
+   "tipp": "Eselsbrücke: Bei Jedem Nordwind Brauchen Lange Sieben Windjacken.",
+   "schritte": [
+    "Borkum",
+    "Juist",
+    "Norderney",
+    "Baltrum",
+    "Langeoog",
+    "Spiekeroog",
+    "Wangerooge"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Inseln",
+   "frage": "Welche Ostfriesische Insel liegt ganz im Westen?",
+   "richtig": "Borkum"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Inseln",
+   "frage": "Welche Ostfriesische Insel liegt ganz im Osten?",
+   "richtig": "Wangerooge"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Inseln",
+   "frage": "Ergänze die Ostfriesischen Inseln von West nach Ost.",
+   "text": "{{Borkum}}, {{Juist}}, {{Norderney}}, {{Baltrum}}, {{Langeoog}}, {{Spiekeroog}}, {{Wangerooge}}",
+   "wortbank": [
+    "Borkum",
+    "Juist",
+    "Norderney",
+    "Baltrum",
+    "Langeoog",
+    "Spiekeroog",
+    "Wangerooge",
+    "Sylt",
+    "Rügen"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Inseln",
+   "frage": "Ergänze die Nordfriesischen Inseln.",
+   "text": "Zu den Nordfriesischen Inseln gehören {{Sylt}}, {{Föhr}}, {{Amrum}} und {{Pellworm}}.",
+   "wortbank": [
+    "Sylt",
+    "Föhr",
+    "Amrum",
+    "Pellworm",
+    "Borkum",
+    "Usedom"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "E – Inseln",
+   "frage": "Nenne eine nordfriesische und zwei ostfriesische Inseln und sage, wo sie liegen.",
+   "punkte": 3,
+   "muster": "Sylt ist eine nordfriesische Insel und liegt vor Schleswig-Holstein. Borkum und Norderney sind ostfriesische Inseln und liegen vor Niedersachsen.",
+   "kriterien": [
+    "eine nordfriesische Insel (zum Beispiel Sylt, Föhr, Amrum, Pellworm)",
+    "zwei ostfriesische Inseln (zum Beispiel Borkum, Juist, Norderney)",
+    "Lage vor Schleswig-Holstein beziehungsweise Niedersachsen"
+   ]
+  }
+ ]
+}

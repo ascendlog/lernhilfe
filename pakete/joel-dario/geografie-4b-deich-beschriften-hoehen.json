@@ -1,0 +1,561 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-4b-deich-beschriften-hoehen",
+ "titel": "Geografie Teil 4b: Küstenschutz – Deich beschriften und Deichhöhen",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Den Deich beschriften (auch gespiegelt), Deichprofile lesen und Deichhöhen berechnen. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Die Deichhöhen (1599 etwa 3 m, 1766 etwa 5,1 m, heute etwa 8,8 m) stammen aus dem Buch S. 128. Die Wasserstände in den Rechenbeispielen sind erfunden.",
+ "lernblatt": [
+  {
+   "titel": "Der Deich: Aufgabe und Teile",
+   "text": "Ein **Deich** ist ein langer Wall aus Erde an der Küste. An der deutschen Nordseeküste, an den Flussmündungen und auf den Inseln gibt es zusammen etwa **1500 Kilometer** davon. Der Deich schützt das Land dahinter, die **Marsch** (das flache Land hinter dem Deich), vor Überflutung. Am wichtigsten ist das bei einer **Sturmflut**, wenn das Wasser viel höher steigt als bei normalem Hochwasser. Den höchsten Stand dabei nennt man **Sturmflutwasserstand**.\n- **Seeseite**: die Seite zum Meer. Sie ist **flach**, damit die Wellen daran hochlaufen und dabei ihre Kraft verlieren.\n- **Landseite**: die Seite zur Marsch. Hier müssen keine Wellen abgehalten werden, deshalb ist sie **steiler**.\n- **Deichkrone**: der höchste Punkt oben auf dem Deich.\n- **Deichfuß**: der Rand ganz unten. Hier treffen die Wellen zuerst auf. Steine schützen ihn, damit das Wasser ihn nicht aushöhlt und wegspült.",
+   "merke": "Seeseite flach, Landseite steil, oben die Deichkrone, unten der Deichfuß aus Steinen.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"176\" y2=\"134\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"165\" y=\"126\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Seeseite</text><line x1=\"438\" y1=\"215\" x2=\"506\" y2=\"157\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"520\" y=\"150\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Landseite</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"71\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"350\" y=\"64\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Deichkrone</text><line x1=\"290\" y1=\"128\" x2=\"243\" y2=\"86\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"222\" y=\"78\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Grasdecke</text><line x1=\"224\" y1=\"215\" x2=\"252\" y2=\"248\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"262\" y=\"262\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Klei</text><line x1=\"380\" y1=\"215\" x2=\"384\" y2=\"250\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"385\" y=\"264\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Sandkern</text><line x1=\"100\" y1=\"288\" x2=\"76\" y2=\"322\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"62\" y=\"334\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Deichfuß</text><text x=\"8\" y=\"167\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Sturmflutwasserstand</text><text x=\"8\" y=\"247\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Hochwasser</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit allen beschrifteten Teilen: Seeseite, Landseite, Deichkrone, Grasdecke, Klei, Sandkern, Deichfuß, Sturmflutwasserstand und Hochwasser"
+  },
+  {
+   "titel": "Deiche werden höher: die Deichprofile",
+   "text": "Über die Jahrhunderte haben die Menschen die Deiche immer wieder erhöht und verbreitert, damit sie höhere Sturmfluten aushalten. Das Buch (S. 128, M2) zeigt drei Querschnitte:\n- **1599**: etwa 3 m hoch\n- **1766**: etwa 5,1 m hoch\n- **heute**: etwa 8,8 m hoch\nDer heutige Deich ist also etwa 5,8 m höher als der von 1599 (8,8 m − 3 m) und viel breiter. Die Breiten sind in der Zeichnung nur ungefähr gezeichnet.",
+   "merke": "1599 etwa 3 m, 1766 etwa 5,1 m, heute etwa 8,8 m: Deiche wurden immer höher und breiter.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 360\" width=\"800\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"360\" fill=\"#ffffff\"/><line x1=\"56\" y1=\"310\" x2=\"56\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"62\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"315\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"62\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"254\" x2=\"62\" y2=\"254\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"259\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"62\" y1=\"254\" x2=\"790\" y2=\"254\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"198\" x2=\"62\" y2=\"198\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"203\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><line x1=\"62\" y1=\"198\" x2=\"790\" y2=\"198\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"142\" x2=\"62\" y2=\"142\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"147\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">6</text><line x1=\"62\" y1=\"142\" x2=\"790\" y2=\"142\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"86\" x2=\"62\" y2=\"86\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"91\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">8</text><line x1=\"62\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"62\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"35\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">10</text><line x1=\"62\" y1=\"30\" x2=\"790\" y2=\"30\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><text x=\"70\" y=\"16\" font-size=\"13\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\">Höhe in m</text><line x1=\"56\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><polygon points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"190\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1599</text><line x1=\"116.0\" y1=\"226.0\" x2=\"181.0\" y2=\"226.0\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"116.0\" y=\"219.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 3 m</text><polygon points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1766</text><line x1=\"286.0\" y1=\"167.20000000000002\" x2=\"383.0\" y2=\"167.20000000000002\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"286.0\" y=\"160.20000000000002\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 5,1 m</text><polygon points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"630\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">heute</text><line x1=\"481.0\" y1=\"63.599999999999966\" x2=\"615.0\" y2=\"63.599999999999966\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"481.0\" y=\"56.599999999999966\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 8,8 m</text></svg>",
+   "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m"
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Beschrifte den Deich. Welches Wort gehört zu welcher Nummer?",
+   "text": "(1) {{Seeseite}}\n(2) {{Landseite}}\n(3) {{Deichkrone}}\n(4) {{Grasdecke}}\n(5) {{Klei}}\n(6) {{Sandkern}}\n(7) {{Deichfuß}}\n(8) {{Sturmflutwasserstand}}\n(9) {{Hochwasser}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"150\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"520\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"520\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"230\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"262\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"262\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"62\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"62\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"110\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"50\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite mit den Nummern 1 bis 9",
+   "tipp": "Die Seeseite ist die flache Seite. Die Deichkrone ist die höchste Stelle.",
+   "info": "1 Seeseite, 2 Landseite, 3 Deichkrone, 4 Grasdecke, 5 Klei, 6 Sandkern, 7 Deichfuß, 8 Sturmflutwasserstand, 9 Hochwasser.",
+   "wortbank": [
+    "Seeseite",
+    "Landseite",
+    "Deichkrone",
+    "Grasdecke",
+    "Klei",
+    "Sandkern",
+    "Deichfuß",
+    "Sturmflutwasserstand",
+    "Hochwasser",
+    "Düne",
+    "Siel"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Ordne die Nummern den Teilen des Deichs zu.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"150\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"520\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"520\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"230\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"262\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"262\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"62\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"62\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"110\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"50\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite mit neu verteilten Nummern 1 bis 9",
+   "paare": [
+    [
+     "Nummer 1",
+     "Landseite"
+    ],
+    [
+     "Nummer 2",
+     "Grasdecke"
+    ],
+    [
+     "Nummer 3",
+     "Seeseite"
+    ],
+    [
+     "Nummer 4",
+     "Sandkern"
+    ],
+    [
+     "Nummer 5",
+     "Deichkrone"
+    ],
+    [
+     "Nummer 6",
+     "Deichfuß"
+    ],
+    [
+     "Nummer 7",
+     "Klei"
+    ],
+    [
+     "Nummer 8",
+     "Hochwasser"
+    ],
+    [
+     "Nummer 9",
+     "Sturmflutwasserstand"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Hier liegt das Meer rechts. Ordne die Nummern den Teilen des Deichs zu.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><g transform=\"translate(640 0) scale(-1 1)\"><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/></g><text x=\"600\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"80\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"490\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"490\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"120\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"120\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"290\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"290\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"410\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"410\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"378\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"378\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"255\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"578\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"578\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"530\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"530\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"590\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"590\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt rechts, mit den Nummern 1 bis 9",
+   "tipp": "Die flache Seite zeigt immer zum Meer, die steile Seite zum Land.",
+   "paare": [
+    [
+     "Nummer 1",
+     "Deichkrone"
+    ],
+    [
+     "Nummer 2",
+     "Seeseite"
+    ],
+    [
+     "Nummer 3",
+     "Deichfuß"
+    ],
+    [
+     "Nummer 4",
+     "Klei"
+    ],
+    [
+     "Nummer 5",
+     "Sturmflutwasserstand"
+    ],
+    [
+     "Nummer 6",
+     "Landseite"
+    ],
+    [
+     "Nummer 7",
+     "Hochwasser"
+    ],
+    [
+     "Nummer 8",
+     "Grasdecke"
+    ],
+    [
+     "Nummer 9",
+     "Sandkern"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Welche Nummer zeigt die Deichkrone?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"150\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"520\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"520\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"230\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"262\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"262\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"62\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"62\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"110\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"50\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt links, mit Nummern",
+   "antworten": [
+    "5",
+    "4",
+    "8",
+    "2"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Welche Nummer zeigt den Sandkern?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"150\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"520\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"520\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"230\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"262\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"262\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"62\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"62\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"110\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"50\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt links, mit Nummern",
+   "antworten": [
+    "4",
+    "5",
+    "8",
+    "2"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Welche Nummer zeigt die Seeseite?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"150\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"520\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"520\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"230\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"262\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"262\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"62\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"62\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"110\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"50\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt links, mit Nummern",
+   "antworten": [
+    "2",
+    "4",
+    "7",
+    "1"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Welche Nummer zeigt den Klei?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"150\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"520\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"520\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"230\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"262\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"262\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"62\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"62\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"110\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"50\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt links, mit Nummern",
+   "antworten": [
+    "4",
+    "3",
+    "7",
+    "1"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Das Meer liegt hier rechts. Welche Nummer zeigt den Deichfuß?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><g transform=\"translate(640 0) scale(-1 1)\"><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/></g><text x=\"600\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"80\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"490\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"490\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"120\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"120\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"290\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"290\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"410\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"410\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"378\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"378\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"255\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"578\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"578\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"530\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"530\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"590\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"590\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt rechts, mit Nummern",
+   "antworten": [
+    "6",
+    "4",
+    "8",
+    "2"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Das Meer liegt hier rechts. Welche Nummer zeigt die Landseite?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><g transform=\"translate(640 0) scale(-1 1)\"><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/></g><text x=\"600\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"80\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"490\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"490\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"120\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"120\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"290\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"290\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"410\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"410\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"378\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"378\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"255\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"578\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"578\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"530\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"530\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"590\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"590\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt rechts, mit Nummern",
+   "antworten": [
+    "6",
+    "3",
+    "7",
+    "1"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Welche Nummer zeigt den Sturmflutwasserstand?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"150\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"520\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"520\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"230\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"230\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"262\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"262\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"62\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"62\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"110\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"110\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"50\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"50\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt links, mit Nummern",
+   "antworten": [
+    "5",
+    "3",
+    "7",
+    "1"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Das Meer liegt hier rechts. Welche Nummer zeigt die Grasdecke?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><g transform=\"translate(640 0) scale(-1 1)\"><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/></g><text x=\"600\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"80\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"490\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"490\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"120\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"120\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"290\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"290\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"410\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"410\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"378\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"378\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"255\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"578\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"578\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"530\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"530\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"590\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"590\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt rechts, mit Nummern",
+   "antworten": [
+    "2",
+    "5",
+    "8",
+    "3"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Den Deich beschriften",
+   "frage": "Das Meer liegt hier rechts. Beschrifte den Deich noch einmal.",
+   "text": "(1) {{Landseite}}\n(2) {{Grasdecke}}\n(3) {{Seeseite}}\n(4) {{Sandkern}}\n(5) {{Deichkrone}}\n(6) {{Deichfuß}}\n(7) {{Klei}}\n(8) {{Hochwasser}}\n(9) {{Sturmflutwasserstand}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><g transform=\"translate(640 0) scale(-1 1)\"><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/></g><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/></g><text x=\"600\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"80\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"190\" y1=\"210\" x2=\"150\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"490\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"490\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"438\" y1=\"215\" x2=\"520\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"120\" cy=\"150\" r=\"13\" fill=\"#e2701a\"/><text x=\"120\" y=\"155.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"52\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"290\" cy=\"52\" r=\"13\" fill=\"#e2701a\"/><text x=\"290\" y=\"57.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"290\" y1=\"128\" x2=\"230\" y2=\"70\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"410\" cy=\"70\" r=\"13\" fill=\"#e2701a\"/><text x=\"410\" y=\"75.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"224\" y1=\"215\" x2=\"262\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"378\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"378\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">7</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"380\" y1=\"215\" x2=\"385\" y2=\"262\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"255\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"100\" y1=\"288\" x2=\"62\" y2=\"332\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"578\" cy=\"332\" r=\"13\" fill=\"#e2701a\"/><text x=\"578\" y=\"337.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"40\" y1=\"175\" x2=\"110\" y2=\"140\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"530\" cy=\"140\" r=\"13\" fill=\"#e2701a\"/><text x=\"530\" y=\"145.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">9</text><g transform=\"translate(640 0) scale(-1 1)\"><line x1=\"20\" y1=\"255\" x2=\"50\" y2=\"222\" stroke=\"#333\" stroke-width=\"1.4\"/></g><circle cx=\"590\" cy=\"222\" r=\"13\" fill=\"#e2701a\"/><text x=\"590\" y=\"227.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit dem Meer auf einer und dem Land auf der anderen Seite, das Meer liegt rechts, mit den Nummern 1 bis 9",
+   "wortbank": [
+    "Landseite",
+    "Grasdecke",
+    "Seeseite",
+    "Sandkern",
+    "Deichkrone",
+    "Deichfuß",
+    "Klei",
+    "Hochwasser",
+    "Sturmflutwasserstand",
+    "Düne",
+    "Priel"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Wie hoch war der Deich im Jahr 1599?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 360\" width=\"800\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"360\" fill=\"#ffffff\"/><line x1=\"56\" y1=\"310\" x2=\"56\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"62\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"315\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"62\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"254\" x2=\"62\" y2=\"254\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"259\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"62\" y1=\"254\" x2=\"790\" y2=\"254\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"198\" x2=\"62\" y2=\"198\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"203\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><line x1=\"62\" y1=\"198\" x2=\"790\" y2=\"198\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"142\" x2=\"62\" y2=\"142\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"147\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">6</text><line x1=\"62\" y1=\"142\" x2=\"790\" y2=\"142\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"86\" x2=\"62\" y2=\"86\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"91\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">8</text><line x1=\"62\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"62\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"35\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">10</text><line x1=\"62\" y1=\"30\" x2=\"790\" y2=\"30\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><text x=\"70\" y=\"16\" font-size=\"13\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\">Höhe in m</text><line x1=\"56\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><polygon points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"190\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1599</text><line x1=\"116.0\" y1=\"226.0\" x2=\"181.0\" y2=\"226.0\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"116.0\" y=\"219.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 3 m</text><polygon points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1766</text><line x1=\"286.0\" y1=\"167.20000000000002\" x2=\"383.0\" y2=\"167.20000000000002\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"286.0\" y=\"160.20000000000002\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 5,1 m</text><polygon points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"630\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">heute</text><line x1=\"481.0\" y1=\"63.599999999999966\" x2=\"615.0\" y2=\"63.599999999999966\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"481.0\" y=\"56.599999999999966\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 8,8 m</text></svg>",
+   "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m",
+   "richtig": [
+    "3,0",
+    "3.0",
+    "3"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Wie hoch ist der Deich heute?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 360\" width=\"800\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"360\" fill=\"#ffffff\"/><line x1=\"56\" y1=\"310\" x2=\"56\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"62\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"315\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"62\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"254\" x2=\"62\" y2=\"254\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"259\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"62\" y1=\"254\" x2=\"790\" y2=\"254\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"198\" x2=\"62\" y2=\"198\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"203\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><line x1=\"62\" y1=\"198\" x2=\"790\" y2=\"198\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"142\" x2=\"62\" y2=\"142\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"147\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">6</text><line x1=\"62\" y1=\"142\" x2=\"790\" y2=\"142\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"86\" x2=\"62\" y2=\"86\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"91\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">8</text><line x1=\"62\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"62\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"35\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">10</text><line x1=\"62\" y1=\"30\" x2=\"790\" y2=\"30\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><text x=\"70\" y=\"16\" font-size=\"13\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\">Höhe in m</text><line x1=\"56\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><polygon points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"190\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1599</text><line x1=\"116.0\" y1=\"226.0\" x2=\"181.0\" y2=\"226.0\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"116.0\" y=\"219.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 3 m</text><polygon points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1766</text><line x1=\"286.0\" y1=\"167.20000000000002\" x2=\"383.0\" y2=\"167.20000000000002\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"286.0\" y=\"160.20000000000002\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 5,1 m</text><polygon points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"630\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">heute</text><line x1=\"481.0\" y1=\"63.599999999999966\" x2=\"615.0\" y2=\"63.599999999999966\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"481.0\" y=\"56.599999999999966\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 8,8 m</text></svg>",
+   "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m",
+   "richtig": [
+    "8,8",
+    "8.8"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Um wie viele Meter war der Deich von 1766 höher als der Deich von 1599?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 360\" width=\"800\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"360\" fill=\"#ffffff\"/><line x1=\"56\" y1=\"310\" x2=\"56\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"62\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"315\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"62\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"254\" x2=\"62\" y2=\"254\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"259\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"62\" y1=\"254\" x2=\"790\" y2=\"254\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"198\" x2=\"62\" y2=\"198\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"203\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><line x1=\"62\" y1=\"198\" x2=\"790\" y2=\"198\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"142\" x2=\"62\" y2=\"142\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"147\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">6</text><line x1=\"62\" y1=\"142\" x2=\"790\" y2=\"142\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"86\" x2=\"62\" y2=\"86\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"91\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">8</text><line x1=\"62\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"62\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"35\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">10</text><line x1=\"62\" y1=\"30\" x2=\"790\" y2=\"30\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><text x=\"70\" y=\"16\" font-size=\"13\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\">Höhe in m</text><line x1=\"56\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><polygon points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"190\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1599</text><line x1=\"116.0\" y1=\"226.0\" x2=\"181.0\" y2=\"226.0\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"116.0\" y=\"219.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 3 m</text><polygon points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1766</text><line x1=\"286.0\" y1=\"167.20000000000002\" x2=\"383.0\" y2=\"167.20000000000002\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"286.0\" y=\"160.20000000000002\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 5,1 m</text><polygon points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"630\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">heute</text><line x1=\"481.0\" y1=\"63.599999999999966\" x2=\"615.0\" y2=\"63.599999999999966\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"481.0\" y=\"56.599999999999966\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 8,8 m</text></svg>",
+   "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m",
+   "info": "5,1 m − 3,0 m = 2,1 m",
+   "richtig": [
+    "2,1",
+    "2.1"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Um wie viele Meter ist der heutige Deich höher als der Deich von 1766?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 360\" width=\"800\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"360\" fill=\"#ffffff\"/><line x1=\"56\" y1=\"310\" x2=\"56\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"62\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"315\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"62\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"254\" x2=\"62\" y2=\"254\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"259\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"62\" y1=\"254\" x2=\"790\" y2=\"254\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"198\" x2=\"62\" y2=\"198\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"203\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><line x1=\"62\" y1=\"198\" x2=\"790\" y2=\"198\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"142\" x2=\"62\" y2=\"142\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"147\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">6</text><line x1=\"62\" y1=\"142\" x2=\"790\" y2=\"142\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"86\" x2=\"62\" y2=\"86\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"91\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">8</text><line x1=\"62\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"62\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"35\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">10</text><line x1=\"62\" y1=\"30\" x2=\"790\" y2=\"30\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><text x=\"70\" y=\"16\" font-size=\"13\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\">Höhe in m</text><line x1=\"56\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><polygon points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"190\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1599</text><line x1=\"116.0\" y1=\"226.0\" x2=\"181.0\" y2=\"226.0\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"116.0\" y=\"219.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 3 m</text><polygon points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1766</text><line x1=\"286.0\" y1=\"167.20000000000002\" x2=\"383.0\" y2=\"167.20000000000002\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"286.0\" y=\"160.20000000000002\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 5,1 m</text><polygon points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"630\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">heute</text><line x1=\"481.0\" y1=\"63.599999999999966\" x2=\"615.0\" y2=\"63.599999999999966\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"481.0\" y=\"56.599999999999966\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 8,8 m</text></svg>",
+   "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m",
+   "info": "8,8 m − 5,1 m = 3,7 m",
+   "richtig": [
+    "3,7",
+    "3.7"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Um wie viele Meter ist der heutige Deich höher als der Deich von 1599?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 360\" width=\"800\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"360\" fill=\"#ffffff\"/><line x1=\"56\" y1=\"310\" x2=\"56\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"62\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"315\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"62\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"254\" x2=\"62\" y2=\"254\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"259\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"62\" y1=\"254\" x2=\"790\" y2=\"254\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"198\" x2=\"62\" y2=\"198\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"203\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><line x1=\"62\" y1=\"198\" x2=\"790\" y2=\"198\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"142\" x2=\"62\" y2=\"142\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"147\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">6</text><line x1=\"62\" y1=\"142\" x2=\"790\" y2=\"142\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"86\" x2=\"62\" y2=\"86\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"91\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">8</text><line x1=\"62\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"62\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"35\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">10</text><line x1=\"62\" y1=\"30\" x2=\"790\" y2=\"30\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><text x=\"70\" y=\"16\" font-size=\"13\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\">Höhe in m</text><line x1=\"56\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><polygon points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"190\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1599</text><line x1=\"116.0\" y1=\"226.0\" x2=\"181.0\" y2=\"226.0\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"116.0\" y=\"219.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 3 m</text><polygon points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1766</text><line x1=\"286.0\" y1=\"167.20000000000002\" x2=\"383.0\" y2=\"167.20000000000002\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"286.0\" y=\"160.20000000000002\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 5,1 m</text><polygon points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"630\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">heute</text><line x1=\"481.0\" y1=\"63.599999999999966\" x2=\"615.0\" y2=\"63.599999999999966\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"481.0\" y=\"56.599999999999966\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 8,8 m</text></svg>",
+   "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m",
+   "info": "8,8 m − 3,0 m = 5,8 m",
+   "richtig": [
+    "5,8",
+    "5.8"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Ein Deich ist 3,0 m hoch und wird um 2,1 m erhöht. Wie hoch ist er dann?",
+   "info": "3,0 m + 2,1 m = 5,1 m",
+   "richtig": [
+    "5,1",
+    "5.1"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Ein Deich ist 5,1 m hoch. Um wie viele Meter muss er erhöht werden, damit er so hoch ist wie der heutige Deich (8,8 m)?",
+   "info": "8,8 m − 5,1 m = 3,7 m",
+   "richtig": [
+    "3,7",
+    "3.7"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Beispiel: Bei einer Sturmflut steigt das Wasser auf 6,4 m. Wie viele Meter fehlen bis zur Deichkrone des heutigen Deichs (8,8 m)?",
+   "info": "8,8 m − 6,4 m = 2,4 m",
+   "richtig": [
+    "2,4",
+    "2.4"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Beispiel: Bei einer Sturmflut steigt das Wasser auf 7,5 m. Wie viele Meter fehlen bis zur Deichkrone des heutigen Deichs (8,8 m)?",
+   "info": "8,8 m − 7,5 m = 1,3 m",
+   "richtig": [
+    "1,3",
+    "1.3"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Beispiel: Bei einer Sturmflut steigt das Wasser auf 5,9 m. Wie viele Meter fehlen bis zur Deichkrone des heutigen Deichs (8,8 m)?",
+   "info": "8,8 m − 5,9 m = 2,9 m",
+   "richtig": [
+    "2,9",
+    "2.9"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Beispiel: Das Wasser einer Sturmflut steht 6,4 m hoch. Um wie viele Meter wäre es höher als die Krone des Deichs von 1766 (5,1 m)?",
+   "info": "6,4 m − 5,1 m = 1,3 m. Der alte Deich würde überflutet.",
+   "richtig": [
+    "1,3",
+    "1.3"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Beispiel: Das Wasser einer Sturmflut steht 7,5 m hoch. Um wie viele Meter wäre es höher als die Krone des Deichs von 1766 (5,1 m)?",
+   "info": "7,5 m − 5,1 m = 2,4 m. Der alte Deich würde überflutet.",
+   "richtig": [
+    "2,4",
+    "2.4"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Eine Sturmflut mit 6,4 m Wasserstand würde über den Deich von 1766 laufen.",
+   "info": "Der Deich von 1766 war nur etwa 5,1 m hoch.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Eine Sturmflut mit 6,4 m Wasserstand würde über den heutigen Deich laufen.",
+   "info": "Der heutige Deich ist etwa 8,8 m hoch.",
+   "richtig": false
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Ordne die Deiche nach ihrer Höhe, vom niedrigsten zum höchsten.",
+   "schritte": [
+    "Deich von 1599",
+    "Deich von 1766",
+    "heutiger Deich"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Deichprofile und Deichhöhen",
+   "frage": "Welche Aussage über die Deichprofile stimmt?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 360\" width=\"800\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"360\" fill=\"#ffffff\"/><line x1=\"56\" y1=\"310\" x2=\"56\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><line x1=\"50\" y1=\"310\" x2=\"62\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"315\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"62\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"254\" x2=\"62\" y2=\"254\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"259\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"62\" y1=\"254\" x2=\"790\" y2=\"254\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"198\" x2=\"62\" y2=\"198\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"203\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><line x1=\"62\" y1=\"198\" x2=\"790\" y2=\"198\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"142\" x2=\"62\" y2=\"142\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"147\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">6</text><line x1=\"62\" y1=\"142\" x2=\"790\" y2=\"142\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"86\" x2=\"62\" y2=\"86\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"91\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">8</text><line x1=\"62\" y1=\"86\" x2=\"790\" y2=\"86\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><line x1=\"50\" y1=\"30\" x2=\"62\" y2=\"30\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"44\" y=\"35\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">10</text><line x1=\"62\" y1=\"30\" x2=\"790\" y2=\"30\" stroke=\"#e5e5e5\" stroke-width=\"1\"/><text x=\"70\" y=\"16\" font-size=\"13\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\">Höhe in m</text><line x1=\"56\" y1=\"310\" x2=\"790\" y2=\"310\" stroke=\"#444\" stroke-width=\"2\"/><polygon points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"130.0,310 181.0,226.0 199.0,226.0 250.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"190\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1599</text><line x1=\"116.0\" y1=\"226.0\" x2=\"181.0\" y2=\"226.0\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"116.0\" y=\"219.0\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 3 m</text><polygon points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"300.0,310 383.0,167.20000000000002 407.0,167.20000000000002 490.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"395\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1766</text><line x1=\"286.0\" y1=\"167.20000000000002\" x2=\"383.0\" y2=\"167.20000000000002\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"286.0\" y=\"160.20000000000002\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 5,1 m</text><polygon points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"#d8b97c\" stroke=\"#8a6a34\" stroke-width=\"2\"/><polyline points=\"495.0,310 615.0,63.599999999999966 645.0,63.599999999999966 765.0,310\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"7\" stroke-linejoin=\"round\"/><text x=\"630\" y=\"338\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">heute</text><line x1=\"481.0\" y1=\"63.599999999999966\" x2=\"615.0\" y2=\"63.599999999999966\" stroke=\"#c0392b\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"481.0\" y=\"56.599999999999966\" font-size=\"13\" font-weight=\"bold\" fill=\"#c0392b\" text-anchor=\"middle\">etwa 8,8 m</text></svg>",
+   "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m",
+   "antworten": [
+    "Die Deiche wurden im Lauf der Jahrhunderte höher und breiter.",
+    "Die Deiche wurden niedriger und schmaler.",
+    "Alle drei Deiche sind gleich hoch.",
+    "Der älteste Deich ist der höchste."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Beschreibe, wie du den Deich im Wissenscheck zeichnest und welche Teile du beschriftest.",
+   "punkte": 3,
+   "muster": "Erst zeichne ich die Form: flach zur Seeseite, steil zur Landseite, oben die Deichkrone. Dann beschrifte ich: Seeseite, Landseite, Deichkrone, Grasdecke, Klei, Sandkern, Deichfuß (Steine), Sturmflutwasserstand und Hochwasser.",
+   "kriterien": [
+    "Form richtig beschrieben (Seeseite flach, Landseite steil)",
+    "Mindestens fünf Teile genannt",
+    "Sturmflutwasserstand oder Hochwasser genannt"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Was würde passieren, wenn der Deichfuß keine Steine hätte? Erkläre.",
+   "punkte": 2,
+   "muster": "Die Wellen treffen zuerst auf den Deichfuß. Ohne Steine würde das Wasser den Fuß aushöhlen und wegspülen. Dann könnte der ganze Deich einstürzen.",
+   "kriterien": [
+    "Wellen treffen zuerst den Deichfuß",
+    "Wasser würde den Fuß aushöhlen und wegspülen"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Warum werden Deiche immer höher und breiter gebaut?",
+   "punkte": 2,
+   "muster": "Damit sie höhere Sturmfluten aushalten und das Land dahinter besser schützen.",
+   "kriterien": [
+    "Höhere Sturmfluten aushalten",
+    "Land besser schützen"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Der Sturmflutwasserstand liegt höher als das normale Hochwasser.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Warum muss der Deich höher sein als der Sturmflutwasserstand?",
+   "antworten": [
+    "Sonst würde das Wasser über die Deichkrone laufen.",
+    "Sonst würden die Schafe nass.",
+    "Sonst gäbe es keine Ebbe mehr.",
+    "Sonst würde der Sandkern verschwinden."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Welches Teil des Deichs ist gemeint?",
+   "paare": [
+    [
+     "Hier treffen die Wellen zuerst auf den Deich.",
+     "Deichfuß"
+    ],
+    [
+     "Die höchste Stelle des Deichs.",
+     "Deichkrone"
+    ],
+    [
+     "Die Wurzeln halten hier den Boden fest.",
+     "Grasdecke"
+    ],
+    [
+     "Fester Lehm über dem Kern.",
+     "Klei"
+    ],
+    [
+     "Das Innere des Deichs.",
+     "Sandkern"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Wie heißt die Seite des Deichs, die zum Meer zeigt?",
+   "richtig": [
+    "Seeseite",
+    "See-Seite"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Wie heißt die Seite des Deichs, die zum Land zeigt?",
+   "richtig": [
+    "Landseite",
+    "Land-Seite"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Anwenden und erklären",
+   "frage": "Wie nennt man den Wasserstand bei einer Sturmflut?",
+   "richtig": "Sturmflutwasserstand"
+  }
+ ]
+}

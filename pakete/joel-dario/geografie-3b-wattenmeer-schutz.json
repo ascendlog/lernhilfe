@@ -1,0 +1,452 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-3b-wattenmeer-schutz",
+ "titel": "Geografie Teil 3b: Wattenmeer – Schutz und Nationalpark",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Warum und wie das Wattenmeer geschützt wird: Nationalpark, Weltnaturerbe, die drei Schutzzonen und Regeln für Besucher. Mit Lernblatt und vielen Übungsaufgaben.",
+ "lernblatt": [
+  {
+   "titel": "Warum und wie wird das Wattenmeer geschützt?",
+   "text": "- **Warum?** Ein Watt wie das der Nordsee gibt es nur einmal auf der Erde. Es soll sich möglichst ohne den Einfluss des Menschen weiterentwickeln, denn jede Störung gefährdet die angepassten Tiere. Gleichzeitig leben die Menschen an der Küste von Fischerei, Landwirtschaft, Industrie und Tourismus. Deshalb gibt es für die Nutzung strenge Regeln.\n- Ein **Nationalpark** ist ein Schutzgebiet, in dem die Natur Vorrang hat und möglichst in Ruhe gelassen wird. Es gelten besondere Regeln.\n- **1986** wurden in Deutschland drei Nationalparks im Wattenmeer gegründet: das Schleswig-Holsteinische, das Hamburgische und das Niedersächsische Wattenmeer. Auch Dänemark und die Niederlande schützen ihre Teile.\n- Seit **2009** gehören große Gebiete zum **Weltnaturerbe** der Menschheit. Die Küstenlinie ist etwa 450 km lang.\n- **Schutzzonen**: In Schleswig-Holstein und Hamburg gibt es zwei, in Niedersachsen drei.\n- **Hinweisschilder** zeigen, was man tun soll und was verboten ist. Beispiele: Das Vorland darf vom 1. April bis 31. Juli nicht betreten werden (Brut- und Aufzuchtzeit der Vögel), Hunde anleinen, Pflanzen nicht pflücken, Abstand zu Seehunden halten, Müll mitnehmen.\n- Gegen strenge Regeln sind oft Fischer, Landwirte, Industrie, Tourismus-Betriebe und Hafenbetreiber, weil die Regeln ihre Arbeit einschränken.",
+   "merke": "Das Wattenmeer ist einzigartig und soll möglichst ungestört bleiben. Darum gibt es Nationalparks (1986), das Weltnaturerbe (seit 2009), Schutzzonen und Hinweisschilder."
+  },
+  {
+   "titel": "Die drei Schutzzonen",
+   "text": "- **Zone I, Ruhezone**: Hier gelten die strengsten Regeln. Dazu gehören Wattflächen, Seehundbänke, Salzwiesen und Dünen. Besucher dürfen sie nicht oder nur auf markierten Wegen betreten, damit die Tiere ungestört bleiben. Fisch- und Krabbenfang sind nur eingeschränkt erlaubt. Das Buch nennt hier Salzwiesen, Seehundbänke und Brutgebiete der Vögel.\n- **Zone II, Zwischenzone**: Betreten, Wattwandern und Bootfahren sind erlaubt. Nur die Brutgebiete der Vögel darf man nicht oder nur auf markierten Wegen betreten. Baden, Fischerei und Jagd sind erlaubt.\n- **Zone III, Erholungszone**: Badestrände und Kureinrichtungen, also Ferien- und Kurbetrieb. Strandbuggies und Motorfahrzeuge sind verboten. Laut Buch dürfen hier außerdem Häfen gebaut und Erdöl gefördert werden.",
+   "merke": "Ruhezone = strengste Regeln. Zwischenzone = Betreten und Wattwandern erlaubt. Erholungszone = Badestrände und Kureinrichtungen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Was ist ein Nationalpark?",
+   "antworten": [
+    "Ein Schutzgebiet, in dem sich die Natur weitgehend ungestört und möglichst ursprünglich entfalten kann.",
+    "Ein Freizeitpark mit Fahrgeschäften",
+    "Ein Parkplatz für Touristen",
+    "Ein Garten mit Blumenbeeten"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In welchem Jahr wurden in Deutschland drei Nationalparks zum Schutz des Wattenmeeres eingerichtet?",
+   "richtig": "1986"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Seit welchem Jahr gelten große Gebiete des Wattenmeeres als Weltnaturerbe?",
+   "richtig": "2009"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Ergänze den Text.",
+   "text": "1986 wurden in Deutschland drei {{Nationalparks}} zum Schutz des Wattenmeeres eingerichtet. Seit {{2009}} gelten große Gebiete als {{Weltnaturerbe}} der Menschheit.",
+   "wortbank": [
+    "Nationalparks",
+    "2009",
+    "Weltnaturerbe",
+    "1999",
+    "Naturpark"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Wie viele Nationalparks schützen das deutsche Wattenmeer?",
+   "info": "Das Schleswig-Holsteinische, das Hamburgische und das Niedersächsische Wattenmeer.",
+   "antworten": [
+    "drei",
+    "einer",
+    "fünf",
+    "zehn"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Ordne dem Bundesland den Nationalpark zu.",
+   "paare": [
+    [
+     "Schleswig-Holstein",
+     "Schleswig-Holsteinisches Wattenmeer"
+    ],
+    [
+     "Hamburg",
+     "Hamburgisches Wattenmeer"
+    ],
+    [
+     "Niedersachsen",
+     "Niedersächsisches Wattenmeer"
+    ]
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Auch Dänemark und die Niederlande schützen ihre Anteile am Wattenmeer.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Warum wird das Wattenmeer geschützt?",
+   "antworten": [
+    "Es ist einzigartig auf der Erde und soll sich weitgehend ohne Einfluss des Menschen entwickeln.",
+    "Weil dort sehr viel Öl gefunden wird.",
+    "Weil dort keine Tiere leben.",
+    "Weil es im Sommer sehr heiß ist."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Welche Schutzzone ist gemeint?",
+   "paare": [
+    [
+     "Hier gelten die strengsten Regeln. Touristen dürfen die Zone nicht oder nur auf markierten Wegen betreten.",
+     "Ruhezone"
+    ],
+    [
+     "Hierzu gehören die Badestrände sowie Erholungs- und Kureinrichtungen. Strandbuggies und Motorfahrzeuge sind verboten.",
+     "Erholungszone"
+    ],
+    [
+     "Betreten, Wattwandern und Boot fahren sind erlaubt. Brutgebiete der Vögel dürfen nicht oder nur auf markierten Wegen betreten werden.",
+     "Zwischenzone"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In welcher Zone gelten die strengsten Regeln?",
+   "antworten": [
+    "Ruhezone",
+    "Zwischenzone",
+    "Erholungszone",
+    "Badezone"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In welcher Zone liegen Badestrände sowie Erholungs- und Kureinrichtungen?",
+   "antworten": [
+    "Erholungszone",
+    "Ruhezone",
+    "Zwischenzone",
+    "Brutzone"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In welcher Zone sind Betreten, Wattwandern und Bootfahren erlaubt?",
+   "antworten": [
+    "Zwischenzone",
+    "Ruhezone",
+    "Erholungszone",
+    "in keiner Zone"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In der Erholungszone sind Strandbuggies und Motorfahrzeuge verboten.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In der Ruhezone dürfen Touristen überall frei herumlaufen.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In der Ruhezone ist der Fisch- und Krabbenfang nur eingeschränkt erlaubt.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In der Zwischenzone sind Baden, Fischerei und Jagd erlaubt.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Im Buch steht: In der Erholungszone dürfen Häfen gebaut und Erdöl gefördert werden.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Welche Aussage über die Zwischenzone stimmt?",
+   "antworten": [
+    "Betreten, Wattwandern und Bootfahren sind erlaubt, Brutgebiete der Vögel aber nur auf markierten Wegen.",
+    "Hier gelten die strengsten Regeln.",
+    "Hier sind Strandbuggies erlaubt.",
+    "Hier darf niemand hinein."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "In Schleswig-Holstein und Hamburg gibt es zwei Schutzzonen, in Niedersachsen drei.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Welche Aussage über die Schutzzonen stimmt?",
+   "antworten": [
+    "Zone I ist die Ruhezone, Zone II die Zwischenzone und Zone III die Erholungszone.",
+    "Zone I ist die Erholungszone.",
+    "Zone II ist die Ruhezone.",
+    "Es gibt nur eine Zone."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Was steht auf Hinweisschildern im Nationalpark Wattenmeer?",
+   "antworten": [
+    "Gebote und Verbote, zum Beispiel Hunde anleinen und Müll mitnehmen.",
+    "Die aktuellen Fußballergebnisse",
+    "Preise für Eis",
+    "Wettervorhersagen für Mallorca"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Welche Regel kann auf einem Hinweisschild im Nationalpark stehen?",
+   "antworten": [
+    "Abstand zu Seehunden halten",
+    "Seehunde füttern",
+    "Pflanzen pflücken",
+    "Müll im Watt lassen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Was darf man im Nationalpark nicht tun?",
+   "antworten": [
+    "Pflanzen pflücken",
+    "Müll mitnehmen",
+    "Hunde anleinen",
+    "Abstand zu Seehunden halten"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Das Vorland darf vom 1. April bis 31. Juli nicht betreten werden, weil in dieser Zeit die Vögel brüten und ihre Jungen aufziehen.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Warum darf das Vorland vom 1. April bis 31. Juli nicht betreten werden?",
+   "antworten": [
+    "Es ist die Brut- und Aufzuchtzeit der Vögel. Sie sollen nicht gestört werden.",
+    "Dort wird gerade gebaut.",
+    "Dort ist es im Sommer zu heiß.",
+    "Dort liegt dann Schnee."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Welche Gruppen sind oft gegen strenge Schutzbestimmungen?",
+   "info": "Auch Industrie und Tourismus-Betriebe gehören dazu, weil die Regeln ihre Arbeit einschränken.",
+   "antworten": [
+    "Fischer",
+    "Hafenbetreiber",
+    "Landwirte",
+    "Nationalpark-Ranger",
+    "Vogelkundler"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Warum sind manche Menschen gegen die Schutzbestimmungen?",
+   "antworten": [
+    "Die Regeln schränken ihre Arbeit ein.",
+    "Sie mögen keine Tiere.",
+    "Die Schilder sind zu bunt.",
+    "Sie wollen das Wetter ändern."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Begründe, warum man im Nationalpark Ruhezonen einrichtet.",
+   "punkte": 2,
+   "muster": "Damit die Tiere, zum Beispiel die Vögel in ihren Brutgebieten und die Seehunde, nicht gestört werden und sich die Natur möglichst ungestört entwickeln kann.",
+   "kriterien": [
+    "Die Tiere sollen nicht gestört werden",
+    "Die Natur soll sich möglichst ungestört entwickeln"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Schreibe drei Verhaltensregeln für Touristen auf, die auf Hinweisschildern im Nationalpark stehen könnten.",
+   "punkte": 3,
+   "muster": "Hunde anleinen. Pflanzen nicht pflücken. Abstand zu Seehunden halten. (Weitere Möglichkeiten: Müll mitnehmen, auf den markierten Wegen bleiben.)",
+   "kriterien": [
+    "Drei sinnvolle Verhaltensregeln genannt",
+    "Die Regeln schützen Tiere und Pflanzen"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Auf einem Schild steht: „Das Betreten des Vorlandes ist vom 1. April bis 31. Juli nicht gestattet.“ Erkläre, warum.",
+   "punkte": 2,
+   "muster": "Vom 1. April bis 31. Juli ist die Brut- und Aufzuchtzeit der Vögel. Sie sollen in dieser Zeit nicht gestört werden.",
+   "kriterien": [
+    "Brut- und Aufzuchtzeit der Vögel",
+    "Die Vögel sollen nicht gestört werden"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Nenne zwei Gruppen von Menschen, die gegen die strengen Schutzbestimmungen sind, und begründe es.",
+   "punkte": 2,
+   "muster": "Zum Beispiel Fischer und Hafenbetreiber, weil die Regeln ihre Arbeit einschränken. Auch Landwirte, Industrie und Tourismus-Betriebe können dagegen sein.",
+   "kriterien": [
+    "Zwei Gruppen genannt (zum Beispiel Fischer, Landwirte, Industrie, Tourismus-Betriebe, Hafenbetreiber)",
+    "Begründung: Die Regeln schränken ihre Arbeit ein"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Erlaubt oder verboten im Nationalpark Wattenmeer?",
+   "info": "Gebote sagen, was man tun soll, Verbote sagen, was man nicht tun darf.",
+   "paare": [
+    [
+     "Hunde anleinen",
+     "Gebot"
+    ],
+    [
+     "Pflanzen pflücken",
+     "Verbot"
+    ],
+    [
+     "Müll mitnehmen",
+     "Gebot"
+    ],
+    [
+     "Seehunde füttern oder anfassen",
+     "Verbot"
+    ],
+    [
+     "Abstand zu Seehunden halten",
+     "Gebot"
+    ],
+    [
+     "Müll im Watt liegen lassen",
+     "Verbot"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Wie viele Nationalparks schützen das Wattenmeer in Deutschland?",
+   "richtig": [
+    "3",
+    "drei"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Wie viele Schutzzonen gibt es in Niedersachsen?",
+   "richtig": [
+    "3",
+    "drei"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Wie viele Schutzzonen gibt es in Schleswig-Holstein und Hamburg?",
+   "richtig": [
+    "2",
+    "zwei"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Welches Schild ist im Nationalpark sinnvoll?",
+   "antworten": [
+    "Bitte Hunde anleinen und Müll mitnehmen!",
+    "Hier Müll abladen erlaubt!",
+    "Pflanzen pflücken ausdrücklich erwünscht!",
+    "Seehunde bitte füttern!"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Ergänze die Schutzzonen.",
+   "text": "In der {{Ruhezone}} gelten die strengsten Regeln. In der {{Zwischenzone}} sind Wattwandern und Bootfahren erlaubt. In der {{Erholungszone}} liegen die Badestrände.",
+   "wortbank": [
+    "Ruhezone",
+    "Zwischenzone",
+    "Erholungszone",
+    "Brutzone",
+    "Sperrzone"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
+   "frage": "Erkläre in zwei Sätzen, warum das Wattenmeer ein Nationalpark ist.",
+   "punkte": 2,
+   "muster": "Das Wattenmeer ist einzigartig auf der Erde und soll sich weitgehend ohne Einfluss des Menschen entwickeln. Als Nationalpark gelten besondere Schutzbestimmungen, damit Tiere und Pflanzen nicht gestört werden.",
+   "kriterien": [
+    "Einzigartig und möglichst ungestört genannt",
+    "Besondere Schutzbestimmungen oder Schutz der Tiere und Pflanzen genannt"
+   ]
+  }
+ ]
+}

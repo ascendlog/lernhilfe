@@ -1,0 +1,426 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-4a-deich-aufbau",
+ "titel": "Geografie Teil 4a: Küstenschutz – Deich, Aufbau und Teile",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Wozu es Deiche gibt, aus welchen Schichten ein Deich besteht und wie seine Teile heißen. Mit Lernblatt und vielen Übungsaufgaben.",
+ "lernblatt": [
+  {
+   "titel": "Der Deich: Aufgabe und Teile",
+   "text": "Ein **Deich** ist ein langer Wall aus Erde an der Küste. An der deutschen Nordseeküste, an den Flussmündungen und auf den Inseln gibt es zusammen etwa **1500 Kilometer** davon. Der Deich schützt das Land dahinter, die **Marsch** (das flache Land hinter dem Deich), vor Überflutung. Am wichtigsten ist das bei einer **Sturmflut**, wenn das Wasser viel höher steigt als bei normalem Hochwasser. Den höchsten Stand dabei nennt man **Sturmflutwasserstand**.\n- **Seeseite**: die Seite zum Meer. Sie ist **flach**, damit die Wellen daran hochlaufen und dabei ihre Kraft verlieren.\n- **Landseite**: die Seite zur Marsch. Hier müssen keine Wellen abgehalten werden, deshalb ist sie **steiler**.\n- **Deichkrone**: der höchste Punkt oben auf dem Deich.\n- **Deichfuß**: der Rand ganz unten. Hier treffen die Wellen zuerst auf. Steine schützen ihn, damit das Wasser ihn nicht aushöhlt und wegspült.",
+   "merke": "Seeseite flach, Landseite steil, oben die Deichkrone, unten der Deichfuß aus Steinen.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"176\" y2=\"134\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"165\" y=\"126\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Seeseite</text><line x1=\"438\" y1=\"215\" x2=\"506\" y2=\"157\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"520\" y=\"150\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Landseite</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"71\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"350\" y=\"64\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Deichkrone</text><line x1=\"290\" y1=\"128\" x2=\"243\" y2=\"86\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"222\" y=\"78\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Grasdecke</text><line x1=\"224\" y1=\"215\" x2=\"252\" y2=\"248\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"262\" y=\"262\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Klei</text><line x1=\"380\" y1=\"215\" x2=\"384\" y2=\"250\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"385\" y=\"264\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Sandkern</text><line x1=\"100\" y1=\"288\" x2=\"76\" y2=\"322\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"62\" y=\"334\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Deichfuß</text><text x=\"8\" y=\"167\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Sturmflutwasserstand</text><text x=\"8\" y=\"247\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Hochwasser</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit allen beschrifteten Teilen: Seeseite, Landseite, Deichkrone, Grasdecke, Klei, Sandkern, Deichfuß, Sturmflutwasserstand und Hochwasser"
+  },
+  {
+   "titel": "Woraus besteht ein Deich?",
+   "text": "Von innen nach außen:\n- **Sandkern**: der Kern des Deichs.\n- **Klei**: eine Schicht aus festem Lehm darüber. Sie schützt den Kern.\n- **Grasdecke**: die oberste Schicht. Die Graswurzeln halten die Erde zusammen, sodass Wellen, Wind und Regen den Deich nicht abtragen.\n- **Schafe** gehören zum Deich: Sie halten das Gras kurz und dicht, und mit ihren Hufen drücken sie den Boden fest.\nIm Wissenscheck zeichnest du zuerst die Form (Seeseite flach, Landseite steil) und beschriftest dann alle Teile.",
+   "merke": "Innen Sandkern, darüber Klei, außen Grasdecke, am Deichfuß Steine."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "tf",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Ein Deich schützt das Land hinter ihm vor Überflutung.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Entlang der deutschen Nordseeküste gibt es etwa 1500 Kilometer Deiche.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Deiche gibt es nur an der Ostsee.",
+   "info": "Deiche gibt es an der Nordseeküste, an den Trichtermündungen der Flüsse und auf den Inseln.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Was schützt ein Deich?",
+   "antworten": [
+    "das Land dahinter, die Marsch",
+    "das Watt",
+    "das offene Meer",
+    "die Schiffe im Hafen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Was ist eine Sturmflut?",
+   "antworten": [
+    "ein Hochwasser, bei dem das Wasser viel höher steigt als normal",
+    "eine besonders niedrige Ebbe",
+    "ein starker Regen",
+    "Wellen ohne Wind"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Wie nennt man das flache Land hinter dem Deich?",
+   "antworten": [
+    "Marsch",
+    "Watt",
+    "Düne",
+    "Salzwiese"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Wie viele Kilometer Deiche gibt es etwa an der deutschen Nordseeküste?",
+   "richtig": [
+    "1500",
+    "1500 km"
+   ],
+   "einheit": "km"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Wo gibt es Deiche?",
+   "antworten": [
+    "entlang der deutschen Nordseeküste",
+    "auf den Inseln",
+    "an den Trichtermündungen der Flüsse",
+    "mitten im Hochgebirge",
+    "in der Sahara"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Ergänze den Text.",
+   "text": "Ein {{Deich}} schützt das Land hinter ihm, die {{Marsch}}, vor Überflutung. Besonders wichtig ist er bei einer {{Sturmflut}}, weil das Wasser dann viel höher steigt als beim normalen {{Hochwasser}}.",
+   "wortbank": [
+    "Deich",
+    "Marsch",
+    "Sturmflut",
+    "Hochwasser",
+    "Ebbe",
+    "Düne"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Welches Wort passt: Der höchste Wasserstand bei einer Sturmflut heißt …",
+   "antworten": [
+    "Sturmflutwasserstand",
+    "Tidenhub",
+    "Niedrigwasser",
+    "Deichfuß"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "A – Wozu gibt es Deiche?",
+   "frage": "Erkläre in zwei Sätzen, wozu ein Deich gebaut wird.",
+   "punkte": 2,
+   "muster": "Ein Deich ist ein langer Erdwall an der Küste. Er schützt das Land dahinter vor Überflutung, vor allem bei einer Sturmflut.",
+   "kriterien": [
+    "Deich schützt das Land (Marsch)",
+    "Vor Überflutung oder Sturmflut genannt"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Welche Seite des Deichs ist flach?",
+   "antworten": [
+    "die Seeseite",
+    "die Landseite",
+    "beide gleich",
+    "die Deichkrone"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Welche Seite des Deichs ist steiler?",
+   "antworten": [
+    "die Landseite",
+    "die Seeseite",
+    "beide gleich",
+    "der Deichfuß"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Warum ist die Seeseite flach?",
+   "antworten": [
+    "Die Wellen laufen auf und verlieren ihre Kraft.",
+    "Damit Schafe besser grasen können.",
+    "Damit man dort baden kann.",
+    "Damit das Wasser schneller abfließt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Warum kann die Landseite steiler sein?",
+   "antworten": [
+    "Sie muss keine Wellen abhalten.",
+    "Weil dort mehr Platz ist.",
+    "Weil dort die Sonne scheint.",
+    "Weil dort Steine liegen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Wie heißt die höchste Stelle des Deichs?",
+   "antworten": [
+    "Deichkrone",
+    "Deichfuß",
+    "Seeseite",
+    "Klei"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Woraus besteht der Deichfuß?",
+   "antworten": [
+    "aus Steinen",
+    "aus Gras",
+    "aus Sand",
+    "aus Holz"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Warum liegen am Deichfuß Steine?",
+   "antworten": [
+    "Hier treffen die Wellen zuerst auf den Deich. Die Steine verhindern, dass der Fuß ausgehöhlt und weggespült wird.",
+    "Damit die Schafe nicht herunterfallen.",
+    "Damit der Deich schöner aussieht.",
+    "Damit das Meer salziger wird."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Was liegt im Inneren des Deichs?",
+   "antworten": [
+    "der Sandkern",
+    "der Klei",
+    "die Grasdecke",
+    "die Krone"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Was liegt über dem Sandkern?",
+   "antworten": [
+    "eine Schicht aus Klei",
+    "die Deichkrone",
+    "eine Schicht aus Steinen",
+    "das Watt"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Was ist Klei?",
+   "antworten": [
+    "fester Lehm",
+    "loser Sand",
+    "Muschelschalen",
+    "Salzwasser"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Was liegt ganz außen auf dem Deich?",
+   "antworten": [
+    "die Grasdecke",
+    "der Sandkern",
+    "der Klei",
+    "das Meer"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Ordne den Aufbau des Deichs von innen nach außen.",
+   "schritte": [
+    "Sandkern",
+    "Klei",
+    "Grasdecke"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Wozu dient die Grasdecke?",
+   "antworten": [
+    "Die Wurzeln halten den Boden fest, so wird der Deich nicht von Wellen, Wind und Regen abgetragen.",
+    "Sie hält das Meerwasser süß.",
+    "Sie lockt Seehunde an.",
+    "Sie wärmt den Deich im Winter."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Wie pflegen Schafe den Deich?",
+   "antworten": [
+    "Sie fressen das Gras kurz und festigen den Boden mit ihren Hufen.",
+    "Sie graben Löcher in den Deich.",
+    "Sie bringen Sand zum Deich.",
+    "Sie halten die Wellen ab."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Die Schafe auf dem Deich schaden ihm, weil sie das Gras fressen.",
+   "info": "Die Schafe halten das Gras kurz und dicht und festigen den Boden mit ihren Hufen.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Die Seeseite zeigt zum Meer.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Der Sandkern liegt außen und die Grasdecke innen.",
+   "richtig": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Ordne dem Teil des Deichs seine Aufgabe zu.",
+   "paare": [
+    [
+     "Seeseite",
+     "flach, damit die Wellen ihre Kraft verlieren"
+    ],
+    [
+     "Landseite",
+     "steiler, muss keine Wellen abhalten"
+    ],
+    [
+     "Deichkrone",
+     "höchste Stelle des Deichs"
+    ],
+    [
+     "Grasdecke",
+     "Wurzeln halten den Boden fest"
+    ],
+    [
+     "Deichfuß",
+     "Steine gegen das Aushöhlen"
+    ],
+    [
+     "Klei",
+     "Schicht aus festem Lehm"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Ergänze den Aufbau.",
+   "text": "Im Inneren des Deichs liegt der {{Sandkern}}. Darüber liegt eine Schicht aus {{Klei}}. Ganz außen wächst die {{Grasdecke}}. Am {{Deichfuß}} liegen Steine.",
+   "wortbank": [
+    "Sandkern",
+    "Klei",
+    "Grasdecke",
+    "Deichfuß",
+    "Düne",
+    "Marsch"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Ergänze die Eigenschaften.",
+   "text": "Die {{Seeseite}} ist flach, damit die Wellen ihre Kraft verlieren. Die {{Landseite}} ist steiler. Die höchste Stelle heißt {{Deichkrone}}.",
+   "wortbank": [
+    "Seeseite",
+    "Landseite",
+    "Deichkrone",
+    "Marsch",
+    "Sturmflut"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Beschreibe den Aufbau eines Deichs von innen nach außen.",
+   "punkte": 4,
+   "muster": "Innen liegt der Sandkern, darüber eine Schicht aus Klei (festem Lehm) und ganz außen die Grasdecke. Am Deichfuß liegen Steine.",
+   "kriterien": [
+    "Sandkern innen genannt",
+    "Klei darüber genannt",
+    "Grasdecke außen genannt",
+    "Steine am Deichfuß genannt"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Erkläre, warum Schafe auf dem Deich weiden.",
+   "punkte": 2,
+   "muster": "Die Schafe fressen das Gras kurz, sodass es dicht wächst. Mit ihren Hufen festigen sie den Boden. So wird der Deich nicht abgetragen.",
+   "kriterien": [
+    "Gras wird kurz gehalten und wächst dicht",
+    "Hufe festigen den Boden"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Aufbau und Teile des Deichs",
+   "frage": "Erkläre, warum die Seeseite eines Deichs flach und die Landseite steiler ist.",
+   "punkte": 2,
+   "muster": "Auf der flachen Seeseite laufen die Wellen auf und verlieren ihre Kraft. Die Landseite muss keine Wellen abhalten und kann deshalb steiler sein.",
+   "kriterien": [
+    "Seeseite flach: Wellen verlieren Kraft",
+    "Landseite muss keine Wellen abhalten"
+   ]
+  }
+ ]
+}

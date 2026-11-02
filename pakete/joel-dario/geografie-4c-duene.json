@@ -1,0 +1,468 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-4c-duene",
+ "titel": "Geografie Teil 4c: Küstenschutz – Dünen",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Wie Dünen wachsen, welche Rolle der Strandhafer spielt und warum man Dünen nicht betreten darf. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Die Zeichnung der Düne ist vereinfacht und selbst gezeichnet.",
+ "lernblatt": [
+  {
+   "titel": "Dünen: Sandwälle am Strand",
+   "text": "**Dünen** sind Sandhügel hinter dem Strand, die der Wind aufbaut. Besonders auf den Inseln schützen sie die Küste. Darum stehen dort Schilder mit der Aufschrift „Dünenschutz ist Inselschutz. Bitte nicht betreten!“\n**So wächst eine Düne:**\n- Der **Wind** trägt Sand vom Strand ins Land.\n- Der **Strandhafer** hilft dabei am meisten. Seine Wurzeln bilden ein dichtes, fein verzweigtes Netz und reichen bis zu **5 m** tief. Das Netz hält den Sand fest.\n- Wird der Strandhafer vom Sand zugeweht, wächst er oben wieder heraus. So wird die Düne immer höher, am Ende mehrere Meter.",
+   "merke": "Dünen wachsen durch Wind und Strandhafer. Seine Wurzeln halten den Sand fest.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 340\" width=\"640\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"340\" fill=\"#ffffff\"/><polygon points=\"0,262 210,262 100,292 0,300\" fill=\"#bfe0f3\"/><path d=\"M0 262 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><polygon points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240 640,340 0,340\" fill=\"#ecd9a2\"/><polyline points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240\" fill=\"none\" stroke=\"#b99a55\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M390 171 q-6 40 -4 85 M390 183 q-24 22 -34 50 M390 187 q22 24 30 54 M387 215 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M430 153 q-6 40 -4 85 M430 165 q-24 22 -34 50 M430 169 q22 24 30 54 M427 197 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M470 154 q-6 40 -4 85 M470 166 q-24 22 -34 50 M470 170 q22 24 30 54 M467 198 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M505 174 q-6 40 -4 85 M505 186 q-24 22 -34 50 M505 190 q22 24 30 54 M502 218 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M387.0 168 Q382.0 156.6 373.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M388.5 168 Q386.0 154.5 381.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M390.0 168 Q390.0 152.4 390.0 142.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M391.5 168 Q394.0 154.5 398.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M393.0 168 Q398.0 156.6 407.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M427.0 150 Q422.0 138.6 413.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M428.5 150 Q426.0 136.5 421.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M430.0 150 Q430.0 134.4 430.0 124.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M431.5 150 Q434.0 136.5 438.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M433.0 150 Q438.0 138.6 447.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M467.0 151 Q462.0 139.6 453.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M468.5 151 Q466.0 137.5 461.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M470.0 151 Q470.0 135.4 470.0 125.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M471.5 151 Q474.0 137.5 478.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M473.0 151 Q478.0 139.6 487.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M502.0 171 Q497.0 159.6 488.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M503.5 171 Q501.0 157.5 496.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M505.0 171 Q505.0 155.4 505.0 145.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M506.5 171 Q509.0 157.5 513.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M508.0 171 Q513.0 159.6 522.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M337.0 215.0 Q332.0 207.2 323.0 202.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M338.5 215.0 Q336.0 205.1 331.5 198.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M340.0 215.0 Q340.0 203.0 340.0 195.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M557.0 213.66666666666666 Q552.0 205.9 543.0 200.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M558.5 213.66666666666666 Q556.0 203.8 551.5 197.2\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M560.0 213.66666666666666 Q560.0 201.7 560.0 193.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"205\" x2=\"312\" y2=\"197\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,197 302.2,202.0 301.6,193.5\" fill=\"#555\"/><line x1=\"205\" y1=\"232\" x2=\"312\" y2=\"224\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,224 302.2,229.0 301.6,220.5\" fill=\"#555\"/><text x=\"255\" y=\"172\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Wind</text><text x=\"250\" y=\"294\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Strand</text><text x=\"60\" y=\"232\" font-size=\"20\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><line x1=\"352\" y1=\"112\" x2=\"388\" y2=\"150\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"330\" y=\"104\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Strandhafer</text><text x=\"540\" y=\"120\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Düne</text><line x1=\"372\" y1=\"300\" x2=\"385\" y2=\"232\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"372\" y=\"322\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Wurzeln</text></svg>",
+   "bildAlt": "Querschnitt durch Strand und Düne mit Wind, Strandhafer und Wurzeln, daneben das Meer"
+  },
+  {
+   "titel": "Warum darf man Dünen nicht betreten?",
+   "text": "Es gibt zwei Gründe:\n- Wer auf die Düne tritt, **zertritt den Strandhafer**. Dann weht der Wind den Sand fort, die Düne verschwindet und die Insel ist schlechter geschützt.\n- Vögel **brüten und ruhen** in den Dünen und sollen nicht gestört werden.\nBleib deshalb auf den markierten Wegen und Holzstegen.",
+   "merke": "Wer eine Düne betritt, zerstört die Pflanzen: Der Sand weht weg, der Schutz der Insel geht verloren, und die Vögel werden gestört."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "tf",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Dünen sind besonders auf den Inseln wichtig für den Schutz der Küste.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Der Wind weht Sand vom Strand landeinwärts.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Dünen werden vom Meer aufgeschüttet.",
+   "info": "Der Wind weht den Sand vom Strand landeinwärts.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Der Strandhafer hat Wurzeln, die bis zu 5 m tief reichen.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Strandhafer wächst nur an Orten, wo es keinen Sand gibt.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Was bedeutet der Spruch „Dünenschutz ist Inselschutz“?",
+   "antworten": [
+    "Wer die Dünen schützt, schützt die ganze Insel.",
+    "Dünen werden nur im Sommer geschützt.",
+    "Inseln haben keine Dünen.",
+    "Man darf Dünen nur mit dem Boot erreichen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Was bringt den Sand zur Düne?",
+   "antworten": [
+    "der Wind",
+    "die Flut",
+    "die Schafe",
+    "die Wellen allein"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Welche Pflanze trägt entscheidend zum Wachstum der Dünen bei?",
+   "antworten": [
+    "der Strandhafer",
+    "der Queller",
+    "der Strandflieder",
+    "die Eiche"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Wie tief reichen die Wurzeln des Strandhafers bis zu?",
+   "antworten": [
+    "bis zu 5 m",
+    "bis zu 5 cm",
+    "bis zu 50 cm",
+    "bis zu 50 m"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Wie sehen die Wurzeln des Strandhafers aus?",
+   "antworten": [
+    "wie ein fein verzweigtes, dichtes Netz",
+    "wie eine einzige dicke Rübe",
+    "wie Steine",
+    "gar nicht, er hat keine Wurzeln"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Was machen die Wurzeln des Strandhafers mit dem Sand?",
+   "antworten": [
+    "Sie halten ihn fest.",
+    "Sie lösen ihn auf.",
+    "Sie spülen ihn ins Meer.",
+    "Sie färben ihn grün."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Was geschieht, wenn der Wind den Strandhafer mit Sand zuschüttet?",
+   "antworten": [
+    "Die Pflanze wächst oben wieder heraus.",
+    "Die Pflanze stirbt sofort.",
+    "Die Düne verschwindet.",
+    "Der Sand wird zu Stein."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Warum können Dünen mehrere Meter hoch werden?",
+   "antworten": [
+    "Der Strandhafer wächst immer wieder aus dem Sand heraus und hält ihn fest.",
+    "Weil das Meer sie hochdrückt.",
+    "Weil dort Steine liegen.",
+    "Weil Schafe Sand hinbringen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Bringe das Wachstum einer Düne in die richtige Reihenfolge.",
+   "schritte": [
+    "Der Wind weht Sand vom Strand landeinwärts.",
+    "Die Wurzeln des Strandhafers halten den Sand fest.",
+    "Der Sand schüttet die Pflanze zu.",
+    "Der Strandhafer wächst oben wieder heraus.",
+    "Die Düne wird mehrere Meter hoch."
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Ergänze den Text.",
+   "text": "Der {{Wind}} weht Sand vom Strand landeinwärts. Der {{Strandhafer}} hält den Sand mit seinen {{Wurzeln}} fest. Wird die Pflanze zugeschüttet, wächst sie oben wieder heraus. So können Dünen mehrere {{Meter}} hoch werden.",
+   "wortbank": [
+    "Wind",
+    "Strandhafer",
+    "Wurzeln",
+    "Meter",
+    "Wellen",
+    "Muscheln"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Ergänze die Zahlen und Wörter.",
+   "text": "Die Wurzeln des Strandhafers bilden ein {{Netz}} und reichen bis zu {{5}} m tief. Sie halten den {{Sand}} fest.",
+   "wortbank": [
+    "Netz",
+    "5",
+    "Sand",
+    "50",
+    "Wasser"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Wie tief reichen die Wurzeln des Strandhafers höchstens? (in Metern)",
+   "richtig": [
+    "5",
+    "5 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "A – Dünen: wie sie wachsen",
+   "frage": "Erkläre in drei Sätzen, wie eine Düne wächst.",
+   "punkte": 3,
+   "muster": "Der Wind weht Sand vom Strand landeinwärts. Die dichten Wurzeln des Strandhafers halten den Sand fest. Wird die Pflanze mit Sand zugeschüttet, wächst sie oben wieder heraus, und die Düne wird immer höher.",
+   "kriterien": [
+    "Wind weht Sand landeinwärts",
+    "Strandhafer und seine Wurzeln halten den Sand fest",
+    "Pflanze wächst wieder heraus, Düne wird höher"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Man darf Dünen betreten, wenn man vorsichtig geht.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Auf Schildern steht: „Dünenschutz ist Inselschutz. Bitte nicht betreten!“",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Warum darf man Dünen nicht betreten? Nenne den ersten Grund.",
+   "antworten": [
+    "Tritte zerstören den Strandhafer.",
+    "Der Sand ist zu heiß.",
+    "Dort wohnen Seehunde.",
+    "Es ist zu gefährlich wegen der Flut."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Warum darf man Dünen nicht betreten? Nenne den zweiten Grund.",
+   "antworten": [
+    "Dünen sind ein wichtiger Brut- und Ruheplatz für Vögel.",
+    "Dort wächst der Queller.",
+    "Dort liegt der Deichfuß.",
+    "Dort versinkt man im Schlick."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Was passiert, wenn der Strandhafer zertreten wird?",
+   "antworten": [
+    "Der Wind trägt den Sand weg und die Düne wird zerstört.",
+    "Die Düne wächst schneller.",
+    "Die Düne wird zum Deich.",
+    "Nichts, er wächst sofort nach."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Was geht verloren, wenn die Dünen zerstört werden?",
+   "antworten": [
+    "der Schutz für die Insel",
+    "das Gezeitenwasser",
+    "die Salzwiese",
+    "die Marsch"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Wo darf man in den Dünen gehen?",
+   "antworten": [
+    "nur auf markierten Wegen und Holzstegen",
+    "überall am Rand",
+    "nur nachts",
+    "überall, wenn man leise ist"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Ursache und Folge: Was passiert dann?",
+   "paare": [
+    [
+     "Menschen betreten die Düne.",
+     "Der Strandhafer wird zertreten."
+    ],
+    [
+     "Der Strandhafer ist zertreten.",
+     "Der Wind trägt den Sand weg."
+    ],
+    [
+     "Der Sand ist weggeweht.",
+     "Die Düne wird zerstört."
+    ],
+    [
+     "Die Düne ist zerstört.",
+     "Der Schutz für die Insel geht verloren."
+    ]
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Bringe die Folgen des Betretens in die richtige Reihenfolge.",
+   "schritte": [
+    "Tritte zerstören den Strandhafer.",
+    "Der Wind trägt den Sand weg.",
+    "Die Düne wird zerstört.",
+    "Der Schutz für die Insel geht verloren."
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Ergänze die Gründe.",
+   "text": "Man darf Dünen nicht betreten, weil Tritte den {{Strandhafer}} zerstören und die Dünen ein wichtiger {{Brut}}- und Ruheplatz für Vögel sind. Geh nur auf {{Holzstegen}} und markierten Wegen.",
+   "wortbank": [
+    "Strandhafer",
+    "Brut",
+    "Holzstegen",
+    "Deichfuß",
+    "Seehund"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Nenne zwei Gründe, warum man Dünen nicht betreten darf.",
+   "punkte": 2,
+   "muster": "Erstens zerstören Tritte den Strandhafer, dann trägt der Wind den Sand weg und der Schutz für die Insel geht verloren. Zweitens sind Dünen ein Brut- und Ruheplatz für Vögel, die nicht gestört werden sollen.",
+   "kriterien": [
+    "Tritte zerstören den Strandhafer (Sand weht weg, Schutz geht verloren)",
+    "Brut- und Ruheplatz der Vögel"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "B – Dünen schützen",
+   "frage": "Du siehst, wie ein Kind auf eine Düne klettert. Was sagst du ihm und warum?",
+   "punkte": 3,
+   "muster": "Ich sage: Bitte geh nicht auf die Düne! Du zertrittst den Strandhafer. Dann weht der Wind den Sand weg und die Düne und der Schutz für die Insel gehen verloren. Außerdem brüten und ruhen dort Vögel. Wir gehen lieber auf dem Holzsteg.",
+   "kriterien": [
+    "Aufforderung, die Düne nicht zu betreten",
+    "Mindestens einen Grund genannt",
+    "Alternative genannt (Wege, Holzstege)"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Die Düne beschriften",
+   "frage": "Beschrifte die Düne. Welches Wort gehört zu welcher Nummer?",
+   "text": "(1) {{Wind}}\n(2) {{Strand}}\n(3) {{Strandhafer}}\n(4) {{Düne}}\n(5) {{Wurzeln}}\n(6) {{Meer}}",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 340\" width=\"640\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"340\" fill=\"#ffffff\"/><polygon points=\"0,262 210,262 100,292 0,300\" fill=\"#bfe0f3\"/><path d=\"M0 262 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><polygon points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240 640,340 0,340\" fill=\"#ecd9a2\"/><polyline points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240\" fill=\"none\" stroke=\"#b99a55\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M390 171 q-6 40 -4 85 M390 183 q-24 22 -34 50 M390 187 q22 24 30 54 M387 215 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M430 153 q-6 40 -4 85 M430 165 q-24 22 -34 50 M430 169 q22 24 30 54 M427 197 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M470 154 q-6 40 -4 85 M470 166 q-24 22 -34 50 M470 170 q22 24 30 54 M467 198 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M505 174 q-6 40 -4 85 M505 186 q-24 22 -34 50 M505 190 q22 24 30 54 M502 218 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M387.0 168 Q382.0 156.6 373.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M388.5 168 Q386.0 154.5 381.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M390.0 168 Q390.0 152.4 390.0 142.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M391.5 168 Q394.0 154.5 398.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M393.0 168 Q398.0 156.6 407.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M427.0 150 Q422.0 138.6 413.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M428.5 150 Q426.0 136.5 421.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M430.0 150 Q430.0 134.4 430.0 124.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M431.5 150 Q434.0 136.5 438.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M433.0 150 Q438.0 138.6 447.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M467.0 151 Q462.0 139.6 453.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M468.5 151 Q466.0 137.5 461.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M470.0 151 Q470.0 135.4 470.0 125.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M471.5 151 Q474.0 137.5 478.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M473.0 151 Q478.0 139.6 487.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M502.0 171 Q497.0 159.6 488.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M503.5 171 Q501.0 157.5 496.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M505.0 171 Q505.0 155.4 505.0 145.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M506.5 171 Q509.0 157.5 513.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M508.0 171 Q513.0 159.6 522.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M337.0 215.0 Q332.0 207.2 323.0 202.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M338.5 215.0 Q336.0 205.1 331.5 198.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M340.0 215.0 Q340.0 203.0 340.0 195.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M557.0 213.66666666666666 Q552.0 205.9 543.0 200.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M558.5 213.66666666666666 Q556.0 203.8 551.5 197.2\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M560.0 213.66666666666666 Q560.0 201.7 560.0 193.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"205\" x2=\"312\" y2=\"197\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,197 302.2,202.0 301.6,193.5\" fill=\"#555\"/><line x1=\"205\" y1=\"232\" x2=\"312\" y2=\"224\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,224 302.2,229.0 301.6,220.5\" fill=\"#555\"/><circle cx=\"255\" cy=\"190\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"195.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"250\" y1=\"285\" x2=\"250\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"250\" cy=\"285\" r=\"13\" fill=\"#e2701a\"/><text x=\"250\" y=\"290.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"385\" y1=\"112\" x2=\"392\" y2=\"152\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"112\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"117.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"445\" cy=\"100\" r=\"13\" fill=\"#e2701a\"/><text x=\"445\" y=\"105.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"350\" y1=\"300\" x2=\"385\" y2=\"232\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"300\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"305.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><circle cx=\"60\" cy=\"232\" r=\"13\" fill=\"#e2701a\"/><text x=\"60\" y=\"237.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Querschnitt durch Strand und Düne mit Strandhafer, dessen Wurzeln tief in die Düne reichen, und Wind vom Meer, mit den Nummern 1 bis 6",
+   "info": "1 Wind, 2 Strand, 3 Strandhafer, 4 Düne, 5 Wurzeln, 6 Meer.",
+   "wortbank": [
+    "Wind",
+    "Strand",
+    "Strandhafer",
+    "Düne",
+    "Wurzeln",
+    "Meer",
+    "Deich",
+    "Priel"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Die Düne beschriften",
+   "frage": "Ordne die Nummern zu.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 340\" width=\"640\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"340\" fill=\"#ffffff\"/><polygon points=\"0,262 210,262 100,292 0,300\" fill=\"#bfe0f3\"/><path d=\"M0 262 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><polygon points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240 640,340 0,340\" fill=\"#ecd9a2\"/><polyline points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240\" fill=\"none\" stroke=\"#b99a55\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M390 171 q-6 40 -4 85 M390 183 q-24 22 -34 50 M390 187 q22 24 30 54 M387 215 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M430 153 q-6 40 -4 85 M430 165 q-24 22 -34 50 M430 169 q22 24 30 54 M427 197 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M470 154 q-6 40 -4 85 M470 166 q-24 22 -34 50 M470 170 q22 24 30 54 M467 198 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M505 174 q-6 40 -4 85 M505 186 q-24 22 -34 50 M505 190 q22 24 30 54 M502 218 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M387.0 168 Q382.0 156.6 373.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M388.5 168 Q386.0 154.5 381.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M390.0 168 Q390.0 152.4 390.0 142.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M391.5 168 Q394.0 154.5 398.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M393.0 168 Q398.0 156.6 407.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M427.0 150 Q422.0 138.6 413.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M428.5 150 Q426.0 136.5 421.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M430.0 150 Q430.0 134.4 430.0 124.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M431.5 150 Q434.0 136.5 438.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M433.0 150 Q438.0 138.6 447.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M467.0 151 Q462.0 139.6 453.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M468.5 151 Q466.0 137.5 461.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M470.0 151 Q470.0 135.4 470.0 125.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M471.5 151 Q474.0 137.5 478.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M473.0 151 Q478.0 139.6 487.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M502.0 171 Q497.0 159.6 488.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M503.5 171 Q501.0 157.5 496.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M505.0 171 Q505.0 155.4 505.0 145.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M506.5 171 Q509.0 157.5 513.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M508.0 171 Q513.0 159.6 522.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M337.0 215.0 Q332.0 207.2 323.0 202.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M338.5 215.0 Q336.0 205.1 331.5 198.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M340.0 215.0 Q340.0 203.0 340.0 195.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M557.0 213.66666666666666 Q552.0 205.9 543.0 200.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M558.5 213.66666666666666 Q556.0 203.8 551.5 197.2\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M560.0 213.66666666666666 Q560.0 201.7 560.0 193.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"205\" x2=\"312\" y2=\"197\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,197 302.2,202.0 301.6,193.5\" fill=\"#555\"/><line x1=\"205\" y1=\"232\" x2=\"312\" y2=\"224\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,224 302.2,229.0 301.6,220.5\" fill=\"#555\"/><circle cx=\"255\" cy=\"190\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"195.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"250\" y1=\"285\" x2=\"250\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"250\" cy=\"285\" r=\"13\" fill=\"#e2701a\"/><text x=\"250\" y=\"290.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"385\" y1=\"112\" x2=\"392\" y2=\"152\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"112\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"117.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"445\" cy=\"100\" r=\"13\" fill=\"#e2701a\"/><text x=\"445\" y=\"105.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"350\" y1=\"300\" x2=\"385\" y2=\"232\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"300\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"305.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><circle cx=\"60\" cy=\"232\" r=\"13\" fill=\"#e2701a\"/><text x=\"60\" y=\"237.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Querschnitt durch Strand und Düne mit Strandhafer, dessen Wurzeln tief in die Düne reichen, und Wind vom Meer, mit den Nummern 1 bis 6",
+   "paare": [
+    [
+     "Nummer 1",
+     "Wind"
+    ],
+    [
+     "Nummer 2",
+     "Strand"
+    ],
+    [
+     "Nummer 3",
+     "Strandhafer"
+    ],
+    [
+     "Nummer 4",
+     "Düne"
+    ],
+    [
+     "Nummer 5",
+     "Wurzeln"
+    ],
+    [
+     "Nummer 6",
+     "Meer"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Die Düne beschriften",
+   "frage": "Welche Nummer zeigt den Strandhafer?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 340\" width=\"640\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"340\" fill=\"#ffffff\"/><polygon points=\"0,262 210,262 100,292 0,300\" fill=\"#bfe0f3\"/><path d=\"M0 262 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><polygon points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240 640,340 0,340\" fill=\"#ecd9a2\"/><polyline points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240\" fill=\"none\" stroke=\"#b99a55\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M390 171 q-6 40 -4 85 M390 183 q-24 22 -34 50 M390 187 q22 24 30 54 M387 215 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M430 153 q-6 40 -4 85 M430 165 q-24 22 -34 50 M430 169 q22 24 30 54 M427 197 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M470 154 q-6 40 -4 85 M470 166 q-24 22 -34 50 M470 170 q22 24 30 54 M467 198 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M505 174 q-6 40 -4 85 M505 186 q-24 22 -34 50 M505 190 q22 24 30 54 M502 218 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M387.0 168 Q382.0 156.6 373.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M388.5 168 Q386.0 154.5 381.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M390.0 168 Q390.0 152.4 390.0 142.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M391.5 168 Q394.0 154.5 398.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M393.0 168 Q398.0 156.6 407.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M427.0 150 Q422.0 138.6 413.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M428.5 150 Q426.0 136.5 421.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M430.0 150 Q430.0 134.4 430.0 124.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M431.5 150 Q434.0 136.5 438.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M433.0 150 Q438.0 138.6 447.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M467.0 151 Q462.0 139.6 453.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M468.5 151 Q466.0 137.5 461.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M470.0 151 Q470.0 135.4 470.0 125.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M471.5 151 Q474.0 137.5 478.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M473.0 151 Q478.0 139.6 487.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M502.0 171 Q497.0 159.6 488.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M503.5 171 Q501.0 157.5 496.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M505.0 171 Q505.0 155.4 505.0 145.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M506.5 171 Q509.0 157.5 513.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M508.0 171 Q513.0 159.6 522.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M337.0 215.0 Q332.0 207.2 323.0 202.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M338.5 215.0 Q336.0 205.1 331.5 198.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M340.0 215.0 Q340.0 203.0 340.0 195.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M557.0 213.66666666666666 Q552.0 205.9 543.0 200.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M558.5 213.66666666666666 Q556.0 203.8 551.5 197.2\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M560.0 213.66666666666666 Q560.0 201.7 560.0 193.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"205\" x2=\"312\" y2=\"197\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,197 302.2,202.0 301.6,193.5\" fill=\"#555\"/><line x1=\"205\" y1=\"232\" x2=\"312\" y2=\"224\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,224 302.2,229.0 301.6,220.5\" fill=\"#555\"/><circle cx=\"255\" cy=\"190\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"195.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"250\" y1=\"285\" x2=\"250\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"250\" cy=\"285\" r=\"13\" fill=\"#e2701a\"/><text x=\"250\" y=\"290.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"385\" y1=\"112\" x2=\"392\" y2=\"152\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"112\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"117.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"445\" cy=\"100\" r=\"13\" fill=\"#e2701a\"/><text x=\"445\" y=\"105.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"350\" y1=\"300\" x2=\"385\" y2=\"232\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"300\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"305.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><circle cx=\"60\" cy=\"232\" r=\"13\" fill=\"#e2701a\"/><text x=\"60\" y=\"237.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Querschnitt durch Strand und Düne mit Strandhafer, dessen Wurzeln tief in die Düne reichen, und Wind vom Meer, mit den Nummern 1 bis 6",
+   "antworten": [
+    "3",
+    "1",
+    "4",
+    "6"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Die Düne beschriften",
+   "frage": "Welche Nummer zeigt die Wurzeln?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 340\" width=\"640\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"340\" fill=\"#ffffff\"/><polygon points=\"0,262 210,262 100,292 0,300\" fill=\"#bfe0f3\"/><path d=\"M0 262 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><polygon points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240 640,340 0,340\" fill=\"#ecd9a2\"/><polyline points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240\" fill=\"none\" stroke=\"#b99a55\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M390 171 q-6 40 -4 85 M390 183 q-24 22 -34 50 M390 187 q22 24 30 54 M387 215 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M430 153 q-6 40 -4 85 M430 165 q-24 22 -34 50 M430 169 q22 24 30 54 M427 197 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M470 154 q-6 40 -4 85 M470 166 q-24 22 -34 50 M470 170 q22 24 30 54 M467 198 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M505 174 q-6 40 -4 85 M505 186 q-24 22 -34 50 M505 190 q22 24 30 54 M502 218 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M387.0 168 Q382.0 156.6 373.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M388.5 168 Q386.0 154.5 381.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M390.0 168 Q390.0 152.4 390.0 142.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M391.5 168 Q394.0 154.5 398.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M393.0 168 Q398.0 156.6 407.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M427.0 150 Q422.0 138.6 413.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M428.5 150 Q426.0 136.5 421.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M430.0 150 Q430.0 134.4 430.0 124.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M431.5 150 Q434.0 136.5 438.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M433.0 150 Q438.0 138.6 447.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M467.0 151 Q462.0 139.6 453.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M468.5 151 Q466.0 137.5 461.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M470.0 151 Q470.0 135.4 470.0 125.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M471.5 151 Q474.0 137.5 478.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M473.0 151 Q478.0 139.6 487.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M502.0 171 Q497.0 159.6 488.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M503.5 171 Q501.0 157.5 496.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M505.0 171 Q505.0 155.4 505.0 145.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M506.5 171 Q509.0 157.5 513.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M508.0 171 Q513.0 159.6 522.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M337.0 215.0 Q332.0 207.2 323.0 202.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M338.5 215.0 Q336.0 205.1 331.5 198.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M340.0 215.0 Q340.0 203.0 340.0 195.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M557.0 213.66666666666666 Q552.0 205.9 543.0 200.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M558.5 213.66666666666666 Q556.0 203.8 551.5 197.2\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M560.0 213.66666666666666 Q560.0 201.7 560.0 193.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"205\" x2=\"312\" y2=\"197\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,197 302.2,202.0 301.6,193.5\" fill=\"#555\"/><line x1=\"205\" y1=\"232\" x2=\"312\" y2=\"224\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,224 302.2,229.0 301.6,220.5\" fill=\"#555\"/><circle cx=\"255\" cy=\"190\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"195.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"250\" y1=\"285\" x2=\"250\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"250\" cy=\"285\" r=\"13\" fill=\"#e2701a\"/><text x=\"250\" y=\"290.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"385\" y1=\"112\" x2=\"392\" y2=\"152\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"112\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"117.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"445\" cy=\"100\" r=\"13\" fill=\"#e2701a\"/><text x=\"445\" y=\"105.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"350\" y1=\"300\" x2=\"385\" y2=\"232\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"300\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"305.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><circle cx=\"60\" cy=\"232\" r=\"13\" fill=\"#e2701a\"/><text x=\"60\" y=\"237.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Querschnitt durch Strand und Düne mit Strandhafer, dessen Wurzeln tief in die Düne reichen, und Wind vom Meer, mit den Nummern 1 bis 6",
+   "antworten": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Die Düne beschriften",
+   "frage": "Welche Nummer zeigt die Düne?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 340\" width=\"640\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"340\" fill=\"#ffffff\"/><polygon points=\"0,262 210,262 100,292 0,300\" fill=\"#bfe0f3\"/><path d=\"M0 262 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><polygon points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240 640,340 0,340\" fill=\"#ecd9a2\"/><polyline points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240\" fill=\"none\" stroke=\"#b99a55\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M390 171 q-6 40 -4 85 M390 183 q-24 22 -34 50 M390 187 q22 24 30 54 M387 215 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M430 153 q-6 40 -4 85 M430 165 q-24 22 -34 50 M430 169 q22 24 30 54 M427 197 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M470 154 q-6 40 -4 85 M470 166 q-24 22 -34 50 M470 170 q22 24 30 54 M467 198 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M505 174 q-6 40 -4 85 M505 186 q-24 22 -34 50 M505 190 q22 24 30 54 M502 218 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M387.0 168 Q382.0 156.6 373.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M388.5 168 Q386.0 154.5 381.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M390.0 168 Q390.0 152.4 390.0 142.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M391.5 168 Q394.0 154.5 398.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M393.0 168 Q398.0 156.6 407.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M427.0 150 Q422.0 138.6 413.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M428.5 150 Q426.0 136.5 421.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M430.0 150 Q430.0 134.4 430.0 124.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M431.5 150 Q434.0 136.5 438.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M433.0 150 Q438.0 138.6 447.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M467.0 151 Q462.0 139.6 453.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M468.5 151 Q466.0 137.5 461.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M470.0 151 Q470.0 135.4 470.0 125.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M471.5 151 Q474.0 137.5 478.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M473.0 151 Q478.0 139.6 487.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M502.0 171 Q497.0 159.6 488.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M503.5 171 Q501.0 157.5 496.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M505.0 171 Q505.0 155.4 505.0 145.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M506.5 171 Q509.0 157.5 513.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M508.0 171 Q513.0 159.6 522.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M337.0 215.0 Q332.0 207.2 323.0 202.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M338.5 215.0 Q336.0 205.1 331.5 198.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M340.0 215.0 Q340.0 203.0 340.0 195.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M557.0 213.66666666666666 Q552.0 205.9 543.0 200.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M558.5 213.66666666666666 Q556.0 203.8 551.5 197.2\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M560.0 213.66666666666666 Q560.0 201.7 560.0 193.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"205\" x2=\"312\" y2=\"197\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,197 302.2,202.0 301.6,193.5\" fill=\"#555\"/><line x1=\"205\" y1=\"232\" x2=\"312\" y2=\"224\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,224 302.2,229.0 301.6,220.5\" fill=\"#555\"/><circle cx=\"255\" cy=\"190\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"195.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"250\" y1=\"285\" x2=\"250\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"250\" cy=\"285\" r=\"13\" fill=\"#e2701a\"/><text x=\"250\" y=\"290.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"385\" y1=\"112\" x2=\"392\" y2=\"152\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"112\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"117.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"445\" cy=\"100\" r=\"13\" fill=\"#e2701a\"/><text x=\"445\" y=\"105.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"350\" y1=\"300\" x2=\"385\" y2=\"232\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"300\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"305.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><circle cx=\"60\" cy=\"232\" r=\"13\" fill=\"#e2701a\"/><text x=\"60\" y=\"237.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Querschnitt durch Strand und Düne mit Strandhafer, dessen Wurzeln tief in die Düne reichen, und Wind vom Meer, mit den Nummern 1 bis 6",
+   "antworten": [
+    "4",
+    "1",
+    "2",
+    "6"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Die Düne beschriften",
+   "frage": "Welche Nummer zeigt den Wind, der den Sand landeinwärts weht?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 340\" width=\"640\" height=\"340\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"340\" fill=\"#ffffff\"/><polygon points=\"0,262 210,262 100,292 0,300\" fill=\"#bfe0f3\"/><path d=\"M0 262 q15 -8 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0\" fill=\"none\" stroke=\"#5aa6d1\" stroke-width=\"2.5\"/><polygon points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240 640,340 0,340\" fill=\"#ecd9a2\"/><polyline points=\"0,300 100,292 210,262 300,240 350,205 405,160 445,142 490,155 545,200 590,232 640,240\" fill=\"none\" stroke=\"#b99a55\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M390 171 q-6 40 -4 85 M390 183 q-24 22 -34 50 M390 187 q22 24 30 54 M387 215 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M430 153 q-6 40 -4 85 M430 165 q-24 22 -34 50 M430 169 q22 24 30 54 M427 197 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M470 154 q-6 40 -4 85 M470 166 q-24 22 -34 50 M470 170 q22 24 30 54 M467 198 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M505 174 q-6 40 -4 85 M505 186 q-24 22 -34 50 M505 190 q22 24 30 54 M502 218 q-14 10 -20 30\" fill=\"none\" stroke=\"#8a5a2b\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M387.0 168 Q382.0 156.6 373.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M388.5 168 Q386.0 154.5 381.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M390.0 168 Q390.0 152.4 390.0 142.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M391.5 168 Q394.0 154.5 398.5 145.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M393.0 168 Q398.0 156.6 407.0 149.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M427.0 150 Q422.0 138.6 413.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M428.5 150 Q426.0 136.5 421.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M430.0 150 Q430.0 134.4 430.0 124.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M431.5 150 Q434.0 136.5 438.5 127.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M433.0 150 Q438.0 138.6 447.0 131.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M467.0 151 Q462.0 139.6 453.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M468.5 151 Q466.0 137.5 461.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M470.0 151 Q470.0 135.4 470.0 125.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M471.5 151 Q474.0 137.5 478.5 128.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M473.0 151 Q478.0 139.6 487.0 132.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M502.0 171 Q497.0 159.6 488.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M503.5 171 Q501.0 157.5 496.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M505.0 171 Q505.0 155.4 505.0 145.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M506.5 171 Q509.0 157.5 513.5 148.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M508.0 171 Q513.0 159.6 522.0 152.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M337.0 215.0 Q332.0 207.2 323.0 202.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M338.5 215.0 Q336.0 205.1 331.5 198.5\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M340.0 215.0 Q340.0 203.0 340.0 195.0\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M557.0 213.66666666666666 Q552.0 205.9 543.0 200.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M558.5 213.66666666666666 Q556.0 203.8 551.5 197.2\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M560.0 213.66666666666666 Q560.0 201.7 560.0 193.7\" fill=\"none\" stroke=\"#4f9d3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"205\" y1=\"205\" x2=\"312\" y2=\"197\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,197 302.2,202.0 301.6,193.5\" fill=\"#555\"/><line x1=\"205\" y1=\"232\" x2=\"312\" y2=\"224\" stroke=\"#555\" stroke-width=\"2.4\"/><polygon points=\"312,224 302.2,229.0 301.6,220.5\" fill=\"#555\"/><circle cx=\"255\" cy=\"190\" r=\"13\" fill=\"#e2701a\"/><text x=\"255\" y=\"195.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><line x1=\"250\" y1=\"285\" x2=\"250\" y2=\"258\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"250\" cy=\"285\" r=\"13\" fill=\"#e2701a\"/><text x=\"250\" y=\"290.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><line x1=\"385\" y1=\"112\" x2=\"392\" y2=\"152\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"385\" cy=\"112\" r=\"13\" fill=\"#e2701a\"/><text x=\"385\" y=\"117.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"445\" cy=\"100\" r=\"13\" fill=\"#e2701a\"/><text x=\"445\" y=\"105.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><line x1=\"350\" y1=\"300\" x2=\"385\" y2=\"232\" stroke=\"#333\" stroke-width=\"1.4\"/><circle cx=\"350\" cy=\"300\" r=\"13\" fill=\"#e2701a\"/><text x=\"350\" y=\"305.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><circle cx=\"60\" cy=\"232\" r=\"13\" fill=\"#e2701a\"/><text x=\"60\" y=\"237.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Querschnitt durch Strand und Düne mit Strandhafer, dessen Wurzeln tief in die Düne reichen, und Wind vom Meer, mit den Nummern 1 bis 6",
+   "antworten": [
+    "1",
+    "2",
+    "5",
+    "6"
+   ],
+   "richtig": 0
+  }
+ ]
+}
