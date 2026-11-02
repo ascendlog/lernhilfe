@@ -1,7 +1,10 @@
 {
  "typ": "lernpaket",
  "version": 1,
- "person": "joel",
+ "person": [
+  "joel",
+  "dario"
+ ],
  "id": "geografie-nordsee-wattenmeer",
  "titel": "Geografie: Nordsee, Wattenmeer und Küstenschutz",
  "fach": "Geografie",

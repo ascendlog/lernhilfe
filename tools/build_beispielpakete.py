@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Erzeugt die Beispiel-Lernpakete im Ordner pakete/joel/ (gültiges JSON, ohne Tippfehler-Risiko).
+"""Erzeugt die Beispiel-Lernpakete: Englisch in pakete/joel/, Geografie im gemeinsamen Ordner pakete/joel-dario/ (gültiges JSON, ohne Tippfehler-Risiko).
 Aufruf: python3 tools/build_beispielpakete.py
 """
 import json, os
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'pakete', 'joel')
+SHARED = os.path.join(os.path.dirname(__file__), '..', 'pakete', 'joel-dario')   # Pakete für Joel und Dario gemeinsam
 os.makedirs(OUT, exist_ok=True)
+os.makedirs(SHARED, exist_ok=True)
 
-def write(name, obj):
-    with open(os.path.join(OUT, name), 'w', encoding='utf-8') as f:
+def write(name, obj, out=None):
+    with open(os.path.join(out or OUT, name), 'w', encoding='utf-8') as f:
         json.dump(obj, f, ensure_ascii=False, indent=1)
         f.write('\n')
 
@@ -205,18 +207,23 @@ geo = {
    "kriterien": ["Der Deich hält das Wasser bei Sturmflut zurück", "Aufbau: Sandkern, Klei, Grasdecke", "Seeseite flach, Landseite steiler"]}
  ]
 }
-write('geografie-nordsee-wattenmeer.json', geo)
+geo['person'] = ['joel', 'dario']
+write('geografie-nordsee-wattenmeer.json', geo, SHARED)
 
-# Liste der Pakete im Repo: vorhandene Einträge behalten (z. B. die Musikpakete) und ergänzen
-ix_path = os.path.join(OUT, 'index.json')
-try:
-    ix = json.load(open(ix_path, encoding='utf-8'))
-except Exception:
-    ix = []
-for name in reversed(['englisch-unit1-simple-past.json', 'geografie-nordsee-wattenmeer.json']):
-    if name not in ix:
-        ix.insert(0, name)
-with open(ix_path, 'w', encoding='utf-8') as f:
-    json.dump(ix, f, ensure_ascii=False, indent=1)
-    f.write('\n')
-print('geschrieben:', sorted(os.listdir(OUT)))
+# Listen der Pakete im Repo: vorhandene Einträge behalten (z. B. die Musikpakete) und ergänzen
+def update_index(folder, names):
+    ix_path = os.path.join(folder, 'index.json')
+    try:
+        ix = json.load(open(ix_path, encoding='utf-8'))
+    except Exception:
+        ix = []
+    for name in reversed(names):
+        if name not in ix:
+            ix.insert(0, name)
+    with open(ix_path, 'w', encoding='utf-8') as f:
+        json.dump(ix, f, ensure_ascii=False, indent=1)
+        f.write('\n')
+
+update_index(OUT, ['englisch-unit1-simple-past.json'])
+update_index(SHARED, ['geografie-nordsee-wattenmeer.json'])
+print('geschrieben:', sorted(os.listdir(OUT)), sorted(os.listdir(SHARED)))

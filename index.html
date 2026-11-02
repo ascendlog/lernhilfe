@@ -11,8 +11,10 @@
 /* Designsystem: Jede Person hat ihren eigenen „Raum“ (Farbton + Akzent). Neutrale Flächen leiten sich aus --h ab. */
 :root{--h:228;--bg:hsl(var(--h) 34% 8%);--chrome:hsl(var(--h) 32% 10%);--surface:hsl(var(--h) 27% 13%);--surface-2:hsl(var(--h) 25% 18%);--line:hsl(var(--h) 21% 25%);--ink:hsl(var(--h) 50% 96%);--muted:hsl(var(--h) 16% 71%);--accent:#ffc233;--accent-text:#ffc233;--on-accent:#1d1500;--ok:#3ccf82;--bad:#ff7d72;--part:#f3b43f;--shadow:0 18px 40px -18px rgba(2,4,14,.85);--display:"Bahnschrift","DIN Alternate","Avenir Next Condensed","Inter Display",system-ui,sans-serif;--body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color-scheme:dark}
 html[data-p=saskia]{--h:176;--accent:#2fd0b9;--accent-text:#2fd0b9;--on-accent:#03201b}
+html[data-p=dario]{--h:268;--accent:#b794ff;--accent-text:#b794ff;--on-accent:#1b0f38}
 html[data-theme=light]{color-scheme:light;--bg:hsl(var(--h) 38% 96%);--chrome:#fff;--surface:#fff;--surface-2:hsl(var(--h) 36% 95%);--line:hsl(var(--h) 24% 86%);--ink:hsl(var(--h) 42% 12%);--muted:hsl(var(--h) 12% 38%);--accent-text:#7d5000;--ok:#117a47;--bad:#c1372b;--part:#8f5b00;--shadow:0 16px 36px -18px hsl(var(--h) 40% 25% / .35)}
 html[data-theme=light][data-p=saskia]{--accent-text:#09665b}
+html[data-theme=light][data-p=dario]{--accent-text:#5a2fb3}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{font-size:17px}
@@ -243,9 +245,12 @@ const fmtDate = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', m
 
 /* ========== Personen ========== */
 /* Wer die App nutzt. Weitere Person: einfach eine Zeile ergänzen (id klein und ohne Leerzeichen).
-   Für eine eigene Farbe zusätzlich im CSS oben eine Zeile html[data-p=<id>] ergänzen. */
+   Für eine eigene Farbe zusätzlich im CSS oben eine Zeile html[data-p=<id>] ergänzen.
+   ordner = Ordner unter pakete/, aus denen die Person ihre Pakete aus dem Repo bekommt (Standard: der eigene).
+   Ein Ordner, der zwei Personen gemeinsam gehört (hier pakete/joel-dario/), taucht bei beiden auf. */
 const PERSONEN = [ /* farbe = Akzent, h = Farbton des „Raums“ (0–360) */
-  { id: 'joel', name: 'Joel', art: 'kind', farbe: '#ffc233', h: 228 },
+  { id: 'joel', name: 'Joel', art: 'kind', farbe: '#ffc233', h: 228, ordner: ['joel', 'joel-dario'] },
+  { id: 'dario', name: 'Dario', art: 'kind', farbe: '#b794ff', h: 268, ordner: ['dario', 'joel-dario'] },
   { id: 'saskia', name: 'Saskia', art: 'erwachsen', farbe: '#2fd0b9', h: 176 }
 ];
 const ALT_BESITZER = 'joel'; /* ihm gehört der Speicherstand aus der Zeit vor den Profilen (lernhilfe.v1) */
@@ -450,7 +455,7 @@ function validatePack(p) {
   if (p.typ !== 'lernpaket') e.push('Feld "typ" muss "lernpaket" sein.');
   if (typeof p.id !== 'string' || !/^[a-z0-9][a-z0-9_-]*$/i.test(p.id)) e.push('Feld "id" fehlt oder enthält ungültige Zeichen (erlaubt: Buchstaben, Zahlen, - und _).');
   if (typeof p.titel !== 'string' || !p.titel.trim()) e.push('Feld "titel" fehlt.');
-  if (p.person !== undefined && typeof p.person !== 'string') e.push('"person" muss ein Text sein (z. B. "joel").');
+  if (p.person !== undefined && !(typeof p.person === 'string' || (Array.isArray(p.person) && p.person.length && p.person.every(x => typeof x === 'string')))) e.push('"person" muss ein Text (z. B. "joel") oder eine Liste von Texten (z. B. ["joel", "dario"]) sein.');
   if (!Array.isArray(p.aufgaben) || !p.aufgaben.length) e.push('Die Liste "aufgaben" fehlt oder ist leer.');
   else p.aufgaben.forEach((t, i) => validateTask(t, i, e));
   if (p.lernblatt !== undefined && (!Array.isArray(p.lernblatt) || p.lernblatt.some(s => !s || typeof s.titel !== 'string' || typeof s.text !== 'string'))) e.push('"lernblatt" muss eine Liste von Abschnitten mit "titel" und "text" sein.');
@@ -461,11 +466,10 @@ function normalizePack(p) {
   p.aufgaben.forEach(t => { if (t.typ === 'kurz') t.richtig = [].concat(t.richtig).map(String); });
   return p;
 }
-function fremd(o) { /* Name der Person, für die ein Paket oder eine Sicherung gedacht ist – leer, wenn es zur gewählten Person passt oder niemand genannt ist */
-  const raw = [o && o.person, o && o.kind].find(x => typeof x === 'string' && x.trim()) || '';
-  const w = fold(raw); if (!w || w === fold(cur.id) || w === fold(cur.name)) return '';
-  const q = PERSONEN.find(x => w === fold(x.id) || w === fold(x.name));
-  return q ? q.name : raw.trim();
+function fremd(o) { /* Namen der Person(en), für die ein Paket oder eine Sicherung gedacht ist – leer, wenn es zur gewählten Person passt oder niemand genannt ist */
+  const vals = [o && o.person, o && o.kind].flat().filter(x => typeof x === 'string' && x.trim());
+  if (!vals.length || vals.some(v => { const w = fold(v); return w === fold(cur.id) || w === fold(cur.name); })) return '';
+  return vals.map(v => { const w = fold(v); const q = PERSONEN.find(x => w === fold(x.id) || w === fold(x.name)); return q ? q.name : v.trim(); }).join(' und ');
 }
 function importObj(o, label, force) {
   const res = { added: 0, updated: 0, skipped: 0, errors: [] };
@@ -849,24 +853,27 @@ function download(name, text) {
 }
 let libItems = [];
 function renderLib() {
-  dialog('<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete für <strong>' + esc(cur.name) + '</strong> aus dem Ordner <code>pakete/' + esc(cur.id) + '/</code> dieser Seite.</p>' + (libItems.length ? libItems.map((x, i) => {
+  dialog('<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete für <strong>' + esc(cur.name) + '</strong> aus ' + (cur.ordner && cur.ordner.length > 1 ? 'den Ordnern ' : 'dem Ordner ') + (cur.ordner || [cur.id]).map(d => '<code>pakete/' + esc(d) + '/</code>').join(' und ') + ' dieser Seite.</p>' + (libItems.length ? libItems.map((x, i) => {
     const have = x.p && getPack(x.p.id); const same = have && JSON.stringify(have) === JSON.stringify(normalizePack(JSON.parse(JSON.stringify(x.p))));
     return `<div class="lib"><div><strong>${esc(x.p ? x.p.titel : x.f)}</strong><div class="muted">${x.errs.length ? 'Fehler: ' + esc(x.errs[0]) : esc([x.p.fach, x.p.aufgaben.length + ' Aufgaben'].filter(Boolean).join(', '))}</div></div>${x.errs.length ? '' : same ? '<span class="muted">aktuell</span>' : `<button class="btn sm" data-act="lib-add" data-i="${i}">${have ? 'Aktualisieren' : 'Hinzufügen'}</button>`}</div>`;
   }).join('') : '<p>Für ' + esc(cur.name) + ' liegen noch keine Pakete im Repo. Lernpakete lassen sich jederzeit als Datei importieren.</p>') + '<div class="row" style="margin-top:1rem"><button class="btn ghost" data-act="dlg-close">Schließen</button></div>');
 }
 async function openLibrary() {
-  const who = cur, base = 'pakete/' + who.id + '/';
+  const who = cur, ordner = who.ordner || [who.id];
   dialog('<h2>Pakete aus dem Repo</h2><p>Lade …</p>');
   try {
-    const r = await fetch(base + 'index.json', { cache: 'no-store' });
-    let list = [];
-    if (r.status !== 404) { if (!r.ok) throw new Error('HTTP ' + r.status); list = await r.json(); } /* kein Ordner = noch keine Pakete */
-    if (!Array.isArray(list)) throw new Error('index.json ist keine Liste');
-    const items = [];
-    for (const f of list) {
-      if (typeof f !== 'string' || !/^[\w\- .]+\.json$/.test(f)) continue;
-      try { const rr = await fetch(base + encodeURIComponent(f), { cache: 'no-store' }); const p = await rr.json(); items.push({ f, p, errs: validatePack(p) }); }
-      catch (e) { items.push({ f, p: null, errs: ['Datei nicht lesbar'] }); }
+    const items = [], seen = new Set();
+    for (const dir of ordner) {
+      const base = 'pakete/' + dir + '/';
+      const r = await fetch(base + 'index.json', { cache: 'no-store' });
+      let list = [];
+      if (r.status !== 404) { if (!r.ok) throw new Error('HTTP ' + r.status); list = await r.json(); } /* kein Ordner = noch keine Pakete */
+      if (!Array.isArray(list)) throw new Error('index.json in ' + dir + ' ist keine Liste');
+      for (const f of list) {
+        if (typeof f !== 'string' || !/^[\w\- .]+\.json$/.test(f)) continue;
+        try { const rr = await fetch(base + encodeURIComponent(f), { cache: 'no-store' }); const p = await rr.json(); if (p && seen.has(p.id)) continue; if (p) seen.add(p.id); items.push({ f, p, errs: validatePack(p) }); }
+        catch (e) { items.push({ f, p: null, errs: ['Datei nicht lesbar'] }); }
+      }
     }
     if (cur !== who) return; /* zwischendurch die Person gewechselt */
     libItems = items; renderLib();

@@ -1,12 +1,12 @@
 # Lernhilfe
 
-Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App im Browser (Laptop/PC), ohne Server und ohne Anmeldung, genau wie der Quiz-Abend. Beim Öffnen fragt die App zuerst, **wer lernt** (Joel oder Saskia). Jede Person hat ihre eigenen Lernpakete und Ergebnisse.
+Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App im Browser (Laptop/PC), ohne Server und ohne Anmeldung, genau wie der Quiz-Abend. Beim Öffnen fragt die App zuerst, **wer lernt** (Joel, Dario oder Saskia). Jede Person hat ihre eigenen Lernpakete und Ergebnisse.
 
 ## Dateien
 
 - `index.html` – die komplette App
-- `pakete/<person>/` – Lernpakete im Repo, je Person ein Ordner (`pakete/joel/`, `pakete/saskia/`) mit einer `index.json`, die die Dateien dieser Person auflistet. Bei Joel: Englisch, Geografie, Musik
-- `tools/build_beispielpakete.py` – erzeugt die Englisch- und Geografiepakete in `pakete/joel/` neu (nur nötig, wenn du sie ändern willst)
+- `pakete/<person>/` – Lernpakete im Repo, je Person ein Ordner (`pakete/joel/`, `pakete/dario/`, `pakete/saskia/`) mit einer `index.json`, die die Dateien dieser Person auflistet. Dazu der **gemeinsame Ordner `pakete/joel-dario/`** für Pakete, die beide lernen sollen (Joel und Dario sind Klassenkameraden): Er wird bei beiden unter „Pakete aus dem Repo“ angezeigt. Bei Joel: Englisch und Musik (nur Joel), Geografie (gemeinsam mit Dario)
+- `tools/build_beispielpakete.py` – erzeugt das Englischpaket in `pakete/joel/` und das Geografiepaket in `pakete/joel-dario/` neu (nur nötig, wenn du sie ändern willst)
 - `tools/build_musikpakete.py` – erzeugt die drei Musikpakete in `pakete/joel/`; `tools/notation.py` zeichnet dafür die Notenbilder (SVG), `tools/glyphs.json` enthält die Zeichen dazu (Schlüssel, Pausen, Kreuz aus GNU FreeFont, Ziffern aus DejaVu Sans Bold)
 
 ## Einrichten auf GitHub
@@ -14,19 +14,20 @@ Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App
 1. Neues Repository anlegen, z. B. `lernhilfe`.
 2. `index.html`, `README.md` und den Ordner `pakete/` (mit den Unterordnern) hochladen (im Browser: „Add file“ → „Upload files“, Ordner per Drag & Drop).
 3. Settings → Pages → „Deploy from a branch“ → Branch `main`, Ordner `/ (root)`.
-4. Nach ein bis zwei Minuten ist die App unter `https://<name>.github.io/lernhilfe/` erreichbar. Diesen Link auf dem Laptop als Lesezeichen speichern. Wer direkt bei sich landen will, speichert `…/lernhilfe/#/joel` oder `…/lernhilfe/#/saskia`.
+4. Nach ein bis zwei Minuten ist die App unter `https://<name>.github.io/lernhilfe/` erreichbar. Diesen Link auf dem Laptop als Lesezeichen speichern. Wer direkt bei sich landen will, speichert `…/lernhilfe/#/joel`, `…/lernhilfe/#/dario` oder `…/lernhilfe/#/saskia`.
 
 Zum Ausprobieren reicht es auch, `index.html` per Doppelklick zu öffnen. Nur „Pakete aus dem Repo“ geht dann nicht, das Importieren per Datei funktioniert immer.
 
 ## Wer lernt? (Personen)
 
 - Die Startseite zeigt alle Personen mit der Zahl ihrer Pakete. Ein Klick öffnet den eigenen Bereich, oben rechts wechselt man mit dem Namen wieder zurück.
-- **Pakete, Ergebnisse, laufende Sitzung und Sicherung sind je Person getrennt.** Dasselbe Paket kann bei beiden liegen, die Ergebnisse vermischen sich nicht.
+- **Pakete, Ergebnisse, laufende Sitzung und Sicherung sind je Person getrennt.** Dasselbe Paket kann bei mehreren liegen, die Ergebnisse vermischen sich nicht.
 - Importiert man ein Paket (oder eine Sicherung), das laut `person` für jemand anderen gedacht ist, fragt die App vorher nach.
 - Das ist eine Ordnungshilfe und **keine Zugangssperre**: Jeder, der den Link und den Browser hat, kann jeden Bereich öffnen.
 - Saskia sieht „Probeklausur“ statt „Probearbeit“ und den Hinweis „fürs Studium“. Das steuert das Feld `art` in der Personenliste.
-- **Optik:** Standardmäßig dunkel, mit dem Sonne/Mond-Knopf oben rechts lässt sich auf hell umschalten (wird pro Gerät gemerkt). Jede Person hat ihre eigene Akzentfarbe, Joel gold, Saskia türkis. Fächer bekommen automatisch ein Symbol und eine Farbe. Die Schriften kommen vom Gerät (Überschriften auf Windows in Bahnschrift), es werden keine Schriften aus dem Internet geladen.
-- **Weitere Person (z. B. Aurelio oder Lili) ergänzen:** In `index.html` steht oben im Skript die Liste `PERSONEN`. Eine Zeile mehr genügt, z. B. `{ id: 'aurelio', name: 'Aurelio', art: 'kind', farbe: '#7a4fd0' }`. Danach den Ordner `pakete/aurelio/` mit einer `index.json` (`[]`) anlegen, wenn Pakete im Repo liegen sollen. Eine eigene Akzentfarbe gibt es mit einer Zeile `html[data-p=aurelio]{…}` im CSS (Vorlage: die Zeilen für `saskia`).
+- **Optik:** Standardmäßig dunkel, mit dem Sonne/Mond-Knopf oben rechts lässt sich auf hell umschalten (wird pro Gerät gemerkt). Jede Person hat ihre eigene Akzentfarbe, Joel gold, Dario violett, Saskia türkis. Fächer bekommen automatisch ein Symbol und eine Farbe. Die Schriften kommen vom Gerät (Überschriften auf Windows in Bahnschrift), es werden keine Schriften aus dem Internet geladen.
+- **Weitere Person (z. B. Aurelio oder Lili) ergänzen:** In `index.html` steht oben im Skript die Liste `PERSONEN`. Eine Zeile mehr genügt, z. B. `{ id: 'aurelio', name: 'Aurelio', art: 'kind', farbe: '#7a4fd0', h: 280 }`. Danach den Ordner `pakete/aurelio/` mit einer `index.json` (`[]`) anlegen, wenn Pakete im Repo liegen sollen. Eine eigene Akzentfarbe gibt es mit einer Zeile `html[data-p=aurelio]{…}` im CSS (Vorlage: die Zeilen für `dario`).
+- **Gemeinsame Ordner:** Jede Person lädt in der Repo-Bibliothek die Ordner aus ihrem Feld `ordner` (Standard: nur `pakete/<id>/`). Bei Joel und Dario steht dort zusätzlich `joel-dario`. Ein Paket für beide bekommt `"person": ["joel", "dario"]` und liegt in `pakete/joel-dario/` (mit Eintrag in der `index.json` dort). Pakete nur für Joel (z. B. Musik) bleiben in `pakete/joel/`.
 - **Altdaten:** Wer die App schon vor den Profilen benutzt hat, findet alles bei **Joel** wieder. Beim ersten Öffnen von Joels Bereich wird der alte Speicherstand (`lernhilfe.v1`) dorthin kopiert. Die alte Kopie bleibt im Browser unangetastet liegen.
 
 ## So kommen Aufgaben in die App
@@ -38,7 +39,7 @@ Zum Ausprobieren reicht es auch, `index.html` per Doppelklick zu öffnen. Nur �
 
 Fehlerhafte Pakete werden nicht importiert. Die App nennt dann die Stelle (z. B. „Aufgabe 4 (mc): …“). Diese Meldung einfach an Claude schicken.
 
-**Alternative über GitHub:** Die Paketdatei in den Ordner der Person legen (`pakete/joel/` oder `pakete/saskia/`) und ihren Namen in der `index.json` dieses Ordners ergänzen. Dann erscheint sie bei dieser Person unter „Pakete aus dem Repo“. Achtung: Ist das Repository öffentlich, sind diese Dateien öffentlich. Alles, was nicht jeder lesen soll (oder aus urheberrechtlich geschützten Schulbüchern, Skripten und Unterlagen der Hochschule stammt), besser nur per Datei importieren. Dann bleibt es lokal im Browser.
+**Alternative über GitHub:** Die Paketdatei in den Ordner der Person legen (`pakete/joel/`, `pakete/dario/`, `pakete/saskia/` oder für Joel und Dario gemeinsam `pakete/joel-dario/`) und ihren Namen in der `index.json` dieses Ordners ergänzen. Dann erscheint sie bei dieser Person unter „Pakete aus dem Repo“. Achtung: Ist das Repository öffentlich, sind diese Dateien öffentlich. Alles, was nicht jeder lesen soll (oder aus urheberrechtlich geschützten Schulbüchern, Skripten und Unterlagen der Hochschule stammt), besser nur per Datei importieren. Dann bleibt es lokal im Browser.
 
 ## Üben und Probearbeit
 
@@ -51,7 +52,7 @@ Fehlerhafte Pakete werden nicht importiert. Die App nennt dann die Stelle (z. B.
 
 ## Speicher und Sicherung
 
-Pakete, Ergebnisse und die laufende Aufgabe liegen nur im Browser des jeweiligen Geräts (und Browser-Profils), getrennt je Person (`lernhilfe.v2.joel`, `lernhilfe.v2.saskia`). Mit **Sicherung** (oben rechts, gilt für die gerade gewählte Person) lässt sich alles als Datei speichern oder als Text kopieren und über denselben Import wiederherstellen. Wer an mehreren Geräten lernt, sichert und stellt je Person wieder her.
+Pakete, Ergebnisse und die laufende Aufgabe liegen nur im Browser des jeweiligen Geräts (und Browser-Profils), getrennt je Person (`lernhilfe.v2.joel`, `lernhilfe.v2.dario`, `lernhilfe.v2.saskia`). Mit **Sicherung** (oben rechts, gilt für die gerade gewählte Person) lässt sich alles als Datei speichern oder als Text kopieren und über denselben Import wiederherstellen. Wer an mehreren Geräten lernt, sichert und stellt je Person wieder her.
 
 ## Format eines Lernpakets
 
@@ -73,7 +74,7 @@ Pakete, Ergebnisse und die laufende Aufgabe liegen nur im Browser des jeweiligen
 }
 ```
 
-Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`. `person` ist optional (`joel`, `saskia`): Es sagt, für wen das Paket gedacht ist, und löst beim Import in einen fremden Bereich eine Rückfrage aus. `klasse` ist frei: Eine Zahl wird als „Klasse 6“ angezeigt, anderer Text (z. B. „2. Semester“) unverändert. In Texten gelten `**fett**`, Zeilenumbruch `\n` und Listen mit `- `.
+Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`. `person` ist optional (`joel`, `dario`, `saskia` oder eine Liste wie `["joel", "dario"]`): Es sagt, für wen das Paket gedacht ist, und löst beim Import in einen fremden Bereich eine Rückfrage aus. `klasse` ist frei: Eine Zahl wird als „Klasse 6“ angezeigt, anderer Text (z. B. „2. Semester“) unverändert. In Texten gelten `**fett**`, Zeilenumbruch `\n` und Listen mit `- `.
 
 ### Felder, die jede Aufgabe haben kann
 
