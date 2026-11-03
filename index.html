@@ -456,6 +456,7 @@ function validatePack(p) {
   if (typeof p.id !== 'string' || !/^[a-z0-9][a-z0-9_-]*$/i.test(p.id)) e.push('Feld "id" fehlt oder enthält ungültige Zeichen (erlaubt: Buchstaben, Zahlen, - und _).');
   if (typeof p.titel !== 'string' || !p.titel.trim()) e.push('Feld "titel" fehlt.');
   if (p.person !== undefined && !(typeof p.person === 'string' || (Array.isArray(p.person) && p.person.length && p.person.every(x => typeof x === 'string')))) e.push('"person" muss ein Text (z. B. "joel") oder eine Liste von Texten (z. B. ["joel", "dario"]) sein.');
+  if (p.probe !== undefined && typeof p.probe !== 'boolean') e.push('"probe" muss true oder false sein.');
   if (!Array.isArray(p.aufgaben) || !p.aufgaben.length) e.push('Die Liste "aufgaben" fehlt oder ist leer.');
   else p.aufgaben.forEach((t, i) => validateTask(t, i, e));
   if (p.lernblatt !== undefined && (!Array.isArray(p.lernblatt) || p.lernblatt.some(s => !s || typeof s.titel !== 'string' || typeof s.text !== 'string'))) e.push('"lernblatt" muss eine Liste von Abschnitten mit "titel" und "text" sein.');
@@ -573,7 +574,7 @@ function packCard(p) {
   return `<article class="card pack" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
 <h2>${esc(p.titel)}</h2></div></div>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : ''}
 ${trend}
-<div class="row"><button class="btn" data-act="ueben" data-id="${id}">Üben</button><button class="btn sec" data-act="test" data-id="${id}">${wort().probe}</button>${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
+<div class="row"><button class="btn" data-act="ueben" data-id="${id}">Üben</button>${p.probe === false ? '' : `<button class="btn sec" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
 }
 function statsHtml() {
   if (!db.pakete.length) return '';
@@ -605,7 +606,7 @@ function renderLernblatt(id) {
   $('#app').innerHTML = `<div class="col"><p><button class="link" data-act="home">Zur Übersicht</button></p><h1>${esc(p.titel)}</h1><p class="muted">Lernblatt zum Durchlesen vor dem Üben.</p>` +
     (p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : '') +
     (p.lernblatt || []).map(sec => `<section class="card blatt"><h2>${esc(sec.titel)}</h2>${bildSrc(sec.bild) ? `<img class="bild" src="${bildSrc(sec.bild)}" alt="${esc(sec.bildAlt || 'Abbildung')}">` : ''}${rt(sec.text)}${sec.merke ? `<div class="merke"><strong>Merke:</strong> ${inl(sec.merke)}</div>` : ''}</section>`).join('') +
-    `<div class="row"><button class="btn" data-act="ueben" data-id="${esc(p.id)}">Jetzt üben</button><button class="btn sec" data-act="test" data-id="${esc(p.id)}">${wort().probe}</button></div></div>`;
+    `<div class="row"><button class="btn" data-act="ueben" data-id="${esc(p.id)}">Jetzt üben</button>${p.probe === false ? '' : `<button class="btn sec" data-act="test" data-id="${esc(p.id)}">${wort().probe}</button>`}</div></div>`;
 }
 
 /* ========== Sitzung ========== */
