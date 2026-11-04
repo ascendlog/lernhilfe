@@ -30,6 +30,11 @@
    "bildAlt": "Querschnitt von der See zum Land mit den vier Zonen Meer, Watt, Salzwiese und Deich und den Marken für mittleres Niedrigwasser und mittleres Hochwasser"
   }
  ],
+ "nachlesen": {
+  "A – Der Lebensraum Watt": "Das Wattenmeer: ein besonderer Lebensraum",
+  "B – Wer lebt wo? Meer, Watt und Salzwiese": "Wer lebt wo? Meer, Watt und Salzwiese",
+  "D – Die vier Zonen des Watts": "Die vier Zonen des Watts"
+ },
  "aufgaben": [
   {
    "typ": "tf",

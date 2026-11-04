@@ -24,6 +24,13 @@
    "merke": "Innen Sandkern, darüber Klei, außen Grasdecke, am Deichfuß Steine."
   }
  ],
+ "nachlesen": {
+  "A – Wozu gibt es Deiche?": "Der Deich: Aufgabe und Teile",
+  "B – Aufbau und Teile des Deichs": [
+   "Der Deich: Aufgabe und Teile",
+   "Woraus besteht ein Deich?"
+  ]
+ },
  "aufgaben": [
   {
    "typ": "tf",
@@ -154,7 +161,8 @@
     "beide gleich",
     "die Deichkrone"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "mc",
@@ -166,7 +174,8 @@
     "beide gleich",
     "der Deichfuß"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "mc",
@@ -178,7 +187,8 @@
     "Damit man dort baden kann.",
     "Damit das Wasser schneller abfließt."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "mc",
@@ -190,7 +200,8 @@
     "Weil dort die Sonne scheint.",
     "Weil dort Steine liegen."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "mc",
@@ -202,7 +213,8 @@
     "Seeseite",
     "Klei"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "mc",
@@ -214,7 +226,8 @@
     "aus Sand",
     "aus Holz"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "mc",
@@ -226,7 +239,8 @@
     "Damit der Deich schöner aussieht.",
     "Damit das Meer salziger wird."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "mc",
@@ -238,7 +252,8 @@
     "die Grasdecke",
     "die Krone"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "mc",
@@ -250,7 +265,8 @@
     "eine Schicht aus Steinen",
     "das Watt"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "mc",
@@ -262,7 +278,8 @@
     "Muschelschalen",
     "Salzwasser"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "mc",
@@ -284,7 +301,8 @@
     "Sandkern",
     "Klei",
     "Grasdecke"
-   ]
+   ],
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "mc",
@@ -296,7 +314,8 @@
     "Sie lockt Seehunde an.",
     "Sie wärmt den Deich im Winter."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "mc",
@@ -308,26 +327,30 @@
     "Sie bringen Sand zum Deich.",
     "Sie halten die Wellen ab."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "tf",
    "abschnitt": "B – Aufbau und Teile des Deichs",
    "frage": "Die Schafe auf dem Deich schaden ihm, weil sie das Gras fressen.",
    "info": "Die Schafe halten das Gras kurz und dicht und festigen den Boden mit ihren Hufen.",
-   "richtig": false
+   "richtig": false,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "tf",
    "abschnitt": "B – Aufbau und Teile des Deichs",
    "frage": "Die Seeseite zeigt zum Meer.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "tf",
    "abschnitt": "B – Aufbau und Teile des Deichs",
    "frage": "Der Sandkern liegt außen und die Grasdecke innen.",
-   "richtig": false
+   "richtig": false,
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "zuordnen",
@@ -372,7 +395,8 @@
     "Deichfuß",
     "Düne",
     "Marsch"
-   ]
+   ],
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "luecke",
@@ -398,7 +422,8 @@
     "Klei darüber genannt",
     "Grasdecke außen genannt",
     "Steine am Deichfuß genannt"
-   ]
+   ],
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "frei",
@@ -409,7 +434,8 @@
    "kriterien": [
     "Gras wird kurz gehalten und wächst dicht",
     "Hufe festigen den Boden"
-   ]
+   ],
+   "lesen": "Woraus besteht ein Deich?"
   },
   {
    "typ": "frei",
@@ -420,7 +446,8 @@
    "kriterien": [
     "Seeseite flach: Wellen verlieren Kraft",
     "Landseite muss keine Wellen abhalten"
-   ]
+   ],
+   "lesen": "Der Deich: Aufgabe und Teile"
   }
  ]
 }

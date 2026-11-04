@@ -20,6 +20,21 @@
    "bildAlt": "Zwei vereinfachte Zeichnungen eines Sieltors im Deich: links bei Ebbe mit geöffnetem Tor und abfließendem Wasser, rechts bei Flut mit geschlossenem Tor"
   }
  ],
+ "nachlesen": {
+  "D – Das Sieltor: Ebbe und Flut": "Das Sieltor",
+  "E – Sieltor zeichnen und lesen": "Das Sieltor",
+  "F – Deich, Düne und Siel im Vergleich": [
+   "Das Sieltor",
+   {
+    "paket": "geografie-4a-deich-aufbau",
+    "titel": "Der Deich: Aufgabe und Teile"
+   },
+   {
+    "paket": "geografie-4c-duene",
+    "titel": "Dünen: Sandwälle am Strand"
+   }
+  ]
+ },
  "aufgaben": [
   {
    "typ": "tf",

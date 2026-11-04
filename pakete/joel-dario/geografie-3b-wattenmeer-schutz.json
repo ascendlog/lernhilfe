@@ -22,6 +22,12 @@
    "merke": "Ruhezone = strengste Regeln. Zwischenzone = Betreten und Wattwandern erlaubt. Erholungszone = Badestrände und Kureinrichtungen."
   }
  ],
+ "nachlesen": {
+  "C – Warum und wie wird das Wattenmeer geschützt?": [
+   "Warum und wie wird das Wattenmeer geschützt?",
+   "Die drei Schutzzonen"
+  ]
+ },
  "aufgaben": [
   {
    "typ": "mc",
@@ -33,19 +39,22 @@
     "Ein Parkplatz für Touristen",
     "Ein Garten mit Blumenbeeten"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "kurz",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "In welchem Jahr wurden in Deutschland drei Nationalparks zum Schutz des Wattenmeeres eingerichtet?",
-   "richtig": "1986"
+   "richtig": "1986",
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "kurz",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "Seit welchem Jahr gelten große Gebiete des Wattenmeeres als Weltnaturerbe?",
-   "richtig": "2009"
+   "richtig": "2009",
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "luecke",
@@ -58,7 +67,8 @@
     "Weltnaturerbe",
     "1999",
     "Naturpark"
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "mc",
@@ -71,7 +81,8 @@
     "fünf",
     "zehn"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "zuordnen",
@@ -90,13 +101,15 @@
      "Niedersachsen",
      "Niedersächsisches Wattenmeer"
     ]
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "tf",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "Auch Dänemark und die Niederlande schützen ihre Anteile am Wattenmeer.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "mc",
@@ -108,7 +121,8 @@
     "Weil dort keine Tiere leben.",
     "Weil es im Sommer sehr heiß ist."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "zuordnen",
@@ -127,7 +141,8 @@
      "Betreten, Wattwandern und Boot fahren sind erlaubt. Brutgebiete der Vögel dürfen nicht oder nur auf markierten Wegen betreten werden.",
      "Zwischenzone"
     ]
-   ]
+   ],
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "mc",
@@ -139,7 +154,8 @@
     "Erholungszone",
     "Badezone"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "mc",
@@ -151,7 +167,8 @@
     "Zwischenzone",
     "Brutzone"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "mc",
@@ -163,13 +180,15 @@
     "Erholungszone",
     "in keiner Zone"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "tf",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "In der Erholungszone sind Strandbuggies und Motorfahrzeuge verboten.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "tf",
@@ -181,19 +200,22 @@
    "typ": "tf",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "In der Ruhezone ist der Fisch- und Krabbenfang nur eingeschränkt erlaubt.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "tf",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "In der Zwischenzone sind Baden, Fischerei und Jagd erlaubt.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "tf",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "Im Buch steht: In der Erholungszone dürfen Häfen gebaut und Erdöl gefördert werden.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "mc",
@@ -205,13 +227,15 @@
     "Hier sind Strandbuggies erlaubt.",
     "Hier darf niemand hinein."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "tf",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "In Schleswig-Holstein und Hamburg gibt es zwei Schutzzonen, in Niedersachsen drei.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "mc",
@@ -223,7 +247,8 @@
     "Zone II ist die Ruhezone.",
     "Es gibt nur eine Zone."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "mc",
@@ -235,7 +260,8 @@
     "Preise für Eis",
     "Wettervorhersagen für Mallorca"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "mc",
@@ -247,7 +273,8 @@
     "Pflanzen pflücken",
     "Müll im Watt lassen"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "mc",
@@ -259,13 +286,15 @@
     "Hunde anleinen",
     "Abstand zu Seehunden halten"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "tf",
    "abschnitt": "C – Warum und wie wird das Wattenmeer geschützt?",
    "frage": "Das Vorland darf vom 1. April bis 31. Juli nicht betreten werden, weil in dieser Zeit die Vögel brüten und ihre Jungen aufziehen.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "mc",
@@ -277,7 +306,8 @@
     "Dort ist es im Sommer zu heiß.",
     "Dort liegt dann Schnee."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "mc",
@@ -295,7 +325,8 @@
     0,
     1,
     2
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "mc",
@@ -307,7 +338,8 @@
     "Die Schilder sind zu bunt.",
     "Sie wollen das Wetter ändern."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "frei",
@@ -329,7 +361,8 @@
    "kriterien": [
     "Drei sinnvolle Verhaltensregeln genannt",
     "Die Regeln schützen Tiere und Pflanzen"
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "frei",
@@ -340,7 +373,8 @@
    "kriterien": [
     "Brut- und Aufzuchtzeit der Vögel",
     "Die Vögel sollen nicht gestört werden"
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "frei",
@@ -351,7 +385,8 @@
    "kriterien": [
     "Zwei Gruppen genannt (zum Beispiel Fischer, Landwirte, Industrie, Tourismus-Betriebe, Hafenbetreiber)",
     "Begründung: Die Regeln schränken ihre Arbeit ein"
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "zuordnen",
@@ -383,7 +418,8 @@
      "Müll im Watt liegen lassen",
      "Verbot"
     ]
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "kurz",
@@ -392,7 +428,8 @@
    "richtig": [
     "3",
     "drei"
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "kurz",
@@ -401,7 +438,8 @@
    "richtig": [
     "3",
     "drei"
-   ]
+   ],
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "kurz",
@@ -410,7 +448,8 @@
    "richtig": [
     "2",
     "zwei"
-   ]
+   ],
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "mc",
@@ -422,7 +461,8 @@
     "Pflanzen pflücken ausdrücklich erwünscht!",
     "Seehunde bitte füttern!"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   },
   {
    "typ": "luecke",
@@ -435,7 +475,8 @@
     "Erholungszone",
     "Brutzone",
     "Sperrzone"
-   ]
+   ],
+   "lesen": "Die drei Schutzzonen"
   },
   {
    "typ": "frei",
@@ -446,7 +487,8 @@
    "kriterien": [
     "Einzigartig und möglichst ungestört genannt",
     "Besondere Schutzbestimmungen oder Schutz der Tiere und Pflanzen genannt"
-   ]
+   ],
+   "lesen": "Warum und wie wird das Wattenmeer geschützt?"
   }
  ]
 }

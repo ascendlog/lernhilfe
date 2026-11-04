@@ -184,6 +184,12 @@ code{background:var(--surface-2);border-radius:6px;padding:.05rem .35rem;font-si
 #toast.on{opacity:1;transform:translateX(-50%)}
 .dropping::after{content:"Datei hier loslassen";position:fixed;inset:0;background:color-mix(in srgb,var(--accent) 18%,transparent);display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:800;color:var(--accent-text);pointer-events:none;border:4px dashed var(--accent);z-index:30}
 .blatt h2{color:var(--accent-text)}
+.lesenbox{margin-top:.7rem}
+details.lesen{border:1px solid var(--line);border-radius:10px;background:var(--surface);margin:.4rem 0}
+details.lesen summary{display:block;cursor:pointer;padding:.55rem .85rem;overflow-wrap:anywhere}
+.lesen-body{padding:.1rem .95rem .8rem}
+.lesen-body .bild{max-height:300px}
+.lesen-q{font-size:.92rem}
 .merke{background:color-mix(in srgb,var(--accent) 11%,var(--surface));border-radius:10px;padding:.55rem .95rem;margin-top:.7rem}
 .merke p{margin:.2rem 0}
 /* Auswahl „Wer lernt?“ */
@@ -453,6 +459,12 @@ function validateTask(t, i, e) {
   if (t.vorlesen !== undefined && (!t.vorlesen || typeof t.vorlesen.text !== 'string' || !t.vorlesen.text.trim())) e.push(w + '"vorlesen" braucht {"text": "...", "sprache": "en-GB"}.');
   if (t.bild !== undefined && typeof t.bild !== 'string') e.push(w + '"bild" muss ein Text sein (SVG-Code oder Bilddatei).');
 }
+function lesenErrs(r, p, w, e) { /* Verweise auf Lernblatt-Abschnitte prüfen (Abschnitte anderer Pakete lassen sich hier nicht prüfen) */
+  [].concat(r).forEach(x => {
+    if (typeof x === 'string') { if (!x.trim() || !(p.lernblatt || []).some(sec => sec.titel === x)) e.push(w + 'Der Abschnitt „' + x + '“ steht nicht im Lernblatt dieses Pakets.'); }
+    else if (!x || typeof x.paket !== 'string' || typeof x.titel !== 'string') e.push(w + 'Ein Verweis ist ein Abschnittstitel oder {"paket": "...", "titel": "..."}.');
+  });
+}
 function validatePack(p) {
   const e = [];
   if (!p || typeof p !== 'object' || Array.isArray(p)) return ['Kein Lernpaket (ein Objekt mit "typ": "lernpaket" wird erwartet).'];
@@ -462,9 +474,17 @@ function validatePack(p) {
   if (p.person !== undefined && !(typeof p.person === 'string' || (Array.isArray(p.person) && p.person.length && p.person.every(x => typeof x === 'string')))) e.push('"person" muss ein Text (z. B. "joel") oder eine Liste von Texten (z. B. ["joel", "dario"]) sein.');
   if (p.probe !== undefined && typeof p.probe !== 'boolean') e.push('"probe" muss true oder false sein.');
   if (p.ueben !== undefined && typeof p.ueben !== 'boolean') e.push('"ueben" muss true oder false sein.');
+  if (p.quelle !== undefined && typeof p.quelle !== 'string') e.push('"quelle" muss ein Text sein (z. B. "Lehrbrief Testverfahren I, Kapitel 3").');
+  if (p.nachlesen !== undefined) {
+    if (!p.nachlesen || typeof p.nachlesen !== 'object' || Array.isArray(p.nachlesen)) e.push('"nachlesen" muss eine Zuordnung Abschnitt → Lernblatt-Abschnitt sein.');
+    else Object.keys(p.nachlesen).forEach(k => lesenErrs(p.nachlesen[k], p, '"nachlesen" zu „' + k + '“: ', e));
+  }
   if (p.ueben === false && p.probe === false) e.push('"ueben" und "probe" dürfen nicht beide false sein (sonst gäbe es keinen Weg, das Paket zu starten).');
   if (!Array.isArray(p.aufgaben) || !p.aufgaben.length) e.push('Die Liste "aufgaben" fehlt oder ist leer.');
-  else p.aufgaben.forEach((t, i) => validateTask(t, i, e));
+  else {
+    p.aufgaben.forEach((t, i) => validateTask(t, i, e));
+    p.aufgaben.forEach((t, i) => { if (t && typeof t === 'object' && t.lesen !== undefined) lesenErrs(t.lesen, p, 'Aufgabe ' + (i + 1) + ', "lesen": ', e); });
+  }
   if (p.lernblatt !== undefined && (!Array.isArray(p.lernblatt) || p.lernblatt.some(s => !s || typeof s.titel !== 'string' || typeof s.text !== 'string'))) e.push('"lernblatt" muss eine Liste von Abschnitten mit "titel" und "text" sein.');
   else if (p.lernblatt && p.lernblatt.some(s => s.bild !== undefined && typeof s.bild !== 'string')) e.push('"bild" im Lernblatt muss ein Text sein (SVG-Code oder Bilddatei).');
   return e;
@@ -606,12 +626,32 @@ function renderHome() {
 }
 
 /* ========== Lernblatt ========== */
+function lbBody(sec) { /* Inhalt eines Lernblatt-Abschnitts (ohne Überschrift) */
+  return `${bildSrc(sec.bild) ? `<img class="bild" src="${bildSrc(sec.bild)}" alt="${esc(sec.bildAlt || 'Abbildung')}">` : ''}${rt(sec.text)}${sec.merke ? `<div class="merke"><strong>Merke:</strong> ${inl(sec.merke)}</div>` : ''}`;
+}
+/* Nachlesen: Verweis einer falsch beantworteten Aufgabe auf Abschnitte des Lernblatts.
+   Aufgabe: "lesen"; Paket: "nachlesen" (Abschnitt der Aufgabe → Verweis), "quelle" (z. B. Lehrbrief). Ein Verweis ist der Titel eines Lernblatt-Abschnitts
+   im selben Paket oder {"paket": "<id>", "titel": "<Abschnitt>"} für ein anderes Paket; mehrere als Liste. */
+function lesenRefs(t, p) {
+  const r = t.lesen !== undefined ? t.lesen : (p.nachlesen && t.abschnitt !== undefined ? p.nachlesen[t.abschnitt] : undefined);
+  if (r === undefined || r === null) return [];
+  return [].concat(r).map(x => typeof x === 'string' ? { paket: p.id, titel: x } : x);
+}
+function lesenHtml(t, p) {
+  const out = lesenRefs(t, p).map(ref => {
+    const q = ref.paket === p.id ? p : getPack(ref.paket);
+    const sec = q && (q.lernblatt || []).find(x => x.titel === ref.titel);
+    if (!sec) return '';
+    return `<details class="lesen"><summary>📖 Nachlesen: <strong>${esc(sec.titel)}</strong>${q === p ? '' : ` <span class="muted">(Lernblatt „${esc(q.titel)}“)</span>`}</summary><div class="lesen-body">${lbBody(sec)}${q.quelle ? `<p class="muted lesen-q">Mehr dazu: ${inl(q.quelle)}</p>` : ''}</div></details>`;
+  }).join('');
+  return out ? `<div class="lesenbox">${out}</div>` : '';
+}
 function renderLernblatt(id) {
   const p = getPack(id); if (!p || !p.lernblatt || !p.lernblatt.length) return go(H());
   $('#crumb').textContent = p.titel;
   $('#app').innerHTML = `<div class="col"><p><button class="link" data-act="home">Zur Übersicht</button></p><h1>${esc(p.titel)}</h1><p class="muted">Lernblatt zum Durchlesen vor dem Üben.</p>` +
     (p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : '') +
-    (p.lernblatt || []).map(sec => `<section class="card blatt"><h2>${esc(sec.titel)}</h2>${bildSrc(sec.bild) ? `<img class="bild" src="${bildSrc(sec.bild)}" alt="${esc(sec.bildAlt || 'Abbildung')}">` : ''}${rt(sec.text)}${sec.merke ? `<div class="merke"><strong>Merke:</strong> ${inl(sec.merke)}</div>` : ''}</section>`).join('') +
+    (p.lernblatt || []).map(sec => `<section class="card blatt"><h2>${esc(sec.titel)}</h2>${lbBody(sec)}</section>`).join('') +
     `<div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${esc(p.id)}">Jetzt üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${esc(p.id)}">${wort().probe}</button>`}</div></div>`;
 }
 
@@ -723,11 +763,11 @@ function ratingHtml(s, idx) {
   return '<p><strong>Wie gut war deine Antwort im Vergleich zur Musterlösung?</strong></p><div class="rate">' + [[1, '✓ Passt'], [0.5, '½ Teilweise'], [0, '✗ Noch nicht']].map(([x, l]) => `<button type="button" class="btn sec ${v === x ? 'on' : ''}" data-act="self" data-v="${x}">${l}</button>`).join('') + '</div>';
 }
 function feedbackHtml(t, idx, s, p) {
-  if (t.typ === 'frei') return `<div class="fb neutral" id="fb"><h3>Musterlösung</h3>${solutionHtml(t)}${t.info ? `<p class="muted">${inl(t.info)}</p>` : ''}${ratingHtml(s, idx)}</div>`;
+  if (t.typ === 'frei') return `<div class="fb neutral" id="fb"><h3>Musterlösung</h3>${solutionHtml(t)}${t.info ? `<p class="muted">${inl(t.info)}</p>` : ''}${ratingHtml(s, idx)}${lesenHtml(t, p)}</div>`;
   const r = taskScore(p, s, idx);
   const cls = r.got >= r.max ? 'ok' : r.got > 0 ? 'part' : 'bad';
   const head = r.got >= r.max ? '✓ Richtig!' : r.got > 0 ? `Fast: ${+r.got.toFixed(1)} von ${r.max} Punkten` : '✗ Nicht ganz.';
-  return `<div class="fb ${cls}" id="fb"><h3>${head}</h3>${r.got < r.max ? `<div class="sol"><strong>Richtig wäre:</strong>${solutionHtml(t)}</div>` : ''}${t.info ? `<p>💡 ${inl(t.info)}</p>` : ''}</div>`;
+  return `<div class="fb ${cls}" id="fb"><h3>${head}</h3>${r.got < r.max ? `<div class="sol"><strong>Richtig wäre:</strong>${solutionHtml(t)}</div>` : ''}${t.info ? `<p>💡 ${inl(t.info)}</p>` : ''}${r.got < r.max ? lesenHtml(t, p) : ''}</div>`;
 }
 function navHtml(t, idx, s) {
   const last = s.pos === s.order.length - 1; const checked = !!s.checked[idx];
@@ -836,6 +876,7 @@ function resultRows(p, s) {
     if (t.typ === 'frei') body += `<div class="kv"><b>Deine Antwort:</b>${givenHtml(t, s.answers[idx], s.touched[idx])}</div><div class="kv"><b>Musterlösung:</b></div>${solutionHtml(t)}${ratingHtml(s, idx).replace(/data-act="self"/g, 'data-act="self-r" data-i="' + idx + '"')}`;
     else body += `<div class="kv"><b>Deine Antwort:</b>${givenHtml(t, s.answers[idx], s.touched[idx])}</div>${full ? '' : `<div class="kv"><b>Richtig:</b></div>${solutionHtml(t)}`}`;
     if (t.info && t.typ !== 'frei') body += `<p>💡 ${inl(t.info)}</p>`;
+    if (!full || !r.rated) body += lesenHtml(t, p);
     return `<details class="rrow st-${st}" ${full && r.rated ? '' : 'open'}><summary><span class="badge">${badge}</span><span class="t">${n + 1}. ${esc(title.slice(0, 90))}</span><span class="pts">${+r.got.toFixed(1)}/${r.max}</span></summary><div class="body">${body}</div></details>`;
   }).join('');
 }

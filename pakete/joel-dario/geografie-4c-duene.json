@@ -25,6 +25,11 @@
    "merke": "Wer eine Düne betritt, zerstört die Pflanzen: Der Sand weht weg, der Schutz der Insel geht verloren, und die Vögel werden gestört."
   }
  ],
+ "nachlesen": {
+  "A – Dünen: wie sie wachsen": "Dünen: Sandwälle am Strand",
+  "B – Dünen schützen": "Warum darf man Dünen nicht betreten?",
+  "C – Die Düne beschriften": "Dünen: Sandwälle am Strand"
+ },
  "aufgaben": [
   {
    "typ": "tf",

@@ -82,7 +82,8 @@
    "abschnitt": "Blitz-Check",
    "frage": "Schleswig-Holstein hat als einziges Bundesland sowohl Nordsee- als auch Ostseeküste.",
    "info": "Niedersachsen liegt nur an der Nordsee, Mecklenburg-Vorpommern nur an der Ostsee. Nachlesen: Crashkurs, Abschnitt „Nord- und Ostsee“.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Nord- und Ostsee: Bundesländer, Städte, Flüsse"
   },
   {
    "typ": "mc",
@@ -95,7 +96,8 @@
     "Sie ist im Durchschnitt tiefer als die Nordsee.",
     "Sie hat Watt und Deiche."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Nordsee gegen Ostsee"
   },
   {
    "typ": "zuordnen",
@@ -122,7 +124,8 @@
    ],
    "extra": [
     "Insel im Rhein"
-   ]
+   ],
+   "lesen": "Inseln"
   },
   {
    "typ": "luecke",
@@ -138,7 +141,8 @@
     "Reibung",
     "einmal",
     "24 Stunden"
-   ]
+   ],
+   "lesen": "Gezeiten: So entstehen Ebbe und Flut"
   },
   {
    "typ": "kurz",
@@ -148,7 +152,8 @@
    "richtig": [
     "07:20",
     "7:20"
-   ]
+   ],
+   "lesen": "Gezeiten: So entstehen Ebbe und Flut"
   },
   {
    "typ": "kurz",
@@ -160,7 +165,8 @@
     "3.3",
     "3,3 m"
    ],
-   "einheit": "m"
+   "einheit": "m",
+   "lesen": "Gezeiten: Begriffe, Kurve und Tidenkalender"
   },
   {
    "typ": "reihenfolge",
@@ -172,7 +178,8 @@
     "Watt",
     "Salzwiese",
     "Deich"
-   ]
+   ],
+   "lesen": "Wattenmeer: Lebensraum und Zonen"
   },
   {
    "typ": "mc",
@@ -185,14 +192,16 @@
     "Zone III, Erholungszone",
     "In allen Zonen gelten die gleichen Regeln."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Wattenmeer: Schutz und Schutzzonen"
   },
   {
    "typ": "tf",
    "abschnitt": "Blitz-Check",
    "frage": "Das Sieltor öffnet sich bei Flut, damit das Meerwasser ins Land fließen kann.",
    "info": "Bei Flut drückt das Meer das Tor zu. Bei Ebbe öffnet es sich und das Wasser aus der Marsch fließt ab. Nachlesen: „Düne und Sieltor“.",
-   "richtig": false
+   "richtig": false,
+   "lesen": "Küstenschutz: Düne und Sieltor"
   },
   {
    "typ": "mc",
@@ -205,7 +214,8 @@
     "Weil dort die Seehunde leben.",
     "Weil man sich im Sand verlaufen kann."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Küstenschutz: Düne und Sieltor"
   },
   {
    "typ": "zuordnen",
@@ -228,7 +238,8 @@
    ],
    "extra": [
     "etwa 12 m"
-   ]
+   ],
+   "lesen": "Küstenschutz: Der Deich"
   },
   {
    "typ": "luecke",
@@ -247,7 +258,8 @@
     "Beton",
     "Sand",
     "Schilf"
-   ]
+   ],
+   "lesen": "Küstenschutz: Der Deich"
   }
  ],
  "probe": false

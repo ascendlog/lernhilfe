@@ -33,6 +33,16 @@
    "merke": "Für den Wissenscheck brauchst du eine nordfriesische und mindestens zwei ostfriesische Inseln, zum Beispiel Sylt, Borkum und Norderney."
   }
  ],
+ "nachlesen": {
+  "A – Meere und Länder": "Länder und Bundesländer an den Meeren",
+  "B – Unterschiede zwischen Nordsee und Ostsee": "Nordsee und Ostsee im Vergleich",
+  "C – Städte an den Küsten": "Städte, Flüsse und Inseln",
+  "D – Flüsse": "Städte, Flüsse und Inseln",
+  "E – Inseln": [
+   "Städte, Flüsse und Inseln",
+   "Nordfriesische und Ostfriesische Inseln"
+  ]
+ },
  "aufgaben": [
   {
    "typ": "mc",
@@ -740,7 +750,8 @@
      "Usedom",
      "Ostsee"
     ]
-   ]
+   ],
+   "lesen": "Städte, Flüsse und Inseln"
   },
   {
    "typ": "mc",
@@ -752,7 +763,8 @@
     "Borkum",
     "Fehmarn"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Städte, Flüsse und Inseln"
   },
   {
    "typ": "mc",
@@ -764,7 +776,8 @@
     "Amrum",
     "Helgoland"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Städte, Flüsse und Inseln"
   },
   {
    "typ": "mc",
@@ -776,7 +789,8 @@
     "Rügen",
     "Fehmarn"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Städte, Flüsse und Inseln"
   },
   {
    "typ": "zuordnen",
@@ -807,7 +821,8 @@
      "Spiekeroog",
      "Ostfriesisch"
     ]
-   ]
+   ],
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "mc",
@@ -819,7 +834,8 @@
     "Mecklenburg-Vorpommern",
     "Bremen"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "mc",
@@ -831,7 +847,8 @@
     "Mecklenburg-Vorpommern",
     "Hamburg"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "mc",
@@ -843,14 +860,16 @@
     "Baltrum",
     "Langeoog"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "tf",
    "abschnitt": "E – Inseln",
    "frage": "Helgoland gehört zu den Ostfriesischen Inseln.",
    "info": "Helgoland liegt weit draußen in der Nordsee und gehört zu keiner der beiden Inselgruppen.",
-   "richtig": false
+   "richtig": false,
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "reihenfolge",
@@ -865,19 +884,22 @@
     "Langeoog",
     "Spiekeroog",
     "Wangerooge"
-   ]
+   ],
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "kurz",
    "abschnitt": "E – Inseln",
    "frage": "Welche Ostfriesische Insel liegt ganz im Westen?",
-   "richtig": "Borkum"
+   "richtig": "Borkum",
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "kurz",
    "abschnitt": "E – Inseln",
    "frage": "Welche Ostfriesische Insel liegt ganz im Osten?",
-   "richtig": "Wangerooge"
+   "richtig": "Wangerooge",
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "luecke",
@@ -894,7 +916,8 @@
     "Wangerooge",
     "Sylt",
     "Rügen"
-   ]
+   ],
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "luecke",
@@ -908,7 +931,8 @@
     "Pellworm",
     "Borkum",
     "Usedom"
-   ]
+   ],
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   },
   {
    "typ": "frei",
@@ -920,7 +944,8 @@
     "eine nordfriesische Insel (zum Beispiel Sylt, Föhr, Amrum, Pellworm)",
     "zwei ostfriesische Inseln (zum Beispiel Borkum, Juist, Norderney)",
     "Lage vor Schleswig-Holstein beziehungsweise Niedersachsen"
-   ]
+   ],
+   "lesen": "Nordfriesische und Ostfriesische Inseln"
   }
  ]
 }

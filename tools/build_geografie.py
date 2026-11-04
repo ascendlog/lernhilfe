@@ -15,7 +15,7 @@ sys.path.insert(0, HIER)
 OUT = os.path.join(HIER, '..', 'pakete', 'joel-dario')
 os.makedirs(OUT, exist_ok=True)
 
-import geo_p1, geo_p2, geo_p3, geo_p4, geo_pt, geo_crashkurs
+import geo_p1, geo_p2, geo_p3, geo_p4, geo_pt, geo_crashkurs, geo_lesen
 
 ALT = ['geografie-nordsee-wattenmeer.json']   # alter Entwurf mit 13 Aufgaben, ersetzt durch die neuen Pakete
 
@@ -38,6 +38,7 @@ def ziel(p):
 def main():
     pakete = [geo_p1.build()] + geo_p2.build() + geo_p3.build() + geo_p4.build() + [geo_pt.build()]
     pakete.append(geo_crashkurs.build(pakete))   # Crashkurs zuletzt: wählt aus den Lernblättern der anderen Pakete aus
+    geo_lesen.anwenden(pakete)   # Verweise „Nachlesen“ (Aufgabe -> Lernblatt-Abschnitt), prüft alle Ziele
     ids = [p['id'] for p in pakete]
     assert len(set(ids)) == len(ids), ids
     for p in pakete:

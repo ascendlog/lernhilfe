@@ -27,6 +27,14 @@
    "bildAlt": "Drei Deichprofile nebeneinander mit den Jahren 1599, 1766 und heute und den Höhen etwa 3 m, 5,1 m und 8,8 m"
   }
  ],
+ "nachlesen": {
+  "C – Den Deich beschriften": "Der Deich: Aufgabe und Teile",
+  "D – Deichprofile und Deichhöhen": "Deiche werden höher: die Deichprofile",
+  "E – Anwenden und erklären": [
+   "Der Deich: Aufgabe und Teile",
+   "Deiche werden höher: die Deichprofile"
+  ]
+ },
  "aufgaben": [
   {
    "typ": "luecke",
@@ -464,7 +472,8 @@
     "Form richtig beschrieben (Seeseite flach, Landseite steil)",
     "Mindestens fünf Teile genannt",
     "Sturmflutwasserstand oder Hochwasser genannt"
-   ]
+   ],
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "frei",
@@ -475,7 +484,8 @@
    "kriterien": [
     "Wellen treffen zuerst den Deichfuß",
     "Wasser würde den Fuß aushöhlen und wegspülen"
-   ]
+   ],
+   "lesen": "Der Deich: Aufgabe und Teile"
   },
   {
    "typ": "frei",
@@ -486,13 +496,15 @@
    "kriterien": [
     "Höhere Sturmfluten aushalten",
     "Land besser schützen"
-   ]
+   ],
+   "lesen": "Deiche werden höher: die Deichprofile"
   },
   {
    "typ": "tf",
    "abschnitt": "E – Anwenden und erklären",
    "frage": "Der Sturmflutwasserstand liegt höher als das normale Hochwasser.",
-   "richtig": true
+   "richtig": true,
+   "lesen": "Deiche werden höher: die Deichprofile"
   },
   {
    "typ": "mc",
@@ -504,7 +516,8 @@
     "Sonst gäbe es keine Ebbe mehr.",
     "Sonst würde der Sandkern verschwinden."
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": "Deiche werden höher: die Deichprofile"
   },
   {
    "typ": "zuordnen",
@@ -555,7 +568,8 @@
    "typ": "kurz",
    "abschnitt": "E – Anwenden und erklären",
    "frage": "Wie nennt man den Wasserstand bei einer Sturmflut?",
-   "richtig": "Sturmflutwasserstand"
+   "richtig": "Sturmflutwasserstand",
+   "lesen": "Deiche werden höher: die Deichprofile"
   }
  ]
 }

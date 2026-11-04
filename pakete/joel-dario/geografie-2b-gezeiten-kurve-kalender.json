@@ -26,6 +26,11 @@
    "bildAlt": "Tidenkalender (Beispiel): Tidenkalender (Uhrzeiten): 1. Tag: HW 04:05 und 16:30, NW 10:18 und 22:43; 2. Tag: HW 04:55 und 17:20, NW 11:08 und 23:33; 3. Tag: HW 05:45 und 18:10, NW 11:58 und –; 4. Tag: HW 06:35 und 19:00, NW 00:23 und 12:48; 5. Tag: HW 07:25 und 19:50, NW 01:13 und 13:38"
   }
  ],
+ "nachlesen": {
+  "D – Die Gezeitenkurve lesen": "Gezeitenkurve lesen",
+  "E – Der Tidenkalender": "Tidenkalender lesen",
+  "F – Warum sich die Gezeiten verschieben": "Tidenkalender lesen"
+ },
  "aufgaben": [
   {
    "typ": "mc",

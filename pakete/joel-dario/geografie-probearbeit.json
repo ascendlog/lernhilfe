@@ -23,7 +23,11 @@
     "Schleswig-Holstein",
     "Bayern",
     "Sachsen"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-1-nord-ostsee",
+    "titel": "Länder und Bundesländer an den Meeren"
+   }
   },
   {
    "typ": "zuordnen",
@@ -46,7 +50,11 @@
      "Watt und Dünen",
      "Nordsee"
     ]
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-1-nord-ostsee",
+    "titel": "Nordsee und Ostsee im Vergleich"
+   }
   },
   {
    "typ": "luecke",
@@ -58,7 +66,11 @@
     "ostfriesischen",
     "westfriesischen",
     "ostseeischen"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-1-nord-ostsee",
+    "titel": "Nordfriesische und Ostfriesische Inseln"
+   }
   },
   {
    "typ": "luecke",
@@ -76,7 +88,11 @@
     "Fliehkraft",
     "Sonne",
     "Gezeit"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-2a-gezeiten-grundlagen",
+    "titel": "So entstehen die Gezeiten"
+   }
   },
   {
    "typ": "frei",
@@ -88,7 +104,11 @@
     "Anziehungskraft des Mondes oder Wasserberg auf der zugewandten Seite",
     "Fliehkraft oder zweiter Wasserberg auf der abgewandten Seite",
     "Erde dreht sich unter den Wasserbergen hindurch (zweimal Flut, zweimal Ebbe)"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-2a-gezeiten-grundlagen",
+    "titel": "So entstehen die Gezeiten"
+   }
   },
   {
    "typ": "mc",
@@ -102,7 +122,11 @@
     "6:30 Uhr",
     "12:30 Uhr"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": {
+    "paket": "geografie-2b-gezeiten-kurve-kalender",
+    "titel": "Gezeitenkurve lesen"
+   }
   },
   {
    "typ": "kurz",
@@ -116,7 +140,17 @@
     "2.5"
    ],
    "einheit": "m",
-   "punkte": 2
+   "punkte": 2,
+   "lesen": [
+    {
+     "paket": "geografie-2a-gezeiten-grundlagen",
+     "titel": "Wichtige Begriffe"
+    },
+    {
+     "paket": "geografie-2b-gezeiten-kurve-kalender",
+     "titel": "Gezeitenkurve lesen"
+    }
+   ]
   },
   {
    "typ": "mc",
@@ -130,7 +164,11 @@
     "Hochwasser",
     "Niedrigwasser"
    ],
-   "richtig": 0
+   "richtig": 0,
+   "lesen": {
+    "paket": "geografie-2b-gezeiten-kurve-kalender",
+    "titel": "Gezeitenkurve lesen"
+   }
   },
   {
    "typ": "kurz",
@@ -141,7 +179,11 @@
    "richtig": [
     "06:55",
     "6:55"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-2b-gezeiten-kurve-kalender",
+    "titel": "Tidenkalender lesen"
+   }
   },
   {
    "typ": "frei",
@@ -154,7 +196,11 @@
    "kriterien": [
     "Mond wandert auf seiner Bahn weiter",
     "Erde braucht etwa 50 Minuten länger, bis sie den Mond eingeholt hat"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-2b-gezeiten-kurve-kalender",
+    "titel": "Tidenkalender lesen"
+   }
   },
   {
    "typ": "frei",
@@ -166,7 +212,11 @@
     "Futterplatz (viele Nährstoffe)",
     "Kinderstube für Fische oder andere Jungtiere",
     "Brut- oder Rastplatz für Vögel"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-3a-wattenmeer-lebensraum",
+    "titel": "Das Wattenmeer: ein besonderer Lebensraum"
+   }
   },
   {
    "typ": "zuordnen",
@@ -190,7 +240,11 @@
      "schützt das Land und wird nicht überflutet",
      "Deich"
     ]
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-3a-wattenmeer-lebensraum",
+    "titel": "Die vier Zonen des Watts"
+   }
   },
   {
    "typ": "frei",
@@ -202,7 +256,11 @@
     "Ein Grund genannt (einzigartig, empfindlich, Tiere nicht stören)",
     "Erste Schutzmaßnahme genannt",
     "Zweite Schutzmaßnahme genannt (zum Beispiel Nationalpark, Weltnaturerbe, Schutzzonen, Schilder)"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-3b-wattenmeer-schutz",
+    "titel": "Warum und wie wird das Wattenmeer geschützt?"
+   }
   },
   {
    "typ": "luecke",
@@ -214,7 +272,11 @@
     "Erholungszone",
     "Brutzone",
     "Zwischenzone"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-3b-wattenmeer-schutz",
+    "titel": "Die drei Schutzzonen"
+   }
   },
   {
    "typ": "zuordnen",
@@ -247,7 +309,11 @@
    "extra": [
     "Düne",
     "Priel"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-4a-deich-aufbau",
+    "titel": "Der Deich: Aufgabe und Teile"
+   }
   },
   {
    "typ": "frei",
@@ -258,6 +324,16 @@
    "kriterien": [
     "Steine schützen den Deichfuß vor dem Aushöhlen",
     "Gras hält mit den Wurzeln den Boden fest"
+   ],
+   "lesen": [
+    {
+     "paket": "geografie-4a-deich-aufbau",
+     "titel": "Der Deich: Aufgabe und Teile"
+    },
+    {
+     "paket": "geografie-4a-deich-aufbau",
+     "titel": "Woraus besteht ein Deich?"
+    }
    ]
   },
   {
@@ -271,7 +347,11 @@
     "heraus",
     "Muscheln",
     "hinein"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-4c-duene",
+    "titel": "Dünen: Sandwälle am Strand"
+   }
   },
   {
    "typ": "frei",
@@ -284,7 +364,11 @@
    "kriterien": [
     "Flut richtig zugeordnet (Zeichnung 2) und Tor geschlossen",
     "Erklärt, dass das Meerwasser das Tor zudrückt und kein Salzwasser ins Land kommt"
-   ]
+   ],
+   "lesen": {
+    "paket": "geografie-4d-sieltor",
+    "titel": "Das Sieltor"
+   }
   }
  ],
  "ueben": false

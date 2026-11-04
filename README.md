@@ -8,7 +8,7 @@ Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App
 - `pakete/<person>/` – Lernpakete im Repo, je Person ein Ordner (`pakete/joel/`, `pakete/dario/`, `pakete/saskia/`) mit einer `index.json`, die die Dateien dieser Person auflistet. Dazu der **gemeinsame Ordner `pakete/joel-dario/`** für Pakete, die beide lernen sollen (Joel und Dario sind Klassenkameraden): Er wird bei beiden unter „Pakete aus dem Repo“ angezeigt. Bei Joel: Englisch und Musik (nur Joel), Geografie (gemeinsam mit Dario)
 - `tools/build_beispielpakete.py` – erzeugt das Englischpaket (liegt jetzt unter `pakete/joel/abgeschlossen/englisch/`) neu (nur nötig, wenn du es ändern willst)
 - `tools/thema_abschliessen.py` – verschiebt alle Pakete eines Themas in `abgeschlossen/<thema>/` (oder zurück), siehe „Abgeschlossene Themen“
-- `tools/build_geografie.py` – erzeugt die elf Geografiepakete (inklusive Probearbeit und Crashkurs) in `pakete/joel-dario/` (Aufgaben, Zeichnungen und Lösungen werden in `tools/geo_*.py` berechnet und mit `assert` geprüft; `geo_lib.py` enthält die Bausteine und die Zeichnungen von Gezeiten, Watt und Deich, `geo_svg2.py` Düne, Sieltor und Deichprofile)
+- `tools/build_geografie.py` – erzeugt die elf Geografiepakete (inklusive Probearbeit und Crashkurs) in `pakete/joel-dario/` (Aufgaben, Zeichnungen und Lösungen werden in `tools/geo_*.py` berechnet und mit `assert` geprüft; `geo_lib.py` enthält die Bausteine und die Zeichnungen von Gezeiten, Watt und Deich, `geo_svg2.py` Düne, Sieltor und Deichprofile, `geo_lesen.py` die Nachlesen-Verweise)
 - `tools/build_musikpakete.py` – erzeugt die drei Musikpakete (liegen jetzt unter `pakete/joel/abgeschlossen/musik/`); `tools/notation.py` zeichnet dafür die Notenbilder (SVG), `tools/glyphs.json` enthält die Zeichen dazu (Schlüssel, Pausen, Kreuz aus GNU FreeFont, Ziffern aus DejaVu Sans Bold)
 
 ## Einrichten auf GitHub
@@ -50,6 +50,7 @@ Fehlerhafte Pakete werden nicht importiert. Die App nennt dann die Stelle (z. B.
 - **Üben:** Nach jeder Aufgabe gibt es sofort die Auswertung, die richtige Lösung und eine kurze Erklärung. Tipps sind möglich. „Weiß ich nicht“ zeigt die Lösung. Am Ende können die Fehler gezielt wiederholt werden.
 - **Probearbeit:** Wie in der Schule. Man kann zwischen den Aufgaben springen, es gibt keine Tipps und keine Auswertung, bis man abgibt.
 - Standardmäßig bietet jedes Paket beide Wege an. Mit `"probe": false` im Paket entfällt der Knopf „Probearbeit“ (gedacht für Teilpakete, wenn es für die ganze Arbeit eine gemeinsame Probearbeit gibt). Mit `"ueben": false` entfällt umgekehrt der Knopf „Üben“ (gedacht für das Probearbeit-Paket selbst, das nur zum Proben da ist). Beides zusammen ist nicht erlaubt. Das Probearbeit-Paket hat außerdem kein Lernblatt: `lernblatt` ist optional, ohne Lernblatt erscheint kein Knopf „Lernblatt“, und was dort zum Ablauf stünde (Zeit, Punkte, Hilfsmittel), steht in `beschreibung` und `hinweis`.
+- **Nachlesen:** Unter jeder falsch beantworteten Aufgabe (beim Üben, bei „Fehler wiederholen“ und in der Auswertung der Probearbeit) steht ein aufklappbarer Kasten „Nachlesen“ mit dem passenden Abschnitt des Lernblatts, bei Saskia dazu „Mehr dazu: Lehrbrief …“. So braucht auch die Probearbeit, die kein Lernblatt hat, keinen eigenen Text: Ihre Aufgaben verweisen auf die Lernblätter der Übungspakete. Die Felder dafür stehen unter „Format eines Lernpakets“.
 - Freie Antworten (Sätze, Erklärungen) bewertet das Kind selbst anhand der Musterlösung und einer Checkliste (Passt / Teilweise / Noch nicht).
 - Eine laufende Sitzung bleibt beim Neuladen oder Schließen des Browsers erhalten („Fortsetzen“ auf der Startseite).
 - Auf der Startseite steht je Paket der Verlauf der letzten Ergebnisse in Prozent.
@@ -93,7 +94,18 @@ Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`.
 | `vorlesen` | `{ "text": "...", "sprache": "en-GB" }` – Knopf „Anhören“; der Text steht für Eltern aufklappbar darunter |
 | `tipp` | Nur beim Üben, per Knopf |
 | `info` | Erklärung, die nach dem Prüfen erscheint |
+| `lesen` | Nachlesen bei falscher Antwort: Titel eines Lernblatt-Abschnitts im selben Paket oder `{"paket": "<id>", "titel": "<Abschnitt>"}` für ein anderes Paket, mehrere als Liste. Überschreibt `nachlesen` des Pakets |
 | `punkte` | Punkte der Aufgabe (Standard 1, bei `frei` 2) |
+
+### Nachlesen (Verweise auf das Lernblatt)
+
+Ein Paket kann seinen Aufgaben Lernblatt-Abschnitte zuordnen, damit die App bei einer falschen Antwort den passenden Abschnitt zeigt:
+
+- `nachlesen` (Paketfeld): ordnet jedem `abschnitt` der Aufgaben einen oder mehrere Lernblatt-Abschnitte zu, z. B. `"nachlesen": { "A – Meere und Länder": "Länder und Bundesländer an den Meeren" }`. Der Titel muss genau so im `lernblatt` des Pakets stehen (die App meldet es sonst beim Import).
+- `lesen` (Aufgabenfeld): genauerer Verweis für eine einzelne Aufgabe, auch auf ein anderes Paket (`{"paket": "geografie-2b-…", "titel": "Gezeitenkurve lesen"}`). So verweist ein Paket ohne Lernblatt (Probearbeit, Probeklausur) auf die Lernblätter der Übungspakete. Ist das andere Paket nicht auf dem Gerät, bleibt der Kasten weg.
+- `quelle` (Paketfeld): Text, der im Kasten als „Mehr dazu: …“ erscheint, z. B. `"Lehrbrief Testverfahren I, Kapitel 3"`. Gilt für Verweise auf das Lernblatt dieses Pakets.
+
+Die Verweise der Geografie-Pakete setzt `tools/geo_lesen.py` beim Bauen und prüft, dass jedes Ziel existiert und jede Aufgabe einen Verweis hat.
 
 ### Aufgabenarten
 
