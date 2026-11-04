@@ -6,10 +6,10 @@ Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App
 
 - `index.html` – die komplette App
 - `pakete/<person>/` – Lernpakete im Repo, je Person ein Ordner (`pakete/joel/`, `pakete/dario/`, `pakete/saskia/`) mit einer `index.json`, die die Dateien dieser Person auflistet. Dazu der **gemeinsame Ordner `pakete/joel-dario/`** für Pakete, die beide lernen sollen (Joel und Dario sind Klassenkameraden): Er wird bei beiden unter „Pakete aus dem Repo“ angezeigt. Bei Joel: Englisch und Musik (nur Joel), Geografie (gemeinsam mit Dario)
-- `tools/build_beispielpakete.py` – erzeugt das Englischpaket in `pakete/joel/` neu (nur nötig, wenn du es ändern willst)
+- `tools/build_beispielpakete.py` – erzeugt das Englischpaket (liegt jetzt unter `pakete/joel/abgeschlossen/englisch/`) neu (nur nötig, wenn du es ändern willst)
 - `tools/thema_abschliessen.py` – verschiebt alle Pakete eines Themas in `abgeschlossen/<thema>/` (oder zurück), siehe „Abgeschlossene Themen“
 - `tools/build_geografie.py` – erzeugt die elf Geografiepakete (inklusive Probearbeit und Crashkurs) in `pakete/joel-dario/` (Aufgaben, Zeichnungen und Lösungen werden in `tools/geo_*.py` berechnet und mit `assert` geprüft; `geo_lib.py` enthält die Bausteine und die Zeichnungen von Gezeiten, Watt und Deich, `geo_svg2.py` Düne, Sieltor und Deichprofile)
-- `tools/build_musikpakete.py` – erzeugt die drei Musikpakete in `pakete/joel/`; `tools/notation.py` zeichnet dafür die Notenbilder (SVG), `tools/glyphs.json` enthält die Zeichen dazu (Schlüssel, Pausen, Kreuz aus GNU FreeFont, Ziffern aus DejaVu Sans Bold)
+- `tools/build_musikpakete.py` – erzeugt die drei Musikpakete (liegen jetzt unter `pakete/joel/abgeschlossen/musik/`); `tools/notation.py` zeichnet dafür die Notenbilder (SVG), `tools/glyphs.json` enthält die Zeichen dazu (Schlüssel, Pausen, Kreuz aus GNU FreeFont, Ziffern aus DejaVu Sans Bold)
 
 ## Einrichten auf GitHub
 
@@ -43,7 +43,7 @@ Fehlerhafte Pakete werden nicht importiert. Die App nennt dann die Stelle (z. B.
 
 **Alternative über GitHub:** Die Paketdatei in den Ordner der Person legen (`pakete/joel/`, `pakete/dario/`, `pakete/saskia/` oder für Joel und Dario gemeinsam `pakete/joel-dario/`) und ihren Namen in der `index.json` dieses Ordners ergänzen. Dann erscheint sie bei dieser Person unter „Pakete aus dem Repo“. Achtung: Ist das Repository öffentlich, sind diese Dateien öffentlich. Alles, was nicht jeder lesen soll (oder aus urheberrechtlich geschützten Schulbüchern, Skripten und Unterlagen der Hochschule stammt), besser nur per Datei importieren. Dann bleibt es lokal im Browser.
 
-**Abgeschlossene Themen:** Damit „Pakete aus dem Repo“ übersichtlich bleibt, lassen sich alle Pakete eines Themas in einen Unterordner verschieben. Sie liegen dann in `pakete/<ordner>/abgeschlossen/<thema>/` und stehen in der `index.json` als `abgeschlossen/<thema>/<datei>.json`. In der App erscheinen sie unten in der aufklappbaren Gruppe „Abgeschlossen“, darin ein Eintrag je Thema (zum Beispiel „Geografie“). Verschoben wird nur auf Anweisung, mit `python3 tools/thema_abschliessen.py <ordner> <thema> <dateiprefix>` (zum Beispiel `joel-dario geografie geografie-`), mit `--zurueck` wieder zurück. Schon in der App importierte Pakete bleiben dabei unverändert.
+**Abgeschlossene Themen:** Damit „Pakete aus dem Repo“ übersichtlich bleibt, lassen sich alle Pakete eines Themas in einen Unterordner verschieben. Sie liegen dann in `pakete/<ordner>/abgeschlossen/<thema>/` und stehen in der `index.json` als `abgeschlossen/<thema>/<datei>.json`. In der App erscheinen sie unten in der aufklappbaren Gruppe „Abgeschlossen“, darin ein Eintrag je Thema (zum Beispiel „Englisch“ und „Musik“, die bei Joel schon dort liegen). Verschoben wird nur auf Anweisung, mit `python3 tools/thema_abschliessen.py <ordner> <thema> <dateiprefix>` (zum Beispiel `joel-dario geografie geografie-`), mit `--zurueck` wieder zurück. Schon in der App importierte Pakete bleiben dabei unverändert.
 
 ## Üben und Probearbeit
 

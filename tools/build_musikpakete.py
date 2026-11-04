@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Erzeugt die drei Musik-Lernpakete (Klasse 6) im Ordner pakete/joel/.
+"""Erzeugt die drei Musik-Lernpakete (Klasse 6) im Ordner pakete/joel/ (seit dem Abschluss unter pakete/joel/abgeschlossen/musik/).
 
 Die Notenbilder zeichnet tools/notation.py als SVG, die Lösungen ergeben sich
 aus denselben Daten wie die Bilder. Aufruf: python3 tools/build_musikpakete.py
@@ -11,13 +11,14 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from notation import Row, N, R, GAP, doc, ORANGE, INK  # noqa: E402
+from repo_ziel import ziel, hat_eintrag  # noqa: E402
 
 OUT = os.path.join(HERE, '..', 'pakete', 'joel')
 os.makedirs(OUT, exist_ok=True)
 
 
 def write(name, obj):
-    with open(os.path.join(OUT, name), 'w', encoding='utf-8') as f:
+    with open(os.path.join(ziel(OUT, 'musik', name), name), 'w', encoding='utf-8') as f:
         json.dump(obj, f, ensure_ascii=False, indent=1)
         f.write('\n')
 
@@ -568,7 +569,7 @@ try:
 except Exception:
     ix = []
 for name in ['musik-6-notennamen-notenwerte-vorzeichen.json', 'musik-6-pausen-taktarten.json', 'musik-6-probearbeit-wanderlied-hoeren.json']:
-    if name not in ix:
+    if not hat_eintrag(ix, name):
         ix.append(name)
 with open(ix_path, 'w', encoding='utf-8') as f:
     json.dump(ix, f, ensure_ascii=False, indent=1)

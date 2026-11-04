@@ -2,7 +2,9 @@
 """Erzeugt das Beispielpaket Englisch in pakete/joel/ (gültiges JSON, ohne Tippfehler-Risiko). Geografie siehe build_geografie.py.
 Aufruf: python3 tools/build_beispielpakete.py
 """
-import json, os
+import json, os, sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from repo_ziel import ziel, hat_eintrag
 
 OUT = os.path.join(os.path.dirname(__file__), '..', 'pakete', 'joel')
 os.makedirs(OUT, exist_ok=True)
@@ -101,7 +103,7 @@ english = {
    "kriterien": ["was oder were richtig benutzt", "mindestens ein regelmäßiges Verb mit -ed", "mindestens ein unregelmäßiges Verb (went, saw, had …)", "ein verneinter Satz mit didn't + Grundform", "eine Frage mit Did + Grundform"]}
  ]
 }
-write('englisch-unit1-simple-past.json', english)
+write('englisch-unit1-simple-past.json', english, ziel(OUT, 'englisch', 'englisch-unit1-simple-past.json'))
 
 # Listen der Pakete im Repo: vorhandene Einträge behalten (z. B. die Musikpakete) und ergänzen
 def update_index(folder, names):
@@ -111,7 +113,7 @@ def update_index(folder, names):
     except Exception:
         ix = []
     for name in reversed(names):
-        if name not in ix:
+        if not hat_eintrag(ix, name):
             ix.insert(0, name)
     with open(ix_path, 'w', encoding='utf-8') as f:
         json.dump(ix, f, ensure_ascii=False, indent=1)
