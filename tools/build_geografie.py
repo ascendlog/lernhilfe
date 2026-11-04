@@ -24,13 +24,24 @@ def datei(p):
     return p['id'] + '.json'
 
 
+THEMA = 'geografie'
+
+
+def ziel(p):
+    """(Ordner, Eintrag für index.json): Ist das Thema abgeschlossen (Datei liegt unter abgeschlossen/geografie/), wird dort weitergeschrieben."""
+    abg = os.path.join(OUT, 'abgeschlossen', THEMA)
+    if os.path.exists(os.path.join(abg, datei(p))):
+        return abg, f'abgeschlossen/{THEMA}/{datei(p)}'
+    return OUT, datei(p)
+
+
 def main():
     pakete = [geo_p1.build()] + geo_p2.build() + geo_p3.build() + geo_p4.build() + [geo_pt.build()]
     pakete.append(geo_crashkurs.build(pakete))   # Crashkurs zuletzt: wählt aus den Lernblättern der anderen Pakete aus
     ids = [p['id'] for p in pakete]
     assert len(set(ids)) == len(ids), ids
     for p in pakete:
-        with open(os.path.join(OUT, datei(p)), 'w', encoding='utf-8') as f:
+        with open(os.path.join(ziel(p)[0], datei(p)), 'w', encoding='utf-8') as f:
             json.dump(p, f, ensure_ascii=False, indent=1)
             f.write('\n')
         print(f"{p['id']:45s} {len(p['aufgaben']):3d} Aufgaben, {len(p['lernblatt'])} Lernblatt-Abschnitte")
@@ -44,8 +55,9 @@ def main():
         alt = json.load(open(ix_path, encoding='utf-8'))
     except Exception:
         alt = []
-    fremde = [n for n in alt if n not in ALT and n not in [datei(p) for p in pakete]]
-    ix = [datei(p) for p in pakete] + fremde
+    eigene = [datei(p) for p in pakete]
+    fremde = [n for n in alt if n not in ALT and n.split('/')[-1] not in eigene]
+    ix = [ziel(p)[1] for p in pakete] + fremde
     with open(ix_path, 'w', encoding='utf-8') as f:
         json.dump(ix, f, ensure_ascii=False, indent=1)
         f.write('\n')

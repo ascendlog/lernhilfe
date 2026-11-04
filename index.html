@@ -176,6 +176,10 @@ dialog::backdrop{background:rgba(5,8,20,.62);backdrop-filter:blur(3px)}
 .errs ul{margin:.2rem 0}
 code{background:var(--surface-2);border-radius:6px;padding:.05rem .35rem;font-size:.9em}
 .lib{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.6rem 0;border-bottom:1px solid var(--line)}
+.libhead{display:flex;width:100%;gap:.5rem;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);color:inherit;font:inherit;font-weight:700;text-align:left;padding:.7rem 0;cursor:pointer}
+.libhead .muted{font-weight:400}
+.libgrp{margin-top:1.2rem}
+.libsub{margin-left:1rem}
 #toast{position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:.6rem 1rem;border-radius:12px;opacity:0;pointer-events:none;transition:.25s;max-width:90vw;z-index:20;font-size:.95rem}
 #toast.on{opacity:1;transform:translateX(-50%)}
 .dropping::after{content:"Datei hier loslassen";position:fixed;inset:0;background:color-mix(in srgb,var(--accent) 18%,transparent);display:flex;align-items:center;justify-content:center;font-size:2rem;font-weight:800;color:var(--accent-text);pointer-events:none;border:4px dashed var(--accent);z-index:30}
@@ -853,11 +857,31 @@ function download(name, text) {
   setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 500);
 }
 let libItems = [];
+const libOffen = new Set(); /* aufgeklappte Gruppen (nur für die Dauer der Sitzung) */
+const libThema = t => t.replace(/[-_]+/g, ' ').replace(/^./, c => c.toUpperCase());
+function libRow(x, i) {
+  const have = x.p && getPack(x.p.id); const same = have && JSON.stringify(have) === JSON.stringify(normalizePack(JSON.parse(JSON.stringify(x.p))));
+  return `<div class="lib"><div><strong>${esc(x.p ? x.p.titel : x.f)}</strong><div class="muted">${x.errs.length ? 'Fehler: ' + esc(x.errs[0]) : esc([x.p.fach, x.p.aufgaben.length + ' Aufgaben'].filter(Boolean).join(', '))}</div></div>${x.errs.length ? '' : same ? '<span class="muted">aktuell</span>' : `<button class="btn sm" data-act="lib-add" data-i="${i}">${have ? 'Aktualisieren' : 'Hinzufügen'}</button>`}</div>`;
+}
+/* Abgeschlossene Themen liegen im Repo in pakete/<ordner>/abgeschlossen/<thema>/ und stehen in der index.json als „abgeschlossen/<thema>/<datei>.json“. */
 function renderLib() {
-  dialog('<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete für <strong>' + esc(cur.name) + '</strong> aus ' + (cur.ordner && cur.ordner.length > 1 ? 'den Ordnern ' : 'dem Ordner ') + (cur.ordner || [cur.id]).map(d => '<code>pakete/' + esc(d) + '/</code>').join(' und ') + ' dieser Seite.</p>' + (libItems.length ? libItems.map((x, i) => {
-    const have = x.p && getPack(x.p.id); const same = have && JSON.stringify(have) === JSON.stringify(normalizePack(JSON.parse(JSON.stringify(x.p))));
-    return `<div class="lib"><div><strong>${esc(x.p ? x.p.titel : x.f)}</strong><div class="muted">${x.errs.length ? 'Fehler: ' + esc(x.errs[0]) : esc([x.p.fach, x.p.aufgaben.length + ' Aufgaben'].filter(Boolean).join(', '))}</div></div>${x.errs.length ? '' : same ? '<span class="muted">aktuell</span>' : `<button class="btn sm" data-act="lib-add" data-i="${i}">${have ? 'Aktualisieren' : 'Hinzufügen'}</button>`}</div>`;
-  }).join('') : '<p>Für ' + esc(cur.name) + ' liegen noch keine Pakete im Repo. Lernpakete lassen sich jederzeit als Datei importieren.</p>') + '<div class="row" style="margin-top:1rem"><button class="btn ghost" data-act="dlg-close">Schließen</button></div>');
+  const offen = [], fertig = {};
+  libItems.forEach((x, i) => { const m = /^abgeschlossen\/([^/]+)\//.exec(x.f); if (m) (fertig[m[1]] = fertig[m[1]] || []).push(i); else offen.push(i); });
+  const themen = Object.keys(fertig);
+  let h = '<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete für <strong>' + esc(cur.name) + '</strong> aus ' + (cur.ordner && cur.ordner.length > 1 ? 'den Ordnern ' : 'dem Ordner ') + (cur.ordner || [cur.id]).map(d => '<code>pakete/' + esc(d) + '/</code>').join(' und ') + ' dieser Seite.</p>';
+  if (offen.length) h += offen.map(i => libRow(libItems[i], i)).join('');
+  else if (!themen.length) h += '<p>Für ' + esc(cur.name) + ' liegen noch keine Pakete im Repo. Lernpakete lassen sich jederzeit als Datei importieren.</p>';
+  else h += '<p>Alle Themen sind abgeschlossen. Die Pakete findest du unten unter „Abgeschlossen“.</p>';
+  if (themen.length) {
+    const auf = libOffen.has('abgeschlossen');
+    h += `<div class="libgrp"><button class="libhead" data-act="lib-toggle" data-g="abgeschlossen" aria-expanded="${auf}">${auf ? '▾' : '▸'} Abgeschlossen <span class="muted">(${themen.length} ${themen.length === 1 ? 'Thema' : 'Themen'})</span></button>`;
+    if (auf) h += themen.map(t => {
+      const k = 'abgeschlossen/' + t, o = libOffen.has(k);
+      return `<div class="libsub"><button class="libhead" data-act="lib-toggle" data-g="${esc(k)}" aria-expanded="${o}">${o ? '▾' : '▸'} ${esc(libThema(t))} <span class="muted">(${fertig[t].length} ${fertig[t].length === 1 ? 'Paket' : 'Pakete'})</span></button>${o ? fertig[t].map(i => libRow(libItems[i], i)).join('') : ''}</div>`;
+    }).join('');
+    h += '</div>';
+  }
+  dialog(h + '<div class="row" style="margin-top:1rem"><button class="btn ghost" data-act="dlg-close">Schließen</button></div>');
 }
 async function openLibrary() {
   const who = cur, ordner = who.ordner || [who.id];
@@ -871,8 +895,8 @@ async function openLibrary() {
       if (r.status !== 404) { if (!r.ok) throw new Error('HTTP ' + r.status); list = await r.json(); } /* kein Ordner = noch keine Pakete */
       if (!Array.isArray(list)) throw new Error('index.json in ' + dir + ' ist keine Liste');
       for (const f of list) {
-        if (typeof f !== 'string' || !/^[\w\- .]+\.json$/.test(f)) continue;
-        try { const rr = await fetch(base + encodeURIComponent(f), { cache: 'no-store' }); const p = await rr.json(); if (p && seen.has(p.id)) continue; if (p) seen.add(p.id); items.push({ f, p, errs: validatePack(p) }); }
+        if (typeof f !== 'string' || !/^(?:[\w\-.]+\/)*[\w\- .]+\.json$/.test(f) || f.split('/').some(t => t === '.' || t === '..')) continue; /* Unterordner wie abgeschlossen/geografie/… sind erlaubt */
+        try { const rr = await fetch(base + f.split('/').map(encodeURIComponent).join('/'), { cache: 'no-store' }); const p = await rr.json(); if (p && seen.has(p.id)) continue; if (p) seen.add(p.id); items.push({ f, p, errs: validatePack(p) }); }
         catch (e) { items.push({ f, p: null, errs: ['Datei nicht lesbar'] }); }
       }
     }
@@ -958,6 +982,7 @@ document.addEventListener('click', e => {
     case 'paste-go': { const v = $('#pasteTa').value.trim(); if (!v) return; closeDialog(); importText(v); break; }
     case 'library': openLibrary(); break;
     case 'lib-add': { const x = libItems[+el.dataset.i]; if (!x || x.errs.length) return; reportImport(importObj(JSON.parse(JSON.stringify(x.p)), x.f, true)); renderLib(); break; }
+    case 'lib-toggle': { const g = el.dataset.g; if (libOffen.has(g)) libOffen.delete(g); else libOffen.add(g); renderLib(); break; }
     case 'dlg-close': closeDialog(); break;
     case 'backup': dialog('<h2>Sicherung für ' + esc(cur.name) + '</h2><p>Enthält alle importierten Lernpakete und die bisherigen Ergebnisse von ' + esc(cur.name) + '. Die Daten liegen sonst nur in diesem Browser.</p><div class="row"><button class="btn" data-act="backup-save">Als Datei speichern</button><button class="btn sec" data-act="backup-copy">Als Text kopieren</button><button class="btn sec" data-act="import">Wiederherstellen (Datei)</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>'); break;
     case 'backup-save': download('lernhilfe-sicherung-' + cur.id + '-' + new Date().toISOString().slice(0, 10) + '.json', JSON.stringify(backupData(), null, 1)); db.gesichert = Date.now(); save(true); toast('Sicherung gespeichert.'); break;
