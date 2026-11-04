@@ -408,6 +408,7 @@ TEIL_D = "Teil D – Höraufgabe (7 Punkte)"
 p3 = {
  "typ": "lernpaket", "version": 1, "person": "joel",
  "id": "musik-6-probearbeit-wanderlied-hoeren",
+ "ueben": False,   # Probearbeit: nur proben wie in der Schule, kein Übungsmodus
  "titel": "Musik Klasse 6: Probearbeit (Lied, Chanson, Ausstellung, Hören)",
  "fach": "Musik", "klasse": "6",
  "beschreibung": "Übungsarbeit mit 38 Punkten in vier Teilen: A Lied, B Chanson, C Bilder einer Ausstellung, D Höraufgabe. Gut für die Probearbeit-Funktion (35–40 Minuten).",

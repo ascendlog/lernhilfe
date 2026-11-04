@@ -160,7 +160,9 @@ def build():
     for t in A:
         k = t["abschnitt"][:6]
         assert f"({summen[k]} Punkte)" in t["abschnitt"], t["abschnitt"]
-    return pack("geografie-probearbeit", "Geografie Klasse 6: Probearbeit (Nord- und Ostsee, Gezeiten, Wattenmeer, Küstenschutz)",
+    p = pack("geografie-probearbeit", "Geografie Klasse 6: Probearbeit (Nord- und Ostsee, Gezeiten, Wattenmeer, Küstenschutz)",
                 "Eigene Probearbeit mit 48 Punkten in vier Teilen, etwa 45 Minuten. Alle Aufgaben sind neu. Gut für die Probearbeit-Funktion.",
                 lernblatt(), A,
                 hinweis="Das ist eine eigene Probearbeit, nicht die des Lehrers (es gibt keine). Aufbau, Punkte und Zeit sind selbst festgelegt. Tidenkalender und Wasserstände sind erfunden. Die vierte Zone des Watts heißt im Buch „Düne“, im Arbeitsblatt „Deich“.")
+    p["ueben"] = False   # Probearbeit: nur proben wie in der Schule, kein Übungsmodus
+    return p
