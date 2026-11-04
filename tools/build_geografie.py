@@ -3,7 +3,7 @@
 
 Aufruf: python3 tools/build_geografie.py
 
-Pakete: 1 Nord- und Ostsee, 2a/2b Gezeiten, 3a/3b Wattenmeer, 4a bis 4d Küstenschutz und eine eigene Probearbeit.
+Pakete: 1 Nord- und Ostsee, 2a/2b Gezeiten, 3a/3b Wattenmeer, 4a bis 4d Küstenschutz, eine eigene Probearbeit und der Crashkurs.
 Die Zahlen und Lösungen werden in den geo_*.py-Dateien berechnet und mit assert geprüft.
 """
 import json
@@ -15,7 +15,7 @@ sys.path.insert(0, HIER)
 OUT = os.path.join(HIER, '..', 'pakete', 'joel-dario')
 os.makedirs(OUT, exist_ok=True)
 
-import geo_p1, geo_p2, geo_p3, geo_p4, geo_pt
+import geo_p1, geo_p2, geo_p3, geo_p4, geo_pt, geo_crashkurs
 
 ALT = ['geografie-nordsee-wattenmeer.json']   # alter Entwurf mit 13 Aufgaben, ersetzt durch die neuen Pakete
 
@@ -26,6 +26,7 @@ def datei(p):
 
 def main():
     pakete = [geo_p1.build()] + geo_p2.build() + geo_p3.build() + geo_p4.build() + [geo_pt.build()]
+    pakete.append(geo_crashkurs.build(pakete))   # Crashkurs zuletzt: wählt aus den Lernblättern der anderen Pakete aus
     ids = [p['id'] for p in pakete]
     assert len(set(ids)) == len(ids), ids
     for p in pakete:
@@ -37,7 +38,7 @@ def main():
         pfad = os.path.join(OUT, a)
         if os.path.exists(pfad):
             os.remove(pfad)
-    # index.json: Reihenfolge wie im Wissenscheck, Probearbeit zuletzt
+    # index.json: Reihenfolge wie im Wissenscheck, Probearbeit und Crashkurs zuletzt
     ix_path = os.path.join(OUT, 'index.json')
     try:
         alt = json.load(open(ix_path, encoding='utf-8'))

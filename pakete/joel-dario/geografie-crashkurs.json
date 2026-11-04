@@ -1,0 +1,254 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geografie-crashkurs",
+ "titel": "Geografie Klasse 6: Crashkurs (Nord- und Ostsee, Gezeiten, Wattenmeer, Küstenschutz)",
+ "fach": "Geografie",
+ "klasse": "6",
+ "beschreibung": "Das Wichtigste kurz gefasst: der letzte Blick am Tag vor der Arbeit, dazu ein Blitz-Check mit zwölf Kurzaufgaben.",
+ "hinweis": "Kein neuer Stoff: Alles steht auch in den Lernblättern der Übungspakete. Die vierte Zone des Watts heißt im Buch „Düne“, im Arbeitsblatt „Deich“ (beides zählt).",
+ "lernblatt": [
+  {
+   "titel": "So nutzt du den Crashkurs",
+   "text": "Das ist dein **letzter Blick** am Tag vor der Arbeit: einmal in Ruhe lesen (etwa 10 Minuten), danach den **Blitz-Check** machen (etwa 5 Minuten). Hier steht nichts Neues. Wenn du bei etwas unsicher bist, geh in das passende Übungspaket zurück."
+  },
+  {
+   "titel": "Nord- und Ostsee: Bundesländer, Städte, Flüsse",
+   "text": "- **Nordsee**: Schleswig-Holstein und Niedersachsen, dazu die Stadtstaaten Hamburg (an der Elbe) und Bremen (an der Weser).\n- **Ostsee**: Schleswig-Holstein und Mecklenburg-Vorpommern.\n- Städte an der **Nordsee**: Cuxhaven, Bremerhaven, Wilhelmshaven, Emden, Husum. An der **Ostsee**: Flensburg, Kiel, Lübeck, Wismar, Rostock, Stralsund, Greifswald.\n- Flüsse zur Nordsee: Ems, Weser, Elbe, Eider. Zur Ostsee: Trave, Warnow, Peene, Oder.\n- Der **Nord-Ostsee-Kanal** verbindet beide Meere (Brunsbüttel bis Kiel).\n\nTypischer Fehler: Hamburg und Bremen liegen nicht direkt am Meer, sondern an Elbe und Weser.",
+   "merke": "Schleswig-Holstein ist das einzige Bundesland an beiden Meeren."
+  },
+  {
+   "titel": "Inseln",
+   "text": "- **Nordfriesische Inseln**: Sylt, Föhr, Amrum, Pellworm.\n- **Ostfriesische Inseln** (von West nach Ost): Borkum, Juist, Norderney, Baltrum, Langeoog, Spiekeroog, Wangerooge.\n- **Helgoland** gehört zu keiner der beiden Gruppen.\n- **Ostsee**: Fehmarn, Rügen, Usedom, Hiddensee. Rügen ist die größte deutsche Insel.",
+   "merke": "Gefragt sind meist eine nordfriesische und zwei ostfriesische Inseln, zum Beispiel Sylt, Borkum und Norderney."
+  },
+  {
+   "titel": "Nordsee gegen Ostsee",
+   "text": "- **Gezeiten**: Die Nordsee hat Ebbe und Flut (Tidenhub etwa 3 bis 4 m). In der Ostsee gibt es kaum Gezeiten, weil die Flutwelle nur durch eine enge Passage zwischen den dänischen Inseln hineinkommt.\n- **Salz**: Nordsee etwa 3,5 %, Ostsee nur etwa 1 % (**Brackwasser**).\n- **Tiefe**: Nordsee im Durchschnitt etwa 94 m, Ostsee etwa 52 m.\n- **Küste**: Nordsee mit Watt, Deichen und Dünen. Ostsee mit Förden, Bodden und Steilküsten.",
+   "merke": "Nordsee: Ebbe und Flut, salziger, tiefer. Ostsee: kaum Gezeiten, Brackwasser, flacher."
+  },
+  {
+   "titel": "Gezeiten: So entstehen Ebbe und Flut",
+   "text": "- Der **Mond** zieht mit seiner **Anziehungskraft** das Wasser an: Wasserberg auf der zugewandten Seite, dort ist **Flut**.\n- Erde und Mond drehen sich um einen gemeinsamen **Schwerpunkt**. Die **Fliehkraft** drückt das Wasser auf der abgewandten Seite nach außen: zweiter Wasserberg, **zweite Flut**.\n- Die Erde dreht sich unter den Wasserbergen hindurch: **zweimal Flut und zweimal Ebbe** am Tag, von Flut zu Flut etwa **12 Stunden und 25 Minuten**.\n- Jeden Tag etwa **50 Minuten** später, weil der Mond weiterwandert.",
+   "merke": "Zwei Wasserberge gleichzeitig: Anziehungskraft (zugewandt) und Fliehkraft (abgewandt)."
+  },
+  {
+   "titel": "Gezeiten: Begriffe, Kurve und Tidenkalender",
+   "text": "- **Ebbe**: Wasser läuft ab. **Flut**: Wasser läuft auf. Jeweils etwa 6 Stunden.\n- **Hochwasser (HW)** ist der höchste, **Niedrigwasser (NW)** der niedrigste Wasserstand.\n- **Tidenhub** = HW − NW, zum Beispiel 3,5 m − 1 m = 2,5 m.\n- **Kurve**: steigt = Flut, fällt = Ebbe, Gipfel = Hochwasser, Tal = Niedrigwasser.\n- **Tidenkalender**: Zeile des Tages suchen. Ein Strich (–) heißt: keine Uhrzeit an diesem Tag. Zeitabstand = später minus früher: 10:18 Uhr − 04:05 Uhr = 6 Stunden und 13 Minuten.\n- Tidenhub: **Bristol (England)**: 12 m, **Saint-Malo (Frankreich)**: 11 m, **Bremerhaven**: 4 m, **Hallig Langeneß**: 3 m (Häuser auf Warften).",
+   "merke": "Tidenhub = Hochwasser − Niedrigwasser. Immer die Einheit dazuschreiben.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 395\" width=\"760\" height=\"395\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"395\" fill=\"#ffffff\"/><line x1=\"70.0\" y1=\"30\" x2=\"70.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"70.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">0</text><line x1=\"97.5\" y1=\"30\" x2=\"97.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"30\" x2=\"125.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"152.5\" y1=\"30\" x2=\"152.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"152.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">3</text><line x1=\"180.0\" y1=\"30\" x2=\"180.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"207.5\" y1=\"30\" x2=\"207.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"235.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><line x1=\"262.5\" y1=\"30\" x2=\"262.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"290.0\" y1=\"30\" x2=\"290.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"317.5\" y1=\"30\" x2=\"317.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"317.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">9</text><line x1=\"345.0\" y1=\"30\" x2=\"345.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"372.5\" y1=\"30\" x2=\"372.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"400.0\" y1=\"30\" x2=\"400.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"400.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12</text><line x1=\"427.5\" y1=\"30\" x2=\"427.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"455.0\" y1=\"30\" x2=\"455.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"482.5\" y1=\"30\" x2=\"482.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"482.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">15</text><line x1=\"510.0\" y1=\"30\" x2=\"510.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"537.5\" y1=\"30\" x2=\"537.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"565.0\" y1=\"30\" x2=\"565.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"565.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">18</text><line x1=\"592.5\" y1=\"30\" x2=\"592.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"620.0\" y1=\"30\" x2=\"620.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"647.5\" y1=\"30\" x2=\"647.5\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"647.5\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">21</text><line x1=\"675.0\" y1=\"30\" x2=\"675.0\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"702.5\" y1=\"30\" x2=\"702.5\" y2=\"330\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><line x1=\"730.0\" y1=\"30\" x2=\"730.0\" y2=\"330\" stroke=\"#c9c9c9\" stroke-width=\"1.2\"/><text x=\"730.0\" y=\"352\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">24</text><line x1=\"70\" y1=\"330.0\" x2=\"730\" y2=\"330.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"335.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"292.5\" x2=\"730\" y2=\"292.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"297.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">0,5</text><line x1=\"70\" y1=\"255.0\" x2=\"730\" y2=\"255.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"260.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1</text><line x1=\"70\" y1=\"217.5\" x2=\"730\" y2=\"217.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"222.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">1,5</text><line x1=\"70\" y1=\"180.0\" x2=\"730\" y2=\"180.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"185.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2</text><line x1=\"70\" y1=\"142.5\" x2=\"730\" y2=\"142.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"147.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">2,5</text><line x1=\"70\" y1=\"105.0\" x2=\"730\" y2=\"105.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3</text><line x1=\"70\" y1=\"67.5\" x2=\"730\" y2=\"67.5\" stroke=\"#e6e6e6\" stroke-width=\"1\"/><text x=\"62\" y=\"72.5\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">3,5</text><line x1=\"70\" y1=\"30.0\" x2=\"730\" y2=\"30.0\" stroke=\"#c9c9c9\" stroke-width=\"1\"/><text x=\"62\" y=\"35.0\" font-size=\"14\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\">4</text><polyline points=\"70.0,238.0 76.9,230.6 83.8,222.1 90.6,212.6 97.5,202.3 104.4,191.3 111.2,179.9 118.1,168.2 125.0,156.3 131.9,144.5 138.8,133.0 145.6,122.0 152.5,111.6 159.4,101.9 166.2,93.2 173.1,85.6 180.0,79.2 186.9,74.2 193.8,70.5 200.6,68.2 207.5,67.5 214.4,68.2 221.2,70.5 228.1,74.2 235.0,79.2 241.9,85.6 248.8,93.2 255.6,101.9 262.5,111.6 269.4,122.0 276.2,133.0 283.1,144.5 290.0,156.3 296.9,168.2 303.8,179.9 310.6,191.3 317.5,202.3 324.4,212.6 331.2,222.1 338.1,230.6 345.0,238.0 351.9,244.2 358.8,249.0 365.6,252.5 372.5,254.5 379.4,255.0 386.2,254.0 393.1,251.5 400.0,247.6 406.9,242.3 413.8,235.7 420.6,227.9 427.5,219.0 434.4,209.3 441.2,198.7 448.1,187.6 455.0,176.0 461.9,164.2 468.8,152.4 475.6,140.7 482.5,129.3 489.4,118.4 496.2,108.2 503.1,98.9 510.0,90.6 516.9,83.4 523.8,77.4 530.6,72.8 537.5,69.6 544.4,67.8 551.2,67.6 558.1,68.8 565.0,71.6 571.9,75.7 578.8,81.2 585.6,88.0 592.5,96.0 599.4,105.0 606.2,114.9 613.1,125.6 620.0,136.8 626.9,148.4 633.8,160.3 640.6,172.1 647.5,183.8 654.4,195.1 661.2,205.8 668.1,215.9 675.0,225.1 681.9,233.2 688.8,240.2 695.6,246.0 702.5,250.4 709.4,253.3 716.2,254.8 723.1,254.8 730.0,253.3\" fill=\"none\" stroke=\"#1f78b4\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"330\" x2=\"730\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"70\" y2=\"330\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"400\" y=\"378\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uhrzeit (Stunden)</text><text x=\"22\" y=\"180\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" transform=\"rotate(-90 22 180)\">Wasserstand in m</text></svg>",
+   "bildAlt": "Gezeitenkurve eines Tages: Hochwasser um 5 Uhr bei 3,5 m, Niedrigwasser gegen 11 Uhr bei 1 m, Hochwasser gegen 17:30 Uhr."
+  },
+  {
+   "titel": "Wattenmeer: Lebensraum und Zonen",
+   "text": "- Das Watt ist voller Nahrung. Darum ist es **Kinderstube** für Jungfische, Platz für **Seehunde** und Rastplatz für Millionen **Zugvögel**.\n- Salzpflanzen: **Queller** und **Strandflieder**.\n- **Priele** sind Rinnen im Watt und laufen zuerst voll. Wattwanderung nur mit Wattführer.\n- Zonen von der See zum Land: **Meer** (immer unter Wasser), **Watt** (zweimal am Tag), **Salzwiese** (selten), **Deich** (im Buch „Düne“, beides zählt).\n- Grenzen: **mittleres Niedrigwasser** (Meer und Watt), **mittleres Hochwasser** (Watt und Salzwiese).",
+   "merke": "Je weiter weg vom Meer, desto seltener steht die Zone unter Wasser.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 330\" width=\"760\" height=\"330\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"330\" fill=\"#ffffff\"/><polygon points=\"0,160 460,160 260,215 0,262\" fill=\"#cfe7f6\"/><polygon points=\"0,262 260,215 460,160 520,150 640,146 740,70 760,70 760,330 0,330\" fill=\"#cdb98a\" stroke=\"#8a7a45\" stroke-width=\"2\"/><polyline points=\"460,160 520,150 640,146\" fill=\"none\" stroke=\"#6aa84f\" stroke-width=\"7\"/><polyline points=\"640,146 740,70\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"9\"/><line x1=\"0\" y1=\"160\" x2=\"460\" y2=\"160\" stroke=\"#1f78b4\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"215\" x2=\"260\" y2=\"215\" stroke=\"#1f78b4\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"260\" y1=\"40\" x2=\"260\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><line x1=\"460\" y1=\"40\" x2=\"460\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><line x1=\"640\" y1=\"40\" x2=\"640\" y2=\"300\" stroke=\"#555\" stroke-width=\"1.8\" stroke-dasharray=\"3 5\"/><text x=\"130\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Meer</text><text x=\"360\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Watt</text><text x=\"550\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Salzwiese</text><text x=\"700\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Deich</text><text x=\"8\" y=\"152\" font-size=\"13\" font-weight=\"normal\" fill=\"#1f5f8f\" text-anchor=\"start\">mittleres Hochwasser</text><text x=\"8\" y=\"207\" font-size=\"13\" font-weight=\"normal\" fill=\"#1f5f8f\" text-anchor=\"start\">mittleres Niedrigwasser</text></svg>",
+   "bildAlt": "Querschnitt von der See zum Land mit den vier Zonen Meer, Watt, Salzwiese und Deich und den Marken für mittleres Niedrigwasser und mittleres Hochwasser"
+  },
+  {
+   "titel": "Wattenmeer: Schutz und Schutzzonen",
+   "text": "- Das Wattenmeer gibt es nur einmal und soll ungestört bleiben. Ein **Nationalpark** ist ein Schutzgebiet, in dem die Natur Vorrang hat. **1986** wurden drei Nationalparks gegründet, seit **2009** ist es **Weltnaturerbe**.\n- **Zone I, Ruhezone**: strengste Regeln, nicht oder nur auf markierten Wegen betreten.\n- **Zone II, Zwischenzone**: Betreten, Wattwandern und Bootfahren erlaubt, nur Brutgebiete nicht.\n- **Zone III, Erholungszone**: Badestrände und Kureinrichtungen.\n- Regeln auf Schildern: Hunde anleinen, Abstand zu Seehunden, Müll mitnehmen.",
+   "merke": "Ruhezone = strengste Regeln. Zwischenzone = Wattwandern erlaubt. Erholungszone = Badestrände."
+  },
+  {
+   "titel": "Küstenschutz: Der Deich",
+   "text": "- Ein **Deich** ist ein Erdwall (etwa **1500 Kilometer**). Er schützt die **Marsch** vor **Sturmflut**.\n- **Seeseite** flach (Wellen laufen hoch und verlieren Kraft), **Landseite** steiler. Oben die **Deichkrone**, unten der **Deichfuß** mit Steinen.\n- Von innen nach außen: **Sandkern**, **Klei** (fester Lehm), **Grasdecke**. Schafe halten das Gras kurz.\n- Höhe: 1599 etwa 3 m, 1766 etwa 5,1 m, heute etwa 8,8 m.",
+   "merke": "Seeseite flach, Landseite steil. Innen Sandkern, darüber Klei, außen Grasdecke.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 360\" width=\"640\" height=\"360\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"360\" fill=\"#ffffff\"/><rect x=\"0\" y=\"300\" width=\"640\" height=\"60\" fill=\"#c9ad7a\"/><polygon points=\"0,175 232,175 80,300 0,300\" fill=\"#d9ecf8\"/><polygon points=\"0,255 134,255 80,300 0,300\" fill=\"#a9d1ec\"/><polygon points=\"80,300 320,100 380,100 500,300\" fill=\"#9a6b43\"/><polygon points=\"96,300 324,112 376,112 484,300\" fill=\"#b88a5a\"/><polygon points=\"150,300 336,140 364,140 440,300\" fill=\"#f0d9a0\"/><polyline points=\"80,300 320,100 380,100 500,300\" fill=\"none\" stroke=\"#3f9b4f\" stroke-width=\"10\" stroke-linejoin=\"round\"/><circle cx=\"88\" cy=\"292\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"104\" cy=\"296\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"121\" cy=\"290\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"137\" cy=\"295\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"112\" cy=\"281\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><circle cx=\"96\" cy=\"285\" r=\"7\" fill=\"#8d8d8d\" stroke=\"#555\"/><line x1=\"0\" y1=\"175\" x2=\"232\" y2=\"175\" stroke=\"#1f78b4\" stroke-width=\"2.2\" stroke-dasharray=\"7 5\"/><line x1=\"0\" y1=\"255\" x2=\"134\" y2=\"255\" stroke=\"#1f78b4\" stroke-width=\"2.2\"/><text x=\"40\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f8f\" text-anchor=\"middle\">Meer</text><text x=\"560\" y=\"285\" font-size=\"15\" font-weight=\"bold\" fill=\"#6b5535\" text-anchor=\"middle\">Land</text><line x1=\"190\" y1=\"210\" x2=\"176\" y2=\"134\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"165\" y=\"126\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Seeseite</text><line x1=\"438\" y1=\"215\" x2=\"506\" y2=\"157\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"520\" y=\"150\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Landseite</text><line x1=\"350\" y1=\"100\" x2=\"350\" y2=\"71\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"350\" y=\"64\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Deichkrone</text><line x1=\"290\" y1=\"128\" x2=\"243\" y2=\"86\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"222\" y=\"78\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Grasdecke</text><line x1=\"224\" y1=\"215\" x2=\"252\" y2=\"248\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"262\" y=\"262\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Klei</text><line x1=\"380\" y1=\"215\" x2=\"384\" y2=\"250\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"385\" y=\"264\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Sandkern</text><line x1=\"100\" y1=\"288\" x2=\"76\" y2=\"322\" stroke=\"#333\" stroke-width=\"1.4\"/><text x=\"62\" y=\"334\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Deichfuß</text><text x=\"8\" y=\"167\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Sturmflutwasserstand</text><text x=\"8\" y=\"247\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Hochwasser</text></svg>",
+   "bildAlt": "Querschnitt durch einen Deich mit allen beschrifteten Teilen: Seeseite, Landseite, Deichkrone, Grasdecke, Klei, Sandkern, Deichfuß, Sturmflutwasserstand und Hochwasser"
+  },
+  {
+   "titel": "Küstenschutz: Düne und Sieltor",
+   "text": "- **Dünen** baut der Wind aus Sand. Der **Strandhafer** hält ihn mit Wurzeln fest (bis zu **5 m** tief). Wer die Düne betritt, zertritt den Strandhafer: Der Sand weht weg und der Schutz geht verloren. Außerdem brüten dort Vögel.\n- Ein **Siel** ist ein Durchlass im Deich. **Ebbe**: Das Wasser aus der Marsch drückt das Tor auf und fließt ins Meer. **Flut**: Das Meer drückt das Tor zu, kein Salzwasser kommt ins Land.\n- **Schöpfwerke** pumpen das Wasser über den Deich, wenn das nicht reicht.",
+   "merke": "Düne: Wind und Strandhafer bauen sie, Betreten zerstört sie. Sieltor: Ebbe auf, Flut zu."
+  },
+  {
+   "titel": "Tipps für die Arbeit",
+   "text": "- Lies jede Aufgabe **zweimal** und teile deine Zeit ein.\n- Bei 2 oder 3 Punkten wollen die Lehrer meist 2 oder 3 Gedanken sehen.\n- „Nenne“ = kurz aufzählen. „Erkläre“ und „begründe“ = mit **weil**.\n- Beim Rechnen die **Einheit** dazuschreiben, beim Beschriften jede Nummer belegen."
+  },
+  {
+   "titel": "Checkliste für morgen",
+   "text": "**Ich kann:**\n\n- Bundesländer und Städte an Nordsee und Ostsee nennen.\n- eine nordfriesische und zwei ostfriesische Inseln nennen.\n- Nordsee und Ostsee vergleichen.\n- erklären, wie Ebbe und Flut entstehen.\n- den Tidenhub aus Kurve und Tidenkalender berechnen.\n- die Zonen des Watts nennen und erklären, warum das Wattenmeer geschützt wird.\n- die drei Schutzzonen unterscheiden.\n- einen Deich zeichnen und beschriften.\n- erklären, wie Düne und Sieltor schützen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "tf",
+   "abschnitt": "Blitz-Check",
+   "frage": "Schleswig-Holstein hat als einziges Bundesland sowohl Nordsee- als auch Ostseeküste.",
+   "info": "Niedersachsen liegt nur an der Nordsee, Mecklenburg-Vorpommern nur an der Ostsee. Nachlesen: Crashkurs, Abschnitt „Nord- und Ostsee“.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Welche Aussage über die Ostsee stimmt?",
+   "info": "Die Ostsee hat kaum Gezeiten, ist flacher (etwa 52 m) und hat Förden und Bodden. Nachlesen: „Nordsee gegen Ostsee“.",
+   "antworten": [
+    "Sie ist Brackwasser mit nur etwa 1 % Salz.",
+    "Sie hat einen Tidenhub von 3 bis 4 m.",
+    "Sie ist im Durchschnitt tiefer als die Nordsee.",
+    "Sie hat Watt und Deiche."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Blitz-Check",
+   "frage": "Welche Insel gehört wohin?",
+   "info": "Nachlesen: „Inseln“.",
+   "paare": [
+    [
+     "Sylt",
+     "Nordfriesische Insel"
+    ],
+    [
+     "Borkum",
+     "Ostfriesische Insel"
+    ],
+    [
+     "Rügen",
+     "Insel in der Ostsee"
+    ],
+    [
+     "Helgoland",
+     "keine der beiden Gruppen"
+    ]
+   ],
+   "extra": [
+    "Insel im Rhein"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ergänze den Text über die Gezeiten.",
+   "text": "Die {{Anziehungskraft}} des Mondes zieht das Wasser an. Auf der abgewandten Seite der Erde entsteht Flut durch die {{Fliehkraft}}. Darum gibt es am Tag {{zweimal}} Flut. Von einer Flut bis zur nächsten vergehen etwa {{12 Stunden und 25 Minuten}}.",
+   "info": "Nachlesen: „Gezeiten: So entstehen Ebbe und Flut“.",
+   "wortbank": [
+    "Anziehungskraft",
+    "Fliehkraft",
+    "zweimal",
+    "12 Stunden und 25 Minuten",
+    "Reibung",
+    "einmal",
+    "24 Stunden"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Blitz-Check",
+   "frage": "Das erste Hochwasser ist heute um 06:30 Uhr. Wann ist es morgen etwa? (Schreibe die Uhrzeit so: 07:20)",
+   "info": "Jeden Tag etwa 50 Minuten später: 06:30 Uhr + 50 Minuten = 07:20 Uhr. Nachlesen: „Gezeiten: So entstehen Ebbe und Flut“.",
+   "richtig": [
+    "07:20",
+    "7:20"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Blitz-Check",
+   "frage": "Hochwasser: 4,2 m, Niedrigwasser: 0,9 m. Wie groß ist der Tidenhub?",
+   "info": "Tidenhub = Hochwasser − Niedrigwasser = 4,2 m − 0,9 m = 3,3 m. Nachlesen: „Gezeiten: Begriffe, Kurve und Tidenkalender“.",
+   "richtig": [
+    "3,3",
+    "3.3",
+    "3,3 m"
+   ],
+   "einheit": "m"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ordne die Zonen des Watts von der See zum Land.",
+   "info": "Je weiter weg vom Meer, desto seltener steht die Zone unter Wasser. Im Buch heißt die vierte Zone „Düne“. Nachlesen: „Wattenmeer: Lebensraum und Zonen“.",
+   "schritte": [
+    "Meer",
+    "Watt",
+    "Salzwiese",
+    "Deich"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "In welcher Schutzzone des Wattenmeeres gelten die strengsten Regeln?",
+   "info": "Nachlesen: „Wattenmeer: Schutz und Schutzzonen“.",
+   "antworten": [
+    "Zone I, Ruhezone",
+    "Zone II, Zwischenzone",
+    "Zone III, Erholungszone",
+    "In allen Zonen gelten die gleichen Regeln."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Blitz-Check",
+   "frage": "Das Sieltor öffnet sich bei Flut, damit das Meerwasser ins Land fließen kann.",
+   "info": "Bei Flut drückt das Meer das Tor zu. Bei Ebbe öffnet es sich und das Wasser aus der Marsch fließt ab. Nachlesen: „Düne und Sieltor“.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Warum darf man Dünen nicht betreten?",
+   "info": "Außerdem brüten und ruhen in den Dünen Vögel. Nachlesen: „Düne und Sieltor“.",
+   "antworten": [
+    "Man zertritt den Strandhafer, dann weht der Sand weg und der Schutz geht verloren.",
+    "Weil Dünen aus Beton sind.",
+    "Weil dort die Seehunde leben.",
+    "Weil man sich im Sand verlaufen kann."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Blitz-Check",
+   "frage": "Wie hoch waren die Deiche?",
+   "info": "Die Deiche wurden immer höher und breiter. Nachlesen: „Küstenschutz: Der Deich“.",
+   "paare": [
+    [
+     "1599",
+     "etwa 3 m"
+    ],
+    [
+     "1766",
+     "etwa 5,1 m"
+    ],
+    [
+     "heute",
+     "etwa 8,8 m"
+    ]
+   ],
+   "extra": [
+    "etwa 12 m"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ergänze die Sätze über den Deich.",
+   "text": "Die Seeseite des Deichs ist {{flach}}, die Landseite ist {{steiler|steil}}. Oben liegt die {{Deichkrone}}, unten schützen {{Steine}} den Deichfuß. Von innen nach außen besteht der Deich aus {{Sandkern}}, {{Klei}} und {{Grasdecke}}.",
+   "info": "Nachlesen: „Küstenschutz: Der Deich“.",
+   "wortbank": [
+    "flach",
+    "steiler",
+    "Deichkrone",
+    "Steine",
+    "Sandkern",
+    "Klei",
+    "Grasdecke",
+    "Beton",
+    "Sand",
+    "Schilf"
+   ]
+  }
+ ],
+ "probe": false
+}
