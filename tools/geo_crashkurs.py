@@ -180,7 +180,7 @@ def build(pakete=None):
         assert w <= 130, (titel, w)
     # Fakten gegen die Lernblätter der Übungspakete prüfen
     if pakete is not None:
-        quelle = "\n".join(s["text"] + "\n" + (s.get("merke") or "") for p in pakete for s in p["lernblatt"])
+        quelle = "\n".join(s["text"] + "\n" + (s.get("merke") or "") for p in pakete for s in p.get("lernblatt", []))
         fehlen = [f for f in FAKTEN if f not in quelle]
         assert not fehlen, f"Fakten nicht im Lernblatt: {fehlen}"
         # Aufgaben dürfen nicht wörtlich aus den anderen Paketen stammen

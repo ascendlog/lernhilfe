@@ -607,7 +607,7 @@ function renderHome() {
 
 /* ========== Lernblatt ========== */
 function renderLernblatt(id) {
-  const p = getPack(id); if (!p) return go(H());
+  const p = getPack(id); if (!p || !p.lernblatt || !p.lernblatt.length) return go(H());
   $('#crumb').textContent = p.titel;
   $('#app').innerHTML = `<div class="col"><p><button class="link" data-act="home">Zur Übersicht</button></p><h1>${esc(p.titel)}</h1><p class="muted">Lernblatt zum Durchlesen vor dem Üben.</p>` +
     (p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : '') +

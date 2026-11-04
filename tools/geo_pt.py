@@ -128,26 +128,6 @@ def teil_d():
     return out
 
 
-def lernblatt():
-    return [
-        lb("So läuft die Probearbeit",
-           "Das ist eine **eigene Probearbeit**. Dein Lehrer hat keine vorgegeben, deshalb wurde sie nach den 13 Punkten des Wissenschecks selbst zusammengestellt. Die echte Arbeit kann anders aufgebaut sein.\n"
-           "- **Zeit**: etwa 45 Minuten.\n"
-           "- **Punkte**: 48 Punkte in vier Teilen: A Nord- und Ostsee (9), B Gezeiten (15), C Wattenmeer (12), D Küstenschutz (12). Die Punkte stehen über jedem Teil.\n"
-           "- **Hilfsmittel**: keine. Schlage nichts nach, lies das Lernblatt erst danach.\n"
-           "- Die Aufgaben sind neu. Sie stehen nicht in den Übungspaketen.\n"
-           "- Faustregel zur Selbsteinschätzung: Ab etwa 38 Punkten (80 %) sitzt der Stoff gut. Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer.",
-           merke="Erst alles ohne Hilfe lösen, dann vergleichen. Wo Punkte fehlen, geh in das passende Übungspaket zurück."),
-        lb("Was die Arbeitsaufträge verlangen",
-           "- **Nenne**: kurz aufzählen, ganze Sätze sind nicht nötig.\n"
-           "- **Beschrifte** oder **ordne zu**: Wörter oder Nummern richtig eintragen.\n"
-           "- **Lies ab**: Werte aus der Kurve oder dem Tidenkalender nehmen. Bei der Kurve genügt die Uhrzeit auf eine halbe Stunde genau.\n"
-           "- **Berechne**: rechnen und die Einheit schreiben, zum Beispiel Tidenhub = Hochwasser − Niedrigwasser.\n"
-           "- **Erkläre** und **begründe**: einen Zusammenhang mit „weil“ oder „deshalb“ darlegen.",
-           merke="Bei Aufgaben mit 2 oder 3 Punkten wollen die Lehrer meist 2 oder 3 Gedanken sehen."),
-    ]
-
-
 def build():
     A = teil_a() + teil_b() + teil_c() + teil_d()
     summen = {}
@@ -160,9 +140,11 @@ def build():
     for t in A:
         k = t["abschnitt"][:6]
         assert f"({summen[k]} Punkte)" in t["abschnitt"], t["abschnitt"]
+    # Probearbeit: kein Lernblatt und kein Üben, nur proben wie in der Schule.
+    # Was ein Lernblatt hier sagen würde (Zeit, Punkte, Hilfsmittel, Faustregel), steht auf der Karte.
     p = pack("geografie-probearbeit", "Geografie Klasse 6: Probearbeit (Nord- und Ostsee, Gezeiten, Wattenmeer, Küstenschutz)",
-                "Eigene Probearbeit mit 48 Punkten in vier Teilen, etwa 45 Minuten. Alle Aufgaben sind neu. Gut für die Probearbeit-Funktion.",
-                lernblatt(), A,
-                hinweis="Das ist eine eigene Probearbeit, nicht die des Lehrers (es gibt keine). Aufbau, Punkte und Zeit sind selbst festgelegt. Tidenkalender und Wasserstände sind erfunden. Die vierte Zone des Watts heißt im Buch „Düne“, im Arbeitsblatt „Deich“.")
-    p["ueben"] = False   # Probearbeit: nur proben wie in der Schule, kein Übungsmodus
+                "Eigene Probearbeit mit 48 Punkten in vier Teilen (A Nord- und Ostsee 9, B Gezeiten 15, C Wattenmeer 12, D Küstenschutz 12), etwa 45 Minuten, ohne Hilfsmittel. Alle Aufgaben sind neu. Ab etwa 38 Punkten (80 %) sitzt der Stoff gut. Wo Punkte fehlen, geh in das passende Übungspaket zurück.",
+                None, A,
+                hinweis="Das ist eine eigene Probearbeit, nicht die des Lehrers (es gibt keine). Aufbau, Punkte und Zeit sind selbst festgelegt. Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer. Tidenkalender und Wasserstände sind erfunden. Die vierte Zone des Watts heißt im Buch „Düne“, im Arbeitsblatt „Deich“.")
+    p["ueben"] = False   # kein Übungsmodus
     return p

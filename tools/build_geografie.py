@@ -44,7 +44,7 @@ def main():
         with open(os.path.join(ziel(p)[0], datei(p)), 'w', encoding='utf-8') as f:
             json.dump(p, f, ensure_ascii=False, indent=1)
             f.write('\n')
-        print(f"{p['id']:45s} {len(p['aufgaben']):3d} Aufgaben, {len(p['lernblatt'])} Lernblatt-Abschnitte")
+        print(f"{p['id']:45s} {len(p['aufgaben']):3d} Aufgaben, {len(p.get('lernblatt', []))} Lernblatt-Abschnitte")
     for a in ALT:
         pfad = os.path.join(OUT, a)
         if os.path.exists(pfad):

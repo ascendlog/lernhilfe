@@ -139,7 +139,8 @@ def pack(id, titel, beschreibung, lernblatt, aufgaben, hinweis=None, min_aufgabe
          "fach": "Geografie", "klasse": "6", "beschreibung": beschreibung}
     if hinweis:
         p["hinweis"] = hinweis
-    p["lernblatt"] = lernblatt
+    if lernblatt:   # optional: Probearbeit-Pakete haben kein Lernblatt
+        p["lernblatt"] = lernblatt
     p["aufgaben"] = aufgaben
     check_pack(p)
     return p
@@ -176,13 +177,13 @@ def check_pack(p):
             s = t.get(feld, "")
             if isinstance(s, str):
                 assert "**" not in s.replace("**", "", 0) or s.count("**") % 2 == 0, f"{w}: ** ungerade in {feld}"
-    for s in p["lernblatt"]:
+    for s in p.get("lernblatt", []):
         assert s["titel"].strip() and s["text"].strip(), p["id"]
         assert s["text"].count("**") % 2 == 0, f"Lernblatt {s['titel']}: ** ungerade"
         if s.get("merke"):
             assert s["merke"].count("**") % 2 == 0
     # Hinweis zur App: Tabellen und Kursivschrift gibt es nicht
-    for s in p["lernblatt"]:
+    for s in p.get("lernblatt", []):
         assert "|---" not in s["text"], "Tabellen im Lernblatt nicht erlaubt"
 
 

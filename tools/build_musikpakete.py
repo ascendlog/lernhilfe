@@ -408,32 +408,11 @@ TEIL_D = "Teil D – Höraufgabe (7 Punkte)"
 p3 = {
  "typ": "lernpaket", "version": 1, "person": "joel",
  "id": "musik-6-probearbeit-wanderlied-hoeren",
- "ueben": False,   # Probearbeit: nur proben wie in der Schule, kein Übungsmodus
+ "ueben": False,   # Probearbeit: nur proben wie in der Schule, kein Übungsmodus und kein Lernblatt
  "titel": "Musik Klasse 6: Probearbeit (Lied, Chanson, Ausstellung, Hören)",
  "fach": "Musik", "klasse": "6",
  "beschreibung": "Übungsarbeit mit 38 Punkten in vier Teilen: A Lied, B Chanson, C Bilder einer Ausstellung, D Höraufgabe. Gut für die Probearbeit-Funktion (35–40 Minuten).",
  "hinweis": "Teil D braucht zwei Musikausschnitte, die auf einem anderen Gerät laufen (z. B. YouTube oder Spotify). Die Beschreibungen der Stücke beruhen auf allgemein bekannten Merkmalen und wurden nicht angehört, bitte beim Zuhören prüfen. Was im Unterricht notiert wurde (Merkmale des Chansons, Titel der Stücke, Notenbereiche), hat Vorrang.",
- "lernblatt": [
-  {"titel": "Was die Arbeitsaufträge verlangen",
-   "text": "- **Nenne:** kurz aufzählen, ganze Sätze sind nicht nötig. Beispiel: „Viertelnote, halbe Note“.\n- **Kreuze an:** nur markieren. Bei „alle richtigen“ können mehrere stimmen.\n- **Beschreibe:** sagen, wie etwas klingt oder aussieht, mit Fachwörtern. Beispiel: „Die Musik ist langsam, tief und feierlich.“\n- **Erkläre:** einen Zusammenhang mit „weil“ oder „deshalb“ darlegen. Beispiel: „…, weil alle Notenwerte zusammen vier Viertel ergeben.“\n- **Begründe:** Aussage plus Beleg aus der Musik oder dem Notentext. Beispiel: „Die Musik wirkt ruhig, weil sie langsam ist.“\n\nBei 2 Punkten erwartet die Lehrkraft meistens zwei Gedanken oder zwei Teilantworten, bei 1 Punkt einen."},
-  {"titel": "Notenwerte, Pausen und Taktart",
-   "bild": img_notenwerte(mit_pausen=True), "bildAlt": "Noten und Pausen mit ihren Schlägen: ganze 4, halbe 2, Viertel 1, Achtel ½",
-   "text": "- Jede Stufe ist halb so lang wie die vorige: 4 – 2 – 1 – ½ Schläge. Eine Pause zählt so viel wie die Note mit demselben Namen.\n- Die halbe Pause sitzt wie ein Hut **auf** der mittleren Linie, die ganze Pause hängt **unter** der 4. Linie.\n- Bei 4/4 hat jeder Takt vier Viertelschläge. Man zählt Schläge, nicht Zeichen, und Pausen zählen mit.\n- Ein Vorzeichen ändert den Ton, ist aber selbst keine Note. Das Kreuz steht links vor der Note und erhöht sie um einen Halbton: aus g wird gis."},
-  {"titel": "Notennamen",
-   "bild": img_notennamen(), "bildAlt": "Die Noten von c' bis e'' im Violinschlüssel mit ihren Namen",
-   "text": "- Linien von unten: e' – g' – h' – d'' – f''. Dafür hilft ein Merksatz, zum Beispiel „Eine Gute Hexe Denkt Fröhlich“. Denk dir am besten einen eigenen aus oder nimm den aus dem Unterricht.\n- Zwischenräume von unten: f' – a' – c'' – e'' (wie das Wort „face“).\n- Das Hochkomma gehört zum Namen.",
-   "merke": "Immer von unten zählen. Der Schlüssel windet sich um die zweite Linie, das ist das g'."},
-  {"titel": "Das Chanson",
-   "text": "- Das Chanson kommt ursprünglich aus Frankreich und wird meist auf Französisch gesungen.\n- Der Text ist besonders wichtig und soll verstanden werden. Es geht oft um Liebe, Alltag oder Gesellschaft.\n- Meist singt eine einzelne Person, begleitet von wenigen Instrumenten (zum Beispiel Klavier, Akkordeon oder Gitarre).\n- Text und Musik gehören eng zusammen.\n\nFreiwillige Hörtipps zum Vergleichen: Edith Piaf – „La vie en rose“, Charles Aznavour – „La Bohème“, Joe Dassin – „Les Champs-Élysées“. Achte darauf, wie die Stimme im Vordergrund steht und der Text die Hauptrolle spielt.",
-   "merke": "Wörter wie „immer“ und „nur“ machen eine Aussage oft falsch. Prüfe sie trotzdem einzeln."},
-  {"titel": "Bilder einer Ausstellung",
-   "text": "- Komponist: **Modest Mussorgsky**, ein russischer Komponist.\n- Anlass: Er sah eine Ausstellung mit Bildern seines Freundes, des Malers Viktor Hartmann, der kurz zuvor gestorben war.\n- Fast jedes Stück gehört zu einem Bild und zeigt mit Musik, was auf dem Bild zu sehen ist (Tonmalerei).\n- Zwischen den Stücken kommt immer wieder die „Promenade“. Sie zeigt, wie der Besucher von einem Bild zum nächsten geht.\n\n**Vier Stücke und wie sie klingen:**\n- Gnomus (ein kleiner Wicht): ruckartig, mit Sprüngen und Pausen, ein bisschen unheimlich.\n- Ballett der Küchlein in ihren Eierschalen: hohe, schnelle, leichte Töne, die an Piepsen und Hüpfen erinnern.\n- Bydło (ein schwerer Ochsenkarren): schwer, tief und stampfend, wie ein langsamer Karren.\n- Das große Tor von Kiew: feierlich und groß, mit vollem Klang und Glockenschlägen.\n\nDiese Beschreibungen beruhen auf allgemein bekannten Merkmalen und wurden nicht angehört. Die Titel können im Unterricht leicht anders lauten, zum Beispiel „Der Ochsenkarren“ statt „Bydło“."},
-  {"titel": "Die Hörkarte",
-   "text": "So hört man systematisch hin. Bei jeder Höraufgabe gehst du diese Zeilen durch und kommst am Ende bei der Wirkung an.\n\n- **Tempo:** schnell oder langsam, gleichmäßig oder wechselnd? (schnell, langsam, wird schneller)\n- **Tonlage:** hoch oder tief, hell oder dunkel?\n- **Lautstärke:** leise oder laut, wird es lauter oder leiser?\n- **Instrumente:** Streicher, Holz, Blech, Klavier, Stimme? (Flöte, Trompete, Tuba)\n- **Rhythmus:** gleichmäßig, stampfend, hüpfend, ruckartig?\n- **Wirkung:** Was macht die Musik mit mir? (ruhig, bewegt, feierlich, leicht, schwer, fröhlich, unheimlich)\n\n**Zweimal hören:** Beim ersten Hören konzentrierst du dich auf den Gesamteindruck. Beim zweiten Hören bearbeitest du die Aufgaben.\n\n**Zum Vergleichen (ohne Punkte):** Höre nach dem Ballett der Küchlein auch „Bydło“ und fülle die Hörkarte aus. Erwartet wird ungefähr: langsam, tief, ruhig und schwer, gleichmäßig, stampfend. Zwischendurch wird es laut, bleibt aber gleichmäßig und schwer.",
-   "merke": "Jede Zeile einzeln hören. Schnelle Musik ist nicht automatisch hoch, langsame nicht automatisch ruhig."},
-  {"titel": "Begründen mit „weil“",
-   "text": "Ein Dreischritt für „Erkläre“ und „Begründe“:\n\n- 1. Die Aussage nennen.\n- 2. „weil“ sagen.\n- 3. Einen Beleg anfügen: bei Musik etwas, das man hört (Tempo, Tonlage, Instrument, Lautstärke, Rhythmus), bei Noten etwas, das man rechnen kann.\n\nBeispiel: „Die Musik wirkt feierlich, weil sie langsam und tief ist.“ Ein schönes Bild im Kopf (zum Beispiel „ein König auf einem Thron“) darf als Ergänzung dabeistehen, ersetzt aber den Beleg nicht."}
- ],
  "aufgaben": [
   # ---------------- Teil A ----------------
   {"typ": "luecke", "abschnitt": TEIL_A,
@@ -548,7 +527,7 @@ p3 = {
    "frage": "**D2 (2 P)** Beschreibe die Wirkung der Musik (Ausschnitt 1) mit zwei passenden Wörtern. Die Musik wirkt … und …",
    "muster": "Die Musik wirkt leicht und verspielt.",
    "kriterien": ["Zwei Wirkungswörter, zum Beispiel leicht, verspielt, lebhaft, fröhlich, lustig, hüpfend", "Eine Wirkung beschreiben, nicht Zeit oder Ort („mittelalterlich“ ist eher eine Epoche als eine Wirkung)"],
-   "tipp": "Frage dich, wozu die Musik passen würde: tanzen, schlafen, sich fürchten, feiern? Dann wähle zwei Wörter aus der letzten Zeile der Hörkarte.",
+   "tipp": "Frage dich, wozu die Musik passen würde: tanzen, schlafen, sich fürchten, feiern? Dann wähle zwei Wörter, die zur Stimmung passen, zum Beispiel leicht, verspielt, lebhaft, ruhig oder bedrohlich.",
    "info": "D1 fragt nach Merkmalen der Musik (schnell, hoch), D2 nach dem Eindruck, den sie macht."},
   {"typ": "frei", "abschnitt": TEIL_D, "punkte": 2,
    "frage": "**D3 (2 P)** Begründe eine deiner Aussagen mit etwas, das du in der Musik hörst.",
