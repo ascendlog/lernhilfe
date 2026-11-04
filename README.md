@@ -49,7 +49,7 @@ Fehlerhafte Pakete werden nicht importiert. Die App nennt dann die Stelle (z. B.
 
 - **Üben:** Nach jeder Aufgabe gibt es sofort die Auswertung, die richtige Lösung und eine kurze Erklärung. Tipps sind möglich. „Weiß ich nicht“ zeigt die Lösung. Am Ende können die Fehler gezielt wiederholt werden.
 - **Probearbeit:** Wie in der Schule. Man kann zwischen den Aufgaben springen, es gibt keine Tipps und keine Auswertung, bis man abgibt.
-- Standardmäßig bietet jedes Paket beide Wege an. Mit `"probe": false` im Paket entfällt der Knopf „Probearbeit“ (gedacht für Teilpakete, wenn es für die ganze Arbeit eine gemeinsame Probearbeit gibt).
+- Standardmäßig bietet jedes Paket beide Wege an. Mit `"probe": false` im Paket entfällt der Knopf „Probearbeit“ (gedacht für Teilpakete, wenn es für die ganze Arbeit eine gemeinsame Probearbeit gibt). Mit `"ueben": false` entfällt umgekehrt der Knopf „Üben“ (gedacht für das Probearbeit-Paket selbst, das nur zum Proben da ist). Beides zusammen ist nicht erlaubt.
 - Freie Antworten (Sätze, Erklärungen) bewertet das Kind selbst anhand der Musterlösung und einer Checkliste (Passt / Teilweise / Noch nicht).
 - Eine laufende Sitzung bleibt beim Neuladen oder Schließen des Browsers erhalten („Fortsetzen“ auf der Startseite).
 - Auf der Startseite steht je Paket der Verlauf der letzten Ergebnisse in Prozent.
