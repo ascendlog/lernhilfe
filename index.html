@@ -174,7 +174,14 @@ dialog::backdrop{background:rgba(5,8,20,.62);backdrop-filter:blur(3px)}
 .dlg-in textarea{width:100%;min-height:12rem;font:.85rem/1.4 ui-monospace,Consolas,monospace;padding:.6rem;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink)}
 .errs{background:color-mix(in srgb,var(--bad) 14%,var(--surface));border-radius:10px;padding:.5rem .9rem;font-size:.92rem}
 .errs ul{margin:.2rem 0}
-code{background:var(--surface-2);border-radius:6px;padding:.05rem .35rem;font-size:.9em}
+code{background:var(--surface-2);border-radius:6px;padding:.05rem .35rem;font-size:.9em;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+.codewrap{margin:.6rem 0;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--surface-2)}
+.codebar{display:flex;align-items:center;justify-content:space-between;gap:.6rem;padding:.2rem .35rem .2rem .8rem;border-bottom:1px solid var(--line);font-size:.82rem;color:var(--muted)}
+.codebar .codecopy{min-height:0;padding:.25rem .7rem}
+pre.code{margin:0;padding:.7rem .9rem;overflow-x:auto;max-width:100%;font:.88rem/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;tab-size:2;white-space:pre}
+pre.code code{background:none;padding:0;border-radius:0;font:inherit}
+.codewrap.out{background:var(--bg)}
+.codewrap.out pre.code{color:var(--muted)}
 .lib{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.6rem 0;border-bottom:1px solid var(--line)}
 .libhead{display:flex;width:100%;gap:.5rem;align-items:center;background:none;border:0;border-bottom:1px solid var(--line);color:inherit;font:inherit;font-weight:700;text-align:left;padding:.7rem 0;cursor:pointer}
 .libhead .muted{font-weight:400}
@@ -236,16 +243,33 @@ html[data-theme=light] .spark i{background:hsl(var(--sub) 60% 42%)}
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const inl = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+/* Text mit **fett** und `Code`; Zeilenumbruch = <br>. Code-Stellen werden vor dem Fettdruck herausgenommen, damit * und _ darin unberührt bleiben. */
+const inl = s => {
+  const codes = [];
+  const h = esc(s).replace(/`([^`\n]+)`/g, (m, c) => '\u0002' + (codes.push(c) - 1) + '\u0003')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+  return h.replace(/\u0002(\d+)\u0003/g, (m, i) => '<code>' + codes[i] + '</code>');
+};
+/* Codeblock: eine Zeile ```r (mit Kopieren-Knopf) oder ```out (Ausgabe, ohne Knopf), darunter der Code, abschließend eine Zeile ```. */
+const CODE_LABEL = { r: 'R-Code', out: 'Ausgabe in der Konsole', text: 'Text' };
+function codeBlockHtml(lang, code) {
+  const l = (lang || 'r').trim().toLowerCase();
+  const copy = l !== 'out' && l !== 'text';
+  return `<div class="codewrap ${l === 'out' ? 'out' : ''}"><div class="codebar"><span>${esc(CODE_LABEL[l] || lang)}</span>${copy ? '<button type="button" class="btn ghost sm codecopy" data-act="copycode">Kopieren</button>' : ''}</div><pre class="code" tabindex="0"><code>${esc(code)}</code></pre></div>`;
+}
 function rt(s) {
   if (!s) return '';
-  return String(s).split(/\n{2,}/).map(par => {
+  const blocks = [];
+  s = String(s).replace(/(?:^|\n)```([^\n]*)\n([\s\S]*?)\n?```[ \t]*(?=\n|$)/g, (m, lang, code) => '\n\n\u0004' + (blocks.push([lang, code]) - 1) + '\u0005\n\n');
+  return s.split(/\n{2,}/).filter(par => par.trim() !== '').map(par => {
+    const bm = /^\u0004(\d+)\u0005$/.exec(par.trim());
+    if (bm) return codeBlockHtml(blocks[+bm[1]][0], blocks[+bm[1]][1]);
     const lines = par.split('\n');
     if (lines.every(l => /^\s*[-•]\s+/.test(l))) return '<ul>' + lines.map(l => '<li>' + inl(l.replace(/^\s*[-•]\s+/, '')) + '</li>').join('') + '</ul>';
     return '<p>' + inl(par) + '</p>';
   }).join('');
 }
-const plain = s => String(s || '').replace(/\*\*/g, '').replace(/\s+/g, ' ').trim();
+const plain = s => String(s || '').replace(/\*\*/g, '').replace(/`/g, '').replace(/\s+/g, ' ').trim();
 function shuffle(a) { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; }
 let toastTimer;
 function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('on'), 3800); }
@@ -1017,6 +1041,7 @@ document.addEventListener('click', e => {
   const sess = db && db.session;
   switch (act) {
     case 'theme': toggleTheme(); break;
+    case 'copycode': { const c = el.closest('.codewrap'); const txt = c ? c.querySelector('code').textContent : ''; const fallback = () => { const ta = document.createElement('textarea'); ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0'; document.body.appendChild(ta); ta.select(); let ok = false; try { ok = document.execCommand('copy'); } catch (err) { /* nicht möglich */ } ta.remove(); toast(ok ? 'Code kopiert.' : 'Kopieren nicht möglich – Code markieren und kopieren.'); }; if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(txt).then(() => toast('Code kopiert.'), fallback); else fallback(); break; }
     case 'person': if (personById(id)) go('#/' + id); break;
     case 'wechseln': go('#/'); break;
     case 'home': go(cur ? H() : '#/'); break;

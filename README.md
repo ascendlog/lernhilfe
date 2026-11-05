@@ -80,7 +80,7 @@ Pakete, Ergebnisse und die laufende Aufgabe liegen nur im Browser des jeweiligen
 }
 ```
 
-Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`. `person` ist optional (`joel`, `dario`, `saskia` oder eine Liste wie `["joel", "dario"]`): Es sagt, für wen das Paket gedacht ist, und löst beim Import in einen fremden Bereich eine Rückfrage aus. `klasse` ist frei: Eine Zahl wird als „Klasse 6“ angezeigt, anderer Text (z. B. „2. Semester“) unverändert. In Texten gelten `**fett**`, Zeilenumbruch `\n` und Listen mit `- `.
+Pflicht sind `typ`, `id` (Buchstaben, Zahlen, `-`, `_`), `titel` und `aufgaben`. `person` ist optional (`joel`, `dario`, `saskia` oder eine Liste wie `["joel", "dario"]`): Es sagt, für wen das Paket gedacht ist, und löst beim Import in einen fremden Bereich eine Rückfrage aus. `klasse` ist frei: Eine Zahl wird als „Klasse 6“ angezeigt, anderer Text (z. B. „2. Semester“) unverändert. In Texten gelten `**fett**`, Zeilenumbruch `\n` und Listen mit `- `. Für Programmcode gibt es zwei Schreibweisen: Eine Zeichenfolge zwischen einzelnen Backticks wird als **Code im Satz** gesetzt (überall erlaubt, auch in Antworten, `info` und `tipp`; `*` und `_` bleiben darin unverändert). Ein **Codeblock** beginnt und endet mit einer Zeile aus drei Backticks, hinter den ersten drei steht die Art: `r` (R-Code, mit Knopf „Kopieren“), `out` („Ausgabe in der Konsole“, ohne Knopf) oder `text`. Codeblöcke gelten nur in den Textfeldern mit Absätzen (`frage`, `text`, Lernblatt-`text`, `muster`, Lesetext), nicht in `info`, `tipp`, `merke` und Antworten. Innerhalb eines Codeblocks darf kein weiterer Block stehen, und ein einzelnes Backtick im Code im Satz lässt sich nicht schreiben.
 
 ### Felder, die jede Aufgabe haben kann
 
