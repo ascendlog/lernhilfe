@@ -213,6 +213,10 @@ html[data-theme=light] .who{background:hsl(var(--ph) 55% 95%);border-color:hsl(v
 /* Paketkarten */
 .packs{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:1rem}
 .packs .card{margin:0}
+.pgroup{margin-top:2.2rem;padding-top:1.3rem;border-top:1px solid var(--line)}
+.pghead{margin:0 0 1rem}
+.toolbar + .pgroup{margin-top:1.4rem;padding-top:0;border-top:0}
+.pghead .muted{font-weight:400;font-size:.9rem}
 .pack{--sub:220;display:flex;flex-direction:column}
 .pack .row{gap:.5rem}
 .pack .row .btn:not(.sm){padding:.55rem 1rem}
@@ -498,6 +502,7 @@ function validatePack(p) {
   if (p.person !== undefined && !(typeof p.person === 'string' || (Array.isArray(p.person) && p.person.length && p.person.every(x => typeof x === 'string')))) e.push('"person" muss ein Text (z. B. "joel") oder eine Liste von Texten (z. B. ["joel", "dario"]) sein.');
   if (p.probe !== undefined && typeof p.probe !== 'boolean') e.push('"probe" muss true oder false sein.');
   if (p.ueben !== undefined && typeof p.ueben !== 'boolean') e.push('"ueben" muss true oder false sein.');
+  if (p.gruppe !== undefined && (typeof p.gruppe !== 'string' || !p.gruppe.trim() || p.gruppe.length > 80)) e.push('"gruppe" muss ein kurzer Text sein (z. B. "R Studio zum Nachschlagen").');
   if (p.quelle !== undefined && typeof p.quelle !== 'string') e.push('"quelle" muss ein Text sein (z. B. "Lehrbrief Testverfahren I, Kapitel 3").');
   if (p.nachlesen !== undefined) {
     if (!p.nachlesen || typeof p.nachlesen !== 'object' || Array.isArray(p.nachlesen)) e.push('"nachlesen" muss eine Zuordnung Abschnitt → Lernblatt-Abschnitt sein.');
@@ -641,7 +646,10 @@ function renderHome() {
   if (!db.pakete.length) {
     h += '<div class="card"><h2>Noch keine Lernpakete</h2><p>Lass dir in Claude ein Lernpaket erstellen (Aufgaben samt Lösungen als JSON-Datei) und importiere die Datei hier. Du kannst sie auch einfach in dieses Fenster ziehen.</p></div>';
   } else {
-    h += '<div class="packs">' + db.pakete.map(packCard).join('') + '</div>';
+    const frei = db.pakete.filter(p => !p.gruppe), gruppen = [];
+    db.pakete.forEach(p => { if (p.gruppe && !gruppen.includes(p.gruppe)) gruppen.push(p.gruppe); });
+    if (frei.length) h += '<div class="packs">' + frei.map(packCard).join('') + '</div>';
+    gruppen.forEach(g => { const ps = db.pakete.filter(p => p.gruppe === g); h += `<section class="pgroup"><h2 class="pghead">${esc(g)} <span class="muted">(${ps.length} ${ps.length === 1 ? 'Paket' : 'Pakete'})</span></h2><div class="packs">${ps.map(packCard).join('')}</div></section>`; });
     h += '<p class="legend"><strong>Üben:</strong> Nach jeder Aufgabe gibt es sofort die Auswertung, auf Wunsch mit Tipp. <strong>' + w.probe + ':</strong> ' + w.wie + ', ausgewertet wird erst am Ende.</p>';
     const days = db.gesichert ? Math.floor((Date.now() - db.gesichert) / 864e5) : null;
     h += `<p class="legend">${db.gesichert ? 'Letzte Sicherung: ' + fmtDate(db.gesichert) : 'Noch keine Sicherung erstellt.'}${days === null || days > 30 ? ' – <button class="link" data-act="backup">jetzt sichern</button>' : ''}</p>`;
