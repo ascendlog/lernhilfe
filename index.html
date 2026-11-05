@@ -216,7 +216,11 @@ html[data-theme=light] .who{background:hsl(var(--ph) 55% 95%);border-color:hsl(v
 .pgroup{margin-top:2.2rem;padding-top:1.3rem;border-top:1px solid var(--line)}
 .pghead{margin:0 0 1rem}
 .toolbar + .pgroup{margin-top:1.4rem;padding-top:0;border-top:0}
-.pghead .muted{font-weight:400;font-size:.9rem}
+.pgroup.zu .pghead{margin-bottom:0}
+.pgroup + .legend{margin-top:1.4rem}
+.pgbtn{display:flex;width:100%;align-items:baseline;gap:.55rem;background:none;border:0;color:inherit;font:inherit;text-align:left;padding:.15rem 0;cursor:pointer;border-radius:.4rem}
+.pgchev{flex:none;width:1.1em;color:var(--accent-text)}
+.pgbtn .muted{font-weight:400;font-size:.9rem}
 .pack{--sub:220;display:flex;flex-direction:column}
 .pack .row{gap:.5rem}
 .pack .row .btn:not(.sm){padding:.55rem 1rem}
@@ -637,6 +641,12 @@ function statsHtml() {
   const avg = all.length ? Math.round(all.reduce((a, r) => a + pctOf(r), 0) / all.length) + ' %' : '–';
   return `<div class="stats"><div class="stat"><b>${db.pakete.length}</b><span>${db.pakete.length === 1 ? 'Paket' : 'Pakete'}</span></div><div class="stat"><b>${all.length}</b><span>${all.length === 1 ? 'Durchgang' : 'Durchgänge'}</span></div><div class="stat"><b>${avg}</b><span>Ø Ergebnis</span></div></div>`;
 }
+/* Eingeklappte Paket-Gruppen je Person: nur eine Bequemlichkeit, wird im Browser gemerkt (ohne Speicher gilt sie für die Sitzung) */
+const gruppeZu = {};
+function zuSet() {
+  if (!gruppeZu[cur.id]) { let a = []; try { a = JSON.parse(localStorage.getItem('lernhilfe.zu.' + cur.id) || '[]'); } catch (e) { a = []; } gruppeZu[cur.id] = new Set(Array.isArray(a) ? a.filter(x => typeof x === 'string') : []); }
+  return gruppeZu[cur.id];
+}
 function renderHome() {
   $('#crumb').textContent = '';
   const s = db.session, sp = s && getPack(s.id), w = wort();
@@ -649,7 +659,8 @@ function renderHome() {
     const frei = db.pakete.filter(p => !p.gruppe), gruppen = [];
     db.pakete.forEach(p => { if (p.gruppe && !gruppen.includes(p.gruppe)) gruppen.push(p.gruppe); });
     if (frei.length) h += '<div class="packs">' + frei.map(packCard).join('') + '</div>';
-    gruppen.forEach(g => { const ps = db.pakete.filter(p => p.gruppe === g); h += `<section class="pgroup"><h2 class="pghead">${esc(g)} <span class="muted">(${ps.length} ${ps.length === 1 ? 'Paket' : 'Pakete'})</span></h2><div class="packs">${ps.map(packCard).join('')}</div></section>`; });
+    const zu = zuSet();
+    gruppen.forEach(g => { const ps = db.pakete.filter(p => p.gruppe === g), auf = !zu.has(g); h += `<section class="pgroup${auf ? '' : ' zu'}"><h2 class="pghead"><button type="button" class="pgbtn" data-act="grp-toggle" data-g="${esc(g)}" aria-expanded="${auf}"><span class="pgchev" aria-hidden="true">${auf ? '▾' : '▸'}</span><span>${esc(g)} <span class="muted">(${ps.length} ${ps.length === 1 ? 'Paket' : 'Pakete'})</span></span></button></h2>${auf ? `<div class="packs">${ps.map(packCard).join('')}</div>` : ''}</section>`; });
     h += '<p class="legend"><strong>Üben:</strong> Nach jeder Aufgabe gibt es sofort die Auswertung, auf Wunsch mit Tipp. <strong>' + w.probe + ':</strong> ' + w.wie + ', ausgewertet wird erst am Ende.</p>';
     const days = db.gesichert ? Math.floor((Date.now() - db.gesichert) / 864e5) : null;
     h += `<p class="legend">${db.gesichert ? 'Letzte Sicherung: ' + fmtDate(db.gesichert) : 'Noch keine Sicherung erstellt.'}${days === null || days > 30 ? ' – <button class="link" data-act="backup">jetzt sichern</button>' : ''}</p>`;
@@ -1058,6 +1069,7 @@ document.addEventListener('click', e => {
     case 'paste-go': { const v = $('#pasteTa').value.trim(); if (!v) return; closeDialog(); importText(v); break; }
     case 'library': openLibrary(); break;
     case 'lib-add': { const x = libItems[+el.dataset.i]; if (!x || x.errs.length) return; reportImport(importObj(JSON.parse(JSON.stringify(x.p)), x.f, true)); renderLib(); break; }
+    case 'grp-toggle': { const g = el.dataset.g, zu = zuSet(); if (zu.has(g)) zu.delete(g); else zu.add(g); try { localStorage.setItem('lernhilfe.zu.' + cur.id, JSON.stringify([...zu])); } catch (err) { /* gilt dann nur für diese Sitzung */ } renderHome(); const nb = [...document.querySelectorAll('.pgbtn')].find(x => x.dataset.g === g); if (nb) nb.focus(); break; }
     case 'lib-toggle': { const g = el.dataset.g; if (libOffen.has(g)) libOffen.delete(g); else libOffen.add(g); renderLib(); break; }
     case 'dlg-close': closeDialog(); break;
     case 'backup': dialog('<h2>Sicherung für ' + esc(cur.name) + '</h2><p>Enthält alle importierten Lernpakete und die bisherigen Ergebnisse von ' + esc(cur.name) + '. Die Daten liegen sonst nur in diesem Browser.</p><div class="row"><button class="btn" data-act="backup-save">Als Datei speichern</button><button class="btn sec" data-act="backup-copy">Als Text kopieren</button><button class="btn sec" data-act="import">Wiederherstellen (Datei)</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>'); break;
