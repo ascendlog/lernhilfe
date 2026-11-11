@@ -745,7 +745,10 @@ function renderHome() {
   $('#crumb').textContent = '';
   const s = db.session, sp = s && getPack(s.id), w = wort();
   let h = `<div class="hero"><div><h1>Hallo ${esc(cur.name)}!</h1><p class="lead">${cur.art === 'erwachsen' ? 'Übungsaufgaben fürs Studium – am Bildschirm.' : 'Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.'}</p></div>${statsHtml()}</div>`;
-  if (s && sp) h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> läuft noch<div class="muted">${s.modus === 'test' ? w.probe : 'Üben'}, Aufgabe ${s.pos + 1} von ${s.order.length}</div></div><div class="row"><button class="btn" data-act="resume">Fortsetzen</button><button class="btn ghost" data-act="discard">Verwerfen</button></div></div>`;
+  if (s && sp && s.done) {
+    const tt = totals(sp, s), offen = s.order.filter(i => sp.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
+    h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> abgegeben<div class="muted">${s.modus === 'test' ? w.probe : s.teil ? 'Fehler wiederholen' : 'Üben'}, ${+tt.got.toFixed(1)} von ${tt.max} Punkten${offen ? ` · ${offen} ${offen === 1 ? 'freie Aufgabe' : 'freie Aufgaben'} noch ohne Selbstbewertung` : ''}</div></div><div class="row"><button class="btn" data-act="resume">Ergebnis ansehen</button><button class="btn ghost" data-act="finish-home">Schließen</button></div></div>`;
+  } else if (s && sp) h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> läuft noch<div class="muted">${s.modus === 'test' ? w.probe : 'Üben'}, Aufgabe ${s.pos + 1} von ${s.order.length}</div></div><div class="row"><button class="btn" data-act="resume">Fortsetzen</button><button class="btn ghost" data-act="discard">Verwerfen</button></div></div>`;
   const plaene = terminPlaene();
   naechsteIds = new Set(plaene.map(g => g.next && g.next.id).filter(Boolean));
   h += terminHtml(plaene);
@@ -823,7 +826,9 @@ function startTimer() { /* true = die Zeit war schon um, die Arbeit wurde abgege
 }
 function startSession(id, modus, only) {
   const p = getPack(id); if (!p) return;
-  if (db.session && !confirm('Es läuft noch eine andere Sitzung. Verwerfen und neu starten?')) return;
+  const alt = db.session; /* ein noch laufender Durchgang fragt nach; ein abgegebener nur, wenn Selbstbewertungen fehlen */
+  if (alt && !alt.done && !confirm('Es läuft noch eine andere Sitzung. Verwerfen und neu starten?')) return;
+  if (alt && alt.done) { const ap = getPack(alt.id); if (ap && alt.order.some(i => ap.aufgaben[i].typ === 'frei' && alt.self[i] === undefined) && !confirm('Bei der letzten Abgabe fehlen noch Selbstbewertungen der freien Aufgaben. Trotzdem neu starten?')) return; }
   const order = only || p.aufgaben.map((_, i) => i);
   db.session = { id, modus, order, pos: 0, answers: {}, checked: {}, self: {}, touched: {}, shuf: {}, hint: {}, done: false, started: Date.now(), teil: !!only };
   const min = modus === 'test' && !only ? probeMinuten(p) : 0;
