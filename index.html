@@ -159,6 +159,16 @@ input.bad,select.bad,.gap.bad{background:color-mix(in srgb,var(--bad) 16%,var(--
 .ring .trk{stroke:var(--surface-2)}
 .ring .val{stroke:var(--rc,var(--accent));stroke-linecap:round;transition:stroke-dasharray .9s cubic-bezier(.2,.8,.2,1)}
 .ringbox .big{position:absolute;inset:0;display:grid;place-items:center;font:700 2.7rem/1 var(--display);font-variant-numeric:tabular-nums}
+.teile{padding:.4rem 1.35rem}
+.teil{padding:.85rem 0;border-bottom:1px solid var(--line)}
+.teil:last-child{border-bottom:0}
+.teil .th{display:flex;gap:.8rem;align-items:baseline;justify-content:space-between}
+.teil .tn{font-weight:650;min-width:0}
+.teil .tp{color:var(--muted);font-size:.9rem;font-variant-numeric:tabular-nums;white-space:nowrap}
+.teil .bar{height:.55rem;border-radius:99px;background:var(--surface-2);margin:.5rem 0 0;overflow:hidden}
+.teil .bar i{display:block;height:100%;border-radius:99px;background:var(--c,var(--accent))}
+.teil .tf{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-top:.55rem}
+.teil.weak .tn{color:var(--bad)}
 details.rrow{border:1px solid var(--line);border-radius:12px;margin:0 0 .6rem;background:var(--surface)}
 details.rrow summary{cursor:pointer;padding:.6rem .9rem;display:flex;gap:.6rem;align-items:center}
 details.rrow summary>.t{flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -943,6 +953,30 @@ function resultRows(p, s) {
     return `<details class="rrow st-${st}" ${full && r.rated ? '' : 'open'}><summary><span class="badge">${badge}</span><span class="t">${n + 1}. ${esc(title.slice(0, 90))}</span><span class="pts">${+r.got.toFixed(1)}/${r.max}</span></summary><div class="body">${body}</div></details>`;
   }).join('');
 }
+/* Auswertung nach Teilen: Aufgaben mit gleichem "abschnitt" (in der Reihenfolge des ersten Auftretens). Ab zwei Teilen sinnvoll. */
+function teilGruppen(p, s) {
+  const gr = [], byName = new Map();
+  s.order.forEach(i => {
+    const name = (p.aufgaben[i].abschnitt || '').trim() || 'Weitere Aufgaben';
+    let g = byName.get(name);
+    if (!g) { g = { name, got: 0, max: 0, wrong: [], unrated: 0 }; byName.set(name, g); gr.push(g); }
+    const r = taskScore(p, s, i);
+    g.got += r.got; g.max += r.max;
+    if (p.aufgaben[i].typ === 'frei') { if (!r.rated) g.unrated++; } else if (r.got < r.max) g.wrong.push(i);
+  });
+  gr.forEach(g => { g.pct = g.max ? Math.round(100 * g.got / g.max) : 0; });
+  return gr;
+}
+function teileHtml(p, s) {
+  const gr = teilGruppen(p, s);
+  if (gr.length < 2) return '';
+  const low = Math.min(...gr.map(g => g.pct));
+  return `<h2>Nach Teilen</h2><div class="card teile">${gr.map((g, n) => {
+    const weak = low < 75 && g.pct === low && gr.some(x => x.pct !== low);
+    const c = g.pct >= 75 ? 'var(--ok)' : g.pct >= 50 ? 'var(--part)' : 'var(--bad)';
+    return `<div class="teil${weak ? ' weak' : ''}"><div class="th"><span class="tn">${esc(g.name)}</span><span class="tp">${+g.got.toFixed(1)} von ${g.max} · ${g.pct} %</span></div><div class="bar" role="img" aria-label="${g.pct} Prozent"><i style="width:${g.pct}%;--c:${c}"></i></div>${weak || g.wrong.length || g.unrated ? `<div class="tf">${weak ? '<span class="chip">Hier lohnt sich Üben</span>' : ''}${g.unrated ? `<span class="muted">${g.unrated} ${g.unrated === 1 ? 'Aufgabe' : 'Aufgaben'} noch ohne Selbstbewertung</span>` : ''}${g.wrong.length ? `<button class="btn sec sm" data-act="retry-teil" data-g="${n}">Fehler üben (${g.wrong.length})</button>` : ''}</div>` : ''}</div>`;
+  }).join('')}</div>`;
+}
 function renderResult() {
   const { s, p } = curTask(); const tt = totals(p, s);
   $('#crumb').textContent = p.titel;
@@ -950,7 +984,7 @@ function renderResult() {
   const unrated = s.order.filter(i => p.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
   const anim = !s.ringShown; s.ringShown = true; /* der Ring läuft nur beim ersten Anzeigen ein */
   const rc = tt.pct >= 75 ? 'var(--ok)' : tt.pct >= 50 ? 'var(--part)' : 'var(--bad)';
-  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div><p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div><h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
+  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div><p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
   if (anim) requestAnimationFrame(() => requestAnimationFrame(() => { const r = $('#ringval'); if (r) r.setAttribute('stroke-dasharray', tt.pct + ' 100'); }));
   save();
 }
@@ -1116,6 +1150,7 @@ document.addEventListener('click', e => {
     case 'finish': finish(); break;
     case 'self': { const { s, idx } = curTask(); s.self[idx] = parseFloat(el.dataset.v); save(); renderTask(true); break; }
     case 'self-r': { const s = db.session; s.self[+el.dataset.i] = parseFloat(el.dataset.v); saveResult(); const keep = $$('details.rrow').map(d => d.open); const y = window.scrollY; renderResult(); $$('details.rrow').forEach((d, i) => { d.open = keep[i]; }); window.scrollTo(0, y); break; }
+    case 'retry-teil': { const { s, p } = curTask(); const g = teilGruppen(p, s)[+el.dataset.g]; if (!g || !g.wrong.length) return; const sid = s.id; db.session = null; startSession(sid, 'ueben', g.wrong); break; }
     case 'retry-wrong': { const { s, p } = curTask(); const wrong = s.order.filter(i => { const r = taskScore(p, s, i); return r.got < r.max && p.aufgaben[i].typ !== 'frei'; }); db.session = null; startSession(s.id, 'ueben', wrong); break; }
     case 'again': { const { s } = curTask(); const id2 = s.id, m = s.modus; db.session = null; startSession(id2, m); break; }
     case 'finish-home': db.session = null; save(true); go(H()); break;
