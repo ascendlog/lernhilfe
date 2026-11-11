@@ -397,13 +397,33 @@ function normText(s, t) {
   return x.replace(/[.!?,;:]+$/, '').trim();
 }
 function toNum(s) { const x = String(s).trim().replace(',', '.'); return /^-?\d+(\.\d+)?$/.test(x) ? parseFloat(x) : null; }
+/* Nachsicht (Aufgabenfeld "nachsicht": true) für Texteingaben: Artikel und Präpositionen am Anfang, Leerzeichen, Bindestriche und Punkte in Abkürzungen sowie Umlaut-Schreibweise (ae/ä) spielen keine Rolle,
+   und bei Wörtern ab 6 Buchstaben ohne Ziffern wird ein Tippfehler verziehen (ein Buchstabe zu viel, zu wenig, falsch oder zwei Nachbarbuchstaben vertauscht). Zahlen und Jahre müssen stimmen. */
+function nachsichtForm(s) {
+  return normText(s, {}).replace(/ä/g, 'ae').replace(/ö/g, 'oe').replace(/ü/g, 'ue')
+    .replace(/^(?:der|die|das|den|dem|des|ein|eine|einen|einem|einer|im|in|aus|zum|zur|nach|von)\s+/, '')
+    .replace(/(?<=\p{L})\./gu, '').replace(/[\s\-‐–_\/]+/g, '');
+}
+function einTippfehler(a, b) {
+  if (a === b) return true;
+  const la = a.length, lb = b.length; if (Math.abs(la - lb) > 1) return false;
+  let i = 0; while (i < la && i < lb && a[i] === b[i]) i++;
+  if (la === lb) return a.slice(i + 1) === b.slice(i + 1) || (a[i] === b[i + 1] && a[i + 1] === b[i] && a.slice(i + 2) === b.slice(i + 2));
+  return la > lb ? a.slice(i + 1) === b.slice(i) : b.slice(i + 1) === a.slice(i);
+}
 function matches(input, expected, t) {
   const n = normText(input, t); if (!n) return false;
-  return [].concat(expected).some(e => {
+  const exp = [].concat(expected);
+  if (exp.some(e => {
     if (normText(e, t) === n) return true;
     const a = toNum(input), b = toNum(e);
     return a !== null && b !== null && Math.abs(a - b) <= (t.toleranz || 0);
-  });
+  })) return true;
+  if (t.nachsicht && !t.gross) {
+    const x = nachsichtForm(input); if (!x) return false;
+    return exp.some(e => { const y = nachsichtForm(e); return y === x || (y.length >= 6 && !/\d/.test(y) && einTippfehler(x, y)); });
+  }
+  return false;
 }
 function maxPoints(t) {
   switch (t.typ) {

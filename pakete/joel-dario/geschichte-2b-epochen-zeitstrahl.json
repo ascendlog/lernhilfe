@@ -122,7 +122,8 @@
    "richtig": [
     "Mittelalter",
     "das Mittelalter"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -132,7 +133,8 @@
    "richtig": [
     "Neuzeit",
     "die Neuzeit"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -148,7 +150,8 @@
     "Mittelalter",
     "Neuzeit",
     "Eiszeit"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -252,7 +255,8 @@
     "Mittelalter",
     "das Mittelalter",
     "MA"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -267,7 +271,8 @@
     "Ur- und Frühgeschichte",
     "Neuzeit",
     "Eiszeit"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -398,7 +403,8 @@
    "richtig": [
     "Antike",
     "die Antike"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -428,7 +434,8 @@
     "Neuzeit",
     "Altertum",
     "Eiszeit"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -511,7 +518,8 @@
     "-40",
     "−40",
     "40"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -524,7 +532,8 @@
     "90",
     "90 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -566,7 +575,8 @@
     "Christi Geburt",
     "Lautstärke",
     "Mondphase"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -608,7 +618,8 @@
     "8",
     "8 cm"
    ],
-   "einheit": "cm"
+   "einheit": "cm",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -633,7 +644,8 @@
     "65",
     "65 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -649,7 +661,8 @@
     "7,3 cm",
     "7.3 cm"
    ],
-   "einheit": "cm"
+   "einheit": "cm",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -705,7 +718,8 @@
     "3",
     "1",
     "100"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -727,7 +741,8 @@
     "etwa 950",
     "ungefähr 950"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -738,7 +753,8 @@
     "666",
     "666 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -756,7 +772,8 @@
     "ungefähr 778",
     "ungefähr 778 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -795,7 +812,8 @@
     "ungefähr 6.000",
     "ungefähr 6.000 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -946,7 +964,8 @@
     "die Neuzeit",
     "NZ"
    ],
-   "lesen": "Die fünf Epochen"
+   "lesen": "Die fünf Epochen",
+   "nachsicht": true
   }
  ],
  "nachlesen": {

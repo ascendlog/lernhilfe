@@ -28,9 +28,42 @@ def pack(id, titel, beschreibung, lernblatt, aufgaben, hinweis=None, min_aufgabe
     if lernblatt:
         p["lernblatt"] = lernblatt
     p["aufgaben"] = aufgaben
+    for t in aufgaben:
+        if t["typ"] in ("kurz", "luecke"):
+            t["nachsicht"] = True   # App: Artikel, Bindestriche, Leerzeichen egal, ein Tippfehler wird verziehen (Zahlen nicht)
+            _synonyme(t)
     p = _normalisiere(p)
     check_pack(p)
     return p
+
+
+# Gleichwertige Wörter für Antworten, die Kinder oft anders schreiben (Schlüssel kleingeschrieben)
+SYNONYME = {
+    "texte": ["Text", "Textquelle", "Textquellen", "Schriftquelle", "Schriftquellen", "schriftliche Quelle", "schriftliche Quellen"],
+    "sachquellen": ["Sachquelle", "gegenständliche Quelle", "gegenständliche Quellen", "Gegenstände"],
+    "bilder": ["Bild", "Bildquelle", "Bildquellen", "bildliche Quelle", "bildliche Quellen"],
+    "zeitzeugen": ["Zeitzeuge", "Zeitzeugin", "Zeitzeugenberichte"],
+    "tonaufnahmen und filme": ["Tonaufnahmen", "Filme", "Tonaufnahme und Film", "Tonaufnahmen und Film", "Ton und Film"],
+    "quellen": ["Quelle", "historische Quelle", "historische Quellen"],
+}
+
+
+def _mehr(liste):
+    """Liste akzeptierter Antworten um gleichwertige Wörter ergänzen (ohne Doppelte)."""
+    out = list(liste)
+    for a in liste:
+        for z in SYNONYME.get(a.strip().lower(), []):
+            if z.lower() not in (x.lower() for x in out):
+                out.append(z)
+    return out
+
+
+def _synonyme(t):
+    if t["typ"] == "kurz":
+        r = t["richtig"] if isinstance(t["richtig"], list) else [t["richtig"]]
+        t["richtig"] = _mehr([str(x) for x in r])
+    else:
+        t["text"] = re.sub(r"\{\{([^}]*)\}\}", lambda m: "{{" + "|".join(_mehr([x.strip() for x in m.group(1).split("|")])) + "}}", t["text"])
 
 
 _LISTE = re.compile(r"^\s*[-•]\s+")

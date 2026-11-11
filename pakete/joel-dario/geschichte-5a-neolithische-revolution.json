@@ -151,7 +151,8 @@
     "Steppe",
     "die Steppe",
     "Steppenlandschaft"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -167,7 +168,8 @@
     "Norden",
     "kälter",
     "Süden"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -253,7 +255,8 @@
     "Pfeil und Bogen",
     "Bauern",
     "Lanzen"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -297,7 +300,8 @@
     "9 000 v. Chr.",
     "ca. 9 000",
     "ca. 9 000 v. Chr."
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -344,7 +348,8 @@
     "Vorräte",
     "Nomaden",
     "Wanderschaft"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -411,7 +416,8 @@
    "richtig": [
     "Euphrat",
     "der Euphrat"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -438,7 +444,8 @@
     "fruchtbaren Halbmond",
     "Schwarzen Meer",
     "Roten Meer"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -530,7 +537,8 @@
     "5 700 v. Chr.",
     "ca. 5 700",
     "ca. 5 700 v. Chr."
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -664,7 +672,8 @@
     "Federn",
     "Eier"
    ],
-   "lesen": "Haustiere: Domestikation und Züchtung"
+   "lesen": "Haustiere: Domestikation und Züchtung",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -684,7 +693,8 @@
     "der Lein",
     "Flachs"
    ],
-   "lesen": "Nutzpflanzen der ersten Bauern"
+   "lesen": "Nutzpflanzen der ersten Bauern",
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -701,7 +711,8 @@
     "Mammut",
     "Luchs"
    ],
-   "lesen": "Haustiere: Domestikation und Züchtung"
+   "lesen": "Haustiere: Domestikation und Züchtung",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -826,7 +837,8 @@
     "etwa 6 000 Jahre"
    ],
    "einheit": "Jahre",
-   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+   "lesen": "Zeitstrahl und Rechnen mit Jahren",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -898,7 +910,8 @@
     "etwa 11 000 Jahre"
    ],
    "einheit": "Jahre",
-   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+   "lesen": "Zeitstrahl und Rechnen mit Jahren",
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -922,7 +935,8 @@
     "Das Ende der Eiszeit",
     "Sesshaft werden: die neolithische Revolution",
     "Der fruchtbare Halbmond und der Weg nach Europa"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",

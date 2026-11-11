@@ -117,7 +117,8 @@
     "Arbeitsteilung",
     "die Arbeitsteilung"
    ],
-   "lesen": "Leben im Dorf der Jungsteinzeit"
+   "lesen": "Leben im Dorf der Jungsteinzeit",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -152,7 +153,8 @@
     "Höhlen",
     "kleinere"
    ],
-   "lesen": "Leben im Dorf der Jungsteinzeit"
+   "lesen": "Leben im Dorf der Jungsteinzeit",
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -199,7 +201,8 @@
     "aus Stroh",
     "ein Strohdach"
    ],
-   "lesen": "Leben im Dorf der Jungsteinzeit"
+   "lesen": "Leben im Dorf der Jungsteinzeit",
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -261,7 +264,8 @@
     "aus Ton",
     "der Ton"
    ],
-   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -348,7 +352,8 @@
     "ca. 7 000",
     "ca. 7 000 v. Chr."
    ],
-   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen",
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -365,7 +370,8 @@
     "Fell",
     "Faustkeil"
    ],
-   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -379,7 +385,8 @@
     "der Reibstein",
     "Mahlstein und Reibstein"
    ],
-   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen",
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -421,7 +428,8 @@
     "Brandrodung",
     "die Brandrodung"
    ],
-   "lesen": "Folgen der neuen Lebensweise"
+   "lesen": "Folgen der neuen Lebensweise",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -456,7 +464,8 @@
     "Gletscher",
     "Nomaden"
    ],
-   "lesen": "Folgen der neuen Lebensweise"
+   "lesen": "Folgen der neuen Lebensweise",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -583,7 +592,8 @@
     "abhängiger",
     "Nomaden"
    ],
-   "lesen": "Vorteile und Nachteile abwägen"
+   "lesen": "Vorteile und Nachteile abwägen",
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -657,7 +667,8 @@
     "30 Personen"
    ],
    "einheit": "Personen",
-   "lesen": "Die Altsteinzeit in Kürze"
+   "lesen": "Die Altsteinzeit in Kürze",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -823,7 +834,8 @@
     "Nomade",
     "die Nomaden"
    ],
-   "lesen": "Die Altsteinzeit in Kürze"
+   "lesen": "Die Altsteinzeit in Kürze",
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -840,7 +852,8 @@
     "Städten",
     "Mammutfleisch"
    ],
-   "lesen": "Gegensätze und Vergleiche aufschreiben"
+   "lesen": "Gegensätze und Vergleiche aufschreiben",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -996,7 +1009,8 @@
     "Töpfer",
     "Höhlen",
     "Eiszeit"
-   ]
+   ],
+   "nachsicht": true
   }
  ],
  "nachlesen": {

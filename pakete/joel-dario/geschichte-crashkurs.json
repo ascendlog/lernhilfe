@@ -134,7 +134,8 @@
     "200 Jahre"
    ],
    "einheit": "Jahre",
-   "lesen": "Zeit messen und Zeitrechnung"
+   "lesen": "Zeit messen und Zeitrechnung",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -151,7 +152,8 @@
     "14. Jh.",
     "14. Jh"
    ],
-   "lesen": "Zeit messen und Zeitrechnung"
+   "lesen": "Zeit messen und Zeitrechnung",
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -208,7 +210,8 @@
    "lesen": [
     "Steinzeit und Altsteinzeit",
     "Jungsteinzeit und die Unterschiede"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",

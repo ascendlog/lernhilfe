@@ -74,7 +74,8 @@
     "im Jahr 1991",
     "im Herbst 1991",
     "Herbst 1991"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -102,7 +103,8 @@
     "nach den Ötztaler Alpen",
     "Ötztaler",
     "Ötztal"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -119,7 +121,8 @@
     "5000",
     "Hirten",
     "500"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -218,7 +221,8 @@
     "ungefähr 45",
     "ungefähr 45 Jahre",
     "ungefähr 45 Jahre alt"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -336,7 +340,8 @@
     "Ur und Frühgeschichte",
     "Ur- und Frühgeschichte (bis 3000 v. Chr.)",
     "Ur- und Frühgeschichte bis 3000 v. Chr."
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -377,7 +382,8 @@
     "ca. 5 300 Jahre",
     "etwa 5 300",
     "etwa 5 300 Jahre"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -416,7 +422,8 @@
     "Ur- und Frühgeschichte",
     "Altsteinzeit",
     "Eisen"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -492,7 +499,8 @@
    "richtig": [
     "Kupfer",
     "aus Kupfer"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -504,7 +512,8 @@
     "Eibenholz",
     "Eibe",
     "aus Eibenholz"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -528,7 +537,8 @@
     "Kupferbeil",
     "Eisenschwert",
     "Schild"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -586,7 +596,8 @@
     "die linke Schulter",
     "der linken Schulter",
     "in der linken Schulter"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -668,7 +679,8 @@
     "CT",
     "Computertomograf",
     "Computertomograph"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -686,7 +698,8 @@
     "rechten",
     "erfror",
     "Beil"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -731,12 +744,14 @@
     "Sachquellen",
     "Sachquelle",
     "gegenständliche Quellen",
-    "gegenständliche Quelle"
+    "gegenständliche Quelle",
+    "Gegenstände"
    ],
    "lesen": [
     "Kleidung und Ausrüstung",
     "Belegt oder vermutet? Quelle oder Darstellung?"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -774,7 +789,8 @@
     "bewiesen",
     "sicher",
     "bestimmt"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -863,7 +879,8 @@
     "Kühlraum",
     "Innsbruck",
     "Österreich"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",

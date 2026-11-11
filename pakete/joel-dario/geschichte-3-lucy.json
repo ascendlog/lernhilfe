@@ -80,7 +80,8 @@
     "Wiege der Menschheit",
     "die Wiege der Menschheit"
    ],
-   "lesen": "Afrika: Wiege der Menschheit"
+   "lesen": "Afrika: Wiege der Menschheit",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -126,7 +127,8 @@
     "Ostafrika (Äthiopien)",
     "Ostafrika, Äthiopien"
    ],
-   "lesen": "Lucy: der Fund"
+   "lesen": "Lucy: der Fund",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -182,7 +184,8 @@
    "lesen": [
     "Afrika: Wiege der Menschheit",
     "Lucy: der Fund"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -323,7 +326,8 @@
     "vor ca. vier Mio. Jahren"
    ],
    "einheit": "Millionen Jahre",
-   "lesen": "Afrika: Wiege der Menschheit"
+   "lesen": "Afrika: Wiege der Menschheit",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -411,7 +415,8 @@
     "Zähne",
     "Feuer"
    ],
-   "lesen": "Der aufrechte Gang und seine Folgen"
+   "lesen": "Der aufrechte Gang und seine Folgen",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -546,7 +551,8 @@
     "moderne Mensch",
     "Wollnashorn",
     "Mammut"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -650,7 +656,8 @@
     "zusammen",
     "abschreiben",
     "auswendig"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -705,7 +712,8 @@
    "richtig": [
     "Trotzdem",
     "trotzdem"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -715,7 +723,8 @@
    "richtig": [
     "Deshalb",
     "deshalb"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -759,7 +768,8 @@
     "Später",
     "danach",
     "später"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -882,7 +892,8 @@
    "lesen": [
     "Lucy: der Fund",
     "Wie sah Lucy aus?"
-   ]
+   ],
+   "nachsicht": true
   }
  ],
  "nachlesen": {

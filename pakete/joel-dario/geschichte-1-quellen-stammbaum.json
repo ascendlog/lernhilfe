@@ -80,7 +80,7 @@
    "typ": "luecke",
    "abschnitt": "A – Was ist eine Quelle?",
    "frage": "Ergänze den Satz über Quellen.",
-   "text": "Menschen hinterlassen aus ihrer Zeit {{Spuren}}. Solche Spuren heißen {{Quellen}}. Mit ihnen erfährt man etwas über die {{frühere|damalige}} Zeit.",
+   "text": "Menschen hinterlassen aus ihrer Zeit {{Spuren}}. Solche Spuren heißen {{Quellen|Quelle|historische Quelle|historische Quellen}}. Mit ihnen erfährt man etwas über die {{frühere|damalige}} Zeit.",
    "info": "Spuren aus früherer Zeit heißen Quellen.",
    "wortbank": [
     "Spuren",
@@ -88,7 +88,8 @@
     "frühere",
     "Darstellungen",
     "Zukunft"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -132,8 +133,10 @@
     "Quelle",
     "die Quellen",
     "historische Quellen",
-    "geschichtliche Quellen"
-   ]
+    "geschichtliche Quellen",
+    "historische Quelle"
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -219,7 +222,8 @@
     "mündliche",
     "akustische",
     "digitale"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -250,8 +254,15 @@
    "richtig": [
     "Texte",
     "Text",
-    "die Texte"
-   ]
+    "die Texte",
+    "Textquelle",
+    "Textquellen",
+    "Schriftquelle",
+    "Schriftquellen",
+    "schriftliche Quelle",
+    "schriftliche Quellen"
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -379,7 +390,8 @@
     "die mündliche Überlieferung",
     "mündliche Überlieferungen",
     "mündlich überliefert"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -431,7 +443,8 @@
     "ein Archiv",
     "Archive"
    ],
-   "lesen": "Überlieferung und Archive"
+   "lesen": "Überlieferung und Archive",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -447,7 +460,8 @@
     "Privat-Archiv",
     "privates Archiv"
    ],
-   "lesen": "Überlieferung und Archive"
+   "lesen": "Überlieferung und Archive",
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -463,7 +477,8 @@
     "Archiv",
     "Epoche"
    ],
-   "lesen": "Überlieferung und Archive"
+   "lesen": "Überlieferung und Archive",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -605,7 +620,8 @@
     "Geschichtsforscher",
     "Geschichtsforscherin"
    ],
-   "lesen": "Lebenslauf: meine eigene Geschichte"
+   "lesen": "Lebenslauf: meine eigene Geschichte",
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -621,7 +637,8 @@
     "Familiengeschichte",
     "Erdgeschichte"
    ],
-   "lesen": "Von der kleinen zur großen Geschichte"
+   "lesen": "Von der kleinen zur großen Geschichte",
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -710,7 +727,8 @@
     "verheiratet",
     "Lebenslauf",
     "Zeitstrahl"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -734,7 +752,8 @@
     "67 Jahre",
     "67 Jahre alt"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -749,7 +768,8 @@
     "zwei",
     "2 Enkelkinder",
     "zwei Enkelkinder"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -794,7 +814,8 @@
     "Bäcker",
     "der Bäcker",
     "Hans ist Bäcker"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -887,7 +908,7 @@
    "typ": "luecke",
    "abschnitt": "G – Klausurnahe Aufgaben",
    "frage": "Ergänze den Text über die Arbeit von Historikern.",
-   "text": "Historiker beginnen mit einer {{Frage}}. Dann suchen sie {{Quellen}}, meist in {{Archiven|Archiv}}. Diese Quellen müssen sie {{auswerten}}. Was Menschen später mit Hilfe von Quellen schreiben oder zeichnen, ist eine {{Darstellung}}.",
+   "text": "Historiker beginnen mit einer {{Frage}}. Dann suchen sie {{Quellen|Quelle|historische Quelle|historische Quellen}}, meist in {{Archiven|Archiv}}. Diese Quellen müssen sie {{auswerten}}. Was Menschen später mit Hilfe von Quellen schreiben oder zeichnen, ist eine {{Darstellung}}.",
    "info": "Frage, Quellen suchen, auswerten: So gehen Historiker vor.",
    "wortbank": [
     "Frage",
@@ -901,7 +922,8 @@
    "lesen": [
     "Wie Historiker vorgehen",
     "Quelle oder Darstellung?"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "frei",

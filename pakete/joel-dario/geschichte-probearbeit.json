@@ -101,7 +101,8 @@
    "lesen": {
     "paket": "geschichte-1-quellen-stammbaum",
     "titel": "Lebenslauf: meine eigene Geschichte"
-   }
+   },
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -121,7 +122,8 @@
    "lesen": {
     "paket": "geschichte-1-quellen-stammbaum",
     "titel": "Der Stammbaum"
-   }
+   },
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -155,7 +157,8 @@
      "paket": "geschichte-2b-epochen-zeitstrahl",
      "titel": "Einen Zeitstrahl zeichnen und lesen"
     }
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -198,7 +201,8 @@
      "paket": "geschichte-2b-epochen-zeitstrahl",
      "titel": "Die Epoche eines Jahres bestimmen"
     }
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -218,7 +222,8 @@
      "paket": "geschichte-2a-zeitrechnung-kalender",
      "titel": "Jahrhunderte bestimmen"
     }
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -301,7 +306,8 @@
    "lesen": {
     "paket": "geschichte-3-lucy",
     "titel": "Lucy: der Fund"
-   }
+   },
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -387,7 +393,8 @@
    "lesen": {
     "paket": "geschichte-4b-altsteinzeit-jagen-leben",
     "titel": "Waffen und ihre Reichweiten"
-   }
+   },
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -454,7 +461,8 @@
      "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
      "titel": "Beil, Pflug und Rad"
     }
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -541,7 +549,8 @@
    "lesen": {
     "paket": "geschichte-6-oetzi",
     "titel": "Kleidung und Ausrüstung"
-   }
+   },
+   "nachsicht": true
   },
   {
    "typ": "mc",

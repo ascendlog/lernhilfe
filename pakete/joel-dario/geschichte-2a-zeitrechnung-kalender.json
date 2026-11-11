@@ -177,7 +177,8 @@
     "genauer",
     "Kalender",
     "ungenauer"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -202,7 +203,8 @@
     "ungefähr 29.5",
     "ungefähr 29.5 Tage"
    ],
-   "einheit": "Tage"
+   "einheit": "Tage",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -227,7 +229,8 @@
     "177",
     "177 Tage"
    ],
-   "einheit": "Tage"
+   "einheit": "Tage",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -302,7 +305,8 @@
     "366",
     "355",
     "zwei"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -327,7 +331,8 @@
     "vor Christi Geburt",
     "vor Christi",
     "vor Christus Geburt"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -342,7 +347,8 @@
     "n. Chr.",
     "Gründung Roms",
     "vorwärts"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -432,7 +438,8 @@
     "709",
     "709 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -444,7 +451,8 @@
     "150",
     "150 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -483,7 +491,8 @@
     "3.008",
     "3.008 Jahre"
    ],
-   "einheit": "Jahre"
+   "einheit": "Jahre",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -524,7 +533,8 @@
     "zählst",
     "teilst",
     "multiplizierst"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -554,7 +564,8 @@
     "20. Jahrhundert n. Chr.",
     "20. Jh.",
     "20. Jh"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -570,7 +581,8 @@
     "15. Jahrhundert n. Chr.",
     "15. Jh.",
     "15. Jh"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -587,7 +599,8 @@
     "1. Jahrhundert n. Chr.",
     "1. Jh.",
     "1. Jh"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -602,7 +615,8 @@
     "100",
     "1300",
     "1100"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -725,7 +739,8 @@
     "622 nach Christus",
     "622 n. u. Z.",
     "622"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -743,7 +758,8 @@
     "-753",
     "−753",
     "753"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -823,7 +839,8 @@
     "1.375 Jahre"
    ],
    "einheit": "Jahre",
-   "lesen": "Jahre vergleichen und Abstände berechnen"
+   "lesen": "Jahre vergleichen und Abstände berechnen",
+   "nachsicht": true
   },
   {
    "typ": "mc",

@@ -86,7 +86,8 @@
     "Sammlerinnen und Jäger",
     "Zeitalter der Jäger und Sammler",
     "Jäger und Sammler"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -96,7 +97,8 @@
    "richtig": [
     "Frauen",
     "die Frauen"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -120,7 +122,8 @@
     "Ackerbau",
     "Bergbau",
     "Töpferei"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -174,7 +177,8 @@
     "Pfeil und Bogen",
     "Faustkeilen",
     "Sicheln"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -227,7 +231,8 @@
     "der Bumerang",
     "Boomerang",
     "Bumerangs"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -295,7 +300,8 @@
    "richtig": [
     "B",
     "b"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -310,7 +316,8 @@
     "Pfeil und Bogen",
     "Faustkeil",
     "Harpune"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -324,7 +331,8 @@
     "35 Meter",
     "35m"
    ],
-   "einheit": "m"
+   "einheit": "m",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -382,7 +390,8 @@
    "richtig": [
     "Geweih",
     "das Geweih"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -495,7 +504,8 @@
     "Knochen",
     "aus Knochen",
     "den Knochen"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -511,7 +521,8 @@
     "Behälter",
     "Töpfe",
     "Pflüge"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -559,7 +570,8 @@
     "Reusen",
     "Pflügen",
     "Sicheln"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -579,7 +591,8 @@
     "1500000",
     "1.500.000",
     "1 500 000"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -640,7 +653,8 @@
     "Funkenschlag",
     "Regen",
     "Wind"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -650,7 +664,8 @@
    "richtig": [
     "Pyrit",
     "der Pyrit"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -744,7 +759,8 @@
     "25 und 30 Personen",
     "zwischen 25 und 30 Menschen",
     "25 und 30 Menschen"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "luecke",
@@ -759,7 +775,8 @@
     "Beutetieren",
     "Dörfern",
     "Feldern"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "mc",

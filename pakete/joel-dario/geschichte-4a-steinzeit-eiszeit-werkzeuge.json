@@ -86,7 +86,8 @@
     "Glas",
     "Wolle"
    ],
-   "lesen": "Woher der Name Steinzeit kommt"
+   "lesen": "Woher der Name Steinzeit kommt",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -163,7 +164,8 @@
     "die Altsteinzeit",
     "Paläolithikum"
    ],
-   "lesen": "Die Steinzeit in Teile gliedern"
+   "lesen": "Die Steinzeit in Teile gliedern",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -175,7 +177,8 @@
     "die Jungsteinzeit",
     "Neolithikum"
    ],
-   "lesen": "Die Steinzeit in Teile gliedern"
+   "lesen": "Die Steinzeit in Teile gliedern",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -229,7 +232,8 @@
     "Ur- u. Frühgeschichte",
     "die Ur- und Frühgeschichte"
    ],
-   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+   "lesen": "Die Steinzeit auf dem Zeitstrahl",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -246,7 +250,8 @@
     "6 000 Jahre"
    ],
    "einheit": "Jahre",
-   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+   "lesen": "Die Steinzeit auf dem Zeitstrahl",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -300,7 +305,8 @@
     "Altertum",
     "das Altertum"
    ],
-   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+   "lesen": "Die Steinzeit auf dem Zeitstrahl",
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -329,7 +335,8 @@
     "Antike",
     "1000"
    ],
-   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+   "lesen": "Die Steinzeit auf dem Zeitstrahl",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -352,7 +359,8 @@
     "die Würm-Eiszeit",
     "Würm"
    ],
-   "lesen": "Die Eiszeit: Klima und Landschaft"
+   "lesen": "Die Eiszeit: Klima und Landschaft",
+   "nachsicht": true
   },
   {
    "typ": "kurz",
@@ -368,7 +376,8 @@
     "100 000 Jahre"
    ],
    "einheit": "Jahre",
-   "lesen": "Die Eiszeit: Klima und Landschaft"
+   "lesen": "Die Eiszeit: Klima und Landschaft",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -504,7 +513,8 @@
     "Wälder",
     "Wüsten"
    ],
-   "lesen": "Die Eiszeit: Klima und Landschaft"
+   "lesen": "Die Eiszeit: Klima und Landschaft",
+   "nachsicht": true
   },
   {
    "typ": "zuordnen",
@@ -569,7 +579,8 @@
     "der Feuerstein",
     "Flint"
    ],
-   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -668,7 +679,8 @@
     "Pflüge",
     "Webstühle"
    ],
-   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit",
+   "nachsicht": true
   },
   {
    "typ": "mc",
@@ -726,9 +738,11 @@
     "Sachquellen",
     "Sachquelle",
     "gegenständliche Quellen",
-    "gegenständliche Quelle"
+    "gegenständliche Quelle",
+    "Gegenstände"
    ],
-   "lesen": "Quellen der Steinzeit"
+   "lesen": "Quellen der Steinzeit",
+   "nachsicht": true
   },
   {
    "typ": "tf",
@@ -756,7 +770,7 @@
    "typ": "luecke",
    "abschnitt": "E – Herstellen, benutzen und Quellen",
    "frage": "Ergänze den Text über die Quellen der Steinzeit.",
-   "text": "Wir wissen etwas über die Altsteinzeit aus {{Funden}} wie Knochen, Werkzeugen und Höhlenbildern. Solche Hinterlassenschaften nennt man {{Quellen}}. Eine Rekonstruktionszeichnung ist dagegen eine {{Darstellung}}. Knochen, Waffen und Werkzeuge sind greifbare Dinge und zählen zu den {{Sachquellen|Quellen}}.",
+   "text": "Wir wissen etwas über die Altsteinzeit aus {{Funden}} wie Knochen, Werkzeugen und Höhlenbildern. Solche Hinterlassenschaften nennt man {{Quellen|Quelle|historische Quelle|historische Quellen}}. Eine Rekonstruktionszeichnung ist dagegen eine {{Darstellung}}. Knochen, Waffen und Werkzeuge sind greifbare Dinge und zählen zu den {{Sachquellen|Quellen|Sachquelle|gegenständliche Quelle|gegenständliche Quellen|Gegenstände|Quelle|historische Quelle|historische Quellen}}.",
    "info": "Funde sind Quellen. Die Zeichnung, die ein Zeichner später daraus macht, ist eine Darstellung. Greifbare Dinge heißen Sachquellen, sie sind natürlich auch Quellen. Zeitzeugen haben die Zeit selbst erlebt, die gibt es aus der Altsteinzeit nicht mehr.",
    "wortbank": [
     "Funden",
@@ -766,7 +780,8 @@
     "Zeitzeugen",
     "Urkunden"
    ],
-   "lesen": "Quellen der Steinzeit"
+   "lesen": "Quellen der Steinzeit",
+   "nachsicht": true
   },
   {
    "typ": "reihenfolge",
@@ -869,7 +884,8 @@
    "lesen": [
     "Die Steinzeit in Teile gliedern",
     "Die Steinzeit auf dem Zeitstrahl"
-   ]
+   ],
+   "nachsicht": true
   },
   {
    "typ": "frei",
