@@ -163,11 +163,14 @@ input.bad,select.bad,.gap.bad{background:color-mix(in srgb,var(--bad) 16%,var(--
 .termin .tm-head{display:flex;gap:1rem;align-items:center}
 .termin h2{font-size:1.15rem;margin:0 0 .15rem}
 .tm-days{flex:none;min-width:4.2rem;padding:.5rem .6rem;border-radius:12px;background:var(--accent);color:var(--on-accent);text-align:center;line-height:1.1}
+.chip.tm{font-variant-numeric:tabular-nums}
+.chip.tm.low{color:var(--part);border-color:color-mix(in srgb,var(--part) 50%,var(--line))}
+.chip.tm.over{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 50%,var(--line))}
 .tm-days b{display:block;font:700 1.6rem/1.1 var(--display);font-variant-numeric:tabular-nums}
 .tm-days span{font-size:.8rem;font-weight:650}
-.segs{display:flex;gap:4px;margin:.9rem 0 .2rem}
-.segs .seg{flex:1;height:.45rem;border-radius:99px;background:var(--surface-2)}
-.segs .seg.done{background:var(--ok)}
+.tm-segs{display:flex;gap:4px;margin:.9rem 0 .2rem}
+.tm-segs .seg{flex:1;height:.45rem;border-radius:99px;background:var(--surface-2)}
+.tm-segs .seg.done{background:var(--ok)}
 .tm-next{margin:.8rem 0 0}
 .tm-next .row{margin-top:.55rem}
 .tm-lbl{font-size:.85rem;font-weight:700;color:var(--accent-text)}
@@ -258,7 +261,7 @@ html[data-theme=light] .who{background:hsl(var(--ph) 55% 95%);border-color:hsl(v
 html[data-theme=light] .spark i{background:hsl(var(--sub) 60% 42%)}
 .last{font:700 1.9rem/1 var(--display);font-variant-numeric:tabular-nums}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-@media (max-width:600px){html{font-size:16px}.brand .bt,.pill .wl,.crumb{display:none}.top-in{padding:.5rem .8rem}main{padding:1.1rem .9rem 4rem}.pair{grid-template-columns:1fr}.opts.tf{grid-template-columns:1fr}.card{padding:1rem}.task{padding:1.1rem}.stats{gap:1.3rem}.who .ini{font-size:10rem}}
+@media (max-width:600px){html{font-size:16px}.meta{gap:.4rem;font-size:.88rem}.meta .btn.sm{padding-inline:.4rem;margin-left:auto}.meta.hastimer .lbl,.meta.hastimer .chip:not(.tm){display:none}.brand .bt,.pill .wl,.crumb{display:none}.top-in{padding:.5rem .8rem}main{padding:1.1rem .9rem 4rem}.pair{grid-template-columns:1fr}.opts.tf{grid-template-columns:1fr}.card{padding:1rem}.task{padding:1.1rem}.stats{gap:1.3rem}.who .ini{font-size:10rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
@@ -312,12 +315,13 @@ const fmtDate = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', m
 /* ========== Personen ========== */
 /* Wer die App nutzt. Weitere Person: einfach eine Zeile ergänzen (id klein und ohne Leerzeichen).
    Für eine eigene Farbe zusätzlich im CSS oben eine Zeile html[data-p=<id>] ergänzen.
+   probeMinuten = Zeit der Probearbeit/-klausur in Minuten, wenn das Paket kein eigenes "dauer" hat (ohne Angabe: kein Timer).
    ordner = Ordner unter pakete/, aus denen die Person ihre Pakete aus dem Repo bekommt (Standard: der eigene).
    Ein Ordner, der zwei Personen gemeinsam gehört (hier pakete/joel-dario/), taucht bei beiden auf. */
 const PERSONEN = [ /* farbe = Akzent, h = Farbton des „Raums“ (0–360) */
   { id: 'joel', name: 'Joel', art: 'kind', farbe: '#ffc233', h: 228, ordner: ['joel', 'joel-dario'] },
   { id: 'dario', name: 'Dario', art: 'kind', farbe: '#b794ff', h: 268, ordner: ['dario', 'joel-dario'] },
-  { id: 'saskia', name: 'Saskia', art: 'erwachsen', farbe: '#2fd0b9', h: 176 }
+  { id: 'saskia', name: 'Saskia', art: 'erwachsen', farbe: '#2fd0b9', h: 176, probeMinuten: 90 }
 ];
 const ALT_BESITZER = 'joel'; /* ihm gehört der Speicherstand aus der Zeit vor den Profilen (lernhilfe.v1) */
 const personById = id => PERSONEN.find(x => x.id === id);
@@ -559,6 +563,7 @@ function validatePack(p) {
   if (p.ueben !== undefined && typeof p.ueben !== 'boolean') e.push('"ueben" muss true oder false sein.');
   if (p.gruppe !== undefined && (typeof p.gruppe !== 'string' || !p.gruppe.trim() || p.gruppe.length > 80)) e.push('"gruppe" muss ein kurzer Text sein (z. B. "R Studio zum Nachschlagen").');
   if (p.termin !== undefined && !terminDatum(p.termin)) e.push('"termin" muss ein Datum im Format JJJJ-MM-TT sein (z. B. "2026-11-16").');
+  if (p.dauer !== undefined && !(typeof p.dauer === 'number' && p.dauer > 0 && p.dauer <= 600)) e.push('"dauer" muss die Zeit der Probearbeit in Minuten sein (Zahl von 1 bis 600).');
   if (p.reihenfolge !== undefined && !(typeof p.reihenfolge === 'number' && isFinite(p.reihenfolge) && p.reihenfolge > 0)) e.push('"reihenfolge" muss eine Zahl größer 0 sein (1 = zuerst).');
   if (p.quelle !== undefined && typeof p.quelle !== 'string') e.push('"quelle" muss ein Text sein (z. B. "Lehrbrief Testverfahren I, Kapitel 3").');
   if (p.nachlesen !== undefined) {
@@ -646,7 +651,7 @@ const H = sub => '#/' + cur.id + (sub ? '/' + sub : '');
 function go(h) { if (location.hash === h) render(); else location.hash = h; }
 window.addEventListener('hashchange', render);
 function render() {
-  closeDialog();
+  closeDialog(); stopTimer();
   const seg = (location.hash || '#/').replace(/^#\/?/, '').split('/');
   const p = personById(seg[0]);
   window.scrollTo(0, 0);
@@ -661,7 +666,7 @@ function render() {
   document.title = 'Lernhilfe – ' + p.name;
   const s = db.session, r0 = seg[1] || '';
   if (r0 === 'lernblatt' && seg[2]) return renderLernblatt(decodeURIComponent(seg[2]));
-  if (r0 === 'aufgabe') { if (s && !s.done) return renderTask(); if (s && s.done) return go(H('ergebnis')); }
+  if (r0 === 'aufgabe') { if (s && !s.done) { startTimer(); return renderTask(); } if (s && s.done) return go(H('ergebnis')); }
   if (r0 === 'ergebnis' && s && s.done) return renderResult();
   if (r0) history.replaceState(null, '', H());
   renderHome();
@@ -710,7 +715,7 @@ function terminHtml(plaene) {
       const id = esc(nx.id), nurProbe = nx.ueben === false;
       todo = `<div class="tm-next"><div class="tm-lbl">Als Nächstes</div><strong>${esc(nx.titel)}</strong><div class="row">${nx.ueben === false ? '' : `<button class="btn sm" data-act="ueben" data-id="${id}">Üben</button>`}${nx.probe === false ? '' : `<button class="btn sm${nurProbe ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${nx.lernblatt && nx.lernblatt.length ? `<button class="btn sm sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}</div></div>`;
     }
-    return `<section class="card termin" aria-label="${esc(art)} am ${esc(wann)}"><div class="tm-head"><div class="tm-days"><b>${big}</b>${small ? `<span>${small}</span>` : ''}</div><div><h2>${g.fach ? esc(g.fach) + ': ' : ''}${art} am ${esc(wann)}</h2><div class="muted">${g.fertig} von ${n} ${n === 1 ? 'Paket' : 'Paketen'} durch</div></div></div><div class="segs" aria-hidden="true">${segs}</div>${todo}</section>`;
+    return `<section class="card termin" aria-label="${esc(art)} am ${esc(wann)}"><div class="tm-head"><div class="tm-days"><b>${big}</b>${small ? `<span>${small}</span>` : ''}</div><div><h2>${g.fach ? esc(g.fach) + ': ' : ''}${art} am ${esc(wann)}</h2><div class="muted">${g.fertig} von ${n} ${n === 1 ? 'Paket' : 'Paketen'} durch</div></div></div><div class="tm-segs" aria-hidden="true">${segs}</div>${todo}</section>`;
   }).join('');
 }
 function packCard(p) {
@@ -720,7 +725,7 @@ function packCard(p) {
     ? `<div class="trend"><span class="spark" aria-hidden="true">${res.map(r => `<i style="height:${Math.max(14, pctOf(r))}%"></i>`).join('')}</span><span class="last">${pctOf(res[res.length - 1])} %</span><span class="muted">letztes Ergebnis</span><span class="sr">Ergebnisse bisher: ${res.map(r => pctOf(r) + ' %').join(', ')}</span></div>`
     : '<div class="trend"><span class="muted">Noch nicht geübt.</span></div>';
   const nx = naechsteIds.has(p.id);
-  return `<article class="card pack${nx ? ' next' : ''}" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${nx ? '<span class="chip acc">Als Nächstes</span>' : ''}${p.reihenfolge !== undefined && p.termin ? `<span class="chip">Schritt ${esc(String(p.reihenfolge))}</span>` : ''}${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
+  return `<article class="card pack${nx ? ' next' : ''}" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${nx ? '<span class="chip acc">Als Nächstes</span>' : ''}${p.ueben === false && probeMinuten(p) ? `<span class="chip">⏱ ${probeMinuten(p)} Min.</span>` : ''}${p.reihenfolge !== undefined && p.termin ? `<span class="chip">Schritt ${esc(String(p.reihenfolge))}</span>` : ''}${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
 <h2>${esc(p.titel)}</h2></div></div>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : ''}
 ${trend}
 <div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
@@ -792,11 +797,33 @@ function renderLernblatt(id) {
 }
 
 /* ========== Sitzung ========== */
+const probeMinuten = p => (typeof p.dauer === 'number' && p.dauer > 0 ? p.dauer : cur && cur.probeMinuten) || 0;
+let timerId = null, timerLast = 0, timerN = 0;
+function timerText(s) {
+  const rest = s.limit - (s.zeit || 0);
+  if (rest <= 0) { const over = Math.floor(-rest / 60000); return { txt: '⏱ Zeit um' + (over >= 1 ? ' (+' + over + ' Min.)' : ''), cls: 'over' }; }
+  if (rest > 10 * 60000) return { txt: '⏱ noch ' + Math.ceil(rest / 60000) + ' Min.', cls: '' };
+  return { txt: '⏱ ' + Math.floor(rest / 60000) + ':' + String(Math.floor(rest % 60000 / 1000)).padStart(2, '0'), cls: 'low' };
+}
+function timerHtml(s) { if (!s || s.modus !== 'test' || !s.limit) return ''; const t = timerText(s); return `<span class="chip tm ${t.cls}" id="timer" role="timer">${t.txt}</span>`; }
+function stopTimer() { if (timerId) clearInterval(timerId); timerId = null; }
+function tickTimer() {
+  const s = db && db.session, el = $('#timer');
+  if (!s || s.done || !s.limit || !el) { stopTimer(); return; }
+  const now = Date.now(), d = Math.min(now - timerLast, 2500); timerLast = now; /* lange Pausen (Seite im Hintergrund) zählen nicht */
+  const vorher = s.zeit || 0; s.zeit = vorher + d;
+  const t = timerText(s); el.textContent = t.txt; el.className = 'chip tm ' + t.cls;
+  if (vorher < s.limit && s.zeit >= s.limit && !s.zeitHinweis) { s.zeitHinweis = true; toast('Die Zeit ist um. Du kannst weitermachen – in der echten ' + (cur.art === 'erwachsen' ? 'Klausur' : 'Arbeit') + ' wäre jetzt Schluss.'); }
+  if (++timerN % 10 === 0) save();
+}
+function startTimer() { stopTimer(); const s = db && db.session; if (!s || s.done || !s.limit) return; timerLast = Date.now(); timerId = setInterval(tickTimer, 1000); }
 function startSession(id, modus, only) {
   const p = getPack(id); if (!p) return;
   if (db.session && !confirm('Es läuft noch eine andere Sitzung. Verwerfen und neu starten?')) return;
   const order = only || p.aufgaben.map((_, i) => i);
   db.session = { id, modus, order, pos: 0, answers: {}, checked: {}, self: {}, touched: {}, shuf: {}, hint: {}, done: false, started: Date.now(), teil: !!only };
+  const min = modus === 'test' && !only ? probeMinuten(p) : 0;
+  if (min) { db.session.limit = min * 60000; db.session.zeit = 0; } /* Timer: zählt nur die Zeit, in der die Aufgabenansicht offen ist */
   save(true); go(H('aufgabe'));
 }
 function curTask() { const s = db.session, p = getPack(s.id), idx = s.order[s.pos]; return { s, p, idx, t: p.aufgaben[idx] }; }
@@ -927,7 +954,7 @@ function renderTask(focusPrimary) {
     if (s.checked[i]) { const r = taskScore(p, s, i); c += ' ' + (!r.rated ? 'done' : r.got >= r.max ? 'ok' : r.got > 0 ? 'part' : 'bad'); }
     return `<i class="${c.trim()}"></i>`;
   }).join('') + '</div>' : '';
-  let h = `<div class="col">${segs}<div class="meta"><span>Aufgabe ${s.pos + 1} von ${s.order.length}</span><span class="chip">${s.modus === 'test' ? wort().probe : s.teil ? 'Fehler wiederholen' : 'Üben'}</span><span class="sp"></span><button class="btn ghost sm" data-act="quit">Beenden</button></div>`;
+  let h = `<div class="col">${segs}<div class="meta${s.modus === 'test' && s.limit ? ' hastimer' : ''}"><span><span class="lbl">Aufgabe </span>${s.pos + 1} von ${s.order.length}</span><span class="chip">${s.modus === 'test' ? wort().probe : s.teil ? 'Fehler wiederholen' : 'Üben'}</span>${timerHtml(s)}<span class="sp"></span><button class="btn ghost sm" data-act="quit">Beenden</button></div>`;
   if (s.modus === 'test') h += '<div class="jump" role="navigation" aria-label="Aufgaben">' + s.order.map((i, q) => `<button class="dot ${q === s.pos ? 'cur' : isAnswered(p.aufgaben[i], s, i) ? 'done' : ''}" data-act="jump" data-p="${q}" aria-label="Aufgabe ${q + 1}">${q + 1}</button>`).join('') + '</div>';
   h += `<article class="card task">${t.abschnitt ? `<div class="sect">${esc(t.abschnitt)}</div>` : ''}<div class="q">${rt(t.frage)}</div>`;
   if (t.text && t.typ !== 'luecke') h += `<div class="lesetext">${rt(t.text)}</div>`;
@@ -981,6 +1008,7 @@ function saveResult() {
   if (!s.resultT) s.resultT = Date.now();
   const arr = db.ergebnisse[s.id] = db.ergebnisse[s.id] || [];
   const e = { t: s.resultT, modus: s.modus, teil: !!s.teil, got: +tt.got.toFixed(2), max: tt.max };
+  if (s.limit) e.sek = Math.round((s.zeit || 0) / 1000);
   const k = arr.findIndex(x => x.t === s.resultT);
   if (k >= 0) arr[k] = e; else arr.push(e);
   if (arr.length > 40) arr.splice(0, arr.length - 40);
@@ -1047,7 +1075,7 @@ function renderResult() {
   const unrated = s.order.filter(i => p.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
   const anim = !s.ringShown; s.ringShown = true; /* der Ring läuft nur beim ersten Anzeigen ein */
   const rc = tt.pct >= 75 ? 'var(--ok)' : tt.pct >= 50 ? 'var(--part)' : 'var(--bad)';
-  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div><p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
+  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten${s.zeit > s.limit ? ' (überschritten)' : ''}</div>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
   if (anim) requestAnimationFrame(() => requestAnimationFrame(() => { const r = $('#ringval'); if (r) r.setAttribute('stroke-dasharray', tt.pct + ' 100'); }));
   save();
 }

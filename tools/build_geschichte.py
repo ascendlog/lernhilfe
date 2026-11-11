@@ -19,6 +19,7 @@ import gesch_p1, gesch_p2, gesch_p3, gesch_p4, gesch_p5, gesch_p6
 
 THEMA = 'geschichte'
 TERMIN = '2026-11-16'   # Geschichte-Arbeit (Montag)
+DAUER = {'geschichte-probearbeit': 45}   # eigene Probearbeit, etwa 45 Minuten (siehe beschreibung)
 
 
 def datei(p):
@@ -51,6 +52,8 @@ def main():
     for n, p in enumerate(pakete, 1):
         p['termin'] = TERMIN
         p['reihenfolge'] = n
+        if p['id'] in DAUER:
+            p['dauer'] = DAUER[p['id']]   # Timer der Probearbeit in Minuten
     for p in pakete:
         with open(os.path.join(ziel(p)[0], datei(p)), 'w', encoding='utf-8') as f:
             json.dump(p, f, ensure_ascii=False, indent=1)
