@@ -165,7 +165,6 @@ input.bad,select.bad,.gap.bad{background:color-mix(in srgb,var(--bad) 16%,var(--
 .tm-days{flex:none;min-width:4.2rem;padding:.5rem .6rem;border-radius:12px;background:var(--accent);color:var(--on-accent);text-align:center;line-height:1.1}
 .chip.tm{font-variant-numeric:tabular-nums}
 .chip.tm.low{color:var(--part);border-color:color-mix(in srgb,var(--part) 50%,var(--line))}
-.chip.tm.over{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 50%,var(--line))}
 .tm-days b{display:block;font:700 1.6rem/1.1 var(--display);font-variant-numeric:tabular-nums}
 .tm-days span{font-size:.8rem;font-weight:650}
 .tm-segs{display:flex;gap:4px;margin:.9rem 0 .2rem}
@@ -666,7 +665,7 @@ function render() {
   document.title = 'Lernhilfe – ' + p.name;
   const s = db.session, r0 = seg[1] || '';
   if (r0 === 'lernblatt' && seg[2]) return renderLernblatt(decodeURIComponent(seg[2]));
-  if (r0 === 'aufgabe') { if (s && !s.done) { startTimer(); return renderTask(); } if (s && s.done) return go(H('ergebnis')); }
+  if (r0 === 'aufgabe') { if (s && !s.done) { if (startTimer()) return; return renderTask(); } if (s && s.done) return go(H('ergebnis')); }
   if (r0 === 'ergebnis' && s && s.done) return renderResult();
   if (r0) history.replaceState(null, '', H());
   renderHome();
@@ -800,8 +799,7 @@ function renderLernblatt(id) {
 const probeMinuten = p => (typeof p.dauer === 'number' && p.dauer > 0 ? p.dauer : cur && cur.probeMinuten) || 0;
 let timerId = null, timerLast = 0, timerN = 0;
 function timerText(s) {
-  const rest = s.limit - (s.zeit || 0);
-  if (rest <= 0) { const over = Math.floor(-rest / 60000); return { txt: '⏱ Zeit um' + (over >= 1 ? ' (+' + over + ' Min.)' : ''), cls: 'over' }; }
+  const rest = Math.max(0, s.limit - (s.zeit || 0));
   if (rest > 10 * 60000) return { txt: '⏱ noch ' + Math.ceil(rest / 60000) + ' Min.', cls: '' };
   return { txt: '⏱ ' + Math.floor(rest / 60000) + ':' + String(Math.floor(rest % 60000 / 1000)).padStart(2, '0'), cls: 'low' };
 }
@@ -811,12 +809,18 @@ function tickTimer() {
   const s = db && db.session, el = $('#timer');
   if (!s || s.done || !s.limit || !el) { stopTimer(); return; }
   const now = Date.now(), d = Math.min(now - timerLast, 2500); timerLast = now; /* lange Pausen (Seite im Hintergrund) zählen nicht */
-  const vorher = s.zeit || 0; s.zeit = vorher + d;
+  s.zeit = (s.zeit || 0) + d;
   const t = timerText(s); el.textContent = t.txt; el.className = 'chip tm ' + t.cls;
-  if (vorher < s.limit && s.zeit >= s.limit && !s.zeitHinweis) { s.zeitHinweis = true; toast('Die Zeit ist um. Du kannst weitermachen – in der echten ' + (cur.art === 'erwachsen' ? 'Klausur' : 'Arbeit') + ' wäre jetzt Schluss.'); }
+  if (s.zeit >= s.limit) { zeitAbgelaufen(s); return; }
   if (++timerN % 10 === 0) save();
 }
-function startTimer() { stopTimer(); const s = db && db.session; if (!s || s.done || !s.limit) return; timerLast = Date.now(); timerId = setInterval(tickTimer, 1000); }
+/* Zeit um: nicht weitermachen, die Arbeit wird abgegeben und das Ergebnis erscheint */
+function zeitAbgelaufen(s) { stopTimer(); s.zeit = s.limit; s.zeitUm = true; finish(true); }
+function startTimer() { /* true = die Zeit war schon um, die Arbeit wurde abgegeben */
+  stopTimer(); const s = db && db.session; if (!s || s.done || !s.limit) return false;
+  if ((s.zeit || 0) >= s.limit) { zeitAbgelaufen(s); return true; }
+  timerLast = Date.now(); timerId = setInterval(tickTimer, 1000); return false;
+}
 function startSession(id, modus, only) {
   const p = getPack(id); if (!p) return;
   if (db.session && !confirm('Es läuft noch eine andere Sitzung. Verwerfen und neu starten?')) return;
@@ -1014,11 +1018,11 @@ function saveResult() {
   if (arr.length > 40) arr.splice(0, arr.length - 40);
   save(true);
 }
-function finish() {
+function finish(auto) {
   const { s, p } = curTask();
   if (s.modus === 'test') {
     const open = s.order.filter(i => !isAnswered(p.aufgaben[i], s, i)).length;
-    if (open && !confirm('Du hast noch ' + open + (open === 1 ? ' Aufgabe' : ' Aufgaben') + ' ohne Antwort. Trotzdem abgeben?')) return;
+    if (open && auto !== true && !confirm('Du hast noch ' + open + (open === 1 ? ' Aufgabe' : ' Aufgaben') + ' ohne Antwort. Trotzdem abgeben?')) return;
     s.order.forEach(i => { s.checked[i] = true; });
   }
   s.done = true; saveResult(); go(H('ergebnis'));
@@ -1075,7 +1079,7 @@ function renderResult() {
   const unrated = s.order.filter(i => p.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
   const anim = !s.ringShown; s.ringShown = true; /* der Ring läuft nur beim ersten Anzeigen ein */
   const rc = tt.pct >= 75 ? 'var(--ok)' : tt.pct >= 50 ? 'var(--part)' : 'var(--bad)';
-  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten${s.zeit > s.limit ? ' (überschritten)' : ''}</div>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
+  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten</div>` : ''}${s.zeitUm ? `<p class="note">Die Zeit war um, die ${wort().probe} wurde automatisch abgegeben. Aufgaben ohne Antwort zählen als nicht gelöst.</p>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
   if (anim) requestAnimationFrame(() => requestAnimationFrame(() => { const r = $('#ringval'); if (r) r.setAttribute('stroke-dasharray', tt.pct + ' 100'); }));
   save();
 }
