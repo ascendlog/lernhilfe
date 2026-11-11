@@ -44,6 +44,8 @@ main{max-width:1040px;margin:0 auto;padding:1.4rem 1.2rem 4rem;outline:none}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.2rem 1.35rem;margin:0 0 1rem}
 .row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
 .toolbar{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 1.4rem}
+.btn.sec.danger{color:var(--bad)}
+.btn.sec.danger:hover:not(:disabled){border-color:var(--bad)}
 .btn{font:inherit;font-weight:650;border:1.5px solid var(--accent);background:var(--accent);color:var(--on-accent);padding:.62rem 1.15rem;border-radius:10px;cursor:pointer;transition:filter .12s,border-color .12s,background .12s}
 .btn:hover:not(:disabled){filter:brightness(1.08)}
 .btn:active:not(:disabled){transform:translateY(1px)}
@@ -387,14 +389,14 @@ function enterPerson(p) {
   if (cur && cur.id === p.id) return;
   save(true); stopSpeech();
   const { base, migriert } = loadDb(p.id);
-  cur = p; db = base;
+  cur = p; db = base; verwalten = false;
   document.documentElement.dataset.p = p.id;
   if (migriert) toast('Die bisherigen Lernpakete und Ergebnisse sind jetzt bei ' + p.name + '.');
 }
 function leavePerson() {
   if (!cur) return;
   save(true); stopSpeech();
-  cur = null; db = null; delete document.documentElement.dataset.p;
+  cur = null; db = null; verwalten = false; delete document.documentElement.dataset.p;
 }
 function peek(id) { /* für die Startseite: Pakete und letzte Übung einer Person */
   const d = readRaw(keyOf(id)) || (id === ALT_BESITZER ? readRaw(KEY_ALT) : null);
@@ -729,7 +731,7 @@ function packCard(p) {
   return `<article class="card pack${nx ? ' next' : ''}" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${nx ? '<span class="chip acc">Als Nächstes</span>' : ''}${p.ueben === false && probeMinuten(p) ? `<span class="chip">⏱ ${probeMinuten(p)} Min.</span>` : ''}${p.reihenfolge !== undefined && p.termin ? `<span class="chip">Schritt ${esc(String(p.reihenfolge))}</span>` : ''}${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
 <h2>${esc(p.titel)}</h2></div></div>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : ''}
 ${trend}
-<div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
+<div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span>${verwalten ? `<button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button>` : ''}</div></article>`;
 }
 function statsHtml() {
   if (!db.pakete.length) return '';
@@ -737,6 +739,7 @@ function statsHtml() {
   const avg = all.length ? Math.round(all.reduce((a, r) => a + pctOf(r), 0) / all.length) + ' %' : '–';
   return `<div class="stats"><div class="stat"><b>${db.pakete.length}</b><span>${db.pakete.length === 1 ? 'Paket' : 'Pakete'}</span></div><div class="stat"><b>${all.length}</b><span>${all.length === 1 ? 'Durchgang' : 'Durchgänge'}</span></div><div class="stat"><b>${avg}</b><span>Ø Ergebnis</span></div></div>`;
 }
+let verwalten = false; /* Verwaltung (Import, Löschen) ist standardmäßig ausgeblendet, gilt nur für diese Sitzung */
 /* Eingeklappte Paket-Gruppen je Person: nur eine Bequemlichkeit, wird im Browser gemerkt (ohne Speicher gilt sie für die Sitzung) */
 const gruppeZu = {};
 function zuSet() {
@@ -754,7 +757,10 @@ function renderHome() {
   const plaene = terminPlaene();
   naechsteIds = new Set(plaene.map(g => g.next && g.next.id).filter(Boolean));
   h += terminHtml(plaene);
-  h += '<div class="toolbar"><button class="btn" data-act="import">Lernpaket importieren</button><button class="btn sec" data-act="paste">Text einfügen</button><button class="btn sec" data-act="library">Pakete aus dem Repo</button></div>';
+  const offen = verwalten || !db.pakete.length; /* ohne Pakete gibt es nichts anderes zu tun als zu importieren */
+  h += offen
+    ? '<div class="toolbar"><button class="btn" data-act="import">Lernpaket importieren</button><button class="btn sec" data-act="paste">Text einfügen</button><button class="btn sec" data-act="library">Pakete aus dem Repo</button>' + (db.pakete.length ? '<button class="btn sec danger" data-act="del-all">Alle Pakete löschen</button><button class="btn ghost" data-act="verwalten">Fertig</button>' : '') + '</div>'
+    : '<div class="toolbar"><button class="btn ghost sm" data-act="verwalten">Verwalten</button></div>';
   if (!db.pakete.length) {
     h += '<div class="card"><h2>Noch keine Lernpakete</h2><p>Lass dir in Claude ein Lernpaket erstellen (Aufgaben samt Lösungen als JSON-Datei) und importiere die Datei hier. Du kannst sie auch einfach in dieses Fenster ziehen.</p></div>';
   } else {
@@ -1263,6 +1269,12 @@ document.addEventListener('click', e => {
     case 'backup-copy': navigator.clipboard.writeText(JSON.stringify(backupData())).then(() => { db.gesichert = Date.now(); save(true); toast('Sicherung in die Zwischenablage kopiert.'); }, () => toast('Kopieren nicht möglich.')); break;
     case 'lernblatt': go(H('lernblatt/' + encodeURIComponent(id))); break;
     case 'ueben': case 'test': startSession(id, act === 'test' ? 'test' : 'ueben'); break;
+    case 'verwalten': { verwalten = !verwalten; renderHome(); const nb = $('[data-act=verwalten]'); if (nb) nb.focus(); break; }
+    case 'del-all': {
+      const n = db.pakete.length; if (!n) return;
+      if (!confirm((n === 1 ? 'Das Lernpaket' : 'Alle ' + n + ' Lernpakete') + ' von ' + cur.name + ' löschen? Die Ergebnisse bleiben gespeichert, falls die Pakete später wieder importiert werden.' + (db.gesichert ? '' : '\n\nEs gibt noch keine Sicherung.'))) return;
+      db.pakete = []; db.session = null; save(true); render(); toast(n === 1 ? 'Das Lernpaket wurde gelöscht.' : 'Alle ' + n + ' Lernpakete wurden gelöscht.'); break;
+    }
     case 'del': { const p = getPack(id); if (p && confirm('„' + p.titel + '“ löschen? Die Ergebnisse bleiben gespeichert, falls du das Paket später wieder importierst.')) { db.pakete = db.pakete.filter(x => x.id !== id); if (sess && sess.id === id) db.session = null; save(true); render(); } break; }
     case 'resume': go(H('aufgabe')); break;
     case 'discard': if (confirm('Die laufende Sitzung verwerfen?')) { db.session = null; save(true); render(); } break;
