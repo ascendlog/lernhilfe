@@ -163,6 +163,8 @@ input.bad,select.bad,.gap.bad{background:color-mix(in srgb,var(--bad) 16%,var(--
 .termin .tm-head{display:flex;gap:1rem;align-items:center}
 .termin h2{font-size:1.15rem;margin:0 0 .15rem}
 .tm-days{flex:none;min-width:4.2rem;padding:.5rem .6rem;border-radius:12px;background:var(--accent);color:var(--on-accent);text-align:center;line-height:1.1}
+.keys{margin:.9rem 0 0;font-size:.85rem;color:var(--muted)}
+@media (hover:none),(pointer:coarse){.keys{display:none}}
 .chip.tm{font-variant-numeric:tabular-nums}
 .chip.tm.low{color:var(--part);border-color:color-mix(in srgb,var(--part) 50%,var(--line))}
 .tm-days b{display:block;font:700 1.6rem/1.1 var(--display);font-variant-numeric:tabular-nums}
@@ -952,6 +954,36 @@ function navHtml(t, idx, s) {
   const blocked = t.typ === 'frei' && s.self[idx] === undefined;
   return `<div class="nav"><button class="btn" id="primary" data-act="${last ? 'finish' : 'next'}" ${blocked ? 'disabled' : ''}>${last ? 'Ergebnis ansehen' : 'Weiter'}</button>${blocked ? '<span class="muted">Bewerte zuerst deine Antwort.</span>' : ''}</div>`;
 }
+/* Tastatur (Laptop): A–D bzw. 1–4 wählen eine Antwort, bei Richtig/Falsch R und F (oder 1 und 2), Enter drückt den Hauptknopf (Prüfen, Weiter, Abgeben),
+   in der Probearbeit geht Umschalt+Enter einen Schritt zurück. Der Hinweis erscheint nicht auf Touch-Geräten. */
+function keysHtml(t, s, checked) {
+  if ((t.typ !== 'mc' && t.typ !== 'tf') || (s.modus === 'ueben' && checked)) return '';
+  const wahl = t.typ === 'tf' ? 'R = Richtig, F = Falsch' : 'A–' + String.fromCharCode(64 + t.antworten.length) + ' wählen';
+  const last = s.pos === s.order.length - 1;
+  const enter = s.modus === 'test' ? (last ? 'Abgeben' : 'Weiter') + ', Umschalt+Enter = Zurück' : 'Prüfen';
+  return `<p class="keys" aria-hidden="true">Tastatur: ${wahl} · Enter = ${enter}</p>`;
+}
+function aufgabeTaste(e) {
+  if (e.ctrlKey || e.metaKey || e.altKey) return;
+  const s = db && db.session;
+  if (!s || s.done || !/\/aufgabe$/.test(location.hash) || !$('.task') || $('#dlg').open) return;
+  const el = e.target, tag = el.tagName;
+  if (tag === 'TEXTAREA' || tag === 'SELECT' || el.isContentEditable || (tag === 'INPUT' && !/^(radio|checkbox)$/.test(el.type))) return; /* beim Tippen nichts abfangen */
+  if (e.key === 'Enter') {
+    if (tag === 'BUTTON' || tag === 'A' || tag === 'SUMMARY') return; /* der fokussierte Knopf reagiert selbst */
+    const b = e.shiftKey && s.modus === 'test' ? $('[data-act=prev]') : $('#primary');
+    if (b && !b.disabled) { e.preventDefault(); b.click(); }
+    return;
+  }
+  if (e.shiftKey || e.key.length !== 1) return;
+  const { t } = curTask(), k = e.key.toLowerCase();
+  const felder = $$('#ans input[data-k=mc]:not(:disabled), #ans input[data-k=tf]:not(:disabled)');
+  let i = -1;
+  if (t.typ === 'tf') i = k === 'r' || k === '1' ? 0 : k === 'f' || k === '2' ? 1 : -1;
+  else if (t.typ === 'mc') i = /^[1-9]$/.test(k) ? +k - 1 : /^[a-z]$/.test(k) ? k.charCodeAt(0) - 97 : -1;
+  if (i < 0 || i >= felder.length) return;
+  e.preventDefault(); felder[i].click(); felder[i].focus({ preventScroll: true });
+}
 function renderTask(focusPrimary) {
   actGap = null;
   const { s, p, idx, t } = curTask();
@@ -972,7 +1004,7 @@ function renderTask(focusPrimary) {
   h += `<div id="ans">${answerHtml(t, idx, s, locked)}</div>`;
   if (s.modus === 'ueben' && t.tipp && !locked) h += s.hint[idx] ? `<div class="fb neutral">💡 ${inl(t.tipp)}</div>` : '<p><button type="button" class="btn ghost sm" data-act="hint">💡 Tipp anzeigen</button></p>';
   h += locked ? feedbackHtml(t, idx, s, p) : '';
-  h += navHtml(t, idx, s) + '</article></div>';
+  h += navHtml(t, idx, s) + keysHtml(t, s, checked) + '</article></div>';
   $('#app').innerHTML = h;
   if (focusPrimary) { const b = $('#primary'); if (b && !b.disabled) b.focus(); }
   else if (!locked) { const f = $('#ans input[type=text], #ans textarea'); if (f) f.focus(); }
@@ -1260,10 +1292,13 @@ window.addEventListener('pagehide', () => save(true));
 document.addEventListener('input', onInput);
 document.addEventListener('change', onInput);
 document.addEventListener('keydown', e => {
-  if (e.key !== 'Enter' || e.isComposing) return;
+  if (e.isComposing) return;
   const el = e.target;
-  if (el.tagName === 'INPUT' && el.type === 'text' && el.closest('.task')) { const b = $('#primary'); if (b && !b.disabled) { e.preventDefault(); b.click(); } }
-  if (el.tagName === 'TEXTAREA' && (e.ctrlKey || e.metaKey) && el.closest('.task')) { const b = $('#primary'); if (b && !b.disabled) { e.preventDefault(); b.click(); } }
+  if (e.key === 'Enter') {
+    if (el.tagName === 'INPUT' && el.type === 'text' && el.closest('.task')) { const b = $('#primary'); if (b && !b.disabled) { e.preventDefault(); b.click(); } }
+    if (el.tagName === 'TEXTAREA' && (e.ctrlKey || e.metaKey) && el.closest('.task')) { const b = $('#primary'); if (b && !b.disabled) { e.preventDefault(); b.click(); } }
+  }
+  aufgabeTaste(e);
 });
 $('#file').addEventListener('change', e => { const f = Array.from(e.target.files); e.target.value = ''; closeDialog(); if (f.length) importFiles(f); });
 $('#dlg').addEventListener('click', e => { if (e.target === $('#dlg')) closeDialog(); });
