@@ -159,6 +159,20 @@ input.bad,select.bad,.gap.bad{background:color-mix(in srgb,var(--bad) 16%,var(--
 .ring .trk{stroke:var(--surface-2)}
 .ring .val{stroke:var(--rc,var(--accent));stroke-linecap:round;transition:stroke-dasharray .9s cubic-bezier(.2,.8,.2,1)}
 .ringbox .big{position:absolute;inset:0;display:grid;place-items:center;font:700 2.7rem/1 var(--display);font-variant-numeric:tabular-nums}
+.termin{border-color:color-mix(in srgb,var(--accent) 45%,var(--line))}
+.termin .tm-head{display:flex;gap:1rem;align-items:center}
+.termin h2{font-size:1.15rem;margin:0 0 .15rem}
+.tm-days{flex:none;min-width:4.2rem;padding:.5rem .6rem;border-radius:12px;background:var(--accent);color:var(--on-accent);text-align:center;line-height:1.1}
+.tm-days b{display:block;font:700 1.6rem/1.1 var(--display);font-variant-numeric:tabular-nums}
+.tm-days span{font-size:.8rem;font-weight:650}
+.segs{display:flex;gap:4px;margin:.9rem 0 .2rem}
+.segs .seg{flex:1;height:.45rem;border-radius:99px;background:var(--surface-2)}
+.segs .seg.done{background:var(--ok)}
+.tm-next{margin:.8rem 0 0}
+.tm-next .row{margin-top:.55rem}
+.tm-lbl{font-size:.85rem;font-weight:700;color:var(--accent-text)}
+.chip.acc{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.pack.next{border-color:var(--accent)}
 .teile{padding:.4rem 1.35rem}
 .teil{padding:.85rem 0;border-bottom:1px solid var(--line)}
 .teil:last-child{border-bottom:0}
@@ -527,6 +541,13 @@ function lesenErrs(r, p, w, e) { /* Verweise auf Lernblatt-Abschnitte prüfen (A
     else if (!x || typeof x.paket !== 'string' || typeof x.titel !== 'string') e.push(w + 'Ein Verweis ist ein Abschnittstitel oder {"paket": "...", "titel": "..."}.');
   });
 }
+/* Termin der Arbeit/Klausur: "JJJJ-MM-TT" → Datum (lokal, 0 Uhr) oder null, wenn kein gültiger Kalendertag */
+function terminDatum(s) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(s || '')); if (!m) return null;
+  const d = new Date(+m[1], +m[2] - 1, +m[3]);
+  return d.getFullYear() === +m[1] && d.getMonth() === +m[2] - 1 && d.getDate() === +m[3] ? d : null;
+}
+const tageBis = d => { const h = new Date(); return Math.round((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(h.getFullYear(), h.getMonth(), h.getDate())) / 864e5); };
 function validatePack(p) {
   const e = [];
   if (!p || typeof p !== 'object' || Array.isArray(p)) return ['Kein Lernpaket (ein Objekt mit "typ": "lernpaket" wird erwartet).'];
@@ -537,6 +558,8 @@ function validatePack(p) {
   if (p.probe !== undefined && typeof p.probe !== 'boolean') e.push('"probe" muss true oder false sein.');
   if (p.ueben !== undefined && typeof p.ueben !== 'boolean') e.push('"ueben" muss true oder false sein.');
   if (p.gruppe !== undefined && (typeof p.gruppe !== 'string' || !p.gruppe.trim() || p.gruppe.length > 80)) e.push('"gruppe" muss ein kurzer Text sein (z. B. "R Studio zum Nachschlagen").');
+  if (p.termin !== undefined && !terminDatum(p.termin)) e.push('"termin" muss ein Datum im Format JJJJ-MM-TT sein (z. B. "2026-11-16").');
+  if (p.reihenfolge !== undefined && !(typeof p.reihenfolge === 'number' && isFinite(p.reihenfolge) && p.reihenfolge > 0)) e.push('"reihenfolge" muss eine Zahl größer 0 sein (1 = zuerst).');
   if (p.quelle !== undefined && typeof p.quelle !== 'string') e.push('"quelle" muss ein Text sein (z. B. "Lehrbrief Testverfahren I, Kapitel 3").');
   if (p.nachlesen !== undefined) {
     if (!p.nachlesen || typeof p.nachlesen !== 'object' || Array.isArray(p.nachlesen)) e.push('"nachlesen" muss eine Zuordnung Abschnitt → Lernblatt-Abschnitt sein.');
@@ -654,13 +677,50 @@ function renderChooser() {
   }).join('') + '</div>';
 }
 function pctOf(r) { return Math.round(100 * r.got / r.max); }
+/* Termine: Pakete mit gleichem Fach und gleichem "termin" bilden einen Plan. Nach dem Termintag verschwindet er von der Startseite. */
+const hatErgebnis = p => (db.ergebnisse[p.id] || []).some(r => !r.teil && r.max);
+const nachReihenfolge = (a, b) => (a.reihenfolge ?? 1e9) - (b.reihenfolge ?? 1e9);
+function terminPlaene() {
+  const m = new Map();
+  db.pakete.forEach(p => {
+    const d = p.termin && terminDatum(p.termin); if (!d) return;
+    const tage = tageBis(d); if (tage < 0) return;
+    const k = (p.fach || '') + '|' + p.termin;
+    if (!m.has(k)) m.set(k, { fach: p.fach || '', datum: d, tage, pakete: [] });
+    m.get(k).pakete.push(p);
+  });
+  return [...m.values()].sort((a, b) => a.tage - b.tage).slice(0, 3).map(g => {
+    g.pakete.sort(nachReihenfolge);
+    g.fertig = g.pakete.filter(hatErgebnis).length;
+    g.next = g.pakete.find(p => !hatErgebnis(p)) || null;
+    return g;
+  });
+}
+let naechsteIds = new Set();
+function terminHtml(plaene) {
+  const art = cur && cur.art === 'erwachsen' ? 'Klausur' : 'Arbeit';
+  return plaene.map(g => {
+    const wann = g.datum.toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'numeric' });
+    const big = g.tage === 0 ? 'Heute' : g.tage === 1 ? 'Morgen' : g.tage, small = g.tage > 1 ? 'Tage' : '';
+    const n = g.pakete.length, nx = g.next;
+    const segs = g.pakete.map(p => `<span class="seg${hatErgebnis(p) ? ' done' : ''}" title="${esc(p.titel)}"></span>`).join('');
+    let todo;
+    if (!nx) todo = '<p class="tm-next">Alle Pakete sind einmal durch. Wiederhole, was noch nicht sitzt – die Ergebnisse zeigen dir, welche Teile es sind.</p>';
+    else {
+      const id = esc(nx.id), nurProbe = nx.ueben === false;
+      todo = `<div class="tm-next"><div class="tm-lbl">Als Nächstes</div><strong>${esc(nx.titel)}</strong><div class="row">${nx.ueben === false ? '' : `<button class="btn sm" data-act="ueben" data-id="${id}">Üben</button>`}${nx.probe === false ? '' : `<button class="btn sm${nurProbe ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${nx.lernblatt && nx.lernblatt.length ? `<button class="btn sm sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}</div></div>`;
+    }
+    return `<section class="card termin" aria-label="${esc(art)} am ${esc(wann)}"><div class="tm-head"><div class="tm-days"><b>${big}</b>${small ? `<span>${small}</span>` : ''}</div><div><h2>${g.fach ? esc(g.fach) + ': ' : ''}${art} am ${esc(wann)}</h2><div class="muted">${g.fertig} von ${n} ${n === 1 ? 'Paket' : 'Paketen'} durch</div></div></div><div class="segs" aria-hidden="true">${segs}</div>${todo}</section>`;
+  }).join('');
+}
 function packCard(p) {
-  const res = (db.ergebnisse[p.id] || []).filter(r => !r.teil && r.max).slice(-6);
+  const res =(db.ergebnisse[p.id] || []).filter(r => !r.teil && r.max).slice(-6);
   const st = fachStil(p.fach), id = esc(p.id);
   const trend = res.length
     ? `<div class="trend"><span class="spark" aria-hidden="true">${res.map(r => `<i style="height:${Math.max(14, pctOf(r))}%"></i>`).join('')}</span><span class="last">${pctOf(res[res.length - 1])} %</span><span class="muted">letztes Ergebnis</span><span class="sr">Ergebnisse bisher: ${res.map(r => pctOf(r) + ' %').join(', ')}</span></div>`
     : '<div class="trend"><span class="muted">Noch nicht geübt.</span></div>';
-  return `<article class="card pack" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
+  const nx = naechsteIds.has(p.id);
+  return `<article class="card pack${nx ? ' next' : ''}" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${nx ? '<span class="chip acc">Als Nächstes</span>' : ''}${p.reihenfolge !== undefined && p.termin ? `<span class="chip">Schritt ${esc(String(p.reihenfolge))}</span>` : ''}${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
 <h2>${esc(p.titel)}</h2></div></div>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : ''}
 ${trend}
 <div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span><button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button></div></article>`;
@@ -682,15 +742,18 @@ function renderHome() {
   const s = db.session, sp = s && getPack(s.id), w = wort();
   let h = `<div class="hero"><div><h1>Hallo ${esc(cur.name)}!</h1><p class="lead">${cur.art === 'erwachsen' ? 'Übungsaufgaben fürs Studium – am Bildschirm.' : 'Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.'}</p></div>${statsHtml()}</div>`;
   if (s && sp) h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> läuft noch<div class="muted">${s.modus === 'test' ? w.probe : 'Üben'}, Aufgabe ${s.pos + 1} von ${s.order.length}</div></div><div class="row"><button class="btn" data-act="resume">Fortsetzen</button><button class="btn ghost" data-act="discard">Verwerfen</button></div></div>`;
+  const plaene = terminPlaene();
+  naechsteIds = new Set(plaene.map(g => g.next && g.next.id).filter(Boolean));
+  h += terminHtml(plaene);
   h += '<div class="toolbar"><button class="btn" data-act="import">Lernpaket importieren</button><button class="btn sec" data-act="paste">Text einfügen</button><button class="btn sec" data-act="library">Pakete aus dem Repo</button></div>';
   if (!db.pakete.length) {
     h += '<div class="card"><h2>Noch keine Lernpakete</h2><p>Lass dir in Claude ein Lernpaket erstellen (Aufgaben samt Lösungen als JSON-Datei) und importiere die Datei hier. Du kannst sie auch einfach in dieses Fenster ziehen.</p></div>';
   } else {
-    const frei = db.pakete.filter(p => !p.gruppe), gruppen = [];
+    const frei = db.pakete.filter(p => !p.gruppe).sort(nachReihenfolge), gruppen = [];
     db.pakete.forEach(p => { if (p.gruppe && !gruppen.includes(p.gruppe)) gruppen.push(p.gruppe); });
     if (frei.length) h += '<div class="packs">' + frei.map(packCard).join('') + '</div>';
     const zu = zuSet();
-    gruppen.forEach(g => { const ps = db.pakete.filter(p => p.gruppe === g), auf = !zu.has(g); h += `<section class="pgroup${auf ? '' : ' zu'}"><h2 class="pghead"><button type="button" class="pgbtn" data-act="grp-toggle" data-g="${esc(g)}" aria-expanded="${auf}"><span class="pgchev" aria-hidden="true">${auf ? '▾' : '▸'}</span><span>${esc(g)} <span class="muted">(${ps.length} ${ps.length === 1 ? 'Paket' : 'Pakete'})</span></span></button></h2>${auf ? `<div class="packs">${ps.map(packCard).join('')}</div>` : ''}</section>`; });
+    gruppen.forEach(g => { const ps = db.pakete.filter(p => p.gruppe === g).sort(nachReihenfolge), auf = !zu.has(g); h += `<section class="pgroup${auf ? '' : ' zu'}"><h2 class="pghead"><button type="button" class="pgbtn" data-act="grp-toggle" data-g="${esc(g)}" aria-expanded="${auf}"><span class="pgchev" aria-hidden="true">${auf ? '▾' : '▸'}</span><span>${esc(g)} <span class="muted">(${ps.length} ${ps.length === 1 ? 'Paket' : 'Pakete'})</span></span></button></h2>${auf ? `<div class="packs">${ps.map(packCard).join('')}</div>` : ''}</section>`; });
     h += '<p class="legend"><strong>Üben:</strong> Nach jeder Aufgabe gibt es sofort die Auswertung, auf Wunsch mit Tipp. <strong>' + w.probe + ':</strong> ' + w.wie + ', ausgewertet wird erst am Ende.</p>';
     const days = db.gesichert ? Math.floor((Date.now() - db.gesichert) / 864e5) : null;
     h += `<p class="legend">${db.gesichert ? 'Letzte Sicherung: ' + fmtDate(db.gesichert) : 'Noch keine Sicherung erstellt.'}${days === null || days > 30 ? ' – <button class="link" data-act="backup">jetzt sichern</button>' : ''}</p>`;

@@ -994,5 +994,7 @@
    "Abstände zwischen Ereignissen berechnen"
   ]
  },
- "probe": false
+ "probe": false,
+ "termin": "2026-11-16",
+ "reihenfolge": 3
 }

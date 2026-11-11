@@ -997,5 +997,7 @@
   "F – Quelle, Darstellung, belegt oder vermutet": "Belegt oder vermutet? Quelle oder Darstellung?",
   "G – Museum und klausurnahe Aufgaben": "Ötzi im Museum"
  },
- "probe": false
+ "probe": false,
+ "termin": "2026-11-16",
+ "reihenfolge": 9
 }

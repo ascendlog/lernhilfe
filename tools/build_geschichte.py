@@ -18,6 +18,7 @@ os.makedirs(OUT, exist_ok=True)
 import gesch_p1, gesch_p2, gesch_p3, gesch_p4, gesch_p5, gesch_p6
 
 THEMA = 'geschichte'
+TERMIN = '2026-11-16'   # Geschichte-Arbeit (Montag)
 
 
 def datei(p):
@@ -46,6 +47,10 @@ def main():
         print('(noch kein Crashkurs)')
     ids = [p['id'] for p in pakete]
     assert len(set(ids)) == len(ids), ids
+    # Termin der Arbeit (von Alessandro genannt) und empfohlene Reihenfolge: erst üben (1–9), dann Probearbeit, zuletzt der Crashkurs als letzter Blick
+    for n, p in enumerate(pakete, 1):
+        p['termin'] = TERMIN
+        p['reihenfolge'] = n
     for p in pakete:
         with open(os.path.join(ziel(p)[0], datei(p)), 'w', encoding='utf-8') as f:
             json.dump(p, f, ensure_ascii=False, indent=1)
