@@ -1,0 +1,916 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-3-lucy",
+ "titel": "Geschichte Teil 3: Vom Affen zum Menschen (Lucy)",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Afrika als Wiege der Menschheit, Lucy (Fund, Alter, Aussehen), der aufrechte Gang, Vergleich von Schimpanse, Lucy und Mensch und das Auswerten eines Verfassertextes. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Die Zeichnung von Schimpanse, Lucy und Mensch ist stark vereinfacht und nicht maßstabsgetreu. Angaben zu Gehirn, Armen und Beinen sind Zusatzwissen, das nicht im Heft steht. Die Texte zum Auswerten sind selbst geschrieben.",
+ "lernblatt": [
+  {
+   "titel": "Afrika: Wiege der Menschheit",
+   "text": "Die ersten menschenähnlichen Lebewesen lebten in Afrika. Die ältesten Skelettfunde von ihnen stammen von dort. Darum nennt man Afrika auch die **Wiege der Menschheit**.\nVor etwa **4 Millionen Jahren** fingen diese Lebewesen an, **aufrecht zu gehen**. Das war ein wichtiger Schritt auf dem Weg zum Menschen.",
+   "merke": "Der Mensch stammt aus Afrika. Der aufrechte Gang begann vor etwa 4 Millionen Jahren."
+  },
+  {
+   "titel": "Lucy: der Fund",
+   "text": "**Lucy** ist der Name eines Skeletts. Es gehört zu einem **Australopithecus afarensis**. Das ist ein **Vormensch**, der Name bedeutet etwa „Südaffe“. Das weißt du über den Fund:\n\n- Fundort: **Ostafrika**. Das Buch nennt Hadar in Äthiopien und das Jahr 1974.\n- Gefunden hat es eine amerikanisch-französische Forschergruppe.\n- Erhalten sind etwa **40 Prozent** der Knochen. Lucy ist eines der ältesten und am besten erhaltenen menschenartigen Wesen.\n- Alter: **über 3 Millionen Jahre**. Das Buch nennt genauer 3,18 Millionen Jahre.\n- Der Name: Beim Fund lief im Radio gerade ein Lied der Gruppe Beatles. Nach diesem Lied wurde das Skelett Lucy genannt.",
+   "merke": "Lucy = Australopithecus afarensis, ein Vormensch. Gefunden in Ostafrika, über 3 Millionen Jahre alt."
+  },
+  {
+   "titel": "Wie sah Lucy aus?",
+   "text": "Lucy sah **wahrscheinlich** eher wie ein Schimpanse aus. Sie ging aber **vorwiegend aufrecht**. Die Wörter „wahrscheinlich“ und „vorwiegend“ zeigen: Man weiß es nicht ganz genau.\nWoran erkennt man den aufrechten Gang?\n\n- am **Knochenbau**\n- an **Fußspuren**: In Laetoli in Tansania fand man 1978 Fußabdrücke eines Vormenschen der Art Australopithecus afarensis.",
+   "merke": "Lucy sah wahrscheinlich eher wie ein Schimpanse aus, ging aber vorwiegend aufrecht. Beweise: Knochenbau und Fußspuren."
+  },
+  {
+   "titel": "Der aufrechte Gang und seine Folgen",
+   "text": "Der **aufrechte Gang** war ein wichtiger Entwicklungsschritt hin zum Menschen. Er hatte drei Vorteile:\n\n- **Bessere Sicht**: Man erkennt Nahrung und Gefahren früher.\n- **Weniger Energie**: Lange Wege sind weniger anstrengend.\n- **Hände frei**: Man kann Nahrung sammeln oder Gegenstände tragen.",
+   "merke": "Aufrechter Gang: bessere Sicht, weniger Energie für lange Wege, Hände frei."
+  },
+  {
+   "titel": "Schimpanse, Lucy und Mensch im Vergleich",
+   "text": "Die Zeichnung zeigt drei einfache Figuren von der Seite. Sie sind nicht maßstabsgetreu. Von links nach rechts: Schimpanse, Lucy, moderner Mensch. Das erkennst du an der Haltung:\n\n- Der **Schimpanse** ist stark nach vorn gebeugt.\n- **Lucy** steht schon überwiegend aufrecht.\n- Der **moderne Mensch** geht ganz aufrecht.\n\nZusatzwissen (steht nicht im Heft, ist aber allgemein bekannt): Der Schimpanse hat lange Arme und kurze Beine. Beim modernen Menschen sind die Arme kürzer und die Beine lang. Lucys Gehirn war noch klein, ähnlich wie beim Schimpansen. Solche Angaben darfst du nur vorsichtig benutzen.",
+   "merke": "Lucy steht zwischen Schimpanse und Mensch: Sie ging überwiegend aufrecht. Ihr Gehirn war noch klein (Zusatzwissen).",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"124.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"124.0\" y1=\"238.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"185.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"185.6\" y1=\"146.9\" x2=\"191.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"208.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"310.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"226.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"337.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"337.4\" y1=\"98.0\" x2=\"343.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"350.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"209.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"52.0\" x2=\"496.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"495.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><text x=\"120\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Schimpanse</text><text x=\"310\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lucy</text><text x=\"500\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">moderner Mensch</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit Namen. Schimpanse: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Lucy: fast aufrecht, nur leicht nach vorn geneigt; moderner Mensch: ganz aufrecht, mit langen Beinen und kürzeren Armen."
+  },
+  {
+   "titel": "Verfassertext auswerten: drei Schritte",
+   "text": "Ein **Verfassertext** ist ein Text, den ein Verfasser (Autor) geschrieben hat, um etwas zu erklären, zum Beispiel ein Sachtext im Schulbuch. Du wertest ihn in drei Schritten aus:\n\n- **1. Überblick**: Lies den Text zügig. Finde Thema und Fragestellung. Schreibe Überschrift und Stichwörter auf.\n- **2. Untersuchung**: Gliedere den Text in Abschnitte. Notiere die Gedanken jedes Abschnitts. Achte darauf, wie der Verfasser schreibt (siehe nächster Abschnitt).\n- **3. Zusammenfassung**: Schreibe die wichtigsten Informationen in eigener Form auf, zum Beispiel in wenigen Sätzen, als Stichwortliste, als Tabelle oder als **Strukturskizze**.\n\nEine Strukturskizze ist eine kleine Zeichnung aus Kästchen und Pfeilen, die zeigt, wie die wichtigsten Gedanken zusammenhängen (Zusatz).",
+   "merke": "Überblick, Untersuchung, Zusammenfassung: Das sind die drei Schritte beim Auswerten eines Verfassertextes."
+  },
+  {
+   "titel": "Sprache im Text: Signalwörter",
+   "text": "Verfasser benutzen bestimmte Wörter, die dir etwas verraten. Die Wörter helfen dir bei der Untersuchung des Textes:\n\n- **zeitliche Bezüge**: vorher, nachher, plötzlich, danach, später\n- **Begründungen**: weil, da, deshalb, deswegen\n- **Gegensätze**: einerseits – andererseits, obwohl, trotzdem\n- **Unsicherheit**: manche meinen, vielleicht, vermutlich, wahrscheinlich, vorwiegend\n\nDas Wort „vorwiegend“ heißt „meistens, aber nicht immer“. Es sagt also auch: Man weiß es nicht ganz genau.\nBeispiel: „Sie sah wahrscheinlich wie ein Schimpanse aus. Trotzdem ging sie vorwiegend aufrecht.“ Hier zeigt „wahrscheinlich“ Unsicherheit, „trotzdem“ einen Gegensatz.",
+   "merke": "Wörter der Unsicherheit (wahrscheinlich, vielleicht, vorwiegend) zeigen: Man weiß etwas nicht ganz genau."
+  },
+  {
+   "titel": "Beispieltext: Lucy",
+   "text": "Hier ist ein Beispieltext über Lucy. Er ist eigens für dich geschrieben:\n„Lucy lebte vor mehr als drei Millionen Jahren in Ostafrika. 1974 fanden Forscher ihr Skelett. Weil etwa 40 Prozent der Knochen erhalten waren, weiß man heute viel über sie. Sie sah wahrscheinlich eher wie ein Schimpanse aus. Trotzdem ging sie vorwiegend aufrecht. Das erkennt man an ihrem Knochenbau. Später fand man in Tansania auch Fußspuren eines Vormenschen, die zu einem aufrechten Gang passen. Da der aufrechte Gang die Hände frei machte, konnten die Vormenschen Nahrung tragen. Deshalb war er ein wichtiger Schritt auf dem Weg zum Menschen.“\nSo wertest du ihn aus:\n\n- **Überblick**: Thema ist Lucy. Die Frage lautet: Wie sah Lucy aus, und warum ist der aufrechte Gang wichtig? Stichwörter: Lucy, Ostafrika, aufrechter Gang, Fußspuren.\n- **Untersuchung**: Unsicherheit zeigen „wahrscheinlich“ und „vorwiegend“. Der Gegensatz steht bei „trotzdem“. Begründungen beginnen mit „weil“, „da“ und „deshalb“. Zeitlich sind „1974“ und „später“.\n- **Zusammenfassung**: Lucy, über 3 Millionen Jahre alt, Ostafrika. Sah wahrscheinlich wie ein Schimpanse aus, ging vorwiegend aufrecht (Knochenbau, Fußspuren). Aufrechter Gang: Hände frei, wichtiger Schritt zum Menschen.",
+   "merke": "Erst Überblick, dann die Signalwörter finden, dann in eigenen Worten zusammenfassen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Auf welchem Kontinent fand man die ältesten Skelette menschenähnlicher Lebewesen?",
+   "info": "Die ältesten Skelettfunde stammen aus Afrika. Darum sagt man: Der Mensch stammt aus Afrika.",
+   "antworten": [
+    "Afrika",
+    "Asien",
+    "Europa",
+    "Südamerika"
+   ],
+   "richtig": 0,
+   "lesen": "Afrika: Wiege der Menschheit"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Afrika heißt auch die „Wiege der ...“. Ergänze das fehlende Wort.",
+   "info": "Dort lebten die ersten menschenähnlichen Lebewesen. Deshalb heißt Afrika Wiege der Menschheit.",
+   "richtig": [
+    "Menschheit",
+    "Wiege der Menschheit",
+    "die Wiege der Menschheit"
+   ],
+   "lesen": "Afrika: Wiege der Menschheit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Was ist Lucy?",
+   "info": "Lucy ist der Name eines Skeletts. Es gehört zu einem Australopithecus afarensis, einem Vormenschen.",
+   "antworten": [
+    "Das Skelett eines Vormenschen, des Australopithecus afarensis",
+    "Das Skelett eines Neandertalers aus der Eiszeit",
+    "Die Mumie eines Jägers aus den Alpen",
+    "Eine Zeichnung eines Vormenschen aus Afrika"
+   ],
+   "richtig": 0,
+   "lesen": "Lucy: der Fund"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "In welchem Teil Afrikas wurde Lucy gefunden?",
+   "info": "Das Heft sagt Ostafrika. Das Buch nennt Hadar in Äthiopien, das liegt in Ostafrika. Beide Angaben zählen.",
+   "richtig": [
+    "Ostafrika",
+    "Ost-Afrika",
+    "Ost Afrika",
+    "östliches Afrika",
+    "Ostteil Afrikas",
+    "in Ostafrika",
+    "in Ost-Afrika",
+    "in Ost Afrika",
+    "in östliches Afrika",
+    "in Ostteil Afrikas",
+    "im Osten Afrikas",
+    "im Osten von Afrika",
+    "im östlichen Afrika",
+    "Osten Afrikas",
+    "Osten von Afrika",
+    "Äthiopien",
+    "in Äthiopien",
+    "Hadar",
+    "in Hadar",
+    "Hadar in Äthiopien",
+    "Hadar (Äthiopien)",
+    "Ostafrika (Äthiopien)",
+    "Ostafrika, Äthiopien"
+   ],
+   "lesen": "Lucy: der Fund"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Wie alt ist Lucy ungefähr?",
+   "tipp": "Es sind Millionen, nicht Tausende von Jahren.",
+   "info": "Nach dem Heft ist Lucy über 3 Millionen Jahre alt, ungefähr 3 Millionen. Das Buch nennt genauer 3,18 Millionen Jahre.",
+   "antworten": [
+    "etwa 3 Millionen Jahre",
+    "etwa 30 000 Jahre",
+    "etwa 300 000 Jahre",
+    "etwa 30 Millionen Jahre"
+   ],
+   "richtig": 0,
+   "lesen": "Lucy: der Fund"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Von Lucys Skelett sind etwa 40 Prozent der Knochen erhalten.",
+   "info": "Deshalb gilt Lucy als eines der am besten erhaltenen menschenartigen Wesen.",
+   "richtig": true,
+   "lesen": "Lucy: der Fund"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Wonach wurde Lucy benannt?",
+   "info": "Die Forschergruppe hörte beim Fund ein Lied der Beatles im Radio. Danach nannte sie das Skelett Lucy.",
+   "antworten": [
+    "Nach einem Lied der Beatles, das beim Fund im Radio lief",
+    "Nach der Forscherin, die das Skelett entdeckt hat",
+    "Nach dem Fundort Hadar in Äthiopien",
+    "Nach der Tochter eines Forschers der Gruppe"
+   ],
+   "richtig": 0,
+   "lesen": "Lucy: der Fund"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Ergänze den Text über Lucy.",
+   "text": "Das Skelett {{Lucy}} gehört zu einem {{Vormenschen|Vormensch}}. Es wurde auf dem Kontinent {{Afrika}} gefunden, und zwar in der Region {{Ostafrika|Ost-Afrika}}.",
+   "info": "Lucy ist der Name des Skeletts eines Vormenschen. Der Kontinent ist Afrika, die Region Ostafrika.",
+   "wortbank": [
+    "Lucy",
+    "Vormenschen",
+    "Afrika",
+    "Ostafrika",
+    "Europa",
+    "Neandertaler"
+   ],
+   "lesen": [
+    "Afrika: Wiege der Menschheit",
+    "Lucy: der Fund"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Afrika und der Fund von Lucy",
+   "frage": "Ordne jede Angabe der richtigen Zahl oder dem richtigen Ort zu.",
+   "info": "Der aufrechte Gang begann früher (4 Millionen Jahre) als Lucy lebte (über 3 Millionen Jahre).",
+   "paare": [
+    [
+     "Alter von Lucy",
+     "über 3 Millionen Jahre"
+    ],
+    [
+     "Beginn des aufrechten Gangs",
+     "vor etwa 4 Millionen Jahren"
+    ],
+    [
+     "Erhaltene Knochen",
+     "etwa 40 Prozent"
+    ],
+    [
+     "Jahr des Fundes (Buch)",
+     "1974"
+    ],
+    [
+     "Fundregion",
+     "Ostafrika"
+    ]
+   ],
+   "extra": [
+    "Südafrika",
+    "1994"
+   ],
+   "lesen": [
+    "Afrika: Wiege der Menschheit",
+    "Lucy: der Fund"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Wie sah Lucy wahrscheinlich aus?",
+   "info": "Das Heft sagt: Lucy sah wahrscheinlich eher wie ein Schimpanse aus, ging aber vorwiegend aufrecht.",
+   "antworten": [
+    "Eher wie ein Schimpanse, ging aber vorwiegend aufrecht.",
+    "Ganz wie ein heutiger Mensch, nur etwas kleiner.",
+    "Wie ein Neandertaler mit Fellkleidung und Speer.",
+    "Wie ein Wesen, das niemals aufrecht gehen konnte."
+   ],
+   "richtig": 0,
+   "lesen": "Wie sah Lucy aus?"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Vor etwa wie vielen Millionen Jahren begannen die ersten menschenähnlichen Lebewesen, aufrecht zu gehen?",
+   "tipp": "Der aufrechte Gang begann, bevor Lucy lebte. Schau im Abschnitt über Afrika nach.",
+   "info": "Der aufrechte Gang begann vor etwa 4 Millionen Jahren, also noch vor Lucy.",
+   "richtig": [
+    "4",
+    "vier",
+    "4 Millionen",
+    "4 Millionen Jahre",
+    "4 Millionen Jahren",
+    "vor 4 Millionen",
+    "vor 4 Millionen Jahren",
+    "etwa 4 Millionen",
+    "etwa 4 Millionen Jahren",
+    "ca. 4 Millionen",
+    "ca. 4 Millionen Jahren",
+    "vor etwa 4 Millionen",
+    "vor etwa 4 Millionen Jahren",
+    "vor ca. 4 Millionen",
+    "vor ca. 4 Millionen Jahren",
+    "4 Mio",
+    "4 Mio Jahre",
+    "4 Mio Jahren",
+    "vor 4 Mio",
+    "vor 4 Mio Jahren",
+    "etwa 4 Mio",
+    "etwa 4 Mio Jahren",
+    "ca. 4 Mio",
+    "ca. 4 Mio Jahren",
+    "vor etwa 4 Mio",
+    "vor etwa 4 Mio Jahren",
+    "vor ca. 4 Mio",
+    "vor ca. 4 Mio Jahren",
+    "4 Mio.",
+    "4 Mio. Jahre",
+    "4 Mio. Jahren",
+    "vor 4 Mio.",
+    "vor 4 Mio. Jahren",
+    "etwa 4 Mio.",
+    "etwa 4 Mio. Jahren",
+    "ca. 4 Mio.",
+    "ca. 4 Mio. Jahren",
+    "vor etwa 4 Mio.",
+    "vor etwa 4 Mio. Jahren",
+    "vor ca. 4 Mio.",
+    "vor ca. 4 Mio. Jahren",
+    "vier Millionen",
+    "vier Millionen Jahre",
+    "vier Millionen Jahren",
+    "vor vier Millionen",
+    "vor vier Millionen Jahren",
+    "etwa vier Millionen",
+    "etwa vier Millionen Jahren",
+    "ca. vier Millionen",
+    "ca. vier Millionen Jahren",
+    "vor etwa vier Millionen",
+    "vor etwa vier Millionen Jahren",
+    "vor ca. vier Millionen",
+    "vor ca. vier Millionen Jahren",
+    "vier Mio",
+    "vier Mio Jahre",
+    "vier Mio Jahren",
+    "vor vier Mio",
+    "vor vier Mio Jahren",
+    "etwa vier Mio",
+    "etwa vier Mio Jahren",
+    "ca. vier Mio",
+    "ca. vier Mio Jahren",
+    "vor etwa vier Mio",
+    "vor etwa vier Mio Jahren",
+    "vor ca. vier Mio",
+    "vor ca. vier Mio Jahren",
+    "vier Mio.",
+    "vier Mio. Jahre",
+    "vier Mio. Jahren",
+    "vor vier Mio.",
+    "vor vier Mio. Jahren",
+    "etwa vier Mio.",
+    "etwa vier Mio. Jahren",
+    "ca. vier Mio.",
+    "ca. vier Mio. Jahren",
+    "vor etwa vier Mio.",
+    "vor etwa vier Mio. Jahren",
+    "vor ca. vier Mio.",
+    "vor ca. vier Mio. Jahren"
+   ],
+   "einheit": "Millionen Jahre",
+   "lesen": "Afrika: Wiege der Menschheit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Woran erkennt man, dass Lucy vorwiegend aufrecht ging?",
+   "info": "Der Knochenbau und die Fußspuren (Buch: Laetoli in Tansania) zeigen den aufrechten Gang.",
+   "antworten": [
+    "Am Knochenbau und an Fußspuren von Vormenschen",
+    "An ihrem hohen Alter von über 3 Millionen Jahren",
+    "An ihrem Fundort in Ostafrika",
+    "An dem Lied, das beim Fund im Radio lief"
+   ],
+   "richtig": 0,
+   "lesen": "Wie sah Lucy aus?"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Die Fußspuren aus Laetoli in Tansania stammen von einem Vormenschen und passen zu einem aufrechten Gang.",
+   "info": "Das Buch zeigt Fußabdrücke eines Vormenschen der Art Australopithecus afarensis. Fußspuren sind eine Quelle für den aufrechten Gang.",
+   "richtig": true,
+   "lesen": "Wie sah Lucy aus?"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Wähle alle richtigen Antworten: Welche Folgen hatte der aufrechte Gang?",
+   "info": "Bessere Sicht, weniger Energie und freie Hände sind die drei Vorteile. Feuer erzeugen konnte der Mensch erst viel später.",
+   "antworten": [
+    "Man sah Nahrung und Gefahren früher.",
+    "Man brauchte weniger Energie für lange Wege.",
+    "Die Hände waren frei zum Tragen.",
+    "Das Gehirn wurde sofort viel größer.",
+    "Man konnte plötzlich Feuer erzeugen."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Der aufrechte Gang und seine Folgen"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Ordne zu: Welche Folge hatte der aufrechte Gang, und woran erkennt man ihn?",
+   "info": "Die drei Vorteile stehen im Heft. Den aufrechten Gang erkennt man am Knochenbau und an Fußspuren.",
+   "paare": [
+    [
+     "Bessere Sicht",
+     "Man erkennt Nahrung oder Gefahren früher"
+    ],
+    [
+     "Weniger Energie",
+     "Lange Wege sind weniger anstrengend"
+    ],
+    [
+     "Hände frei",
+     "Man kann Nahrung oder Gegenstände tragen"
+    ],
+    [
+     "Woran man den aufrechten Gang erkennt",
+     "Knochenbau und Fußspuren"
+    ]
+   ],
+   "extra": [
+    "Man kann Feuer selbst erzeugen"
+   ],
+   "lesen": [
+    "Der aufrechte Gang und seine Folgen",
+    "Wie sah Lucy aus?"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Ergänze den Satz über den aufrechten Gang.",
+   "text": "Beim aufrechten Gang sind die {{Hände}} frei. Man hat eine bessere {{Sicht}} und braucht weniger {{Energie}} für lange Wege. Der aufrechte Gang war ein wichtiger {{Entwicklungsschritt}} hin zum Menschen.",
+   "info": "Das sind die Folgen des aufrechten Gangs.",
+   "wortbank": [
+    "Hände",
+    "Sicht",
+    "Energie",
+    "Entwicklungsschritt",
+    "Zähne",
+    "Feuer"
+   ],
+   "lesen": "Der aufrechte Gang und seine Folgen"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Nach dem Heft ging Lucy ausschließlich aufrecht.",
+   "tipp": "Achte auf das Wort „vorwiegend“.",
+   "info": "Das Heft sagt vorwiegend aufrecht. Das heißt: meistens, aber nicht immer.",
+   "richtig": false,
+   "lesen": "Wie sah Lucy aus?"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Aussehen, aufrechter Gang und seine Folgen",
+   "frage": "Ordne die Ereignisse. Das früheste steht zuerst.",
+   "tipp": "Zwei Ereignisse geschahen vor Millionen Jahren, zwei sind Funde der Forscher. Achte auf die Jahreszahlen.",
+   "info": "Erst begann der aufrechte Gang, dann lebte Lucy. Viel später fanden Forscher 1974 ihr Skelett und 1978 die Fußspuren in Laetoli.",
+   "schritte": [
+    "Beginn des aufrechten Gangs (vor etwa 4 Millionen Jahren)",
+    "Lucy lebt (vor über 3 Millionen Jahren)",
+    "Forscher finden Lucys Skelett in Ostafrika (1974)",
+    "Forscher finden die Fußspuren in Laetoli, Tansania (1978)"
+   ],
+   "lesen": [
+    "Afrika: Wiege der Menschheit",
+    "Lucy: der Fund",
+    "Wie sah Lucy aus?"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Auf dem Bild stehen ein Schimpanse, Lucy und ein moderner Mensch in gemischter Reihenfolge. Welche Figur ist Lucy?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"148.0\" x2=\"110.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"209.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"148.0\" x2=\"110.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"52.0\" x2=\"116.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"115.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><line x1=\"300.0\" y1=\"206.0\" x2=\"314.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"314.0\" y1=\"238.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"206.0\" x2=\"375.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"375.6\" y1=\"146.9\" x2=\"381.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"398.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"490.0\" y1=\"182.0\" x2=\"500.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"500.0\" y1=\"226.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"182.0\" x2=\"527.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"527.4\" y1=\"98.0\" x2=\"533.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"540.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><text x=\"120\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">A</text><text x=\"310\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">B</text><text x=\"500\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">C</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit den Buchstaben A, B und C. Figur A: ganz aufrecht, mit langen Beinen und kürzeren Armen; Figur B: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Figur C: fast aufrecht, nur leicht nach vorn geneigt.",
+   "tipp": "Lucy steht zwischen dem Schimpansen und dem Menschen.",
+   "info": "Lucy steht schon überwiegend aufrecht, ist aber noch leicht nach vorn geneigt. Der Mensch steht ganz gerade, der Schimpanse ist stark gebeugt.",
+   "antworten": [
+    "Figur C",
+    "Figur A",
+    "Figur B"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Zusatzwissen: Welche Figur hat im Vergleich die längsten Arme und die kürzesten Beine?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"182.0\" x2=\"120.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"120.0\" y1=\"226.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"182.0\" x2=\"147.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"147.4\" y1=\"98.0\" x2=\"153.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"160.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"300.0\" y1=\"148.0\" x2=\"300.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"209.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"148.0\" x2=\"300.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"52.0\" x2=\"306.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"305.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><line x1=\"490.0\" y1=\"206.0\" x2=\"504.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"504.0\" y1=\"238.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"206.0\" x2=\"565.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"565.6\" y1=\"146.9\" x2=\"571.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"588.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><text x=\"120\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">A</text><text x=\"310\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">B</text><text x=\"500\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">C</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit den Buchstaben A, B und C. Figur A: fast aufrecht, nur leicht nach vorn geneigt; Figur B: ganz aufrecht, mit langen Beinen und kürzeren Armen; Figur C: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen.",
+   "tipp": "Vergleiche die drei Figuren mit der Zeichnung im Lernblatt.",
+   "info": "Der Schimpanse hat lange Arme und kurze Beine. Das gehört zu seiner gebeugten Haltung (Zusatzwissen).",
+   "antworten": [
+    "Figur C",
+    "Figur A",
+    "Figur B"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Auf dem Bild stehen ein Schimpanse, Lucy und ein moderner Mensch. Ordne jedem Buchstaben die richtige Figur zu.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"124.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"124.0\" y1=\"238.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"185.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"185.6\" y1=\"146.9\" x2=\"191.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"208.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"300.0\" y1=\"148.0\" x2=\"300.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"209.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"148.0\" x2=\"300.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"52.0\" x2=\"306.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"305.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><line x1=\"490.0\" y1=\"182.0\" x2=\"500.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"500.0\" y1=\"226.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"182.0\" x2=\"527.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"527.4\" y1=\"98.0\" x2=\"533.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"540.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><text x=\"120\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">A</text><text x=\"310\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">B</text><text x=\"500\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">C</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit den Buchstaben A, B und C. Figur A: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Figur B: ganz aufrecht, mit langen Beinen und kürzeren Armen; Figur C: fast aufrecht, nur leicht nach vorn geneigt.",
+   "info": "Der Schimpanse ist am stärksten gebeugt, der Mensch geht ganz aufrecht, Lucy liegt dazwischen.",
+   "paare": [
+    [
+     "Figur A",
+     "Schimpanse"
+    ],
+    [
+     "Figur B",
+     "moderner Mensch"
+    ],
+    [
+     "Figur C",
+     "Lucy"
+    ]
+   ],
+   "extra": [
+    "Mammut"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Was zeigt die Zeichnung über die beiden äußeren Figuren, den Schimpansen und den modernen Menschen?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"124.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"124.0\" y1=\"238.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"185.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"185.6\" y1=\"146.9\" x2=\"191.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"208.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"310.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"226.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"337.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"337.4\" y1=\"98.0\" x2=\"343.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"350.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"209.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"52.0\" x2=\"496.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"495.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><text x=\"120\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Schimpanse</text><text x=\"310\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lucy</text><text x=\"500\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">moderner Mensch</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit Namen. Schimpanse: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Lucy: fast aufrecht, nur leicht nach vorn geneigt; moderner Mensch: ganz aufrecht, mit langen Beinen und kürzeren Armen.",
+   "info": "Der Schimpanse und der moderne Mensch bilden die beiden Gegensätze. Dazwischen steht Lucy.",
+   "antworten": [
+    "Der Schimpanse ist stark nach vorn gebeugt, der moderne Mensch geht ganz aufrecht.",
+    "Der Schimpanse geht ganz aufrecht, der moderne Mensch ist stark nach vorn gebeugt.",
+    "Beide gehen ganz aufrecht.",
+    "Beide sind gleich stark nach vorn gebeugt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "In welchem Punkt ist Lucy dem Menschen ähnlicher als dem Schimpansen?",
+   "tipp": "Denke an den Körperbau.",
+   "info": "Der aufrechte Gang ist die Ähnlichkeit mit dem Menschen. Ihr Gehirn war dagegen noch klein, ähnlich wie beim Schimpansen (Zusatzwissen).",
+   "antworten": [
+    "Sie ging vorwiegend aufrecht.",
+    "Sie hatte ein ebenso großes Gehirn wie ein moderner Mensch.",
+    "Sie lebte erst vor wenigen tausend Jahren.",
+    "Sie wurde nicht in Afrika gefunden."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Die Zeichnung zeigt genau, wie groß Schimpanse, Lucy und moderner Mensch waren.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"124.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"124.0\" y1=\"238.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"185.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"185.6\" y1=\"146.9\" x2=\"191.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"208.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"310.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"226.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"337.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"337.4\" y1=\"98.0\" x2=\"343.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"350.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"209.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"52.0\" x2=\"496.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"495.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><text x=\"120\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Schimpanse</text><text x=\"310\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lucy</text><text x=\"500\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">moderner Mensch</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit Namen. Schimpanse: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Lucy: fast aufrecht, nur leicht nach vorn geneigt; moderner Mensch: ganz aufrecht, mit langen Beinen und kürzeren Armen.",
+   "tipp": "Lies im Lernblatt nach, was zur Zeichnung gesagt wird.",
+   "info": "Die Zeichnung ist stark vereinfacht und nicht maßstabsgetreu. Sie zeigt nur die Körperhaltung der drei.",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Ergänze den Vergleich.",
+   "text": "Der {{Schimpanse}} ist stark nach vorn gebeugt. {{Lucy}} ging vorwiegend aufrecht, ihr Gehirn war aber noch klein. Der {{moderne Mensch|Mensch}} geht ganz aufrecht.",
+   "info": "So unterscheiden sich die drei in Haltung und Gehirn (Gehirn: Zusatzwissen).",
+   "wortbank": [
+    "Schimpanse",
+    "Lucy",
+    "moderne Mensch",
+    "Wollnashorn",
+    "Mammut"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Ordne die Figuren nach ihrer Haltung, von der am stärksten gebeugten bis zur ganz aufrechten.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"182.0\" x2=\"120.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"120.0\" y1=\"226.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"182.0\" x2=\"147.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"147.4\" y1=\"98.0\" x2=\"153.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"160.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"300.0\" y1=\"206.0\" x2=\"314.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"314.0\" y1=\"238.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"206.0\" x2=\"375.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"375.6\" y1=\"146.9\" x2=\"381.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"398.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"209.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"52.0\" x2=\"496.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"495.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><text x=\"120\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">A</text><text x=\"310\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">B</text><text x=\"500\" y=\"304\" font-size=\"20\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">C</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit den Buchstaben A, B und C. Figur A: fast aufrecht, nur leicht nach vorn geneigt; Figur B: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Figur C: ganz aufrecht, mit langen Beinen und kürzeren Armen.",
+   "tipp": "Beschreibe zuerst, wie jede Figur steht: stark gebeugt, fast aufrecht oder ganz aufrecht.",
+   "info": "Schimpanse (stark gebeugt), dann Lucy (fast aufrecht), zuletzt der Mensch (ganz aufrecht).",
+   "schritte": [
+    "Figur B",
+    "Figur A",
+    "Figur C"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Schimpanse, Lucy und Mensch vergleichen",
+   "frage": "Zu welchem Wesen passt das Merkmal?",
+   "info": "Die Merkmale stehen im Lernblatt. Das Gehirn und die Armlängen sind Zusatzwissen.",
+   "paare": [
+    [
+     "stark nach vorn gebeugt",
+     "Schimpanse"
+    ],
+    [
+     "lange Arme, kurze Beine",
+     "Schimpanse"
+    ],
+    [
+     "vorwiegend aufrecht, Gehirn noch klein",
+     "Lucy"
+    ],
+    [
+     "ganz aufrecht",
+     "moderner Mensch"
+    ],
+    [
+     "lange Beine, kürzere Arme",
+     "moderner Mensch"
+    ]
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "D – Verfassertext auswerten: die drei Schritte",
+   "frage": "Ordne die drei Schritte beim Auswerten eines Verfassertextes.",
+   "info": "Zuerst liest man zügig und sucht das Thema. Dann untersucht man den Text genauer. Zuletzt fasst man zusammen.",
+   "schritte": [
+    "Einen Überblick gewinnen",
+    "Den Text untersuchen",
+    "Die wichtigsten Informationen zusammenfassen"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Verfassertext auswerten: die drei Schritte",
+   "frage": "Was tust du im ersten Schritt, dem Überblick?",
+   "info": "Beim Überblick geht es um das Thema und die Frage des Textes. Die Einzelheiten kommen erst im zweiten Schritt.",
+   "antworten": [
+    "Zügig lesen, Thema finden, Stichwörter notieren",
+    "Wort für Wort abschreiben und auswendig lernen",
+    "Zuerst die Zusammenfassung schreiben, dann lesen",
+    "Nur den letzten Absatz lesen, den Rest weglassen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Verfassertext auswerten: die drei Schritte",
+   "frage": "Was gehört zu welchem Schritt?",
+   "info": "Jeder Schritt hat eine eigene Aufgabe. Eine Zusammenfassung schreibst du mit eigenen Worten, zum Beispiel als wenige Sätze oder als Stichwortliste.",
+   "paare": [
+    [
+     "Schritt 1: Überblick",
+     "Thema und Fragestellung finden"
+    ],
+    [
+     "Schritt 2: Untersuchung",
+     "Gedanken jedes Abschnitts notieren und auf die Sprache achten"
+    ],
+    [
+     "Schritt 3: Zusammenfassung",
+     "Das Wichtigste kurz in eigener Form festhalten"
+    ]
+   ],
+   "extra": [
+    "den Text auswendig lernen",
+    "den Text Wort für Wort abschreiben"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Verfassertext auswerten: die drei Schritte",
+   "frage": "Ergänze den Satz über die Methode.",
+   "text": "Zuerst verschafft man sich einen {{Überblick}}, dann {{untersucht}} man den Text und zuletzt fasst man die wichtigsten Informationen in eigener Form {{zusammen}}.",
+   "info": "Das sind die drei Schritte: Überblick, Untersuchung, Zusammenfassung.",
+   "wortbank": [
+    "Überblick",
+    "untersucht",
+    "zusammen",
+    "abschreiben",
+    "auswendig"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Verfassertext auswerten: die drei Schritte",
+   "frage": "Im ersten Schritt schreibt man die Überschrift und Stichwörter des Textes auf.",
+   "info": "Überschrift und Stichwörter gehören zum Überblick.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Verfassertext auswerten: die drei Schritte",
+   "frage": "Eine Zusammenfassung darf auch eine Stichwortliste, eine Tabelle oder eine Strukturskizze sein.",
+   "info": "Du darfst die Form selbst wählen. Wichtig ist, dass du das Wichtigste in eigenen Worten festhältst.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Verfassertext auswerten: die drei Schritte",
+   "frage": "Was ist ein Verfassertext?",
+   "tipp": "Überlege, wer den Text geschrieben hat und wozu.",
+   "info": "Der Verfasser ist der Autor. Der Text auf dem Infoblatt über Lucy ist ein solcher Sachtext.",
+   "antworten": [
+    "Ein Sachtext, den ein Autor geschrieben hat, um etwas zu erklären",
+    "Eine Urkunde aus dem Mittelalter, die damals entstand",
+    "Ein Brief, den ein Zeitzeuge an seine Familie schrieb",
+    "Eine Zeichnung, die ein Forscher nach Funden anfertigte"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sprache im Text: Signalwörter erkennen",
+   "frage": "Lies den Text:\n„Lucy lebte vor über drei Millionen Jahren in Ostafrika. Sie sah wahrscheinlich eher wie ein Schimpanse aus. Trotzdem ging sie vorwiegend aufrecht.“\nWähle alle richtigen Antworten: Welche Wörter zeigen, dass der Verfasser etwas nicht ganz sicher weiß?",
+   "tipp": "Welche Wörter schränken eine Aussage ein?",
+   "info": "Wörter der Unsicherheit sind zum Beispiel wahrscheinlich, vielleicht und vorwiegend. Trotzdem zeigt einen Gegensatz.",
+   "antworten": [
+    "wahrscheinlich",
+    "vorwiegend",
+    "Trotzdem",
+    "Ostafrika"
+   ],
+   "richtig": [
+    0,
+    1
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Sprache im Text: Signalwörter erkennen",
+   "frage": "Lies den Text:\n„Lucy lebte vor über drei Millionen Jahren in Ostafrika. Sie sah wahrscheinlich eher wie ein Schimpanse aus. Trotzdem ging sie vorwiegend aufrecht.“\nWelches Wort zeigt einen Gegensatz?",
+   "info": "Trotzdem verbindet zwei Aussagen, die nicht zusammenpassen: Sie sah wie ein Schimpanse aus, ging aber aufrecht.",
+   "richtig": [
+    "Trotzdem",
+    "trotzdem"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Sprache im Text: Signalwörter erkennen",
+   "frage": "Lies den Text:\n„Weil Lucy aufrecht ging, hatte sie die Hände frei. Deshalb konnte sie Nahrung tragen.“\nMit welchem Wort beginnt der zweite Satz? Es zeigt eine Begründung.",
+   "info": "Deshalb gehört zu den Begründungswörtern (weil, da, deshalb, deswegen). Es verbindet einen Grund mit dem, was daraus folgt: Weil Lucy aufrecht ging, hatte sie die Hände frei, deshalb konnte sie Nahrung tragen.",
+   "richtig": [
+    "Deshalb",
+    "deshalb"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Sprache im Text: Signalwörter erkennen",
+   "frage": "Welche Art von Signalwort ist das?",
+   "info": "Zeit: vorher, nachher, danach. Grund: weil, da, deshalb. Gegensatz: obwohl, trotzdem. Unsicherheit: vielleicht, vermutlich.",
+   "paare": [
+    [
+     "danach",
+     "zeitlicher Bezug"
+    ],
+    [
+     "deshalb",
+     "Begründung"
+    ],
+    [
+     "trotzdem",
+     "Gegensatz"
+    ],
+    [
+     "vielleicht",
+     "Unsicherheit"
+    ],
+    [
+     "da",
+     "Begründung"
+    ],
+    [
+     "obwohl",
+     "Gegensatz"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Sprache im Text: Signalwörter erkennen",
+   "frage": "Lies den Text:\n„Vor etwa vier Millionen Jahren begannen menschenähnliche Lebewesen, aufrecht zu gehen. Danach lebte Lucy in Ostafrika. Später fand man ihr Skelett.“\nNenne ein Wort im Text, das die zeitliche Reihenfolge anzeigt.",
+   "info": "Danach und später zeigen, was zuerst und was später geschah.",
+   "richtig": [
+    "Danach",
+    "Später",
+    "danach",
+    "später"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Sprache im Text: Signalwörter erkennen",
+   "frage": "Wörter wie „wahrscheinlich“ oder „vermutlich“ zeigen, dass der Verfasser etwas nicht ganz sicher weiß.",
+   "info": "Solche Wörter der Unsicherheit sagen dir: Das weiß man nicht genau.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sprache im Text: Signalwörter erkennen",
+   "frage": "Warum schreibt ein Verfasser über Lucys Aussehen „wahrscheinlich“?",
+   "info": "Von Lucy gibt es nur Knochen, dazu Fußspuren eines Vormenschen derselben Art, aber keine Fotos. Deshalb bleibt manches unsicher.",
+   "antworten": [
+    "Weil man ihr Aussehen nur aus Funden erschließen kann",
+    "Weil man von Lucy nur Fußspuren, aber keine Knochen gefunden hat",
+    "Weil Forscher Lucys Alter schätzen, ihr Aussehen aber genau kennen",
+    "Weil niemand weiß, wo man Lucy gefunden hat"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Klausurnahe Aufgaben",
+   "frage": "Lies den Text:\n„Vor etwa vier Millionen Jahren begannen menschenähnliche Lebewesen in Afrika, aufrecht zu gehen. Wer aufrecht geht, sieht Nahrung und Gefahren früher und braucht weniger Energie auf langen Wegen. Weil seine Hände frei sind, kann er außerdem Gegenstände tragen. Danach lebte Lucy in Ostafrika. Sie sah wahrscheinlich eher wie ein Schimpanse aus. Obwohl sie so aussah, ging sie vorwiegend aufrecht. 1978 fand man in Laetoli in Tansania Fußabdrücke eines Vormenschen, die dazu passen. Deshalb gilt der aufrechte Gang als wichtiger Schritt zum Menschen.“\nWelche Überschrift passt am besten?",
+   "tipp": "Suche das Thema: Wer oder was steht im Mittelpunkt?",
+   "info": "Der Text handelt vom aufrechten Gang und von Lucy. Die anderen Themen kommen im Text nicht vor.",
+   "antworten": [
+    "Der aufrechte Gang als Schritt zum Menschen",
+    "Die Erfindung des Feuers durch den Menschen",
+    "Ötzi, der Mann aus dem Gletschereis",
+    "Das Leben der Jäger und Sammler in der Eiszeit"
+   ],
+   "richtig": 0,
+   "lesen": [
+    "Verfassertext auswerten: drei Schritte",
+    "Beispieltext: Lucy"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Klausurnahe Aufgaben",
+   "frage": "Lies den Text:\n„Vor etwa vier Millionen Jahren begannen menschenähnliche Lebewesen in Afrika, aufrecht zu gehen. Wer aufrecht geht, sieht Nahrung und Gefahren früher und braucht weniger Energie auf langen Wegen. Weil seine Hände frei sind, kann er außerdem Gegenstände tragen. Danach lebte Lucy in Ostafrika. Sie sah wahrscheinlich eher wie ein Schimpanse aus. Obwohl sie so aussah, ging sie vorwiegend aufrecht. 1978 fand man in Laetoli in Tansania Fußabdrücke eines Vormenschen, die dazu passen. Deshalb gilt der aufrechte Gang als wichtiger Schritt zum Menschen.“\nSuche je ein Beispiel für ein Wort der Unsicherheit, ein Begründungswort, einen Gegensatz und einen zeitlichen Bezug.",
+   "punkte": 4,
+   "muster": "Unsicherheit: „wahrscheinlich“ oder „vorwiegend“. Begründung: „weil“ oder „deshalb“. Gegensatz: „obwohl“. Zeitlicher Bezug: „danach“, „vor etwa vier Millionen Jahren“ oder „1978“.",
+   "kriterien": [
+    "Wort der Unsicherheit richtig (wahrscheinlich oder vorwiegend)",
+    "Begründungswort richtig (weil oder deshalb)",
+    "Gegensatz richtig (obwohl)",
+    "zeitlicher Bezug richtig (danach, 1978 oder vor etwa vier Millionen Jahren)"
+   ],
+   "lesen": [
+    "Sprache im Text: Signalwörter",
+    "Beispieltext: Lucy"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Klausurnahe Aufgaben",
+   "frage": "Lies den Text:\n„Vor etwa vier Millionen Jahren begannen menschenähnliche Lebewesen in Afrika, aufrecht zu gehen. Wer aufrecht geht, sieht Nahrung und Gefahren früher und braucht weniger Energie auf langen Wegen. Weil seine Hände frei sind, kann er außerdem Gegenstände tragen. Danach lebte Lucy in Ostafrika. Sie sah wahrscheinlich eher wie ein Schimpanse aus. Obwohl sie so aussah, ging sie vorwiegend aufrecht. 1978 fand man in Laetoli in Tansania Fußabdrücke eines Vormenschen, die dazu passen. Deshalb gilt der aufrechte Gang als wichtiger Schritt zum Menschen.“\nFasse den Text in drei bis vier Sätzen oder als Stichwortliste zusammen.",
+   "punkte": 5,
+   "muster": "Vor etwa 4 Millionen Jahren begannen menschenähnliche Lebewesen in Afrika, aufrecht zu gehen. Das brachte bessere Sicht, weniger Energieverbrauch auf langen Wegen und freie Hände zum Tragen. Lucy sah wahrscheinlich eher wie ein Schimpanse aus, ging aber vorwiegend aufrecht. Dazu passen Fußabdrücke eines Vormenschen, die man 1978 in Laetoli in Tansania fand.",
+   "kriterien": [
+    "Beginn des aufrechten Gangs genannt (vor etwa 4 Millionen Jahren, Afrika)",
+    "Vorteile genannt (bessere Sicht, weniger Energie, Hände frei)",
+    "Lucy: wahrscheinlich wie ein Schimpanse, aber vorwiegend aufrecht",
+    "Fußabdrücke aus Laetoli (1978) als Beleg genannt",
+    "in eigenen Worten und kurz"
+   ],
+   "lesen": [
+    "Verfassertext auswerten: drei Schritte",
+    "Beispieltext: Lucy"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Klausurnahe Aufgaben",
+   "frage": "Erkläre, warum der aufrechte Gang ein wichtiger Entwicklungsschritt hin zum Menschen war. Nenne drei Folgen.",
+   "punkte": 3,
+   "muster": "Wer aufrecht geht, sieht Nahrung und Gefahren früher (bessere Sicht). Er braucht weniger Energie für lange Wege. Außerdem hat er die Hände frei, um Nahrung zu sammeln oder Gegenstände zu tragen.",
+   "kriterien": [
+    "bessere Sicht",
+    "weniger Energie für lange Wege",
+    "Hände frei zum Sammeln oder Tragen"
+   ],
+   "lesen": "Der aufrechte Gang und seine Folgen"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Klausurnahe Aufgaben",
+   "frage": "Das Bild zeigt einen Schimpansen, Lucy und einen modernen Menschen. Vergleiche die drei. Wo ähnelt Lucy dem Menschen, wo dem Schimpansen?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"124.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"124.0\" y1=\"238.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"185.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"185.6\" y1=\"146.9\" x2=\"191.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"208.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"310.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"226.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"337.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"337.4\" y1=\"98.0\" x2=\"343.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"350.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"209.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"52.0\" x2=\"496.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"495.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><text x=\"120\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Schimpanse</text><text x=\"310\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lucy</text><text x=\"500\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">moderner Mensch</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit Namen. Schimpanse: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Lucy: fast aufrecht, nur leicht nach vorn geneigt; moderner Mensch: ganz aufrecht, mit langen Beinen und kürzeren Armen.",
+   "tipp": "Beschreibe zuerst die Haltung jeder Figur.",
+   "punkte": 4,
+   "muster": "Der Schimpanse ist stark nach vorn gebeugt und hat lange Arme und kurze Beine. Der Mensch geht ganz aufrecht und hat lange Beine. Lucy steht dazwischen: Sie ging vorwiegend aufrecht, das ähnelt dem Menschen. Sie sah aber wahrscheinlich eher wie ein Schimpanse aus, und ihr Gehirn war noch klein (Zusatzwissen).",
+   "kriterien": [
+    "Schimpanse: gebeugt",
+    "Mensch: ganz aufrecht",
+    "Lucy ähnelt dem Menschen im aufrechten Gang",
+    "Lucy ähnelt dem Schimpansen (Aussehen oder kleines Gehirn)"
+   ],
+   "lesen": "Schimpanse, Lucy und Mensch im Vergleich"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Klausurnahe Aufgaben",
+   "frage": "Ergänze die Zusammenfassung über Lucy.",
+   "text": "Lucy gehört zu den {{Vormenschen}}. Sie lebte vor über {{3}} Millionen Jahren in {{Ostafrika}}. Sie ging {{vorwiegend|überwiegend}} aufrecht und sah wahrscheinlich eher wie ein {{Schimpanse}} aus.",
+   "info": "Das ist die Kurzfassung des Themas Lucy.",
+   "wortbank": [
+    "Vormenschen",
+    "3",
+    "Ostafrika",
+    "vorwiegend",
+    "Schimpanse",
+    "30",
+    "Neandertaler"
+   ],
+   "lesen": [
+    "Lucy: der Fund",
+    "Wie sah Lucy aus?"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Afrika und der Fund von Lucy": [
+   "Afrika: Wiege der Menschheit",
+   "Lucy: der Fund"
+  ],
+  "B – Aussehen, aufrechter Gang und seine Folgen": [
+   "Afrika: Wiege der Menschheit",
+   "Lucy: der Fund",
+   "Wie sah Lucy aus?",
+   "Der aufrechte Gang und seine Folgen"
+  ],
+  "C – Schimpanse, Lucy und Mensch vergleichen": "Schimpanse, Lucy und Mensch im Vergleich",
+  "D – Verfassertext auswerten: die drei Schritte": "Verfassertext auswerten: drei Schritte",
+  "E – Sprache im Text: Signalwörter erkennen": [
+   "Sprache im Text: Signalwörter",
+   "Beispieltext: Lucy"
+  ],
+  "F – Klausurnahe Aufgaben": [
+   "Lucy: der Fund",
+   "Wie sah Lucy aus?",
+   "Der aufrechte Gang und seine Folgen",
+   "Schimpanse, Lucy und Mensch im Vergleich",
+   "Verfassertext auswerten: drei Schritte",
+   "Sprache im Text: Signalwörter",
+   "Beispieltext: Lucy"
+  ]
+ },
+ "probe": false
+}

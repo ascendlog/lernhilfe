@@ -1,0 +1,1024 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-5a-neolithische-revolution",
+ "titel": "Geschichte Teil 5a: Die Neolithische Revolution",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Ende der Eiszeit, Mittelsteinzeit, sesshaft werden um 9000 v. Chr., fruchtbarer Halbmond, Haustiere und Nutzpflanzen, Pflug und Rad, Rechnen mit Jahren. Mit Lernblatt, Zeichnungen und Übungsaufgaben.",
+ "hinweis": "Die Jahreszahlen folgen dem Heft (Jungsteinzeit ca. 9000 bis 3000 v. Chr.). Das Buch nennt den Beginn der Warmzeit „vor rund 10 000 bis 11 000 Jahren“ und teilt die Steinzeit in drei Teile (mit Mittelsteinzeit). Beides gilt.",
+ "lernblatt": [
+  {
+   "titel": "Das Ende der Eiszeit",
+   "text": "Die **Eiszeit** war eine lange Kaltzeit. Ihre letzte Kaltphase heißt **Würm-Eiszeit**. In Mitteleuropa gab es damals kaum Wälder. Stattdessen breitete sich eine weite **Steppe** aus, eine Landschaft mit Gräsern, Kräutern und niedrigen Büschen. Dort lebten Mammuts, Wollnashörner, Steppenbisons und riesige Herden von Rentieren und Wildpferden.\nVor rund 10 000 bis 11 000 Jahren wurde es wärmer. Damit begann die **Warmzeit**, in der wir noch heute leben. Das änderte sich:\n\n- Die **Gletscher** schmolzen, und es kam zu Überschwemmungen.\n- Es regnete mehr.\n- Das Schmelzwasser floss in die Meere, der **Meeresspiegel** (die Höhe des Wassers im Meer) stieg wieder.\n- **Mischwälder** (Wälder aus Laub- und Nadelbäumen) breiteten sich aus.\n- Tiere, die Kälte lieben, zogen nach Norden oder starben aus. Im Wald lebten nun zum Beispiel Ur, Braunbär, Wisent, Hirsch, Reh, Wildschwein, Wolf und Luchs.",
+   "merke": "Am Ende der Eiszeit wird es wärmer und regnerischer: Die Gletscher schmelzen, der Meeresspiegel steigt, Mischwälder ersetzen die Steppe, und die Tierwelt ändert sich."
+  },
+  {
+   "titel": "Die Mittelsteinzeit: Jäger im Wald",
+   "text": "Nach der Eiszeit begann in Mitteleuropa laut Buch zusätzlich die **Mittelsteinzeit**. Sie dauerte nach dem Buch rund 3000 Jahre. Die Menschen blieben noch **Jäger und Sammler**: Sie lebten von der Jagd und von dem, was sie sammelten. Ackerbau und Viehzucht kannten sie noch nicht.\nIm dichten Wald war die Jagd schwerer als in der offenen Steppe. Dabei half **Pfeil und Bogen**, denn damit kann man aus der Ferne gezielt schießen.\nFür die Prüfung zählt, wie dein Lehrer die Steinzeit einteilt. Im Heft sind es **zwei Teile**: Altsteinzeit (bis ca. 9000 v. Chr.) und Jungsteinzeit (ca. 9000 bis 3000 v. Chr.). Im Buch kommt die Mittelsteinzeit zusätzlich dazu, dort sind es drei Teile. Beides ist nicht falsch. Alle Jahreszahlen sind Näherungswerte (ungefähre Angaben), darum passen Heft und Buch nicht überall genau zusammen. Die drei Abschnitte haben auch griechische Namen: **Paläolithikum** (Altsteinzeit), **Mesolithikum** (Mittelsteinzeit) und **Neolithikum** (Jungsteinzeit).",
+   "merke": "Heft: zwei Teile (Alt- und Jungsteinzeit). Buch: drei Teile, dazu die Mittelsteinzeit. In der Mittelsteinzeit sind die Menschen noch Jäger und Sammler."
+  },
+  {
+   "titel": "Sesshaft werden: die neolithische Revolution",
+   "text": "Um **9000 v. Chr.** begannen die ersten Menschen, **sesshaft** zu werden. Das heißt: Sie wohnten dauerhaft an einem festen Ort. Vorher waren sie ihrer Nahrung hinterhergezogen. Nun sorgten sie selbst für ihr Essen:\n\n- **Ackerbau**: Sie bauten Getreide an.\n- **Viehzucht**: Sie hielten und züchteten Tiere.\n- **Vorratshaltung**: Sie legten Vorräte an.\n\nDas warme, regenreiche Klima der Warmzeit machte den Getreideanbau möglich. Der Wandel war so gewaltig, dass man von der **neolithischen Revolution** spricht. Neolithisch heißt jungsteinzeitlich, deshalb sagt man auch **steinzeitliche Revolution**. Mit „Revolution“ ist hier kein Aufstand gemeint, sondern ein **grundlegender Wandel**. Er geschah nicht von heute auf morgen, sondern Schritt für Schritt. Gejagt wurde weiterhin.",
+   "merke": "Neolithische Revolution: Aus Jägern und Sammlern werden sesshafte Bauern (um 9000 v. Chr.) mit Ackerbau, Viehzucht und Vorratshaltung. „Revolution“ heißt hier grundlegender Wandel, nicht Aufstand."
+  },
+  {
+   "titel": "Der fruchtbare Halbmond und der Weg nach Europa",
+   "text": "Die neue Lebensweise begann im heutigen **Irak**, in der fruchtbaren Gegend um die Flüsse **Euphrat** und **Tigris**. Allgemein sagt man: im **fruchtbaren Halbmond**. So nennt man das halbmondförmige Gebiet zwischen dem Mittelmeer und dem Persischen Golf. Heute liegen dort Israel, Libanon, die Türkei, Syrien, der Irak und der Iran.\nVon dort verbreitete sich die neue Lebensweise langsam nach Westen und Norden. Das dauerte Jahrhunderte und Jahrtausende. In Mitteleuropa gibt es die ersten Ackerbauern ab etwa **5700 v. Chr.** Nach ihren verzierten Gefäßen nennt man sie die **Linienbandkeramische Kultur**.",
+   "merke": "Ausgangspunkt: Irak, Euphrat und Tigris (fruchtbarer Halbmond). In Mitteleuropa ab ca. 5700 v. Chr.: Linienbandkeramische Kultur.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" width=\"760\" height=\"440\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"440\" fill=\"#ffffff\"/><rect width=\"760\" height=\"440\" fill=\"#f3ead0\"/><polygon points=\"0,170 120,172 250,196 240,262 220,340 200,440 0,440\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><polygon points=\"600,350 650,342 706,362 760,392 760,440 640,440 624,396\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><path d=\"M 258 336 C 246 244, 304 154, 414 152 C 524 150, 592 240, 606 340\" fill=\"none\" stroke=\"#7fb36b\" stroke-width=\"56\" stroke-linecap=\"round\" opacity=\"0.6\"/><path d=\"M 372 118 C 392 176, 478 240, 604 352\" fill=\"none\" stroke=\"#2b7bb9\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M 470 104 C 500 172, 566 246, 616 352\" fill=\"none\" stroke=\"#2b7bb9\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"318\" y1=\"150\" x2=\"114.5\" y2=\"65.7\" stroke=\"#a14a00\" stroke-width=\"6\" stroke-linecap=\"round\"/><polygon points=\"96,58 118.7,55.5 110.3,75.8\" fill=\"#a14a00\"/><circle cx=\"540\" cy=\"300\" r=\"9\" fill=\"#e2701a\" stroke=\"#fff\" stroke-width=\"3\"/><text x=\"96\" y=\"316\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Mittelmeer</text><text x=\"702\" y=\"402\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Persischer</text><text x=\"702\" y=\"421\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b5e8c\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Golf</text><text x=\"396\" y=\"112\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f96\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Euphrat</text><text x=\"488\" y=\"98\" font-size=\"15\" font-weight=\"bold\" fill=\"#1f5f96\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Tigris</text><text x=\"246\" y=\"258\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6b24\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">fruchtbarer</text><text x=\"246\" y=\"277\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6b24\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Halbmond</text><text x=\"290\" y=\"80\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Türkei</text><text x=\"364\" y=\"232\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Syrien</text><text x=\"540\" y=\"332\" font-size=\"15\" font-weight=\"bold\" fill=\"#7a3a00\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Irak</text><text x=\"690\" y=\"210\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Iran</text><text x=\"20\" y=\"30\" font-size=\"16\" font-weight=\"bold\" fill=\"#a14a00\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Weg nach Europa</text><text x=\"742\" y=\"28\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">vereinfachte Skizze, nicht maßstäblich</text></svg>",
+   "bildAlt": "Vereinfachte Skizze: links das Mittelmeer, unten rechts der Persische Golf, dazwischen ein grüner Bogen, der fruchtbare Halbmond. Die Flüsse Euphrat und Tigris fließen von oben zum Persischen Golf. Der Irak ist markiert. Ein Pfeil zeigt von dort nach Nordwesten: der Weg nach Europa."
+  },
+  {
+   "titel": "Haustiere: Domestikation und Züchtung",
+   "text": "Die ersten Bauern **domestizierten** Tiere und Pflanzen. Bei der **Domestikation** werden wilde Tiere und Pflanzen gefangen, gezähmt und für den Menschen nutzbar gemacht. Bei der **Züchtung** wählt man gezielt Tiere und Pflanzen mit gewünschten Eigenschaften aus und fördert sie.\n\n- Der **Hund** wurde schon in der Altsteinzeit zum Haustier, vor etwa 14 000 Jahren.\n- Danach folgten **Schaf, Ziege, Rind, Schwein** und Pferd.\n- **Schafe** liefern Fleisch, Wolle und Milch. Aus der Milch machte man Käse, der länger haltbar ist.\n- Ab etwa **5000 v. Chr.** nutzte man **Esel** und Pferd als Reit-, Pack- und Zugtiere.\n\nTiere zu halten und zu züchten war weniger gefährlich als die Jagd. Gejagt wurde trotzdem weiter.",
+   "merke": "Domestikation: zähmen und nutzbar machen. Züchtung: gezielt die besten Tiere und Pflanzen auswählen. Hund schon in der Altsteinzeit, dann Schaf, Ziege, Rind, Schwein."
+  },
+  {
+   "titel": "Nutzpflanzen der ersten Bauern",
+   "text": "Die wichtigsten Pflanzen der ersten Bauern waren:\n\n- **Emmer, Einkorn und Gerste**: Getreide für Brot und Brei.\n- **Lein**: Aus ihm gewann man Öl und Fasern zum Spinnen.\n- **Mohn**: Er diente als Gewürz und als Heilmittel.\n- Dazu kamen Hülsenfrüchte (Pflanzen mit Schoten, zum Beispiel Erbsen und Linsen). Pilze, Nüsse, Obst, Beeren und Wurzeln rundeten den Speiseplan ab.\n\nAm Anfang war das Essen einseitig. Fiel die Ernte aus, drohten **Hungersnöte** (viele Menschen haben zu wenig zu essen). Trotzdem wuchs die Bevölkerung stetig, und es mussten neue Siedlungen und Ackerflächen angelegt werden.",
+   "merke": "Getreide (Emmer, Einkorn, Gerste) wurde das Grundnahrungsmittel. Lein liefert Öl und Fasern, Mohn ist Gewürz und Heilmittel."
+  },
+  {
+   "titel": "Pflug und Rad",
+   "text": "Der **Pflug** lockert den Boden, bevor man das Getreide aussät. Die ersten Pflüge waren aus Holz. In Mitteleuropa gibt es den Pflug seit etwa **4500 v. Chr.** Getreide wurde zum **Grundnahrungsmittel**, also zum wichtigsten Essen.\nDas **Rad** wurde erst um **3000 v. Chr.** erfunden, also lange nach dem Beginn des Ackerbaus. Esel und Pferd nutzte man schon seit etwa 5000 v. Chr. als Reit-, Pack- und Zugtiere.",
+   "merke": "Pflug in Mitteleuropa seit ca. 4500 v. Chr., Rad um 3000 v. Chr. Das Rad kam viel später als der Ackerbau."
+  },
+  {
+   "titel": "Zeitstrahl und Rechnen mit Jahren",
+   "text": "Auf dem Zeitstrahl siehst du die wichtigsten Jahre dieses Teils. Bei Jahren **vor Christi Geburt (v. Chr.)** zählen die Zahlen rückwärts: Je größer die Zahl, desto früher war es. Darum rechnest du so:\n\n- Von einem Jahr v. Chr. zu einem späteren Jahr v. Chr.: **abziehen**. Beispiel: 9000 v. Chr. bis 3000 v. Chr. = 9000 − 3000 = 6000 Jahre. So lange dauerte die Jungsteinzeit nach dem Heft.\n- Von einem Jahr v. Chr. bis heute: **addieren**. Beispiel: 9000 v. Chr. bis 2026 = 9000 + 2026 = 11 026 Jahre, also etwa 11 000 Jahre.\n\nRechne wie in der Schule, ohne Jahr 0: Ein Jahr 0 gibt es nicht, du rechnest bei Abständen über Christi Geburt einfach zusammen. Weil die Jahre ungefähre Werte sind (um, ca.), sind auch die Ergebnisse ungefähre Werte.\nDie Jungsteinzeit gehört zur Epoche **Ur- und Frühgeschichte** (bis 3000 v. Chr.). Die Mittelsteinzeit ist auf diesem Zeitstrahl nicht extra eingezeichnet, denn er folgt dem Heft.",
+   "merke": "Von v. Chr. zu v. Chr.: abziehen. Von v. Chr. bis heute: addieren.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 236\" width=\"760\" height=\"236\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"236\" fill=\"#ffffff\"/><rect x=\"30\" y=\"124\" width=\"136.0\" height=\"38\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"166.0\" y=\"124\" width=\"544.0\" height=\"38\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><polygon points=\"30,143.0 16,134.0 16,152.0\" fill=\"#555\"/><text x=\"98.0\" y=\"149\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Altsteinzeit</text><text x=\"438.0\" y=\"149\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Jungsteinzeit</text><line x1=\"166.0\" y1=\"162\" x2=\"166.0\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"166.0\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">9000</text><line x1=\"347.3\" y1=\"162\" x2=\"347.3\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"347.3\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">7000</text><line x1=\"465.2\" y1=\"162\" x2=\"465.2\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"465.2\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">5700</text><line x1=\"528.7\" y1=\"162\" x2=\"528.7\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"528.7\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">5000</text><line x1=\"574.0\" y1=\"162\" x2=\"574.0\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"574.0\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4500</text><line x1=\"710.0\" y1=\"162\" x2=\"710.0\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"710.0\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3000</text><text x=\"370.0\" y=\"218\" font-size=\"15\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Jahre v. Chr.</text><line x1=\"166.0\" y1=\"100\" x2=\"166.0\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"166.0\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><text x=\"166.0\" y=\"76\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Menschen werden</text><text x=\"166.0\" y=\"94\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">sesshaft</text><line x1=\"347.3\" y1=\"52\" x2=\"347.3\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"347.3\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><text x=\"347.3\" y=\"46\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Keramik</text><line x1=\"465.2\" y1=\"100\" x2=\"465.2\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"465.2\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><text x=\"465.2\" y=\"76\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Ackerbau in</text><text x=\"465.2\" y=\"94\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Mitteleuropa</text><line x1=\"528.7\" y1=\"52\" x2=\"528.7\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"528.7\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><text x=\"528.7\" y=\"28\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Esel und Pferd als</text><text x=\"528.7\" y=\"46\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Reit- und Packtiere</text><line x1=\"574.0\" y1=\"100\" x2=\"574.0\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"574.0\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><text x=\"566.0\" y=\"76\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Pflug in</text><text x=\"566.0\" y=\"94\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Mitteleuropa</text><line x1=\"710.0\" y1=\"52\" x2=\"710.0\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"710.0\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><text x=\"710.0\" y=\"46\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Rad</text></svg>",
+   "bildAlt": "Zeitstrahl von 10 500 bis 3000 v. Chr. Die Altsteinzeit reicht bis 9000 v. Chr., danach folgt die Jungsteinzeit bis 3000 v. Chr. Eingezeichnet sind: 9000 Menschen werden sesshaft, 7000 Keramik, 5700 Ackerbau in Mitteleuropa, 5000 Esel und Pferd als Reit- und Packtiere, 4500 Pflug in Mitteleuropa, 3000 Rad."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Das Ende der Eiszeit",
+   "frage": "Wie nennt man die Zeit, die vor rund 10 000 bis 11 000 Jahren begann und in der wir bis heute leben?",
+   "info": "Nach der letzten Kaltphase, der Würm-Eiszeit, begann die Warmzeit. Wir leben noch heute in ihr.",
+   "antworten": [
+    "Warmzeit",
+    "Eiszeit",
+    "Altsteinzeit",
+    "Würm-Eiszeit"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Das Ende der Eiszeit",
+   "frage": "Wähle alle richtigen Antworten: Was veränderte sich am Ende der Eiszeit?",
+   "info": "Es wurde wärmer und es regnete mehr. Das Eis schmolz, das Wasser floss in die Meere, und Wälder ersetzten die Steppe.",
+   "antworten": [
+    "Die Gletscher schmolzen.",
+    "Der Meeresspiegel stieg wieder.",
+    "Mischwälder breiteten sich aus.",
+    "Die Steppe wurde größer.",
+    "Es fiel weniger Regen."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Das Ende der Eiszeit",
+   "frage": "Als die Eiszeit zu Ende ging, sank der Meeresspiegel.",
+   "info": "Das Eis schmolz und das Wasser floss zurück in die Meere, darum stieg der Meeresspiegel. In der Eiszeit war er niedrig, weil viel Wasser im Eis gebunden war.",
+   "richtig": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Das Ende der Eiszeit",
+   "frage": "Gehört das zur Eiszeit oder zur Warmzeit?",
+   "info": "Die Eiszeit ist kalt und trocken, die Warmzeit warm und regenreicher.",
+   "paare": [
+    [
+     "Gletscher dehnen sich weit aus",
+     "Eiszeit"
+    ],
+    [
+     "Meeresspiegel steigt",
+     "Warmzeit"
+    ],
+    [
+     "Steppe ohne Wälder",
+     "Eiszeit"
+    ],
+    [
+     "Mischwälder breiten sich aus",
+     "Warmzeit"
+    ],
+    [
+     "wenig Niederschlag",
+     "Eiszeit"
+    ],
+    [
+     "Überschwemmungen durch Schmelzwasser",
+     "Warmzeit"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Das Ende der Eiszeit",
+   "frage": "Welche Tiere lebten nach dem Ende der Eiszeit in den Wäldern Mitteleuropas?",
+   "tipp": "Denke an Tiere, die im Wald leben, nicht an Tiere der offenen, kalten Steppe.",
+   "info": "Im Wald lebten Ur, Braunbär, Wisent, Hirsch, Reh, Wildschwein, Wolf und Luchs. Mammut, Wollnashorn und Höhlenlöwe gehören in die kalte Steppe.",
+   "antworten": [
+    "Hirsch, Reh und Wildschwein",
+    "Mammut, Wollnashorn und Höhlenbär",
+    "Höhlenlöwe, Höhlenhyäne und Mammut",
+    "Steppenbison, Wollnashorn und Höhlenlöwe"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Das Ende der Eiszeit",
+   "frage": "Wie nennt man die weite Landschaft aus Gräsern, Kräutern und niedrigen Büschen, die in der Eiszeit in Mitteleuropa fast ohne Bäume war?",
+   "info": "In der kalten, trockenen Eiszeit wuchsen keine Wälder, sondern eine Steppe.",
+   "richtig": [
+    "Steppe",
+    "die Steppe",
+    "Steppenlandschaft"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Das Ende der Eiszeit",
+   "frage": "Ergänze den Text über das Ende der Eiszeit.",
+   "text": "Am Ende der Eiszeit wurde es {{wärmer}} und es regnete mehr. Die {{Gletscher}} schmolzen und der {{Meeresspiegel}} stieg wieder. Anstelle der Steppe breiteten sich {{Mischwälder}} aus. Tiere, die Kälte lieben, zogen nach {{Norden}} oder verschwanden.",
+   "info": "Wärme und mehr Regen verändern die Landschaft: Eis schmilzt, Wald wächst, Kältetiere ziehen nach Norden.",
+   "wortbank": [
+    "wärmer",
+    "Gletscher",
+    "Meeresspiegel",
+    "Mischwälder",
+    "Norden",
+    "kälter",
+    "Süden"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Die Mittelsteinzeit",
+   "frage": "Ordne die Abschnitte der Steinzeit von früh nach spät.",
+   "info": "Altsteinzeit (Paläolithikum), Mittelsteinzeit (Mesolithikum), Jungsteinzeit (Neolithikum). Im Heft stehen nur zwei Teile, im Buch drei.",
+   "schritte": [
+    "Altsteinzeit",
+    "Mittelsteinzeit",
+    "Jungsteinzeit"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Die Mittelsteinzeit",
+   "frage": "In der Mittelsteinzeit lebten die Menschen schon als Bauern in festen Dörfern.",
+   "info": "In der Mittelsteinzeit waren die Menschen noch Jäger und Sammler. Ackerbau und Viehzucht kamen erst mit der Jungsteinzeit.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Mittelsteinzeit",
+   "frage": "Welche Jagdwaffe erleichterte die Jagd im dichten Wald?",
+   "info": "Mit Pfeil und Bogen kann man aus der Ferne gezielt schießen. Das half bei der Jagd im dichten Wald.",
+   "antworten": [
+    "Pfeil und Bogen",
+    "Lanze und Speer",
+    "Speerschleuder und Speer",
+    "Harpune und Angel"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Die Mittelsteinzeit",
+   "frage": "Lebte das Tier in der Steppe der Eiszeit oder im Wald der Warmzeit?",
+   "info": "Mammut, Wollnashorn und Steppenbison gehören zur kalten Steppe, Ur, Luchs und Wisent zum Wald der Warmzeit.",
+   "paare": [
+    [
+     "Mammut",
+     "Steppe der Eiszeit"
+    ],
+    [
+     "Ur",
+     "Wald der Warmzeit"
+    ],
+    [
+     "Wollnashorn",
+     "Steppe der Eiszeit"
+    ],
+    [
+     "Luchs",
+     "Wald der Warmzeit"
+    ],
+    [
+     "Steppenbison",
+     "Steppe der Eiszeit"
+    ],
+    [
+     "Wisent",
+     "Wald der Warmzeit"
+    ]
+   ],
+   "lesen": "Das Ende der Eiszeit"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Die Mittelsteinzeit",
+   "frage": "Nach dem Buch dauerte die Mittelsteinzeit in Mitteleuropa rund 3000 Jahre.",
+   "info": "Das steht nur im Buch, nicht im Heft. Das Buch teilt die Steinzeit in drei Teile, das Heft in zwei. Alle Jahreszahlen sind Näherungswerte.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Die Mittelsteinzeit",
+   "frage": "Ergänze den Text über die Mittelsteinzeit.",
+   "text": "In der {{Mittelsteinzeit}} blieben die Menschen noch {{Jäger|Sammler}} und {{Sammler|Jäger}}. Im dichten Wald erleichterten {{Pfeil und Bogen}} die Jagd. Ackerbau und Viehzucht gab es noch nicht.",
+   "info": "Die Mittelsteinzeit liegt zwischen Alt- und Jungsteinzeit. Die Menschen lebten noch von Jagd und Sammeln.",
+   "wortbank": [
+    "Mittelsteinzeit",
+    "Jäger",
+    "Sammler",
+    "Pfeil und Bogen",
+    "Bauern",
+    "Lanzen"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Sesshaft werden: die neolithische Revolution",
+   "frage": "Um welches Jahr v. Chr. begannen die ersten Menschen, sesshaft zu werden?",
+   "info": "Nach dem Heft begannen die ersten Menschen um 9000 v. Chr. sesshaft zu werden.",
+   "richtig": [
+    "9000 v. Chr.",
+    "9000",
+    "9000 v.Chr.",
+    "9000 vor Chr.",
+    "9000 vor Christus",
+    "9000 vor Christi Geburt",
+    "um 9000",
+    "um 9000 v. Chr.",
+    "um 9000 v.Chr.",
+    "um 9000 vor Chr.",
+    "um 9000 vor Christus",
+    "um 9000 vor Christi Geburt",
+    "ca. 9000",
+    "ca. 9000 v. Chr.",
+    "ca. 9000 v.Chr.",
+    "ca. 9000 vor Chr.",
+    "ca. 9000 vor Christus",
+    "ca. 9000 vor Christi Geburt",
+    "etwa 9000",
+    "etwa 9000 v. Chr.",
+    "etwa 9000 v.Chr.",
+    "etwa 9000 vor Chr.",
+    "etwa 9000 vor Christus",
+    "etwa 9000 vor Christi Geburt",
+    "ungefähr 9000",
+    "ungefähr 9000 v. Chr.",
+    "rund 9000",
+    "rund 9000 v. Chr.",
+    "9.000",
+    "9.000 v. Chr.",
+    "ca. 9.000",
+    "ca. 9.000 v. Chr.",
+    "9 000",
+    "9 000 v. Chr.",
+    "ca. 9 000",
+    "ca. 9 000 v. Chr."
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Sesshaft werden: die neolithische Revolution",
+   "frage": "Was bedeutet das Wort „sesshaft“?",
+   "info": "Sesshaft sind Menschen, die an einem Ort bleiben. Die Jäger und Sammler der Altsteinzeit waren nicht sesshaft.",
+   "antworten": [
+    "Man wohnt dauerhaft an einem festen Ort.",
+    "Man zieht mit den Tierherden umher.",
+    "Man wechselt je nach Jahreszeit den Lagerplatz.",
+    "Man wohnt nur im Winter in einer Höhle."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Sesshaft werden: die neolithische Revolution",
+   "frage": "Wähle alle richtigen Antworten: Was gehörte zur neuen Lebensweise der ersten Bauern?",
+   "info": "Die neue Lebensweise bestand aus Ackerbau, Viehzucht und Vorratshaltung. Wechselnde Lager und Wanderungen gehören zu den Jägern und Sammlern.",
+   "antworten": [
+    "Ackerbau",
+    "Viehzucht",
+    "Vorratshaltung",
+    "Ständig wechselnde Lagerplätze",
+    "Wanderungen hinter den Tierherden her"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Sesshaft werden: die neolithische Revolution",
+   "frage": "Ergänze den Text über den Beginn der neuen Lebensweise.",
+   "text": "Um {{9000}} v. Chr. begannen die ersten Menschen, {{sesshaft}} zu werden. Statt ihrer Nahrung hinterherzuziehen, betrieben sie {{Ackerbau|Viehzucht}} und {{Viehzucht|Ackerbau}} und legten {{Vorräte}} an.",
+   "info": "Sesshaft werden heißt, an einem Ort zu bleiben. Dort bauten die Menschen Getreide an, hielten Tiere und legten Vorräte an.",
+   "wortbank": [
+    "9000",
+    "sesshaft",
+    "Ackerbau",
+    "Viehzucht",
+    "Vorräte",
+    "Nomaden",
+    "Wanderschaft"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Sesshaft werden: die neolithische Revolution",
+   "frage": "Warum spricht man von einer neolithischen (steinzeitlichen) „Revolution“?",
+   "tipp": "Es geht nicht um einen Kampf.",
+   "info": "Revolution heißt hier nicht Aufstand, sondern grundlegender Wandel: vom Jagen und Sammeln zu Ackerbau, Viehzucht und Vorratshaltung.",
+   "antworten": [
+    "Weil sich das Leben der Menschen grundlegend änderte.",
+    "Weil die Menschen gegen ihre Anführer kämpften und sie stürzten.",
+    "Weil innerhalb eines einzigen Jahres plötzlich alles anders wurde.",
+    "Weil zwischen Jägern und Bauern ein großer Krieg ausbrach."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Sesshaft werden: die neolithische Revolution",
+   "frage": "Das Leben der ersten Bauern veränderte sich nicht von heute auf morgen, sondern Schritt für Schritt.",
+   "info": "Die neue Lebensweise brauchte Jahrhunderte und Jahrtausende, um sich zu verbreiten.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Sesshaft werden: die neolithische Revolution",
+   "frage": "Ordne die Fachwörter zu.",
+   "tipp": "Alt, mittel, jung: Paläo, Meso, Neo.",
+   "info": "„Neolithisch“ heißt jungsteinzeitlich. Paläo = alt, meso = mittel, neo = neu (jung).",
+   "paare": [
+    [
+     "Paläolithikum",
+     "Altsteinzeit"
+    ],
+    [
+     "Mesolithikum",
+     "Mittelsteinzeit"
+    ],
+    [
+     "Neolithikum",
+     "Jungsteinzeit"
+    ],
+    [
+     "neolithische Revolution",
+     "grundlegender Wandel zu Ackerbau und Viehzucht"
+    ],
+    [
+     "sesshaft",
+     "dauerhaft an einem Ort wohnend"
+    ]
+   ],
+   "extra": [
+    "Wandel zu Jagen und Sammeln"
+   ],
+   "lesen": [
+    "Die Mittelsteinzeit: Jäger im Wald",
+    "Sesshaft werden: die neolithische Revolution"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Der Tigris ist einer der beiden großen Flüsse im Gebiet des fruchtbaren Halbmonds. Wie heißt der andere?",
+   "info": "Euphrat und Tigris fließen durch den Irak zum Persischen Golf.",
+   "richtig": [
+    "Euphrat",
+    "der Euphrat"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Wo begann die neolithische Revolution?",
+   "info": "Der Ausgangspunkt war der heutige Irak mit der fruchtbaren Gegend um Euphrat und Tigris.",
+   "antworten": [
+    "Im heutigen Irak, an den Flüssen Euphrat und Tigris",
+    "In Mitteleuropa, in den Flusstälern von Rhein und Donau",
+    "In Nordeuropa, an den Küsten von Nordsee und Ostsee",
+    "Im Süden Afrikas, am Rand der großen Wüste"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Ergänze die Beschreibung.",
+   "text": "Das halbmondförmige Gebiet zwischen dem {{Mittelmeer|Persischen Golf}} und dem {{Persischen Golf|Mittelmeer}} nennt man den {{fruchtbaren Halbmond}}.",
+   "info": "Der fruchtbare Halbmond reicht vom Mittelmeer bis zum Persischen Golf.",
+   "wortbank": [
+    "Mittelmeer",
+    "Persischen Golf",
+    "fruchtbaren Halbmond",
+    "Schwarzen Meer",
+    "Roten Meer"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Wähle alle richtigen Antworten: Welche heutigen Länder gehören zum fruchtbaren Halbmond?",
+   "info": "Zum fruchtbaren Halbmond gehören heute Israel, Libanon, die Türkei, Syrien, der Irak und der Iran.",
+   "antworten": [
+    "Irak",
+    "Syrien",
+    "Libanon",
+    "Griechenland",
+    "Spanien",
+    "Polen"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Was zeigt die Nummer auf der Skizze?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 440\" width=\"760\" height=\"440\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"440\" fill=\"#ffffff\"/><rect width=\"760\" height=\"440\" fill=\"#f3ead0\"/><polygon points=\"0,170 120,172 250,196 240,262 220,340 200,440 0,440\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><polygon points=\"600,350 650,342 706,362 760,392 760,440 640,440 624,396\" fill=\"#bfe0f3\" stroke=\"#5aa6d1\" stroke-width=\"2\"/><path d=\"M 258 336 C 246 244, 304 154, 414 152 C 524 150, 592 240, 606 340\" fill=\"none\" stroke=\"#7fb36b\" stroke-width=\"56\" stroke-linecap=\"round\" opacity=\"0.6\"/><path d=\"M 372 118 C 392 176, 478 240, 604 352\" fill=\"none\" stroke=\"#2b7bb9\" stroke-width=\"5\" stroke-linecap=\"round\"/><path d=\"M 470 104 C 500 172, 566 246, 616 352\" fill=\"none\" stroke=\"#2b7bb9\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"318\" y1=\"150\" x2=\"114.5\" y2=\"65.7\" stroke=\"#a14a00\" stroke-width=\"6\" stroke-linecap=\"round\"/><polygon points=\"96,58 118.7,55.5 110.3,75.8\" fill=\"#a14a00\"/><circle cx=\"540\" cy=\"300\" r=\"9\" fill=\"#e2701a\" stroke=\"#fff\" stroke-width=\"3\"/><circle cx=\"96\" cy=\"316\" r=\"13\" fill=\"#e2701a\"/><text x=\"96\" y=\"321.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"706\" cy=\"410\" r=\"13\" fill=\"#e2701a\"/><text x=\"706\" y=\"415.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"566\" cy=\"262\" r=\"13\" fill=\"#e2701a\"/><text x=\"566\" y=\"267.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"250\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"250\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><text x=\"290\" y=\"80\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Türkei</text><text x=\"364\" y=\"232\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Syrien</text><text x=\"540\" y=\"332\" font-size=\"15\" font-weight=\"bold\" fill=\"#7a3a00\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Irak</text><text x=\"690\" y=\"210\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Iran</text><text x=\"20\" y=\"30\" font-size=\"16\" font-weight=\"bold\" fill=\"#a14a00\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Weg nach Europa</text><text x=\"742\" y=\"28\" font-size=\"15\" font-weight=\"normal\" fill=\"#555\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">vereinfachte Skizze, nicht maßstäblich</text></svg>",
+   "bildAlt": "Vereinfachte Skizze: Nummer 1 im Mittelmeer links, Nummer 2 im Persischen Golf unten rechts, Nummer 3 bei den beiden Flüssen und Nummer 4 auf dem grünen Bogen des fruchtbaren Halbmonds.",
+   "info": "Das Mittelmeer liegt links (im Westen), der Persische Golf unten rechts. Der grüne Bogen dazwischen ist der fruchtbare Halbmond, die Flüsse fließen auf den Golf zu.",
+   "paare": [
+    [
+     "Nummer 1",
+     "Mittelmeer"
+    ],
+    [
+     "Nummer 2",
+     "Persischer Golf"
+    ],
+    [
+     "Nummer 3",
+     "Euphrat und Tigris"
+    ],
+    [
+     "Nummer 4",
+     "fruchtbarer Halbmond"
+    ]
+   ],
+   "extra": [
+    "Schwarzes Meer"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Ab wann etwa gab es in Mitteleuropa die ersten Ackerbauern? Nenne das Jahr v. Chr.",
+   "info": "In Mitteleuropa gibt es die ersten Ackerbauern ab ca. 5700 v. Chr. Man nennt sie Linienbandkeramische Kultur.",
+   "richtig": [
+    "5700 v. Chr.",
+    "5700",
+    "5700 v.Chr.",
+    "5700 vor Chr.",
+    "5700 vor Christus",
+    "5700 vor Christi Geburt",
+    "um 5700",
+    "um 5700 v. Chr.",
+    "um 5700 v.Chr.",
+    "um 5700 vor Chr.",
+    "um 5700 vor Christus",
+    "um 5700 vor Christi Geburt",
+    "ca. 5700",
+    "ca. 5700 v. Chr.",
+    "ca. 5700 v.Chr.",
+    "ca. 5700 vor Chr.",
+    "ca. 5700 vor Christus",
+    "ca. 5700 vor Christi Geburt",
+    "etwa 5700",
+    "etwa 5700 v. Chr.",
+    "etwa 5700 v.Chr.",
+    "etwa 5700 vor Chr.",
+    "etwa 5700 vor Christus",
+    "etwa 5700 vor Christi Geburt",
+    "ungefähr 5700",
+    "ungefähr 5700 v. Chr.",
+    "rund 5700",
+    "rund 5700 v. Chr.",
+    "5.700",
+    "5.700 v. Chr.",
+    "ca. 5.700",
+    "ca. 5.700 v. Chr.",
+    "5 700",
+    "5 700 v. Chr.",
+    "ca. 5 700",
+    "ca. 5 700 v. Chr."
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Wie nennt man die erste Kultur der Ackerbauern in Mitteleuropa, benannt nach ihren verzierten Gefäßen?",
+   "info": "Die Linienbandkeramische Kultur ist nach den verzierten Gefäßen ihrer Bauern benannt (Keramik = Gefäße aus Ton).",
+   "antworten": [
+    "Linienbandkeramische Kultur",
+    "Faustkeilkultur der Altsteinzeit",
+    "Rentierjäger-Kultur der Eiszeit",
+    "Würm-Kultur der Kaltzeit"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Der fruchtbare Halbmond und der Weg nach Europa",
+   "frage": "Schon um 9000 v. Chr. gab es in Mitteleuropa Ackerbauern.",
+   "tipp": "Die neue Lebensweise breitete sich langsam aus.",
+   "info": "Um 9000 v. Chr. begann es im Irak. In Mitteleuropa gibt es die ersten Bauern erst ab ca. 5700 v. Chr., also etwa 3300 Jahre später.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Was bedeutet „Domestikation“?",
+   "info": "Bei der Domestikation fängt und zähmt man wilde Tiere und Pflanzen und macht sie für den Menschen nutzbar.",
+   "antworten": [
+    "Wilde Tiere und Pflanzen werden gezähmt und genutzt.",
+    "Wilde Tiere und Pflanzen werden nur gejagt und gesammelt.",
+    "Man legt große Vorräte für den Winter im Dorf an.",
+    "Man brennt Wald ab, um Platz für Felder zu schaffen."
+   ],
+   "richtig": 0,
+   "lesen": "Haustiere: Domestikation und Züchtung"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Welches Beispiel zeigt eine Züchtung?",
+   "tipp": "Bei der Züchtung wählt man gezielt aus.",
+   "info": "Züchtung heißt: gezielt Tiere und Pflanzen mit gewünschten Eigenschaften auswählen und fördern.",
+   "antworten": [
+    "Ein Bauer sät nur die Körner der besten Pflanzen aus.",
+    "Ein Jäger fängt ein wildes Schaf und sperrt es in ein Gehege.",
+    "Eine Bäuerin mahlt Getreide auf dem Mahlstein zu Mehl.",
+    "Ein Hirte treibt die Schafe am Morgen auf die Weide."
+   ],
+   "richtig": 0,
+   "lesen": "Haustiere: Domestikation und Züchtung"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Ordne den Weg vom Wildtier zum Haustier.",
+   "info": "Erst kommen Fangen und Zähmen (Domestikation), danach die gezielte Auswahl (Züchtung).",
+   "schritte": [
+    "Menschen fangen wilde Tiere.",
+    "Sie zähmen die Tiere und halten sie bei sich.",
+    "Sie wählen Tiere mit nützlichen Eigenschaften aus.",
+    "Die Nachkommen werden weitergezüchtet, bis ein Haustier entsteht."
+   ],
+   "lesen": "Haustiere: Domestikation und Züchtung"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Wozu nutzten die Menschen die Pflanze oder das Tier?",
+   "info": "Lein lieferte Öl und Fasern, Mohn Gewürz und Heilmittel, Gerste Brot und Brei. Schafe gaben Fleisch, Wolle und Milch, Esel trugen und zogen.",
+   "paare": [
+    [
+     "Lein",
+     "Öl und Fasern zum Spinnen"
+    ],
+    [
+     "Mohn",
+     "Gewürz und Heilmittel"
+    ],
+    [
+     "Gerste",
+     "Brot und Brei"
+    ],
+    [
+     "Schaf",
+     "Fleisch, Wolle und Milch"
+    ],
+    [
+     "Esel",
+     "Reit-, Pack- und Zugtier"
+    ]
+   ],
+   "extra": [
+    "Waffe für die Jagd",
+    "Schmuck aus Muscheln"
+   ],
+   "lesen": [
+    "Haustiere: Domestikation und Züchtung",
+    "Nutzpflanzen der ersten Bauern"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Wähle alle richtigen Antworten: Welche Pflanzen bauten die Menschen in der Jungsteinzeit an?",
+   "info": "Emmer und Einkorn sind Getreide, Lein liefert Öl und Fasern. Zusatz: Kartoffeln und Mais kamen erst nach der Entdeckung Amerikas (1492) nach Europa.",
+   "antworten": [
+    "Emmer",
+    "Einkorn",
+    "Lein",
+    "Kartoffeln",
+    "Mais"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Nutzpflanzen der ersten Bauern"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Ergänze den Text über das Schaf.",
+   "text": "Von Schafen gewann man Fleisch und {{Wolle}} für die Kleidung. Aus der {{Milch}} machte man {{Käse}}, der länger {{haltbar}} blieb.",
+   "info": "Schafe lieferten Fleisch, Wolle und Milch. Aus Milch wurde Käse, und Käse hält sich länger.",
+   "wortbank": [
+    "Wolle",
+    "Milch",
+    "Käse",
+    "haltbar",
+    "Federn",
+    "Eier"
+   ],
+   "lesen": "Haustiere: Domestikation und Züchtung"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Die Menschen der Jungsteinzeit hörten ganz auf zu jagen, weil sie Haustiere hatten.",
+   "info": "Tiere zu halten war weniger gefährlich als die Jagd. Gejagt wurde aber weiterhin.",
+   "richtig": false,
+   "lesen": "Haustiere: Domestikation und Züchtung"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Aus welcher Pflanze gewannen die Menschen Öl und Fasern zum Spinnen?",
+   "info": "Aus Lein gewann man Öl und Fasern. Zusatz: Lein heißt auch Flachs.",
+   "richtig": [
+    "Lein",
+    "der Lein",
+    "Flachs"
+   ],
+   "lesen": "Nutzpflanzen der ersten Bauern"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Haustiere und Nutzpflanzen",
+   "frage": "Ergänze den Text über die Haustiere.",
+   "text": "Der {{Hund}} wurde schon in der {{Altsteinzeit}} zum Haustier. Später kamen {{Schaf|Ziege|Rind|Schwein|Pferd}} und weitere Tiere dazu. Ab etwa 5000 v. Chr. nutzte man {{Esel|Pferd}} und {{Pferd|Esel}} als Reit-, Pack- und Zugtiere.",
+   "info": "Der Hund ist das älteste Haustier der Liste (vor ca. 14 000 Jahren). Esel und Pferd als Reit-, Pack- und Zugtiere gibt es ab ca. 5000 v. Chr.",
+   "wortbank": [
+    "Hund",
+    "Altsteinzeit",
+    "Schaf",
+    "Esel",
+    "Pferd",
+    "Mammut",
+    "Luchs"
+   ],
+   "lesen": "Haustiere: Domestikation und Züchtung"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Welcher Zeitraum gehört nach dem Heft zur Jungsteinzeit?",
+   "tipp": "Die Altsteinzeit endet dort, wo die Jungsteinzeit beginnt.",
+   "info": "Die Altsteinzeit reicht bis ca. 9000 v. Chr., danach folgt die Jungsteinzeit bis ca. 3000 v. Chr.",
+   "antworten": [
+    "ca. 9000 bis ca. 3000 v. Chr.",
+    "ca. 3000 bis 1000 v. Chr.",
+    "bis ca. 9000 v. Chr.",
+    "ca. 1000 v. Chr. bis 500 n. Chr."
+   ],
+   "richtig": 0,
+   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Wozu benutzt man einen Pflug?",
+   "info": "Der Pflug lockert den Boden, bevor man aussät (Zusatz zum Heft). In Mitteleuropa gibt es ihn seit etwa 4500 v. Chr.",
+   "antworten": [
+    "Er lockert den Boden für die Saat.",
+    "Er mahlt die Getreidekörner zu Mehl.",
+    "Er zerschneidet das Fleisch der Beute.",
+    "Er trägt die Ernte vom Feld nach Hause."
+   ],
+   "richtig": 0,
+   "lesen": "Pflug und Rad"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Die Jungsteinzeit gehört zur Epoche „Ur- und Frühgeschichte“.",
+   "info": "Die Ur- und Frühgeschichte reicht bis 3000 v. Chr. Die Jungsteinzeit endet um 3000 v. Chr. und gehört deshalb dazu.",
+   "richtig": true,
+   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Welches Ereignis gehört zu welchem Buchstaben? Lies die Jahre unter dem Zeitstrahl ab.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 236\" width=\"760\" height=\"236\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"236\" fill=\"#ffffff\"/><rect x=\"30\" y=\"124\" width=\"136.0\" height=\"38\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"166.0\" y=\"124\" width=\"544.0\" height=\"38\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><polygon points=\"30,143.0 16,134.0 16,152.0\" fill=\"#555\"/><text x=\"98.0\" y=\"149\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Altsteinzeit</text><text x=\"438.0\" y=\"149\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Jungsteinzeit</text><line x1=\"166.0\" y1=\"162\" x2=\"166.0\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"166.0\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">9000</text><line x1=\"347.3\" y1=\"162\" x2=\"347.3\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"347.3\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">7000</text><line x1=\"465.2\" y1=\"162\" x2=\"465.2\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"465.2\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">5700</text><line x1=\"528.7\" y1=\"162\" x2=\"528.7\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"528.7\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">5000</text><line x1=\"574.0\" y1=\"162\" x2=\"574.0\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"574.0\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4500</text><line x1=\"710.0\" y1=\"162\" x2=\"710.0\" y2=\"172\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"710.0\" y=\"192\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3000</text><text x=\"370.0\" y=\"218\" font-size=\"15\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Jahre v. Chr.</text><line x1=\"166.0\" y1=\"110\" x2=\"166.0\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"166.0\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"166.0\" cy=\"96\" r=\"14\" fill=\"#e2701a\"/><text x=\"166.0\" y=\"101.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">A</text><line x1=\"347.3\" y1=\"64\" x2=\"347.3\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"347.3\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"347.3\" cy=\"50\" r=\"14\" fill=\"#e2701a\"/><text x=\"347.3\" y=\"55.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"465.2\" y1=\"110\" x2=\"465.2\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"465.2\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"465.2\" cy=\"96\" r=\"14\" fill=\"#e2701a\"/><text x=\"465.2\" y=\"101.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">C</text><line x1=\"528.7\" y1=\"64\" x2=\"528.7\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"528.7\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"528.7\" cy=\"50\" r=\"14\" fill=\"#e2701a\"/><text x=\"528.7\" y=\"55.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">D</text><line x1=\"574.0\" y1=\"110\" x2=\"574.0\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"574.0\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"574.0\" cy=\"96\" r=\"14\" fill=\"#e2701a\"/><text x=\"574.0\" y=\"101.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">E</text><line x1=\"710.0\" y1=\"64\" x2=\"710.0\" y2=\"124\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"710.0\" cy=\"124\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"710.0\" cy=\"50\" r=\"14\" fill=\"#e2701a\"/><text x=\"710.0\" y=\"55.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">F</text></svg>",
+   "bildAlt": "Zeitstrahl mit den Buchstaben A bis F bei den Jahren 9000, 7000, 5700, 5000, 4500 und 3000 v. Chr. Die Altsteinzeit reicht bis 9000 v. Chr., die Jungsteinzeit bis 3000 v. Chr.",
+   "info": "9000 sesshaft, 7000 Keramik, 5700 Ackerbau in Mitteleuropa, 5000 Esel und Pferd, 4500 Pflug, 3000 Rad.",
+   "paare": [
+    [
+     "Buchstabe A",
+     "Menschen werden sesshaft"
+    ],
+    [
+     "Buchstabe B",
+     "Keramik"
+    ],
+    [
+     "Buchstabe C",
+     "Ackerbau in Mitteleuropa"
+    ],
+    [
+     "Buchstabe D",
+     "Esel und Pferd als Reit- und Packtiere"
+    ],
+    [
+     "Buchstabe E",
+     "Pflug in Mitteleuropa"
+    ],
+    [
+     "Buchstabe F",
+     "Rad"
+    ]
+   ],
+   "extra": [
+    "Feuer wird genutzt"
+   ],
+   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Ordne die Ereignisse von früh nach spät.",
+   "tipp": "Das Rad kam zuletzt.",
+   "info": "Bei Jahren v. Chr. ist die größere Zahl die frühere: 9000, 7000, 5700, 4500, 3000.",
+   "schritte": [
+    "Menschen werden sesshaft",
+    "Keramik",
+    "Ackerbau in Mitteleuropa",
+    "Pflug in Mitteleuropa",
+    "Rad"
+   ],
+   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Wie viele Jahre dauerte die Jungsteinzeit von 9000 bis 3000 v. Chr.?",
+   "tipp": "Bei zwei Jahren vor Christus ziehst du die kleinere von der größeren Zahl ab.",
+   "info": "Bei Jahren v. Chr. ziehst du ab: 9000 − 3000 = 6000 Jahre.",
+   "richtig": [
+    "6000",
+    "6000 Jahre",
+    "ca. 6000",
+    "ca. 6000 Jahre",
+    "etwa 6000",
+    "etwa 6000 Jahre",
+    "ungefähr 6000",
+    "ungefähr 6000 Jahre",
+    "rund 6000",
+    "rund 6000 Jahre",
+    "circa 6000",
+    "circa 6000 Jahre",
+    "6.000",
+    "6.000 Jahre",
+    "ca. 6.000",
+    "ca. 6.000 Jahre",
+    "etwa 6.000",
+    "etwa 6.000 Jahre",
+    "6 000",
+    "6 000 Jahre",
+    "ca. 6 000",
+    "ca. 6 000 Jahre",
+    "etwa 6 000",
+    "etwa 6 000 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Um 9000 v. Chr. begann die neue Lebensweise im Irak. Ab 5700 v. Chr. gab es Ackerbau in Mitteleuropa. Wie viele Jahre liegen dazwischen?",
+   "tipp": "Beide Jahre liegen vor Christi Geburt: abziehen, nicht addieren.",
+   "info": "Beide Jahre liegen vor Christi Geburt, also ziehst du ab: 9000 − 5700 = 3300. Die Ausbreitung dauerte mehr als 3000 Jahre.",
+   "antworten": [
+    "3300 Jahre",
+    "14 700 Jahre",
+    "3700 Jahre",
+    "330 Jahre"
+   ],
+   "richtig": 0,
+   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Pflug, Rad und Rechnen mit Jahren",
+   "frage": "Etwa wie viele Jahre ist es her, dass die ersten Menschen sesshaft wurden (9000 v. Chr.)? Rechne mit dem Jahr 2026 und wie in der Schule ohne Jahr 0.",
+   "tipp": "Von v. Chr. bis heute addierst du.",
+   "info": "Von 9000 v. Chr. bis Christi Geburt vergehen 9000 Jahre, danach noch 2026: 9000 + 2026 = 11 026 Jahre, also etwa 11 000 Jahre. Das passt zum Buch: vor rund 10 000 bis 11 000 Jahren.",
+   "richtig": [
+    "11026",
+    "11026 Jahre",
+    "ca. 11026",
+    "ca. 11026 Jahre",
+    "etwa 11026",
+    "etwa 11026 Jahre",
+    "11.026",
+    "11.026 Jahre",
+    "ca. 11.026",
+    "ca. 11.026 Jahre",
+    "etwa 11.026",
+    "etwa 11.026 Jahre",
+    "11 026",
+    "11 026 Jahre",
+    "ca. 11 026",
+    "ca. 11 026 Jahre",
+    "etwa 11 026",
+    "etwa 11 026 Jahre",
+    "11025",
+    "11025 Jahre",
+    "ca. 11025",
+    "ca. 11025 Jahre",
+    "etwa 11025",
+    "etwa 11025 Jahre",
+    "11 025",
+    "11 025 Jahre",
+    "ca. 11 025",
+    "ca. 11 025 Jahre",
+    "etwa 11 025",
+    "etwa 11 025 Jahre",
+    "11000",
+    "11000 Jahre",
+    "ca. 11000",
+    "ca. 11000 Jahre",
+    "etwa 11000",
+    "etwa 11000 Jahre",
+    "ungefähr 11000",
+    "ungefähr 11000 Jahre",
+    "rund 11000",
+    "rund 11000 Jahre",
+    "11 000",
+    "11 000 Jahre",
+    "ca. 11 000",
+    "ca. 11 000 Jahre",
+    "etwa 11 000",
+    "etwa 11 000 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": "Zeitstrahl und Rechnen mit Jahren"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "G – Klausurnah: Erklären und Begründen",
+   "frage": "Fasse zusammen: vom Ende der Eiszeit zur neolithischen Revolution.",
+   "text": "Als die {{Eiszeit}} endete, wurde es wärmer und {{Mischwälder}} breiteten sich aus. Um {{9000}} v. Chr. begannen im Gebiet des {{fruchtbaren Halbmonds}} die ersten Menschen, {{sesshaft}} zu werden. Sie lebten von {{Ackerbau|Viehzucht}} und {{Viehzucht|Ackerbau}}. Diesen grundlegenden Wandel nennt man neolithische {{Revolution}}.",
+   "info": "Die Zusammenfassung verbindet Klima, Ort, Zeit und Lebensweise: Warmzeit, fruchtbarer Halbmond, um 9000 v. Chr., Ackerbau und Viehzucht.",
+   "wortbank": [
+    "Eiszeit",
+    "Mischwälder",
+    "9000",
+    "fruchtbaren Halbmonds",
+    "sesshaft",
+    "Ackerbau",
+    "Viehzucht",
+    "Revolution",
+    "Aufstand",
+    "Nomaden"
+   ],
+   "lesen": [
+    "Das Ende der Eiszeit",
+    "Sesshaft werden: die neolithische Revolution",
+    "Der fruchtbare Halbmond und der Weg nach Europa"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "G – Klausurnah: Erklären und Begründen",
+   "frage": "Eine Mitschülerin sagt: „Um 9000 v. Chr. gab es in Mitteleuropa schon Bauern.“ Wie korrigierst du sie?",
+   "info": "Die neue Lebensweise begann im Irak und brauchte etwa 3300 Jahre bis Mitteleuropa.",
+   "antworten": [
+    "Es begann um 9000 v. Chr. im Irak. In Mitteleuropa gab es Bauern erst ab ca. 5700 v. Chr.",
+    "Es begann um 9000 v. Chr. in Mitteleuropa. Im Irak gab es Bauern erst ab ca. 5700 v. Chr.",
+    "Bauern gab es erst, nachdem das Rad erfunden worden war. Das geschah um 3000 v. Chr.",
+    "Um 9000 v. Chr. gab es überall auf der Welt schon Bauern, auch in Mitteleuropa und im Irak."
+   ],
+   "richtig": 0,
+   "lesen": "Der fruchtbare Halbmond und der Weg nach Europa"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Erklären und Begründen",
+   "frage": "Erkläre, was man unter der neolithischen (steinzeitlichen) Revolution versteht. Gehe darauf ein, warum man von einer „Revolution“ spricht.",
+   "tipp": "Denke an die Lebensweise vorher und nachher.",
+   "punkte": 4,
+   "muster": "Um 9000 v. Chr. begannen die ersten Menschen, sesshaft zu werden. Sie zogen nicht mehr ihrer Nahrung hinterher, sondern betrieben Ackerbau und Viehzucht und legten Vorräte an. Man spricht von einer Revolution, weil sich das Leben grundlegend änderte. Gemeint ist kein Aufstand, sondern ein tiefer Wandel, der Schritt für Schritt geschah.",
+   "kriterien": [
+    "sesshaft werden um 9000 v. Chr. genannt",
+    "Ackerbau, Viehzucht und Vorratshaltung genannt",
+    "Revolution = grundlegender Wandel, kein Aufstand",
+    "Wandel geschah Schritt für Schritt oder veränderte das Leben dauerhaft"
+   ],
+   "lesen": "Sesshaft werden: die neolithische Revolution"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Erklären und Begründen",
+   "frage": "Beschreibe, wo die neolithische Revolution begann und wie sie sich nach Europa ausbreitete.",
+   "punkte": 4,
+   "muster": "Sie begann im heutigen Irak, im Gebiet der Flüsse Euphrat und Tigris, im fruchtbaren Halbmond zwischen dem Mittelmeer und dem Persischen Golf. Von dort breitete sie sich über Jahrhunderte und Jahrtausende nach Westen und Norden aus. In Mitteleuropa gab es die ersten Ackerbauern ab etwa 5700 v. Chr. (Linienbandkeramische Kultur).",
+   "kriterien": [
+    "Irak, Euphrat und Tigris genannt",
+    "fruchtbarer Halbmond zwischen Mittelmeer und Persischem Golf",
+    "langsame Ausbreitung nach Westen und Norden",
+    "Mitteleuropa ab ca. 5700 v. Chr."
+   ],
+   "lesen": "Der fruchtbare Halbmond und der Weg nach Europa"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Erklären und Begründen",
+   "frage": "Erkläre, was sich am Ende der Eiszeit veränderte und was das für die Menschen bedeutete (Klima, Pflanzen, Tiere, Jagd).",
+   "tipp": "Gehe der Reihe nach vor: Klima, Pflanzen, Tiere, Menschen.",
+   "punkte": 4,
+   "muster": "Am Ende der Eiszeit wurde es wärmer und es regnete mehr. Die Gletscher schmolzen, der Meeresspiegel stieg, und Mischwälder ersetzten die Steppe. Kälteliebende Tiere zogen nach Norden oder verschwanden, im Wald lebten nun zum Beispiel Hirsch, Reh und Wildschwein. Die Jagd im Wald war schwerer, dabei halfen Pfeil und Bogen. Das warme, regenreiche Klima machte außerdem den Anbau von Getreide möglich.",
+   "kriterien": [
+    "wärmer, Gletscher schmelzen, Meeresspiegel steigt",
+    "Mischwälder statt Steppe",
+    "Tiere ändern sich (Kältetiere ziehen weg, Waldtiere)",
+    "Jagd im Wald, Pfeil und Bogen, oder Getreideanbau möglich"
+   ],
+   "lesen": "Das Ende der Eiszeit"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Erklären und Begründen",
+   "frage": "Nenne vier Pflanzen oder Tiere, die die Menschen in der Jungsteinzeit anbauten oder hielten, und erkläre bei zwei davon, wozu man sie nutzte.",
+   "punkte": 3,
+   "muster": "Zum Beispiel Gerste, Lein, Schaf und Ziege. Gerste gab Getreide für Brot und Brei. Das Schaf lieferte Fleisch, Wolle und Milch, aus der man Käse machte, der länger haltbar war.",
+   "kriterien": [
+    "vier richtige Pflanzen oder Tiere genannt",
+    "Nutzung bei der ersten richtig erklärt",
+    "Nutzung bei der zweiten richtig erklärt"
+   ],
+   "lesen": [
+    "Haustiere: Domestikation und Züchtung",
+    "Nutzpflanzen der ersten Bauern"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Das Ende der Eiszeit": "Das Ende der Eiszeit",
+  "B – Die Mittelsteinzeit": "Die Mittelsteinzeit: Jäger im Wald",
+  "C – Sesshaft werden: die neolithische Revolution": "Sesshaft werden: die neolithische Revolution",
+  "D – Der fruchtbare Halbmond und der Weg nach Europa": "Der fruchtbare Halbmond und der Weg nach Europa",
+  "E – Haustiere und Nutzpflanzen": [
+   "Haustiere: Domestikation und Züchtung",
+   "Nutzpflanzen der ersten Bauern"
+  ],
+  "F – Pflug, Rad und Rechnen mit Jahren": [
+   "Pflug und Rad",
+   "Zeitstrahl und Rechnen mit Jahren"
+  ],
+  "G – Klausurnah: Erklären und Begründen": [
+   "Das Ende der Eiszeit",
+   "Sesshaft werden: die neolithische Revolution",
+   "Der fruchtbare Halbmond und der Weg nach Europa",
+   "Haustiere: Domestikation und Züchtung",
+   "Nutzpflanzen der ersten Bauern"
+  ]
+ },
+ "probe": false
+}

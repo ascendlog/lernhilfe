@@ -1,0 +1,984 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-6-oetzi",
+ "titel": "Geschichte Teil 6: Ötzi, der Mann aus dem Eis",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Fund, Person, Zeit, Ausrüstung, Tod und „Kriminalfall Ötzi“: Woher weiß man das? Quelle oder Darstellung, belegt oder vermutet, Ötzi im Museum. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Buch (S. 32 bis 33) und Kopie nennen bei Ötzi leicht verschiedene Zahlen (Alter, Höhe, Gewicht). Hier gilt das Buch, bei Abweichungen sind beide Werte richtig oder die Zahlen sind gerundet.",
+ "lernblatt": [
+  {
+   "titel": "Der Fund im Eis",
+   "text": "Im Herbst **1991** war ein deutsches Ehepaar in den **Ötztaler Alpen** auf Bergtour. Beim Abstieg nahmen die beiden eine Abkürzung. Dabei entdeckten sie in über 3000 m Höhe einen Toten im **Gletscher** (ein riesiger, langsam fließender Strom aus Eis). Der Körper war im Eis erhalten geblieben. So einen Körper nennt man **Mumie**.\nZuerst dachte man, es sei ein **verunglückter Bergsteiger**. Das stimmte nicht: Die Untersuchungen zeigten, dass der Mann über **5000 Jahre** alt war. Nach dem Fundort bekam er den Namen **„Ötzi“** (Ötztaler Alpen).\nBuch und Kopie nennen leicht verschiedene Zahlen: Das Buch schreibt 3210 m Höhe und etwa 5250 Jahre, die Kopie 3200 m und etwa 5400 Jahre. Du musst dir nur merken: **über 3000 m** (zwischen 3000 und 3500 m) und **über 5000 Jahre** (zwischen 5000 und 5500 Jahren).",
+   "merke": "Ötzi wurde im Herbst 1991 von einem Ehepaar in den Ötztaler Alpen im Gletscher gefunden. Er war über 5000 Jahre alt. Zuerst hielt man ihn für einen verunglückten Bergsteiger."
+  },
+  {
+   "titel": "Wer war Ötzi?",
+   "text": "Forscher haben Ötzi mit modernsten Methoden untersucht. Darum weiß man heute viel über ihn:\n\n- **Alter**: etwa 46 Jahre (die Kopie sagt 45, also Mitte 40). Für die damalige Zeit war das ein hohes Alter.\n- **Aussehen**: etwa 1,60 m groß, etwa 50 kg schwer (die Kopie nennt 40 kg), laut Buch blaue Augen, dunkelbraunes oder schwarzes Haar.\n- **Gesundheit**: abgenutzte Gelenke, verkalkte Blutgefäße, schon verheilte Rippenbrüche und ein verheilter Nasenbeinbruch, Erfrierungen am linken Fuß und Parasiten im Darm (sie machten Durchfall).\n- **Zähne**: ohne Karies, aber stark abgenutzt. Vielleicht benutzte er seine Zähne als Werkzeug.\n- **Tätowierungen**: über 50 Striche und Kreuze auf der Haut, an Stellen der **Akupunktur** (einer Behandlung, bei der man bestimmte Körperstellen reizt). Vielleicht war das eine frühe Behandlung gegen Schmerzen.",
+   "merke": "Ötzi war etwa 46 Jahre alt, etwa 1,60 m groß und hatte laut Buch blaue Augen. Er hatte abgenutzte Gelenke, verheilte Brüche, Erfrierungen am linken Fuß und über 50 Tätowierungen."
+  },
+  {
+   "titel": "Wann lebte Ötzi?",
+   "text": "Ötzi lebte zwischen **3359 und 3105 v. Chr.** in der sogenannten **Kupfersteinzeit**: Die Menschen lebten noch wie in der Jungsteinzeit, aber sie begannen schon, mit **Kupfer** (einem Metall) zu arbeiten. Damit bereiteten sie die Zeiten vor, in denen Metall wichtig wurde.\nNach den Epochen aus dem Heft gehört Ötzi zur **Ur- und Frühgeschichte** (bis 3000 v. Chr.). Die nächste Epoche, das **Altertum**, beginnt erst nach seiner Zeit. Innerhalb der Steinzeit liegt er nach den Jahreszahlen am Ende der **Jungsteinzeit** (ca. 9000 bis 3000 v. Chr.). Zum Vergleich: Rom wurde der Sage nach erst 753 v. Chr. gegründet, also mehr als 2000 Jahre nach Ötzi.\nSo rechnest du den Abstand zu heute: Ötzi lebte vor Christi Geburt, wir leben danach. Darum rechnest du die Jahre **zusammen**. Beispiel: von 3300 v. Chr. bis 2026 n. Chr. sind es 3300 + 2026 = 5326, also **etwa 5300 Jahre**. Ein Jahr 0 gibt es nicht, in der Schule rechnet man einfach zusammen.",
+   "merke": "Ötzi lebte 3359 bis 3105 v. Chr., also vor etwa 5300 Jahren, in der Kupfersteinzeit. Seine Epoche ist die Ur- und Frühgeschichte.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 240\" width=\"760\" height=\"240\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"240\" fill=\"#ffffff\"/><line x1=\"20\" y1=\"150\" x2=\"745\" y2=\"150\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"100.7\" y1=\"140\" x2=\"100.7\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"100.7\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3000 v. Chr.</text><line x1=\"222.1\" y1=\"140\" x2=\"222.1\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"222.1\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2000 v. Chr.</text><line x1=\"343.6\" y1=\"140\" x2=\"343.6\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"343.6\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1000 v. Chr.</text><line x1=\"465.0\" y1=\"140\" x2=\"465.0\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"465.0\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Christi Geburt</text><line x1=\"586.4\" y1=\"140\" x2=\"586.4\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"586.4\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1000 n. Chr.</text><line x1=\"707.9\" y1=\"140\" x2=\"707.9\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"707.9\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2000 n. Chr.</text><line x1=\"22\" y1=\"202\" x2=\"100.7\" y2=\"202\" stroke=\"#a9895c\" stroke-width=\"6\" stroke-linecap=\"round\"/><text x=\"22\" y=\"228\" font-size=\"15\" font-weight=\"normal\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Ur- und Frühgeschichte (bis 3000 v. Chr.)</text><rect x=\"57.1\" y=\"124\" width=\"30.9\" height=\"26\" fill=\"#e2701a\" stroke=\"#a14a00\" stroke-width=\"2\"/><text x=\"40\" y=\"114\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Ötzi: 3359–3105 v. Chr.</text><line x1=\"711.0\" y1=\"150\" x2=\"711.0\" y2=\"88\" stroke=\"#3b6ea5\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><circle cx=\"711.0\" cy=\"150\" r=\"6\" fill=\"#3b6ea5\"/><text x=\"703.0\" y=\"114\" font-size=\"16\" font-weight=\"bold\" fill=\"#2a5585\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">heute (2026)</text><line x1=\"387.6\" y1=\"88\" x2=\"64.3\" y2=\"88\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"64.3,88 74.4,83.7 74.4,92.3\" fill=\"#333\"/><line x1=\"387.6\" y1=\"88\" x2=\"711.0\" y2=\"88\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"711.0,88 700.9,92.3 700.9,83.7\" fill=\"#333\"/><text x=\"387.6\" y=\"78\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">etwa 5300 Jahre</text></svg>",
+   "bildAlt": "Zeitstrahl von 3500 v. Chr. bis 2100 n. Chr. mit Ötzis Lebenszeit (3359 bis 3105 v. Chr.) ganz links, Christi Geburt in der Mitte und heute (2026) ganz rechts. Ein Doppelpfeil zeigt den Abstand von etwa 5300 Jahren."
+  },
+  {
+   "titel": "Kleidung und Ausrüstung",
+   "text": "Bei Ötzi lagen viele Gegenstände. Sie sind **Sachquellen**, denn man kann aus ihnen etwas über seine Zeit lernen:\n\n- **Fellkleidung**: wintertauglich. Laut Kopie gehörten auch Lederschuhe, eine Mütze aus Bärenfell und ein Umhang aus Gras dazu.\n- **Bogen und Köcher** mit Pfeilen. Der Köcher war laut Kopie aus Gamsleder, einer der Pfeile hatte eine Steinspitze.\n- **Steindolch**: Klinge aus Feuerstein, Griff aus Eschenholz (laut Kopie).\n- **Kupferbeil**: etwa 60 cm lang, Klinge aus gegossenem Kupfer, Schaft (der Stiel, an dem die Klinge befestigt ist) aus **Eibenholz**. Es ist das einzige vollständig erhaltene Beil aus der Vorgeschichte auf der ganzen Welt.\n- **Gefäß für Glut**: Ötzi hatte Glut dabei, um unterwegs Feuer zu haben.\n- Dazu laut Kopie: ein Bohrer aus Feuerstein und eine Schnur aus Baumbast (der inneren Schicht der Baumrinde).",
+   "merke": "Fast alle Teile von Ötzis Ausrüstung sind steinzeitlich. Nur das Kupferbeil mit der Metallklinge zeigt schon die neue Zeit.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 390\" width=\"760\" height=\"390\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"390\" fill=\"#ffffff\"/><g transform=\"translate(10,10)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><path d=\"M 88,34 Q 172,84 88,134\" fill=\"none\" stroke=\"#7a4f24\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"88\" y1=\"34\" x2=\"88\" y2=\"134\" stroke=\"#555\" stroke-width=\"2.5\"/><line x1=\"66\" y1=\"84\" x2=\"176\" y2=\"84\" stroke=\"#6b4a2a\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><polygon points=\"190,84 174,77 174,91\" fill=\"#777\"/><line x1=\"66\" y1=\"84\" x2=\"58\" y2=\"77\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><line x1=\"66\" y1=\"84\" x2=\"58\" y2=\"91\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Bogen</text></g><g transform=\"translate(260,10)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><g transform=\"rotate(8 120 95)\"><line x1=\"108\" y1=\"64\" x2=\"102\" y2=\"34\" stroke=\"#6b4a2a\" stroke-width=\"3.5\"/><line x1=\"120\" y1=\"64\" x2=\"120\" y2=\"30\" stroke=\"#6b4a2a\" stroke-width=\"3.5\"/><line x1=\"132\" y1=\"64\" x2=\"138\" y2=\"34\" stroke=\"#6b4a2a\" stroke-width=\"3.5\"/><polygon points=\"102,24 96,38 108,38\" fill=\"#777\"/><polygon points=\"120,20 114,34 126,34\" fill=\"#777\"/><polygon points=\"138,24 132,38 144,38\" fill=\"#777\"/><rect x=\"97\" y=\"62\" width=\"46\" height=\"76\" rx=\"9\" fill=\"#b98a55\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><line x1=\"97\" y1=\"84\" x2=\"143\" y2=\"84\" stroke=\"#6b4a2a\" stroke-width=\"2.5\"/><line x1=\"97\" y1=\"116\" x2=\"143\" y2=\"116\" stroke=\"#6b4a2a\" stroke-width=\"2.5\"/></g><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Köcher mit Pfeilen</text></g><g transform=\"translate(510,10)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><line x1=\"102\" y1=\"140\" x2=\"102\" y2=\"36\" stroke=\"#8a5a2b\" stroke-width=\"11\" stroke-linecap=\"round\"/><polygon points=\"108,42 168,24 168,92 108,74\" fill=\"#d2773a\" stroke=\"#8a3f10\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"118\" y1=\"52\" x2=\"118\" y2=\"68\" stroke=\"#8a3f10\" stroke-width=\"2\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Kupferbeil</text></g><g transform=\"translate(10,200)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><rect x=\"46\" y=\"76\" width=\"62\" height=\"20\" rx=\"7\" fill=\"#a87b4a\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><polygon points=\"108,70 196,86 108,102\" fill=\"#d9d4c7\" stroke=\"#666\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Steindolch</text></g><g transform=\"translate(260,200)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><path d=\"M 62,78 Q 62,140 120,140 Q 178,140 178,78 Z\" fill=\"#b98a55\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><ellipse cx=\"120\" cy=\"78\" rx=\"58\" ry=\"12\" fill=\"#5a3f22\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><circle cx=\"98\" cy=\"78\" r=\"7\" fill=\"#e2701a\"/><circle cx=\"120\" cy=\"75\" r=\"8\" fill=\"#f4a233\"/><circle cx=\"142\" cy=\"79\" r=\"7\" fill=\"#e2701a\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Gefäß für Glut</text></g><g transform=\"translate(510,200)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><path d=\"M 64,106 Q 64,40 120,40 Q 176,40 176,106 Z\" fill=\"#7a5a3a\" stroke=\"#4d3822\" stroke-width=\"3\"/><rect x=\"56\" y=\"98\" width=\"128\" height=\"30\" rx=\"15\" fill=\"#a07b52\" stroke=\"#4d3822\" stroke-width=\"3\"/><path d=\"M 76,113 l 8,-8 m 12,8 l 8,-8 m 12,8 l 8,-8 m 12,8 l 8,-8 m 12,8 l 8,-8\" fill=\"none\" stroke=\"#4d3822\" stroke-width=\"2.5\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Fellmütze</text></g></svg>",
+   "bildAlt": "Skizze mit sechs nummerierten Teilen von Ötzis Ausrüstung: 1 Bogen, 2 Köcher mit Pfeilen, 3 Kupferbeil, 4 Steindolch, 5 Gefäß für Glut, 6 Fellmütze"
+  },
+  {
+   "titel": "Wanderer zwischen den Zeiten",
+   "text": "Das Buch nennt Ötzi einen **„Wanderer zwischen den Zeiten“**. Gemeint ist nicht, dass er viel gewandert ist, sondern dass er in einer **Übergangszeit** lebte: zwischen der Steinzeit und der Zeit, in der Metall wichtig wurde.\nDas siehst du an seiner Ausrüstung. Fellkleidung, Steindolch, Bogen und Pfeile mit Steinspitze sind steinzeitlich. Das Kupferbeil ist neu und zeigt den Weg zu den Metallzeiten.\nWas verrät die Ausrüstung noch über sein Leben? Das sind **Schlüsse**, keine sicheren Tatsachen:\n\n- Er konnte Werkzeug und Waffen selbst herstellen und ausbessern (Bohrer, halbfertiger Bogen, Rohlinge für Pfeilschäfte).\n- Er war auf Kälte vorbereitet (wintertaugliche Fellkleidung).\n- Er nahm Feuer in Form von Glut mit.\n- Er kannte Kupfer und besaß ein Beil daraus.",
+   "merke": "„Wanderer zwischen den Zeiten“ heißt: Ötzi lebte zwischen Steinzeit und Metallzeit. Fast alles an ihm ist steinzeitlich, das Kupferbeil ist neu."
+  },
+  {
+   "titel": "Ötzi wurde getötet",
+   "text": "Lange wusste man nicht, woran Ötzi gestorben war. Heute weiß man: Er war das **Opfer einer Gewalttat**.\n\n- In seiner **linken Schulter** steckte eine **Pfeilspitze**.\n- Er **verblutete** innerhalb weniger Minuten (die Kopie spricht von inneren Blutungen).\n- An der **rechten Hand** hatte er eine tiefe **Schnittwunde**. Sie deutet auf einen Nahkampf kurz vor seinem Tod.\n\nWer ihn getötet hat und warum, ist bis heute ein Rätsel. Sein Körper blieb Jahrtausende im Gletschereis verborgen.",
+   "merke": "Ötzi wurde von einem Pfeil in die linke Schulter getroffen und verblutete. Wer es war und warum, weiß man nicht."
+  },
+  {
+   "titel": "Kriminalfall Ötzi: Woher weiß man das?",
+   "text": "Im Buch (S. 33) erzählt der Arzt **Eduard Egarter-Vigl** (2011) Ötzis letzte Minuten wie einen Kriminalfall. Er stützt sich auf Untersuchungen:\n\n- **Pollen** (Blütenstaub) in Lunge und Darm: Sie blühen nur im Frühling und Frühsommer. Ötzi war also in dieser Jahreszeit unterwegs.\n- **Mikroskop**: Die Wundränder an der Hand zeigen, dass die Verletzung ein bis drei Tage alt war.\n- **Computertomografie** (CT, ein Röntgenverfahren, das Bilder vom Inneren des Körpers macht): Der Magen war gut gefüllt, der Inhalt kaum verdaut. Die letzte Mahlzeit lag höchstens eine Stunde zurück.\n- **Halbfertiger Bogen und Rohlinge für Pfeilschäfte** (grob vorgearbeitete Holzstücke): Ötzi musste seine Waffen erneuern.\n\nSo erzählt der Arzt den Ablauf: Die Hand wird verletzt. Ötzi steigt müde über die Baumgrenze (die Höhe, ab der keine Bäume mehr wachsen) und trinkt aus Bächen. Zwischen Felsen sucht er einen Rastplatz, lehnt die Ausrüstung an den Fels und setzt sich zum Essen. Dann trifft ihn der Pfeil. Er verliert das Gleichgewicht und fällt nieder.",
+   "merke": "Pollen zeigen die Jahreszeit, das Mikroskop das Alter der Wunde, die Computertomografie die letzte Mahlzeit."
+  },
+  {
+   "titel": "Belegt oder vermutet? Quelle oder Darstellung?",
+   "text": "**Belegt** heißt: Ein Fund oder eine Untersuchung stützt die Aussage. **Vermutet** heißt: Es ist möglich oder wahrscheinlich, aber nicht bewiesen. Auf Vermutungen weisen **Wörter der Unsicherheit** hin: wohl, vermutlich, wahrscheinlich, vielleicht, eventuell.\n\n- **Belegt**: die Pfeilspitze in der linken Schulter, die tiefe Schnittwunde an der Hand, der gefüllte Magen, die verkalkten Blutgefäße.\n- **Nur vermutet**: dass die Tätowierungen gegen Schmerzen waren, dass er die Zähne als Werkzeug benutzte, ob der Schütze sich anschlich oder wartete, wer Ötzi tötete und warum.\n\n**Quelle** oder **Darstellung**? Eine Quelle stammt aus der Zeit selbst: die Mumie, die Kleidung, das Beil, die Pfeilspitze. Eine Darstellung machen Menschen später, die die Zeit nicht erlebt haben, mithilfe von Quellen: der Text des Arztes, die Rekonstruktion von 2011, der Schulbuchtext.\nIm Heft sollst du Aussagen prüfen. Prüfe Teil für Teil. „Ötzi wurde von einem Pfeil getroffen und hat sehr viel Blut verloren“ ist belegt (Pfeilspitze, verblutet). Bei „weit gelaufen“ ist es eine Einschätzung: Die Funde zeigen nur, dass er über die Alpen unterwegs und vom Aufstieg müde war. Vergleiche das mit dem, was in deinem Heft dazu steht. „Ötzi ist in Italien gestorben“: Man fand ihn in den Ötztaler Alpen an der Grenze zu Italien, und die Mumie liegt heute in Bozen in Italien. Zusatzwissen: Das Land Italien gab es zu Ötzis Zeit noch nicht.",
+   "merke": "Belegt = durch Funde oder Untersuchungen gestützt. Vermutet = Wörter wie wohl, vielleicht, vermutlich. Quelle = Hinterlassenschaft der Zeit (Mumie, Fundstücke). Darstellung = spätere Deutung (Arzttext, Zeichnung, Schulbuch)."
+  },
+  {
+   "titel": "Ötzi im Museum",
+   "text": "Die Mumie liegt im **Südtiroler Archäologiemuseum in Bozen** (Italien) in einem eigens gebauten **Kühlraum**. Sie ist dort ein Ausstellungsstück.\nManche Menschen finden das **würdelos**. Andere finden es in Ordnung. Das Buch fragt nach Gründen dafür und dagegen. Beispiele:\n\n- **Spricht für „würdelos“**: Ein Mensch wird wie ein Ausstellungsstück angeschaut. Man hat ihn nicht gefragt. Tote sollen in Ruhe liegen.\n- **Spricht dagegen**: Ötzi ist schon lange tot und spürt nichts mehr. Die Forschung lernt durch ihn viel über die Steinzeit. Er wird sorgfältig in einem Kühlraum aufbewahrt.\n\nBei dieser Aufgabe gibt es keine einzig richtige Meinung. Du musst aber **begründen**, was du denkst.",
+   "merke": "Mumie in Bozen im Kühlraum. Würdelos oder nicht? Nenne einen Grund dafür, einen dagegen und begründe dann deine eigene Meinung."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "In welchem Jahr wurde Ötzi gefunden?",
+   "info": "Im Herbst 1991 entdeckte ein Ehepaar den Toten im Gletscher. Buch und Kopie nennen dasselbe Jahr.",
+   "richtig": [
+    "1991",
+    "1991 n. Chr.",
+    "im Jahr 1991",
+    "im Herbst 1991",
+    "Herbst 1991"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "Wer entdeckte den Toten im Gletscher?",
+   "info": "Ein deutsches Ehepaar nahm beim Abstieg eine Abkürzung und stieß dabei auf den Toten.",
+   "antworten": [
+    "Ein Ehepaar auf einer Bergtour",
+    "Ein Forscherteam bei einer Ausgrabung",
+    "Zwei Schäfer auf der Alm",
+    "Arbeiter beim Bau einer Seilbahn"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "Nach welchem Gebirge hat Ötzi seinen Namen?",
+   "tipp": "Der Name steckt schon im Namen „Ötzi“.",
+   "info": "Er wurde in den Ötztaler Alpen gefunden und nach dem Fundort „Ötzi“ genannt.",
+   "richtig": [
+    "Ötztaler Alpen",
+    "die Ötztaler Alpen",
+    "den Ötztaler Alpen",
+    "nach den Ötztaler Alpen",
+    "Ötztaler",
+    "Ötztal"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "Ergänze den Text über den Fund.",
+   "text": "Im Herbst {{1991}} entdeckte ein {{Ehepaar}} in den {{Ötztaler Alpen}} einen Toten im {{Gletscher}}. Zuerst hielt man ihn für einen verunglückten {{Bergsteiger}}. In Wirklichkeit war er über {{5000|5.000}} Jahre alt.",
+   "info": "Der Fund war 1991. Erst die Untersuchungen zeigten, dass der Tote über 5000 Jahre alt war.",
+   "wortbank": [
+    "1991",
+    "Ehepaar",
+    "Ötztaler Alpen",
+    "Gletscher",
+    "Bergsteiger",
+    "5000",
+    "Hirten",
+    "500"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "In welcher Höhe lag die Fundstelle ungefähr?",
+   "tipp": "Es war ein Gletscher im Hochgebirge.",
+   "info": "Das Buch nennt 3210 m, die Kopie 3200 m. In beiden Fällen sind es über 3000 m, hoch oben im Gletscher.",
+   "antworten": [
+    "zwischen 3000 und 3500 m",
+    "zwischen 2000 und 2500 m",
+    "zwischen 1000 und 1500 m",
+    "zwischen 300 und 500 m"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "Wie alt ist die Mumie ungefähr?",
+   "tipp": "Ötzi lebte um 3300 v. Chr. Rechne die Jahre bis heute zusammen.",
+   "info": "Das Buch nennt etwa 5250 Jahre, die Kopie etwa 5400 Jahre. Beide Zahlen liegen zwischen 5000 und 5500 Jahren, die Mumie ist also über 5000 Jahre alt.",
+   "antworten": [
+    "zwischen 5000 und 5500 Jahren",
+    "zwischen 3000 und 3500 Jahren",
+    "zwischen 1000 und 1500 Jahren",
+    "zwischen 100 und 500 Jahren"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "Zuerst hielt man den Toten für einen verunglückten Bergsteiger.",
+   "info": "Erst die Untersuchung zeigte, dass der Mann über 5000 Jahre alt war.",
+   "richtig": true
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Der Fund im Eis",
+   "frage": "Bringe den Weg von Ötzis Tod bis zum Museum in die richtige Reihenfolge.",
+   "tipp": "Fange bei Ötzis Tod an und höre beim Museum auf.",
+   "info": "Ötzi starb vor über 5000 Jahren und lag lange im Eis. Entdeckt wurde er erst 1991, später kam die Mumie ins Museum.",
+   "schritte": [
+    "Ötzi wird von einem Pfeil getroffen und stirbt.",
+    "Sein Körper bleibt Jahrtausende im Gletschereis verborgen.",
+    "Im Herbst 1991 entdeckt ein Ehepaar den Leichnam.",
+    "Zuerst glaubt man, es sei ein verunglückter Bergsteiger.",
+    "Die Mumie kommt in einen Kühlraum im Museum in Bozen."
+   ],
+   "lesen": [
+    "Der Fund im Eis",
+    "Ötzi wurde getötet",
+    "Ötzi im Museum"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer war Ötzi?",
+   "frage": "Wie groß war Ötzi ungefähr?",
+   "info": "Buch und Kopie nennen beide etwa 1,60 m. Beim Gewicht weichen sie ab (50 kg und 40 kg).",
+   "antworten": [
+    "etwa 1,60 m",
+    "etwa 1,30 m",
+    "etwa 1,90 m",
+    "etwa 2,05 m"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Wer war Ötzi?",
+   "frage": "Wie alt war Ötzi ungefähr, als er starb? Schreibe die Zahl.",
+   "info": "Das Buch nennt etwa 46 Jahre, die Kopie 45. Beide Werte sind richtig: Ötzi war Mitte 40, für damals ein hohes Alter.",
+   "richtig": [
+    "46",
+    "46 Jahre",
+    "46 Jahre alt",
+    "ca. 46",
+    "ca. 46 Jahre",
+    "ca. 46 Jahre alt",
+    "etwa 46",
+    "etwa 46 Jahre",
+    "etwa 46 Jahre alt",
+    "ungefähr 46",
+    "ungefähr 46 Jahre",
+    "ungefähr 46 Jahre alt",
+    "45",
+    "45 Jahre",
+    "45 Jahre alt",
+    "ca. 45",
+    "ca. 45 Jahre",
+    "ca. 45 Jahre alt",
+    "etwa 45",
+    "etwa 45 Jahre",
+    "etwa 45 Jahre alt",
+    "ungefähr 45",
+    "ungefähr 45 Jahre",
+    "ungefähr 45 Jahre alt"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer war Ötzi?",
+   "frage": "Etwa wie viele Tätowierungen (Striche und Kreuze) hatte Ötzi auf der Haut?",
+   "tipp": "Es waren sehr viele Striche und Kreuze.",
+   "info": "Es waren über 50 Striche und Kreuze auf der Haut, an Stellen der Akupunktur.",
+   "antworten": [
+    "mehr als 50",
+    "weniger als 10",
+    "10 bis 30",
+    "31 bis 50"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer war Ötzi?",
+   "frage": "Welche Befunde hat man an Ötzis Körper festgestellt? Wähle alle richtigen Antworten.",
+   "tipp": "Vergleiche mit der Liste im Lernblatt.",
+   "info": "Alle drei richtigen Befunde stehen im Buch. Die Zähne waren ohne Karies, und Brüche waren schon verheilt.",
+   "antworten": [
+    "Erfrierungen am linken Fuß",
+    "Verheilte Rippenbrüche",
+    "Verkalkte Blutgefäße",
+    "Ein frisch gebrochenes Bein",
+    "Ein Gebiss voller Karies"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Wer war Ötzi?",
+   "frage": "Ötzis Zähne waren stark abgenutzt, hatten aber keine Karies.",
+   "info": "Vielleicht hat er die Zähne als Werkzeug benutzt. Das ist eine Vermutung, kein Beweis.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Wer war Ötzi?",
+   "frage": "Wofür waren die Tätowierungen nach einer Vermutung der Forscher vielleicht gedacht?",
+   "tipp": "Wo auf dem Körper sitzen die Striche? Es sind Punkte, die man bei einer Behandlung reizt.",
+   "info": "Die Striche und Kreuze sitzen an Akupunkturpunkten. Darum denken Forscher an eine frühe Schmerzbehandlung.",
+   "antworten": [
+    "Als frühe Behandlung gegen Schmerzen",
+    "Als Zeichen für seine Familie und sein Dorf",
+    "Als Schmuck für große Feste im Sommer",
+    "Als Schutz gegen die Kälte im Gebirge"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Wer war Ötzi?",
+   "frage": "Ordne dem Körperteil den Befund zu.",
+   "info": "Alle diese Befunde nennt das Buch bei der Untersuchung der Mumie. Die Zähne waren stark abgenutzt, aber ohne Karies.",
+   "paare": [
+    [
+     "Blutgefäße",
+     "verkalkt"
+    ],
+    [
+     "Gelenke",
+     "abgenutzt"
+    ],
+    [
+     "Rippen",
+     "verheilte Brüche"
+    ],
+    [
+     "linker Fuß",
+     "Erfrierungen"
+    ],
+    [
+     "Haut",
+     "über 50 Tätowierungen"
+    ],
+    [
+     "Augen",
+     "blau"
+    ]
+   ],
+   "extra": [
+    "tiefe Narbe im Gesicht"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "Wann lebte Ötzi?",
+   "tipp": "Achte auf v. Chr. und n. Chr.",
+   "info": "Die richtige Zeitangabe lautet: zwischen 3359 und 3105 v. Chr., also vor Christi Geburt. „v. Chr.“ steht für „vor Christi Geburt“.",
+   "antworten": [
+    "zwischen 3359 und 3105 v. Chr.",
+    "zwischen 3359 und 3105 n. Chr.",
+    "zwischen 359 und 105 v. Chr.",
+    "zwischen 1105 und 1359 n. Chr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "In welcher Epoche (nach dem Heft) lebte Ötzi?",
+   "tipp": "Die erste der fünf Epochen reicht bis 3000 v. Chr.",
+   "info": "Ötzi lebte vor 3000 v. Chr. Diese Zeit nennt das Heft Ur- und Frühgeschichte.",
+   "richtig": [
+    "Ur- und Frühgeschichte",
+    "die Ur- und Frühgeschichte",
+    "Ur-und Frühgeschichte",
+    "Ur und Frühgeschichte",
+    "Ur- und Frühgeschichte (bis 3000 v. Chr.)",
+    "Ur- und Frühgeschichte bis 3000 v. Chr."
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "Welche Epoche beginnt direkt nach der Zeit, in der Ötzi lebte?",
+   "tipp": "Ötzis Epoche endet im Jahr 3000 v. Chr.",
+   "info": "Die Ur- und Frühgeschichte reicht bis 3000 v. Chr. Danach folgt das Altertum (3000 bis 1000 v. Chr.).",
+   "antworten": [
+    "Altertum",
+    "Antike",
+    "Mittelalter",
+    "Neuzeit"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "Ötzi lebte um 3300 v. Chr. Wie viele Jahre sind es von da bis zum Jahr 2000 n. Chr.? Schreibe nur die Zahl.",
+   "tipp": "Vor und nach Christi Geburt: Die Jahre werden zusammengerechnet.",
+   "info": "3300 + 2000 = 5300. Du rechnest zusammen, weil Christi Geburt dazwischen liegt.",
+   "richtig": [
+    "5300",
+    "5300 Jahre",
+    "ca. 5300",
+    "ca. 5300 Jahre",
+    "etwa 5300",
+    "etwa 5300 Jahre",
+    "5.300",
+    "5.300 Jahre",
+    "ca. 5.300",
+    "ca. 5.300 Jahre",
+    "etwa 5.300",
+    "etwa 5.300 Jahre",
+    "5 300",
+    "5 300 Jahre",
+    "ca. 5 300",
+    "ca. 5 300 Jahre",
+    "etwa 5 300",
+    "etwa 5 300 Jahre"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "Etwa wie viele Jahre liegt Ötzis Leben bis heute zurück?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 240\" width=\"760\" height=\"240\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"240\" fill=\"#ffffff\"/><line x1=\"20\" y1=\"150\" x2=\"745\" y2=\"150\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"100.7\" y1=\"140\" x2=\"100.7\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"100.7\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3000 v. Chr.</text><line x1=\"222.1\" y1=\"140\" x2=\"222.1\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"222.1\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2000 v. Chr.</text><line x1=\"343.6\" y1=\"140\" x2=\"343.6\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"343.6\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1000 v. Chr.</text><line x1=\"465.0\" y1=\"140\" x2=\"465.0\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"465.0\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Christi Geburt</text><line x1=\"586.4\" y1=\"140\" x2=\"586.4\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"586.4\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1000 n. Chr.</text><line x1=\"707.9\" y1=\"140\" x2=\"707.9\" y2=\"160\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"707.9\" y=\"184\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2000 n. Chr.</text><line x1=\"22\" y1=\"202\" x2=\"100.7\" y2=\"202\" stroke=\"#a9895c\" stroke-width=\"6\" stroke-linecap=\"round\"/><text x=\"22\" y=\"228\" font-size=\"15\" font-weight=\"normal\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Ur- und Frühgeschichte (bis 3000 v. Chr.)</text><rect x=\"57.1\" y=\"124\" width=\"30.9\" height=\"26\" fill=\"#e2701a\" stroke=\"#a14a00\" stroke-width=\"2\"/><text x=\"40\" y=\"114\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Ötzi: 3359–3105 v. Chr.</text><line x1=\"711.0\" y1=\"150\" x2=\"711.0\" y2=\"88\" stroke=\"#3b6ea5\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><circle cx=\"711.0\" cy=\"150\" r=\"6\" fill=\"#3b6ea5\"/><text x=\"703.0\" y=\"114\" font-size=\"16\" font-weight=\"bold\" fill=\"#2a5585\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">heute (2026)</text></svg>",
+   "bildAlt": "Zeitstrahl von 3500 v. Chr. bis 2100 n. Chr. mit Ötzis Lebenszeit (3359 bis 3105 v. Chr.) ganz links, Christi Geburt in der Mitte und heute (2026) ganz rechts",
+   "tipp": "Christi Geburt liegt zwischen Ötzi und heute.",
+   "info": "3300 + 2026 = 5326, also etwa 5300 Jahre. Wer 3300 − 2026 rechnet, bekommt etwa 1274 und liegt falsch.",
+   "antworten": [
+    "etwa 5300 Jahre",
+    "etwa 3300 Jahre",
+    "etwa 1300 Jahre",
+    "etwa 2000 Jahre"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "Ötzi lebte erst nach der Gründung der Stadt Rom (der Sage nach 753 v. Chr.).",
+   "tipp": "Bei v. Chr. gilt: Je größer die Zahl, desto früher.",
+   "info": "Ötzi lebte schon vor 3105 v. Chr., also mehr als 2000 Jahre vor der Gründung Roms, die der Sage nach 753 v. Chr. war.",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "Ergänze den Text über Ötzis Zeit.",
+   "text": "Ötzi lebte in der {{Kupfersteinzeit}}. Die Menschen lebten noch ähnlich wie in der {{Jungsteinzeit}}, aber sie begannen schon, mit {{Kupfer}} zu arbeiten. Nach den Epochen im Heft gehört Ötzi zur {{Ur- und Frühgeschichte|Ur und Frühgeschichte}}.",
+   "info": "Kupfer war ein neues Metall. Es bereitete die Metallzeiten vor, die auf die Steinzeit folgten.",
+   "wortbank": [
+    "Kupfersteinzeit",
+    "Jungsteinzeit",
+    "Kupfer",
+    "Ur- und Frühgeschichte",
+    "Altsteinzeit",
+    "Eisen"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Wann lebte Ötzi?",
+   "frage": "Bringe diese Ereignisse in die richtige zeitliche Reihenfolge. Das früheste steht zuerst.",
+   "tipp": "Bei v. Chr. gilt: Je größer die Zahl, desto früher.",
+   "info": "Je größer die Zahl bei v. Chr., desto früher. Lucy ist am ältesten, Ötzis Fund (1991) das jüngste Ereignis.",
+   "schritte": [
+    "Lucy lebt (vor über 3 Millionen Jahren)",
+    "Die ersten Menschen werden sesshaft (um 9000 v. Chr.)",
+    "Ötzi lebt (um 3300 v. Chr.)",
+    "Rom wird der Sage nach gegründet (753 v. Chr.)",
+    "Ötzi wird gefunden (1991 n. Chr.)"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Kleidung und Ausrüstung",
+   "frage": "Welches Teil aus der Skizze ist NICHT steinzeitlich?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 390\" width=\"760\" height=\"390\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"390\" fill=\"#ffffff\"/><g transform=\"translate(10,10)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><path d=\"M 88,34 Q 172,84 88,134\" fill=\"none\" stroke=\"#7a4f24\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"88\" y1=\"34\" x2=\"88\" y2=\"134\" stroke=\"#555\" stroke-width=\"2.5\"/><line x1=\"66\" y1=\"84\" x2=\"176\" y2=\"84\" stroke=\"#6b4a2a\" stroke-width=\"3.5\" stroke-linecap=\"round\"/><polygon points=\"190,84 174,77 174,91\" fill=\"#777\"/><line x1=\"66\" y1=\"84\" x2=\"58\" y2=\"77\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><line x1=\"66\" y1=\"84\" x2=\"58\" y2=\"91\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Bogen</text></g><g transform=\"translate(260,10)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><g transform=\"rotate(8 120 95)\"><line x1=\"108\" y1=\"64\" x2=\"102\" y2=\"34\" stroke=\"#6b4a2a\" stroke-width=\"3.5\"/><line x1=\"120\" y1=\"64\" x2=\"120\" y2=\"30\" stroke=\"#6b4a2a\" stroke-width=\"3.5\"/><line x1=\"132\" y1=\"64\" x2=\"138\" y2=\"34\" stroke=\"#6b4a2a\" stroke-width=\"3.5\"/><polygon points=\"102,24 96,38 108,38\" fill=\"#777\"/><polygon points=\"120,20 114,34 126,34\" fill=\"#777\"/><polygon points=\"138,24 132,38 144,38\" fill=\"#777\"/><rect x=\"97\" y=\"62\" width=\"46\" height=\"76\" rx=\"9\" fill=\"#b98a55\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><line x1=\"97\" y1=\"84\" x2=\"143\" y2=\"84\" stroke=\"#6b4a2a\" stroke-width=\"2.5\"/><line x1=\"97\" y1=\"116\" x2=\"143\" y2=\"116\" stroke=\"#6b4a2a\" stroke-width=\"2.5\"/></g><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Köcher mit Pfeilen</text></g><g transform=\"translate(510,10)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><line x1=\"102\" y1=\"140\" x2=\"102\" y2=\"36\" stroke=\"#8a5a2b\" stroke-width=\"11\" stroke-linecap=\"round\"/><polygon points=\"108,42 168,24 168,92 108,74\" fill=\"#d2773a\" stroke=\"#8a3f10\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"118\" y1=\"52\" x2=\"118\" y2=\"68\" stroke=\"#8a3f10\" stroke-width=\"2\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Kupferbeil</text></g><g transform=\"translate(10,200)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><rect x=\"46\" y=\"76\" width=\"62\" height=\"20\" rx=\"7\" fill=\"#a87b4a\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><polygon points=\"108,70 196,86 108,102\" fill=\"#d9d4c7\" stroke=\"#666\" stroke-width=\"3\" stroke-linejoin=\"round\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Steindolch</text></g><g transform=\"translate(260,200)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><path d=\"M 62,78 Q 62,140 120,140 Q 178,140 178,78 Z\" fill=\"#b98a55\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><ellipse cx=\"120\" cy=\"78\" rx=\"58\" ry=\"12\" fill=\"#5a3f22\" stroke=\"#6b4a2a\" stroke-width=\"3\"/><circle cx=\"98\" cy=\"78\" r=\"7\" fill=\"#e2701a\"/><circle cx=\"120\" cy=\"75\" r=\"8\" fill=\"#f4a233\"/><circle cx=\"142\" cy=\"79\" r=\"7\" fill=\"#e2701a\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Gefäß für Glut</text></g><g transform=\"translate(510,200)\"><rect x=\"0\" y=\"0\" width=\"240\" height=\"180\" rx=\"10\" fill=\"#faf6ec\" stroke=\"#cdbf9f\" stroke-width=\"2\"/><path d=\"M 64,106 Q 64,40 120,40 Q 176,40 176,106 Z\" fill=\"#7a5a3a\" stroke=\"#4d3822\" stroke-width=\"3\"/><rect x=\"56\" y=\"98\" width=\"128\" height=\"30\" rx=\"15\" fill=\"#a07b52\" stroke=\"#4d3822\" stroke-width=\"3\"/><path d=\"M 76,113 l 8,-8 m 12,8 l 8,-8 m 12,8 l 8,-8 m 12,8 l 8,-8 m 12,8 l 8,-8\" fill=\"none\" stroke=\"#4d3822\" stroke-width=\"2.5\"/><circle cx=\"22\" cy=\"22\" r=\"13\" fill=\"#e2701a\"/><text x=\"22\" y=\"27.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">6</text><text x=\"120\" y=\"168\" font-size=\"17\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Fellmütze</text></g></svg>",
+   "bildAlt": "Skizze mit sechs nummerierten Teilen von Ötzis Ausrüstung: 1 Bogen, 2 Köcher mit Pfeilen, 3 Kupferbeil, 4 Steindolch, 5 Gefäß für Glut, 6 Fellmütze",
+   "tipp": "Welches Material gab es in der Steinzeit noch nicht?",
+   "info": "Das Kupferbeil hat eine Klinge aus Metall und zeigt den Übergang zur Metallzeit. Bogen, Steindolch, Fellmütze und Gefäß für Glut sind steinzeitlich.",
+   "antworten": [
+    "Kupferbeil",
+    "Bogen",
+    "Steindolch",
+    "Fellmütze",
+    "Gefäß für Glut"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Kleidung und Ausrüstung",
+   "frage": "Aus welchem Material war das Teil?",
+   "info": "Feuerstein, Eschenholz, Gamsleder, Bärenfell und Baumbast stehen auf der Kopie. Zum Kupferbeil kommen gleich noch zwei Fragen.",
+   "paare": [
+    [
+     "Dolch (Klinge)",
+     "Feuerstein"
+    ],
+    [
+     "Dolch (Griff)",
+     "Eschenholz"
+    ],
+    [
+     "Köcher",
+     "Gamsleder"
+    ],
+    [
+     "Mütze",
+     "Bärenfell"
+    ],
+    [
+     "Bohrer",
+     "Feuerstein"
+    ],
+    [
+     "Schnur",
+     "Baumbast"
+    ]
+   ],
+   "extra": [
+    "Schafwolle"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Kleidung und Ausrüstung",
+   "frage": "Aus welchem Metall war die Klinge von Ötzis Beil?",
+   "info": "Die Klinge war aus Kupfer gegossen. Deshalb heißt Ötzis Zeit Kupfersteinzeit.",
+   "richtig": [
+    "Kupfer",
+    "aus Kupfer"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Kleidung und Ausrüstung",
+   "frage": "Aus welchem Holz war der Schaft von Ötzis Beil?",
+   "tipp": "Es ist ein Nadelbaum, dessen Name mit E anfängt.",
+   "info": "Der Schaft des etwa 60 cm langen Beils war aus Eibenholz.",
+   "richtig": [
+    "Eibenholz",
+    "Eibe",
+    "aus Eibenholz"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Kleidung und Ausrüstung",
+   "frage": "Von allen Beilen aus der Vorgeschichte ist nur Ötzis Kupferbeil vollständig erhalten.",
+   "info": "Es ist das einzige vollständig erhaltene vorgeschichtliche Beil der Welt. Darum ist es so wertvoll für die Forschung.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Kleidung und Ausrüstung",
+   "frage": "Ergänze den Text über Ötzis Ausrüstung.",
+   "text": "Zu Ötzis Ausrüstung gehörten wintertaugliche {{Fellkleidung|Kleidung}}, ein {{Bogen|Köcher|Steindolch}}, ein {{Köcher|Bogen|Steindolch}} für die Pfeile und ein {{Steindolch|Bogen|Köcher}}. Dazu kam ein Gefäß, in dem er {{Glut|Feuer}} mitnahm. Das {{Kupferbeil|Beil}} zeigt den Übergang zur Metallzeit.",
+   "info": "Fast alles war steinzeitlich. Nur das Kupferbeil zeigt schon das neue Metall.",
+   "wortbank": [
+    "Fellkleidung",
+    "Bogen",
+    "Köcher",
+    "Steindolch",
+    "Glut",
+    "Kupferbeil",
+    "Eisenschwert",
+    "Schild"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Kleidung und Ausrüstung",
+   "frage": "Welche Aussage über Ötzis Leben lässt sich aus seiner Ausrüstung am besten begründen?",
+   "tipp": "Denke an den halbfertigen Bogen.",
+   "info": "Der halbfertige Bogen, die Rohlinge für Pfeilschäfte und der Bohrer sprechen dafür. Das ist ein Schluss aus den Funden.",
+   "antworten": [
+    "Er stellte Waffen und Werkzeug selbst her.",
+    "Er besorgte alle Waffen bei einem Händler.",
+    "Er kannte Metall noch gar nicht.",
+    "Er trug nur leichte Kleidung für den Sommer."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Warum nennt das Buch Ötzi einen „Wanderer zwischen den Zeiten“?",
+   "tipp": "Die Überschrift sagt etwas über seine Zeit, nicht über seine Wege.",
+   "info": "Gemeint ist die Übergangszeit: Seine Ausrüstung ist fast ganz steinzeitlich, das Kupferbeil zeigt schon die Metallzeit.",
+   "antworten": [
+    "Er lebte in der Übergangszeit von Stein zu Metall.",
+    "Er wanderte ständig zwischen Italien und Deutschland.",
+    "Er war ein Nomade ohne festen Wohnort.",
+    "Er lebte zugleich in Alt- und Jungsteinzeit."
+   ],
+   "richtig": 0,
+   "lesen": "Wanderer zwischen den Zeiten"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Woran starb Ötzi?",
+   "info": "In seiner linken Schulter steckte eine Pfeilspitze. Er verblutete innerhalb weniger Minuten.",
+   "antworten": [
+    "Er verblutete, nachdem ihn ein Pfeil getroffen hatte.",
+    "Er erfror nachts bei einem Schneesturm in den Bergen.",
+    "Er wurde unterwegs von einer Lawine verschüttet.",
+    "Er starb an einer Krankheit durch Parasiten im Darm."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "In welcher Schulter steckte die Pfeilspitze?",
+   "info": "Die Pfeilspitze steckte in der linken Schulter. Die Schnittwunde war dagegen an der rechten Hand.",
+   "richtig": [
+    "linke",
+    "linken",
+    "links",
+    "linke Schulter",
+    "die linke",
+    "die linke Schulter",
+    "der linken Schulter",
+    "in der linken Schulter"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Worauf deutet die tiefe Schnittwunde an Ötzis rechter Hand hin?",
+   "tipp": "Wie alt war die Wunde nach dem Mikroskop?",
+   "info": "Unter dem Mikroskop war die Wunde ein bis drei Tage alt. Der Arzt hält sie für eine Kampf- oder Verteidigungsverletzung.",
+   "antworten": [
+    "auf einen Nahkampf kurz vor seinem Tod",
+    "auf eine Verletzung, die schon Jahre alt war",
+    "auf Erfrierungen durch die Kälte im Gletscher",
+    "auf einen Sturz in eine Gletscherspalte"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Ötzis Körper wurde schon wenige Wochen nach seinem Tod entdeckt.",
+   "info": "Der Körper blieb Jahrtausende im Gletschereis verborgen. Erst 1991 wurde er gefunden.",
+   "richtig": false
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Ordne Ötzis letzte Tage sinnvoll in die richtige Reihenfolge.",
+   "tipp": "Die Verletzung an der Hand lag ein bis drei Tage zurück. Der Pfeil kam erst nach der Mahlzeit.",
+   "info": "Die Handwunde war schon ein bis drei Tage alt, sie liegt also am weitesten zurück. Die letzte Mahlzeit lag höchstens eine Stunde vor dem Tod: Erst kommen Rast und Essen, dann trifft ihn der Pfeil.",
+   "schritte": [
+    "Ötzi wird an der Hand verletzt (ein bis drei Tage vor seinem Tod).",
+    "Er steigt müde über die Baumgrenze und trinkt Wasser aus Bächen.",
+    "Er sucht zwischen Felsen einen Platz zum Ausruhen und lehnt die Ausrüstung an den Fels.",
+    "Er setzt sich und isst eine Mahlzeit.",
+    "Ein Pfeil trifft ihn in die linke Schulter.",
+    "Er verliert das Gleichgewicht und fällt nieder."
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Woher weiß man das? Ordne die Untersuchung der Erkenntnis zu.",
+   "tipp": "Pollen blühen nur zu einer bestimmten Jahreszeit.",
+   "info": "Jede Erkenntnis stützt sich auf einen Fund oder eine Untersuchung. So kann man den „Kriminalfall“ Schritt für Schritt aufklären.",
+   "paare": [
+    [
+     "Pollen in Lunge und Darm",
+     "Ötzi war im Frühling oder Frühsommer unterwegs"
+    ],
+    [
+     "Wundränder unter dem Mikroskop",
+     "Die Handwunde war ein bis drei Tage alt"
+    ],
+    [
+     "Computertomografie des Magens",
+     "Die letzte Mahlzeit lag höchstens eine Stunde zurück"
+    ],
+    [
+     "halbfertiger Bogen und Rohlinge für Pfeilschäfte",
+     "Ötzi musste seine Waffen erneuern"
+    ],
+    [
+     "Pfeilspitze in der linken Schulter",
+     "Er wurde von einem Pfeil getroffen und verblutete"
+    ]
+   ],
+   "extra": [
+    "Er war schon als Kind verletzt worden"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Wie heißt das Verfahren, mit dem man Ötzis Magen und dessen Inhalt untersucht hat? (Abkürzung CT)",
+   "tipp": "Das Wort beginnt mit „Computer“.",
+   "info": "Die Computertomografie zeigte einen gut gefüllten Magen mit kaum verdauten Speisen.",
+   "richtig": [
+    "Computertomografie",
+    "Computertomographie",
+    "CT",
+    "Computertomograf",
+    "Computertomograph"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Tod und Kriminalfall",
+   "frage": "Ergänze den Text über Ötzis Tod.",
+   "text": "Ötzi starb durch einen {{Pfeil}}, dessen Spitze in der {{linken}} Schulter steckte. Er {{verblutete}} innerhalb weniger {{Minuten}}. Die tiefe Schnittwunde an der rechten {{Hand}} deutet auf einen {{Nahkampf}}.",
+   "info": "Pfeilspitze links in der Schulter, Wunde rechts an der Hand: Merke dir die beiden Körperseiten.",
+   "wortbank": [
+    "Pfeil",
+    "linken",
+    "verblutete",
+    "Minuten",
+    "Hand",
+    "Nahkampf",
+    "rechten",
+    "erfror",
+    "Beil"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Ist es eine Quelle oder eine Darstellung?",
+   "tipp": "Wer hat es gemacht, und wann? Gehörte es schon zu Ötzis Zeit?",
+   "info": "Quellen stammen aus Ötzis Zeit. Darstellungen machen Menschen später mithilfe der Quellen.",
+   "paare": [
+    [
+     "Ötzis Mumie",
+     "Quelle"
+    ],
+    [
+     "Das Kupferbeil",
+     "Quelle"
+    ],
+    [
+     "Die Pfeilspitze in Ötzis Schulter",
+     "Quelle"
+    ],
+    [
+     "Text des Arztes über Ötzis letzte Minuten",
+     "Darstellung"
+    ],
+    [
+     "Rekonstruktionszeichnung von 2011",
+     "Darstellung"
+    ],
+    [
+     "Schulbuchtext über Ötzi",
+     "Darstellung"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Zu welcher Art von Quellen gehören Ötzis Mumie, seine Kleidung und seine Waffen?",
+   "tipp": "Man kann sie anfassen.",
+   "info": "Man kann sie anfassen und untersuchen. Das Heft nennt sie Sachquellen, das Buch gegenständliche Quellen.",
+   "richtig": [
+    "Sachquellen",
+    "Sachquelle",
+    "gegenständliche Quellen",
+    "gegenständliche Quelle"
+   ],
+   "lesen": [
+    "Kleidung und Ausrüstung",
+    "Belegt oder vermutet? Quelle oder Darstellung?"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Warum ist der Text des Arztes Egarter-Vigl eine Darstellung und keine Quelle?",
+   "tipp": "Denke an den Zeitabstand zwischen Ötzis Tod und dem Text.",
+   "info": "Der Arzt hat Ötzis Tod nicht erlebt. Er erzählt ihn Jahrtausende später und stützt sich dabei auf Funde.",
+   "antworten": [
+    "Er schreibt später über etwas, das er nicht selbst erlebt hat.",
+    "Er enthält Wörter der Unsicherheit wie „wohl“ und „vielleicht“.",
+    "Er wurde in einem Buch gedruckt und nicht im Museum gezeigt.",
+    "Er enthält keine Zeichnungen oder Fotos als Beleg."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Eine Rekonstruktionszeichnung von Ötzi ist eine Quelle.",
+   "info": "Sie ist eine Darstellung, denn sie entstand erst später. Quellen sind die Funde, auf denen sie beruht (Mumie, Kleidung, Ausrüstung).",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Ergänze den Text über Wörter der Unsicherheit.",
+   "text": "Wenn ein Forscher etwas nicht sicher weiß, benutzt er Wörter der {{Unsicherheit}}, zum Beispiel „{{vermutlich|wahrscheinlich|vielleicht|wohl}}“, „{{wahrscheinlich|vermutlich|vielleicht|wohl}}“ oder „{{vielleicht|vermutlich|wahrscheinlich|wohl}}“. Das zeigt: Man {{vermutet}} etwas, aber man hat es nicht {{bewiesen}}.",
+   "info": "Solche Wörter stehen oft bei Aussagen, die nur vermutet sind, zum Beispiel bei Ötzis Tätowierungen.",
+   "wortbank": [
+    "Unsicherheit",
+    "vermutlich",
+    "wahrscheinlich",
+    "vielleicht",
+    "vermutet",
+    "bewiesen",
+    "sicher",
+    "bestimmt"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Ist die Aussage belegt oder nur vermutet?",
+   "tipp": "Gibt es einen Fund oder eine Untersuchung dazu?",
+   "info": "Belegt sind Dinge, die man an der Mumie und den Funden sieht. Wer Ötzi tötete und warum, bleibt ein Rätsel.",
+   "paare": [
+    [
+     "Eine Pfeilspitze steckte in Ötzis linker Schulter",
+     "belegt"
+    ],
+    [
+     "Ötzis Blutgefäße waren verkalkt",
+     "belegt"
+    ],
+    [
+     "Kurz vor seinem Tod hatte Ötzi gegessen",
+     "belegt"
+    ],
+    [
+     "Die Tätowierungen sollten Schmerzen lindern",
+     "nur vermutet"
+    ],
+    [
+     "Der Schütze schlich sich heimlich an",
+     "nur vermutet"
+    ],
+    [
+     "Ein Feind aus einem anderen Dorf hat Ötzi getötet",
+     "nur vermutet"
+    ]
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Die Belege reichen aus, um genau zu sagen, wer Ötzi getötet hat.",
+   "info": "Man weiß, dass ein Pfeil ihn traf. Wer geschossen hat und warum, bleibt ein Rätsel.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Quelle, Darstellung, belegt oder vermutet",
+   "frage": "Worauf stützt sich die Aussage „Ötzi ist in Italien gestorben“?",
+   "tipp": "Was hat man wirklich gefunden?",
+   "info": "Die Mumie lag in den Ötztaler Alpen an der Grenze zu Italien und liegt heute in Bozen. Briefe, Urkunden oder Augenzeugen aus Ötzis Zeit gibt es dazu nicht.",
+   "antworten": [
+    "Auf den Fundort der Mumie in den Ötztaler Alpen",
+    "Auf einen Brief, den Ötzi selbst geschrieben hat",
+    "Auf Zeugen, die seinen Tod beobachtet haben",
+    "Auf eine Urkunde aus Bozen aus Ötzis Zeit"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Wo wird Ötzis Mumie heute aufbewahrt?",
+   "info": "Laut Kopie kam die Mumie nach dem Fund zuerst nach Innsbruck. Heute liegt sie im Museum in Bozen in Italien.",
+   "antworten": [
+    "Im Südtiroler Archäologiemuseum in Bozen",
+    "Im Deutschen Museum in München",
+    "Im Landesmuseum in Innsbruck",
+    "Im Römisch-Germanischen Museum in Köln"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Die Mumie wird in einem eigens gebauten Kühlraum aufbewahrt.",
+   "info": "Der Kühlraum wurde extra für Ötzi gebaut, damit die Mumie erhalten bleibt.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Ergänze den Text über das Museum.",
+   "text": "Ötzis Mumie liegt im Südtiroler {{Archäologiemuseum}} in der Stadt {{Bozen}}. Die Stadt liegt in {{Italien}}. Die Mumie wird dort in einem {{Kühlraum}} aufbewahrt.",
+   "info": "Die Mumie ist heute in Bozen. Nach dem Fund kam sie laut Kopie zuerst nach Innsbruck.",
+   "wortbank": [
+    "Archäologiemuseum",
+    "Bozen",
+    "Italien",
+    "Kühlraum",
+    "Innsbruck",
+    "Österreich"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Ist die Ausstellung würdelos? Ordne jedes Argument zu.",
+   "tipp": "Würdelos heißt: ohne Achtung vor dem Menschen.",
+   "info": "Das sind Argumente, keine Fakten. Du kannst sie für deine eigene Meinung nutzen.",
+   "paare": [
+    [
+     "Ein Mensch wird wie ein Ausstellungsstück angeschaut",
+     "spricht dafür (würdelos)"
+    ],
+    [
+     "Man hat Ötzi nicht um Erlaubnis gefragt",
+     "spricht dafür (würdelos)"
+    ],
+    [
+     "Ötzi ist schon lange tot und spürt nichts mehr",
+     "spricht dagegen (nicht würdelos)"
+    ],
+    [
+     "Die Forschung lernt durch Ötzi viel über die Steinzeit",
+     "spricht dagegen (nicht würdelos)"
+    ],
+    [
+     "Die Mumie wird sorgfältig im Kühlraum aufbewahrt",
+     "spricht dagegen (nicht würdelos)"
+    ]
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Ötzi liegt in Bozen in einem Kühlraum und wird ausgestellt. Manche finden das würdelos. Nenne ein Argument dafür, ein Argument dagegen und schreibe deine eigene Meinung mit Begründung.",
+   "tipp": "Es gibt keine einzig richtige Meinung. Wichtig ist, dass du sie begründest.",
+   "punkte": 4,
+   "muster": "Dafür (würdelos): Ötzi war ein Mensch. Es ist nicht schön, wenn ein Toter wie ein Ausstellungsstück angeschaut wird. Dagegen: Ötzi ist schon lange tot und spürt nichts mehr. Außerdem lernen die Forscher und Besucher durch ihn viel über die Steinzeit. Meine Meinung: Ich finde es nicht würdelos, solange die Mumie sorgfältig und mit Respekt aufbewahrt wird, weil man durch sie viel über das Leben vor über 5000 Jahren erfährt.",
+   "kriterien": [
+    "Ein Argument, das dafür spricht, dass es würdelos ist",
+    "Ein Argument, das dagegen spricht",
+    "Eine eigene Meinung",
+    "Die Meinung ist begründet"
+   ],
+   "lesen": "Ötzi im Museum"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Erkläre die Überschrift „Wanderer zwischen den Zeiten“. Nenne dazu zwei Teile von Ötzis Ausrüstung.",
+   "tipp": "Welches Teil der Ausrüstung passt nicht zur reinen Steinzeit?",
+   "punkte": 3,
+   "muster": "Ötzi lebte in der Kupfersteinzeit, in einer Übergangszeit zwischen Steinzeit und Metallzeit. Viele Teile seiner Ausrüstung sind steinzeitlich, zum Beispiel der Steindolch und die Fellkleidung. Das Kupferbeil mit der Metallklinge zeigt schon die neue Zeit.",
+   "kriterien": [
+    "Übergangszeit zwischen Steinzeit und Metallzeit genannt",
+    "Ein steinzeitliches Teil genannt (zum Beispiel Steindolch, Fellkleidung, Bogen)",
+    "Das Kupferbeil als neues Teil genannt"
+   ],
+   "lesen": [
+    "Kleidung und Ausrüstung",
+    "Wanderer zwischen den Zeiten"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Prüfe die beiden Aussagen aus dem Heft. Was ist durch Quellen belegt, was nicht? „Ötzi ist weit gelaufen, wurde von einem Pfeil getroffen und hat sehr viel Blut verloren.“ und „Ötzi ist in Italien gestorben.“",
+   "tipp": "Prüfe jede Aussage Teil für Teil: Gibt es einen Fund oder eine Untersuchung dazu?",
+   "info": "Das Muster ist eine Einschätzung aus den Funden. Vergleiche deine Antwort mit der Lösung in deinem Heft.",
+   "punkte": 4,
+   "muster": "Mögliche Lösung (eine Einschätzung, bitte mit deinem Heft abgleichen): „Ötzi ist weit gelaufen, wurde von einem Pfeil getroffen und hat sehr viel Blut verloren“: Der Pfeil ist belegt (Pfeilspitze in der linken Schulter), der Blutverlust auch (er verblutete). Bei „weit gelaufen“ ist es eine Einschätzung: Die Funde zeigen nur, dass er müde vom Aufstieg und über die Alpen unterwegs war. „Ötzi ist in Italien gestorben“: Dafür spricht der Fundort in den Ötztaler Alpen an der Grenze zu Italien. Die Mumie liegt heute in Bozen in Italien. Das Land Italien gab es damals aber noch nicht.",
+   "kriterien": [
+    "Pfeil und Blutverlust als belegt genannt (Pfeilspitze, verblutet)",
+    "Zu „weit gelaufen“ begründet Stellung genommen (zum Beispiel: Die Funde zeigen nur, dass er über die Alpen unterwegs war)",
+    "Die Aussage zu Italien mit dem Fundort begründet",
+    "Die Aussagen Teil für Teil geprüft"
+   ],
+   "lesen": "Belegt oder vermutet? Quelle oder Darstellung?"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Museum und klausurnahe Aufgaben",
+   "frage": "Wer war Ötzi und was weiß man über ihn? Schreibe fünf bis sechs Sätze.",
+   "tipp": "Gehe der Reihe nach vor: Fund, Zeit, Aussehen, Ausrüstung, Tod, Museum.",
+   "punkte": 6,
+   "muster": "Ötzi ist eine Mumie, die 1991 von einem Ehepaar in den Ötztaler Alpen im Gletscher gefunden wurde. Er lebte zwischen 3359 und 3105 v. Chr. in der Kupfersteinzeit, also vor über 5000 Jahren. Er war etwa 46 Jahre alt, etwa 1,60 m groß und hatte blaue Augen und über 50 Tätowierungen. Zu seiner Ausrüstung gehörten Fellkleidung, Bogen, Steindolch und ein Kupferbeil. Er wurde von einem Pfeil in die linke Schulter getroffen und verblutete. Heute liegt die Mumie im Museum in Bozen.",
+   "kriterien": [
+    "Gefunden 1991 von einem Ehepaar in den Ötztaler Alpen (im Gletscher)",
+    "Lebte um 3300 v. Chr., Kupfersteinzeit, über 5000 Jahre her",
+    "Aussehen oder Alter (etwa 46 Jahre, etwa 1,60 m, blaue Augen, Tätowierungen)",
+    "Ausrüstung (zum Beispiel Bogen, Steindolch, Kupferbeil)",
+    "Tod durch einen Pfeil, verblutet",
+    "Mumie im Museum in Bozen"
+   ],
+   "lesen": [
+    "Der Fund im Eis",
+    "Wer war Ötzi?",
+    "Wann lebte Ötzi?",
+    "Ötzi wurde getötet"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Der Fund im Eis": "Der Fund im Eis",
+  "B – Wer war Ötzi?": "Wer war Ötzi?",
+  "C – Wann lebte Ötzi?": "Wann lebte Ötzi?",
+  "D – Kleidung und Ausrüstung": [
+   "Kleidung und Ausrüstung",
+   "Wanderer zwischen den Zeiten"
+  ],
+  "E – Tod und Kriminalfall": [
+   "Ötzi wurde getötet",
+   "Kriminalfall Ötzi: Woher weiß man das?"
+  ],
+  "F – Quelle, Darstellung, belegt oder vermutet": "Belegt oder vermutet? Quelle oder Darstellung?",
+  "G – Museum und klausurnahe Aufgaben": "Ötzi im Museum"
+ },
+ "probe": false
+}

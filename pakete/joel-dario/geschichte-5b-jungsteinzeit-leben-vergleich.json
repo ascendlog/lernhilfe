@@ -1,0 +1,1025 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-5b-jungsteinzeit-leben-vergleich",
+ "titel": "Geschichte Teil 5b: Leben in der Jungsteinzeit und Vergleich mit der Altsteinzeit",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Leben im Dorf, Erfindungen und ihre Bedeutung, Folgen der neuen Lebensweise, Vor- und Nachteile abwägen und der große Vergleich zwischen Altsteinzeit und Jungsteinzeit. Mit Lernblatt, Zeichnungen und Übungsaufgaben.",
+ "hinweis": "Der Vergleich folgt den Zeilen der Tabelle im Buch. Die Antworten sind aus Heft und Buch abgeleitet. Bitte mit deinem Heft und deinem Tafelanschrieb abgleichen.",
+ "lernblatt": [
+  {
+   "titel": "Leben im Dorf der Jungsteinzeit",
+   "text": "Die ersten Bauern wohnten nicht mehr in Zelten, die man immer wieder abbaut, sondern in **Dörfern**. Ihre Häuser waren größer und fester. Oft waren es **Langhäuser** mit einem Dach aus Stroh. Im Dorf lagerten die **Vorräte**, und die Tiere gehörten dazu.\nIm Dorf hatte jeder eine Aufgabe. Diese **Arbeitsteilung** führte zu **Berufen**:\n\n- **Bauern** bauten Getreide an und brachten die Ernte ein.\n- **Schäfer** hüteten Schafe und andere Tiere.\n- **Töpfer** formten Gefäße aus Ton.\n- **Handwerker** stellten Werkzeuge her, zum Beispiel geschliffene Steinbeile.\n\nWoher wissen wir das? Funde wie Mahlsteine oder Scherben von Tontöpfen sind **Sachquellen**, denn sie stammen aus der Zeit selbst. Eine Zeichnung, die Menschen viel später nach solchen Funden gemacht haben, ist dagegen eine **Darstellung**.",
+   "merke": "Dorf mit Langhäusern, Vorräten und Tieren. Jeder hat eine Aufgabe (Arbeitsteilung): Bauer, Schäfer, Töpfer, Handwerker. Funde sind Quellen, spätere Zeichnungen sind Darstellungen.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 420\" width=\"760\" height=\"420\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"420\" fill=\"#ffffff\"/><rect width=\"760\" height=\"420\" fill=\"#d5e7b8\"/><circle cx=\"40\" cy=\"40\" r=\"28\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"92\" cy=\"30\" r=\"26\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"144\" cy=\"46\" r=\"28\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"32\" r=\"24\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"66\" cy=\"92\" r=\"26\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"100\" r=\"28\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"178\" cy=\"92\" r=\"26\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"76\" r=\"24\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"140\" r=\"24\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"150\" r=\"22\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><rect x=\"440\" y=\"30\" width=\"290\" height=\"150\" fill=\"#e0c07c\" stroke=\"#8a6a2a\" stroke-width=\"3\"/><line x1=\"440\" y1=\"48.75\" x2=\"730\" y2=\"48.75\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"67.5\" x2=\"730\" y2=\"67.5\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"86.25\" x2=\"730\" y2=\"86.25\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"105.0\" x2=\"730\" y2=\"105.0\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"123.75\" x2=\"730\" y2=\"123.75\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"142.5\" x2=\"730\" y2=\"142.5\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"161.25\" x2=\"730\" y2=\"161.25\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"458\" y1=\"43.0\" x2=\"458\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"43.0\" x2=\"492\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"43.0\" x2=\"526\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"43.0\" x2=\"560\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"43.0\" x2=\"594\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"43.0\" x2=\"628\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"43.0\" x2=\"662\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"43.0\" x2=\"696\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"61.75\" x2=\"458\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"61.75\" x2=\"492\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"61.75\" x2=\"526\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"61.75\" x2=\"560\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"61.75\" x2=\"594\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"61.75\" x2=\"628\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"61.75\" x2=\"662\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"61.75\" x2=\"696\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"80.5\" x2=\"458\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"80.5\" x2=\"492\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"80.5\" x2=\"526\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"80.5\" x2=\"560\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"80.5\" x2=\"594\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"80.5\" x2=\"628\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"80.5\" x2=\"662\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"80.5\" x2=\"696\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"99.25\" x2=\"458\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"99.25\" x2=\"492\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"99.25\" x2=\"526\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"99.25\" x2=\"560\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"99.25\" x2=\"594\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"99.25\" x2=\"628\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"99.25\" x2=\"662\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"99.25\" x2=\"696\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"118.0\" x2=\"458\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"118.0\" x2=\"492\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"118.0\" x2=\"526\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"118.0\" x2=\"560\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"118.0\" x2=\"594\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"118.0\" x2=\"628\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"118.0\" x2=\"662\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"118.0\" x2=\"696\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"136.75\" x2=\"458\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"136.75\" x2=\"492\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"136.75\" x2=\"526\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"136.75\" x2=\"560\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"136.75\" x2=\"594\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"136.75\" x2=\"628\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"136.75\" x2=\"662\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"136.75\" x2=\"696\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"155.5\" x2=\"458\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"155.5\" x2=\"492\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"155.5\" x2=\"526\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"155.5\" x2=\"560\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"155.5\" x2=\"594\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"155.5\" x2=\"628\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"155.5\" x2=\"662\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"155.5\" x2=\"696\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"174.25\" x2=\"458\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"174.25\" x2=\"492\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"174.25\" x2=\"526\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"174.25\" x2=\"560\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"174.25\" x2=\"594\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"174.25\" x2=\"628\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"174.25\" x2=\"662\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"174.25\" x2=\"696\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"440\" y=\"230\" width=\"290\" height=\"160\" fill=\"#bfe08f\" stroke=\"#7a5a3a\" stroke-width=\"3\" stroke-dasharray=\"10 6\"/><ellipse cx=\"490\" cy=\"290\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"510\" cy=\"287\" r=\"7\" fill=\"#555\"/><ellipse cx=\"570\" cy=\"326\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"590\" cy=\"323\" r=\"7\" fill=\"#555\"/><ellipse cx=\"640\" cy=\"280\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"660\" cy=\"277\" r=\"7\" fill=\"#555\"/><ellipse cx=\"690\" cy=\"352\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"710\" cy=\"349\" r=\"7\" fill=\"#555\"/><ellipse cx=\"520\" cy=\"358\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"540\" cy=\"355\" r=\"7\" fill=\"#555\"/><path d=\"M 20 240 C 140 232, 260 250, 420 214 L 420 244 C 260 282, 140 266, 20 276 Z\" fill=\"#e6d3a3\" opacity=\"0.8\"/><rect x=\"40\" y=\"170\" width=\"230\" height=\"46\" rx=\"6\" fill=\"#d9b45e\" stroke=\"#7a5a2a\" stroke-width=\"3\"/><line x1=\"40\" y1=\"179.2\" x2=\"270\" y2=\"179.2\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"40\" y1=\"188.4\" x2=\"270\" y2=\"188.4\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"40\" y1=\"197.6\" x2=\"270\" y2=\"197.6\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"40\" y1=\"206.8\" x2=\"270\" y2=\"206.8\" stroke=\"#b58c3a\" stroke-width=\"2\"/><rect x=\"60\" y=\"296\" width=\"210\" height=\"46\" rx=\"6\" fill=\"#d9b45e\" stroke=\"#7a5a2a\" stroke-width=\"3\"/><line x1=\"60\" y1=\"305.2\" x2=\"270\" y2=\"305.2\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"60\" y1=\"314.4\" x2=\"270\" y2=\"314.4\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"60\" y1=\"323.6\" x2=\"270\" y2=\"323.6\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"60\" y1=\"332.8\" x2=\"270\" y2=\"332.8\" stroke=\"#b58c3a\" stroke-width=\"2\"/><rect x=\"300\" y=\"296\" width=\"110\" height=\"40\" rx=\"6\" fill=\"#d9b45e\" stroke=\"#7a5a2a\" stroke-width=\"3\"/><line x1=\"300\" y1=\"304.0\" x2=\"410\" y2=\"304.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"300\" y1=\"312.0\" x2=\"410\" y2=\"312.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"300\" y1=\"320.0\" x2=\"410\" y2=\"320.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"300\" y1=\"328.0\" x2=\"410\" y2=\"328.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><rect x=\"300\" y=\"150\" width=\"96\" height=\"60\" rx=\"6\" fill=\"#c97f4a\" stroke=\"#7a3c15\" stroke-width=\"3\"/><ellipse cx=\"322\" cy=\"232\" rx=\"13\" ry=\"10\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><rect x=\"315\" y=\"217\" width=\"14\" height=\"7\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><ellipse cx=\"352\" cy=\"234\" rx=\"13\" ry=\"10\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><rect x=\"345\" y=\"219\" width=\"14\" height=\"7\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><ellipse cx=\"380\" cy=\"230\" rx=\"13\" ry=\"10\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><rect x=\"373\" y=\"215\" width=\"14\" height=\"7\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><text x=\"155\" y=\"198\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Langhaus</text><text x=\"585\" y=\"110\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Acker</text><text x=\"585\" y=\"262\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Weide mit Schafen</text><text x=\"348\" y=\"186\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Töpferei</text><text x=\"130\" y=\"66\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Wald</text><text x=\"355\" y=\"322\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Haus</text><text x=\"165\" y=\"322\" font-size=\"15\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Langhaus</text><text x=\"742\" y=\"410\" font-size=\"15\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">erfundene Skizze, nicht maßstäblich</text></svg>",
+   "bildAlt": "Erfundene Skizze eines Dorfs der Jungsteinzeit von oben: mehrere Langhäuser mit Strohdach, eine Töpferei mit Töpfen, rechts oben ein Acker mit Furchen, rechts unten eine Weide mit Schafen und links oben ein Wald."
+  },
+  {
+   "titel": "Spinnen, Weben, Töpfern und Mahlen",
+   "text": "Die Menschen der Jungsteinzeit erfanden viele Dinge für den Alltag im Dorf:\n\n- **Spinnen und Weben**: Aus Wolle und Lein spann man Fäden und webte daraus auf dem **Webstuhl** (einem Gerät zum Weben, mit Gewichten) Stoffe. So entstanden Kleidung und Decken.\n- **Keramik**: Aus Ton formte man Töpfe, Becher und Näpfe. Man konnte darin kochen und Essen aufbewahren. Keramik gibt es seit etwa 7000 v. Chr.\n- **Mahlstein und Reibstein**: Damit mahlte man Getreidekörner. Aus dem Mehl wurden Brot und Brei.",
+   "merke": "Spinnen und Weben: Stoffe. Keramik: Kochen und Aufbewahren. Mahlstein und Reibstein: Getreide mahlen."
+  },
+  {
+   "titel": "Beil, Pflug und Rad",
+   "text": "Auch bei Werkzeugen und Geräten tat sich viel:\n\n- **Geschliffene Beile**: Früher hatte man Steine nur grob zurechtgeschlagen. Jetzt schliff man Steinäxte und Steinbeile glatt. Mit **Bohrungen** im Stein konnte man ihn am **Schaft** (dem Stiel) befestigen.\n- **Pflug**: Er lockert den Boden für die Saat. Die ersten Pflüge waren aus Holz. In Mitteleuropa gibt es den Pflug seit etwa 4500 v. Chr.\n- **Rad**: Es wurde um 3000 v. Chr. erfunden, also viel später als der Ackerbau und die Keramik.",
+   "merke": "Geschliffene Beile mit Bohrung zum Befestigen am Schaft. Pflug seit ca. 4500 v. Chr. in Mitteleuropa, Rad um 3000 v. Chr."
+  },
+  {
+   "titel": "Folgen der neuen Lebensweise",
+   "text": "Das Leben als Bauer hatte viele Folgen:\n\n- Mit **Vorräten** waren die Menschen **unabhängiger von der Umwelt**. Sie hatten auch dann zu essen, wenn gerade keine Beute da war.\n- **Besitz** führte zu **Neid und Streit**.\n- Der Mensch **veränderte die Umwelt**: Durch **Brandrodung** (Wald wird abgebrannt, um Platz zu schaffen) entstanden **Felder** und **Weideflächen**.\n- Die Menschen hingen von der Ernte ab. Bei **Ernteausfällen** drohten **Hungersnöte**. Am Anfang war das Essen auch einseitig.\n- Trotzdem nahm die Bevölkerung stetig zu. Deshalb mussten neue Siedlungen und Ackerflächen angelegt werden.",
+   "merke": "Folgen: Vorräte (unabhängiger), Besitz (Neid und Streit), Umweltveränderung (Brandrodung, Felder, Weiden), Hungersnöte bei Ernteausfall, mehr Menschen."
+  },
+  {
+   "titel": "Vorteile und Nachteile abwägen",
+   "text": "**Abwägen** heißt: Du sammelst Vorteile und Nachteile und kommst dann zu einem begründeten Urteil. Für die neue Lebensweise:\n\n- **Vorteile**: Vorräte machen unabhängiger von der Umwelt. Die Häuser sind größer und fester. Tiere halten ist weniger gefährlich als jagen. Durch Arbeitsteilung entstehen Berufe.\n- **Nachteile**: Bei Ernteausfällen drohen Hungersnöte. Das Essen ist am Anfang einseitig. Besitz führt zu Neid und Streit. Der Mensch verändert die Landschaft.\n\nEin gutes Urteil nennt beide Seiten und sagt dann, was überwiegt. Zum Beispiel: „Die neue Lebensweise hatte viele Vorteile, aber sie brachte auch neue Gefahren.“",
+   "merke": "Erst Vorteile und Nachteile nennen, dann ein Urteil mit Begründung."
+  },
+  {
+   "titel": "Die Altsteinzeit in Kürze",
+   "text": "Für den Vergleich musst du die Altsteinzeit gut kennen. Das war die Zeit der **Jäger und Sammler**:\n\n- **Nahrung**: Sie jagten Großwild wie Ren, Pferd, Bison und Wollnashorn, fischten und sammelten Beeren, Körner, Pilze, Wurzeln und Nüsse.\n- **Wohnen**: Sie waren nicht sesshaft. Als **Nomaden** (Menschen ohne festen Wohnsitz) zogen sie in kleinen Gruppen von etwa 25 bis 30 Personen umher und folgten den Beutetieren. Sie lebten in Zelten aus Fell und Stangen, manchmal in Höhlen.\n- **Erfindungen**: Faustkeil, Speer, Speerschleuder, Pfeil und Bogen, Nähnadel, Feuer. Die ersten einfachen Steinwerkzeuge gab es schon vor etwa 2 Millionen Jahren, Feuer nutzte man seit etwa 1,5 Millionen Jahren, Nähnadeln gibt es seit etwa 24 000 Jahren.\n- **Kleidung**: aus Fellen und Leder.\n- **Gefahren**: Raubtiere, Kälte, Jagdunfälle und Nahrungsmangel. Fleisch konnten sie schon haltbar machen und in Depots (Vorratslagern) aufbewahren.",
+   "merke": "Altsteinzeit: Jagen und Sammeln, Nomaden in kleinen Gruppen, Zelte, Felle, Gefahr durch Raubtiere und Kälte."
+  },
+  {
+   "titel": "Altsteinzeit und Jungsteinzeit im Vergleich",
+   "text": "Das Bild zeigt den Vergleich in sieben Zeilen. Merke dir die Stichwörter: Nahrungserwerb, Nahrung, Erfindungen, Aufenthaltsorte, Gefahren, Bekleidung, Lebensweise.\nDer Kern: Aus Jägern und Sammlern, die ihrer Nahrung hinterherzogen, wurden sesshafte Bauern, die ihre Nahrung selbst erzeugten. Davon hängt vieles in der Tabelle ab: Dorf statt Zelt, Berufe statt Wanderung.\nBeachte: In der Jungsteinzeit wurde auch weiter gejagt, und schon die Eiszeitjäger legten Fleischdepots an. Es sind also Schwerpunkte, keine strengen Gegensätze.",
+   "merke": "Kern des Vergleichs: nomadische Jäger und Sammler (Altsteinzeit) gegen sesshafte Bauern (Jungsteinzeit).",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 424\" width=\"760\" height=\"424\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"424\" fill=\"#ffffff\"/><rect x=\"156\" y=\"10\" width=\"300\" height=\"40\" fill=\"#e4d7c3\" stroke=\"#7a6a50\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"36.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Altsteinzeit</text><rect x=\"456\" y=\"10\" width=\"300\" height=\"40\" fill=\"#f3dca0\" stroke=\"#7a6a50\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"36.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Jungsteinzeit</text><rect x=\"10\" y=\"50\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"81.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nahrungserwerb</text><rect x=\"156\" y=\"50\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"81.0\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Jagen und Sammeln</text><rect x=\"456\" y=\"50\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"72\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Ackerbau und Viehzucht</text><text x=\"606.0\" y=\"92\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">(Jagd nur daneben)</text><rect x=\"10\" y=\"102\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"133.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nahrung</text><rect x=\"156\" y=\"102\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"124\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Fleisch, Fisch, Beeren,</text><text x=\"306.0\" y=\"144\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Wurzeln, Pilze, Nüsse</text><rect x=\"456\" y=\"102\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"124\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Getreide (Brot, Brei), Milch,</text><text x=\"606.0\" y=\"144\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Käse, Fleisch der Haustiere</text><rect x=\"10\" y=\"154\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"185.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Erfindungen</text><rect x=\"156\" y=\"154\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"176\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Faustkeil, Speer, Speerschleuder,</text><text x=\"306.0\" y=\"196\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Pfeil und Bogen, Nähnadel, Feuer</text><rect x=\"456\" y=\"154\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"176\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Pflug, Keramik, Webstuhl, Mahlstein,</text><text x=\"606.0\" y=\"196\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">geschliffene Beile, Rad</text><rect x=\"10\" y=\"206\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"237.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Aufenthaltsorte</text><rect x=\"156\" y=\"206\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"228\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">wechselnde Lagerplätze,</text><text x=\"306.0\" y=\"248\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Zelte, Höhlen</text><rect x=\"456\" y=\"206\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"228\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">feste Dörfer</text><text x=\"606.0\" y=\"248\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">mit Häusern</text><rect x=\"10\" y=\"258\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"289.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Gefahren</text><rect x=\"156\" y=\"258\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"280\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Raubtiere, Kälte, Jagdunfälle,</text><text x=\"306.0\" y=\"300\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Nahrungsmangel</text><rect x=\"456\" y=\"258\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"280\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Missernten, Hunger,</text><text x=\"606.0\" y=\"300\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Streit um Besitz</text><rect x=\"10\" y=\"310\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"341.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Bekleidung</text><rect x=\"156\" y=\"310\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"341.0\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Felle und Leder</text><rect x=\"456\" y=\"310\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"332\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">gewebte Stoffe (Wolle, Lein)</text><text x=\"606.0\" y=\"352\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">neben Fellen</text><rect x=\"10\" y=\"362\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"393.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lebensweise</text><rect x=\"156\" y=\"362\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"393.0\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Nomaden in kleinen Gruppen</text><rect x=\"456\" y=\"362\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"384\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">sesshaft, Arbeitsteilung</text><text x=\"606.0\" y=\"404\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">und Berufe</text></svg>",
+   "bildAlt": "Tabelle mit sieben Zeilen. Nahrungserwerb: Jagen und Sammeln gegen Ackerbau und Viehzucht. Nahrung: Fleisch, Fisch, Beeren, Wurzeln, Pilze, Nüsse gegen Getreide, Milch, Käse, Fleisch der Haustiere. Erfindungen: Faustkeil, Speer, Speerschleuder, Pfeil und Bogen, Nähnadel, Feuer gegen Pflug, Keramik, Webstuhl, Mahlstein, geschliffene Beile, Rad. Aufenthaltsorte: wechselnde Lagerplätze, Zelte, Höhlen gegen feste Dörfer mit Häusern. Gefahren: Raubtiere, Kälte, Jagdunfälle, Nahrungsmangel gegen Missernten, Hunger, Streit um Besitz. Bekleidung: Felle und Leder gegen gewebte Stoffe neben Fellen. Lebensweise: Nomaden in kleinen Gruppen gegen sesshaft mit Arbeitsteilung und Berufen."
+  },
+  {
+   "titel": "Gegensätze und Vergleiche aufschreiben",
+   "text": "Gegensatzpaare helfen beim Lernen. Links steht die Altsteinzeit, rechts die Jungsteinzeit:\n\n- Nomaden – sesshaft\n- Zelt – festes Haus im Dorf\n- Jagen und Sammeln – Ackerbau und Viehzucht\n- nur Felle und Leder – auch gewebte Stoffe\n- Gefahr durch Raubtiere und Kälte – Gefahr durch Missernten und Streit um Besitz\n\nWenn du **vergleichen** sollst, nennst du immer beide Seiten und verbindest sie mit Wörtern wie „dagegen“, „während“ oder „im Unterschied dazu“. Beispiel: „In der Altsteinzeit lebten die Menschen als Nomaden in Zelten. In der Jungsteinzeit dagegen waren sie sesshaft und wohnten in Dörfern.“\nWenn du dich in eine Person hineinversetzen sollst (Rollenspiel), schreibst du aus ihrer Sicht. Du benutzt aber nur Dinge, die es zu ihrer Zeit wirklich gab.",
+   "merke": "Beim Vergleich immer beide Zeiten nennen und mit „dagegen“ oder „während“ verbinden."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Wie wohnten die Menschen in der Jungsteinzeit?",
+   "info": "Die ersten Bauern waren sesshaft und bauten Dörfer mit größeren, festeren Häusern. Zelte und wechselnde Lager gehören zur Altsteinzeit.",
+   "antworten": [
+    "In festen Dörfern, oft in Langhäusern mit Strohdach.",
+    "In Zelten, die sie je nach Jahreszeit abbauten.",
+    "In Höhlen, die sie mit Fellen auskleideten.",
+    "In wechselnden Lagern, immer dort, wo gerade Beute war."
+   ],
+   "richtig": 0,
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Welche Aufgabe gehört zu welchem Beruf im Dorf?",
+   "info": "Im Dorf hatte jeder einen Job: Ernte, Schäfer, Töpfer und andere Handwerker. Der Töpfer arbeitet mit Ton, der Handwerker mit Stein und Holz.",
+   "paare": [
+    [
+     "Bauer",
+     "baut Getreide an und erntet es"
+    ],
+    [
+     "Schäfer",
+     "hütet Schafe"
+    ],
+    [
+     "Töpfer",
+     "formt Gefäße aus Ton"
+    ],
+    [
+     "Handwerker",
+     "schleift Steinbeile und stellt Werkzeuge her"
+    ]
+   ],
+   "extra": [
+    "jagt Rentiere in der Steppe"
+   ],
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Mit der neuen Lebensweise im Dorf entstanden Berufe, zum Beispiel Töpfer und Handwerker.",
+   "info": "Jeder im Dorf übernahm eine Aufgabe. Diese Arbeitsteilung führte zu Berufen.",
+   "richtig": true,
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Wie nennt man es, wenn die Menschen eines Dorfes verschiedene Aufgaben übernehmen?",
+   "info": "Bei der Arbeitsteilung macht nicht jeder alles, sondern jeder hat eine eigene Aufgabe. So entstehen Berufe.",
+   "richtig": [
+    "Arbeitsteilung",
+    "die Arbeitsteilung"
+   ],
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Wähle alle richtigen Antworten: Was gehörte zu einem Dorf der Jungsteinzeit?",
+   "info": "Zum Dorf gehörten feste Häuser, Felder und Weideflächen. Zelte und Höhlen sind Wohnorte der Altsteinzeit.",
+   "antworten": [
+    "Lange Häuser mit Strohdach",
+    "Felder für den Ackerbau",
+    "Weiden für die Tiere",
+    "Zelte aus Fell, die man abbaute",
+    "Höhlen mit Wandmalereien"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Ergänze den Text über das Dorf.",
+   "text": "In der Jungsteinzeit bauten die Menschen {{größere|festere}} und {{festere|größere}} Häuser. Sie siedelten in {{Dörfern}} und legten {{Vorräte}} an.",
+   "info": "Die sesshaften Bauern bauten größere und festere Häuser als die Zelte der Jäger und legten Vorräte an.",
+   "wortbank": [
+    "größere",
+    "festere",
+    "Dörfern",
+    "Vorräte",
+    "Höhlen",
+    "kleinere"
+   ],
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Was zeigt die Nummer auf der Skizze eines Dorfs?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 420\" width=\"760\" height=\"420\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"420\" fill=\"#ffffff\"/><rect width=\"760\" height=\"420\" fill=\"#d5e7b8\"/><circle cx=\"40\" cy=\"40\" r=\"28\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"92\" cy=\"30\" r=\"26\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"144\" cy=\"46\" r=\"28\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"32\" r=\"24\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"66\" cy=\"92\" r=\"26\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"122\" cy=\"100\" r=\"28\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"178\" cy=\"92\" r=\"26\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"236\" cy=\"76\" r=\"24\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"30\" cy=\"140\" r=\"24\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><circle cx=\"96\" cy=\"150\" r=\"22\" fill=\"#4f8a3c\" stroke=\"#3b6b2c\" stroke-width=\"2\"/><rect x=\"440\" y=\"30\" width=\"290\" height=\"150\" fill=\"#e0c07c\" stroke=\"#8a6a2a\" stroke-width=\"3\"/><line x1=\"440\" y1=\"48.75\" x2=\"730\" y2=\"48.75\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"67.5\" x2=\"730\" y2=\"67.5\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"86.25\" x2=\"730\" y2=\"86.25\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"105.0\" x2=\"730\" y2=\"105.0\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"123.75\" x2=\"730\" y2=\"123.75\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"142.5\" x2=\"730\" y2=\"142.5\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"440\" y1=\"161.25\" x2=\"730\" y2=\"161.25\" stroke=\"#b98f3f\" stroke-width=\"3\"/><line x1=\"458\" y1=\"43.0\" x2=\"458\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"43.0\" x2=\"492\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"43.0\" x2=\"526\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"43.0\" x2=\"560\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"43.0\" x2=\"594\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"43.0\" x2=\"628\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"43.0\" x2=\"662\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"43.0\" x2=\"696\" y2=\"34.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"61.75\" x2=\"458\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"61.75\" x2=\"492\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"61.75\" x2=\"526\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"61.75\" x2=\"560\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"61.75\" x2=\"594\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"61.75\" x2=\"628\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"61.75\" x2=\"662\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"61.75\" x2=\"696\" y2=\"52.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"80.5\" x2=\"458\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"80.5\" x2=\"492\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"80.5\" x2=\"526\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"80.5\" x2=\"560\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"80.5\" x2=\"594\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"80.5\" x2=\"628\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"80.5\" x2=\"662\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"80.5\" x2=\"696\" y2=\"71.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"99.25\" x2=\"458\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"99.25\" x2=\"492\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"99.25\" x2=\"526\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"99.25\" x2=\"560\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"99.25\" x2=\"594\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"99.25\" x2=\"628\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"99.25\" x2=\"662\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"99.25\" x2=\"696\" y2=\"90.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"118.0\" x2=\"458\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"118.0\" x2=\"492\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"118.0\" x2=\"526\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"118.0\" x2=\"560\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"118.0\" x2=\"594\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"118.0\" x2=\"628\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"118.0\" x2=\"662\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"118.0\" x2=\"696\" y2=\"109.0\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"136.75\" x2=\"458\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"136.75\" x2=\"492\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"136.75\" x2=\"526\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"136.75\" x2=\"560\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"136.75\" x2=\"594\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"136.75\" x2=\"628\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"136.75\" x2=\"662\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"136.75\" x2=\"696\" y2=\"127.75\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"155.5\" x2=\"458\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"155.5\" x2=\"492\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"155.5\" x2=\"526\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"155.5\" x2=\"560\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"155.5\" x2=\"594\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"155.5\" x2=\"628\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"155.5\" x2=\"662\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"155.5\" x2=\"696\" y2=\"146.5\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"458\" y1=\"174.25\" x2=\"458\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"492\" y1=\"174.25\" x2=\"492\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"526\" y1=\"174.25\" x2=\"526\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"560\" y1=\"174.25\" x2=\"560\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"594\" y1=\"174.25\" x2=\"594\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"628\" y1=\"174.25\" x2=\"628\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"662\" y1=\"174.25\" x2=\"662\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"696\" y1=\"174.25\" x2=\"696\" y2=\"165.25\" stroke=\"#6f9b3a\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"440\" y=\"230\" width=\"290\" height=\"160\" fill=\"#bfe08f\" stroke=\"#7a5a3a\" stroke-width=\"3\" stroke-dasharray=\"10 6\"/><ellipse cx=\"490\" cy=\"290\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"510\" cy=\"287\" r=\"7\" fill=\"#555\"/><ellipse cx=\"570\" cy=\"326\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"590\" cy=\"323\" r=\"7\" fill=\"#555\"/><ellipse cx=\"640\" cy=\"280\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"660\" cy=\"277\" r=\"7\" fill=\"#555\"/><ellipse cx=\"690\" cy=\"352\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"710\" cy=\"349\" r=\"7\" fill=\"#555\"/><ellipse cx=\"520\" cy=\"358\" rx=\"20\" ry=\"13\" fill=\"#ffffff\" stroke=\"#777\" stroke-width=\"2\"/><circle cx=\"540\" cy=\"355\" r=\"7\" fill=\"#555\"/><path d=\"M 20 240 C 140 232, 260 250, 420 214 L 420 244 C 260 282, 140 266, 20 276 Z\" fill=\"#e6d3a3\" opacity=\"0.8\"/><rect x=\"40\" y=\"170\" width=\"230\" height=\"46\" rx=\"6\" fill=\"#d9b45e\" stroke=\"#7a5a2a\" stroke-width=\"3\"/><line x1=\"40\" y1=\"179.2\" x2=\"270\" y2=\"179.2\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"40\" y1=\"188.4\" x2=\"270\" y2=\"188.4\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"40\" y1=\"197.6\" x2=\"270\" y2=\"197.6\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"40\" y1=\"206.8\" x2=\"270\" y2=\"206.8\" stroke=\"#b58c3a\" stroke-width=\"2\"/><rect x=\"60\" y=\"296\" width=\"210\" height=\"46\" rx=\"6\" fill=\"#d9b45e\" stroke=\"#7a5a2a\" stroke-width=\"3\"/><line x1=\"60\" y1=\"305.2\" x2=\"270\" y2=\"305.2\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"60\" y1=\"314.4\" x2=\"270\" y2=\"314.4\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"60\" y1=\"323.6\" x2=\"270\" y2=\"323.6\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"60\" y1=\"332.8\" x2=\"270\" y2=\"332.8\" stroke=\"#b58c3a\" stroke-width=\"2\"/><rect x=\"300\" y=\"296\" width=\"110\" height=\"40\" rx=\"6\" fill=\"#d9b45e\" stroke=\"#7a5a2a\" stroke-width=\"3\"/><line x1=\"300\" y1=\"304.0\" x2=\"410\" y2=\"304.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"300\" y1=\"312.0\" x2=\"410\" y2=\"312.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"300\" y1=\"320.0\" x2=\"410\" y2=\"320.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><line x1=\"300\" y1=\"328.0\" x2=\"410\" y2=\"328.0\" stroke=\"#b58c3a\" stroke-width=\"2\"/><rect x=\"300\" y=\"150\" width=\"96\" height=\"60\" rx=\"6\" fill=\"#c97f4a\" stroke=\"#7a3c15\" stroke-width=\"3\"/><ellipse cx=\"322\" cy=\"232\" rx=\"13\" ry=\"10\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><rect x=\"315\" y=\"217\" width=\"14\" height=\"7\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><ellipse cx=\"352\" cy=\"234\" rx=\"13\" ry=\"10\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><rect x=\"345\" y=\"219\" width=\"14\" height=\"7\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><ellipse cx=\"380\" cy=\"230\" rx=\"13\" ry=\"10\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><rect x=\"373\" y=\"215\" width=\"14\" height=\"7\" fill=\"#b5532a\" stroke=\"#6b2a10\" stroke-width=\"2\"/><circle cx=\"155\" cy=\"193\" r=\"13\" fill=\"#e2701a\"/><text x=\"155\" y=\"198.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><circle cx=\"585\" cy=\"105\" r=\"13\" fill=\"#e2701a\"/><text x=\"585\" y=\"110.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><circle cx=\"585\" cy=\"258\" r=\"13\" fill=\"#e2701a\"/><text x=\"585\" y=\"263.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><circle cx=\"348\" cy=\"180\" r=\"13\" fill=\"#e2701a\"/><text x=\"348\" y=\"185.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><circle cx=\"130\" cy=\"62\" r=\"13\" fill=\"#e2701a\"/><text x=\"130\" y=\"67.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><text x=\"742\" y=\"410\" font-size=\"15\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">erfundene Skizze, nicht maßstäblich</text></svg>",
+   "bildAlt": "Erfundene Skizze eines Dorfs von oben. Nummer 1 ist ein langes Haus mit Strohdach links, Nummer 2 ein Acker mit Furchen rechts oben, Nummer 3 eine Weide mit Schafen rechts unten, Nummer 4 ein kleines Haus mit Töpfen in der Mitte oben, Nummer 5 ein Wald links oben.",
+   "info": "Der lange Bau mit Strohdach ist das Langhaus, der gefurchte Streifen der Acker, die eingezäunte Fläche mit Schafen die Weide und das Haus mit Töpfen die Töpferei.",
+   "paare": [
+    [
+     "Nummer 1",
+     "Langhaus"
+    ],
+    [
+     "Nummer 2",
+     "Acker"
+    ],
+    [
+     "Nummer 3",
+     "Weide mit Schafen"
+    ],
+    [
+     "Nummer 4",
+     "Töpferei"
+    ],
+    [
+     "Nummer 5",
+     "Wald"
+    ]
+   ],
+   "extra": [
+    "Höhle"
+   ],
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Leben im Dorf",
+   "frage": "Woraus bestand das Dach der Langhäuser?",
+   "info": "Die Langhäuser der Jungsteinzeit hatten ein Strohdach.",
+   "richtig": [
+    "Stroh",
+    "Strohdach",
+    "aus Stroh",
+    "ein Strohdach"
+   ],
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Welche Erfindung passt zu welchem Nutzen?",
+   "info": "Webstuhl, Keramik, Mahlstein, Bohrung und Pflug machten das Leben im Dorf leichter. (Der Nutzen des Pflugs ist ein Zusatz zum Heft.)",
+   "paare": [
+    [
+     "Spinnen und Weben",
+     "Stoffe für Kleidung und Decken"
+    ],
+    [
+     "Keramik",
+     "Gefäße zum Kochen und Aufbewahren"
+    ],
+    [
+     "Mahlstein",
+     "Getreide mahlen"
+    ],
+    [
+     "Bohrung im Stein",
+     "Stein am Schaft befestigen"
+    ],
+    [
+     "Pflug",
+     "Boden für die Saat lockern"
+    ]
+   ],
+   "extra": [
+    "Feuer entzünden",
+    "Höhlen bemalen"
+   ],
+   "lesen": [
+    "Spinnen, Weben, Töpfern und Mahlen",
+    "Beil, Pflug und Rad"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Welche Erfindung der Jungsteinzeit machte es möglich, Stoffe für Kleidung und Decken herzustellen?",
+   "info": "Aus Wolle und Lein spann man Fäden und webte sie auf dem Webstuhl zu Stoff.",
+   "antworten": [
+    "Spinnen und Weben mit dem Webstuhl",
+    "Töpfern von Gefäßen aus Ton",
+    "Mahlen von Getreide auf dem Mahlstein",
+    "Pflügen der Felder mit dem Holzpflug"
+   ],
+   "richtig": 0,
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Aus welchem Material formte man Töpfe, Becher und Näpfe?",
+   "info": "Keramik sind Gefäße aus Ton. Man konnte darin kochen und Essen aufbewahren.",
+   "richtig": [
+    "Ton",
+    "aus Ton",
+    "der Ton"
+   ],
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Wozu dienten die Bohrungen in den geschliffenen Steinbeilen?",
+   "info": "Durch das gebohrte Loch ließ sich der Stein am Schaft befestigen. Geschliffen wurden die Beile, damit sie glatt waren.",
+   "antworten": [
+    "Man konnte den Stein am Schaft befestigen.",
+    "Sie machten die Klinge schärfer und glatter.",
+    "Sie machten das Beil leichter und handlicher.",
+    "Man konnte das Beil als Schmuck um den Hals tragen."
+   ],
+   "richtig": 0,
+   "lesen": "Beil, Pflug und Rad"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Steinbeile wurden in der Jungsteinzeit geschliffen. Vorher hatte man sie nur zurechtgeschlagen.",
+   "info": "Geschliffene Steinäxte und Steinbeile sind eine Neuerung der Jungsteinzeit.",
+   "richtig": true,
+   "lesen": "Beil, Pflug und Rad"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Ordne diese Erfindungen nach ihrem Alter. Die älteste steht oben.",
+   "tipp": "Rechne die Jahre v. Chr. in „Jahre vor heute“ um: Du addierst 2026.",
+   "info": "Steinwerkzeuge sind am ältesten, dann Feuer und Nähnadel. Die Jahre v. Chr. rechnest du auf „Jahre vor heute“ um (zum Beispiel 3000 + 2026 = 5026 Jahre beim Rad).",
+   "schritte": [
+    "Einfache Steinwerkzeuge (vor ca. 2 Millionen Jahren)",
+    "Feuer hüten und nutzen (vor ca. 1,5 Millionen Jahren)",
+    "Nähnadel aus Knochen (vor ca. 24 000 Jahren)",
+    "Keramik (ca. 7000 v. Chr.)",
+    "Pflug in Mitteleuropa (ca. 4500 v. Chr.)",
+    "Rad (um 3000 v. Chr.)"
+   ],
+   "lesen": [
+    "Spinnen, Weben, Töpfern und Mahlen",
+    "Beil, Pflug und Rad",
+    "Die Altsteinzeit in Kürze"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Seit welchem Jahr v. Chr. gibt es ungefähr Keramik?",
+   "info": "Keramik gibt es seit etwa 7000 v. Chr.",
+   "richtig": [
+    "7000 v. Chr.",
+    "7000",
+    "7000 v.Chr.",
+    "7000 vor Chr.",
+    "7000 vor Christus",
+    "7000 vor Christi Geburt",
+    "um 7000",
+    "um 7000 v. Chr.",
+    "um 7000 v.Chr.",
+    "um 7000 vor Chr.",
+    "um 7000 vor Christus",
+    "um 7000 vor Christi Geburt",
+    "ca. 7000",
+    "ca. 7000 v. Chr.",
+    "ca. 7000 v.Chr.",
+    "ca. 7000 vor Chr.",
+    "ca. 7000 vor Christus",
+    "ca. 7000 vor Christi Geburt",
+    "etwa 7000",
+    "etwa 7000 v. Chr.",
+    "etwa 7000 v.Chr.",
+    "etwa 7000 vor Chr.",
+    "etwa 7000 vor Christus",
+    "etwa 7000 vor Christi Geburt",
+    "ungefähr 7000",
+    "ungefähr 7000 v. Chr.",
+    "rund 7000",
+    "rund 7000 v. Chr.",
+    "7.000",
+    "7.000 v. Chr.",
+    "ca. 7.000",
+    "ca. 7.000 v. Chr.",
+    "7 000",
+    "7 000 v. Chr.",
+    "ca. 7 000",
+    "ca. 7 000 v. Chr."
+   ],
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Ergänze den Text über die Erfindungen.",
+   "text": "Mit dem {{Webstuhl}} stellte man {{Stoffe}} aus Wolle und {{Lein}} her. In Töpfen aus {{Ton}} konnte man Essen kochen und {{aufbewahren}}.",
+   "info": "Webstuhl und Töpferei gehören zu den Neuerungen der Jungsteinzeit.",
+   "wortbank": [
+    "Webstuhl",
+    "Stoffe",
+    "Lein",
+    "Ton",
+    "aufbewahren",
+    "Fell",
+    "Faustkeil"
+   ],
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Womit mahlten die Menschen das Getreide?",
+   "info": "Getreidekörner wurden auf Mahlsteinen und Reibsteinen gemahlen. Aus dem Mehl wurden Brot und Brei.",
+   "richtig": [
+    "Mahlstein",
+    "Reibstein",
+    "der Mahlstein",
+    "der Reibstein",
+    "Mahlstein und Reibstein"
+   ],
+   "lesen": "Spinnen, Weben, Töpfern und Mahlen"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Erfindungen und ihre Bedeutung",
+   "frage": "Vom Korn zum Brei: Ordne die Arbeitsschritte.",
+   "tipp": "Ohne Ernte gibt es nichts zu mahlen.",
+   "info": "Erst wächst das Getreide, dann wird gemahlen, und zum Schluss kocht man im Tontopf den Brei.",
+   "schritte": [
+    "Getreide aussäen",
+    "Das reife Getreide ernten",
+    "Die Körner auf dem Mahlstein mahlen",
+    "Aus dem Mehl im Tontopf Brei kochen"
+   ],
+   "lesen": [
+    "Spinnen, Weben, Töpfern und Mahlen",
+    "Beil, Pflug und Rad"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Folgen der neuen Lebensweise",
+   "frage": "Warum machten Vorräte die Menschen unabhängiger von der Umwelt?",
+   "info": "Mit Vorräten überbrückte man schlechte Zeiten. Man war nicht mehr jeden Tag auf das Glück bei Jagd und Sammeln angewiesen.",
+   "antworten": [
+    "Sie hatten auch dann zu essen, wenn nichts wuchs oder keine Beute da war.",
+    "Sie schützten die Menschen vor Raubtieren und vor der Kälte im Winter.",
+    "Sie ersetzten die Arbeit auf den Feldern, sodass man nichts mehr anbauen musste.",
+    "Sie sorgten dafür, dass die Ernte nie ausfiel und alle Tiere gesund blieben."
+   ],
+   "richtig": 0,
+   "lesen": "Folgen der neuen Lebensweise"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Folgen der neuen Lebensweise",
+   "frage": "Wie nennt man es, wenn man Wald abbrennt, um Platz für Felder und Weiden zu schaffen?",
+   "info": "Die Brandrodung ist ein Beispiel dafür, wie die Bauern die Umwelt veränderten. Dadurch entstanden Felder und Weideflächen. (Dass dabei Wald abgebrannt wird, ist ein Zusatz zum Heft.)",
+   "richtig": [
+    "Brandrodung",
+    "die Brandrodung"
+   ],
+   "lesen": "Folgen der neuen Lebensweise"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Folgen der neuen Lebensweise",
+   "frage": "Wähle alle richtigen Antworten: Wie veränderten die Menschen der Jungsteinzeit ihre Umwelt?",
+   "info": "Der Mensch veränderte die Umwelt durch Brandrodung, Felder und Weideflächen.",
+   "antworten": [
+    "Sie rodeten Wald durch Brandrodung.",
+    "Sie legten Felder an.",
+    "Sie schufen Weideflächen für ihre Tiere.",
+    "Sie ließen die Landschaft so, wie sie war."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Folgen der neuen Lebensweise"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Folgen der neuen Lebensweise",
+   "frage": "Ergänze den Text über die Folgen für die Umwelt.",
+   "text": "Der Mensch veränderte die Umwelt: Durch {{Brandrodung}} entstanden {{Felder|Weideflächen}} und {{Weideflächen|Felder}}. Weil die {{Bevölkerung}} stetig wuchs, mussten neue {{Siedlungen}} und Ackerflächen angelegt werden.",
+   "info": "Mehr Menschen brauchten mehr Platz und mehr Nahrung. Darum entstanden neue Dörfer und Felder.",
+   "wortbank": [
+    "Brandrodung",
+    "Felder",
+    "Weideflächen",
+    "Bevölkerung",
+    "Siedlungen",
+    "Gletscher",
+    "Nomaden"
+   ],
+   "lesen": "Folgen der neuen Lebensweise"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Folgen der neuen Lebensweise",
+   "frage": "Dank der Vorräte gab es in der Jungsteinzeit keine Hungersnöte mehr.",
+   "info": "Fiel die Ernte aus, drohten weiterhin Hungersnöte. Am Anfang war das Essen außerdem einseitig.",
+   "richtig": false,
+   "lesen": "Folgen der neuen Lebensweise"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Folgen der neuen Lebensweise",
+   "frage": "Ordne die Folgen so, dass jeder Schritt zum nächsten führt.",
+   "tipp": "Fange mit der neuen Lebensweise an.",
+   "info": "Ackerbau und Viehzucht machen sesshaft. Mit mehr Menschen braucht man mehr Siedlungen und Ackerflächen.",
+   "schritte": [
+    "Die Menschen bauen Getreide an und halten Tiere.",
+    "Sie siedeln in Dörfern und legen Vorräte an.",
+    "Die Bevölkerung nimmt stetig zu.",
+    "Neue Siedlungen und Ackerflächen müssen angelegt werden."
+   ],
+   "lesen": "Folgen der neuen Lebensweise"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Vorteile und Nachteile abwägen",
+   "frage": "War das ein Vorteil oder ein Nachteil der neuen Lebensweise?",
+   "info": "Vorräte, feste Häuser und die weniger gefährliche Tierhaltung waren Vorteile. Hunger, Streit und einseitiges Essen waren Nachteile.",
+   "paare": [
+    [
+     "Vorräte im Haus",
+     "Vorteil"
+    ],
+    [
+     "feste Häuser statt Zelte",
+     "Vorteil"
+    ],
+    [
+     "Hungersnot bei Ernteausfall",
+     "Nachteil"
+    ],
+    [
+     "Neid und Streit um Besitz",
+     "Nachteil"
+    ],
+    [
+     "einseitige Ernährung am Anfang",
+     "Nachteil"
+    ],
+    [
+     "Tiere halten statt gefährlicher Jagd",
+     "Vorteil"
+    ]
+   ],
+   "lesen": "Vorteile und Nachteile abwägen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Vorteile und Nachteile abwägen",
+   "frage": "Welchen Vorteil hatte die Viehzucht gegenüber der Jagd?",
+   "info": "Bei der Jagd gab es oft Verletzungen. Tiere zu halten und zu züchten war weniger gefährlich.",
+   "antworten": [
+    "Sie war weniger gefährlich als die Jagd.",
+    "Man musste die Tiere nicht mehr hüten.",
+    "Man brauchte keine Vorräte mehr.",
+    "Man brauchte keinen Platz für Weiden."
+   ],
+   "richtig": 0,
+   "lesen": "Vorteile und Nachteile abwägen"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Vorteile und Nachteile abwägen",
+   "frage": "Am Anfang war die Ernährung der ersten Bauern einseitig.",
+   "info": "Am Anfang war die Ernährung einseitig. Bei Ernteausfällen drohten sogar Hungersnöte.",
+   "richtig": true,
+   "lesen": "Vorteile und Nachteile abwägen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Vorteile und Nachteile abwägen",
+   "frage": "Wähle alle richtigen Antworten: Welche Aussagen nennen Vorteile der neuen Lebensweise?",
+   "tipp": "Zwei der Aussagen stimmen nicht.",
+   "info": "Streit um Besitz und Hunger bei Ernteausfall gehören zu den Nachteilen.",
+   "antworten": [
+    "Man hatte Vorräte für schlechte Zeiten.",
+    "Man wohnte in größeren und festeren Häusern.",
+    "Tiere zu halten war weniger gefährlich als die Jagd.",
+    "Es gab keinen Streit um Besitz mehr.",
+    "Bei Ernteausfall war immer genug zu essen da."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Vorteile und Nachteile abwägen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Vorteile und Nachteile abwägen",
+   "frage": "Welche Folge der neuen Lebensweise war ein Nachteil?",
+   "info": "Wer vom Getreide lebt, ist auf die Ernte angewiesen. Fällt sie aus, droht Hunger.",
+   "antworten": [
+    "Bei Ernteausfall drohte eine Hungersnot.",
+    "Es gab neue Berufe wie Töpfer und Handwerker.",
+    "Man konnte Vorräte anlegen.",
+    "Man wohnte in festen Häusern."
+   ],
+   "richtig": 0,
+   "lesen": "Vorteile und Nachteile abwägen"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Vorteile und Nachteile abwägen",
+   "frage": "Ergänze die Abwägung.",
+   "text": "Durch Vorräte wurden die Menschen {{unabhängiger}} von der Umwelt. Bei einem {{Ernteausfall}} drohte aber {{Hunger}}. Außerdem führte Besitz zu {{Neid}} und Streit.",
+   "info": "Die neue Lebensweise hatte Vorteile und Nachteile. Vorräte halfen, aber Ernteausfälle und Besitz brachten neue Probleme.",
+   "wortbank": [
+    "unabhängiger",
+    "Ernteausfall",
+    "Hunger",
+    "Neid",
+    "abhängiger",
+    "Nomaden"
+   ],
+   "lesen": "Vorteile und Nachteile abwägen"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Altsteinzeit oder Jungsteinzeit?",
+   "frage": "Gehört das zur Altsteinzeit oder zur Jungsteinzeit?",
+   "info": "Zelte, Nähnadel und Speerschleuder kennen die Jäger und Sammler der Altsteinzeit. Dorf, Pflug und Mahlstein gehören zu den Bauern der Jungsteinzeit.",
+   "paare": [
+    [
+     "Zelte, die man abbaut",
+     "Altsteinzeit"
+    ],
+    [
+     "Langhäuser in festen Dörfern",
+     "Jungsteinzeit"
+    ],
+    [
+     "Nähnadel aus Knochen",
+     "Altsteinzeit"
+    ],
+    [
+     "Pflug",
+     "Jungsteinzeit"
+    ],
+    [
+     "Mahlstein",
+     "Jungsteinzeit"
+    ],
+    [
+     "Speerschleuder",
+     "Altsteinzeit"
+    ]
+   ],
+   "lesen": [
+    "Die Altsteinzeit in Kürze",
+    "Altsteinzeit und Jungsteinzeit im Vergleich"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Altsteinzeit oder Jungsteinzeit?",
+   "frage": "Wie viele Personen lebten in der Altsteinzeit ungefähr in einer Gruppe?",
+   "tipp": "Es waren nur wenige Dutzend.",
+   "info": "Die Jäger und Sammler lebten in kleinen Gruppen von etwa 25 bis 30 Personen.",
+   "richtig": [
+    "25 bis 30",
+    "25 bis 30 Personen",
+    "25-30",
+    "25-30 Personen",
+    "25–30",
+    "25–30 Personen",
+    "25 - 30",
+    "25 - 30 Personen",
+    "25 – 30",
+    "25 – 30 Personen",
+    "etwa 25 bis 30",
+    "etwa 25 bis 30 Personen",
+    "ca. 25 bis 30",
+    "ca. 25 bis 30 Personen",
+    "ungefähr 25 bis 30",
+    "ungefähr 25 bis 30 Personen",
+    "etwa 25-30",
+    "etwa 25-30 Personen",
+    "ca. 25-30",
+    "ca. 25-30 Personen",
+    "ungefähr 25-30",
+    "ungefähr 25-30 Personen",
+    "25",
+    "30",
+    "ca. 30",
+    "etwa 30",
+    "30 Personen"
+   ],
+   "einheit": "Personen",
+   "lesen": "Die Altsteinzeit in Kürze"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Altsteinzeit oder Jungsteinzeit?",
+   "frage": "Welche Aussage passt zur Altsteinzeit?",
+   "info": "Die Jäger und Sammler der Altsteinzeit waren Nomaden. Ackerbau, Weben und Töpfern gehören zur Jungsteinzeit.",
+   "antworten": [
+    "Die Menschen zogen in kleinen Gruppen von Lager zu Lager.",
+    "Die Menschen bauten Getreide an und ernteten es auf Feldern.",
+    "Die Menschen webten Stoffe für ihre Kleidung am Webstuhl.",
+    "Die Menschen formten Töpfe und Becher aus Ton im Dorf."
+   ],
+   "richtig": 0,
+   "lesen": "Die Altsteinzeit in Kürze"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Altsteinzeit oder Jungsteinzeit?",
+   "frage": "Welche Aussage passt zur Jungsteinzeit?",
+   "info": "In der Jungsteinzeit wurden die Menschen sesshaft. Die anderen Aussagen beschreiben die Altsteinzeit.",
+   "antworten": [
+    "Die Menschen blieben dauerhaft in ihrem Dorf wohnen.",
+    "Die Menschen folgten den Wanderbewegungen der Beutetiere.",
+    "Die Menschen schliefen meist in Zelten aus Fell.",
+    "Die Menschen lebten allein vom Jagen und Sammeln."
+   ],
+   "richtig": 0,
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Altsteinzeit oder Jungsteinzeit?",
+   "frage": "Wähle alle richtigen Antworten: Was gab es schon in der Altsteinzeit?",
+   "info": "Faustkeil, Nähnadel und Feuer kannten schon die Jäger und Sammler. Pflug, Keramik und Webstuhl sind Neuerungen der Jungsteinzeit.",
+   "antworten": [
+    "Faustkeil",
+    "Nähnadel aus Knochen",
+    "Feuer",
+    "Pflug",
+    "Keramik",
+    "Webstuhl"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Die Altsteinzeit in Kürze"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Altsteinzeit oder Jungsteinzeit?",
+   "frage": "Die Menschen der Jungsteinzeit hörten ganz auf zu jagen.",
+   "info": "Auch in der Jungsteinzeit wurde weiter gejagt. Hauptsächlich lebten die Menschen aber von Ackerbau und Viehzucht.",
+   "richtig": false,
+   "lesen": "Altsteinzeit und Jungsteinzeit im Vergleich"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Altsteinzeit oder Jungsteinzeit?",
+   "frage": "Nur in der Jungsteinzeit legten Menschen Vorräte an.",
+   "tipp": "Denke an die Jäger der Eiszeit.",
+   "info": "Auch Eiszeitjäger konnten Fleisch konservieren und in Depots aufbewahren. Neu in der Jungsteinzeit war die Vorratshaltung im Dorf mit Getreide aus eigenem Anbau.",
+   "richtig": false,
+   "lesen": "Die Altsteinzeit in Kürze"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "In der Tabelle fehlt die Spalte der Jungsteinzeit. Ordne jeder Zeile den passenden Eintrag zu.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 424\" width=\"760\" height=\"424\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"424\" fill=\"#ffffff\"/><rect x=\"156\" y=\"10\" width=\"300\" height=\"40\" fill=\"#e4d7c3\" stroke=\"#7a6a50\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"36.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Altsteinzeit</text><rect x=\"456\" y=\"10\" width=\"300\" height=\"40\" fill=\"#f3dca0\" stroke=\"#7a6a50\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"36.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Jungsteinzeit</text><rect x=\"10\" y=\"50\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"81.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nahrungserwerb</text><rect x=\"156\" y=\"50\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"81.0\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Jagen und Sammeln</text><rect x=\"456\" y=\"50\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"82.0\" font-size=\"20\" font-weight=\"bold\" fill=\"#999\" text-anchor=\"middle\">?</text><rect x=\"10\" y=\"102\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"133.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nahrung</text><rect x=\"156\" y=\"102\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"124\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Fleisch, Fisch, Beeren,</text><text x=\"306.0\" y=\"144\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Wurzeln, Pilze, Nüsse</text><rect x=\"456\" y=\"102\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"134.0\" font-size=\"20\" font-weight=\"bold\" fill=\"#999\" text-anchor=\"middle\">?</text><rect x=\"10\" y=\"154\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"185.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Erfindungen</text><rect x=\"156\" y=\"154\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"176\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Faustkeil, Speer, Speerschleuder,</text><text x=\"306.0\" y=\"196\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Pfeil und Bogen, Nähnadel, Feuer</text><rect x=\"456\" y=\"154\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"186.0\" font-size=\"20\" font-weight=\"bold\" fill=\"#999\" text-anchor=\"middle\">?</text><rect x=\"10\" y=\"206\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"237.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Aufenthaltsorte</text><rect x=\"156\" y=\"206\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"228\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">wechselnde Lagerplätze,</text><text x=\"306.0\" y=\"248\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Zelte, Höhlen</text><rect x=\"456\" y=\"206\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"238.0\" font-size=\"20\" font-weight=\"bold\" fill=\"#999\" text-anchor=\"middle\">?</text><rect x=\"10\" y=\"258\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"289.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Gefahren</text><rect x=\"156\" y=\"258\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"280\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Raubtiere, Kälte, Jagdunfälle,</text><text x=\"306.0\" y=\"300\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Nahrungsmangel</text><rect x=\"456\" y=\"258\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"290.0\" font-size=\"20\" font-weight=\"bold\" fill=\"#999\" text-anchor=\"middle\">?</text><rect x=\"10\" y=\"310\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"341.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Bekleidung</text><rect x=\"156\" y=\"310\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"341.0\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Felle und Leder</text><rect x=\"456\" y=\"310\" width=\"300\" height=\"52\" fill=\"#f8f8f8\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"342.0\" font-size=\"20\" font-weight=\"bold\" fill=\"#999\" text-anchor=\"middle\">?</text><rect x=\"10\" y=\"362\" width=\"146\" height=\"52\" fill=\"#eef3f7\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"83.0\" y=\"393.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lebensweise</text><rect x=\"156\" y=\"362\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"306.0\" y=\"393.0\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">Nomaden in kleinen Gruppen</text><rect x=\"456\" y=\"362\" width=\"300\" height=\"52\" fill=\"#ffffff\" stroke=\"#7a8fa3\" stroke-width=\"1.5\"/><text x=\"606.0\" y=\"394.0\" font-size=\"20\" font-weight=\"bold\" fill=\"#999\" text-anchor=\"middle\">?</text></svg>",
+   "bildAlt": "Vergleichstabelle mit den Zeilen Nahrungserwerb, Nahrung, Erfindungen, Aufenthaltsorte, Gefahren, Bekleidung und Lebensweise. Die Spalte der Altsteinzeit ist ausgefüllt, die Spalte der Jungsteinzeit zeigt nur Fragezeichen.",
+   "tipp": "Die Spalte der Altsteinzeit hilft dir: Die Jungsteinzeit ist meist das Gegenteil.",
+   "info": "Vergleiche mit der Altsteinzeit in der linken Spalte: Dort stehen Jagen und Sammeln, wechselnde Lagerplätze und Raubtiere. In der Jungsteinzeit sind es Ackerbau, Dörfer und Missernten, bei der Kleidung kommen gewebte Stoffe dazu.",
+   "paare": [
+    [
+     "Nahrungserwerb",
+     "Ackerbau und Viehzucht"
+    ],
+    [
+     "Nahrung",
+     "Getreide, Milch, Käse"
+    ],
+    [
+     "Erfindungen",
+     "Pflug, Keramik, Webstuhl, Rad"
+    ],
+    [
+     "Aufenthaltsorte",
+     "feste Dörfer mit Häusern"
+    ],
+    [
+     "Gefahren",
+     "Missernten, Hunger, Streit um Besitz"
+    ],
+    [
+     "Bekleidung",
+     "gewebte Stoffe neben Fellen"
+    ],
+    [
+     "Lebensweise",
+     "sesshaft, Arbeitsteilung und Berufe"
+    ]
+   ],
+   "extra": [
+    "Faustkeil, Speerschleuder, Nähnadel"
+   ],
+   "lesen": "Altsteinzeit und Jungsteinzeit im Vergleich"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "Wie unterscheiden sich Altsteinzeit und Jungsteinzeit beim Nahrungserwerb?",
+   "info": "Der Nahrungserwerb ist der wichtigste Unterschied. In der Jungsteinzeit wurde nebenbei weiter gejagt.",
+   "antworten": [
+    "Altsteinzeit: Jagen und Sammeln. Jungsteinzeit: Ackerbau und Viehzucht.",
+    "Altsteinzeit: Ackerbau und Viehzucht. Jungsteinzeit: Jagen und Sammeln.",
+    "In beiden Zeiten lebten die Menschen nur vom Jagen und Sammeln.",
+    "In beiden Zeiten lebten die Menschen nur von Ackerbau und Viehzucht."
+   ],
+   "richtig": 0,
+   "lesen": "Altsteinzeit und Jungsteinzeit im Vergleich"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "Ordne jedem Merkmal der Altsteinzeit das passende Gegenstück der Jungsteinzeit zu.",
+   "info": "Das sind Gegensatzpaare aus der Vergleichstabelle.",
+   "paare": [
+    [
+     "Nomaden",
+     "sesshafte Dorfbewohner"
+    ],
+    [
+     "Zelt",
+     "festes Haus"
+    ],
+    [
+     "Jagen und Sammeln",
+     "Ackerbau und Viehzucht"
+    ],
+    [
+     "Kleidung nur aus Fell",
+     "gewebte Stoffe neben Fellen"
+    ],
+    [
+     "Gefahr durch Raubtiere",
+     "Gefahr durch Missernten"
+    ]
+   ],
+   "extra": [
+    "Töpfer"
+   ],
+   "lesen": "Gegensätze und Vergleiche aufschreiben"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "Wie nennt man Menschen, die keinen festen Wohnsitz haben und ihrer Nahrung hinterherziehen?",
+   "info": "Die Jäger und Sammler der Altsteinzeit waren Nomaden. Die Bauern der Jungsteinzeit waren sesshaft.",
+   "richtig": [
+    "Nomaden",
+    "Nomade",
+    "die Nomaden"
+   ],
+   "lesen": "Die Altsteinzeit in Kürze"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "Ergänze den Vergleich.",
+   "text": "In der Altsteinzeit lebten die Menschen als {{Nomaden}} in {{Zelten}} oder Höhlen. In der Jungsteinzeit wurden sie {{sesshaft}} und wohnten in {{Dörfern}}. Sie ernährten sich nun von {{Getreide}}, Milch und Käse.",
+   "info": "Nomaden und Zelte gehören zur Altsteinzeit, sesshaft sein und Dörfer zur Jungsteinzeit.",
+   "wortbank": [
+    "Nomaden",
+    "Zelten",
+    "sesshaft",
+    "Dörfern",
+    "Getreide",
+    "Städten",
+    "Mammutfleisch"
+   ],
+   "lesen": "Gegensätze und Vergleiche aufschreiben"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "Welche Gefahr betraf vor allem die Menschen der Altsteinzeit?",
+   "info": "In der Tabelle stehen für die Altsteinzeit Raubtiere, Kälte, Jagdunfälle und Nahrungsmangel. Missernten und Streit um Besitz gehören zur Jungsteinzeit.",
+   "antworten": [
+    "Angriffe von Raubtieren wie Wölfen",
+    "Streit zwischen den Nachbarn um Besitz",
+    "Missernten auf den großen Feldern",
+    "Hunger nach einem Ernteausfall"
+   ],
+   "richtig": 0,
+   "lesen": "Die Altsteinzeit in Kürze"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "Nenne drei Unterschiede zwischen Altsteinzeit und Jungsteinzeit.",
+   "tipp": "Nimm drei Zeilen der Tabelle, zum Beispiel Nahrungserwerb, Aufenthaltsorte und Erfindungen.",
+   "punkte": 3,
+   "muster": "Nahrung: In der Altsteinzeit lebten die Menschen vom Jagen und Sammeln, in der Jungsteinzeit von Ackerbau und Viehzucht. Wohnen: In der Altsteinzeit wohnten sie in Zelten oder Höhlen und zogen umher (Nomaden), in der Jungsteinzeit lebten sie sesshaft in Dörfern mit festen Häusern. Erfindungen: In der Altsteinzeit gab es zum Beispiel Faustkeil, Speer und Nähnadel, in der Jungsteinzeit Pflug, Keramik, Webstuhl und Rad.",
+   "kriterien": [
+    "Unterschied 1 richtig, beide Zeiten genannt",
+    "Unterschied 2 richtig, beide Zeiten genannt",
+    "Unterschied 3 richtig, beide Zeiten genannt"
+   ],
+   "lesen": "Gegensätze und Vergleiche aufschreiben"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Der Vergleich Zeile für Zeile",
+   "frage": "In der Jungsteinzeit trugen die Menschen gewebte Stoffe neben Fellen.",
+   "info": "In der Tabelle steht für die Jungsteinzeit: gewebte Stoffe (Wolle, Lein) neben Fellen.",
+   "richtig": true,
+   "lesen": "Altsteinzeit und Jungsteinzeit im Vergleich"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Vergleichen und Begründen",
+   "frage": "Vergleiche das Leben in der Altsteinzeit und in der Jungsteinzeit in drei Bereichen deiner Wahl (zum Beispiel Nahrung, Wohnen, Kleidung, Gefahren). Schreibe in ganzen Sätzen.",
+   "tipp": "Nenne in jedem Bereich zuerst die Altsteinzeit und dann die Jungsteinzeit.",
+   "punkte": 7,
+   "muster": "Nahrung: In der Altsteinzeit jagten und sammelten die Menschen, in der Jungsteinzeit dagegen bauten sie Getreide an und hielten Tiere. Wohnen: In der Altsteinzeit zogen sie als Nomaden in kleinen Gruppen von Lagerplatz zu Lagerplatz und lebten in Zelten oder Höhlen. In der Jungsteinzeit wohnten sie sesshaft in Dörfern mit festen Häusern. Gefahren: In der Altsteinzeit drohten vor allem Raubtiere, Kälte und Jagdunfälle, während es in der Jungsteinzeit eher Missernten, Hunger und Streit um Besitz gab.",
+   "kriterien": [
+    "Bereich 1: Altsteinzeit richtig",
+    "Bereich 1: Jungsteinzeit richtig",
+    "Bereich 2: Altsteinzeit richtig",
+    "Bereich 2: Jungsteinzeit richtig",
+    "Bereich 3: Altsteinzeit richtig",
+    "Bereich 3: Jungsteinzeit richtig",
+    "Beide Seiten werden verglichen (zum Beispiel mit „dagegen“ oder „während“)"
+   ],
+   "lesen": [
+    "Altsteinzeit und Jungsteinzeit im Vergleich",
+    "Gegensätze und Vergleiche aufschreiben"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Vergleichen und Begründen",
+   "frage": "War der Wechsel zum Leben als Bauer nur ein Vorteil? Nenne zwei Vorteile und zwei Nachteile und schreibe am Ende dein begründetes Urteil.",
+   "tipp": "Es gibt kein einziges richtiges Urteil. Wichtig ist, dass du es mit den Vor- und Nachteilen begründest.",
+   "punkte": 5,
+   "muster": "Vorteile waren die Vorräte, die die Menschen unabhängiger von der Umwelt machten, und die festen Häuser im Dorf. Auch die Tierhaltung war weniger gefährlich als die Jagd. Nachteile waren, dass bei Ernteausfällen Hungersnöte drohten und dass Besitz zu Neid und Streit führte. Mein Urteil: Die neue Lebensweise war ein großer Schritt nach vorn, weil man sicherer leben konnte, aber sie brachte auch neue Probleme mit sich.",
+   "kriterien": [
+    "Vorteil 1 richtig genannt",
+    "Vorteil 2 richtig genannt",
+    "Nachteil 1 richtig genannt",
+    "Nachteil 2 richtig genannt",
+    "Urteil mit Begründung"
+   ],
+   "lesen": "Vorteile und Nachteile abwägen"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Vergleichen und Begründen",
+   "frage": "Stell dir vor, Jäger und Sammler aus der Altsteinzeit besuchen ein Dorf der Jungsteinzeit. Schreibe aus der Sicht einer Jägerin oder eines Jägers auf, was ihr auffällt. Nenne mindestens drei Beobachtungen und vergleiche mit deinem eigenen Leben.",
+   "tipp": "Überlege, was für Nomaden neu und ungewohnt wäre: Häuser, Felder, Vorräte, Berufe. Benutze nur Dinge, die es damals gab.",
+   "punkte": 5,
+   "muster": "Wir haben ein Dorf besucht, und alles war anders als bei uns. Die Menschen wohnen dort in langen, festen Häusern mit Strohdach und ziehen nie weiter. Wir dagegen bauen unsere Zelte ab, sobald die Herde weiterzieht. Sie haben Felder mit Getreide und Weiden mit Schafen, deshalb müssen sie nicht jeden Tag auf die Jagd gehen. In ihren Häusern lagern große Vorräte. Sie tragen Kleidung aus gewebten Stoffen und kochen in Töpfen aus Ton. Es gibt viele Aufgaben, jeder macht etwas anderes, einer hütet Schafe, eine andere formt Töpfe. Das gefällt mir, aber ich habe auch gehört, dass es Streit um Besitz gibt und dass die Menschen Hunger leiden, wenn die Ernte ausfällt.",
+   "kriterien": [
+    "Beobachtung 1 richtig (zum Beispiel Häuser, Felder, Vorräte, Töpfe, Berufe)",
+    "Beobachtung 2 richtig",
+    "Beobachtung 3 richtig",
+    "Vergleich mit dem eigenen Leben als Jäger oder Sammler",
+    "Bewertung oder Gefühl mit Begründung"
+   ],
+   "lesen": [
+    "Leben im Dorf der Jungsteinzeit",
+    "Die Altsteinzeit in Kürze",
+    "Gegensätze und Vergleiche aufschreiben"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "G – Klausurnah: Vergleichen und Begründen",
+   "frage": "Archäologen finden an einer Fundstelle Mahlsteine, Scherben von Tontöpfen und Spuren von langen Häusern. Aus welchem Abschnitt der Steinzeit stammt der Fund?",
+   "tipp": "Mahlsteine, Töpfe und Dörfer gehören zu den Bauern.",
+   "info": "Mahlsteine weisen auf Getreide hin, Tontöpfe auf Keramik und lange Häuser auf ein Dorf. Das sind Sachquellen aus der Jungsteinzeit.",
+   "antworten": [
+    "aus der Jungsteinzeit",
+    "aus der Altsteinzeit",
+    "aus der Mittelsteinzeit"
+   ],
+   "richtig": 0,
+   "lesen": [
+    "Spinnen, Weben, Töpfern und Mahlen",
+    "Leben im Dorf der Jungsteinzeit"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "G – Klausurnah: Vergleichen und Begründen",
+   "frage": "Eine Rekonstruktionszeichnung eines Dorfs der Jungsteinzeit ist eine Quelle.",
+   "info": "Eine Quelle stammt aus der Zeit selbst, zum Beispiel ein Mahlstein. Eine Zeichnung, die Menschen später mithilfe von Quellen gemacht haben, ist eine Darstellung.",
+   "richtig": false,
+   "lesen": "Leben im Dorf der Jungsteinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "G – Klausurnah: Vergleichen und Begründen",
+   "frage": "Ein Mitschüler behauptet: „In der Jungsteinzeit lebten die Menschen mit Mahlstein und Pflug in Zelten, die sie immer wieder abbauten.“ Was ist falsch?",
+   "tipp": "Wer einen Pflug benutzt, bleibt an einem Ort.",
+   "info": "Pflug und Mahlstein gehören zu den sesshaften Bauern. Der Pflug (seit ca. 4500 v. Chr.) ist außerdem älter als das Rad (um 3000 v. Chr.).",
+   "antworten": [
+    "Sie lebten in festen Dörfern und nicht in Zelten, die sie abbauten.",
+    "Mahlsteine gab es erst in der Altsteinzeit, lange vor den Bauern.",
+    "Der Pflug wurde erst erfunden, nachdem es schon das Rad gab.",
+    "Mahlstein und Pflug sind keine Geräte, die Bauern benutzten."
+   ],
+   "richtig": 0,
+   "lesen": [
+    "Leben im Dorf der Jungsteinzeit",
+    "Altsteinzeit und Jungsteinzeit im Vergleich"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "G – Klausurnah: Vergleichen und Begründen",
+   "frage": "Fasse den Vergleich zusammen.",
+   "text": "In der Altsteinzeit sicherten sich die Menschen ihre Nahrung durch {{Jagen|Sammeln}} und {{Sammeln|Jagen}} und lebten als {{Nomaden}} in kleinen Gruppen. In der Jungsteinzeit wurden sie {{sesshaft}}. Sie betrieben {{Ackerbau|Viehzucht}} und {{Viehzucht|Ackerbau}} und wohnten in {{Dörfern}}. Weil jeder eine eigene Aufgabe hatte, spricht man von {{Arbeitsteilung}}. So entstanden Berufe wie {{Töpfer|Schäfer|Handwerker|Bauern}}.",
+   "info": "Das fasst den Kern des Vergleichs zusammen: nomadische Jäger und Sammler gegen sesshafte Bauern mit Arbeitsteilung.",
+   "wortbank": [
+    "Jagen",
+    "Sammeln",
+    "Nomaden",
+    "sesshaft",
+    "Ackerbau",
+    "Viehzucht",
+    "Dörfern",
+    "Arbeitsteilung",
+    "Töpfer",
+    "Höhlen",
+    "Eiszeit"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Leben im Dorf": "Leben im Dorf der Jungsteinzeit",
+  "B – Erfindungen und ihre Bedeutung": [
+   "Spinnen, Weben, Töpfern und Mahlen",
+   "Beil, Pflug und Rad"
+  ],
+  "C – Folgen der neuen Lebensweise": "Folgen der neuen Lebensweise",
+  "D – Vorteile und Nachteile abwägen": "Vorteile und Nachteile abwägen",
+  "E – Altsteinzeit oder Jungsteinzeit?": [
+   "Die Altsteinzeit in Kürze",
+   "Altsteinzeit und Jungsteinzeit im Vergleich"
+  ],
+  "F – Der Vergleich Zeile für Zeile": [
+   "Altsteinzeit und Jungsteinzeit im Vergleich",
+   "Gegensätze und Vergleiche aufschreiben"
+  ],
+  "G – Klausurnah: Vergleichen und Begründen": [
+   "Altsteinzeit und Jungsteinzeit im Vergleich",
+   "Gegensätze und Vergleiche aufschreiben",
+   "Vorteile und Nachteile abwägen"
+  ]
+ },
+ "probe": false
+}

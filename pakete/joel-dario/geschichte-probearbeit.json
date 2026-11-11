@@ -1,0 +1,614 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-probearbeit",
+ "titel": "Geschichte Klasse 6: Probearbeit (Quellen, Zeit, Lucy, Steinzeit, Ötzi)",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Eigene Probearbeit mit 46 Punkten in sechs Teilen (A Quellen, Lebenslauf und Stammbaum 10, B Zeit, Zeitrechnung und Epochen 10, C Lucy 6, D Altsteinzeit 7, E Jungsteinzeit und der Vergleich 7, F Ötzi 6), etwa 45 Minuten, Buch und Heft zu. Alle Aufgaben sind neu. Wo Punkte fehlen, geh in das passende Übungspaket zurück.",
+ "hinweis": "Das ist nicht die Klassenarbeit deines Lehrers, sondern eine eigene Probearbeit unter Prüfungsbedingungen. Der Lehrer hat keine Form vorgegeben, deshalb sind Aufbau, Punkte und Zeit selbst festgelegt. Stell dir 45 Minuten ein, lege Buch und Heft weg und vergleiche erst am Ende mit den Lösungen. Die Familie Berger ist erfunden. Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer.",
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "Teil A – Quellen, Lebenslauf und Stammbaum (10 Punkte)",
+   "frage": "Aufgabe 1: Du möchtest herausfinden, womit die Menschen der Altsteinzeit Tiere jagten. Welche Quelle hilft dir am besten?",
+   "info": "Die Speerspitze stammt aus der Altsteinzeit selbst. Sie ist eine Sachquelle. Kinderbuch und Spielfilm sind viel später gemacht worden (Darstellungen), das Foto stammt aus einer ganz anderen Zeit.",
+   "antworten": [
+    "Eine ausgegrabene Speerspitze aus Feuerstein",
+    "Ein Kinderbuch mit Zeichnungen von Steinzeitjägern",
+    "Ein Spielfilm von 2018 über Jäger der Eiszeit",
+    "Das Foto eines Jägers aus dem Jahr 1950"
+   ],
+   "richtig": 0,
+   "lesen": [
+    {
+     "paket": "geschichte-1-quellen-stammbaum",
+     "titel": "Quelle oder Darstellung?"
+    },
+    {
+     "paket": "geschichte-1-quellen-stammbaum",
+     "titel": "Was ist eine Quelle?"
+    }
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil A – Quellen, Lebenslauf und Stammbaum (10 Punkte)",
+   "frage": "Aufgabe 2: Im Archiv deiner Stadt liegen Quellen. Welche Art von Quelle ist jede davon nach deinem Heft? Ordne zu. (4 Punkte)",
+   "info": "Urkunden sind Texte, Malereien sind Bilder, Werkzeuge sind Sachquellen und Filmaufnahmen gehören zu den Tonaufnahmen und Filmen. Ein Zeitzeuge wäre ein Mensch, der selbst Erlebtes erzählt.",
+   "paare": [
+    [
+     "eine Bauurkunde aus dem Jahr 1850",
+     "Texte"
+    ],
+    [
+     "eine Malerei, die den Marktplatz vor 300 Jahren zeigt",
+     "Bilder"
+    ],
+    [
+     "eine Schere, die ein Handwerker früher benutzt hat",
+     "Sachquellen"
+    ],
+    [
+     "eine Filmaufnahme vom Stadtfest 1960",
+     "Tonaufnahmen und Filme"
+    ]
+   ],
+   "extra": [
+    "Zeitzeugen"
+   ],
+   "lesen": {
+    "paket": "geschichte-1-quellen-stammbaum",
+    "titel": "Quellengattungen: Buch und Heft"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil A – Quellen, Lebenslauf und Stammbaum (10 Punkte)",
+   "frage": "Aufgabe 3: Wähle alle richtigen Antworten. Was davon sind Darstellungen und keine Quellen?",
+   "info": "Modell und Lexikonartikel haben Menschen viel später mithilfe von Quellen gemacht. Mahlstein und Höhlenmalerei stammen aus der Zeit selbst und sind Quellen.",
+   "antworten": [
+    "Das Modell eines Dorfs der Jungsteinzeit, das ein Museum heute gebaut hat",
+    "Ein Lexikonartikel über Ötzi",
+    "Ein Mahlstein aus einem ausgegrabenen Dorf der Jungsteinzeit",
+    "Eine Höhlenmalerei, die Menschen der Altsteinzeit gemalt haben"
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "lesen": {
+    "paket": "geschichte-1-quellen-stammbaum",
+    "titel": "Quelle oder Darstellung?"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil A – Quellen, Lebenslauf und Stammbaum (10 Punkte)",
+   "frage": "Aufgabe 4: Hier siehst du einen Teil von Mias Lebenslauf:\n\n- geboren: 2014\n- Grundschule: 2020 bis 2024\n- weiterführende Schule: ab 2024\n\nWie viele Jahre ging Mia zur Grundschule? Schreibe die Zahl.",
+   "info": "Von 2020 bis 2024 sind es 2024 − 2020 = 4 Jahre. Ein Lebenslauf ordnet Schule, Ereignisse und Hobbys nach der Zeit.",
+   "richtig": [
+    "4",
+    "4 Jahre",
+    "vier",
+    "vier Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": {
+    "paket": "geschichte-1-quellen-stammbaum",
+    "titel": "Lebenslauf: meine eigene Geschichte"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Quellen, Lebenslauf und Stammbaum (10 Punkte)",
+   "frage": "Aufgabe 5: Sieh dir den Stammbaum der Familie Berger an. Ergänze die Namen. (3 Punkte)",
+   "text": "Bei {{Mia}} steht ∗ 2014, sie ist die jüngste Person. Das Zeichen † steht nur bei {{Karl}}, denn nur er ist schon gestorben. Mit Jan ist {{Anna}} verheiratet, das zeigen die zwei Ringe.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 800 380\" width=\"800\" height=\"380\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"800\" height=\"380\" fill=\"#ffffff\"/><line x1=\"265\" y1=\"183.0\" x2=\"535\" y2=\"183.0\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"180\" y1=\"323.0\" x2=\"200\" y2=\"323.0\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"600\" y1=\"323.0\" x2=\"620\" y2=\"323.0\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"400.0\" y1=\"183.0\" x2=\"400.0\" y2=\"116\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"320.0\" y1=\"116\" x2=\"480.0\" y2=\"116\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"480.0\" y1=\"116\" x2=\"480.0\" y2=\"86\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"320.0\" y1=\"116\" x2=\"320.0\" y2=\"86\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"190.0\" y1=\"323.0\" x2=\"190.0\" y2=\"256\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"190.0\" y1=\"256\" x2=\"190.0\" y2=\"256\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"190.0\" y1=\"256\" x2=\"190.0\" y2=\"216\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"610.0\" y1=\"323.0\" x2=\"610.0\" y2=\"256\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"610.0\" y1=\"256\" x2=\"610.0\" y2=\"256\" stroke=\"#222\" stroke-width=\"2.5\"/><line x1=\"610.0\" y1=\"256\" x2=\"610.0\" y2=\"216\" stroke=\"#222\" stroke-width=\"2.5\"/><circle cx=\"395.0\" cy=\"183.0\" r=\"7\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"405.0\" cy=\"183.0\" r=\"7\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"185.0\" cy=\"323.0\" r=\"7\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"195.0\" cy=\"323.0\" r=\"7\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"605.0\" cy=\"323.0\" r=\"7\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><circle cx=\"615.0\" cy=\"323.0\" r=\"7\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"245\" y=\"20\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"320.0\" y=\"41\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Tom</text><text x=\"320.0\" y=\"61\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 2011</text><text x=\"320.0\" y=\"79\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Schüler</text><rect x=\"405\" y=\"20\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"480.0\" y=\"41\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mia</text><text x=\"480.0\" y=\"61\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 2014</text><text x=\"480.0\" y=\"79\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Schülerin</text><rect x=\"115\" y=\"150\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"190.0\" y=\"171\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Jan</text><text x=\"190.0\" y=\"191\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 1980</text><text x=\"190.0\" y=\"209\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Lehrer</text><rect x=\"535\" y=\"150\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"610.0\" y=\"171\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Anna</text><text x=\"610.0\" y=\"191\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 1982</text><text x=\"610.0\" y=\"209\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Ärztin</text><rect x=\"30\" y=\"290\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"105.0\" y=\"311\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Karl</text><text x=\"105.0\" y=\"331\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 1952   † 2019</text><text x=\"105.0\" y=\"349\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Schlosser</text><rect x=\"200\" y=\"290\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"275.0\" y=\"311\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Ruth</text><text x=\"275.0\" y=\"331\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 1954</text><text x=\"275.0\" y=\"349\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Verkäuferin</text><rect x=\"450\" y=\"290\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"525.0\" y=\"311\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Hans</text><text x=\"525.0\" y=\"331\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 1950</text><text x=\"525.0\" y=\"349\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Bäcker</text><rect x=\"620\" y=\"290\" width=\"150\" height=\"66\" rx=\"6\" fill=\"#fffbe9\" stroke=\"#444\" stroke-width=\"2\"/><text x=\"695.0\" y=\"311\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Eva</text><text x=\"695.0\" y=\"331\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">∗ 1953</text><text x=\"695.0\" y=\"349\" font-size=\"14\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">Schneiderin</text></svg>",
+   "bildAlt": "Stammbaum der erfundenen Familie Berger in drei Reihen. Oben die Kinder Tom (∗ 2011, Schüler) und Mia (∗ 2014, Schülerin). In der Mitte ihre Eltern Jan (∗ 1980, Lehrer) und Anna (∗ 1982, Ärztin), zwischen ihnen zwei Ringe. Unten die Großeltern: Karl (∗ 1952, † 2019, Schlosser) und Ruth (∗ 1954, Verkäuferin) (Jans Eltern, zwischen ihnen zwei Ringe) sowie Hans (∗ 1950, Bäcker) und Eva (∗ 1953, Schneiderin) (Annas Eltern, zwischen ihnen zwei Ringe).",
+   "info": "∗ gibt das Geburtsjahr an, 2014 ist das späteste. † zeigt, wer gestorben ist (Karl, 2019). Zwei Ringe (∞) zeigen, wer miteinander verheiratet ist.",
+   "wortbank": [
+    "Mia",
+    "Karl",
+    "Anna",
+    "Tom",
+    "Ruth"
+   ],
+   "lesen": {
+    "paket": "geschichte-1-quellen-stammbaum",
+    "titel": "Der Stammbaum"
+   }
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Teil B – Zeit, Zeitrechnung und Epochen (10 Punkte)",
+   "frage": "Aufgabe 6: Heute messen wir nur Zeitunterschiede, die ein Mensch auch ohne Gerät wahrnehmen kann.",
+   "info": "Die Messung der Zeit wurde immer genauer. Heute messen wir Zeitunterschiede, die ein Mensch gar nicht mehr wahrnehmen kann.",
+   "richtig": false,
+   "lesen": {
+    "paket": "geschichte-2a-zeitrechnung-kalender",
+    "titel": "Zeit messen: vom Sonnenstand zur Uhr"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil B – Zeit, Zeitrechnung und Epochen (10 Punkte)",
+   "frage": "Aufgabe 7: Auf dem Zeitstrahl zeigt Punkt A das Jahr, in dem eine Brücke gebaut wurde, und Punkt C das Jahr, in dem sie einstürzte. Wie viele Jahre stand die Brücke? Rechne wie in der Schule (ohne Jahr 0).",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text><line x1=\"188.0\" y1=\"118\" x2=\"188.0\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"188.0\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"188.0\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"188.0\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">A</text><line x1=\"401.3\" y1=\"118\" x2=\"401.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"401.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"401.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"401.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"614.7\" y1=\"118\" x2=\"614.7\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"614.7\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"614.7\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"614.7\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">C</text></svg>",
+   "bildAlt": "Ein Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit einem Teilstrich alle 10 Jahre. Beschriftet sind 100 v. Chr., 50 v. Chr., Christi Geburt und 50 n. Chr. Drei Punkte sind markiert: Punkt A liegt 2 Teilstriche (je 10 Jahre) links von der Marke 50 v. Chr.; Punkt B liegt 2 Teilstriche (je 10 Jahre) links von der Marke Christi Geburt; Punkt C liegt 2 Teilstriche (je 10 Jahre) links von der Marke 50 n. Chr.",
+   "info": "Punkt A zeigt 70 v. Chr., Punkt C zeigt 30 n. Chr. Über Christi Geburt hinweg rechnet man zusammen: 70 + 30 = 100 Jahre.",
+   "richtig": [
+    "100",
+    "100 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": [
+    {
+     "paket": "geschichte-2a-zeitrechnung-kalender",
+     "titel": "Jahre vergleichen und Abstände berechnen"
+    },
+    {
+     "paket": "geschichte-2b-epochen-zeitstrahl",
+     "titel": "Einen Zeitstrahl zeichnen und lesen"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil B – Zeit, Zeitrechnung und Epochen (10 Punkte)",
+   "frage": "Aufgabe 8: Welche dieser Jahreszahlen liegt im 14. Jahrhundert?",
+   "info": "Das 14. Jahrhundert umfasst die Jahre 1300 bis 1399, also die Zahlen, die mit 13 beginnen.",
+   "antworten": [
+    "1347 n. Chr.",
+    "1247 n. Chr.",
+    "1430 n. Chr.",
+    "1114 n. Chr."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "geschichte-2a-zeitrechnung-kalender",
+    "titel": "Jahrhunderte bestimmen"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil B – Zeit, Zeitrechnung und Epochen (10 Punkte)",
+   "frage": "Aufgabe 9: Sieh dir den Zeitstrahl mit den fünf Epochen an. Ergänze. (3 Punkte)",
+   "text": "Das Jahr 1215 n. Chr. liegt in der Epoche mit der Nummer {{4}}. Sie heißt {{Mittelalter}}. Die Epoche mit der Nummer 3 heißt {{Antike}}.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"65.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"65.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"234.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"234.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"451.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"451.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"606.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"606.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"699.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"699.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/><line x1=\"110.0\" y1=\"84\" x2=\"110.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"110.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3000 v. Chr.</text><line x1=\"358.0\" y1=\"84\" x2=\"358.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"358.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1000 v. Chr.</text><line x1=\"482.0\" y1=\"84\" x2=\"482.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"482.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"544.0\" y1=\"62\" x2=\"544.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"544.0\" y=\"56\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">500 n. Chr.</text><line x1=\"668.0\" y1=\"84\" x2=\"668.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"668.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1500</text></svg>",
+   "bildAlt": "Ein Zeitstrahl aus fünf farbigen Abschnitten mit den Nummern 1 bis 5 von links nach rechts. Die Grenzen sind beschriftet: 3000 v. Chr. (zwischen 1 und 2), 1000 v. Chr. (zwischen 2 und 3), 500 n. Chr. (zwischen 3 und 4) und 1500 (zwischen 4 und 5). Im Abschnitt 3 ist außerdem Christi Geburt markiert.",
+   "info": "Die Reihenfolge ist: 1 Ur- und Frühgeschichte, 2 Altertum, 3 Antike, 4 Mittelalter, 5 Neuzeit. Das Mittelalter reicht von 500 bis 1500 n. Chr.",
+   "wortbank": [
+    "4",
+    "Mittelalter",
+    "Antike",
+    "Neuzeit",
+    "5"
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-2b-epochen-zeitstrahl",
+     "titel": "Die fünf Epochen"
+    },
+    {
+     "paket": "geschichte-2b-epochen-zeitstrahl",
+     "titel": "Die Epoche eines Jahres bestimmen"
+    }
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil B – Zeit, Zeitrechnung und Epochen (10 Punkte)",
+   "frage": "Aufgabe 10: Eine griechische Sonnenuhr stammt aus dem 3. Jahrhundert v. Chr. In welcher Epoche war das? Nimm die Epochen aus dem Heft.",
+   "info": "Das 3. Jahrhundert v. Chr. sind die Jahre 200 bis 299 v. Chr. Das liegt zwischen 1000 v. Chr. und 500 n. Chr., also in der Antike.",
+   "richtig": [
+    "Antike",
+    "die Antike"
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-2b-epochen-zeitstrahl",
+     "titel": "Die Epoche eines Jahres bestimmen"
+    },
+    {
+     "paket": "geschichte-2a-zeitrechnung-kalender",
+     "titel": "Jahrhunderte bestimmen"
+    }
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "Teil B – Zeit, Zeitrechnung und Epochen (10 Punkte)",
+   "frage": "Aufgabe 11: Sortiere diese fünf Erfindungen und Ereignisse vom ältesten zum jüngsten.",
+   "info": "Vor ca. 14 000 Jahren ist etwa 12 000 v. Chr. Danach folgen 5000 v. Chr., 3000 v. Chr., das 3. Jahrhundert v. Chr. und um 1400 n. Chr. Bei Jahren vor Christi Geburt ist die größere Zahl das ältere Jahr.",
+   "schritte": [
+    "Der Hund wird zum Haustier (vor ca. 14 000 Jahren)",
+    "Esel und Pferd werden als Reit- und Packtiere genutzt (ab ca. 5000 v. Chr.)",
+    "Das Rad wird erfunden (um 3000 v. Chr.)",
+    "Eine griechische Sonnenuhr entsteht (3. Jahrhundert v. Chr.)",
+    "In Deutschland gibt es mechanische Uhren (um 1400)"
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-2a-zeitrechnung-kalender",
+     "titel": "Jahre vergleichen und Abstände berechnen"
+    },
+    {
+     "paket": "geschichte-5a-neolithische-revolution",
+     "titel": "Haustiere: Domestikation und Züchtung"
+    }
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil B – Zeit, Zeitrechnung und Epochen (10 Punkte)",
+   "frage": "Aufgabe 12: Ein Freund sagt: „Ich schätze einfach nach Gefühl, wie lange etwas her ist. Dafür brauche ich keine Uhr und keinen Kalender.“ Widersprich ihm mit zwei Gründen, warum man die Zeit misst und einteilt. (2 Punkte)",
+   "punkte": 2,
+   "muster": "Das Gefühl für Zeit täuscht: Manchmal vergeht sie wie im Flug, manchmal gar nicht. Mit Uhren, Kalendern und Zeitstrahlen kann man sich zeitlich orientieren und Ereignisse in die richtige Reihenfolge bringen.",
+   "kriterien": [
+    "Das Gefühl für die Dauer der Zeit ist unsicher (mal vergeht sie schnell, mal langsam).",
+    "Man misst und teilt die Zeit ein, um sich zeitlich zu orientieren (zum Beispiel mit Uhr, Kalender, Zeitstrahl oder Epochen)."
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-2a-zeitrechnung-kalender",
+     "titel": "Warum teilt man die Zeit ein?"
+    },
+    {
+     "paket": "geschichte-2b-epochen-zeitstrahl",
+     "titel": "Wofür ein Zeitstrahl gut ist"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil C – Lucy (6 Punkte)",
+   "frage": "Aufgabe 13: Wähle alle richtigen Antworten. Sieh dir die Zeichnung an. Welche Aussagen passen dazu?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"124.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"124.0\" y1=\"238.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"185.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"185.6\" y1=\"146.9\" x2=\"191.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"208.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"310.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"226.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"337.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"337.4\" y1=\"98.0\" x2=\"343.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"350.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"209.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"52.0\" x2=\"496.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"495.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><text x=\"120\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Schimpanse</text><text x=\"310\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lucy</text><text x=\"500\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">moderner Mensch</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit Namen. Schimpanse: stark nach vorn gebeugt, mit langen Armen und kurzen Beinen; Lucy: fast aufrecht, nur leicht nach vorn geneigt; moderner Mensch: ganz aufrecht, mit langen Beinen und kürzeren Armen.",
+   "info": "Der Schimpanse ist stark nach vorn gebeugt, Lucy ist nur noch leicht nach vorn geneigt und der moderne Mensch steht ganz aufrecht.",
+   "antworten": [
+    "Lucy steht aufrechter als der Schimpanse.",
+    "Der moderne Mensch steht ganz aufrecht.",
+    "Lucy steht genauso aufrecht wie der moderne Mensch.",
+    "Der Schimpanse steht aufrechter als Lucy."
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "lesen": {
+    "paket": "geschichte-3-lucy",
+    "titel": "Schimpanse, Lucy und Mensch im Vergleich"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil C – Lucy (6 Punkte)",
+   "frage": "Aufgabe 14: Ergänze die Sätze über Lucys Fundort. (2 Punkte)",
+   "text": "Lucy wurde 1974 bei Hadar in {{Äthiopien}} gefunden. Gefunden hat sie eine amerikanisch-{{französische}} Forschergruppe.",
+   "info": "Das Buch nennt als Fundort Hadar in Äthiopien (Ostafrika). Die Forschergruppe war amerikanisch-französisch. Laetoli in Tansania ist der Fundort der Fußspuren.",
+   "wortbank": [
+    "Äthiopien",
+    "französische",
+    "Tansania",
+    "deutsche"
+   ],
+   "lesen": {
+    "paket": "geschichte-3-lucy",
+    "titel": "Lucy: der Fund"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil C – Lucy (6 Punkte)",
+   "frage": "Aufgabe 15: Eine Gruppe von Vormenschen zieht durch die Savanne. Eines der Tiere trägt Früchte in beiden Händen nach Hause. Welchen Vorteil des aufrechten Gangs nutzt es?",
+   "info": "Wer aufrecht geht, hat die Hände frei und kann Nahrung oder Gegenstände tragen. Bessere Sicht und weniger Energie sind die beiden anderen Vorteile.",
+   "antworten": [
+    "Die Hände sind frei zum Tragen.",
+    "Man hat eine bessere Sicht.",
+    "Man braucht weniger Energie.",
+    "Man ist besser vor Kälte geschützt."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "geschichte-3-lucy",
+    "titel": "Der aufrechte Gang und seine Folgen"
+   }
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil C – Lucy (6 Punkte)",
+   "frage": "Aufgabe 16: Du arbeitest in einem Museum und schreibst ein Schild für Lucys Skelett. Es soll erklären, warum Lucy zwischen Schimpanse und Mensch steht. Schreibe zwei bis drei Sätze. (2 Punkte)",
+   "punkte": 2,
+   "muster": "Lucy sah wahrscheinlich eher wie ein Schimpanse aus. Sie ging aber vorwiegend aufrecht wie ein Mensch, das erkennt man am Knochenbau und an Fußspuren. Deshalb gehört sie zu den Vormenschen auf dem Weg zum Menschen.",
+   "kriterien": [
+    "Aussehen: Lucy sah wahrscheinlich eher wie ein Schimpanse aus.",
+    "Gang: Lucy ging vorwiegend aufrecht wie ein Mensch (Knochenbau, Fußspuren)."
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-3-lucy",
+     "titel": "Wie sah Lucy aus?"
+    },
+    {
+     "paket": "geschichte-3-lucy",
+     "titel": "Schimpanse, Lucy und Mensch im Vergleich"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil D – Altsteinzeit (7 Punkte)",
+   "frage": "Aufgabe 17: Ein Mitschüler schreibt: „Die Steinzeit endete nach dem Heft um 9000 v. Chr.“ Was ist daran falsch?",
+   "info": "Nach dem Heft dauerte die Altsteinzeit bis etwa 9000 v. Chr. Dann folgte die Jungsteinzeit bis etwa 3000 v. Chr. Erst damit endete die Steinzeit.",
+   "antworten": [
+    "Um 9000 v. Chr. endete nur die Altsteinzeit, die ganze Steinzeit erst um 3000 v. Chr.",
+    "Die Steinzeit endete erst um 1000 v. Chr., zu Beginn der Antike, also viel später.",
+    "Nichts, denn Altsteinzeit und Jungsteinzeit endeten nach dem Heft beide um 9000 v. Chr.",
+    "Das Heft nennt für das Ende der Steinzeit gar keine Jahreszahl, nur für den Beginn."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "geschichte-4a-steinzeit-eiszeit-werkzeuge",
+    "titel": "Die Steinzeit in Teile gliedern"
+   }
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Teil D – Altsteinzeit (7 Punkte)",
+   "frage": "Aufgabe 18: Zur größten Ausdehnung der Gletscher in der Eiszeit war sogar die Gegend um Berlin von Eis bedeckt.",
+   "info": "In der Eiszeit dehnten sich die Gletscher weit aus. Zur größten Ausdehnung reichte das Eis bis über die Gegend um Berlin.",
+   "richtig": true,
+   "lesen": {
+    "paket": "geschichte-4a-steinzeit-eiszeit-werkzeuge",
+    "titel": "Die Eiszeit: Klima und Landschaft"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil D – Altsteinzeit (7 Punkte)",
+   "frage": "Aufgabe 19: Wie viel Mal so weit wie die Lanze reicht der Speer höchstens? Schreibe die Zahl.",
+   "info": "Die Lanze reicht 0 bis 3 m, der Speer 0 bis 15 m. Die größte Reichweite des Speers ist 15 : 3 = 5-mal so groß.",
+   "richtig": [
+    "5",
+    "fünf",
+    "5-mal",
+    "5 mal",
+    "fünfmal",
+    "das fünffache",
+    "5-fach",
+    "5fach"
+   ],
+   "lesen": {
+    "paket": "geschichte-4b-altsteinzeit-jagen-leben",
+    "titel": "Waffen und ihre Reichweiten"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil D – Altsteinzeit (7 Punkte)",
+   "frage": "Aufgabe 20: Wähle alle richtigen Antworten. Was gilt für das Feuer in der Altsteinzeit?",
+   "info": "Feuer nutzen konnte man seit etwa 1,5 Millionen Jahren. Selbst erzeugen konnte man es erst viel später, durch Reibung zweier Hölzer oder Funkenschlag von Feuersteinen.",
+   "antworten": [
+    "Am Anfang konnten die Menschen Feuer nur hüten und nutzen, etwa nach einem Blitzschlag.",
+    "Später erzeugten sie Feuer selbst, etwa durch Reibung zweier Hölzer.",
+    "Die ersten Menschen konnten das Feuer von Anfang an ganz allein selbst erzeugen.",
+    "Das Feuer gab es erst seit der Jungsteinzeit, davor kannte man es nicht."
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "lesen": {
+    "paket": "geschichte-4b-altsteinzeit-jagen-leben",
+    "titel": "Feuer nutzen und selbst machen"
+   }
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil D – Altsteinzeit (7 Punkte)",
+   "frage": "Aufgabe 21: Eine Gruppe von Jägern und Sammlern der Altsteinzeit will das ganze Jahr an einem Platz bleiben und feste Häuser bauen. Erkläre, warum das für sie nicht gut gehen würde. Schreibe zwei bis drei Sätze. (3 Punkte)",
+   "punkte": 3,
+   "muster": "Die Menschen lebten vom Jagen und Sammeln und hatten keinen Ackerbau und keine Viehzucht. Die Beutetiere zogen weiter, und das Nahrungsangebot wechselte mit der Jahreszeit. Deshalb mussten sie ihre Lagerplätze wechseln und in Zelten wohnen.",
+   "kriterien": [
+    "Sie lebten vom Jagen und Sammeln, nicht von Ackerbau und Viehzucht.",
+    "Die Beutetiere zogen weiter und das Nahrungsangebot wechselte mit der Jahreszeit.",
+    "Deshalb wechselten sie die Lagerplätze und wohnten in Zelten (nicht sesshaft)."
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-4b-altsteinzeit-jagen-leben",
+     "titel": "Unterwegs leben: nicht sesshaft"
+    },
+    {
+     "paket": "geschichte-4b-altsteinzeit-jagen-leben",
+     "titel": "Jagen und Sammeln: wovon die Menschen lebten"
+    }
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil E – Jungsteinzeit und der Vergleich (7 Punkte)",
+   "frage": "Aufgabe 22: Wie lange nach dem Beginn der Keramik wurde das Rad erfunden? Schreibe die Zahl der Jahre.",
+   "info": "Keramik gibt es seit etwa 7000 v. Chr., das Rad wurde um 3000 v. Chr. erfunden. Beide Jahre liegen vor Christi Geburt, man zieht ab: 7000 − 3000 = 4000 Jahre.",
+   "richtig": [
+    "4000",
+    "4000 Jahre",
+    "4.000",
+    "4.000 Jahre",
+    "4 000",
+    "4 000 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": [
+    {
+     "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
+     "titel": "Spinnen, Weben, Töpfern und Mahlen"
+    },
+    {
+     "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
+     "titel": "Beil, Pflug und Rad"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil E – Jungsteinzeit und der Vergleich (7 Punkte)",
+   "frage": "Aufgabe 23: Wähle alle richtigen Antworten. Was kam erst in der Jungsteinzeit auf?",
+   "info": "Mahlstein und Webstuhl sind Erfindungen der Jungsteinzeit. Harpune und Speerschleuder kannten schon die Jäger und Sammler der Altsteinzeit.",
+   "antworten": [
+    "Der Mahlstein zum Mahlen von Getreide",
+    "Der Webstuhl mit Gewichten",
+    "Die Harpune aus Knochen oder Geweih",
+    "Die Speerschleuder zum Werfen von Speeren"
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
+     "titel": "Spinnen, Weben, Töpfern und Mahlen"
+    },
+    {
+     "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
+     "titel": "Beil, Pflug und Rad"
+    }
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil E – Jungsteinzeit und der Vergleich (7 Punkte)",
+   "frage": "Aufgabe 24: Ordne jede Lebensweise der richtigen Zeit zu. (3 Punkte)",
+   "info": "Wer den Herden folgt, ist nicht sesshaft (Altsteinzeit). Berufe wie der Töpfer, Felder und Weiden gehören zu den sesshaften Bauern der Jungsteinzeit.",
+   "paare": [
+    [
+     "Die Gruppe folgte den Rentierherden und zog weiter.",
+     "Altsteinzeit"
+    ],
+    [
+     "Wer Töpfe brauchte, ging zum Töpfer im Dorf.",
+     "Jungsteinzeit"
+    ],
+    [
+     "Auf dem Feld wuchs Getreide, auf der Weide grasten Schafe.",
+     "Jungsteinzeit"
+    ]
+   ],
+   "lesen": {
+    "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
+    "titel": "Altsteinzeit und Jungsteinzeit im Vergleich"
+   }
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil E – Jungsteinzeit und der Vergleich (7 Punkte)",
+   "frage": "Aufgabe 25: Mit der neolithischen Revolution wurden die Menschen sesshaft und lebten als Bauern. Ein Bauer der Jungsteinzeit sagt: „Mein Leben ist viel sicherer als das der Jäger.“ Gib ihm in einem Punkt recht und widersprich ihm in einem anderen Punkt. (2 Punkte)",
+   "punkte": 2,
+   "muster": "Recht hat er, weil er Vorräte hat, in einem festen Haus wohnt und Tiere zu halten weniger gefährlich ist als jagen. Widersprechen kann man, weil bei einem Ernteausfall Hunger droht und der Besitz zu Neid und Streit führt.",
+   "kriterien": [
+    "Er hat in einem Punkt recht (zum Beispiel Vorräte, festes Haus, Tiere halten ist weniger gefährlich als jagen).",
+    "Man kann ihm widersprechen (zum Beispiel Hunger bei Ernteausfall, Neid und Streit um Besitz, einseitige Ernährung)."
+   ],
+   "lesen": [
+    {
+     "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
+     "titel": "Vorteile und Nachteile abwägen"
+    },
+    {
+     "paket": "geschichte-5b-jungsteinzeit-leben-vergleich",
+     "titel": "Folgen der neuen Lebensweise"
+    }
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil F – Ötzi (6 Punkte)",
+   "frage": "Aufgabe 26: Zu Ötzis Ausrüstung gehörte ein Kupferbeil. Wie viele Zentimeter lang war es etwa? Schreibe die Zahl.",
+   "info": "Das Beil war etwa 60 cm lang, die Klinge aus gegossenem Kupfer und der Schaft aus Eibenholz. Es ist das einzige vollständig erhaltene Beil aus der Vorgeschichte auf der ganzen Welt.",
+   "richtig": [
+    "60",
+    "60 cm",
+    "60 Zentimeter"
+   ],
+   "einheit": "cm",
+   "lesen": {
+    "paket": "geschichte-6-oetzi",
+    "titel": "Kleidung und Ausrüstung"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil F – Ötzi (6 Punkte)",
+   "frage": "Aufgabe 27: Ein Ehepaar fand Ötzi 1991 in den Ötztaler Alpen. Das Buch nennt für Ötzis Alter etwa 5250 Jahre, eine Kopie etwa 5400 Jahre. Was kannst du daraus sicher sagen?",
+   "info": "Das Alter lässt sich nur ungefähr bestimmen, deshalb weichen die Zahlen leicht ab. Sicher ist: mehr als 5000 Jahre.",
+   "antworten": [
+    "Ötzi ist mehr als 5000 Jahre alt, das passt zu beiden.",
+    "Eines der beiden Bücher ist falsch, das andere stimmt genau.",
+    "Ötzi ist genau 5325 Jahre alt, das ist der Mittelwert.",
+    "Über Ötzis Alter kann man deshalb gar nichts sagen."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "geschichte-6-oetzi",
+    "titel": "Der Fund im Eis"
+   }
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Teil F – Ötzi (6 Punkte)",
+   "frage": "Aufgabe 28: Ötzi starb an der tiefen Schnittwunde in seiner rechten Hand.",
+   "info": "Ötzi verblutete, nachdem ihn eine Pfeilspitze in der linken Schulter getroffen hatte. Die Schnittwunde an der rechten Hand deutet auf einen Nahkampf kurz vorher.",
+   "richtig": false,
+   "lesen": {
+    "paket": "geschichte-6-oetzi",
+    "titel": "Ötzi wurde getötet"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil F – Ötzi (6 Punkte)",
+   "frage": "Aufgabe 29: Welche Aussage über Ötzi ist durch die Untersuchung seines Körpers belegt und nicht nur vermutet?",
+   "info": "Ein verheilter Nasenbeinbruch ist ein Befund am Körper und damit belegt. Warum Ötzi unterwegs war und wer ihn tötete, weiß man nicht.",
+   "antworten": [
+    "Ötzi hatte sich früher einmal das Nasenbein gebrochen.",
+    "Ötzi war vor seinen Verfolgern geflohen.",
+    "Der Täter kannte Ötzi von früheren Begegnungen her.",
+    "Ötzi wollte zu Verwandten auf der anderen Seite des Passes."
+   ],
+   "richtig": 0,
+   "lesen": [
+    {
+     "paket": "geschichte-6-oetzi",
+     "titel": "Wer war Ötzi?"
+    },
+    {
+     "paket": "geschichte-6-oetzi",
+     "titel": "Belegt oder vermutet? Quelle oder Darstellung?"
+    }
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil F – Ötzi (6 Punkte)",
+   "frage": "Aufgabe 30: Der Arzt Egarter-Vigl hat 2011 die letzten Minuten von Ötzi beschrieben. Ist sein Text eine Quelle oder eine Darstellung? Begründe deine Antwort. (2 Punkte)",
+   "punkte": 2,
+   "muster": "Der Text ist eine Darstellung. Der Arzt hat ihn viel später geschrieben und war nicht dabei. Er stützt sich auf Untersuchungen und Funde, und das sind die Quellen.",
+   "kriterien": [
+    "Der Text ist eine Darstellung und keine Quelle.",
+    "Begründung: Er wurde viel später von jemandem geschrieben, der nicht dabei war, und stützt sich auf Funde und Untersuchungen (die Quellen)."
+   ],
+   "lesen": {
+    "paket": "geschichte-6-oetzi",
+    "titel": "Belegt oder vermutet? Quelle oder Darstellung?"
+   }
+  }
+ ],
+ "ueben": false
+}

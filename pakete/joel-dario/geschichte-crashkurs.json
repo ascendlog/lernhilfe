@@ -1,0 +1,276 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-crashkurs",
+ "titel": "Geschichte Klasse 6: Crashkurs (das Wichtigste kurz gefasst)",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Das Wichtigste kurz gefasst, für den letzten Blick vor der Arbeit: Lernblatt, Checkliste und ein Blitz-Check mit elf Kurzaufgaben.",
+ "hinweis": "Kein neuer Stoff: Alles steht auch in den Lernblättern der Übungspakete. Wo Heft und Buch verschieden sind (Quellengruppen, zwei oder drei Teile der Steinzeit, Zahlen zu Ötzi), steht das Heft zuerst.",
+ "lernblatt": [
+  {
+   "titel": "So nutzt du den Crashkurs",
+   "text": "Das ist dein **letzter Blick** am Tag vor der Arbeit: einmal in Ruhe lesen (etwa 10 Minuten), danach den **Blitz-Check** machen (etwa 5 Minuten). Hier steht nichts Neues. Wenn du unsicher bist, geh in das passende Übungspaket zurück. Wo Heft und Buch etwas verschieden nennen, steht das **Heft zuerst**."
+  },
+  {
+   "titel": "Quellen und Darstellungen",
+   "text": "Eine **Quelle** ist etwas aus der früheren Zeit selbst, aus dem man etwas über diese Zeit erfährt.\n\n- **Heft**: **Sachquellen** (Werkzeug, Knochen, Bauwerke), **Texte** (Urkunden, Inschriften), **Bilder** (Malereien, Fotos), **Tonaufnahmen und Filme**, **Zeitzeugen** (erzählen selbst Erlebtes).\n- **Buch**: **schriftliche**, **bildliche** und **gegenständliche Quellen** (das sind die Sachquellen, auch Münzen), dazu die **mündliche Überlieferung**.\n- Eine **Darstellung** machen Menschen später über eine Zeit, die sie nicht erlebt haben, zum Beispiel ein Schulbuchtext.\n- **Historiker**: Frage stellen, Quellen suchen (meist im **Archiv**), Quellen auswerten.",
+   "merke": "Eine Rekonstruktionszeichnung ist eine Darstellung. Die Funde dahinter sind Quellen."
+  },
+  {
+   "titel": "Lebenslauf und Stammbaum",
+   "text": "- Ein **Lebenslauf** ist deine eigene Lebensgeschichte, oft als Tabelle. Quellen dafür: Geburtsurkunde, Zeugnisse, Fotos.\n- Ein **Stammbaum** zeigt Familiengeschichte als Bild. Geschwister stehen nebeneinander, Kinder meist über den Eltern. Dazu stehen Beruf und oft der Geburtsort.\n- Zeichen: **∞** (oder zwei Ringe ⚭) = verheiratet mit, **∗** = geboren, **†** = gestorben. Nicht verwechseln!\n- **Von der kleinen zur großen Geschichte**: Familie, **Ortsgeschichte**, **Regionalgeschichte**, **Nationalgeschichte**, **Weltgeschichte**.",
+   "merke": "∗ = geboren, † = gestorben, zwei Ringe = verheiratet."
+  },
+  {
+   "titel": "Zeit messen und Zeitrechnung",
+   "text": "- **Warum?** Das Zeitgefühl täuscht. Mit einer **Zeiteinteilung** kannst du dich zeitlich **orientieren**.\n- **Messen**: Tag und Nacht, **Sonnenuhr**, **Sanduhr**, **mechanische Uhr** (um 1400).\n- **Kalender**: Monat = 29,5 Tage. **Mondjahr** 354 Tage, **Sonnenjahr** etwa 365 Tage, **Schaltjahr** 366 Tage. Römer zählen ab 753 v. Chr., Juden ab 3761 v. Chr., Muslime ab 622 n. Chr.\n- **Unsere Zeitrechnung**: Nullpunkt ist Christi Geburt. Davor **v. Chr.** (größere Zahl = früher), danach **n. Chr.**\n- **Abstand** (ohne Jahr 0): 100 v. Chr. bis 50 n. Chr. sind 100 + 50 = 150 Jahre.\n- **Jahrhundert**: letzte zwei Stellen weg, plus 1. 1969 → 19 + 1 = 20. Jahrhundert.",
+   "merke": "Gleiche Seite: abziehen. Über Christi Geburt: zusammenzählen."
+  },
+  {
+   "titel": "Epochen und Zeitstrahl",
+   "text": "Die Geschichte ist lang, darum teilt man sie in **Epochen** ein, vom ältesten zum jüngsten:\n\n- **Ur- und Frühgeschichte**: bis 3000 v. Chr. (die ganze Steinzeit)\n- **Altertum**: 3000 bis 1000 v. Chr.\n- **Antike**: 1000 v. Chr. bis 500 n. Chr.\n- **Mittelalter** (MA): ca. 500 bis 1500 n. Chr.\n- **Neuzeit** (NZ): ca. ab 1500 n. Chr.\n\nEin **Zeitstrahl** zeigt Ereignisse nacheinander: links ist früher, rechts ist später. Maßstab zum Beispiel 10 Jahre = 1 cm.",
+   "merke": "Altertum und Antike nicht verwechseln: Das Altertum kommt zuerst.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/><line x1=\"110.0\" y1=\"84\" x2=\"110.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"110.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3000 v. Chr.</text><line x1=\"358.0\" y1=\"84\" x2=\"358.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"358.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1000 v. Chr.</text><line x1=\"482.0\" y1=\"84\" x2=\"482.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"482.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"544.0\" y1=\"62\" x2=\"544.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"544.0\" y=\"56\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">500 n. Chr.</text><line x1=\"668.0\" y1=\"84\" x2=\"668.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"668.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1500</text><text x=\"8\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"start\">Ur- und Frühgeschichte</text><text x=\"8\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"start\">bis 3000 v. Chr.</text><text x=\"234.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Altertum</text><text x=\"234.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">3000–1000 v. Chr.</text><text x=\"451.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Antike</text><text x=\"451.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">1000 v. Chr.–500 n. Chr.</text><text x=\"606.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mittelalter</text><text x=\"606.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">500–1500 n. Chr.</text><text x=\"699.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Neuzeit</text><text x=\"699.0\" y=\"204\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">ab 1500 n. Chr.</text></svg>",
+   "bildAlt": "Zeitstrahl mit fünf farbigen Balken nebeneinander, von links nach rechts: Ur- und Frühgeschichte bis 3000 v. Chr., Altertum 3000 bis 1000 v. Chr., Antike 1000 v. Chr. bis 500 n. Chr., Mittelalter 500 bis 1500 n. Chr. und Neuzeit ab 1500 n. Chr. Christi Geburt liegt in der Antike."
+  },
+  {
+   "titel": "Lucy und der aufrechte Gang",
+   "text": "- **Lucy** ist das Skelett eines **Australopithecus afarensis** (ein **Vormensch**), gefunden in **Ostafrika**, **über 3 Millionen Jahre** alt (Buch: 3,18 Millionen Jahre). Afrika heißt **Wiege der Menschheit**.\n- Lucy sah **wahrscheinlich** eher wie ein **Schimpanse** aus, ging aber **vorwiegend aufrecht** (Knochenbau, Fußspuren). Der aufrechte Gang begann vor etwa 4 Millionen Jahren.\n- Auf der Zeichnung: **Schimpanse** gebeugt, lange Arme, kurze Beine. **Lucy** schon überwiegend aufrecht. **Mensch** ganz aufrecht, kürzere Arme.\n- **Vorteile** des aufrechten Gangs: bessere Sicht, weniger Energie, Hände frei.\n- **Verfassertext**: 1 Überblick, 2 Untersuchung (Signalwörter), 3 Zusammenfassung.",
+   "merke": "Lucy: wahrscheinlich wie ein Schimpanse, vorwiegend aufrecht wie ein Mensch.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 318\" width=\"640\" height=\"318\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"318\" fill=\"#ffffff\"/><line x1=\"10\" y1=\"270\" x2=\"630\" y2=\"270\" stroke=\"#777\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"124.0\" y2=\"238.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"124.0\" y1=\"238.0\" x2=\"108.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"270.0\" x2=\"128.0\" y2=\"270.0\" stroke=\"#7a5a3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"206.0\" x2=\"185.6\" y2=\"146.9\" stroke=\"#7a5a3a\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"185.6\" y1=\"146.9\" x2=\"191.6\" y2=\"250.9\" stroke=\"#7a5a3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"208.7\" cy=\"133.4\" r=\"19\" fill=\"#7a5a3a\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"310.0\" y2=\"226.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"226.0\" x2=\"298.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"298.0\" y1=\"270.0\" x2=\"318.0\" y2=\"270.0\" stroke=\"#b0793b\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"300.0\" y1=\"182.0\" x2=\"337.4\" y2=\"98.0\" stroke=\"#b0793b\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"337.4\" y1=\"98.0\" x2=\"343.4\" y2=\"194.0\" stroke=\"#b0793b\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"350.7\" cy=\"79.7\" r=\"17\" fill=\"#b0793b\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"209.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"209.0\" x2=\"488.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"488.0\" y1=\"270.0\" x2=\"508.0\" y2=\"270.0\" stroke=\"#3b6ea5\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"148.0\" x2=\"490.0\" y2=\"52.0\" stroke=\"#3b6ea5\" stroke-width=\"12\" stroke-linecap=\"round\"/><line x1=\"490.0\" y1=\"52.0\" x2=\"496.0\" y2=\"134.0\" stroke=\"#3b6ea5\" stroke-width=\"6\" stroke-linecap=\"round\"/><circle cx=\"495.7\" cy=\"30.0\" r=\"19\" fill=\"#3b6ea5\"/><text x=\"120\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Schimpanse</text><text x=\"310\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lucy</text><text x=\"500\" y=\"304\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">moderner Mensch</text></svg>",
+   "bildAlt": "Drei einfache Strichfiguren von der Seite (nicht maßstabsgetreu), von links nach rechts mit Namen. Schimpanse: stark nach vorn gebeugt, lange Arme, kurze Beine. Lucy: fast aufrecht, nur leicht nach vorn geneigt. Moderner Mensch: ganz aufrecht, lange Beine, kürzere Arme."
+  },
+  {
+   "titel": "Steinzeit und Altsteinzeit",
+   "text": "- **Steinzeit**: Werkzeuge aus Stein und Holz.\n- **Heft**: zwei Teile, **Altsteinzeit** (bis ca. 9000 v. Chr.) und **Jungsteinzeit** (ca. 9000 bis 3000 v. Chr.). Das **Buch** nennt zusätzlich die **Mittelsteinzeit**.\n- **Würm-Eiszeit** (in der Altsteinzeit): letzte Kaltzeit, etwa 100 000 Jahre. Gletscher, Steppe.\n- **Jagen und Sammeln**: Männer jagten meist, Frauen sammelten.\n- **Reichweite**: Lanze 0 bis 3 m, Speer 0 bis 15 m, Speerschleuder 8 bis 30 m, Pfeil und Bogen 5 bis 50 m.\n- **Feuer**: nutzen seit etwa 1,5 Millionen Jahren, selbst erzeugen erst seit etwa 150 000 bis 100 000 Jahren.\n- **Nicht sesshaft**: **Nomaden** in Gruppen von etwa 25 bis 30 Personen, Zelte.",
+   "merke": "Heft: zwei Teile. Buch: drei Teile."
+  },
+  {
+   "titel": "Jungsteinzeit und die Unterschiede",
+   "text": "- Um **9000 v. Chr.** wurden Menschen **sesshaft**: **Ackerbau**, **Viehzucht**, **Vorratshaltung**. Das ist die **neolithische Revolution**: ein grundlegender Wandel, kein Aufstand. Start im Irak, an Euphrat und Tigris.\n- **Erfindungen**: Pflug (Mitteleuropa seit 4500 v. Chr.), Keramik, Webstuhl, Mahlstein, geschliffene Beile, Rad (um 3000 v. Chr.).\n- **Folgen**: Dörfer, Berufe, Vorräte (unabhängiger von der Umwelt). Aber auch Hungersnöte bei Ernteausfall und Neid und Streit um Besitz.\n- **Alt gegen Jung**: Nomaden gegen sesshafte Bauern, Zelt gegen Haus im Dorf, Jagen und Sammeln gegen Ackerbau und Viehzucht.",
+   "merke": "Aus Jägern und Sammlern werden sesshafte Bauern."
+  },
+  {
+   "titel": "Ötzi, der Mann aus dem Eis",
+   "text": "- **Fund**: Herbst **1991**, **Ötztaler Alpen**, über 3000 m hoch (Buch: 3210 m). Die **Mumie** im Gletscher ist über 5000 Jahre alt (Buch: rund 5250).\n- **Person**: Mitte 40 (Buch: 46 Jahre), 1,60 m, blaue Augen, über 50 Tätowierungen. Er lebte zwischen **3359 und 3105 v. Chr.**, am Ende der Jungsteinzeit (**Kupfersteinzeit**).\n- **Ausrüstung**: Fellkleidung, Bogen, Steindolch, aber auch ein **Kupferbeil**: „**Wanderer zwischen den Zeiten**“.\n- **Tod**: Pfeilspitze in der linken Schulter, verblutet. Schnittwunde an der rechten Hand (Nahkampf). Wer es war, weiß man nicht.\n- **Woher man das weiß**: Pollen, Mikroskop, Computertomografie. Der Text des Arztes ist eine **Darstellung**.",
+   "merke": "Ötzi: Mumie aus der Kupfersteinzeit, getötet durch einen Pfeil."
+  },
+  {
+   "titel": "Tipps für die Arbeit",
+   "text": "- Lies jede Aufgabe **zweimal** und teile deine Zeit ein.\n- Bei 2 oder 3 Punkten wollen die Lehrer meist 2 oder 3 Gedanken sehen.\n- „Nenne“ = kurz aufzählen. „Erkläre“ und „begründe“ = mit **weil**. „Vergleiche“ = beide Seiten nennen.\n- Bei Jahren immer **v. Chr.** oder **n. Chr.** dazuschreiben.\n- Zur Steinzeit zuerst die Heft-Antwort schreiben (zwei Teile)."
+  },
+  {
+   "titel": "Checkliste für morgen",
+   "text": "**Ich kann:**\n\n- Quellen nennen und Quelle und Darstellung unterscheiden.\n- einen Stammbaum lesen und die Zeichen ∞, ∗ und † erklären.\n- erklären, wozu man die Zeit einteilt, und Jahre und Jahrhunderte berechnen.\n- die fünf Epochen nennen und auf einem Zeitstrahl einzeichnen.\n- Lucy mit Schimpanse und Mensch vergleichen.\n- die Steinzeit unterteilen und die Altsteinzeit beschreiben.\n- die Jungsteinzeit erklären und mit der Altsteinzeit vergleichen.\n- sagen, wer Ötzi war und was man über ihn weiß."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ordne jedes Fundstück der richtigen Quellengruppe aus dem Heft zu.",
+   "info": "Das Heft kennt fünf Gruppen. Zu den Sachquellen zählen auch Bauwerke, zu den Texten auch Inschriften, zu den Bildern auch Malereien.",
+   "paare": [
+    [
+     "Inschrift auf einem Grabstein",
+     "Texte"
+    ],
+    [
+     "Mauerreste einer Burg",
+     "Sachquellen"
+    ],
+    [
+     "Gemälde eines Fürsten",
+     "Bilder"
+    ],
+    [
+     "Filmaufnahme aus dem Jahr 1950",
+     "Tonaufnahmen und Filme"
+    ],
+    [
+     "Mann, der erzählt, wie er als Kind eine Flut erlebt hat",
+     "Zeitzeugen"
+    ]
+   ],
+   "extra": [
+    "Darstellungen"
+   ],
+   "lesen": "Quellen und Darstellungen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ein Museum zeigt ein Steinbeil aus der Jungsteinzeit und daneben ein neues Wandbild, das ein Maler heute nach Funden gemalt hat. Was stimmt?",
+   "info": "Das Beil stammt aus der Zeit selbst. Das Wandbild haben Menschen viel später gemalt, die die Zeit nicht erlebt haben, und zwar mithilfe von Funden.",
+   "antworten": [
+    "Das Beil ist eine Quelle, das Wandbild eine Darstellung.",
+    "Das Beil ist eine Darstellung, das Wandbild eine Quelle.",
+    "Beide sind Quellen, weil sie im Museum stehen.",
+    "Beide sind Darstellungen, weil man sie ansehen kann."
+   ],
+   "richtig": 0,
+   "lesen": "Quellen und Darstellungen"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Blitz-Check",
+   "frage": "Im Stammbaum der Familie Berger steht bei Karl „∗ 1952 † 2019“. Das † zeigt, dass Karl 2019 geheiratet hat.",
+   "info": "Das † heißt gestorben, das ∗ geboren: Karl wurde 1952 geboren und starb 2019. Verheiratet zeigen zwei Ringe (oder ∞).",
+   "richtig": false,
+   "lesen": "Lebenslauf und Stammbaum"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Blitz-Check",
+   "frage": "Eine römische Münze stammt aus dem Jahr 80 v. Chr., eine andere aus dem Jahr 120 n. Chr. Wie viele Jahre liegen zwischen den beiden Münzen? Rechne wie in der Schule (ohne Jahr 0).",
+   "info": "Ein Jahr liegt vor und eins nach Christi Geburt, also zählst du zusammen: 80 + 120 = 200 Jahre.",
+   "richtig": [
+    "200",
+    "200 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": "Zeit messen und Zeitrechnung"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ein Brief wurde im Jahr 1348 n. Chr. geschrieben. In welchem Jahrhundert war das? Schreibe die Zahl.",
+   "info": "Letzte zwei Stellen weg, plus 1: 1348 → 13 + 1 = 14. Jahrhundert.",
+   "richtig": [
+    "14",
+    "14.",
+    "14. Jahrhundert",
+    "das 14. Jahrhundert",
+    "im 14. Jahrhundert",
+    "14. Jahrhundert n. Chr.",
+    "14. Jh.",
+    "14. Jh"
+   ],
+   "lesen": "Zeit messen und Zeitrechnung"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ordne die Epochen von heute aus rückwärts. Die jüngste Epoche steht zuerst.",
+   "info": "Von heute aus rückwärts: Neuzeit (ab 1500 n. Chr.), Mittelalter (500 bis 1500 n. Chr.), Antike (1000 v. Chr. bis 500 n. Chr.), Altertum (3000 bis 1000 v. Chr.), Ur- und Frühgeschichte (bis 3000 v. Chr.).",
+   "schritte": [
+    "Neuzeit",
+    "Mittelalter",
+    "Antike",
+    "Altertum",
+    "Ur- und Frühgeschichte"
+   ],
+   "lesen": "Epochen und Zeitstrahl"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Blitz-Check",
+   "frage": "Der aufrechte Gang begann erst mit Lucy.",
+   "info": "Der aufrechte Gang begann schon vor etwa 4 Millionen Jahren. Lucy lebte später: Sie ist über 3 Millionen Jahre alt (3,18 Millionen laut Buch).",
+   "richtig": false,
+   "lesen": "Lucy und der aufrechte Gang"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ein Tier steht 40 m entfernt. Welche Jagdwaffe der Altsteinzeit reicht noch bis dorthin?",
+   "info": "Pfeil und Bogen reichen 5 bis 50 m. Die Speerschleuder (8 bis 30 m), der Speer (0 bis 15 m) und die Lanze (0 bis 3 m) sind zu kurz.",
+   "antworten": [
+    "Pfeil und Bogen",
+    "Speerschleuder",
+    "Speer",
+    "Lanze"
+   ],
+   "richtig": 0,
+   "lesen": "Steinzeit und Altsteinzeit"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ergänze den Text über die Steinzeit.",
+   "text": "Nach dem Heft hat die Steinzeit {{zwei}} Teile: Altsteinzeit und Jungsteinzeit. Das Buch nennt zusätzlich die {{Mittelsteinzeit}}. Um {{9000}} v. Chr. begannen Menschen, {{sesshaft}} zu werden. Diesen Wandel nennt man neolithische {{Revolution}}.",
+   "info": "Das Heft zählt zwei Teile, das Buch drei. Um 9000 v. Chr. begann die Jungsteinzeit: Die Menschen wurden sesshaft, ein grundlegender Wandel.",
+   "wortbank": [
+    "zwei",
+    "Mittelsteinzeit",
+    "9000",
+    "sesshaft",
+    "Revolution",
+    "drei",
+    "3000",
+    "Eiszeit"
+   ],
+   "lesen": [
+    "Steinzeit und Altsteinzeit",
+    "Jungsteinzeit und die Unterschiede"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ordne jedes Stichwort dem richtigen Abschnitt der Steinzeit zu.",
+   "info": "Würm-Eiszeit und kleine Gruppen von Nomaden gehören zur Altsteinzeit. Webstuhl, Hungersnöte und Streit um Besitz gehören zu den sesshaften Bauern der Jungsteinzeit.",
+   "paare": [
+    [
+     "Leben in der Würm-Eiszeit",
+     "Altsteinzeit"
+    ],
+    [
+     "Gruppen von etwa 25 bis 30 Personen",
+     "Altsteinzeit"
+    ],
+    [
+     "Webstuhl",
+     "Jungsteinzeit"
+    ],
+    [
+     "Hungersnöte bei Ernteausfall",
+     "Jungsteinzeit"
+    ],
+    [
+     "Neid und Streit um Besitz",
+     "Jungsteinzeit"
+    ]
+   ],
+   "lesen": [
+    "Steinzeit und Altsteinzeit",
+    "Jungsteinzeit und die Unterschiede"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Ötzi lebte zwischen 3359 und 3105 v. Chr. Wann war das nach den Jahreszahlen im Heft?",
+   "info": "Die Jungsteinzeit dauerte nach dem Heft von 9000 bis 3000 v. Chr. Ötzis Zeit liegt kurz davor, das Altertum begann erst danach.",
+   "antworten": [
+    "Am Ende der Jungsteinzeit.",
+    "Am Anfang der Jungsteinzeit.",
+    "Am Ende der Altsteinzeit.",
+    "Im Altertum, schon nach der Steinzeit."
+   ],
+   "richtig": 0,
+   "lesen": [
+    "Ötzi, der Mann aus dem Eis",
+    "Steinzeit und Altsteinzeit"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "Blitz-Check": [
+   "Quellen und Darstellungen",
+   "Lebenslauf und Stammbaum",
+   "Zeit messen und Zeitrechnung",
+   "Epochen und Zeitstrahl",
+   "Lucy und der aufrechte Gang",
+   "Steinzeit und Altsteinzeit",
+   "Jungsteinzeit und die Unterschiede",
+   "Ötzi, der Mann aus dem Eis"
+  ]
+ },
+ "probe": false
+}

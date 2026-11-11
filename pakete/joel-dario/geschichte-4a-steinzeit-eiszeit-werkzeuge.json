@@ -1,0 +1,953 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-4a-steinzeit-eiszeit-werkzeuge",
+ "titel": "Geschichte Teil 4a: Steinzeit, Eiszeit und Werkzeuge",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Woher die Steinzeit ihren Namen hat, wie man sie einteilt und einordnet, wie die Eiszeit war, welche Werkzeuge es gab und was wir aus Funden wissen. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Im Heft hat die Steinzeit zwei Teile, im Buch drei (mit der Mittelsteinzeit). In den Aufgaben zählen beide Einteilungen als richtig. Die Jahreszahlen sind Näherungswerte und hängen vom Ort ab.",
+ "lernblatt": [
+  {
+   "titel": "Woher der Name Steinzeit kommt",
+   "text": "Die frühen Menschen stellten ihre Werkzeuge zuerst aus **Stein** her. Stein hält sehr lange, deshalb war er das erste **dauerhafte Material** für Werkzeuge.\nNeben Stein war auch **Holz** wichtig. Das blieb so, bis die Menschen gelernt hatten, **Metalle** zu verarbeiten.\nNach dem Material der Werkzeuge nennt man diese lange Zeit die **Steinzeit**.",
+   "merke": "Die Steinzeit heißt so, weil die Menschen ihre Werkzeuge aus Stein machten. Holz und Stein waren die wichtigsten Materialien, bis man Metalle verarbeiten konnte."
+  },
+  {
+   "titel": "Die Steinzeit in Teile gliedern",
+   "text": "Die Steinzeit war sehr lang. In dieser Zeit lernten die Menschen immer besser, Stein zu bearbeiten. Deshalb teilt man sie in Abschnitte ein.\nDein Lehrer teilt die Steinzeit in **zwei Teile** ein. Das ist die Antwort für die Arbeit:\n\n- **Altsteinzeit**: bis etwa 9000 v. Chr.\n- **Jungsteinzeit**: etwa 9000 bis 3000 v. Chr.\n\nDein Schulbuch nennt zusätzlich einen dritten Teil, die **Mittelsteinzeit**. Sie gehört zur Zeit nach der Eiszeit: In Mitteleuropa lebten die Menschen damals noch rund 3000 Jahre als Jäger und Sammler im Wald. Der Ackerbau kam dort erst ab etwa 5700 v. Chr. an.\nDie Jahreszahlen sind nur Näherungswerte, und sie hängen vom Ort ab: Um 9000 v. Chr. begannen im Nahen Osten die ersten Menschen, sesshaft zu werden. In Mitteleuropa lebte man noch lange als Jäger und Sammler. Deshalb ist die Mittelsteinzeit eine Ergänzung und kein Widerspruch.\nFür die Teile gibt es Fachwörter: **Paläolithikum** heißt Altsteinzeit, **Mesolithikum** heißt Mittelsteinzeit und **Neolithikum** heißt Jungsteinzeit.",
+   "merke": "Laut Heft hat die Steinzeit zwei Teile: Altsteinzeit (bis ca. 9000 v. Chr.) und Jungsteinzeit (ca. 9000 bis 3000 v. Chr.). Das Buch nennt zusätzlich die Mittelsteinzeit. Die Jahreszahlen sind Näherungswerte und hängen vom Ort ab."
+  },
+  {
+   "titel": "Die Steinzeit auf dem Zeitstrahl",
+   "text": "Die Geschichte teilt man in fünf große Zeitabschnitte ein, die **Epochen**. Die erste heißt **Ur- und Frühgeschichte** und reicht bis 3000 v. Chr. Die ganze Steinzeit liegt in dieser Epoche. Danach folgen Altertum, Antike, Mittelalter und Neuzeit.\nZeitspannen rechnest du so aus:\n\n- Die Jungsteinzeit dauerte nach dem Heft von 9000 bis 3000 v. Chr. Bei Jahren vor Christi Geburt rechnest du rückwärts, also 9000 − 3000 = 6000 Jahre.\n- Vom Ende der Steinzeit (3000 v. Chr.) bis zum Jahr 2026 zählst du die Jahre vor und nach Christi Geburt zusammen: 3000 + 2026 = 5026 Jahre.",
+   "merke": "Die Steinzeit gehört zur Epoche Ur- und Frühgeschichte (bis 3000 v. Chr.). Über Christi Geburt hinweg zählst du die Jahre zusammen.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/><line x1=\"110.0\" y1=\"84\" x2=\"110.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"110.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3000 v. Chr.</text><line x1=\"358.0\" y1=\"84\" x2=\"358.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"358.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1000 v. Chr.</text><line x1=\"482.0\" y1=\"84\" x2=\"482.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"482.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"544.0\" y1=\"62\" x2=\"544.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"544.0\" y=\"56\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">500 n. Chr.</text><line x1=\"668.0\" y1=\"84\" x2=\"668.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"668.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1500</text><text x=\"8\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"start\">Ur- und Frühgeschichte</text><text x=\"8\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"start\">bis 3000 v. Chr.</text><text x=\"234.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Altertum</text><text x=\"234.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">3000–1000 v. Chr.</text><text x=\"451.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Antike</text><text x=\"451.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">1000 v. Chr.–500 n. Chr.</text><text x=\"606.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mittelalter</text><text x=\"606.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">500–1500 n. Chr.</text><text x=\"699.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Neuzeit</text><text x=\"699.0\" y=\"204\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">ab 1500 n. Chr.</text></svg>",
+   "bildAlt": "Zeitstrahl mit den fünf Epochen: Ur- und Frühgeschichte bis 3000 v. Chr., Altertum 3000 bis 1000 v. Chr., Antike 1000 v. Chr. bis 500 n. Chr., Mittelalter 500 bis 1500 n. Chr., Neuzeit ab 1500 n. Chr."
+  },
+  {
+   "titel": "Die Eiszeit: Klima und Landschaft",
+   "text": "In der Altsteinzeit wechselten kalte und warme Zeiten mehrmals. Die letzte Kaltzeit heißt **Würm-Eiszeit** und dauerte etwa 100 000 Jahre. Sie war nicht immer gleich kalt: Kurze, etwas wärmere Phasen wechselten mit sehr kalten.\nIn Europa lebten in dieser Zeit **Neandertaler** (eine andere Menschenart) und **moderne Menschen** zur selben Zeit.\nDas passierte in der Eiszeit:\n\n- Die Temperaturen sanken weltweit stark.\n- **Gletscher** (riesige Eismassen) dehnten sich weit aus. Zur größten Ausdehnung war sogar die Gegend um Berlin von Eis bedeckt.\n- Viel Wasser war im Eis gebunden. Deshalb sank der **Meeresspiegel**.\n- Es gab nur wenig Niederschlag. Kälte und Trockenheit ließen in Mitteleuropa keine Wälder wachsen. Stattdessen gab es eine weite, offene **Steppe** mit Gräsern, Kräutern und niedrigen Büschen.",
+   "merke": "Würm-Eiszeit: letzte Kaltzeit, etwa 100 000 Jahre. Gletscher wuchsen, der Meeresspiegel sank, in Mitteleuropa gab es Steppe statt Wald. Neandertaler und moderne Menschen lebten zugleich in Europa."
+  },
+  {
+   "titel": "Tiere der Eiszeit",
+   "text": "Die Steppe bot Futter für riesige Herden. Dazu kamen Raubtiere, die Herden und Menschen gefährlich werden konnten.\n\n- **Große Pflanzenfresser**: Mammut, Wollnashorn, Steppenbison und Höhlenbär. Dazu riesige Herden von Rentieren und Wildpferden.\n- **Raubtiere**: Höhlenlöwe, Wolf und Höhlenhyäne.\n\nDas Buch nennt die großen Tiere dieser Zeit die „Giganten der Eiszeit“.",
+   "merke": "Pflanzenfresser: Mammut, Wollnashorn, Steppenbison, Höhlenbär, Rentier, Wildpferd. Raubtiere: Höhlenlöwe, Wolf, Höhlenhyäne."
+  },
+  {
+   "titel": "Werkzeuge und Geräte der Altsteinzeit",
+   "text": "Schon vor etwa **2 Mio. Jahren** stellten Menschen einfache Werkzeuge aus Stein her. Ein Beispiel ist der **Faustkeil** aus einem Geröllstein. Damit kam man an Fleisch und Knochenmark.\nDie Neandertaler machten aus Stein Faustkeile, **Schaber**, **Klingen**, Spitzen und Messer. Ein wichtiges Material war der **Feuerstein**.\nSpäter kamen **Knochen, Geweih und Elfenbein** dazu. Daraus machte man Werkzeuge, Messer, **Harpunen** (Spitzen zum Fischfang), Speere und Speerschleudern.\nWichtige Zeitangaben:\n\n- vor etwa 2 Mio. Jahren: einfache Steinwerkzeuge\n- vor etwa 40 000 Jahren: Musikinstrumente\n- vor etwa 24 000 Jahren: Nähnadeln aus Knochen\n\nZusatz: Mit einem Schaber bearbeitete man zum Beispiel Felle. Eine Klinge ist ein langes, schmales Steinstück mit scharfer Kante.",
+   "merke": "Werkzeuge aus Feuerstein, Knochen, Geweih und Elfenbein. Steinwerkzeuge gibt es seit etwa 2 Mio. Jahren, Musikinstrumente seit etwa 40 000 und Nähnadeln seit etwa 24 000 Jahren.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 262\" width=\"760\" height=\"262\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"262\" fill=\"#ffffff\"/><path d=\"M 76 24 C 124 60 130 128 100 166 C 88 180 64 180 52 166 C 22 128 28 60 76 24 Z\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polyline points=\"50,84 76,94\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"76,94 100,80\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"54,124 82,132\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"82,132 104,120\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"68,60 84,68\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"76\" y=\"240\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Faustkeil</text><polygon points=\"214,180 212,58 228,26 244,58 242,180\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"228\" y1=\"38\" x2=\"228\" y2=\"174\" stroke=\"#8d7d5c\" stroke-width=\"2.2\"/><text x=\"228\" y=\"240\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Klinge</text><path d=\"M 326 152 C 318 94 356 48 406 58 C 438 68 442 120 430 152 Z\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M 334 104 C 340 68 368 58 404 66 C 426 74 430 104 424 124\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.4\" stroke-dasharray=\"5 4\"/><text x=\"380\" y=\"240\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Schaber</text><polygon points=\"526,46 532,20 538,46\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"526\" y=\"44\" width=\"12\" height=\"140\" rx=\"3\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\"/><polygon points=\"538,58 560,82 538,78\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"538,86 560,110 538,106\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"538,114 560,138 538,134\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"538,142 560,166 538,162\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><text x=\"532\" y=\"240\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Harpune</text><polygon points=\"680.5,58 687.5,58 685,190 683,190\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><ellipse cx=\"684\" cy=\"54\" rx=\"8\" ry=\"18\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\"/><ellipse cx=\"684\" cy=\"52\" rx=\"2.8\" ry=\"9\" fill=\"#ffffff\" stroke=\"#4f4126\" stroke-width=\"2\"/><text x=\"684\" y=\"240\" font-size=\"16\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Nähnadel</text></svg>",
+   "bildAlt": "Fünf vereinfacht gezeichnete Werkzeuge der Altsteinzeit: Faustkeil, Klinge, Schaber, Harpune mit Widerhaken und Nähnadel mit Öhr."
+  },
+  {
+   "titel": "Werkzeuge herstellen und benutzen",
+   "text": "Stein kann man nicht schnitzen wie Holz. Man bearbeitete ihn mit einem **Schlagstein** oder mit einem Geweih. Wenn man Stücke abschlägt, entsteht ein Werkzeug mit scharfer Kante.\nBenutzt wurden solche Werkzeuge zum Beispiel, um Fleisch zu zerschneiden.\nSo kann man sich die Herstellung vorstellen:\n\n- Man sucht einen passenden Stein, zum Beispiel Feuerstein.\n- Man schlägt mit dem Schlagstein Stücke ab.\n- Man arbeitet die Kanten nach, bis sie scharf sind.\n- Dann benutzt man das Werkzeug.\n\nZusatz: Die einzelnen Schritte sind Allgemeinwissen. Im Buch steht nur, dass man Stein mit Schlagstein oder Geweih bearbeitet und die Werkzeuge zum Beispiel zum Zerschneiden von Fleisch benutzt.",
+   "merke": "Stein wird mit Schlagstein oder Geweih bearbeitet. So entstehen Werkzeuge mit scharfen Kanten, zum Beispiel zum Zerschneiden von Fleisch."
+  },
+  {
+   "titel": "Quellen der Steinzeit",
+   "text": "Aus der Altsteinzeit gibt es keine Texte. Die Menschen konnten damals noch nicht schreiben (Zusatz). Trotzdem wissen wir viel, denn sie haben **Spuren** hinterlassen. Solche Hinterlassenschaften nennt man **Quellen**.\nWichtige Quellen der Steinzeit:\n\n- **Sachquellen** (das Buch sagt: gegenständliche Quellen): Knochen, Faustkeile, Harpunen, Nähnadeln, Schmuck.\n- **Bilder**: zum Beispiel Höhlenzeichnungen.\n\n**Zeitzeugen** sind Menschen, die eine Zeit selbst erlebt haben und davon erzählen können. Sie sind eine weitere Art von Quellen. Aus der Altsteinzeit lebt aber niemand mehr, deshalb gibt es von dort keine Zeitzeugen.\nEine **Rekonstruktionszeichnung** zeigt, wie sich ein Zeichner das Leben von damals vorstellt. Er hat sie viel später gemacht, mithilfe der Funde. Sie ist deshalb eine **Darstellung** und keine Quelle. Die Funde, auf denen sie beruht, sind die Quellen.",
+   "merke": "Funde sind Quellen. Eine Rekonstruktionszeichnung ist eine Darstellung, denn sie wurde später von Menschen gemacht, die die Zeit nicht erlebt haben."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Warum heißt die Steinzeit „Steinzeit“?",
+   "info": "Stein war das erste dauerhafte Material für Werkzeuge. Nach diesem Material hat die Zeit ihren Namen.",
+   "antworten": [
+    "Die Menschen machten ihre Werkzeuge aus Stein.",
+    "Die Menschen bauten ihre Häuser aus Stein.",
+    "Die Menschen wohnten fast nur in Höhlen aus Stein.",
+    "Die Menschen schützten sich mit Mauern aus Stein."
+   ],
+   "richtig": 0,
+   "lesen": "Woher der Name Steinzeit kommt"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Ergänze den Text über den Namen.",
+   "text": "Die {{Steinzeit}} heißt so, weil die Menschen ihre Werkzeuge aus {{Stein}} herstellten. Neben Stein war lange auch {{Holz}} wichtig, bis die Menschen lernten, {{Metalle}} zu verarbeiten.",
+   "info": "Holz und Stein waren die wichtigsten Materialien, bis man Metalle verarbeiten konnte.",
+   "wortbank": [
+    "Steinzeit",
+    "Stein",
+    "Holz",
+    "Metalle",
+    "Glas",
+    "Wolle"
+   ],
+   "lesen": "Woher der Name Steinzeit kommt"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Das Wort „Steinzeit“ bedeutet, dass die Menschen damals nur Stein und kein Holz benutzten.",
+   "info": "Holz und Stein waren die wichtigsten Materialien. Stein war das erste dauerhafte Material für Werkzeuge.",
+   "richtig": false,
+   "lesen": "Woher der Name Steinzeit kommt"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Nach deinem Heft hat die Steinzeit zwei Teile: die Altsteinzeit und die Jungsteinzeit.",
+   "info": "Im Heft stehen zwei Teile. Das Buch nennt zusätzlich die Mittelsteinzeit, das ist eine Ergänzung und kein Widerspruch.",
+   "richtig": true,
+   "lesen": "Die Steinzeit in Teile gliedern"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Man kann die Steinzeit in Teile gliedern. Wähle alle richtigen Einteilungen.",
+   "info": "Im Heft stehen zwei Teile, im Buch drei Teile mit der Mittelsteinzeit. Beides ist richtig.",
+   "antworten": [
+    "Zwei Teile: Altsteinzeit und Jungsteinzeit",
+    "Drei Teile: Altsteinzeit, Mittelsteinzeit und Jungsteinzeit",
+    "Zwei Teile: Frühsteinzeit und Spätsteinzeit",
+    "Drei Teile: Altsteinzeit, Eisenzeit und Jungsteinzeit"
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "lesen": "Die Steinzeit in Teile gliedern"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Ordne jedem Fachwort seine Bedeutung zu.",
+   "info": "Die drei langen Wörter sind die Fachwörter für die Teile der Steinzeit. Eine Epoche ist ein großer Zeitabschnitt, zum Beispiel die Ur- und Frühgeschichte. Zusatz: Die Fachwörter kommen aus dem Griechischen, „lithos“ heißt Stein.",
+   "paare": [
+    [
+     "Paläolithikum",
+     "Altsteinzeit"
+    ],
+    [
+     "Mesolithikum",
+     "Mittelsteinzeit"
+    ],
+    [
+     "Neolithikum",
+     "Jungsteinzeit"
+    ],
+    [
+     "Epoche",
+     "großer Zeitabschnitt der Geschichte"
+    ]
+   ],
+   "extra": [
+    "Bronzezeit",
+    "Eisenzeit"
+   ],
+   "lesen": [
+    "Die Steinzeit in Teile gliedern",
+    "Die Steinzeit auf dem Zeitstrahl"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Wie heißt der älteste Teil der Steinzeit, der bis etwa 9000 v. Chr. dauerte?",
+   "info": "Die Altsteinzeit reicht bis etwa 9000 v. Chr. Danach beginnt nach dem Heft die Jungsteinzeit.",
+   "richtig": [
+    "Altsteinzeit",
+    "die Altsteinzeit",
+    "Paläolithikum"
+   ],
+   "lesen": "Die Steinzeit in Teile gliedern"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Wie heißt nach deinem Heft der Teil der Steinzeit von etwa 9000 bis etwa 3000 v. Chr.?",
+   "info": "Die Jungsteinzeit dauerte nach dem Heft von etwa 9000 bis etwa 3000 v. Chr.",
+   "richtig": [
+    "Jungsteinzeit",
+    "die Jungsteinzeit",
+    "Neolithikum"
+   ],
+   "lesen": "Die Steinzeit in Teile gliedern"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Warum teilt man die Steinzeit in mehrere Abschnitte ein?",
+   "info": "Das Buch sagt: Die Kunst der Steinbearbeitung wurde stetig weiterentwickelt und verbessert. Deshalb gliedert man die Steinzeit.",
+   "antworten": [
+    "Die Menschen entwickelten die Bearbeitung von Stein immer weiter.",
+    "In jedem Abschnitt wurde ein anderes Metall benutzt.",
+    "In jedem Abschnitt bauten die Menschen größere Städte.",
+    "Die Menschen zogen in jedem Abschnitt in ein anderes Land."
+   ],
+   "richtig": 0,
+   "lesen": "Die Steinzeit in Teile gliedern"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Name und Gliederung der Steinzeit",
+   "frage": "Wer in der Arbeit zusätzlich die Mittelsteinzeit nennt, hat etwas Falsches geschrieben.",
+   "tipp": "Denke an den Unterschied zwischen Heft und Buch.",
+   "info": "Das Buch teilt in drei Teile ein, deshalb ist die Mittelsteinzeit nicht falsch. Sicher wissen musst du die zwei Teile aus dem Heft.",
+   "richtig": false,
+   "lesen": "Die Steinzeit in Teile gliedern"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Auf dem Zeitstrahl sind die fünf Epochen nummeriert. Welche Nummer trägt die Epoche, zu der die Steinzeit gehört?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"65.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"65.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"234.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"234.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"451.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"451.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"606.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"606.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"699.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"699.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/><line x1=\"110.0\" y1=\"84\" x2=\"110.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"110.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3000 v. Chr.</text><line x1=\"358.0\" y1=\"84\" x2=\"358.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"358.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1000 v. Chr.</text><line x1=\"482.0\" y1=\"84\" x2=\"482.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"482.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"544.0\" y1=\"62\" x2=\"544.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"544.0\" y=\"56\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">500 n. Chr.</text><line x1=\"668.0\" y1=\"84\" x2=\"668.0\" y2=\"142\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"668.0\" y=\"78\" font-size=\"14\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1500</text></svg>",
+   "bildAlt": "Zeitstrahl mit fünf nummerierten Epochen von der ersten bis zur Neuzeit, Jahreszahlen 3000 v. Chr., 1000 v. Chr., Christi Geburt, 500 und 1500.",
+   "tipp": "Zähle die Epochen von links nach rechts. Die Steinzeit ist sehr alt.",
+   "info": "Die Steinzeit gehört zur Ur- und Frühgeschichte, der ersten Epoche. Sie reicht bis 3000 v. Chr.",
+   "antworten": [
+    "Nummer 1",
+    "Nummer 2",
+    "Nummer 3",
+    "Nummer 4"
+   ],
+   "richtig": 0,
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Zu welcher Epoche der Geschichte gehört die Steinzeit?",
+   "info": "Die erste Epoche heißt Ur- und Frühgeschichte und reicht bis 3000 v. Chr.",
+   "richtig": [
+    "Ur- und Frühgeschichte",
+    "Ur und Frühgeschichte",
+    "Ur-und Frühgeschichte",
+    "Ur- u. Frühgeschichte",
+    "die Ur- und Frühgeschichte"
+   ],
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Die Jungsteinzeit dauerte nach dem Heft von 9000 bis 3000 v. Chr. Wie viele Jahre waren das?",
+   "tipp": "Beide Jahre liegen vor Christi Geburt. Ziehe die kleinere Zahl von der größeren ab.",
+   "info": "Bei Jahren vor Christi Geburt rechnest du rückwärts: 9000 − 3000 = 6000.",
+   "richtig": [
+    "6000",
+    "6.000",
+    "6 000",
+    "6000 Jahre",
+    "6.000 Jahre",
+    "6 000 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Die Steinzeit endete etwa 3000 v. Chr. Wie lange ist das bis 2026 ungefähr her?",
+   "tipp": "Der Weg geht über Christi Geburt hinweg.",
+   "info": "Du zählst die Jahre vor und nach Christi Geburt zusammen: 3000 + 2026 = 5026 Jahre, also gut 5000.",
+   "antworten": [
+    "gut 5000 Jahre",
+    "etwa 1000 Jahre",
+    "etwa 3000 Jahre",
+    "etwa 9000 Jahre"
+   ],
+   "richtig": 0,
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Ordne jedem Abschnitt seinen Zeitraum zu. Die Jahre stehen so im Heft und sind gerundet.",
+   "info": "Nach dem Heft endet die Altsteinzeit um 9000 v. Chr. und die Jungsteinzeit um 3000 v. Chr. Dort endet auch die Ur- und Frühgeschichte, dann beginnt das Altertum.",
+   "paare": [
+    [
+     "Altsteinzeit",
+     "bis 9000 v. Chr."
+    ],
+    [
+     "Jungsteinzeit",
+     "9000 bis 3000 v. Chr."
+    ],
+    [
+     "Ur- und Frühgeschichte (Epoche)",
+     "bis 3000 v. Chr."
+    ],
+    [
+     "Altertum (Epoche)",
+     "3000 bis 1000 v. Chr."
+    ]
+   ],
+   "extra": [
+    "500 bis 1500 n. Chr."
+   ],
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Welche Epoche folgt direkt auf die Ur- und Frühgeschichte?",
+   "info": "Die Reihenfolge der Epochen: Ur- und Frühgeschichte, Altertum, Antike, Mittelalter, Neuzeit.",
+   "richtig": [
+    "Altertum",
+    "das Altertum"
+   ],
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Ordne vom ältesten zum jüngsten Abschnitt.",
+   "info": "Alt- und Jungsteinzeit gehören zur Ur- und Frühgeschichte (bis 3000 v. Chr.). Danach folgen das Altertum und später das Mittelalter (ab 500 n. Chr.).",
+   "schritte": [
+    "Altsteinzeit",
+    "Jungsteinzeit",
+    "Altertum",
+    "Mittelalter"
+   ],
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Ergänze den Text über die Zeit.",
+   "text": "Die Steinzeit liegt in der Epoche {{Ur- und Frühgeschichte}}. Sie endet etwa {{3000}} v. Chr. Dann beginnt das {{Altertum}}. Nach dem Heft dauerte die Jungsteinzeit {{6000}} Jahre.",
+   "info": "Die Ur- und Frühgeschichte reicht bis 3000 v. Chr., danach beginnt das Altertum.",
+   "wortbank": [
+    "Ur- und Frühgeschichte",
+    "3000",
+    "Altertum",
+    "6000",
+    "Antike",
+    "1000"
+   ],
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Die Steinzeit in der Zeit",
+   "frage": "Das Jahr 7000 v. Chr. liegt in der Epoche Altertum.",
+   "tipp": "Je größer die Zahl bei v. Chr., desto länger ist es her.",
+   "info": "Das Altertum beginnt erst 3000 v. Chr. 7000 v. Chr. ist älter und gehört zur Ur- und Frühgeschichte.",
+   "richtig": false,
+   "lesen": "Die Steinzeit auf dem Zeitstrahl"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Wie heißt die letzte Kaltphase der Eiszeit?",
+   "info": "Die Würm-Eiszeit war die letzte Kaltphase und dauerte etwa 100 000 Jahre.",
+   "richtig": [
+    "Würm-Eiszeit",
+    "Würm Eiszeit",
+    "Würmeiszeit",
+    "die Würm-Eiszeit",
+    "Würm"
+   ],
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Wie viele Jahre dauerte die Würm-Eiszeit ungefähr?",
+   "info": "Die Würm-Eiszeit dauerte etwa 100 000 Jahre. Zum Vergleich: Die Jungsteinzeit dauerte nach dem Heft nur 6000 Jahre.",
+   "richtig": [
+    "100000",
+    "100.000",
+    "100 000",
+    "100000 Jahre",
+    "100.000 Jahre",
+    "100 000 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Was passierte in der Würm-Eiszeit? Wähle alle richtigen Antworten.",
+   "info": "Viel Wasser war im Eis gebunden, deshalb sank der Meeresspiegel. Wälder gab es wegen Kälte und Trockenheit nicht, Mischwälder kamen erst nach der Eiszeit.",
+   "antworten": [
+    "Gletscher dehnten sich weit aus.",
+    "Der Meeresspiegel sank.",
+    "Es fiel nur wenig Niederschlag.",
+    "In Mitteleuropa wuchsen dichte Mischwälder.",
+    "Der Meeresspiegel stieg stark an."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Warum sank der Meeresspiegel in der Eiszeit?",
+   "tipp": "Wohin ging das Wasser, wenn es kalt war?",
+   "info": "Die Gletscher dehnten sich aus und hielten riesige Wassermengen als Eis fest. Darum fehlte Wasser in den Meeren.",
+   "antworten": [
+    "Viel Wasser war als Eis in den Gletschern gebunden.",
+    "Das Wasser der Meere verdunstete in der Kälte.",
+    "Das Wasser versickerte im Boden von Mitteleuropa.",
+    "Die Sonne trocknete die Meere aus."
+   ],
+   "richtig": 0,
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Welche Landschaft gab es in der Eiszeit in Mitteleuropa?",
+   "info": "Kälte und Trockenheit verhinderten Wälder. Es wuchsen Gräser, Kräuter und niedrige Büsche.",
+   "antworten": [
+    "eine weite, offene Steppe",
+    "dichten Mischwald",
+    "eine heiße Wüste",
+    "einen tropischen Regenwald"
+   ],
+   "richtig": 0,
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Pflanzenfresser oder Raubtier? Ordne die Tiere der Eiszeit zu.",
+   "info": "Mammut, Wollnashorn und Steppenbison fraßen Pflanzen. Höhlenlöwe, Wolf und Höhlenhyäne waren Raubtiere und gefährlich für Herden und Menschen.",
+   "paare": [
+    [
+     "Mammut",
+     "Pflanzenfresser"
+    ],
+    [
+     "Höhlenlöwe",
+     "Raubtier"
+    ],
+    [
+     "Wollnashorn",
+     "Pflanzenfresser"
+    ],
+    [
+     "Wolf",
+     "Raubtier"
+    ],
+    [
+     "Steppenbison",
+     "Pflanzenfresser"
+    ],
+    [
+     "Höhlenhyäne",
+     "Raubtier"
+    ]
+   ],
+   "lesen": "Tiere der Eiszeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Welche Tiere zogen in riesigen Herden durch die Steppe? Wähle alle richtigen Antworten.",
+   "info": "Riesige Herden von Rentieren und Wildpferden lebten in der Eiszeit-Steppe. Höhlenlöwen und Höhlenhyänen waren Raubtiere.",
+   "antworten": [
+    "Rentiere",
+    "Wildpferde",
+    "Höhlenlöwen",
+    "Höhlenhyänen"
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "lesen": "Tiere der Eiszeit"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Während der gesamten Altsteinzeit blieb es ununterbrochen gleich kalt.",
+   "info": "Warme und kalte Perioden wechselten sich mehrmals ab. Auch in der Würm-Eiszeit gab es kurze, etwas wärmere Phasen.",
+   "richtig": false,
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Welche Aussage über die Menschen in der Würm-Eiszeit stimmt?",
+   "info": "Neandertaler und moderne Menschen lebten in Europa zugleich. Das steht im Buch bei der Würm-Eiszeit.",
+   "antworten": [
+    "Neandertaler und moderne Menschen lebten zugleich in Europa.",
+    "Nur Neandertaler lebten damals in Europa.",
+    "Nur moderne Menschen lebten damals in Europa.",
+    "Damals lebte in Europa niemand, weil es zu kalt war."
+   ],
+   "richtig": 0,
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Eiszeit, Klima und Tiere",
+   "frage": "Ergänze den Text über die Eiszeit.",
+   "text": "In der Eiszeit dehnten sich die {{Gletscher}} weit aus. Viel Wasser war im Eis gebunden, deshalb sank der {{Meeresspiegel}}. Weil es kalt und trocken war, gab es keine Wälder, sondern weite {{Steppe|Steppen|Steppenlandschaft}}. Die Würm-Eiszeit dauerte etwa {{100 000|100000|100.000}} Jahre.",
+   "info": "Gletscher, sinkender Meeresspiegel und Steppe gehören zum Klima der Würm-Eiszeit.",
+   "wortbank": [
+    "Gletscher",
+    "Meeresspiegel",
+    "Steppe",
+    "100 000",
+    "Wälder",
+    "Wüsten"
+   ],
+   "lesen": "Die Eiszeit: Klima und Landschaft"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Aus welchem Material waren die Geräte der Altsteinzeit gemacht?",
+   "info": "Faustkeile, Schaber und Klingen schlug man aus Stein. Harpunen machte man aus Knochen oder Geweih. Nähnadeln zeigt das Buch aus Knochen, und das passt ebenfalls zu „Knochen oder Geweih“.",
+   "paare": [
+    [
+     "Faustkeil",
+     "Stein"
+    ],
+    [
+     "Schaber",
+     "Stein"
+    ],
+    [
+     "Klinge",
+     "Stein"
+    ],
+    [
+     "Harpune",
+     "Knochen oder Geweih"
+    ],
+    [
+     "Nähnadel",
+     "Knochen oder Geweih"
+    ]
+   ],
+   "extra": [
+    "Kupfer"
+   ],
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Aus welchen Materialien stellten die Menschen der Altsteinzeit Werkzeuge her? Wähle alle richtigen Antworten.",
+   "info": "Neben Feuerstein nutzte man Knochen, Geweih und Elfenbein. Metalle konnten die Menschen damals noch nicht verarbeiten.",
+   "antworten": [
+    "Feuerstein",
+    "Knochen",
+    "Geweih",
+    "Elfenbein",
+    "Bronze",
+    "Eisen"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Welcher Stein war ein wichtiges Material für Werkzeuge? Sein Name enthält das Wort „Feuer“.",
+   "info": "Aus Feuerstein schlug man Faustkeile, Klingen und Spitzen. Zusatz: Feuerstein heißt auch Flint.",
+   "richtig": [
+    "Feuerstein",
+    "der Feuerstein",
+    "Flint"
+   ],
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Wozu benutzte man einen einfachen Faustkeil aus Geröll vor etwa 2 Millionen Jahren?",
+   "info": "Mit dem Faustkeil kam man an Fleisch und Knochenmark. Nähnadeln zum Nähen von Fellen gab es erst vor etwa 24 000 Jahren.",
+   "antworten": [
+    "Um an Fleisch und Knochenmark zu kommen.",
+    "Um Felle zusammenzunähen.",
+    "Um Getreide zu mahlen.",
+    "Um Tiere aus der Ferne zu erlegen."
+   ],
+   "richtig": 0,
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Schon die Neandertaler stellten Faustkeile, Schaber und Klingen aus Stein her.",
+   "info": "Das steht im Buch: Neandertaler machten Faustkeile, Schaber, Klingen, Spitzen und Messer aus Stein.",
+   "richtig": true,
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Welches Werkzeug zeigt der Buchstabe E?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 262\" width=\"760\" height=\"262\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"262\" fill=\"#ffffff\"/><polygon points=\"70,46 76,20 82,46\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"44\" width=\"12\" height=\"140\" rx=\"3\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\"/><polygon points=\"82,58 104,82 82,78\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"82,86 104,110 82,106\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"82,114 104,138 82,134\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"82,142 104,166 82,162\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><text x=\"76\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">A</text><path d=\"M 228 24 C 276 60 282 128 252 166 C 240 180 216 180 204 166 C 174 128 180 60 228 24 Z\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polyline points=\"202,84 228,94\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"228,94 252,80\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"206,124 234,132\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"234,132 256,120\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"220,60 236,68\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"228\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">B</text><polygon points=\"376.5,58 383.5,58 381,190 379,190\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><ellipse cx=\"380\" cy=\"54\" rx=\"8\" ry=\"18\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\"/><ellipse cx=\"380\" cy=\"52\" rx=\"2.8\" ry=\"9\" fill=\"#ffffff\" stroke=\"#4f4126\" stroke-width=\"2\"/><text x=\"380\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">C</text><polygon points=\"518,180 516,58 532,26 548,58 546,180\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"532\" y1=\"38\" x2=\"532\" y2=\"174\" stroke=\"#8d7d5c\" stroke-width=\"2.2\"/><text x=\"532\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">D</text><path d=\"M 630 152 C 622 94 660 48 710 58 C 742 68 746 120 734 152 Z\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M 638 104 C 644 68 672 58 708 66 C 730 74 734 104 728 124\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.4\" stroke-dasharray=\"5 4\"/><text x=\"684\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">E</text></svg>",
+   "bildAlt": "Fünf Werkzeuge der Altsteinzeit mit den Buchstaben A bis E: A Harpune mit Widerhaken, B Faustkeil, C Nähnadel mit Öhr, D Klinge, E Schaber.",
+   "tipp": "Vergleiche die Zeichnungen mit dem Bild im Lernblatt.",
+   "info": "Der Faustkeil ist mandelförmig, die Klinge lang und schmal, der Schaber flach mit einer runden Arbeitskante. Die Harpune hat Widerhaken.",
+   "antworten": [
+    "Schaber",
+    "Faustkeil",
+    "Klinge",
+    "Harpune"
+   ],
+   "richtig": 0,
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Ordne vom ältesten zum jüngsten Fund.",
+   "tipp": "Je länger es her ist, desto älter ist der Fund.",
+   "info": "Steinwerkzeuge gibt es seit etwa 2 Mio. Jahren, Musikinstrumente seit etwa 40 000 und Nähnadeln seit etwa 24 000 Jahren.",
+   "schritte": [
+    "Einfache Steinwerkzeuge",
+    "Musikinstrumente",
+    "Nähnadeln"
+   ],
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Ordne jeder Erfindung oder Zeitspanne die Angabe zu.",
+   "info": "Alle Angaben sind gerundet. Die Eiszeit dauerte etwa 100 000 Jahre, die anderen drei Zeitangaben sagen, wie lange die Erfindung her ist.",
+   "paare": [
+    [
+     "Einfache Steinwerkzeuge",
+     "vor ca. 2 Mio. Jahren"
+    ],
+    [
+     "Musikinstrumente",
+     "vor ca. 40 000 Jahren"
+    ],
+    [
+     "Nähnadeln",
+     "vor ca. 24 000 Jahren"
+    ],
+    [
+     "Würm-Eiszeit (Dauer)",
+     "ca. 100 000 Jahre"
+    ]
+   ],
+   "extra": [
+    "vor ca. 4000 Jahren"
+   ],
+   "lesen": [
+    "Werkzeuge und Geräte der Altsteinzeit",
+    "Die Eiszeit: Klima und Landschaft"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Werkzeuge und Geräte",
+   "frage": "Ergänze den Text über die Werkzeuge.",
+   "text": "Aus Feuerstein machte man {{Faustkeile}}, Schaber und Klingen. Vor etwa 40 000 Jahren gab es schon {{Musikinstrumente}}, und vor etwa 24 000 Jahren gab es {{Nähnadeln}} aus Knochen. Fische fing man mit {{Harpunen}}.",
+   "info": "Die Zeitangaben stehen im Buch. Harpunen wurden aus Knochen oder Geweih gemacht.",
+   "wortbank": [
+    "Faustkeile",
+    "Musikinstrumente",
+    "Nähnadeln",
+    "Harpunen",
+    "Pflüge",
+    "Webstühle"
+   ],
+   "lesen": "Werkzeuge und Geräte der Altsteinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Welche Aussage über eine Rekonstruktionszeichnung der Altsteinzeit stimmt?",
+   "info": "Ein Zeichner von heute hat sie gemacht und die Zeit nicht selbst erlebt, also ist sie eine Darstellung. Die Funde dahinter sind die Quellen.",
+   "antworten": [
+    "Sie ist eine Darstellung, die später nach Funden gemacht wurde.",
+    "Sie ist eine Quelle, denn sie zeigt Menschen der Steinzeit.",
+    "Sie wurde von Menschen der Altsteinzeit selbst gezeichnet.",
+    "Sie ist eine schriftliche Quelle, die aus der Steinzeit stammt."
+   ],
+   "richtig": 0,
+   "lesen": "Quellen der Steinzeit"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Quelle oder Darstellung? Ordne zu.",
+   "info": "Quellen stammen aus der Zeit selbst. Darstellungen machen Menschen später, ohne die Zeit erlebt zu haben, und sie benutzen dafür Quellen.",
+   "paare": [
+    [
+     "Faustkeil aus der Altsteinzeit",
+     "Quelle"
+    ],
+    [
+     "Zeichnung, die ein Zeichner heute von einem Eiszeit-Lager macht",
+     "Darstellung"
+    ],
+    [
+     "Knochen eines Mammuts",
+     "Quelle"
+    ],
+    [
+     "Schulbuchtext über die Altsteinzeit",
+     "Darstellung"
+    ],
+    [
+     "Höhlenmalerei von Menschen der Eiszeit",
+     "Quelle"
+    ],
+    [
+     "Harpune aus Geweih",
+     "Quelle"
+    ]
+   ],
+   "lesen": "Quellen der Steinzeit"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Zu welcher Quellenart zählen im Heft Knochen, Faustkeile und Harpunen?",
+   "info": "Im Heft heißen sie Sachquellen, im Buch gegenständliche Quellen. Gemeint sind greifbare Dinge.",
+   "richtig": [
+    "Sachquellen",
+    "Sachquelle",
+    "gegenständliche Quellen",
+    "gegenständliche Quelle"
+   ],
+   "lesen": "Quellen der Steinzeit"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Zeitzeugen können uns von der Altsteinzeit erzählen.",
+   "info": "Zeitzeugen haben die Zeit selbst erlebt. Aus der Altsteinzeit lebt niemand mehr, deshalb sind wir auf Funde angewiesen.",
+   "richtig": false,
+   "lesen": "Quellen der Steinzeit"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Warum gibt es aus der Altsteinzeit keine Texte als Quellen?",
+   "info": "Zusatz: Schrift gab es in der Altsteinzeit noch nicht. Texte sind aber Quellen, und zwar für spätere Zeiten.",
+   "antworten": [
+    "Die Menschen konnten damals noch nicht schreiben.",
+    "Die Menschen schrieben nur auf Holz, und das ist verrottet.",
+    "Die Steinzeit ist zu lange her, deshalb sind alle Texte verloren.",
+    "Texte zählen nicht zu den Quellen."
+   ],
+   "richtig": 0,
+   "lesen": "Quellen der Steinzeit"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Ergänze den Text über die Quellen der Steinzeit.",
+   "text": "Wir wissen etwas über die Altsteinzeit aus {{Funden}} wie Knochen, Werkzeugen und Höhlenbildern. Solche Hinterlassenschaften nennt man {{Quellen}}. Eine Rekonstruktionszeichnung ist dagegen eine {{Darstellung}}. Knochen, Waffen und Werkzeuge sind greifbare Dinge und zählen zu den {{Sachquellen|Quellen}}.",
+   "info": "Funde sind Quellen. Die Zeichnung, die ein Zeichner später daraus macht, ist eine Darstellung. Greifbare Dinge heißen Sachquellen, sie sind natürlich auch Quellen. Zeitzeugen haben die Zeit selbst erlebt, die gibt es aus der Altsteinzeit nicht mehr.",
+   "wortbank": [
+    "Funden",
+    "Quellen",
+    "Darstellung",
+    "Sachquellen",
+    "Zeitzeugen",
+    "Urkunden"
+   ],
+   "lesen": "Quellen der Steinzeit"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Ordne die Herstellung eines Steinwerkzeugs in die richtige Reihenfolge.",
+   "tipp": "Zuerst braucht man etwas zum Bearbeiten, zuletzt benutzt man das fertige Werkzeug.",
+   "info": "Zusatz: Die Schritte sind Allgemeinwissen. Im Buch steht, dass man Stein mit Schlagstein oder Geweih bearbeitet und mit den Werkzeugen zum Beispiel Fleisch zerschneidet.",
+   "schritte": [
+    "Man sucht einen passenden Stein, zum Beispiel Feuerstein.",
+    "Man schlägt mit einem Schlagstein Stücke ab.",
+    "Man arbeitet die Kanten nach, bis sie scharf sind.",
+    "Man benutzt das Werkzeug, zum Beispiel zum Zerschneiden von Fleisch."
+   ],
+   "lesen": "Werkzeuge herstellen und benutzen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Herstellen, benutzen und Quellen",
+   "frage": "Womit bearbeitete man Stein in der Altsteinzeit? Wähle alle richtigen Antworten.",
+   "info": "Im Buch steht, dass man Stein mit einem Schlagstein oder mit Geweih bearbeitete. Metalle kannte man noch nicht.",
+   "antworten": [
+    "mit einem Schlagstein",
+    "mit einem Geweih",
+    "mit einem Metallhammer",
+    "mit einer Eisensäge"
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "lesen": "Werkzeuge herstellen und benutzen"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Klausurnah: Steinzeit, Eiszeit, Werkzeuge",
+   "frage": "Beschrifte die Abbildung: Ordne jedem Buchstaben das richtige Werkzeug zu.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 262\" width=\"760\" height=\"262\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"262\" fill=\"#ffffff\"/><path d=\"M 22 152 C 14 94 52 48 102 58 C 134 68 138 120 126 152 Z\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><path d=\"M 30 104 C 36 68 64 58 100 66 C 122 74 126 104 120 124\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.4\" stroke-dasharray=\"5 4\"/><text x=\"76\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">A</text><polygon points=\"222,46 228,20 234,46\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><rect x=\"222\" y=\"44\" width=\"12\" height=\"140\" rx=\"3\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\"/><polygon points=\"234,58 256,82 234,78\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"234,86 256,110 234,106\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"234,114 256,138 234,134\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><polygon points=\"234,142 256,166 234,162\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"2.6\" stroke-linejoin=\"round\"/><text x=\"228\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">B</text><polygon points=\"376.5,58 383.5,58 381,190 379,190\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><ellipse cx=\"380\" cy=\"54\" rx=\"8\" ry=\"18\" fill=\"#eadfc4\" stroke=\"#4f4126\" stroke-width=\"3\"/><ellipse cx=\"380\" cy=\"52\" rx=\"2.8\" ry=\"9\" fill=\"#ffffff\" stroke=\"#4f4126\" stroke-width=\"2\"/><text x=\"380\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">C</text><path d=\"M 532 24 C 580 60 586 128 556 166 C 544 180 520 180 508 166 C 478 128 484 60 532 24 Z\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><polyline points=\"506,84 532,94\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"532,94 556,80\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"510,124 538,132\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"538,132 560,120\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><polyline points=\"524,60 540,68\" fill=\"none\" stroke=\"#8d7d5c\" stroke-width=\"2.2\" stroke-linecap=\"round\"/><text x=\"532\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">D</text><polygon points=\"670,180 668,58 684,26 700,58 698,180\" fill=\"#c9bb9d\" stroke=\"#4f4126\" stroke-width=\"3\" stroke-linejoin=\"round\"/><line x1=\"684\" y1=\"38\" x2=\"684\" y2=\"174\" stroke=\"#8d7d5c\" stroke-width=\"2.2\"/><text x=\"684\" y=\"242\" font-size=\"22\" font-weight=\"bold\" fill=\"#1b1b1b\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">E</text></svg>",
+   "bildAlt": "Fünf Werkzeuge mit den Buchstaben A bis E: A Schaber, B Harpune mit Widerhaken, C Nähnadel mit Öhr, D Faustkeil, E Klinge.",
+   "info": "Der Faustkeil ist mandelförmig, die Klinge lang und schmal, der Schaber hat eine runde Arbeitskante, die Harpune Widerhaken und die Nähnadel ein Öhr.",
+   "paare": [
+    [
+     "A",
+     "Schaber"
+    ],
+    [
+     "B",
+     "Harpune"
+    ],
+    [
+     "C",
+     "Nähnadel"
+    ],
+    [
+     "D",
+     "Faustkeil"
+    ],
+    [
+     "E",
+     "Klinge"
+    ]
+   ],
+   "extra": [
+    "Steinbeil"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Klausurnah: Steinzeit, Eiszeit, Werkzeuge",
+   "frage": "Eine Mitschülerin schreibt über die Steinzeit. Welcher Satz enthält einen Fehler?",
+   "tipp": "Drei Sätze stimmen. Prüfe jeden einzeln.",
+   "info": "Die Steinzeit gehört zur Ur- und Frühgeschichte. Das Altertum beginnt erst 3000 v. Chr., wenn die Steinzeit endet.",
+   "antworten": [
+    "Die Steinzeit gehört zur Epoche Altertum.",
+    "Die letzte Kaltzeit hieß Würm-Eiszeit und dauerte etwa 100 000 Jahre.",
+    "Faustkeile und Schaber stellten schon die Neandertaler her.",
+    "Eine Rekonstruktionszeichnung ist eine Darstellung und keine Quelle."
+   ],
+   "richtig": 0,
+   "lesen": [
+    "Die Steinzeit auf dem Zeitstrahl",
+    "Die Eiszeit: Klima und Landschaft",
+    "Werkzeuge und Geräte der Altsteinzeit",
+    "Quellen der Steinzeit"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Klausurnah: Steinzeit, Eiszeit, Werkzeuge",
+   "frage": "Fasse die Steinzeit zusammen. Ergänze den Text.",
+   "text": "Nach dem Heft hat die Steinzeit zwei Teile: die {{Altsteinzeit}} bis etwa 9000 v. Chr. und die {{Jungsteinzeit}} bis etwa 3000 v. Chr. Das Buch nennt zusätzlich die {{Mittelsteinzeit}}. Die ganze Steinzeit gehört zur Epoche {{Ur- und Frühgeschichte}}.",
+   "info": "Zwei Teile laut Heft, die Mittelsteinzeit als Ergänzung aus dem Buch. Die Jahreszahlen sind Näherungswerte. Die Epoche ist die erste: Ur- und Frühgeschichte.",
+   "wortbank": [
+    "Altsteinzeit",
+    "Jungsteinzeit",
+    "Mittelsteinzeit",
+    "Ur- und Frühgeschichte",
+    "Antike",
+    "Bronzezeit"
+   ],
+   "lesen": [
+    "Die Steinzeit in Teile gliedern",
+    "Die Steinzeit auf dem Zeitstrahl"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Klausurnah: Steinzeit, Eiszeit, Werkzeuge",
+   "frage": "Nenne die Teile der Steinzeit mit ihren Zeitangaben und erkläre, woher der Name Steinzeit kommt.",
+   "info": "Die Mittelsteinzeit darf zusätzlich genannt werden, sie ist kein Fehler.",
+   "punkte": 4,
+   "muster": "Nach dem Heft hat die Steinzeit zwei Teile: die Altsteinzeit bis etwa 9000 v. Chr. und die Jungsteinzeit von etwa 9000 bis etwa 3000 v. Chr. Das Buch nennt dazu noch die Mittelsteinzeit. Die Steinzeit heißt so, weil die Menschen ihre Werkzeuge aus Stein herstellten. Stein war das erste dauerhafte Material dafür, und Holz und Stein blieben wichtig, bis man Metalle verarbeiten konnte.",
+   "kriterien": [
+    "Altsteinzeit und Jungsteinzeit genannt",
+    "Zeitangaben richtig (bis ca. 9000 v. Chr. und ca. 9000 bis 3000 v. Chr.)",
+    "Name erklärt: Werkzeuge aus Stein",
+    "Holz und Stein als wichtige Materialien oder Stein als erstes dauerhaftes Material"
+   ],
+   "lesen": [
+    "Woher der Name Steinzeit kommt",
+    "Die Steinzeit in Teile gliedern"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Klausurnah: Steinzeit, Eiszeit, Werkzeuge",
+   "frage": "Beschreibe die Würm-Eiszeit: Wie lange dauerte sie, wie war das Klima und welche Landschaft gab es? Nenne außerdem zwei Pflanzenfresser und zwei Raubtiere.",
+   "punkte": 6,
+   "muster": "Die Würm-Eiszeit war die letzte Kaltphase und dauerte etwa 100 000 Jahre. Es war sehr kalt und trocken, dazwischen gab es kurze wärmere Phasen. Gletscher dehnten sich weit aus. Viel Wasser war im Eis gebunden, deshalb sank der Meeresspiegel. Wälder wuchsen in Mitteleuropa nicht, stattdessen gab es eine weite Steppe. Pflanzenfresser waren zum Beispiel Mammut und Wollnashorn, Raubtiere zum Beispiel Höhlenlöwe und Wolf. In Europa lebten damals Neandertaler und moderne Menschen zur selben Zeit.",
+   "kriterien": [
+    "etwa 100 000 Jahre",
+    "kalt und trocken, Gletscher breiten sich aus",
+    "Meeresspiegel sinkt, weil Wasser im Eis gebunden ist",
+    "Steppe statt Wald",
+    "zwei Pflanzenfresser genannt",
+    "zwei Raubtiere genannt"
+   ],
+   "lesen": [
+    "Die Eiszeit: Klima und Landschaft",
+    "Tiere der Eiszeit"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Klausurnah: Steinzeit, Eiszeit, Werkzeuge",
+   "frage": "Woher wissen wir etwas über die Werkzeuge der Altsteinzeit? Nenne zwei Werkzeuge mit ihrem Material und erkläre, warum eine Rekonstruktionszeichnung keine Quelle ist.",
+   "punkte": 5,
+   "muster": "Wir wissen es aus Funden, zum Beispiel aus Faustkeilen aus Stein und aus Harpunen oder Nähnadeln aus Knochen oder Geweih. Solche Funde sind Sachquellen. Eine Rekonstruktionszeichnung ist keine Quelle, sondern eine Darstellung. Ein Zeichner hat sie viel später gemacht, mithilfe der Funde, und er hat die Zeit nicht selbst erlebt.",
+   "kriterien": [
+    "Funde als Grundlage genannt",
+    "erstes Werkzeug mit passendem Material",
+    "zweites Werkzeug mit passendem Material",
+    "Rekonstruktionszeichnung ist eine Darstellung",
+    "Begründung: später und mithilfe der Funde gemacht"
+   ],
+   "lesen": [
+    "Werkzeuge und Geräte der Altsteinzeit",
+    "Quellen der Steinzeit"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Name und Gliederung der Steinzeit": [
+   "Woher der Name Steinzeit kommt",
+   "Die Steinzeit in Teile gliedern"
+  ],
+  "B – Die Steinzeit in der Zeit": "Die Steinzeit auf dem Zeitstrahl",
+  "C – Eiszeit, Klima und Tiere": [
+   "Die Eiszeit: Klima und Landschaft",
+   "Tiere der Eiszeit"
+  ],
+  "D – Werkzeuge und Geräte": "Werkzeuge und Geräte der Altsteinzeit",
+  "E – Herstellen, benutzen und Quellen": [
+   "Werkzeuge herstellen und benutzen",
+   "Quellen der Steinzeit"
+  ],
+  "F – Klausurnah: Steinzeit, Eiszeit, Werkzeuge": [
+   "Die Steinzeit in Teile gliedern",
+   "Die Eiszeit: Klima und Landschaft",
+   "Werkzeuge und Geräte der Altsteinzeit",
+   "Quellen der Steinzeit"
+  ]
+ },
+ "probe": false
+}

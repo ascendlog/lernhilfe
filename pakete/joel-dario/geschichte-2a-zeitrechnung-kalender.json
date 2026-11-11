@@ -1,0 +1,902 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-2a-zeitrechnung-kalender",
+ "titel": "Geschichte Teil 2a: Zeit messen, Kalender und Zeitrechnung",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Warum man die Zeit einteilt, Zeitmessung von der Sonnenuhr bis zur Uhr, Mondjahr und Sonnenjahr, vor und nach Christi Geburt, Jahrhunderte und andere Kalender. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Bei Abständen über Christi Geburt hinweg wird wie in der Schule einfach zusammengezählt (streng genommen gibt es kein Jahr 0). Aufgaben mit „Zusatzwissen“ gehen über das Heft hinaus.",
+ "lernblatt": [
+  {
+   "titel": "Warum teilt man die Zeit ein?",
+   "text": "Wie lange etwas dauert, schätzt du nach Gefühl. Aber das Gefühl täuscht: Manchmal vergeht die Zeit „wie im Flug“, manchmal scheint sie stehen zu bleiben. Darum haben Menschen schon früh begonnen, die Zeit zu **messen** und einzuteilen.\nEine **Zeiteinteilung** hilft dir, dich zeitlich zu **orientieren**. Du kannst dann sagen, was früher war und was später, und wie lange etwas her ist. Ohne Uhr und Kalender wäre es schwer, sich mit jemandem zu verabreden.\nFür die Geschichte ist das besonders wichtig: Nur mit einer Zeiteinteilung kannst du Ereignisse in eine Reihenfolge bringen.",
+   "merke": "Das Zeitgefühl ist unsicher. Deshalb misst man die Zeit und teilt sie ein, um sich zeitlich zu orientieren."
+  },
+  {
+   "titel": "Zeit messen: vom Sonnenstand zur Uhr",
+   "text": "Am Anfang hielten sich die Menschen an den Wechsel von **Tag und Nacht**. Das ist aber nur eine grobe Orientierung, denn der Tag ist im Lauf des Jahres mal länger und mal kürzer.\nDanach teilte man den Tag selbst ein. Immer feinere Geräte entstanden:\n\n- **Sonnenuhr**: Sie zeigt die Tageszeit mit dem Schatten der Sonne an. Eine griechische Sonnenuhr stammt aus dem 3. Jahrhundert v. Chr.\n- **Sanduhr**: Sand rieselt durch eine enge Stelle. Sie misst eine feste Zeitspanne.\n- **mechanische Uhr**: In Deutschland gab es sie um 1400.\n- **Uhr mit Zifferblatt**: Die Uhr, wie du sie kennst, laut Buch im 20. Jahrhundert.\n\nHeute messen wir Zeitunterschiede, die ein Mensch gar nicht mehr wahrnehmen kann.",
+   "merke": "Von Tag und Nacht über Sonnenuhr, Sanduhr und mechanische Uhr bis zur Uhr mit Zifferblatt: Die Messung der Zeit wurde immer genauer."
+  },
+  {
+   "titel": "Mondphasen, Monate und Jahre",
+   "text": "Lange Zeit war der **Mond** das wichtigste Hilfsmittel, denn man sieht seine **Mondphasen** (sein wechselndes Aussehen) mit bloßem Auge. Von einem Vollmond bis zum nächsten vergehen etwa **29,5 Tage**. Daraus entstand der **Monat**.\nZwölf Monate ergeben ein **Mondjahr**: 12 × 29,5 = **354 Tage**. Die Jahreszeiten richten sich aber nach dem Lauf der Erde um die Sonne. Ein **Sonnenjahr** dauert etwa **365 Tage**, also 11 Tage länger als das Mondjahr. Darum passt ein reines Mondjahr nicht zu den Jahreszeiten.\nAuch 365 Tage sind nicht ganz genau. Deshalb gibt es alle vier Jahre ein **Schaltjahr** mit **366 Tagen**. (Zusatzwissen: Der zusätzliche Tag ist der 29. Februar.)",
+   "merke": "Monat = etwa 29,5 Tage. Mondjahr = 354 Tage. Sonnenjahr = etwa 365 Tage. Schaltjahr = 366 Tage.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 296\" width=\"760\" height=\"296\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"296\" fill=\"#ffffff\"/><rect x=\"175.0\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"194.2\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1</text><rect x=\"213.3\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"232.5\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2</text><rect x=\"251.7\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"270.9\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3</text><rect x=\"290.1\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"309.2\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4</text><rect x=\"328.4\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"347.6\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5</text><rect x=\"366.8\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"385.9\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6</text><rect x=\"405.1\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"424.3\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">7</text><rect x=\"443.4\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"462.6\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">8</text><rect x=\"481.8\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"501.0\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">9</text><rect x=\"520.2\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"539.3\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">10</text><rect x=\"558.5\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"577.7\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">11</text><rect x=\"596.9\" y=\"30\" width=\"38.4\" height=\"40\" fill=\"#8fb8d8\" stroke=\"#33597a\" stroke-width=\"1.5\"/><text x=\"616.0\" y=\"56\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">12</text><text x=\"165\" y=\"56\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Mondjahr</text><text x=\"645.2\" y=\"56\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">354 Tage</text><rect x=\"175\" y=\"100\" width=\"460.2\" height=\"40\" fill=\"#e8c27a\" stroke=\"#7a5a1a\" stroke-width=\"1.5\"/><rect x=\"635.2\" y=\"100\" width=\"14.3\" height=\"40\" fill=\"#e2701a\" stroke=\"#7a3a00\" stroke-width=\"1.5\"/><text x=\"165\" y=\"126\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Sonnenjahr</text><text x=\"659.5\" y=\"126\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">365 Tage</text><rect x=\"175\" y=\"170\" width=\"474.5\" height=\"40\" fill=\"#9fc5a0\" stroke=\"#2f6a3a\" stroke-width=\"1.5\"/><rect x=\"649.5\" y=\"170\" width=\"4.3\" height=\"40\" fill=\"#1f7a3a\" stroke=\"#0f4a1f\" stroke-width=\"1.5\"/><text x=\"165\" y=\"196\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Schaltjahr</text><text x=\"662.8\" y=\"196\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">366 Tage</text><rect x=\"175\" y=\"236\" width=\"18\" height=\"18\" fill=\"#e2701a\" stroke=\"#7a3a00\"/><text x=\"203\" y=\"251\" font-size=\"16\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">11 Tage mehr als das Mondjahr</text><rect x=\"175\" y=\"264\" width=\"18\" height=\"18\" fill=\"#1f7a3a\" stroke=\"#0f4a1f\"/><text x=\"203\" y=\"279\" font-size=\"16\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1 Tag mehr als im normalen Sonnenjahr</text><text x=\"165\" y=\"20\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"start\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Die Zahlen 1 bis 12 sind die Monate (je 29,5 Tage).</text></svg>",
+   "bildAlt": "Drei Balken: Das Mondjahr besteht aus zwölf Monaten und hat 354 Tage. Das Sonnenjahr ist 11 Tage länger (365 Tage). Das Schaltjahr hat einen weiteren Tag (366 Tage)."
+  },
+  {
+   "titel": "Unsere Zeitrechnung: vor und nach Christi Geburt",
+   "text": "Wir zählen die Jahre ab der **Geburt Christi**. Das ist der **Nullpunkt** unserer Zeitrechnung.\n\n- Davor wird **rückwärts** gezählt. Dahinter schreibt man **v. Chr.** (vor Christus).\n- Danach wird **vorwärts** gezählt. Dahinter schreibt man **n. Chr.** (nach Christus).\n\nEs gibt auch andere Kürzel mit derselben Bedeutung: **v. u. Z.** (vor unserer Zeitrechnung) und **n. u. Z.** (nach unserer Zeitrechnung).\nAuf einem **Zeitstrahl** liegt das Frühere links und das Spätere rechts. Bei „v. Chr.“ gilt: Je größer die Zahl, desto weiter liegt das Jahr zurück. Beispiel: 753 v. Chr. liegt früher als 44 v. Chr.\nStreng genommen gibt es kein Jahr 0, auf 1 v. Chr. folgt gleich 1 n. Chr. Bei Abständen über Christi Geburt hinweg rechnest du in der Schule trotzdem einfach zusammen.",
+   "merke": "Nullpunkt = Geburt Christi. Davor v. Chr. (rückwärts gezählt), danach n. Chr. Bei v. Chr. gilt: größere Zahl = früher.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. Links liegen die Jahre vor Christi Geburt, in der Mitte steht Christi Geburt, rechts die Jahre danach."
+  },
+  {
+   "titel": "Jahre vergleichen und Abstände berechnen",
+   "text": "**Welches Jahr ist früher?**\n\n- Beide Jahre v. Chr.: Das Jahr mit der größeren Zahl ist früher (300 v. Chr. liegt vor 200 v. Chr.).\n- Beide Jahre n. Chr.: Das Jahr mit der kleineren Zahl ist früher (800 n. Chr. liegt vor 1450 n. Chr.).\n- Ein Jahr v. Chr. liegt immer vor einem Jahr n. Chr.\n\n**Wie viele Jahre liegen dazwischen?**\n\n- Beide Jahre auf **derselben** Seite von Christi Geburt: Du **ziehst** die Zahlen **ab**. Beispiel: 753 − 44 = 709 Jahre zwischen 753 v. Chr. und 44 v. Chr.\n- Ein Jahr davor, eins danach: Du **zählst zusammen**. Beispiel: 100 v. Chr. bis 50 n. Chr. sind 100 + 50 = 150 Jahre.\n\nStreng genommen gibt es kein Jahr 0. In der Schule rechnest du trotzdem so (ohne Jahr 0). In Aufgaben steht dann „Rechne wie in der Schule“.",
+   "merke": "Gleiche Seite: abziehen. Über Christi Geburt hinweg: zusammenzählen."
+  },
+  {
+   "titel": "Jahrhunderte bestimmen",
+   "text": "Ein **Jahrhundert** hat 100 Jahre. Das **1. Jahrhundert** umfasst die Jahre unter 100, also 1 bis 99. Das 2. Jahrhundert beginnt mit 100. Das **13. Jahrhundert** umfasst 1200 bis 1299, also alle Jahre, die mit „12“ beginnen.\nSo findest du das Jahrhundert eines Jahres: Streiche die letzten **zwei** Stellen und zähle **1 dazu**. Beispiel: 1969 → 19 + 1 = **20.** Jahrhundert. Beispiel: 44 → 0 + 1 = **1.** Jahrhundert.\nAuch vor Christi Geburt gibt es Jahrhunderte, sie werden genauso nummeriert. 44 v. Chr. liegt im 1. Jahrhundert v. Chr., 753 v. Chr. im 8. Jahrhundert v. Chr. (Zusatzwissen: Man zählt von Christi Geburt aus rückwärts. Das 1. Jahrhundert v. Chr. sind die Jahre 100 bis 1 v. Chr. Bei vollen Hundertern wie 100 v. Chr. gibt die Rechenregel das falsche Jahrhundert. Solche Jahre kommen in den Aufgaben nicht vor.)",
+   "merke": "13. Jahrhundert = 1200 bis 1299. Jahrhundert = Jahreszahl ohne die letzten zwei Stellen, plus 1.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" width=\"760\" height=\"200\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"200\" fill=\"#ffffff\"/><rect x=\"20\" y=\"30\" width=\"220\" height=\"86\" rx=\"8\" fill=\"#f1f1f1\" stroke=\"#888\" stroke-width=\"1.5\"/><text x=\"130\" y=\"64\" font-size=\"18\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">12. Jahrhundert</text><text x=\"130\" y=\"98\" font-size=\"18\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1100 bis 1199</text><line x1=\"244\" y1=\"73\" x2=\"266\" y2=\"73\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"266,73 255.9,77.3 255.9,68.7\" fill=\"#333\"/><rect x=\"270\" y=\"30\" width=\"220\" height=\"86\" rx=\"8\" fill=\"#ffe3b0\" stroke=\"#e2701a\" stroke-width=\"3\"/><text x=\"380\" y=\"64\" font-size=\"18\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">13. Jahrhundert</text><text x=\"380\" y=\"98\" font-size=\"18\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1200 bis 1299</text><line x1=\"494\" y1=\"73\" x2=\"516\" y2=\"73\" stroke=\"#333\" stroke-width=\"2.5\"/><polygon points=\"516,73 505.9,77.3 505.9,68.7\" fill=\"#333\"/><rect x=\"520\" y=\"30\" width=\"220\" height=\"86\" rx=\"8\" fill=\"#f1f1f1\" stroke=\"#888\" stroke-width=\"1.5\"/><text x=\"630\" y=\"64\" font-size=\"18\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">14. Jahrhundert</text><text x=\"630\" y=\"98\" font-size=\"18\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1300 bis 1399</text><text x=\"380\" y=\"152\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1200 bis 1299: Die Zahl beginnt mit „12“.</text><text x=\"380\" y=\"180\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">12 + 1 = 13, also das 13. Jahrhundert</text></svg>",
+   "bildAlt": "Drei Kästchen: 12. Jahrhundert (1100 bis 1199), 13. Jahrhundert (1200 bis 1299, hervorgehoben) und 14. Jahrhundert (1300 bis 1399). Darunter die Rechnung 12 plus 1 gleich 13."
+  },
+  {
+   "titel": "Andere Kalender und ihr Beginn",
+   "text": "Nicht alle Völker zählen die Jahre ab der Geburt Christi. Jeder Kalender beginnt bei einem Ereignis, das für das Volk wichtig war. Kalendersysteme entstanden aus der Beobachtung der Mondphasen, der Wiederkehr der Jahreszeiten und der Sonnenbahn.\n\n- **christlicher Kalender**: ein **Sonnenkalender**. Die Zählung beginnt mit der Geburt Christi.\n- **römischer Kalender**: Die Römer zählten ab der sagenhaften Gründung ihrer Stadt, **753 v. Chr.** („ab urbe condita“ heißt „seit Gründung der Stadt“).\n- **jüdischer Kalender**: ein **kombinierter** Sonnen- und Mondkalender. Die Zählung beginnt mit der Erschaffung der Welt, **3761 v. Chr.**\n- **muslimischer Kalender**: ein **Mondkalender**. Die Zählung beginnt mit dem Auszug Mohammeds aus Mekka, **622 n. Chr.**\n\nEin Beispiel: Am 1. Januar 2000 zählte der muslimische Kalender das Jahr 1420. Seit 622 n. Chr. waren nur 1378 Sonnenjahre vergangen (2000 − 622). Der Unterschied kommt daher, dass ein Mondjahr kürzer ist als ein Sonnenjahr.",
+   "merke": "Römer: 753 v. Chr. (Stadtgründung). Juden: 3761 v. Chr. (Erschaffung der Welt). Muslime: 622 n. Chr. (Auszug aus Mekka). Mondkalender, Sonnenkalender oder beides."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Wozu teilt man die Zeit ein und misst sie?",
+   "info": "Eine Zeiteinteilung hilft dir, dich zeitlich zu orientieren: Was war früher, was später, wie lange ist etwas her? Im Gelände orientierst du dich dagegen mit Karte und Kompass.",
+   "antworten": [
+    "Damit man sich zeitlich orientieren kann.",
+    "Damit man sich im Gelände nicht verläuft.",
+    "Damit man Entfernungen genau messen kann.",
+    "Damit man das Wetter vorhersagen kann."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Wie lange etwas gedauert hat, kann man nach dem Gefühl zuverlässig sagen.",
+   "info": "Das Zeitgefühl täuscht: Manchmal vergeht die Zeit „wie im Flug“, manchmal scheint sie stehen zu bleiben. Darum misst man sie.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Wähle alle Geräte, mit denen man die Zeit misst.",
+   "info": "Sonnenuhr, Sanduhr und mechanische Uhr zeigen die Zeit an. Der Kompass zeigt die Richtung, das Thermometer die Temperatur.",
+   "antworten": [
+    "Sonnenuhr",
+    "Sanduhr",
+    "mechanische Uhr",
+    "Kompass",
+    "Thermometer"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Woran hielten sich die Menschen zuerst, um sich zeitlich zu orientieren?",
+   "info": "Der Wechsel von Tag und Nacht war die erste Orientierung. Erst danach teilte man den Tag selbst ein, zum Beispiel mit der Sonnenuhr.",
+   "antworten": [
+    "am Wechsel von Tag und Nacht",
+    "an der mechanischen Uhr",
+    "an der Uhr mit Zifferblatt",
+    "an einem Kalender mit 366 Tagen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Warum ist der Wechsel von Tag und Nacht nur eine grobe Orientierung?",
+   "info": "Weil sich die Länge des Tages im Jahresverlauf ändert, taugt der Wechsel nur für eine grobe Einteilung.",
+   "antworten": [
+    "Der Tag ist im Lauf des Jahres mal länger, mal kürzer.",
+    "Man kann damit nur ganze Jahre zählen, aber keine Tage.",
+    "Tag und Nacht wechseln ganz unregelmäßig, mal nach drei, mal nach zehn Stunden.",
+    "Man sieht den Wechsel nur im Winter, im Sommer ist es immer hell."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Ordne jedem Hilfsmittel die passende Angabe zu.",
+   "info": "Die Geräte wurden immer feiner: erst die Sonnenuhr, dann Sanduhr und mechanische Uhr, im 20. Jahrhundert die Uhr mit Zifferblatt.",
+   "paare": [
+    [
+     "Wechsel von Tag und Nacht",
+     "grobe Orientierung ohne Gerät"
+    ],
+    [
+     "Sonnenuhr",
+     "griechisches Beispiel aus dem 3. Jh. v. Chr."
+    ],
+    [
+     "Sanduhr",
+     "Sand rieselt durch eine enge Stelle"
+    ],
+    [
+     "mechanische Uhr",
+     "in Deutschland um 1400"
+    ],
+    [
+     "Uhr mit Zifferblatt",
+     "20. Jahrhundert"
+    ]
+   ],
+   "extra": [
+    "Zeiger zeigen immer nach Norden"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Ordne die Hilfsmittel der Zeitmessung nach ihrem Alter. Das älteste steht oben.",
+   "tipp": "Denke an die Jahreszahlen: 3. Jahrhundert v. Chr., um 1400, 20. Jahrhundert.",
+   "info": "Zuerst gab es nur Tag und Nacht, dann die Sonnenuhr (3. Jh. v. Chr.), um 1400 die mechanische Uhr und im 20. Jahrhundert die Uhr mit Zifferblatt.",
+   "schritte": [
+    "Wechsel von Tag und Nacht",
+    "Sonnenuhr im alten Griechenland (3. Jh. v. Chr.)",
+    "mechanische Uhr in Deutschland (um 1400)",
+    "Uhr mit Zifferblatt (20. Jh.)"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Zeit einteilen und messen",
+   "frage": "Ergänze den Text über die Zeitmessung.",
+   "text": "Zuerst hielt man sich an den Wechsel von {{Tag und Nacht}}. Dann teilte man den Tag selbst ein. Die {{Sonnenuhr}} gab es schon bei den Griechen. Später kamen die {{Sanduhr}} (Sand rieselt durch eine enge Stelle) und die {{mechanische Uhr}} (in Deutschland um 1400). So konnte man die Zeit immer {{genauer}} messen.",
+   "info": "Die Zeitmessung wurde in einem sehr langen Prozess immer feiner: von Tag und Nacht bis zu Uhren, die winzige Zeitunterschiede messen.",
+   "wortbank": [
+    "Tag und Nacht",
+    "Sonnenuhr",
+    "Sanduhr",
+    "mechanische Uhr",
+    "genauer",
+    "Kalender",
+    "ungenauer"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Wie viele Tage dauert es etwa von einem Vollmond bis zum nächsten?",
+   "info": "Von Vollmond zu Vollmond vergehen etwa 29,5 Tage. Daraus entstand der Monat.",
+   "richtig": [
+    "29,5",
+    "29.5",
+    "29,5 Tage",
+    "29.5 Tage",
+    "ca. 29,5",
+    "ca. 29,5 Tage",
+    "ca. 29.5",
+    "ca. 29.5 Tage",
+    "etwa 29,5",
+    "etwa 29,5 Tage",
+    "etwa 29.5",
+    "etwa 29.5 Tage",
+    "ungefähr 29,5",
+    "ungefähr 29,5 Tage",
+    "ungefähr 29.5",
+    "ungefähr 29.5 Tage"
+   ],
+   "einheit": "Tage"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Wie viele Tage hat ein Mondjahr?",
+   "info": "Ein Mondjahr hat 12 Monate. 12 × 29,5 Tage = 354 Tage.",
+   "antworten": [
+    "354 Tage",
+    "365 Tage",
+    "366 Tage",
+    "295 Tage"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Rechne: Wie viele Tage dauern 6 Monate zu je 29,5 Tagen?",
+   "tipp": "Rechne 6 × 29 und dazu 6 × 0,5.",
+   "info": "6 × 29,5 = 177. Zwölf Monate wären doppelt so viel, nämlich 354 Tage.",
+   "richtig": [
+    "177",
+    "177 Tage"
+   ],
+   "einheit": "Tage"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Um wie viele Tage ist das Mondjahr kürzer als das Sonnenjahr (365 Tage)?",
+   "info": "365 − 354 = 11. Deshalb verschieben sich die Jahreszeiten, wenn man nur nach dem Mond zählt.",
+   "antworten": [
+    "11 Tage",
+    "1 Tag",
+    "19 Tage",
+    "29,5 Tage"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Warum passt ein reines Mondjahr nicht zu den Jahreszeiten?",
+   "info": "Die Jahreszeiten entstehen durch den Umlauf der Erde um die Sonne. Das Mondjahr ist mit 354 Tagen außerdem kürzer als das Sonnenjahr mit etwa 365 Tagen.",
+   "antworten": [
+    "Die Jahreszeiten richten sich nach dem Lauf der Erde um die Sonne.",
+    "Der Mond bewegt sich im Winter deutlich schneller um die Erde.",
+    "Im Mondjahr gibt es nur drei Jahreszeiten statt vier.",
+    "Das Mondjahr hat mehr Tage als das Sonnenjahr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Ein Mondjahr ist länger als ein Sonnenjahr.",
+   "info": "Das Mondjahr hat 354 Tage, das Sonnenjahr etwa 365 Tage. Das Mondjahr ist also 11 Tage kürzer.",
+   "richtig": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Ordne die Zeitspannen den Tageszahlen zu.",
+   "info": "Ein Monat dauert etwa 29,5 Tage, das Mondjahr 12 Monate (354 Tage), das Sonnenjahr etwa 365 Tage und das Schaltjahr 366 Tage.",
+   "paare": [
+    [
+     "Monat (Vollmond bis Vollmond)",
+     "etwa 29,5 Tage"
+    ],
+    [
+     "Mondjahr",
+     "354 Tage"
+    ],
+    [
+     "Sonnenjahr",
+     "etwa 365 Tage"
+    ],
+    [
+     "Schaltjahr",
+     "366 Tage"
+    ]
+   ],
+   "extra": [
+    "360 Tage"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Mondphasen, Monate und Jahre",
+   "frage": "Ergänze die Tageszahlen.",
+   "text": "Das Mondjahr hat 12 Monate und {{354}} Tage. Ein Sonnenjahr dauert etwa {{365}} Tage. Weil das nicht ganz genau stimmt, gibt es alle {{vier}} Jahre ein Schaltjahr mit {{366}} Tagen.",
+   "info": "354 Tage Mondjahr, etwa 365 Tage Sonnenjahr, alle vier Jahre ein Schaltjahr mit 366 Tagen.",
+   "wortbank": [
+    "354",
+    "365",
+    "vier",
+    "366",
+    "355",
+    "zwei"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Von welchem Ereignis aus zählt unsere Zeitrechnung die Jahre?",
+   "info": "Die Geburt Christi ist der Nullpunkt. Die anderen Ereignisse sind die Anfänge des römischen, jüdischen und muslimischen Kalenders.",
+   "antworten": [
+    "von der Geburt Christi",
+    "von der Gründung der Stadt Rom",
+    "von der Erschaffung der Welt",
+    "vom Auszug Mohammeds aus Mekka"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Wofür steht das Kürzel „v. Chr.“?",
+   "info": "v. Chr. heißt „vor Christus“. Diese Jahre zählt man rückwärts vom Nullpunkt aus.",
+   "richtig": [
+    "vor Christus",
+    "vor Christi Geburt",
+    "vor Christi",
+    "vor Christus Geburt"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Ergänze den Text über unsere Zeitrechnung.",
+   "text": "Unsere Zeitrechnung beginnt mit der {{Geburt Christi}}. Die Jahre davor zählt man {{rückwärts}} und schreibt „{{v. Chr.}}“ dahinter. Die Jahre danach schreibt man mit „{{n. Chr.}}“.",
+   "info": "Nullpunkt ist die Geburt Christi. Davor v. Chr. (rückwärts gezählt), danach n. Chr.",
+   "wortbank": [
+    "Geburt Christi",
+    "rückwärts",
+    "v. Chr.",
+    "n. Chr.",
+    "Gründung Roms",
+    "vorwärts"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Was bedeutet das Kürzel?",
+   "info": "„Chr.“ steht für Christus, „u. Z.“ für „unsere Zeitrechnung“. Beide Schreibweisen meinen dasselbe.",
+   "paare": [
+    [
+     "v. Chr.",
+     "vor Christus"
+    ],
+    [
+     "n. Chr.",
+     "nach Christus"
+    ],
+    [
+     "v. u. Z.",
+     "vor unserer Zeitrechnung"
+    ],
+    [
+     "n. u. Z.",
+     "nach unserer Zeitrechnung"
+    ]
+   ],
+   "extra": [
+    "vor unserem Zeitalter"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Wähle alle Jahre, die vor Christi Geburt liegen.",
+   "info": "Alle Jahre mit „v. Chr.“ liegen vor dem Nullpunkt, alle mit „n. Chr.“ danach.",
+   "antworten": [
+    "753 v. Chr.",
+    "44 v. Chr.",
+    "30 n. Chr.",
+    "622 n. Chr.",
+    "1969 n. Chr."
+   ],
+   "richtig": [
+    0,
+    1
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Welches dieser Jahre liegt am weitesten zurück?",
+   "tipp": "Bei v. Chr. wird rückwärts gezählt.",
+   "info": "Bei „v. Chr.“ liegt das Jahr mit der größten Zahl am weitesten zurück. 3761 v. Chr. ist deshalb das früheste Jahr.",
+   "antworten": [
+    "3761 v. Chr.",
+    "753 v. Chr.",
+    "44 v. Chr.",
+    "622 n. Chr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Ordne die Jahre vom frühesten zum spätesten.",
+   "tipp": "Bei v. Chr. ist die größere Zahl früher.",
+   "info": "Erst die Jahre v. Chr. (die größte Zahl zuerst: 900, 300, 44), dann die Jahre n. Chr. (die kleinste Zahl zuerst: 30, 800).",
+   "schritte": [
+    "900 v. Chr.",
+    "300 v. Chr.",
+    "44 v. Chr.",
+    "30 n. Chr.",
+    "800 n. Chr."
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Vor und nach Christi Geburt",
+   "frage": "Bei Jahren v. Chr. liegt das Jahr mit der kleineren Zahl früher.",
+   "info": "Es ist umgekehrt: Bei v. Chr. wird rückwärts gezählt, deshalb liegt 300 v. Chr. früher als 200 v. Chr.",
+   "richtig": false
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Wie viele Jahre liegen zwischen 753 v. Chr. und 44 v. Chr.?",
+   "info": "Beide Jahre liegen vor Christi Geburt, also ziehst du ab: 753 − 44 = 709 Jahre.",
+   "richtig": [
+    "709",
+    "709 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Wie viele Jahre liegen zwischen 100 v. Chr. und 50 n. Chr.? Rechne wie in der Schule (ohne Jahr 0).",
+   "tipp": "Die beiden Jahre liegen auf verschiedenen Seiten von Christi Geburt.",
+   "info": "Ein Jahr liegt vor, eins nach Christi Geburt. Du zählst zusammen: 100 + 50 = 150 Jahre.",
+   "richtig": [
+    "150",
+    "150 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Wie viele Jahre liegen zwischen 44 v. Chr. und 800 n. Chr.? Rechne wie in der Schule (ohne Jahr 0).",
+   "info": "Über Christi Geburt hinweg zählst du zusammen: 44 + 800 = 844. Wer 800 − 44 rechnet, vergisst, dass die Jahre auf verschiedenen Seiten liegen.",
+   "antworten": [
+    "844 Jahre",
+    "756 Jahre",
+    "988 Jahre",
+    "1244 Jahre"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Wie rechnest du, wie viele Jahre zwischen 300 v. Chr. und 200 n. Chr. liegen?",
+   "info": "Das eine Jahr liegt vor, das andere nach Christi Geburt. Dann zählst du die beiden Zahlen zusammen.",
+   "antworten": [
+    "300 + 200 = 500 Jahre",
+    "300 − 200 = 100 Jahre",
+    "200 − 300 = −100 Jahre"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Der jüdische Kalender beginnt 3761 v. Chr., der römische 753 v. Chr. Wie viele Jahre liegen dazwischen?",
+   "tipp": "Beide Jahre haben „v. Chr.“.",
+   "info": "Beide Jahre liegen vor Christi Geburt. Du ziehst ab: 3761 − 753 = 3008 Jahre.",
+   "richtig": [
+    "3008",
+    "3008 Jahre",
+    "3.008",
+    "3.008 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Bei welchem Paar liegen die Jahre am weitesten auseinander?",
+   "tipp": "Rechne bei jedem Paar den Abstand aus (wie in der Schule, ohne Jahr 0). Achte darauf, ob die Jahre auf derselben Seite von Christi Geburt liegen.",
+   "info": "500 v. Chr. bis 100 n. Chr.: 500 + 100 = 600 Jahre. Bei den anderen Paaren sind es 150, 500 und 90 Jahre.",
+   "antworten": [
+    "500 v. Chr. und 100 n. Chr.",
+    "200 v. Chr. und 50 v. Chr.",
+    "400 n. Chr. und 900 n. Chr.",
+    "60 v. Chr. und 30 n. Chr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Rechne wie in der Schule (ohne Jahr 0): Zwischen 50 v. Chr. und 50 n. Chr. liegen 100 Jahre.",
+   "info": "50 + 50 = 100. Die Jahre liegen auf verschiedenen Seiten, also zählst du zusammen.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Zwischen 800 n. Chr. und 1450 n. Chr. liegen 2250 Jahre.",
+   "info": "Beide Jahre liegen nach Christi Geburt. Du ziehst ab: 1450 − 800 = 650 Jahre. Zusammenzählen darfst du nur über Christi Geburt hinweg.",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Jahre vergleichen und Abstände berechnen",
+   "frage": "Ergänze die Rechenregeln für Abstände.",
+   "text": "Liegen beide Jahre auf derselben Seite von Christi Geburt, {{ziehst}} du die Zahlen ab. Liegt ein Jahr vor und eins nach Christi Geburt, {{zählst}} du die Zahlen zusammen.",
+   "info": "Gleiche Seite: abziehen. Über Christi Geburt hinweg: zusammenzählen.",
+   "wortbank": [
+    "ziehst",
+    "zählst",
+    "teilst",
+    "multiplizierst"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "Welche Jahre gehören zum 13. Jahrhundert?",
+   "info": "Alle Jahreszahlen, die mit „12“ beginnen, gehören zum 13. Jahrhundert: 12 + 1 = 13.",
+   "antworten": [
+    "1200 bis 1299",
+    "1300 bis 1399",
+    "1100 bis 1199",
+    "1250 bis 1350"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "In welchem Jahrhundert liegt das Jahr 1969?",
+   "tipp": "Streiche „69“ und zähle 1 dazu.",
+   "info": "Die letzten zwei Stellen weglassen: 19. Dann 1 dazuzählen: 19 + 1 = 20. Es ist das 20. Jahrhundert.",
+   "richtig": [
+    "20",
+    "20.",
+    "20. Jahrhundert",
+    "das 20. Jahrhundert",
+    "im 20. Jahrhundert",
+    "20. Jahrhundert n. Chr.",
+    "20. Jh.",
+    "20. Jh"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "In welchem Jahrhundert liegt das Jahr 1450?",
+   "info": "14 + 1 = 15. Das Jahr 1450 liegt im 15. Jahrhundert.",
+   "richtig": [
+    "15",
+    "15.",
+    "15. Jahrhundert",
+    "das 15. Jahrhundert",
+    "im 15. Jahrhundert",
+    "15. Jahrhundert n. Chr.",
+    "15. Jh.",
+    "15. Jh"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "In welchem Jahrhundert liegt das Jahr 44 n. Chr.?",
+   "tipp": "Es ist ein Jahr unter 100.",
+   "info": "Alle Jahre unter 100 gehören zum 1. Jahrhundert. Rechnerisch: 0 + 1 = 1.",
+   "richtig": [
+    "1",
+    "1.",
+    "1. Jahrhundert",
+    "das 1. Jahrhundert",
+    "im 1. Jahrhundert",
+    "1. Jahrhundert n. Chr.",
+    "1. Jh.",
+    "1. Jh"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "Ergänze den Text über Jahrhunderte.",
+   "text": "Das 13. Jahrhundert reicht von {{1200}} bis {{1299}}. Das {{1.}} Jahrhundert umfasst alle Jahre unter {{100}}.",
+   "info": "13. Jahrhundert = 1200 bis 1299. 1. Jahrhundert = die Jahre unter 100.",
+   "wortbank": [
+    "1200",
+    "1299",
+    "1.",
+    "100",
+    "1300",
+    "1100"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "Ordne jedem Jahr sein Jahrhundert zu.",
+   "info": "Rechne: Jahr ohne die letzten zwei Stellen, plus 1. Zum Beispiel 876 → 8 + 1 = 9.",
+   "paare": [
+    [
+     "1517 n. Chr.",
+     "16. Jahrhundert"
+    ],
+    [
+     "1848 n. Chr.",
+     "19. Jahrhundert"
+    ],
+    [
+     "876 n. Chr.",
+     "9. Jahrhundert"
+    ],
+    [
+     "2005 n. Chr.",
+     "21. Jahrhundert"
+    ],
+    [
+     "87 n. Chr.",
+     "1. Jahrhundert"
+    ]
+   ],
+   "extra": [
+    "14. Jahrhundert",
+    "18. Jahrhundert"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "Wie findest du das Jahrhundert eines Jahres?",
+   "info": "Beispiel 1969: 19 + 1 = 20. Das Jahrhundert ist immer um 1 größer als die Zahl vor den letzten zwei Stellen.",
+   "antworten": [
+    "Die letzten zwei Stellen streichen und 1 dazuzählen.",
+    "Die letzte Stelle streichen und 1 dazuzählen.",
+    "Die letzten zwei Stellen streichen, nichts dazuzählen.",
+    "Die Jahreszahl durch 10 teilen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Jahrhunderte bestimmen",
+   "frage": "In welchem Jahrhundert liegt das Jahr 753 v. Chr.?",
+   "tipp": "Gleiche Rechnung wie bei n. Chr.",
+   "info": "Auch bei v. Chr. streichst du die letzten zwei Stellen und zählst 1 dazu: 7 + 1 = 8. (Zusatzwissen, nicht aus Heft oder Buch)",
+   "antworten": [
+    "im 8. Jahrhundert v. Chr.",
+    "im 7. Jahrhundert v. Chr.",
+    "im 1. Jahrhundert v. Chr.",
+    "im 75. Jahrhundert v. Chr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "Ordne jedem Kalender den Beginn seiner Zählung zu.",
+   "info": "Jeder Kalender beginnt bei einem Ereignis, das für das Volk wichtig war.",
+   "paare": [
+    [
+     "christlicher Kalender",
+     "Geburt Christi"
+    ],
+    [
+     "römischer Kalender",
+     "Gründung der Stadt Rom (753 v. Chr.)"
+    ],
+    [
+     "jüdischer Kalender",
+     "Erschaffung der Welt (3761 v. Chr.)"
+    ],
+    [
+     "muslimischer Kalender",
+     "Auszug Mohammeds aus Mekka (622 n. Chr.)"
+    ]
+   ],
+   "extra": [
+    "Tod Julius Caesars (44 v. Chr.)"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "Ordne jedem Kalender seine Art zu.",
+   "info": "Der christliche Kalender folgt der Sonne, der muslimische dem Mond und der jüdische verbindet beides.",
+   "paare": [
+    [
+     "christlicher Kalender",
+     "Sonnenkalender"
+    ],
+    [
+     "muslimischer Kalender",
+     "Mondkalender"
+    ],
+    [
+     "jüdischer Kalender",
+     "kombinierter Sonnen- und Mondkalender"
+    ]
+   ],
+   "extra": [
+    "reiner Sternenkalender"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "In welchem Jahr n. Chr. begann der Auszug Mohammeds aus Mekka, mit dem der muslimische Kalender anfängt?",
+   "info": "Der muslimische Kalender zählt ab dem Auszug Mohammeds aus Mekka im Jahr 622 n. Chr.",
+   "richtig": [
+    "622 n. Chr.",
+    "622 n.Chr.",
+    "622 n. Chr",
+    "622 nach Christus",
+    "622 n. u. Z.",
+    "622"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "Die Römer zählten ihre Jahre ab der Gründung ihrer Stadt. In welchem Jahr v. Chr. war das nach der Sage?",
+   "info": "Nach der Sage wurde Rom 753 v. Chr. gegründet. „ab urbe condita“ heißt „seit Gründung der Stadt“.",
+   "richtig": [
+    "753 v. Chr.",
+    "753 v.Chr.",
+    "753 v. Chr",
+    "753 vor Christus",
+    "753 vor Christi Geburt",
+    "753 v. u. Z.",
+    "753 v.u.Z.",
+    "-753",
+    "−753",
+    "753"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "Welcher dieser Kalender ist ein reiner Mondkalender?",
+   "info": "Der muslimische Kalender folgt allein den Mondphasen. Der christliche ist ein Sonnenkalender, der jüdische verbindet Sonne und Mond.",
+   "antworten": [
+    "der muslimische Kalender",
+    "der christliche Kalender",
+    "der jüdische Kalender"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "Die Römer zählten ihre Jahre ab der Geburt Christi.",
+   "info": "Die Römer zählten ab der Gründung ihrer Stadt (753 v. Chr.). Die Geburt Christi ist der Nullpunkt der christlichen Zeitrechnung.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "Im Jahr 2000 zählte der muslimische Kalender das Jahr 1420, obwohl seit 622 nur 1378 Jahre vergangen waren. Das liegt am kürzeren Mondjahr.",
+   "info": "Das Mondjahr hat nur 354 Tage. In derselben Zeit vergehen also mehr Mondjahre als Sonnenjahre. 1378 Sonnenjahre sind rund 1420 Mondjahre.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Andere Kalender",
+   "frage": "Was bedeutet „ab urbe condita“, wie die Römer ihre Jahre zählten?",
+   "info": "Die Römer zählten ab der sagenhaften Gründung ihrer Stadt Rom (753 v. Chr.).",
+   "antworten": [
+    "seit Gründung der Stadt",
+    "seit dem Ende des Krieges",
+    "seit der Geburt des Kaisers",
+    "vor Christi Geburt"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Zeit und Zeitrechnung",
+   "frage": "Was ist eine Zeiteinteilung und wofür braucht man sie? Antworte in zwei bis drei Sätzen.",
+   "punkte": 3,
+   "muster": "Die Dauer der Zeit nach Gefühl zu schätzen ist unsicher: Manchmal vergeht die Zeit wie im Flug, manchmal gar nicht. Darum haben die Menschen die Zeit gemessen und eingeteilt, mit Uhren und Kalendern. So kann man sich zeitlich orientieren, also sagen, was früher und was später war.",
+   "kriterien": [
+    "Das Zeitgefühl ist unsicher",
+    "Zeit wird mit Uhren und Kalendern gemessen und eingeteilt",
+    "Zweck: sich zeitlich orientieren (früher, später, wie lange her)"
+   ],
+   "lesen": "Warum teilt man die Zeit ein?"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Zeit und Zeitrechnung",
+   "frage": "Erkläre den Unterschied zwischen Mondjahr, Sonnenjahr und Schaltjahr.",
+   "punkte": 3,
+   "muster": "Von Vollmond zu Vollmond vergehen etwa 29,5 Tage, das ist ein Monat. Zwölf Monate ergeben das Mondjahr mit 354 Tagen. Die Jahreszeiten richten sich aber nach der Sonne. Das Sonnenjahr dauert etwa 365 Tage und ist damit 11 Tage länger. Weil auch das nicht ganz genau ist, gibt es alle vier Jahre ein Schaltjahr mit 366 Tagen.",
+   "kriterien": [
+    "Mondjahr: 12 Monate, 354 Tage (Monat etwa 29,5 Tage)",
+    "Sonnenjahr: etwa 365 Tage, passt zu den Jahreszeiten",
+    "Schaltjahr: alle vier Jahre, 366 Tage"
+   ],
+   "lesen": "Mondphasen, Monate und Jahre"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "G – Klausurnah: Zeit und Zeitrechnung",
+   "frage": "Wie viele Jahre liegen zwischen der Gründung Roms (753 v. Chr.) und dem Auszug Mohammeds aus Mekka (622 n. Chr.)? Rechne wie in der Schule (ohne Jahr 0).",
+   "tipp": "Über Christi Geburt hinweg zählt man zusammen.",
+   "info": "Das eine Jahr liegt vor, das andere nach Christi Geburt. Du zählst zusammen: 753 + 622 = 1375 Jahre.",
+   "richtig": [
+    "1375",
+    "1375 Jahre",
+    "1.375",
+    "1.375 Jahre"
+   ],
+   "einheit": "Jahre",
+   "lesen": "Jahre vergleichen und Abstände berechnen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "G – Klausurnah: Zeit und Zeitrechnung",
+   "frage": "Wähle alle richtigen Aussagen.",
+   "info": "Der muslimische Kalender ist ein Mondkalender, und die Römer zählten ab der Gründung ihrer Stadt (753 v. Chr.). Die drei anderen Aussagen stimmen.",
+   "antworten": [
+    "Das Mondjahr hat 354 Tage.",
+    "Ein Schaltjahr hat 366 Tage.",
+    "Das 13. Jahrhundert reicht von 1200 bis 1299.",
+    "Der muslimische Kalender ist ein Sonnenkalender.",
+    "Die Römer zählten ihre Jahre ab der Geburt Christi."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": [
+    "Mondphasen, Monate und Jahre",
+    "Jahrhunderte bestimmen",
+    "Andere Kalender und ihr Beginn"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "G – Klausurnah: Zeit und Zeitrechnung",
+   "frage": "Ordne die Anfänge der Kalender vom frühesten zum spätesten.",
+   "tipp": "Bei v. Chr. ist die größere Zahl früher.",
+   "info": "Bei v. Chr. liegt die größere Zahl früher: erst 3761 v. Chr., dann 753 v. Chr., dann der Nullpunkt, zuletzt 622 n. Chr.",
+   "schritte": [
+    "Beginn des jüdischen Kalenders (3761 v. Chr.)",
+    "Beginn des römischen Kalenders (753 v. Chr.)",
+    "Geburt Christi (Nullpunkt unserer Zeitrechnung)",
+    "Beginn des muslimischen Kalenders (622 n. Chr.)"
+   ],
+   "lesen": "Andere Kalender und ihr Beginn"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Zeit und Zeitrechnung",
+   "frage": "Erkläre unsere Zeitrechnung: Wo beginnt sie, was bedeuten v. Chr. und n. Chr., und wie viele Jahre liegen zwischen 100 v. Chr. und 50 n. Chr. (rechne wie in der Schule, ohne Jahr 0)?",
+   "punkte": 3,
+   "muster": "Unsere Zeitrechnung beginnt mit der Geburt Christi, das ist der Nullpunkt. Die Jahre davor zählt man rückwärts und schreibt v. Chr. (vor Christus). Die Jahre danach schreibt man n. Chr. (nach Christus). Zwischen 100 v. Chr. und 50 n. Chr. liegen 100 + 50 = 150 Jahre, weil man über Christi Geburt hinweg zusammenzählt.",
+   "kriterien": [
+    "Nullpunkt ist die Geburt Christi",
+    "v. Chr. = vor Christus (rückwärts gezählt), n. Chr. = nach Christus",
+    "Abstand 150 Jahre, richtig durch Zusammenzählen"
+   ],
+   "lesen": [
+    "Unsere Zeitrechnung: vor und nach Christi Geburt",
+    "Jahre vergleichen und Abstände berechnen"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Zeit einteilen und messen": [
+   "Warum teilt man die Zeit ein?",
+   "Zeit messen: vom Sonnenstand zur Uhr"
+  ],
+  "B – Mondphasen, Monate und Jahre": "Mondphasen, Monate und Jahre",
+  "C – Vor und nach Christi Geburt": "Unsere Zeitrechnung: vor und nach Christi Geburt",
+  "D – Jahre vergleichen und Abstände berechnen": "Jahre vergleichen und Abstände berechnen",
+  "E – Jahrhunderte bestimmen": "Jahrhunderte bestimmen",
+  "F – Andere Kalender": "Andere Kalender und ihr Beginn",
+  "G – Klausurnah: Zeit und Zeitrechnung": [
+   "Warum teilt man die Zeit ein?",
+   "Mondphasen, Monate und Jahre",
+   "Unsere Zeitrechnung: vor und nach Christi Geburt",
+   "Jahre vergleichen und Abstände berechnen",
+   "Jahrhunderte bestimmen",
+   "Andere Kalender und ihr Beginn"
+  ]
+ },
+ "probe": false
+}

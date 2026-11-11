@@ -780,7 +780,7 @@ function solutionHtml(t) {
   switch (t.typ) {
     case 'mc': return '<ul>' + [].concat(t.richtig).map(i => '<li>' + inl(t.antworten[i]) + '</li>').join('') + '</ul>';
     case 'tf': return t.richtig ? 'Richtig' : 'Falsch';
-    case 'kurz': { const r = [].concat(t.richtig); return '<strong>' + esc(r[0]) + '</strong>' + (r.length > 1 ? ' <span class="muted">(auch möglich: ' + r.slice(1).map(esc).join(' · ') + ')</span>' : ''); }
+    case 'kurz': { const r = [].concat(t.richtig); return '<strong>' + esc(r[0]) + '</strong>' + (r.length > 1 ? ' <span class="muted">(auch möglich: ' + r.slice(1, 5).map(esc).join(' · ') + (r.length > 5 ? ' · …' : '') + ')</span>' : ''); }
     case 'luecke': { let gi = 0; const g = gapsOf(t); return '<div>' + segs(t).map(sg => sg.k === 't' ? inl(sg.v) : '<strong class="fill">' + esc(g[gi++].ans[0]) + '</strong>').join('') + '</div>'; }
     case 'zuordnen': return '<ul>' + t.paare.map(p => '<li>' + inl(p[0]) + ' → <strong>' + esc(p[1]) + '</strong></li>').join('') + '</ul>';
     case 'reihenfolge': return '<ol>' + t.schritte.map(x => '<li>' + inl(x) + '</li>').join('') + '</ol>';

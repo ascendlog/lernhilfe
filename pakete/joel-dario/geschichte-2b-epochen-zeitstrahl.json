@@ -1,0 +1,979 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "geschichte-2b-epochen-zeitstrahl",
+ "titel": "Geschichte Teil 2b: Epochen und Zeitstrahl",
+ "fach": "Geschichte",
+ "klasse": "6",
+ "beschreibung": "Die fünf Epochen mit Namen und Daten, Jahre und Ereignisse den Epochen zuordnen, Zeitstrahl lesen und zeichnen, Abstände berechnen. Mit Lernblatt und vielen Übungsaufgaben.",
+ "hinweis": "Die Epochengrenzen gelten nur ungefähr („ca.“). Ereignisse mit „Zusatzwissen“ im Lernblatt gehen über das Heft hinaus.",
+ "lernblatt": [
+  {
+   "titel": "Die fünf Epochen",
+   "text": "Die Geschichte der Menschen ist sehr lang. Damit man den Überblick behält, teilt man sie in große Abschnitte ein. Diese Abschnitte heißen **Epochen**. Du lernst fünf:\n\n- **Ur- und Frühgeschichte**: bis 3000 v. Chr. Dazu gehört die ganze Steinzeit.\n- **Altertum**: 3000 v. Chr. bis 1000 v. Chr.\n- **Antike**: 1000 v. Chr. bis 500 n. Chr.\n- **Mittelalter**: etwa 500 n. Chr. bis 1500 n. Chr.\n- **Neuzeit**: etwa ab 1500 n. Chr. bis heute.\n\nDie Grenzen gelten nur ungefähr. Darum steht bei manchen Angaben „ca.“ davor.",
+   "merke": "Fünf Epochen: Ur- und Frühgeschichte (bis 3000 v. Chr.), Altertum (3000 bis 1000 v. Chr.), Antike (1000 v. Chr. bis 500 n. Chr.), Mittelalter (500 bis 1500 n. Chr.), Neuzeit (ab 1500 n. Chr.).",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/><text x=\"8\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"start\">Ur- und Frühgeschichte</text><text x=\"8\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"start\">bis 3000 v. Chr.</text><text x=\"234.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Altertum</text><text x=\"234.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">3000–1000 v. Chr.</text><text x=\"451.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Antike</text><text x=\"451.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">1000 v. Chr.–500 n. Chr.</text><text x=\"606.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mittelalter</text><text x=\"606.0\" y=\"188\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">500–1500 n. Chr.</text><text x=\"699.0\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Neuzeit</text><text x=\"699.0\" y=\"204\" font-size=\"13\" font-weight=\"normal\" fill=\"#444\" text-anchor=\"middle\">ab 1500 n. Chr.</text></svg>",
+   "bildAlt": "Zeitstrahl mit fünf farbigen Balken nebeneinander: Ur- und Frühgeschichte, Altertum, Antike, Mittelalter und Neuzeit, jeweils mit ihren Jahreszahlen darunter."
+  },
+  {
+   "titel": "Reihenfolge und Abkürzungen der Epochen",
+   "text": "Lerne die Epochen in dieser Reihenfolge, vom ältesten zum jüngsten: Ur- und Frühgeschichte, Altertum, Antike, Mittelalter, Neuzeit.\n\n- Abkürzungen: **MA** steht für Mittelalter, **NZ** für Neuzeit.\n- Altertum und Antike sind zwei verschiedene Epochen. Das Altertum kommt zuerst.\n- Wie lange dauern die Epochen? Das Altertum 2000 Jahre (3000 − 1000), die Antike 1500 Jahre (1000 + 500) und das Mittelalter 1000 Jahre (1500 − 500).",
+   "merke": "Reihenfolge: Ur- und Frühgeschichte, Altertum, Antike, Mittelalter (MA), Neuzeit (NZ)."
+  },
+  {
+   "titel": "Die Epoche eines Jahres bestimmen",
+   "text": "So bestimmst du die Epoche eines Jahres:\n\n- Schau, ob das Jahr v. Chr. oder n. Chr. ist.\n- Vergleiche es mit den Grenzen: 3000 v. Chr., 1000 v. Chr., 500 n. Chr. und 1500 n. Chr.\n- Denke daran: Bei v. Chr. ist die größere Zahl früher.\n\nBeispiele: 4000 v. Chr. ist früher als 3000 v. Chr., also Ur- und Frühgeschichte. 2000 v. Chr. liegt zwischen 3000 und 1000 v. Chr., also Altertum. 300 v. Chr. liegt nach 1000 v. Chr., aber vor Christi Geburt, also Antike. 1200 n. Chr. liegt zwischen 500 und 1500, also Mittelalter. 1969 n. Chr. liegt nach 1500, also Neuzeit.\nIn Aufgaben liegt ein Jahr nicht genau auf einer Grenze.",
+   "merke": "Erst v. Chr. oder n. Chr. klären, dann mit den Grenzen vergleichen. Bei v. Chr. gilt: größere Zahl = früher."
+  },
+  {
+   "titel": "Ereignisse den Epochen zuordnen",
+   "text": "Um ein Ereignis einer Epoche zuzuordnen, brauchst du seine Jahreszahl. Diese Beispiele solltest du kennen:\n\n- **Steinzeit** (Lucy, Altsteinzeit, Jungsteinzeit): Ur- und Frühgeschichte. Ötzi lebte zwischen 3359 und 3105 v. Chr., also auch dort.\n- Beginn des Ackerbaus in Mitteleuropa, ab etwa 5700 v. Chr.: Ur- und Frühgeschichte.\n- Bau der großen Pyramide von Gizeh, um 2500 v. Chr.: Altertum. (Zusatzwissen, nicht aus Heft oder Buch)\n- griechische Sonnenuhr, 3. Jahrhundert v. Chr.: Antike.\n- Gründung Roms nach der Sage, 753 v. Chr.: Antike.\n- Tod Julius Caesars, 44 v. Chr.: Antike.\n- Auszug Mohammeds aus Mekka, 622: Mittelalter.\n- mechanische Uhr in Deutschland, um 1400: Mittelalter.\n- erste Mondlandung, 1969: Neuzeit. (Zusatzwissen, nicht aus Heft oder Buch)",
+   "merke": "Jahreszahl des Ereignisses suchen und mit den Epochengrenzen vergleichen. Die Steinzeit gehört zur Ur- und Frühgeschichte."
+  },
+  {
+   "titel": "Wofür ein Zeitstrahl gut ist",
+   "text": "Ein **Zeitstrahl** ist eine gezeichnete Linie, auf der man Ereignisse in ihrer zeitlichen Abfolge darstellt. Links liegt das Frühere, rechts das Spätere. So siehst du auf einen Blick, was zuerst geschah und wie weit zwei Ereignisse auseinanderliegen.\nChristi Geburt ist der Nullpunkt: links davon liegen die Jahre v. Chr., rechts die Jahre n. Chr. Im Bild steht der Punkt A für den Tod Julius Caesars (44 v. Chr.). Auch die Epochen kann man als Abschnitte auf einen Zeitstrahl zeichnen.",
+   "merke": "Ein Zeitstrahl stellt Ereignisse in ihrer zeitlichen Abfolge dar. Links ist früher, rechts ist später.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text><line x1=\"298.9\" y1=\"118\" x2=\"298.9\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"298.9\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"298.9\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"298.9\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">A</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit einem Punkt A zwischen 50 v. Chr. und 40 v. Chr."
+  },
+  {
+   "titel": "Einen Zeitstrahl zeichnen und lesen",
+   "text": "Beim Zeichnen wählst du einen **Maßstab**. Er sagt, wie viele Jahre ein Zentimeter bedeutet. Beispiel: **10 Jahre = 1 cm**. Die Länge rechnest du so aus: Jahre geteilt durch 10 ergibt die Zentimeter. 80 Jahre sind 8 cm.\nSo zeichnest du einen Zeitstrahl von 100 v. Chr. bis 50 n. Chr.:\n\n- Länge berechnen: 150 Jahre : 10 = 15 cm.\n- Eine Linie von 15 cm zeichnen.\n- Alle 10 Jahre, also alle 1 cm, einen Strich setzen.\n- Wichtige Jahre beschriften: 100 v. Chr. (0 cm), 50 v. Chr. (5 cm), Christi Geburt (10 cm) und 50 n. Chr. (15 cm).\n- Ereignisse eintragen. Beispiel 44 v. Chr.: Es liegt 56 Jahre nach 100 v. Chr., also bei 5,6 cm.\n\nZwei Wörter helfen bei Aufgaben: Ein **Jahrzehnt** sind 10 Jahre. Das 4. Jahrzehnt des 1. Jahrhunderts n. Chr. sind die Jahre 30 bis 39 n. Chr. Das 1. Jahrhundert v. Chr. sind die Jahre 100 bis 1 v. Chr., seine zweite Hälfte reicht also von 50 v. Chr. bis Christi Geburt.",
+   "merke": "Zentimeter = Jahre : 10 (bei 10 Jahre = 1 cm). Position = Jahre seit dem Anfang des Zeitstrahls : 10.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 190\" width=\"760\" height=\"190\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"190\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"110\" x2=\"710\" y2=\"110\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60\" y1=\"98\" x2=\"60\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0</text><line x1=\"102\" y1=\"102\" x2=\"102\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"102\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1</text><line x1=\"144\" y1=\"102\" x2=\"144\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"144\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2</text><line x1=\"186\" y1=\"102\" x2=\"186\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"186\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3</text><line x1=\"228\" y1=\"102\" x2=\"228\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"228\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4</text><line x1=\"270\" y1=\"98\" x2=\"270\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"270\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5</text><line x1=\"312\" y1=\"102\" x2=\"312\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"312\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6</text><line x1=\"354\" y1=\"102\" x2=\"354\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"354\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">7</text><line x1=\"396\" y1=\"102\" x2=\"396\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"396\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">8</text><line x1=\"438\" y1=\"102\" x2=\"438\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"438\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">9</text><line x1=\"480\" y1=\"98\" x2=\"480\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"480\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">10</text><line x1=\"522\" y1=\"102\" x2=\"522\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"522\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">11</text><line x1=\"564\" y1=\"102\" x2=\"564\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"564\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">12</text><line x1=\"606\" y1=\"102\" x2=\"606\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"606\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">13</text><line x1=\"648\" y1=\"102\" x2=\"648\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"648\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">14</text><line x1=\"690\" y1=\"98\" x2=\"690\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"690\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">15</text><text x=\"60\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">100 v. Chr.</text><text x=\"270\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 v. Chr.</text><text x=\"480\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Christi Geburt</text><text x=\"690\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 n. Chr.</text><text x=\"50\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">cm</text><line x1=\"295.2\" y1=\"110\" x2=\"295.2\" y2=\"62\" stroke=\"#e2701a\" stroke-width=\"2.5\"/><circle cx=\"295.2\" cy=\"110\" r=\"6\" fill=\"#e2701a\"/><text x=\"295.2\" y=\"54\" font-size=\"16\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">44 v. Chr. = 5,6 cm</text></svg>",
+   "bildAlt": "Lineal von 0 bis 15 cm. Darunter die Jahre 100 v. Chr. (0 cm), 50 v. Chr. (5 cm), Christi Geburt (10 cm) und 50 n. Chr. (15 cm). Eine Markierung bei 5,6 cm zeigt das Jahr 44 v. Chr."
+  },
+  {
+   "titel": "Abstände zwischen Ereignissen berechnen",
+   "text": "Wie viele Jahre liegen zwischen zwei Ereignissen?\n\n- Beide Jahre auf derselben Seite von Christi Geburt: **abziehen**. Von der Gründung Roms (753 v. Chr.) bis zum Tod Caesars (44 v. Chr.) sind es 753 − 44 = 709 Jahre.\n- Ein Jahr vor und eins nach Christi Geburt: **zusammenzählen**. Vom Tod Caesars (44 v. Chr.) bis zum Auszug Mohammeds aus Mekka (622 n. Chr.) sind es 44 + 622 = 666 Jahre.\n\nStreng genommen gibt es kein Jahr 0. In der Schule rechnest du trotzdem so (ohne Jahr 0). In Aufgaben steht dann „Rechne wie in der Schule“.\nSteht bei einem Ereignis „um“ oder „ca.“, ist auch das Ergebnis nur ungefähr.",
+   "merke": "Gleiche Seite: abziehen. Über Christi Geburt hinweg: zusammenzählen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "Welche Epoche kommt direkt nach dem Altertum?",
+   "tipp": "Altertum und Antike sind zwei verschiedene Epochen.",
+   "info": "Die Reihenfolge lautet: Ur- und Frühgeschichte, Altertum, Antike, Mittelalter, Neuzeit.",
+   "antworten": [
+    "Antike",
+    "Mittelalter",
+    "Neuzeit",
+    "Ur- und Frühgeschichte"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "Ordne die fünf Epochen vom ältesten zum jüngsten.",
+   "info": "Von ganz früh bis heute: Ur- und Frühgeschichte, Altertum, Antike, Mittelalter, Neuzeit.",
+   "schritte": [
+    "Ur- und Frühgeschichte",
+    "Altertum",
+    "Antike",
+    "Mittelalter",
+    "Neuzeit"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "Ordne jeder Epoche ihren Zeitraum zu.",
+   "tipp": "Die Antike ist die einzige Epoche, die über Christi Geburt hinweggeht.",
+   "info": "Die Grenzen sind 3000 v. Chr., 1000 v. Chr., 500 n. Chr. und 1500 n. Chr.",
+   "paare": [
+    [
+     "Ur- und Frühgeschichte",
+     "bis 3000 v. Chr."
+    ],
+    [
+     "Altertum",
+     "3000 bis 1000 v. Chr."
+    ],
+    [
+     "Antike",
+     "1000 v. Chr. bis 500 n. Chr."
+    ],
+    [
+     "Mittelalter",
+     "500 bis 1500 n. Chr."
+    ],
+    [
+     "Neuzeit",
+     "ab 1500 n. Chr."
+    ]
+   ],
+   "extra": [
+    "2000 bis 1000 v. Chr."
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "Wofür steht die Abkürzung MA?",
+   "info": "MA heißt Mittelalter. Es dauerte etwa von 500 bis 1500 n. Chr.",
+   "richtig": [
+    "Mittelalter",
+    "das Mittelalter"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "Wofür steht die Abkürzung NZ?",
+   "info": "NZ heißt Neuzeit. Sie beginnt etwa 1500 n. Chr. und dauert bis heute.",
+   "richtig": [
+    "Neuzeit",
+    "die Neuzeit"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "Ergänze den Text über die Epochen.",
+   "text": "Die Geschichte teilt man in {{Epochen}} ein. Die erste heißt {{Ur- und Frühgeschichte}} und reicht bis 3000 v. Chr. Auf das {{Altertum}} folgt die {{Antike}}. Danach kommen das {{Mittelalter}} und die {{Neuzeit}}.",
+   "info": "Epochen sind große Abschnitte der Geschichte. Es sind fünf, vom ältesten zum jüngsten.",
+   "wortbank": [
+    "Epochen",
+    "Ur- und Frühgeschichte",
+    "Altertum",
+    "Antike",
+    "Mittelalter",
+    "Neuzeit",
+    "Eiszeit"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "In wie viele Epochen teilt man die Geschichte hier ein?",
+   "info": "Es sind fünf: Ur- und Frühgeschichte, Altertum, Antike, Mittelalter und Neuzeit.",
+   "antworten": [
+    "5 Epochen",
+    "3 Epochen",
+    "4 Epochen",
+    "7 Epochen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Die fünf Epochen kennen",
+   "frage": "Das Mittelalter dauerte etwa 1000 Jahre.",
+   "info": "Es reicht von etwa 500 bis etwa 1500 n. Chr. Das sind 1500 − 500 = 1000 Jahre.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "In welcher Epoche liegt das Jahr 1200 n. Chr.?",
+   "info": "1200 liegt zwischen 500 und 1500 n. Chr. Das ist das Mittelalter.",
+   "antworten": [
+    "Mittelalter",
+    "Ur- und Frühgeschichte",
+    "Altertum",
+    "Antike"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "Welches dieser Jahre gehört zur Ur- und Frühgeschichte?",
+   "tipp": "Die Ur- und Frühgeschichte endet 3000 v. Chr. Bei v. Chr. ist die größere Zahl früher.",
+   "info": "3500 v. Chr. ist früher als 3000 v. Chr. (bei v. Chr. ist die größere Zahl früher). Alle späteren Jahre gehören zu anderen Epochen.",
+   "antworten": [
+    "3500 v. Chr.",
+    "1500 v. Chr.",
+    "300 v. Chr.",
+    "800 n. Chr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "In welcher Epoche liegt das Jahr 2000 v. Chr.?",
+   "info": "2000 v. Chr. liegt zwischen 3000 v. Chr. und 1000 v. Chr. Das ist das Altertum.",
+   "antworten": [
+    "Altertum",
+    "Ur- und Frühgeschichte",
+    "Antike",
+    "Neuzeit"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "In welcher Epoche liegt das Jahr?",
+   "tipp": "Die Antike geht von 1000 v. Chr. bis 500 n. Chr.",
+   "info": "Vergleiche jedes Jahr mit den Grenzen 3000 v. Chr., 1000 v. Chr., 500 n. Chr. und 1500 n. Chr.",
+   "paare": [
+    [
+     "4000 v. Chr.",
+     "Ur- und Frühgeschichte"
+    ],
+    [
+     "2000 v. Chr.",
+     "Altertum"
+    ],
+    [
+     "200 v. Chr.",
+     "Antike"
+    ],
+    [
+     "300 n. Chr.",
+     "Antike"
+    ],
+    [
+     "900 n. Chr.",
+     "Mittelalter"
+    ],
+    [
+     "1800 n. Chr.",
+     "Neuzeit"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "Nenne die Epoche, zu der das Jahr 700 n. Chr. gehört.",
+   "info": "700 liegt zwischen 500 und 1500 n. Chr. Das ist das Mittelalter (MA).",
+   "richtig": [
+    "Mittelalter",
+    "das Mittelalter",
+    "MA"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "Ergänze die Epochen der Jahre.",
+   "text": "Das Jahr 1300 n. Chr. liegt im {{Mittelalter}}. Das Jahr 1500 v. Chr. gehört zum {{Altertum}}. Das Jahr 400 v. Chr. gehört zur {{Antike}}. Das Jahr 5000 v. Chr. liegt in der {{Ur- und Frühgeschichte}}.",
+   "info": "Jedes Jahr mit den Grenzen vergleichen: 3000 v. Chr., 1000 v. Chr., 500 n. Chr., 1500 n. Chr.",
+   "wortbank": [
+    "Mittelalter",
+    "Altertum",
+    "Antike",
+    "Ur- und Frühgeschichte",
+    "Neuzeit",
+    "Eiszeit"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "Das Jahr 800 v. Chr. gehört zum Altertum.",
+   "tipp": "Vergleiche 800 v. Chr. mit der Grenze 1000 v. Chr.: Welches der beiden Jahre ist später?",
+   "info": "800 v. Chr. liegt nach 1000 v. Chr. (die Zahl ist kleiner, das Jahr also später). Es gehört deshalb zur Antike.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "Das Jahr 1700 n. Chr. gehört zur Neuzeit.",
+   "info": "Die Neuzeit beginnt etwa 1500 n. Chr. 1700 liegt danach.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Epoche eines Jahres bestimmen",
+   "frage": "Wähle alle Jahre, die zur Antike gehören.",
+   "tipp": "Achte auf v. Chr. und n. Chr.",
+   "info": "Die Antike reicht von 1000 v. Chr. bis 500 n. Chr. 2000 v. Chr. liegt davor (Altertum), 900 n. Chr. danach (Mittelalter).",
+   "antworten": [
+    "600 v. Chr.",
+    "100 n. Chr.",
+    "400 n. Chr.",
+    "2000 v. Chr.",
+    "900 n. Chr."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": "Die Epoche eines Jahres bestimmen"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "Ordne jedem Ereignis seine Epoche zu.",
+   "info": "Vergleiche die Jahreszahl mit den Epochengrenzen: Ötzi vor 3000 v. Chr., Rom 1000 v. Chr. bis 500 n. Chr., Mohammed und die mechanische Uhr 500 bis 1500, Pyramide (3000 bis 1000 v. Chr.) und Mondlandung (nach 1500) sind Zusatzwissen, nicht aus Heft oder Buch.",
+   "paare": [
+    [
+     "Ötzis Leben (3359 bis 3105 v. Chr.)",
+     "Ur- und Frühgeschichte"
+    ],
+    [
+     "Bau der großen Pyramide von Gizeh (um 2500 v. Chr.)",
+     "Altertum"
+    ],
+    [
+     "Gründung Roms nach der Sage (753 v. Chr.)",
+     "Antike"
+    ],
+    [
+     "Auszug Mohammeds aus Mekka (622 n. Chr.)",
+     "Mittelalter"
+    ],
+    [
+     "mechanische Uhr in Deutschland (um 1400)",
+     "Mittelalter"
+    ],
+    [
+     "erste Mondlandung (1969)",
+     "Neuzeit"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "In welcher Epoche begann der Auszug Mohammeds aus Mekka (622 n. Chr.)?",
+   "info": "622 liegt zwischen 500 und 1500 n. Chr. Das ist das Mittelalter.",
+   "antworten": [
+    "Mittelalter",
+    "Antike",
+    "Neuzeit",
+    "Altertum"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "Welches dieser Ereignisse gehört zur Neuzeit?",
+   "info": "Die Neuzeit beginnt etwa 1500 n. Chr. Nur die erste Mondlandung (1969) liegt danach. (Zusatzwissen, nicht aus Heft oder Buch)",
+   "antworten": [
+    "erste Mondlandung (1969)",
+    "Gründung Roms nach der Sage (753 v. Chr.)",
+    "Tod Julius Caesars (44 v. Chr.)",
+    "Auszug Mohammeds aus Mekka (622 n. Chr.)"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "Welches dieser Ereignisse gehört in die Ur- und Frühgeschichte?",
+   "info": "Ötzi lebte vor 3000 v. Chr. Das ist Ur- und Frühgeschichte (Steinzeit). Die anderen drei Ereignisse liegen nach 1000 v. Chr.",
+   "antworten": [
+    "Ötzis Leben (3359 bis 3105 v. Chr.)",
+    "Tod Julius Caesars (44 v. Chr.)",
+    "mechanische Uhr in Deutschland (um 1400)",
+    "griechische Sonnenuhr (3. Jahrhundert v. Chr.)"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "Ötzi lebte in der Antike.",
+   "tipp": "Wann beginnt die Antike?",
+   "info": "Ötzi lebte zwischen 3359 und 3105 v. Chr. und damit vor 3000 v. Chr. Das ist die Ur- und Frühgeschichte.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "Die ganze Steinzeit gehört zur Ur- und Frühgeschichte.",
+   "info": "Die Jungsteinzeit endet um 3000 v. Chr., und genau dort endet auch die Ur- und Frühgeschichte.",
+   "richtig": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "In welcher Epoche wurde Rom nach der Sage gegründet (753 v. Chr.)?",
+   "info": "753 v. Chr. liegt nach 1000 v. Chr. und vor Christi Geburt. Das ist die Antike.",
+   "richtig": [
+    "Antike",
+    "die Antike"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "Ordne die Ereignisse nach der Zeit. Das früheste steht oben.",
+   "tipp": "Zuerst die Jahre v. Chr. (größere Zahl zuerst), dann die Jahre n. Chr.",
+   "info": "Ötzi (3359 bis 3105 v. Chr.), Gründung Roms (753 v. Chr.), Caesar (44 v. Chr.), Auszug Mohammeds (622), mechanische Uhr (um 1400), Mondlandung (1969; Zusatzwissen, nicht aus Heft oder Buch).",
+   "schritte": [
+    "Ötzis Leben (3359 bis 3105 v. Chr.)",
+    "Gründung Roms nach der Sage (753 v. Chr.)",
+    "Tod Julius Caesars (44 v. Chr.)",
+    "Auszug Mohammeds aus Mekka (622 n. Chr.)",
+    "mechanische Uhr in Deutschland (um 1400)",
+    "erste Mondlandung (1969)"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Ereignisse den Epochen zuordnen",
+   "frage": "Ergänze die Epochen.",
+   "text": "Ötzi lebte in der {{Ur- und Frühgeschichte}}. Der Tod Caesars (44 v. Chr.) liegt in der {{Antike}}. Der Auszug Mohammeds aus Mekka (622 n. Chr.) liegt im {{Mittelalter}}. Die erste Mondlandung (1969) gehört zur {{Neuzeit}}.",
+   "info": "Jahr mit den Grenzen vergleichen: vor 3000 v. Chr., 1000 v. Chr. bis 500 n. Chr., 500 bis 1500, nach 1500. Die Mondlandung ist Zusatzwissen, nicht aus Heft oder Buch.",
+   "wortbank": [
+    "Ur- und Frühgeschichte",
+    "Antike",
+    "Mittelalter",
+    "Neuzeit",
+    "Altertum",
+    "Eiszeit"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Welche Nummer trägt im Bild die Epoche, die um 1500 n. Chr. beginnt?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"65.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"65.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"234.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"234.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"451.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"451.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"606.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"606.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"699.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"699.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/></svg>",
+   "bildAlt": "Fünf farbige Balken nebeneinander, von links nach rechts mit den Nummern 1 bis 5 versehen. Sie zeigen die fünf Epochen in zeitlicher Reihenfolge.",
+   "tipp": "Die Nummern gehen vom ältesten zum jüngsten.",
+   "info": "Um 1500 n. Chr. beginnt die Neuzeit. Sie ist die fünfte und jüngste Epoche, ganz rechts.",
+   "antworten": [
+    "5",
+    "2",
+    "3",
+    "4"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Welche Epoche trägt welche Nummer im Bild?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"65.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"65.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"234.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"234.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"451.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"451.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"606.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"606.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"699.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"699.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/></svg>",
+   "bildAlt": "Fünf farbige Balken nebeneinander, von links nach rechts mit den Nummern 1 bis 5 versehen. Sie zeigen die fünf Epochen in zeitlicher Reihenfolge.",
+   "info": "Links liegt das Älteste, rechts das Jüngste: 1 Ur- und Frühgeschichte, 2 Altertum, 3 Antike, 4 Mittelalter, 5 Neuzeit.",
+   "paare": [
+    [
+     "Nummer 1",
+     "Ur- und Frühgeschichte"
+    ],
+    [
+     "Nummer 2",
+     "Altertum"
+    ],
+    [
+     "Nummer 3",
+     "Antike"
+    ],
+    [
+     "Nummer 4",
+     "Mittelalter"
+    ],
+    [
+     "Nummer 5",
+     "Neuzeit"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Welche Nummer trägt im Bild die Epoche, in der Christi Geburt liegt?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 214\" width=\"760\" height=\"214\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"214\" fill=\"#ffffff\"/><rect x=\"20.0\" y=\"96\" width=\"90.0\" height=\"46\" fill=\"#c9b8a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"65.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"65.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">1</text><rect x=\"110.0\" y=\"96\" width=\"248.0\" height=\"46\" fill=\"#e8c27a\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"234.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"234.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">2</text><rect x=\"358.0\" y=\"96\" width=\"186.0\" height=\"46\" fill=\"#9fc5a0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"451.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"451.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">3</text><rect x=\"544.0\" y=\"96\" width=\"124.0\" height=\"46\" fill=\"#8fb8d8\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"606.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"606.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">4</text><rect x=\"668.0\" y=\"96\" width=\"62.0\" height=\"46\" fill=\"#d4a0c0\" stroke=\"#555\" stroke-width=\"1.5\"/><circle cx=\"699.0\" cy=\"119.0\" r=\"13\" fill=\"#e2701a\"/><text x=\"699.0\" y=\"124.5\" font-size=\"15\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">5</text><polygon points=\"20,119.0 6,110.0 6,128.0\" fill=\"#555\"/></svg>",
+   "bildAlt": "Fünf farbige Balken nebeneinander, von links nach rechts mit den Nummern 1 bis 5 versehen. Sie zeigen die fünf Epochen in zeitlicher Reihenfolge.",
+   "tipp": "Liegt Christi Geburt vor oder nach 1000 v. Chr., und vor oder nach 500 n. Chr.?",
+   "info": "Christi Geburt liegt zwischen 1000 v. Chr. und 500 n. Chr. Das ist die Antike, Nummer 3.",
+   "antworten": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Welches Jahr zeigt der Punkt B auf dem Zeitstrahl?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text><line x1=\"145.3\" y1=\"118\" x2=\"145.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"145.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"145.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">A</text><line x1=\"316.0\" y1=\"118\" x2=\"316.0\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"316.0\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"316.0\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"316.0\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"529.3\" y1=\"118\" x2=\"529.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"529.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"529.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"529.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">C</text><line x1=\"657.3\" y1=\"118\" x2=\"657.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"657.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"657.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"657.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">D</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit den vier Punkten A, B, C und D. Zwischen den beschrifteten Strichen liegt alle 10 Jahre ein kleiner Strich.",
+   "tipp": "Zähle die Striche von Christi Geburt aus. Zwischen zwei Strichen liegen 10 Jahre.",
+   "info": "Der Punkt B liegt links von Christi Geburt, vier Striche (40 Jahre) davor: 40 v. Chr.",
+   "richtig": [
+    "40 v. Chr.",
+    "40 v.Chr.",
+    "40 v. Chr",
+    "40 vor Christus",
+    "40 vor Christi Geburt",
+    "40 v. u. Z.",
+    "40 v.u.Z.",
+    "-40",
+    "−40",
+    "40"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Wie viele Jahre liegen zwischen Punkt A und Punkt C? Rechne wie in der Schule (ohne Jahr 0).",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text><line x1=\"145.3\" y1=\"118\" x2=\"145.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"145.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"145.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">A</text><line x1=\"316.0\" y1=\"118\" x2=\"316.0\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"316.0\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"316.0\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"316.0\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"529.3\" y1=\"118\" x2=\"529.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"529.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"529.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"529.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">C</text><line x1=\"657.3\" y1=\"118\" x2=\"657.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"657.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"657.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"657.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">D</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit den vier Punkten A, B, C und D. Zwischen den beschrifteten Strichen liegt alle 10 Jahre ein kleiner Strich.",
+   "info": "A liegt bei 80 v. Chr., C bei 10 n. Chr. Über Christi Geburt hinweg zählst du zusammen: 80 + 10 = 90 Jahre.",
+   "richtig": [
+    "90",
+    "90 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Wähle alle Punkte, die vor Christi Geburt liegen.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text><line x1=\"145.3\" y1=\"118\" x2=\"145.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"145.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"145.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">A</text><line x1=\"316.0\" y1=\"118\" x2=\"316.0\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"316.0\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"316.0\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"316.0\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"529.3\" y1=\"118\" x2=\"529.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"529.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"529.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"529.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">C</text><line x1=\"657.3\" y1=\"118\" x2=\"657.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"657.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"657.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"657.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">D</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit den vier Punkten A, B, C und D. Zwischen den beschrifteten Strichen liegt alle 10 Jahre ein kleiner Strich.",
+   "info": "Links von Christi Geburt liegen die Jahre v. Chr. Das sind A und B.",
+   "antworten": [
+    "Punkt A",
+    "Punkt B",
+    "Punkt C",
+    "Punkt D"
+   ],
+   "richtig": [
+    0,
+    1
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Das Ereignis D liegt auf dem Zeitstrahl rechts von C. Es geschah also später.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text><line x1=\"145.3\" y1=\"118\" x2=\"145.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"145.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"145.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">A</text><line x1=\"316.0\" y1=\"118\" x2=\"316.0\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"316.0\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"316.0\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"316.0\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">B</text><line x1=\"529.3\" y1=\"118\" x2=\"529.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"529.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"529.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"529.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">C</text><line x1=\"657.3\" y1=\"118\" x2=\"657.3\" y2=\"66\" stroke=\"#e2701a\" stroke-width=\"2\"/><circle cx=\"657.3\" cy=\"118\" r=\"5\" fill=\"#e2701a\"/><circle cx=\"657.3\" cy=\"52\" r=\"14\" fill=\"#e2701a\"/><text x=\"657.3\" y=\"57.5\" font-size=\"16\" font-weight=\"bold\" fill=\"#fff\" text-anchor=\"middle\">D</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit den vier Punkten A, B, C und D. Zwischen den beschrifteten Strichen liegt alle 10 Jahre ein kleiner Strich.",
+   "info": "Auf einem Zeitstrahl liegt das Spätere weiter rechts.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Ergänze den Text über den Zeitstrahl.",
+   "text": "Ein Zeitstrahl stellt Ereignisse in ihrer zeitlichen {{Abfolge}} dar. Links liegt das {{Frühere}}, rechts das {{Spätere}}. Der Nullpunkt ist {{Christi Geburt}}.",
+   "info": "Auf einem Zeitstrahl liest du von links nach rechts: früher, dann später. Bei Christi Geburt wechseln v. Chr. und n. Chr.",
+   "wortbank": [
+    "Abfolge",
+    "Frühere",
+    "Spätere",
+    "Christi Geburt",
+    "Lautstärke",
+    "Mondphase"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Welchen Zeitraum zeigt der Bereich E?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><rect x=\"273.3\" y=\"88\" width=\"213.3\" height=\"30\" fill=\"#ffe3b0\" stroke=\"#e2701a\" stroke-width=\"2\"/><text x=\"380.0\" y=\"109\" font-size=\"17\" font-weight=\"bold\" fill=\"#a14a00\" text-anchor=\"middle\">E</text><rect x=\"614.7\" y=\"88\" width=\"42.7\" height=\"30\" fill=\"#ffe3b0\" stroke=\"#e2701a\" stroke-width=\"2\"/><text x=\"636.0\" y=\"109\" font-size=\"17\" font-weight=\"bold\" fill=\"#a14a00\" text-anchor=\"middle\">F</text><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit zwei farbigen Bereichen E und F über der Linie.",
+   "info": "E beginnt beim Strich 50 v. Chr. und endet bei Christi Geburt. Das ist die zweite Hälfte des 1. Jahrhunderts v. Chr.",
+   "antworten": [
+    "50 v. Chr. bis Christi Geburt",
+    "Christi Geburt bis 50 n. Chr.",
+    "100 v. Chr. bis 50 v. Chr.",
+    "50 v. Chr. bis 50 n. Chr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Zeitstrahl lesen",
+   "frage": "Welche Jahre zeigt der Bereich F?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 170\" width=\"760\" height=\"170\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"170\" fill=\"#ffffff\"/><rect x=\"273.3\" y=\"88\" width=\"213.3\" height=\"30\" fill=\"#ffe3b0\" stroke=\"#e2701a\" stroke-width=\"2\"/><text x=\"380.0\" y=\"109\" font-size=\"17\" font-weight=\"bold\" fill=\"#a14a00\" text-anchor=\"middle\">E</text><rect x=\"614.7\" y=\"88\" width=\"42.7\" height=\"30\" fill=\"#ffe3b0\" stroke=\"#e2701a\" stroke-width=\"2\"/><text x=\"636.0\" y=\"109\" font-size=\"17\" font-weight=\"bold\" fill=\"#a14a00\" text-anchor=\"middle\">F</text><line x1=\"40\" y1=\"118\" x2=\"720\" y2=\"118\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60.0\" y1=\"106\" x2=\"60.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">100 v. Chr.</text><line x1=\"102.7\" y1=\"111\" x2=\"102.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"145.3\" y1=\"111\" x2=\"145.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"188.0\" y1=\"111\" x2=\"188.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"230.7\" y1=\"111\" x2=\"230.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"273.3\" y1=\"106\" x2=\"273.3\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"273.3\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 v. Chr.</text><line x1=\"316.0\" y1=\"111\" x2=\"316.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"358.7\" y1=\"111\" x2=\"358.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"401.3\" y1=\"111\" x2=\"401.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"444.0\" y1=\"111\" x2=\"444.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"486.7\" y1=\"106\" x2=\"486.7\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"486.7\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Christi Geburt</text><line x1=\"529.3\" y1=\"111\" x2=\"529.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"572.0\" y1=\"111\" x2=\"572.0\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"614.7\" y1=\"111\" x2=\"614.7\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"657.3\" y1=\"111\" x2=\"657.3\" y2=\"125\" stroke=\"#222\" stroke-width=\"1.4\"/><line x1=\"700.0\" y1=\"106\" x2=\"700.0\" y2=\"130\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"700.0\" y=\"152\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">50 n. Chr.</text></svg>",
+   "bildAlt": "Zeitstrahl von 100 v. Chr. bis 50 n. Chr. mit zwei farbigen Bereichen E und F über der Linie.",
+   "tipp": "Rechts von Christi Geburt sind die Jahre n. Chr.",
+   "info": "F liegt rechts von Christi Geburt, also n. Chr. Er beginnt beim Strich 30 und endet beim Strich 40.",
+   "antworten": [
+    "30 bis 40 n. Chr.",
+    "20 bis 30 n. Chr.",
+    "30 bis 40 v. Chr.",
+    "3 bis 4 n. Chr."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Du zeichnest einen Zeitstrahl mit dem Maßstab 10 Jahre = 1 cm. Wie viele cm sind 80 Jahre?",
+   "info": "80 Jahre : 10 = 8 cm. Je 10 Jahre ist 1 cm.",
+   "richtig": [
+    "8",
+    "8 cm"
+   ],
+   "einheit": "cm"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Wie lang ist ein Zeitstrahl von 100 v. Chr. bis 50 n. Chr. bei 10 Jahre = 1 cm?",
+   "info": "Von 100 v. Chr. bis 50 n. Chr. sind es 100 + 50 = 150 Jahre. 150 : 10 = 15 cm.",
+   "antworten": [
+    "15 cm",
+    "10 cm",
+    "5 cm",
+    "150 cm"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Zwei Ereignisse liegen auf dem Zeitstrahl 6,5 cm auseinander (10 Jahre = 1 cm). Wie viele Jahre liegen dazwischen?",
+   "tipp": "Jeder Zentimeter sind 10 Jahre.",
+   "info": "6,5 cm × 10 Jahre = 65 Jahre.",
+   "richtig": [
+    "65",
+    "65 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Der Zeitstrahl beginnt bei 100 v. Chr. (0 cm). Bei wie viel cm liegt das Jahr 27 v. Chr.?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 190\" width=\"760\" height=\"190\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"190\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"110\" x2=\"710\" y2=\"110\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60\" y1=\"98\" x2=\"60\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0</text><line x1=\"102\" y1=\"102\" x2=\"102\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"102\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1</text><line x1=\"144\" y1=\"102\" x2=\"144\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"144\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2</text><line x1=\"186\" y1=\"102\" x2=\"186\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"186\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3</text><line x1=\"228\" y1=\"102\" x2=\"228\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"228\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4</text><line x1=\"270\" y1=\"98\" x2=\"270\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"270\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5</text><line x1=\"312\" y1=\"102\" x2=\"312\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"312\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6</text><line x1=\"354\" y1=\"102\" x2=\"354\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"354\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">7</text><line x1=\"396\" y1=\"102\" x2=\"396\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"396\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">8</text><line x1=\"438\" y1=\"102\" x2=\"438\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"438\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">9</text><line x1=\"480\" y1=\"98\" x2=\"480\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"480\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">10</text><line x1=\"522\" y1=\"102\" x2=\"522\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"522\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">11</text><line x1=\"564\" y1=\"102\" x2=\"564\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"564\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">12</text><line x1=\"606\" y1=\"102\" x2=\"606\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"606\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">13</text><line x1=\"648\" y1=\"102\" x2=\"648\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"648\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">14</text><line x1=\"690\" y1=\"98\" x2=\"690\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"690\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">15</text><text x=\"60\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">100 v. Chr.</text><text x=\"270\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 v. Chr.</text><text x=\"480\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Christi Geburt</text><text x=\"690\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 n. Chr.</text><text x=\"50\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">cm</text></svg>",
+   "bildAlt": "Lineal von 0 bis 15 cm mit den Jahren 100 v. Chr. (0 cm), 50 v. Chr. (5 cm), Christi Geburt (10 cm) und 50 n. Chr. (15 cm).",
+   "tipp": "Rechne zuerst, wie viele Jahre nach dem Anfang das Jahr liegt.",
+   "info": "Von 100 v. Chr. bis 27 v. Chr. sind es 100 − 27 = 73 Jahre. 73 : 10 = 7,3 cm.",
+   "richtig": [
+    "7,3",
+    "7.3",
+    "7,3 cm",
+    "7.3 cm"
+   ],
+   "einheit": "cm"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Auf demselben Zeitstrahl (Anfang 100 v. Chr. bei 0 cm): Bei wie viel cm liegt das Jahr 20 n. Chr.?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 190\" width=\"760\" height=\"190\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"190\" fill=\"#ffffff\"/><line x1=\"40\" y1=\"110\" x2=\"710\" y2=\"110\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"60\" y1=\"98\" x2=\"60\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"60\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">0</text><line x1=\"102\" y1=\"102\" x2=\"102\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"102\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">1</text><line x1=\"144\" y1=\"102\" x2=\"144\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"144\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">2</text><line x1=\"186\" y1=\"102\" x2=\"186\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"186\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">3</text><line x1=\"228\" y1=\"102\" x2=\"228\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"228\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">4</text><line x1=\"270\" y1=\"98\" x2=\"270\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"270\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">5</text><line x1=\"312\" y1=\"102\" x2=\"312\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"312\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">6</text><line x1=\"354\" y1=\"102\" x2=\"354\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"354\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">7</text><line x1=\"396\" y1=\"102\" x2=\"396\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"396\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">8</text><line x1=\"438\" y1=\"102\" x2=\"438\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"438\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">9</text><line x1=\"480\" y1=\"98\" x2=\"480\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"480\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">10</text><line x1=\"522\" y1=\"102\" x2=\"522\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"522\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">11</text><line x1=\"564\" y1=\"102\" x2=\"564\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"564\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">12</text><line x1=\"606\" y1=\"102\" x2=\"606\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"606\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">13</text><line x1=\"648\" y1=\"102\" x2=\"648\" y2=\"118\" stroke=\"#222\" stroke-width=\"1.4\"/><text x=\"648\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">14</text><line x1=\"690\" y1=\"98\" x2=\"690\" y2=\"122\" stroke=\"#222\" stroke-width=\"2.4\"/><text x=\"690\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">15</text><text x=\"60\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">100 v. Chr.</text><text x=\"270\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 v. Chr.</text><text x=\"480\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">Christi Geburt</text><text x=\"690\" y=\"168\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">50 n. Chr.</text><text x=\"50\" y=\"140\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"end\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\" stroke-linejoin=\"round\">cm</text></svg>",
+   "bildAlt": "Lineal von 0 bis 15 cm mit den Jahren 100 v. Chr. (0 cm), 50 v. Chr. (5 cm), Christi Geburt (10 cm) und 50 n. Chr. (15 cm).",
+   "tipp": "Über Christi Geburt hinweg zählst du zusammen.",
+   "info": "Von 100 v. Chr. bis 20 n. Chr. sind es 100 + 20 = 120 Jahre. 120 : 10 = 12 cm.",
+   "antworten": [
+    "12 cm",
+    "8 cm",
+    "2 cm",
+    "10 cm"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Der Maßstab ist 1 cm = 100 Jahre. Wie lang ist der Zeitstrahl von 500 bis 1500 n. Chr. (das Mittelalter)?",
+   "info": "Das Mittelalter dauert 1500 − 500 = 1000 Jahre. 1000 : 100 = 10 cm.",
+   "antworten": [
+    "10 cm",
+    "1 cm",
+    "100 cm",
+    "15 cm"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Ordne die Schritte beim Zeichnen eines Zeitstrahls.",
+   "info": "Erst die Länge, dann die Linie mit Strichen, dann die Beschriftung, zuletzt die Ereignisse.",
+   "schritte": [
+    "Anfang und Ende festlegen und die Länge berechnen",
+    "Eine Linie in dieser Länge zeichnen",
+    "Alle 10 Jahre einen Strich setzen",
+    "Wichtige Jahreszahlen an die Striche schreiben",
+    "Ereignisse an der richtigen Stelle eintragen"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Zeitstrahl zeichnen und Maßstab",
+   "frage": "Ergänze die Rechnungen beim Maßstab 10 Jahre = 1 cm.",
+   "text": "100 Jahre sind {{10}} cm lang. 150 Jahre sind {{15}} cm lang. 30 Jahre sind {{3}} cm lang.",
+   "info": "Zentimeter = Jahre : 10. 100 : 10 = 10, 150 : 10 = 15, 30 : 10 = 3.",
+   "wortbank": [
+    "10",
+    "15",
+    "3",
+    "1",
+    "100"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Abstände und Reihenfolgen",
+   "frage": "Die Antike beginnt etwa 1000 v. Chr. Etwa wie viele Jahre später starb Julius Caesar (44 v. Chr.)?",
+   "tipp": "Beide Jahre haben „v. Chr.“.",
+   "info": "Beide Jahre liegen vor Christi Geburt. Du ziehst ab: 1000 − 44 = 956 Jahre. Weil die Epochengrenze nur ungefähr gilt, ist das Ergebnis ungefähr.",
+   "richtig": [
+    "956",
+    "956 Jahre",
+    "ca. 956",
+    "ca. 956 Jahre",
+    "etwa 956",
+    "etwa 956 Jahre",
+    "ungefähr 956",
+    "ungefähr 956 Jahre",
+    "950",
+    "ca. 950",
+    "etwa 950",
+    "ungefähr 950"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Abstände und Reihenfolgen",
+   "frage": "Wie viele Jahre liegen zwischen dem Tod Julius Caesars (44 v. Chr.) und dem Auszug Mohammeds aus Mekka (622 n. Chr.)? Rechne wie in der Schule (ohne Jahr 0).",
+   "info": "Das eine Ereignis liegt vor, das andere nach Christi Geburt. Du zählst zusammen: 44 + 622 = 666 Jahre.",
+   "richtig": [
+    "666",
+    "666 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Abstände und Reihenfolgen",
+   "frage": "Etwa wie viele Jahre liegen zwischen dem Auszug Mohammeds aus Mekka (622 n. Chr.) und den ersten mechanischen Uhren in Deutschland (um 1400)?",
+   "tipp": "Beide Jahre haben „n. Chr.“.",
+   "info": "Beide Jahre liegen nach Christi Geburt: 1400 − 622 = 778 Jahre. Weil die mechanische Uhr nur „um“ 1400 datiert ist, ist das Ergebnis ungefähr.",
+   "richtig": [
+    "778",
+    "778 Jahre",
+    "ca. 778",
+    "ca. 778 Jahre",
+    "etwa 778",
+    "etwa 778 Jahre",
+    "ungefähr 778",
+    "ungefähr 778 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Abstände und Reihenfolgen",
+   "frage": "Welche dieser drei Epochen dauerte am kürzesten?",
+   "tipp": "Rechne die Dauer jeder Epoche aus.",
+   "info": "Mittelalter: 1000 Jahre (500 bis 1500). Antike: 1500 Jahre (1000 v. Chr. bis 500 n. Chr.). Altertum: 2000 Jahre (3000 bis 1000 v. Chr.).",
+   "antworten": [
+    "Mittelalter",
+    "Altertum",
+    "Antike"
+   ],
+   "richtig": 0,
+   "lesen": "Reihenfolge und Abkürzungen der Epochen"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Abstände und Reihenfolgen",
+   "frage": "Die Jungsteinzeit dauerte etwa von 9000 bis 3000 v. Chr. Wie viele Jahre waren das ungefähr?",
+   "info": "Beide Jahre liegen vor Christi Geburt. Du ziehst ab: 9000 − 3000 = 6000 Jahre. Die Jungsteinzeit war also sehr lang.",
+   "richtig": [
+    "6000",
+    "6000 Jahre",
+    "6.000",
+    "6.000 Jahre",
+    "ca. 6000",
+    "ca. 6000 Jahre",
+    "ca. 6.000",
+    "ca. 6.000 Jahre",
+    "etwa 6000",
+    "etwa 6000 Jahre",
+    "etwa 6.000",
+    "etwa 6.000 Jahre",
+    "ungefähr 6000",
+    "ungefähr 6000 Jahre",
+    "ungefähr 6.000",
+    "ungefähr 6.000 Jahre"
+   ],
+   "einheit": "Jahre"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Abstände und Reihenfolgen",
+   "frage": "Wofür ist ein Zeitstrahl gut?",
+   "info": "Auf dem Zeitstrahl liegt das Frühere links und das Spätere rechts. So sieht man, was zuerst geschah und wie weit zwei Ereignisse auseinanderliegen.",
+   "antworten": [
+    "Er zeigt Ereignisse in ihrer zeitlichen Abfolge.",
+    "Er zeigt, wie weit Orte voneinander entfernt sind.",
+    "Er zeigt, wo ein Ereignis stattgefunden hat.",
+    "Er zeigt, wie viele Menschen zu einer Zeit lebten."
+   ],
+   "richtig": 0,
+   "lesen": "Wofür ein Zeitstrahl gut ist"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "F – Abstände und Reihenfolgen",
+   "frage": "Ordne diese Neuerungen der Steinzeit nach der Zeit. Das Älteste steht oben. (Den Stoff kennst du aus den Aufgaben zur Alt- und Jungsteinzeit.)",
+   "tipp": "Zuerst die Zeiten „vor Jahren“, dann die Jahre v. Chr. mit der größeren Zahl zuerst.",
+   "info": "Feuer nutzen (vor ca. 1,5 Mio. Jahren), selbst erzeugen (vor ca. 150 000 Jahren), sesshaft werden (um 9000 v. Chr.), Keramik (ca. 7000 v. Chr.), Pflug (ca. 4500 v. Chr.).",
+   "schritte": [
+    "Feuer nutzen (vor ca. 1,5 Mio. Jahren)",
+    "Feuer selbst erzeugen (vor ca. 150 000 Jahren)",
+    "Sesshaft werden, Ackerbau beginnt (um 9000 v. Chr.)",
+    "Keramik (seit ca. 7000 v. Chr.)",
+    "Pflug in Mitteleuropa (ca. 4500 v. Chr.)"
+   ],
+   "lesen": "Die Epoche eines Jahres bestimmen"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Epochen und Zeitstrahl",
+   "frage": "Nenne die fünf Epochen in der richtigen Reihenfolge mit ihren Jahreszahlen und den Abkürzungen für Mittelalter und Neuzeit.",
+   "punkte": 4,
+   "muster": "1. Ur- und Frühgeschichte: bis 3000 v. Chr.; 2. Altertum: 3000 bis 1000 v. Chr.; 3. Antike: 1000 v. Chr. bis 500 n. Chr.; 4. Mittelalter (MA): 500 bis 1500 n. Chr.; 5. Neuzeit (NZ): ab 1500 n. Chr.",
+   "kriterien": [
+    "alle fünf Epochen genannt",
+    "in der richtigen Reihenfolge (vom ältesten zum jüngsten)",
+    "Grenzen richtig: 3000 v. Chr., 1000 v. Chr., 500 n. Chr., 1500 n. Chr.",
+    "Abkürzungen MA und NZ richtig"
+   ],
+   "lesen": [
+    "Die fünf Epochen",
+    "Reihenfolge und Abkürzungen der Epochen"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Epochen und Zeitstrahl",
+   "frage": "Zeichne auf Papier einen Zeitstrahl von 1000 v. Chr. bis 2000 n. Chr. (1 cm = 100 Jahre) und trage Antike, Mittelalter und Neuzeit ein. Schreibe hier auf, wie lang dein Zeitstrahl ist und bei wie viel cm die Epochengrenzen liegen.",
+   "tipp": "Zentimeter = Jahre : 100. Zähle ab 1000 v. Chr. (0 cm).",
+   "punkte": 4,
+   "muster": "Der Zeitstrahl ist 3000 Jahre : 100 = 30 cm lang. 1000 v. Chr. liegt bei 0 cm (Beginn der Antike), Christi Geburt bei 10 cm, 500 n. Chr. bei 15 cm (Ende der Antike, Beginn des Mittelalters), 1500 n. Chr. bei 25 cm (Beginn der Neuzeit) und 2000 n. Chr. bei 30 cm. Die Antike reicht also von 0 bis 15 cm, das Mittelalter von 15 bis 25 cm und die Neuzeit von 25 bis 30 cm.",
+   "kriterien": [
+    "Länge 30 cm richtig berechnet",
+    "Epochengrenzen bei 0, 15, 25 cm richtig",
+    "Antike, Mittelalter und Neuzeit in der richtigen Reihenfolge eingetragen",
+    "Zeitstrahl beschriftet"
+   ],
+   "lesen": [
+    "Einen Zeitstrahl zeichnen und lesen",
+    "Reihenfolge und Abkürzungen der Epochen"
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Klausurnah: Epochen und Zeitstrahl",
+   "frage": "Zeichne auf Papier einen Zeitstrahl von 100 v. Chr. bis 50 n. Chr. (10 Jahre = 1 cm). Trage ein: die zweite Hälfte des 1. Jahrhunderts v. Chr., das Todesjahr Julius Caesars (44 v. Chr.) und das 4. Jahrzehnt des 1. Jahrhunderts n. Chr. (30 bis 39 n. Chr.). Schreibe auf, wie lang der Zeitstrahl ist und bei wie viel cm vom linken Ende die Einträge liegen.",
+   "tipp": "Rechne bei jedem Eintrag: Jahre seit 100 v. Chr., geteilt durch 10. Ein Jahrzehnt sind 10 Jahre.",
+   "punkte": 5,
+   "muster": "Der Zeitstrahl ist 150 Jahre : 10 = 15 cm lang. Die zweite Hälfte des 1. Jahrhunderts v. Chr. (50 v. Chr. bis Christi Geburt) reicht von 5 cm bis 10 cm. Das Todesjahr Caesars (44 v. Chr.) liegt 56 Jahre nach dem Anfang, also bei 5,6 cm. Das 4. Jahrzehnt (30 bis 39 n. Chr.) reicht von 13 cm bis 13,9 cm.",
+   "kriterien": [
+    "Länge 15 cm richtig",
+    "zweite Hälfte des 1. Jh. v. Chr.: 5 bis 10 cm",
+    "Caesar bei 5,6 cm",
+    "30 bis 39 n. Chr.: 13 bis etwa 14 cm",
+    "Zeitstrahl mit Strichen und Jahreszahlen beschriftet"
+   ],
+   "lesen": [
+    "Einen Zeitstrahl zeichnen und lesen",
+    "Wofür ein Zeitstrahl gut ist"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "G – Klausurnah: Epochen und Zeitstrahl",
+   "frage": "Wähle alle richtigen Aussagen.",
+   "info": "Die Neuzeit beginnt um 1500 n. Chr. und dauert bis heute. Das Altertum (3000 bis 1000 v. Chr.) liegt vor der Antike.",
+   "antworten": [
+    "Die Antike reicht von 1000 v. Chr. bis 500 n. Chr.",
+    "Ötzi lebte in der Ur- und Frühgeschichte.",
+    "MA ist die Abkürzung für Mittelalter.",
+    "Die Neuzeit endete um 1500 n. Chr.",
+    "Das Altertum kommt zeitlich nach der Antike."
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ],
+   "lesen": [
+    "Die fünf Epochen",
+    "Die Epoche eines Jahres bestimmen",
+    "Ereignisse den Epochen zuordnen"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "G – Klausurnah: Epochen und Zeitstrahl",
+   "frage": "Ordne die Ereignisse den Epochen zu. Diesmal stehen keine Jahreszahlen dabei.",
+   "info": "Ötzi lebte vor 3000 v. Chr., Rom (753 v. Chr.) und Caesar (44 v. Chr.) gehören zur Antike, Mohammeds Auszug (622) ins Mittelalter. Die Pyramide (um 2500 v. Chr., Altertum) und die Mondlandung (1969, Neuzeit) sind Zusatzwissen, nicht aus Heft oder Buch.",
+   "paare": [
+    [
+     "Gründung Roms",
+     "Antike"
+    ],
+    [
+     "Ötzi",
+     "Ur- und Frühgeschichte"
+    ],
+    [
+     "Tod Julius Caesars",
+     "Antike"
+    ],
+    [
+     "Auszug Mohammeds aus Mekka",
+     "Mittelalter"
+    ],
+    [
+     "erste Mondlandung",
+     "Neuzeit"
+    ],
+    [
+     "Bau der großen Pyramide von Gizeh",
+     "Altertum"
+    ]
+   ],
+   "lesen": "Ereignisse den Epochen zuordnen"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "G – Klausurnah: Epochen und Zeitstrahl",
+   "frage": "Wie heißt die Epoche, die etwa 1500 n. Chr. beginnt und bis heute dauert?",
+   "info": "Die Neuzeit beginnt etwa 1500 n. Chr. Die Abkürzung ist NZ.",
+   "richtig": [
+    "Neuzeit",
+    "die Neuzeit",
+    "NZ"
+   ],
+   "lesen": "Die fünf Epochen"
+  }
+ ],
+ "nachlesen": {
+  "A – Die fünf Epochen kennen": [
+   "Die fünf Epochen",
+   "Reihenfolge und Abkürzungen der Epochen"
+  ],
+  "B – Die Epoche eines Jahres bestimmen": "Die Epoche eines Jahres bestimmen",
+  "C – Ereignisse den Epochen zuordnen": "Ereignisse den Epochen zuordnen",
+  "D – Zeitstrahl lesen": [
+   "Wofür ein Zeitstrahl gut ist",
+   "Einen Zeitstrahl zeichnen und lesen"
+  ],
+  "E – Zeitstrahl zeichnen und Maßstab": "Einen Zeitstrahl zeichnen und lesen",
+  "F – Abstände und Reihenfolgen": [
+   "Abstände zwischen Ereignissen berechnen",
+   "Wofür ein Zeitstrahl gut ist"
+  ],
+  "G – Klausurnah: Epochen und Zeitstrahl": [
+   "Die fünf Epochen",
+   "Reihenfolge und Abkürzungen der Epochen",
+   "Die Epoche eines Jahres bestimmen",
+   "Ereignisse den Epochen zuordnen",
+   "Wofür ein Zeitstrahl gut ist",
+   "Einen Zeitstrahl zeichnen und lesen",
+   "Abstände zwischen Ereignissen berechnen"
+  ]
+ },
+ "probe": false
+}
