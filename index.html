@@ -38,9 +38,12 @@ main{max-width:1040px;margin:0 auto;padding:1.4rem 1.2rem 4rem;outline:none}
 .hero{display:flex;flex-wrap:wrap;gap:1rem 2.5rem;align-items:flex-end;justify-content:space-between;margin:.5rem 0 1.6rem}
 .hero h1{margin:0 0 .35rem}
 .lead{font-size:1.05rem;color:var(--muted);margin:0}
-.stats{display:flex;gap:1.8rem}
-.stat b{display:block;font:700 2rem/1 var(--display);font-variant-numeric:tabular-nums}
+.lead .link{text-align:left}
+.stats{display:flex;flex-wrap:wrap;gap:.8rem 1.8rem}
+.stat b{display:block;font:700 2rem/1 var(--display);font-variant-numeric:tabular-nums;white-space:nowrap}
+.stat b i{font-style:normal;font-size:1rem;font-weight:600;color:var(--muted)}
 .stat span{color:var(--muted);font-size:.85rem}
+@media (max-width:420px){.stats{gap:.8rem 1.1rem}.stat b{font-size:1.6rem}}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.2rem 1.35rem;margin:0 0 1rem}
 .row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
 .toolbar{display:flex;flex-wrap:wrap;gap:.6rem;margin:0 0 1.4rem}
@@ -733,11 +736,40 @@ function packCard(p) {
 ${trend}
 <div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span>${verwalten ? `<button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button>` : ''}</div></article>`;
 }
-function statsHtml() {
+/* Lernstand für die Startseite: nur Pakete, die gerade importiert sind; je Paket zählt der letzte vollständige Durchgang (ohne "Fehler wiederholen") */
+function lernStand() {
+  const ps = db.pakete, alle = [], letzte = [];
+  ps.forEach(p => {
+    const rs = (db.ergebnisse[p.id] || []).filter(r => r && r.max);
+    rs.forEach(r => alle.push(r));
+    const voll = rs.filter(r => !r.teil);
+    if (voll.length) letzte.push({ p, pct: pctOf(voll[voll.length - 1]) });
+  });
+  const zuletzt = alle.reduce((m, r) => Math.max(m, +r.t || 0), 0);
+  const uebbar = letzte.filter(x => x.p.ueben !== false); /* eine Probearbeit ist kein Thema zum Üben */
+  const basis = uebbar.length ? uebbar : letzte; /* Ø ohne Probearbeit, damit er zum Hinweis oben passt */
+  const schwach = uebbar.length >= 2 ? uebbar.reduce((a, b) => (b.pct < a.pct ? b : a)) : null;
+  return { gesamt: ps.length, geuebt: letzte.length, zuletzt, schnitt: basis.length ? Math.round(basis.reduce((a, x) => a + x.pct, 0) / basis.length) : null, schwach, nUebbar: uebbar.length };
+}
+function zuletztText(t) {
+  if (!t) return '–';
+  const n = new Date(t), h = new Date();
+  const tage = Math.round((Date.UTC(h.getFullYear(), h.getMonth(), h.getDate()) - Date.UTC(n.getFullYear(), n.getMonth(), n.getDate())) / 864e5);
+  if (tage <= 0) return 'heute';
+  if (tage === 1) return 'gestern';
+  if (tage <= 30) return 'vor ' + tage + ' Tagen';
+  return fmtDate(t);
+}
+function statsHtml(ls) {
   if (!db.pakete.length) return '';
-  const all = Object.values(db.ergebnisse).flat().filter(r => r && r.max);
-  const avg = all.length ? Math.round(all.reduce((a, r) => a + pctOf(r), 0) / all.length) + ' %' : '–';
-  return `<div class="stats"><div class="stat"><b>${db.pakete.length}</b><span>${db.pakete.length === 1 ? 'Paket' : 'Pakete'}</span></div><div class="stat"><b>${all.length}</b><span>${all.length === 1 ? 'Durchgang' : 'Durchgänge'}</span></div><div class="stat"><b>${avg}</b><span>Ø Ergebnis</span></div></div>`;
+  return `<div class="stats"><div class="stat"><b>${ls.geuebt}<i>/${ls.gesamt}</i></b><span>${ls.gesamt === 1 ? 'Paket' : 'Pakete'} geübt</span></div><div class="stat"><b>${zuletztText(ls.zuletzt)}</b><span>zuletzt geübt</span></div><div class="stat" title="Durchschnitt aus dem letzten Ergebnis jedes Pakets"><b>${ls.schnitt === null ? '–' : ls.schnitt + ' %'}</b><span>Ø aktuell</span></div></div>`;
+}
+/* Die Zeile unter "Hallo": bei Schwächen ein konkreter Hinweis, sonst der Standardtext */
+function leadHtml(ls) {
+  const w = ls.schwach;
+  if (w && w.pct < 75) return `Zum Wiederholen: <button type="button" class="link" data-act="ueben" data-id="${esc(w.p.id)}">${esc(w.p.titel)} (${w.pct} %)</button>`;
+  if (w && ls.nUebbar >= 2) return 'Alle geübten Pakete liegen bei 75 % oder mehr.';
+  return cur.art === 'erwachsen' ? 'Übungsaufgaben fürs Studium – am Bildschirm.' : 'Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.';
 }
 let verwalten = false; /* Verwaltung (Import, Löschen) ist standardmäßig ausgeblendet, gilt nur für diese Sitzung */
 /* Eingeklappte Paket-Gruppen je Person: nur eine Bequemlichkeit, wird im Browser gemerkt (ohne Speicher gilt sie für die Sitzung) */
@@ -749,7 +781,8 @@ function zuSet() {
 function renderHome() {
   $('#crumb').textContent = '';
   const s = db.session, sp = s && getPack(s.id), w = wort();
-  let h = `<div class="hero"><div><h1>Hallo ${esc(cur.name)}!</h1><p class="lead">${cur.art === 'erwachsen' ? 'Übungsaufgaben fürs Studium – am Bildschirm.' : 'Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.'}</p></div>${statsHtml()}</div>`;
+  const ls = lernStand();
+  let h = `<div class="hero"><div><h1>Hallo ${esc(cur.name)}!</h1><p class="lead">${leadHtml(ls)}</p></div>${statsHtml(ls)}</div>`;
   if (s && sp && s.done) {
     const tt = totals(sp, s), offen = s.order.filter(i => sp.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
     h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> abgegeben<div class="muted">${s.modus === 'test' ? w.probe : s.teil ? 'Fehler wiederholen' : 'Üben'}, ${+tt.got.toFixed(1)} von ${tt.max} Punkten${offen ? ` · ${offen} ${offen === 1 ? 'freie Aufgabe' : 'freie Aufgaben'} noch ohne Selbstbewertung` : ''}</div></div><div class="row"><button class="btn" data-act="resume">Ergebnis ansehen</button><button class="btn ghost" data-act="finish-home">Schließen</button></div></div>`;
