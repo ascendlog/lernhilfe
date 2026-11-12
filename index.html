@@ -333,6 +333,21 @@ html[data-theme=light] .k-rang{color:color-mix(in srgb,var(--tc) 60%,#000);text-
 #konf{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:40}
 @media (max-width:600px){.leiter{grid-template-columns:repeat(5,1fr);row-gap:.7rem}.kgrid{grid-template-columns:repeat(2,1fr)}.agrid{grid-template-columns:repeat(2,1fr)}.bl-st{font-size:1.15rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.eltxt{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;font-size:.95rem;max-height:45vh;overflow:auto}
+.note:empty{display:none}
+.elcode{font:700 1.35rem/1.2 ui-monospace,Consolas,monospace;letter-spacing:.08em;user-select:all}
+.elst{display:inline-flex;align-items:center;gap:.5rem;font-weight:600;font-size:.92rem}
+.elst::before{content:"";flex:none;width:.65rem;height:.65rem;border-radius:50%;background:var(--part)}
+.elst.ok::before{background:var(--ok)}.elst.bad::before{background:var(--bad)}
+.ekind h2{margin:0;font-size:1.35rem}
+.ek-head{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center;margin-bottom:.8rem}
+.ek-pk{display:grid;grid-template-columns:minmax(0,1fr) 9rem 3.2rem;gap:.3rem .9rem;align-items:center;padding:.5rem 0;border-top:1px solid var(--line)}
+.ek-pk .t{font-weight:600;overflow-wrap:anywhere}
+.ek-pk .s{font-size:.82rem;font-weight:400;color:var(--muted)}
+.ek-pk .b{text-align:right;font-weight:650;font-variant-numeric:tabular-nums}
+.ek-bar{height:.55rem;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.ek-bar i{display:block;height:100%;border-radius:99px;background:var(--c,var(--accent))}
+@media (max-width:560px){.ek-pk{grid-template-columns:minmax(0,1fr) 3.2rem}.ek-bar{grid-column:1/-1;grid-row:2}}
 </style>
 </head>
 <body>
@@ -730,6 +745,8 @@ window.addEventListener('hashchange', render);
 function render() {
   closeDialog(); stopTimer();
   const seg = (location.hash || '#/').replace(/^#\/?/, '').split('/');
+  if (seg[0] !== 'eltern') rw(elternStop);
+  if (seg[0] === 'eltern' && !seg[1]) { leavePerson(); window.scrollTo(0, 0); return renderEltern(); }
   const p = personById(seg[0]);
   window.scrollTo(0, 0);
   if (!p) {
@@ -757,7 +774,7 @@ function renderChooser() {
   $('#app').innerHTML = '<div class="hero"><div><h1>Wer lernt heute?</h1><p class="lead">Jede Person hat ihre eigenen Lernpakete und Ergebnisse.</p></div></div><div class="who-grid">' + PERSONEN.map(p => {
     const k = peek(p.id);
     return `<button class="who" style="--ph:${p.h};--pa:${p.farbe}" data-act="person" data-id="${esc(p.id)}"><span class="ini" aria-hidden="true">${esc(p.name[0])}</span><span class="nm">${esc(p.name)}</span><span class="info">${k.n ? k.n + (k.n === 1 ? ' Lernpaket' : ' Lernpakete') : 'Noch keine Lernpakete'}</span>${k.last ? `<span class="info">Zuletzt geübt am ${fmtDate(k.last)}</span>` : ''}</button>`;
-  }).join('') + '</div>';
+  }).join('') + '</div><p class="legend" style="margin-top:1.4rem"><button class="link" data-act="eltern-ansicht">Eltern-Ansicht</button> – so üben die Kinder (Stand der Kinder ansehen)</p>';
 }
 function pctOf(r) { return Math.round(100 * r.got / r.max); }
 /* Termine: Pakete mit gleichem Fach und gleichem "termin" bilden einen Plan. Nach dem Termintag verschwindet er von der Startseite. */
@@ -880,7 +897,9 @@ function renderHome() {
     const days = db.gesichert ? Math.floor((Date.now() - db.gesichert) / 864e5) : null;
     h += `<p class="legend">${db.gesichert ? 'Letzte Sicherung: ' + fmtDate(db.gesichert) : 'Noch keine Sicherung erstellt.'}${days === null || days > 30 ? ' – <button class="link" data-act="backup">jetzt sichern</button>' : ''}</p>`;
   }
+  h += rw(elternHomeHtml, '');
   $('#app').innerHTML = h;
+  rw(elternRetry);
 }
 
 /* ========== Lernblatt ========== */
@@ -1165,11 +1184,13 @@ function saveResult() {
   const arr = db.ergebnisse[s.id] = db.ergebnisse[s.id] || [];
   const e = { t: s.resultT, modus: s.modus, teil: !!s.teil, got: +tt.got.toFixed(2), max: tt.max };
   if (s.limit) e.sek = Math.round((s.zeit || 0) / 1000);
+  if (!s.teil) rw(() => { const gr = teilGruppen(p, s); if (gr.length >= 2) e.teile = gr.map(g => [teilName(g.name).slice(0, 60), g.pct]); }); /* für die Eltern-Ansicht: welcher Teil war am schwächsten */
   const k = arr.findIndex(x => x.t === s.resultT);
   if (k >= 0) arr[k] = e; else arr.push(e);
   if (arr.length > 40) arr.splice(0, arr.length - 40);
   rw(() => durchgangFertig(p, s, tt));
   save(true);
+  rw(elternAuto);
 }
 function finish(auto) {
   const { s, p } = curTask();
@@ -1232,7 +1253,7 @@ function renderResult() {
   const unrated = s.order.filter(i => p.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
   const anim = !s.ringShown; s.ringShown = true; /* der Ring läuft nur beim ersten Anzeigen ein */
   const rc = tt.pct >= 75 ? 'var(--ok)' : tt.pct >= 50 ? 'var(--part)' : 'var(--bad)';
-  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten</div>` : ''}${s.zeitUm ? `<p class="note">Die Zeit war um, die ${wort().probe} wurde automatisch abgegeben. Aufgaben ohne Antwort zählen als nicht gelöst.</p>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${rw(() => rwErgebnisHtml(s), '')}${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
+  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten</div>` : ''}${s.zeitUm ? `<p class="note">Die Zeit war um, die ${wort().probe} wurde automatisch abgegeben. Aufgaben ohne Antwort zählen als nicht gelöst.</p>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button>${rw(elternKnopfHtml, '')}<button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div>${rw(elternStatusHtml, '')}</div>${rw(() => rwErgebnisHtml(s), '')}${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
   if (anim) requestAnimationFrame(() => requestAnimationFrame(() => { const r = $('#ringval'); if (r) r.setAttribute('stroke-dasharray', tt.pct + ' 100'); }));
   save();
 }
@@ -1505,6 +1526,342 @@ ${kl.length ? `<ul class="kgrid">${kl.map(karteHtml).join('')}</ul>` : `<p class
   save();
 }
 
+/* ========== Eltern: Text zum Teilen und Live-Ansicht (nur Kinder, nicht Saskia) ========== */
+/* Beiwerk wie die Belohnungen: Ein Fehler hier darf das Üben nie stören (alles läuft über rw). Die Live-Verbindung steht direkt zwischen den Geräten
+   (WebRTC über PeerJS, wie in der Quiz-App); der Vermittlungsserver sieht nur, dass sich zwei Geräte verbinden, nicht die Daten.
+   Eltern-Gerät: speichert den Familiencode und den letzten Stand je Kind (EL_KEY). Kinder-Gerät: kennt nur den Code (EL_CODE), der Rest steht in db.eltern. */
+const kindP = () => !!(cur && db && cur.art === 'kind');
+const EL_PREFIX = 'lh-eltern-', EL_ALPHA = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
+const PEER_URL = 'https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js';
+const EL_KEY = 'lernhilfe.eltern.v1', EL_CODE = 'lernhilfe.elterncode';
+const elCodeNorm = s => String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
+const elCodeOk = c => c.length === 12 && [...c].every(ch => EL_ALPHA.includes(ch));
+const elCodeShow = c => (c.match(/.{1,4}/g) || []).join('-');
+function elCodeNeu() {
+  const a = new Uint8Array(12);
+  if (window.crypto && crypto.getRandomValues) crypto.getRandomValues(a); else for (let i = 0; i < a.length; i++) a[i] = Math.floor(Math.random() * 256);
+  return [...a].map(b => EL_ALPHA[b % EL_ALPHA.length]).join('');
+}
+const kindCode = () => { try { const c = elCodeNorm(localStorage.getItem(EL_CODE)); return elCodeOk(c) ? c : ''; } catch (e) { return ''; } };
+const setKindCode = c => { try { if (c) localStorage.setItem(EL_CODE, c); else localStorage.removeItem(EL_CODE); return true; } catch (e) { return false; } };
+function elRead() {
+  const o = readRaw(EL_KEY) || {}, c = elCodeNorm(o.code);
+  return { code: elCodeOk(c) ? c : '', kinder: o.kinder && typeof o.kinder === 'object' && !Array.isArray(o.kinder) ? o.kinder : {} };
+}
+function elWrite(o) { try { localStorage.setItem(EL_KEY, JSON.stringify(o)); return true; } catch (e) { toast('Speichern im Browser nicht möglich (Speicher voll oder gesperrt).'); return false; } }
+
+/* ----- Zeiten und Wörter ----- */
+const zahlTxt = n => String(+(+n).toFixed(1)).replace('.', ',');
+const datumKurz = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit' });
+const uhrzeit = t => new Date(t).toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
+function wannTxt(t) {
+  const d = new Date(t), h = new Date(), tg = x => Math.round(Date.UTC(x.getFullYear(), x.getMonth(), x.getDate()) / 864e5), diff = tg(h) - tg(d);
+  return (diff === 0 ? 'heute' : diff === 1 ? 'gestern' : datumKurz(t)) + ' ' + uhrzeit(t);
+}
+const tageTxt = n => n <= 0 ? 'heute' : n === 1 ? 'morgen' : 'in ' + n + ' Tagen';
+const paketeTxt = n => n + (n === 1 ? ' Paket' : ' Pakete');
+const paketenTxt = n => n + (n === 1 ? ' Paket' : ' Paketen'); /* nach „von“ */
+const teilName = n => String(n || '').replace(/\s*\(\s*\d+\s*Punkten?\s*\)\s*$/i, '').trim(); /* „Teil A – Quellen (10 Punkte)“ → „Teil A – Quellen“ */
+function stufeTxt() { const st = stand(pdb()), n = stufeVon(st.pts); return 'Stufe ' + (n + 1) + ' (' + stufen()[n][0].replace(/­/g, '') + '), ' + st.pts + (st.pts === 1 ? ' Punkt' : ' Punkte'); }
+
+/* ----- Text zum Teilen (WhatsApp, Nachricht …) ----- */
+function elTextErgebnis() {
+  const { s, p } = curTask(), tt = totals(p, s), w = wort();
+  const art = s.modus === 'test' ? w.probe : s.teil ? 'Fehler wiederholen' : 'Üben';
+  const z = [cur.name + ': ' + (p.fach && !fold(p.titel).startsWith(fold(p.fach)) ? p.fach + ' – ' : '') + p.titel + ' · ' + art, 'Ergebnis: ' + tt.pct + ' % (' + zahlTxt(tt.got) + ' von ' + tt.max + ' Punkten)'];
+  if (s.limit) z.push('Zeit: ' + Math.max(1, Math.round((s.zeit || 0) / 60000)) + ' von ' + Math.round(s.limit / 60000) + ' Minuten');
+  const gr = teilGruppen(p, s);
+  if (gr.length >= 2) {
+    const low = Math.min(...gr.map(g => g.pct));
+    z.push('Nach Teilen: ' + gr.map(g => teilName(g.name) + ' ' + g.pct + ' %').join(', '));
+    if (low < 75 && gr.some(g => g.pct !== low)) z.push('Am schwächsten: ' + teilName(gr.find(g => g.pct === low).name) + ' (' + low + ' %)');
+  }
+  const falsch = s.order.filter(i => { const r = taskScore(p, s, i); return r.got < r.max && p.aufgaben[i].typ !== 'frei'; }).length;
+  if (falsch) z.push('Noch nicht ganz richtig: ' + falsch + (falsch === 1 ? ' Aufgabe' : ' Aufgaben'));
+  const td = p.termin && terminDatum(p.termin);
+  if (td && tageBis(td) >= 0) z.push('Arbeit ' + tageTxt(tageBis(td)) + ' (' + datumKurz(td) + ')');
+  z.push(stufeTxt());
+  return z.join('\n');
+}
+function elTextStand() {
+  const ls = lernStand(), z = [cur.name + ': Lernstand am ' + datumKurz(Date.now())];
+  if (ls.geuebt) z.push('Geübt: ' + ls.geuebt + ' von ' + paketenTxt(ls.gesamt) + (ls.schnitt !== null ? ', Durchschnitt ' + ls.schnitt + ' %' : ''));
+  else z.push('Noch nichts geübt (' + paketeTxt(ls.gesamt) + ' vorhanden)');
+  if (ls.schwach) z.push('Am wenigsten sicher: ' + ls.schwach.p.titel + ' (' + ls.schwach.pct + ' %)');
+  terminPlaene().slice(0, 2).forEach(g => z.push((g.fach ? g.fach + ': ' : '') + 'Arbeit ' + tageTxt(g.tage) + ' (' + datumKurz(g.datum) + '), ' + g.fertig + ' von ' + paketenTxt(g.pakete.length) + ' geübt'));
+  if (ls.zuletzt) z.push('Zuletzt geübt: ' + wannTxt(ls.zuletzt));
+  z.push(stufeTxt());
+  return z.join('\n');
+}
+let elText = '';
+function elTextDialog(text) {
+  elText = text;
+  const sh = !!navigator.share;
+  dialog('<h2>An die Eltern schicken</h2><p class="muted">So sieht die Nachricht aus. Du kannst sie über WhatsApp, Nachrichten oder Mail schicken.</p><div class="eltxt">' + esc(text) + '</div><div class="row" style="margin-top:.9rem">' + (sh ? '<button class="btn" data-act="eltern-share">Senden …</button>' : '') + '<button class="btn' + (sh ? ' sec' : '') + '" data-act="eltern-copy">Text kopieren</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>');
+}
+function elCopy() {
+  const manuell = () => { const t = $('.eltxt'); if (t) { const r = document.createRange(); r.selectNodeContents(t); const s = getSelection(); s.removeAllRanges(); s.addRange(r); } toast('Kopieren ging nicht. Der Text ist markiert, bitte selbst kopieren.', 6000); };
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(elText).then(() => { closeDialog(); toast('Text kopiert. Jetzt in WhatsApp oder eine Nachricht einfügen.', 5000); }, manuell);
+  else manuell();
+}
+function elShare() {
+  if (!navigator.share) return elCopy();
+  navigator.share({ title: 'Lernhilfe', text: elText }).then(() => closeDialog(), err => { if (!(err && err.name === 'AbortError')) elCopy(); });
+}
+
+/* ----- Stand für die Eltern-Ansicht (Kinder-Gerät) ----- */
+function elternSnapshot() {
+  const d = pdb(), st = stand(d), sn = stufeVon(st.pts), ls = lernStand(), heute = tagNr();
+  const pc = r => Math.round(100 * r.got / r.max), erg = [];
+  const pk = db.pakete.slice(0, 60).map(p => {
+    const rs = (db.ergebnisse[p.id] || []).filter(r => r && r.max > 0 && Number.isFinite(+r.t) && Number.isFinite(+r.got));
+    const voll = rs.filter(r => !r.teil);
+    rs.forEach(r => {
+      let w = null;
+      if (Array.isArray(r.teile) && r.teile.length >= 2) {
+        const gr = r.teile.filter(x => Array.isArray(x) && Number.isFinite(+x[1])), low = gr.length >= 2 ? gr.reduce((a, b) => (+b[1] < +a[1] ? b : a)) : null;
+        if (low && +low[1] < 75 && gr.some(x => +x[1] !== +low[1])) w = [String(low[0]).slice(0, 60), +low[1]];
+      }
+      erg.push({ t: +r.t, i: String(p.titel || '').slice(0, 80), m: r.teil ? 'f' : r.modus === 'test' ? 'p' : 'u', p: pc(r), s: Number.isFinite(+r.sek) ? +r.sek : 0, w });
+    });
+    return { i: String(p.id).slice(0, 80), t: String(p.titel || '').slice(0, 80), f: String(p.fach || '').slice(0, 30), d: terminDatum(p.termin) ? p.termin : '',
+      n: Array.isArray(p.aufgaben) ? p.aufgaben.length : 0, pr: p.ueben === false ? 1 : 0, c: voll.length,
+      v: voll.length ? pc(voll[voll.length - 1]) : null, b: voll.length ? Math.max(...voll.map(pc)) : null, z: rs.reduce((m, r) => Math.max(m, +r.t), 0) };
+  });
+  erg.sort((a, b) => b.t - a.t);
+  return { v: 1, p: cur.id, n: cur.name, ts: Date.now(), pts: st.pts, st: sn + 1, sname: stufen()[sn][0].replace(/­/g, ''), ser: { a: d.ser.l >= heute - 1 ? d.ser.a : 0, b: d.ser.b },
+    ges: ls.gesamt, geu: ls.geuebt, sch: ls.schnitt, pk, erg: erg.slice(0, 15) };
+}
+
+/* ----- PeerJS nachladen (nur wenn gebraucht, wie in der Quiz-App) ----- */
+let peerLib = null;
+function peerLaden() {
+  if (window.Peer) return Promise.resolve();
+  if (peerLib) return peerLib;
+  peerLib = new Promise((res, rej) => {
+    const sc = document.createElement('script'); sc.src = PEER_URL; sc.async = true;
+    const fail = why => { clearTimeout(tm); sc.remove(); peerLib = null; rej(new Error(why)); };
+    const tm = setTimeout(() => fail('zeit'), 12000);
+    sc.onload = () => { if (window.Peer) { clearTimeout(tm); res(); } else fail('leer'); };
+    sc.onerror = () => fail('laden');
+    document.head.appendChild(sc);
+  });
+  return peerLib;
+}
+
+/* ----- Senden (Kinder-Gerät) ----- */
+let elSendet = false, elLetzter = 0;
+function elternMerken(pid, werte) { /* db.eltern der Person ändern, auch wenn inzwischen jemand anderes gewählt ist */
+  if (cur && cur.id === pid && db) { db.eltern = Object.assign({}, db.eltern, werte); save(true); return; }
+  const raw = readRaw(keyOf(pid)); if (!raw) return;
+  raw.eltern = Object.assign({}, raw.eltern, werte);
+  try { localStorage.setItem(keyOf(pid), JSON.stringify(raw)); } catch (e) { /* wird beim nächsten Mal erneut versucht */ }
+}
+function elMsg(res) {
+  if (res === 'ok') return 'Gesendet. Die Eltern-Ansicht hat deinen Stand.';
+  if (res === 'offline' || res === 'zeit') return 'Die Eltern-Ansicht ist gerade nicht offen (oder der Code stimmt nicht). Der Stand wird später gesendet.';
+  if (res === 'beschaeftigt') return 'Es wird schon gesendet …';
+  return 'Das Senden hat nicht geklappt. Ist das Internet an? Der Stand wird später gesendet.';
+}
+function elternSenden() { /* Antwort: 'ok', 'offline', 'zeit', 'fehler', 'beschaeftigt', 'keincode', 'nein' */
+  if (!kindP()) return Promise.resolve('nein');
+  const code = kindCode(); if (!code) return Promise.resolve('keincode');
+  if (elSendet) return Promise.resolve('beschaeftigt');
+  elSendet = true; elLetzter = Date.now();
+  const pid = cur.id; let snap;
+  try { snap = elternSnapshot(); } catch (e) { elSendet = false; return Promise.resolve('fehler'); }
+  return peerLaden().then(() => new Promise(resolve => {
+    let fertig = false, peer = null, conn = null, tm = null;
+    const ende = res => { if (fertig) return; fertig = true; clearTimeout(tm); try { if (conn) conn.close(); } catch (e) { /* egal */ } try { if (peer) peer.destroy(); } catch (e) { /* egal */ } resolve(res); };
+    tm = setTimeout(() => ende('zeit'), 15000);
+    try {
+      peer = new Peer({ debug: 1 });
+      peer.on('error', err => ende(err && err.type === 'peer-unavailable' ? 'offline' : 'fehler'));
+      peer.on('open', () => {
+        conn = peer.connect(EL_PREFIX + code, { reliable: true, serialization: 'json' });
+        conn.on('open', () => { try { conn.send({ t: 'snap', s: snap }); } catch (e) { ende('fehler'); } });
+        conn.on('data', d => { if (d && d.t === 'ok') ende('ok'); else if (d && d.t === 'err') ende('fehler'); });
+        conn.on('error', () => ende('fehler'));
+        conn.on('close', () => ende('fehler'));
+      });
+    } catch (e) { ende('fehler'); }
+  })).catch(() => 'fehler').then(res => {
+    elSendet = false;
+    rw(() => {
+      if (res === 'ok') elternMerken(pid, { gesendet: Date.now(), offen: false });
+      else { const o = (cur && cur.id === pid && db ? db.eltern : (readRaw(keyOf(pid)) || {}).eltern) || {}; elternMerken(pid, { offen: true, seit: o.offen && o.seit ? o.seit : Date.now() }); }
+    });
+    return res;
+  });
+}
+function elStatusTxt() {
+  const e = db.eltern || {};
+  return e.offen ? 'Wird an die Eltern-Ansicht gesendet …' : e.gesendet ? '✓ An die Eltern-Ansicht gesendet (' + wannTxt(e.gesendet) + ').' : '';
+}
+function elternStatus(res) { /* zeigt das Ergebnis eines Sendeversuchs an, falls die Stelle gerade auf dem Bildschirm ist */
+  if (!kindP()) return;
+  const h = $('#elHome'); if (h) h.innerHTML = elHomeInner();
+  const r = $('#elStatus'); if (r) r.textContent = res === 'ok' ? '✓ An die Eltern-Ansicht gesendet.' : res === 'beschaeftigt' ? r.textContent : elMsg(res);
+}
+let elAutoT = null;
+function elternAuto() { /* nach jedem Durchgang: gleich senden, sonst später nachholen */
+  if (!kindP() || !kindCode()) return;
+  const e = db.eltern || {}; elternMerken(cur.id, { offen: true, seit: e.offen && e.seit ? e.seit : Date.now() });
+  clearTimeout(elAutoT);
+  elAutoT = setTimeout(() => rw(() => { if (kindP() && kindCode()) elternSenden().then(res => rw(() => elternStatus(res))); }), 1200);
+}
+function elternRetry() { /* offen gebliebenen Stand nachholen: beim Öffnen und alle paar Minuten, solange die Lernhilfe sichtbar ist */
+  if (!kindP() || !kindCode() || document.hidden || elSendet) return;
+  const e = db.eltern; if (!e || !e.offen || Date.now() - elLetzter < 60000) return;
+  elternSenden().then(res => rw(() => elternStatus(res)));
+}
+setInterval(() => rw(() => { const e = kindP() && db.eltern; if (e && e.offen && Date.now() - (e.seit || 0) < 12 * 36e5) elternRetry(); }), 90000);
+document.addEventListener('visibilitychange', () => { if (!document.hidden) rw(elternRetry); });
+
+/* ----- Kinder-Gerät: Oberfläche ----- */
+function elHomeInner() {
+  const code = kindCode(), e = db.eltern || {};
+  let h = 'Für die Eltern: <button class="link" data-act="eltern-text-stand">Stand als Text schicken</button>';
+  if (!code) return h + ' · <button class="link" data-act="eltern-verbinden">Mit Eltern-Ansicht verbinden</button>';
+  h += ' · Eltern-Ansicht verbunden' + (e.gesendet ? ' (zuletzt gesendet ' + esc(wannTxt(e.gesendet)) + ')' : '') + (e.offen ? ', der neueste Stand wartet noch' : '');
+  return h + ' · <button class="link" data-act="eltern-jetzt">Jetzt senden</button> · <button class="link" data-act="eltern-trennen">Trennen</button>';
+}
+const elternHomeHtml = () => kindP() ? '<p class="legend" id="elHome">' + elHomeInner() + '</p>' : '';
+const elternKnopfHtml = () => kindP() ? '<button class="btn sec" data-act="eltern-text-ergebnis">An die Eltern schicken</button>' : '';
+const elternStatusHtml = () => kindP() && kindCode() ? '<p class="legend" id="elStatus" role="status" style="margin:.9rem 0 0;text-align:center">' + esc(elStatusTxt()) + '</p>' : '';
+function elVerbindenDialog() {
+  dialog('<h2>Mit der Eltern-Ansicht verbinden</h2><p>Deine Eltern öffnen auf ihrem Gerät die Lernhilfe und tippen auf der Startseite („Wer lernt heute?“) auf <strong>Eltern-Ansicht</strong>. Dort steht der Familiencode. Trage ihn hier ein.</p><p class="muted">Danach bekommen deine Eltern nach jedem Durchgang deinen Stand, sobald ihre Eltern-Ansicht offen ist. Gesendet werden Name, Punkte, Stufe, Lernstand und die letzten Ergebnisse, keine einzelnen Antworten.</p><input class="txt" id="elCode" maxlength="24" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCD-EFGH-JKMN" aria-label="Familiencode"><p class="note" id="elCodeMsg" style="min-height:1.2em;margin:.6rem 0 0" role="status"></p><div class="row" style="margin-top:.9rem"><button class="btn" data-act="eltern-verbinden-go">Verbinden</button><button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>');
+  setTimeout(() => { const t = $('#elCode'); if (t) t.focus(); }, 50);
+}
+function elVerbindenGo() {
+  const c = elCodeNorm(($('#elCode') || {}).value);
+  if (!elCodeOk(c)) { const m = $('#elCodeMsg'); if (m) m.textContent = 'Der Code hat 12 Zeichen aus Buchstaben und Zahlen (ohne 0, 1, O, I, L). Bitte noch einmal prüfen.'; return; }
+  if (!setKindCode(c)) { toast('Speichern im Browser nicht möglich.'); return; }
+  closeDialog();
+  elternMerken(cur.id, { offen: true, seit: Date.now() });
+  const senden = elternSenden(); /* vor dem Neuzeichnen starten, sonst holt der automatische Nachholer es zuerst ab */
+  renderHome(); toast('Wird gesendet …');
+  senden.then(res => { toast(elMsg(res), 6000); rw(() => elternStatus(res)); });
+}
+
+/* ----- Eltern-Gerät: Verbindung und Ansicht ----- */
+const sz = (x, n) => String(x ?? '').slice(0, n);
+const nz = (x, lo, hi) => { x = +x; return Number.isFinite(x) ? Math.min(hi, Math.max(lo, x)) : lo; };
+const np = x => x === null || x === undefined ? null : nz(x, 0, 100);
+function elBereinigen(s) { /* Alles, was übers Netz kommt oder aus dem Speicher gelesen wird, wird geprüft und gekürzt, bevor es angezeigt wird */
+  if (!s || typeof s !== 'object' || s.v !== 1) return null;
+  const k = PERSONEN.find(x => x.id === s.p && x.art === 'kind'); if (!k) return null;
+  const jetzt = Date.now() + 864e5, arr = (a, max) => (Array.isArray(a) ? a.slice(0, max) : []).filter(x => x && typeof x === 'object');
+  const q = s.ser && typeof s.ser === 'object' ? s.ser : {};
+  return {
+    v: 1, p: k.id, ts: nz(s.ts, 0, jetzt), pts: nz(s.pts, 0, 1e7), st: nz(s.st, 1, 99), sname: sz(s.sname, 40), ser: { a: nz(q.a, 0, 9999), b: nz(q.b, 0, 9999) },
+    ges: nz(s.ges, 0, 9999), geu: nz(s.geu, 0, 9999), sch: np(s.sch),
+    pk: arr(s.pk, 60).map(x => ({ i: sz(x.i, 80), t: sz(x.t, 80), f: sz(x.f, 30), d: /^\d{4}-\d{2}-\d{2}$/.test(String(x.d)) ? String(x.d) : '', n: nz(x.n, 0, 9999), pr: x.pr ? 1 : 0, c: nz(x.c, 0, 9999), v: np(x.v), b: np(x.b), z: nz(x.z, 0, jetzt) })),
+    erg: arr(s.erg, 15).map(x => ({ t: nz(x.t, 0, jetzt), i: sz(x.i, 80), m: ['p', 'u', 'f'].includes(x.m) ? x.m : 'u', p: nz(x.p, 0, 100), s: nz(x.s, 0, 36000), w: Array.isArray(x.w) && x.w.length === 2 ? [sz(x.w[0], 60), nz(x.w[1], 0, 100)] : null }))
+  };
+}
+const elP = { peer: null, aktiv: false, status: '', msg: '', timer: null };
+function elStatus(status, msg) { elP.status = status; elP.msg = msg || ''; if (location.hash === '#/eltern') elRender(); }
+function elternStop() {
+  elP.aktiv = false; clearTimeout(elP.timer);
+  const pr = elP.peer; elP.peer = null; elP.status = '';
+  if (pr) { try { pr.destroy(); } catch (e) { /* egal */ } }
+}
+function elternStart() {
+  if (!elRead().code) return;
+  elternStop(); elP.aktiv = true; elStatus('verbinde');
+  peerLaden().then(() => { if (elP.aktiv) elHorchen(0); }, () => { if (elP.aktiv) elStatus('fehler', 'Die Verbindungs-Bibliothek konnte nicht geladen werden. Ist das Internet an?'); });
+}
+function elHorchen(versuch) {
+  const code = elRead().code; let pr;
+  try { pr = new Peer(EL_PREFIX + code, { debug: 1 }); } catch (e) { elStatus('fehler', 'Die Verbindung konnte nicht gestartet werden.'); return; }
+  elP.peer = pr;
+  const aktuell = () => elP.peer === pr && elP.aktiv;
+  const neu = (ms, n) => { elP.peer = null; try { pr.destroy(); } catch (e) { /* egal */ } clearTimeout(elP.timer); elP.timer = setTimeout(() => { if (elP.aktiv) elHorchen(n); }, ms); };
+  pr.on('open', () => { if (aktuell()) elStatus('bereit'); });
+  pr.on('connection', c => { if (!aktuell()) return; c.on('data', d => rw(() => elEmpfang(c, d))); c.on('error', () => { /* das Kind sendet es später noch einmal */ }); });
+  pr.on('disconnected', () => { if (!aktuell()) return; elStatus('verbinde'); try { pr.reconnect(); } catch (e) { /* wird beim Zurückkehren neu versucht */ } });
+  pr.on('error', err => {
+    if (!aktuell()) return;
+    const t = err && err.type;
+    if (t === 'unavailable-id') { /* z. B. nach dem Neuladen, die alte Anmeldung läuft erst nach einigen Sekunden ab */
+      if (versuch < 10) { elStatus('verbinde', 'Einen Moment, die alte Verbindung wird freigegeben …'); neu(2000, versuch + 1); } else elStatus('belegt');
+      return;
+    }
+    if (t === 'peer-unavailable') return;
+    if (versuch < 30) { elStatus('fehler', 'Keine Verbindung zum Vermittlungsserver. Es wird weiter versucht …'); neu(8000, versuch + 1); } else elStatus('fehler', 'Keine Verbindung zum Vermittlungsserver.');
+  });
+}
+function elEmpfang(c, d) {
+  const antwort = o => { try { c.send(o); } catch (e) { /* egal */ } };
+  let s = null; try { s = d && d.t === 'snap' ? elBereinigen(d.s) : null; } catch (e) { s = null; }
+  if (!s) { antwort({ t: 'err' }); return; }
+  const o = elRead(); o.kinder[s.p] = { empf: Date.now(), snap: s };
+  if (!elWrite(o)) { antwort({ t: 'err' }); return; }
+  antwort({ t: 'ok' });
+  if (location.hash === '#/eltern') elRender();
+}
+document.addEventListener('visibilitychange', () => rw(() => {
+  if (document.hidden || location.hash !== '#/eltern' || !elRead().code) return;
+  const pr = elP.peer; if (!elP.aktiv || !pr || pr.destroyed || pr.disconnected) elternStart();
+}));
+function renderEltern() {
+  $('#crumb').textContent = 'Eltern-Ansicht'; document.title = 'Lernhilfe – Eltern-Ansicht';
+  $('#whoBtn').hidden = true; $('#bkBtn').hidden = true;
+  if (elRead().code && !elP.aktiv) elternStart(); else elRender();
+}
+function elProzFarbe(p) { return p >= 75 ? 'var(--ok)' : p >= 50 ? 'var(--part)' : 'var(--bad)'; }
+function elKindHtml(k, e) {
+  const s = e && elBereinigen(e.snap);
+  const kopf = `<div class="ek-head"><span class="av" style="--c:${k.farbe}" aria-hidden="true">${esc(k.name[0])}</span><div><h2>${esc(k.name)}</h2><div class="muted">${s ? 'Zuletzt empfangen: ' + esc(wannTxt(+e.empf || s.ts)) : 'Noch nichts empfangen'}</div></div></div>`;
+  if (!s) return `<section class="card ekind">${kopf}<p class="muted">Sobald ${esc(k.name)} einen Durchgang abgibt (oder „Jetzt senden“ tippt) und diese Ansicht offen ist, erscheint der Stand hier.</p></section>`;
+  let h = `<section class="card ekind">${kopf}<p><strong>Stufe ${s.st} · ${esc(s.sname)}</strong> · ${s.pts} ${s.pts === 1 ? 'Punkt' : 'Punkte'}${s.ser.a ? ' · ' + s.ser.a + (s.ser.a === 1 ? ' Tag' : ' Tage') + ' in Folge geübt' : ''}</p>`;
+  const plaene = new Map();
+  s.pk.forEach(p => { const d = p.d && terminDatum(p.d); if (!d || tageBis(d) < 0) return; const key = p.f + '|' + p.d; if (!plaene.has(key)) plaene.set(key, { f: p.f, d, tage: tageBis(d), n: 0, fertig: 0 }); const g = plaene.get(key); g.n++; if (p.c) g.fertig++; });
+  [...plaene.values()].sort((a, b) => a.tage - b.tage).slice(0, 3).forEach(g => { h += `<p class="note">📅 ${g.f ? esc(g.f) + ': ' : ''}Arbeit <strong>${tageTxt(g.tage)}</strong> (${datumKurz(g.d)}) · ${g.fertig} von ${paketenTxt(g.n)} geübt</p>`; });
+  const uebbar = s.pk.filter(p => !p.pr && p.c && p.v !== null), schwach = uebbar.length >= 2 ? uebbar.reduce((a, b) => (b.v < a.v ? b : a)) : null;
+  if (schwach && schwach.v < 75) h += `<p>Am wenigsten sicher: <strong>${esc(schwach.t)}</strong> (${schwach.v} %)</p>`;
+  const nichts = s.pk.filter(p => !p.c);
+  if (s.pk.length) {
+    h += '<h3 style="margin:1rem 0 .3rem;font-size:1rem">Pakete</h3>';
+    if (!s.pk.some(p => p.c)) h += '<p class="muted">Noch kein Paket geübt.</p>';
+    const sortiert = s.pk.filter(p => p.c).sort((a, b) => (a.d && b.d ? (a.d < b.d ? -1 : a.d > b.d ? 1 : 0) : a.d ? -1 : b.d ? 1 : 0) || a.t.localeCompare(b.t, 'de'));
+    sortiert.forEach(p => {
+      const st = fachStil(p.f), td = p.d && terminDatum(p.d), sub = [p.c ? p.c + (p.c === 1 ? ' Durchgang' : ' Durchgänge') + (p.b !== null && p.b !== p.v ? ', Bestwert ' + p.b + ' %' : '') : 'noch nicht geübt', p.pr ? 'Probearbeit' : '', td ? 'Termin ' + datumKurz(td) : ''].filter(Boolean).join(' · ');
+      h += `<div class="ek-pk"><div class="t">${st.icon} ${esc(p.t)}<div class="s">${esc(sub)}</div></div><div class="ek-bar" role="img" aria-label="${p.v === null ? 'noch kein Ergebnis' : p.v + ' Prozent'}">${p.v === null ? '' : `<i style="width:${p.v}%;--c:${elProzFarbe(p.v)}"></i>`}</div><div class="b">${p.v === null ? '–' : p.v + ' %'}</div></div>`;
+    });
+    if (nichts.length) h += `<p class="muted" style="margin:.7rem 0 0;font-size:.9rem"><strong>Noch nicht geübt (${nichts.length}):</strong> ${nichts.map(p => esc(p.t)).join(' · ')}</p>`;
+  }
+  if (s.erg.length) {
+    h += '<h3 style="margin:1rem 0 .3rem;font-size:1rem">Letzte Ergebnisse</h3>';
+    s.erg.forEach(r => { h += `<div class="ek-pk"><div class="t">${esc(r.i)}<div class="s">${esc(wannTxt(r.t))} · ${r.m === 'p' ? 'Probearbeit' : r.m === 'f' ? 'Fehler wiederholen' : 'Üben'}${r.s ? ' · ' + Math.max(1, Math.round(r.s / 60)) + ' Min.' : ''}${r.w ? ' · am schwächsten: ' + esc(r.w[0]) + ' (' + r.w[1] + ' %)' : ''}</div></div><div class="ek-bar" role="img" aria-label="${r.p} Prozent"><i style="width:${r.p}%;--c:${elProzFarbe(r.p)}"></i></div><div class="b">${r.p} %</div></div>`; });
+  }
+  return h + '</section>';
+}
+function elRender() {
+  if (location.hash !== '#/eltern') return;
+  const o = elRead(), y = window.scrollY, kinder = PERSONEN.filter(x => x.art === 'kind');
+  let h = '<div class="col"><p><button class="link" data-act="home">Zur Auswahl</button></p><h1 style="margin-bottom:1.1rem">Eltern-Ansicht</h1>';
+  if (!o.code) {
+    h += '<div class="card"><p>Hier sehen Sie, wie die Kinder üben: Lernstand je Paket, letzte Ergebnisse, Punkte und Termine. Die Kinder schicken ihren Stand direkt von ihrem Gerät an dieses Gerät, ohne eigenen Server und ohne Konto.</p><p class="muted">Dafür richten Sie hier einmal einen Familiencode ein und tragen ihn auf den Geräten der Kinder ein. Beim Üben muss diese Ansicht offen sein (Bildschirm an), sonst wartet der Stand und wird später gesendet.</p><div class="row"><button class="btn" data-act="eltern-setup">Eltern-Ansicht einrichten</button></div></div></div>';
+    $('#app').innerHTML = h; window.scrollTo(0, y); return;
+  }
+  const stTxt = { bereit: ['ok', 'Bereit – der Stand kommt an, sobald ein Kind einen Durchgang abgibt.'], verbinde: ['', 'Verbinde mit dem Vermittlungsserver …'], fehler: ['bad', 'Nicht verbunden.'], belegt: ['bad', 'Diese Eltern-Ansicht ist schon in einem anderen Fenster oder auf einem anderen Gerät geöffnet.'] }[elP.status] || ['', 'Nicht verbunden.'];
+  h += `<div class="card"><div class="row" style="justify-content:space-between"><span class="elst ${stTxt[0]}" role="status">${esc(stTxt[1])}</span>${elP.status === 'bereit' || elP.status === 'verbinde' ? '' : '<button class="btn sec sm" data-act="eltern-neustart">Erneut verbinden</button>'}</div>${elP.msg ? `<p class="muted" style="margin:.5rem 0 0">${esc(elP.msg)}</p>` : ''}<p class="muted" style="margin:.7rem 0 .2rem">Familiencode für die Geräte der Kinder: Startseite → „Mit Eltern-Ansicht verbinden“.</p><div class="row"><span class="elcode">${esc(elCodeShow(o.code))}</span><button class="btn sec sm" data-act="eltern-code-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-code-neu">Neuer Code</button></div><p class="legend" style="margin:.7rem 0 0">Lassen Sie diese Seite offen, solange die Kinder üben (Bildschirm an). Die Daten gehen direkt von Gerät zu Gerät.</p></div>`;
+  h += kinder.map(k => elKindHtml(k, o.kinder[k.id])).join('') + '</div>';
+  $('#app').innerHTML = h; window.scrollTo(0, y);
+}
+function elSetup() { const o = elRead(); o.code = elCodeNeu(); if (!elWrite(o)) return; elternStart(); }
+function elCodeKopieren() {
+  const c = elCodeShow(elRead().code); if (!c) return;
+  if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(c).then(() => toast('Code kopiert.'), () => toast('Kopieren ging nicht. Der Code steht oben auf der Seite.'));
+  else toast('Kopieren ging nicht. Der Code steht oben auf der Seite.');
+}
+function elCodeNeuErzeugen() {
+  if (!confirm('Neuen Code erzeugen? Danach müssen Sie ihn auf den Geräten der Kinder neu eintragen. Bisher empfangene Stände bleiben erhalten.')) return;
+  const o = elRead(); o.code = elCodeNeu(); if (!elWrite(o)) return; elternStart();
+}
+
 /* ========== Sicherung, Bibliothek ========== */
 function backupData() { return { typ: 'sicherung', version: 1, person: cur.id, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse, punkte: db.punkte }; }
 function download(name, text) {
@@ -1626,7 +1983,7 @@ document.addEventListener('contextmenu', e => { if (e.target.closest && e.target
 document.addEventListener('click', e => {
   const el = e.target.closest('[data-act]'); if (!el) return;
   const act = el.dataset.act, id = el.dataset.id;
-  if (!db && act !== 'person' && act !== 'home' && act !== 'wechseln' && act !== 'theme') return; /* auf der Startseite „Wer lernt?“ gibt es nur die Auswahl */
+  if (!db && act !== 'person' && act !== 'home' && act !== 'wechseln' && act !== 'theme' && !act.startsWith('eltern')) return; /* auf der Startseite „Wer lernt?“ gibt es nur die Auswahl */
   const sess = db && db.session;
   switch (act) {
     case 'theme': toggleTheme(); break;
@@ -1642,6 +1999,19 @@ document.addEventListener('click', e => {
     case 'grp-toggle': { const g = el.dataset.g, zu = zuSet(); if (zu.has(g)) zu.delete(g); else zu.add(g); try { localStorage.setItem('lernhilfe.zu.' + cur.id, JSON.stringify([...zu])); } catch (err) { /* gilt dann nur für diese Sitzung */ } renderHome(); const nb = [...document.querySelectorAll('.pgbtn')].find(x => x.dataset.g === g); if (nb) nb.focus(); break; }
     case 'lib-toggle': { const g = el.dataset.g; if (libOffen.has(g)) libOffen.delete(g); else libOffen.add(g); renderLib(); break; }
     case 'dlg-close': closeDialog(); break;
+    case 'eltern-ansicht': go('#/eltern'); break;
+    case 'eltern-text-ergebnis': if (kindP() && sess && sess.done) rw(() => elTextDialog(elTextErgebnis())); break;
+    case 'eltern-text-stand': if (kindP()) rw(() => elTextDialog(elTextStand())); break;
+    case 'eltern-share': rw(elShare); break;
+    case 'eltern-copy': rw(elCopy); break;
+    case 'eltern-verbinden': if (kindP()) rw(elVerbindenDialog); break;
+    case 'eltern-verbinden-go': rw(elVerbindenGo); break;
+    case 'eltern-trennen': if (kindP() && confirm('Verbindung zur Eltern-Ansicht trennen? Dann wird nichts mehr automatisch gesendet.')) { setKindCode(''); elternMerken(cur.id, { offen: false }); renderHome(); toast('Getrennt.'); } break;
+    case 'eltern-jetzt': if (kindP()) { toast('Wird gesendet …'); elternSenden().then(res => { toast(elMsg(res), 6000); rw(() => elternStatus(res)); }); } break;
+    case 'eltern-setup': rw(elSetup); break;
+    case 'eltern-code-kopieren': rw(elCodeKopieren); break;
+    case 'eltern-code-neu': rw(elCodeNeuErzeugen); break;
+    case 'eltern-neustart': rw(elternStart); break;
     case 'backup': dialog('<h2>Sicherung für ' + esc(cur.name) + '</h2><p>Enthält alle importierten Lernpakete und die bisherigen Ergebnisse von ' + esc(cur.name) + '. Die Daten liegen sonst nur in diesem Browser.</p><div class="row"><button class="btn" data-act="backup-save">Als Datei speichern</button><button class="btn sec" data-act="backup-copy">Als Text kopieren</button><button class="btn sec" data-act="import">Wiederherstellen (Datei)</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>'); break;
     case 'backup-save': download('lernhilfe-sicherung-' + cur.id + '-' + new Date().toISOString().slice(0, 10) + '.json', JSON.stringify(backupData(), null, 1)); db.gesichert = Date.now(); save(true); toast('Sicherung gespeichert.'); break;
     case 'backup-copy': navigator.clipboard.writeText(JSON.stringify(backupData())).then(() => { db.gesichert = Date.now(); save(true); toast('Sicherung in die Zwischenablage kopiert.'); }, () => toast('Kopieren nicht möglich.')); break;
