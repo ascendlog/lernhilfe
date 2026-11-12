@@ -1241,7 +1241,7 @@ function renderResult() {
 /* Das ist Beiwerk: Ein Fehler hier darf das Üben nie stören. Jeder Einstieg läuft deshalb über rw() und fängt Fehler ab. */
 function rw(fn, fallback) { try { return fn(); } catch (err) { try { console.warn('Belohnung:', err); } catch (e2) { /* egal */ } return fallback; } }
 const belohnt = () => !!(cur && db);
-const erw = () => !!(cur && cur.art === 'erwachsen'); /* Erwachsene bekommen dieselben Punkte, aber andere Namen, Wörter und kein Konfetti */
+const erw = () => !!(cur && cur.art === 'erwachsen'); /* Erwachsene bekommen dieselben Punkte und Effekte, aber andere Namen und Wörter */
 const STUFEN = [ /* Name, Zeichen, ab Punkten – alle Geschichte-Pakete zusammen bringen etwa 2000 Punkte */
   ['Rucksack-Packer', '🎒', 0], ['Spurenleser', '🐾', 100], ['Pfadfinder', '🧭', 300], ['Höhlenforscher', '🔦', 600], ['Zeitreisender', '⏳', 1000],
   ['Kartenmeister', '🗺️', 1500], ['Wissensjäger', '📚', 2200], ['Expeditions\u00ADleiter', '⛰️', 3200], ['Meisterdetektiv', '🕵️', 4500], ['Legende', '👑', 6500]
@@ -1269,7 +1269,7 @@ const ABZEICHEN = [ /* Familien mit vier Stufen (Bronze, Silber, Gold, Diamant);
 ];
 const STUFEN_ERW = [['Erstsemester', '📘', 0], ['Lerngruppe', '👥', 100], ['Tutorin', '📝', 300], ['Hilfskraft', '🔬', 600], ['Bachelorandin', '🎓', 1000], ['Methodenprofi', '📊', 1500], ['Masterstudentin', '🧠', 2200], ['Doktorandin', '🔎', 3200], ['Professorin', '🏛️', 4500], ['Nobelpreisträgerin', '🏆', 6500]];
 const stufen = () => erw() ? STUFEN_ERW : STUFEN;
-const rangName = n => (erw() ? ['', 'Bestanden', 'Gut', 'Sehr gut'] : ['', 'Bronze', 'Silber', 'Gold'])[n] || ''; /* Karten-Rang: Kinder Metalle, Erwachsene Noten */
+const rangName = n => ['', 'Bronze', 'Silber', 'Gold'][n] || ''; /* Karten-Rang, für alle gleich */
 const ABZ_ERW = { /* Namen und Texte für Erwachsene (Zahlen und Stufen bleiben gleich) */
   aufgabenheld: { name: 'Aufgabenprofi', icon: '✅', einheit: 'Aufgaben ganz richtig' },
   fehlerjaeger: { name: 'Aus Fehlern gelernt', icon: '🔍', einheit: 'Fehler korrigiert', hilfe: 'Eine Aufgabe, die du schon einmal falsch hattest, jetzt ganz richtig lösen.' },
@@ -1281,7 +1281,7 @@ const ABZ_ERW = { /* Namen und Texte für Erwachsene (Zahlen und Stufen bleiben 
   zeitmeister: { name: 'Zeitmanagement', icon: '⏱️', einheit: 'Probeklausuren rechtzeitig abgegeben', hilfe: 'Eine Probeklausur vor Ablauf des Timers selbst abgeben (mindestens 50 %).' },
   fruehdran: { name: 'Früh dran', einheit: 'Pakete früh gelernt (mindestens 3 Tage vor der Klausur)', hilfe: 'Ein Paket mindestens drei Tage vor dem Termin der Klausur durcharbeiten.' },
   aufsteiger: { name: 'Steigerung', icon: '📈', einheit: 'Karteikarten verbessert', hilfe: 'Eine Karteikarte durch ein besseres Ergebnis auf einen höheren Rang bringen.' },
-  goldschmied: { name: 'Bestnoten', icon: '🥇', einheit: 'Karteikarten mit „Sehr gut“', hilfe: 'Karteikarten mit mindestens 90 % im Durchgang („Sehr gut“).' },
+  goldschmied: { name: 'Bestnoten', icon: '🥇', einheit: 'Goldene Karteikarten', hilfe: 'Karteikarten mit mindestens 90 % im Durchgang (Gold).' },
   sammler: { name: 'Karteikasten', icon: '🗂️', einheit: 'Karteikarten angelegt', hilfe: 'Karteikarten in der Kartei freischalten.' }
 };
 const abzF = f => erw() && ABZ_ERW[f.id] ? Object.assign({}, f, ABZ_ERW[f.id]) : f;
@@ -1353,7 +1353,7 @@ function meilensteine(d) { /* neue Abzeichen-Stufen und Stufen seit der letzten 
 }
 function feiern(ev, konf) {
   if (ev.length) toast(ev.slice(0, 2).join('  ·  ') + (ev.length > 2 ? '  ·  +' + (ev.length - 2) + ' mehr' : ''), 5600);
-  if (!erw() && (ev.length || konf)) konfetti(); /* Konfetti nur für Kinder */
+  if (ev.length || konf) konfetti();
 }
 function aufgabeFertig(p, s, idx) { /* Üben: gleich nach dem Prüfen. Die Probearbeit wird erst beim Abgeben gezählt. */
   if (!belohnt() || s.modus !== 'ueben') return;
