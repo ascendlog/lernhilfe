@@ -1,0 +1,17 @@
+{
+  "name": "Lernhilfe",
+  "short_name": "Lernhilfe",
+  "description": "Aufgaben und Lernpakete für die nächste Arbeit – am Bildschirm statt auf Papier.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e101b",
+  "theme_color": "#111522",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
