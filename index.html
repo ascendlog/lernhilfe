@@ -1429,12 +1429,24 @@ function konfetti() {
     const alt = $('#konf'); if (alt) alt.remove();
     const c = document.createElement('canvas'); c.id = 'konf'; c.setAttribute('aria-hidden', 'true');
     const W = c.width = window.innerWidth, Hh = c.height = window.innerHeight; document.body.appendChild(c);
-    const x = c.getContext('2d'), farben = ['#ffc233', '#3ccf82', '#ff7d72', '#59d0f5', '#b794ff', '#ffffff'];
-    const ps = Array.from({ length: 120 }, () => ({ x: W * (0.25 + Math.random() * 0.5), y: Hh * 0.4, vx: (Math.random() - 0.5) * 12, vy: -7 - Math.random() * 9, w: 5 + Math.random() * 6, h: 3 + Math.random() * 5, r: Math.random() * 6.28, vr: (Math.random() - 0.5) * 0.4, c: farben[Math.floor(Math.random() * farben.length)] }));
-    const t0 = performance.now(), DAUER = 2400;
+    const rosa = cur && cur.id === 'saskia'; /* Saskia: rosa Glitzer mit funkelnden Sternchen */
+    const x = c.getContext('2d'), farben = rosa ? ['#ff5cb8', '#ff8fd0', '#ffb3e0', '#f08cff', '#ffd1ec', '#ffffff', '#ff3fa4'] : ['#ffc233', '#3ccf82', '#ff7d72', '#59d0f5', '#b794ff', '#ffffff'];
+    const ps = Array.from({ length: rosa ? 150 : 120 }, (_, n) => ({ x: W * (0.25 + Math.random() * 0.5), y: Hh * 0.4, vx: (Math.random() - 0.5) * 12, vy: -7 - Math.random() * 9, w: 5 + Math.random() * 6, h: 3 + Math.random() * 5, r: Math.random() * 6.28, vr: (Math.random() - 0.5) * 0.4, ph: Math.random() * 6.28, stern: rosa && n % 3 === 0, c: farben[Math.floor(Math.random() * farben.length)] }));
+    const stern = (r) => { x.beginPath(); for (let k = 0; k < 8; k++) { const a = k * Math.PI / 4, d = k % 2 ? r * 0.28 : r; x.lineTo(Math.cos(a) * d, Math.sin(a) * d); } x.closePath(); x.fill(); };
+    const t0 = performance.now(), DAUER = rosa ? 2800 : 2400;
     (function loop(t) {
       const el = t - t0; x.clearRect(0, 0, W, Hh);
-      ps.forEach(q => { q.vy += 0.3; q.vx *= 0.995; q.x += q.vx; q.y += q.vy; q.r += q.vr; x.save(); x.globalAlpha = Math.max(0, Math.min(1, (DAUER - el) / 700)); x.translate(q.x, q.y); x.rotate(q.r); x.fillStyle = q.c; x.fillRect(-q.w / 2, -q.h / 2, q.w, q.h); x.restore(); });
+      ps.forEach(q => {
+        q.vy += rosa ? 0.22 : 0.3; q.vx *= 0.995; q.x += q.vx; q.y += q.vy; q.r += q.vr;
+        x.save(); x.globalAlpha = Math.max(0, Math.min(1, (DAUER - el) / 700)); x.translate(q.x, q.y);
+        if (rosa) { /* Glitzer: Plättchen kippen, blitzen weiß auf, Sternchen funkeln */
+          const f = Math.sin(el * 0.014 + q.ph), blitz = f > 0.82;
+          x.fillStyle = blitz ? '#ffffff' : q.c;
+          if (blitz) { x.shadowColor = '#ff8fd0'; x.shadowBlur = 10; }
+          if (q.stern) { x.rotate(q.r * 0.5); stern(5 + 4 * Math.abs(f)); } else { x.rotate(q.r); x.scale(Math.max(0.15, Math.abs(Math.cos(el * 0.01 + q.ph))), 1); x.fillRect(-q.w / 2, -q.h / 2, q.w, q.h); }
+        } else { x.rotate(q.r); x.fillStyle = q.c; x.fillRect(-q.w / 2, -q.h / 2, q.w, q.h); }
+        x.restore();
+      });
       if (el < DAUER) requestAnimationFrame(loop); else c.remove();
     })(t0);
   } catch (err) { /* nur Zierde */ }
