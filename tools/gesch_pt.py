@@ -379,9 +379,9 @@ def build(pakete):
         assert f"({summen[k]} Punkte)" in t["abschnitt"], t["abschnitt"]
     teile_txt = ", ".join(f"{k} {TEILE[k][0]} {TEILE[k][1]}" for k in "ABCDEF")
     p = pack(ID, "Geschichte Klasse 6: Probearbeit (Quellen, Zeit, Lucy, Steinzeit, Ötzi)",
-             f"Eigene Probearbeit mit {GESAMT} Punkten in sechs Teilen ({teile_txt}), etwa 45 Minuten, Buch und Heft zu. Alle Aufgaben sind neu. Wo Punkte fehlen, geh in das passende Übungspaket zurück.",
+             f"Eigene Probearbeit mit {GESAMT} Punkten in sechs Teilen ({teile_txt}), 45 Minuten mit Timer, Buch und Heft zu. Alle Aufgaben sind neu. Wo Punkte fehlen, geh in das passende Übungspaket zurück.",
              None, A,
              hinweis="Das ist nicht die Klassenarbeit deines Lehrers, sondern eine eigene Probearbeit unter Prüfungsbedingungen. Der Lehrer hat keine Form vorgegeben, deshalb sind Aufbau, Punkte und Zeit selbst festgelegt. "
-                     "Stell dir 45 Minuten ein, lege Buch und Heft weg und vergleiche erst am Ende mit den Lösungen. Die Familie Berger ist erfunden. Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer.")
+                     "Lege Buch und Heft weg und vergleiche erst am Ende mit den Lösungen. Die Familie Berger ist erfunden. Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer.")
     p["ueben"] = False   # kein Übungsmodus, nur proben wie in der Schule
     return p
