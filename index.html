@@ -64,6 +64,15 @@ main{max-width:1040px;margin:0 auto;padding:1.4rem 1.2rem 4rem;outline:none}
 .chips{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.4rem}
 .chip{font-size:.8rem;font-weight:600;padding:.1rem .6rem;border-radius:99px;background:var(--surface-2);color:var(--muted);border:1px solid var(--line)}
 .note{background:color-mix(in srgb,var(--part) 8%,var(--surface));border:1px solid color-mix(in srgb,var(--part) 28%,var(--line));border-radius:10px;padding:.5rem .8rem;font-size:.9rem;color:var(--muted)}
+details.fold{padding:0}
+details.fold summary{list-style:none;cursor:pointer;display:flex;gap:.5rem;align-items:baseline;padding:.5rem .8rem;border-radius:10px}
+details.fold summary::-webkit-details-marker{display:none}
+details.fold summary::before{content:'▸';flex:none;width:1em;color:var(--accent-text)}
+details.fold[open] summary::before{content:'▾'}
+.fold-t{min-width:0;flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.fold-t b{color:var(--ink);font-weight:600}
+details.fold[open] .fold-tz{display:none}
+details.fold>p{margin:0;padding:0 .8rem .6rem 2.3rem}
 .resume{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;align-items:center;border-color:var(--accent);background:color-mix(in srgb,var(--accent) 10%,var(--surface))}
 .legend{font-size:.85rem;color:var(--muted)}
 .meta{display:flex;align-items:center;gap:.6rem;color:var(--muted);font-size:.92rem;margin-bottom:.7rem;flex-wrap:wrap}
@@ -732,10 +741,11 @@ function packCard(p) {
     : '<div class="trend"><span class="muted">Noch nicht geübt.</span></div>';
   const nx = naechsteIds.has(p.id);
   return `<article class="card pack${nx ? ' next' : ''}" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${nx ? '<span class="chip acc">Als Nächstes</span>' : ''}${p.ueben === false && probeMinuten(p) ? `<span class="chip">⏱ ${probeMinuten(p)} Min.</span>` : ''}${p.reihenfolge !== undefined && p.termin ? `<span class="chip">Schritt ${esc(String(p.reihenfolge))}</span>` : ''}${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
-<h2>${esc(p.titel)}</h2></div></div>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<p class="note">⚠ ${inl(p.hinweis)}</p>` : ''}
+<h2>${esc(p.titel)}</h2></div></div>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<details class="note fold" data-hid="${id}"${hinweisAuf.has(p.id) ? ' open' : ''}><summary><span class="fold-t"><b>⚠ Hinweis</b><span class="fold-tz">: ${inl(p.hinweis)}</span></span></summary><p>${inl(p.hinweis)}</p></details>` : ''}
 ${trend}
 <div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span>${verwalten ? `<button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button>` : ''}</div></article>`;
 }
+let hinweisAuf = new Set(); /* aufgeklappte Hinweise auf den Karten, gilt nur bis zum Neuladen */
 /* Lernstand für die Startseite: nur Pakete, die gerade importiert sind; je Paket zählt der letzte vollständige Durchgang (ohne "Fehler wiederholen") */
 function lernStand() {
   const ps = db.pakete, alle = [], letzte = [];
@@ -1336,6 +1346,10 @@ document.addEventListener('click', e => {
 window.addEventListener('pagehide', () => save(true));
 document.addEventListener('input', onInput);
 document.addEventListener('change', onInput);
+document.addEventListener('toggle', e => {
+  const d = e.target;
+  if (d && d.matches && d.matches('details.fold[data-hid]')) { if (d.open) hinweisAuf.add(d.dataset.hid); else hinweisAuf.delete(d.dataset.hid); }
+}, true);
 document.addEventListener('keydown', e => {
   if (e.isComposing) return;
   const el = e.target;
