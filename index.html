@@ -451,10 +451,11 @@ function readRaw(key) { try { const d = JSON.parse(localStorage.getItem(key) || 
 function loadDb(id) {
   let d = readRaw(keyOf(id)), migriert = false;
   if (!d && id === ALT_BESITZER) { d = readRaw(KEY_ALT); migriert = !!d; } /* alter Stand bleibt als Kopie unter lernhilfe.v1 liegen */
-  const base = { pakete: [], ergebnisse: {}, session: null, gesichert: null };
+  const base = { pakete: [], ergebnisse: {}, fehler: {}, session: null, gesichert: null };
   if (d) Object.assign(base, d);
   if (!Array.isArray(base.pakete)) base.pakete = [];
   if (!base.ergebnisse || typeof base.ergebnisse !== 'object') base.ergebnisse = {};
+  if (!base.fehler || typeof base.fehler !== 'object' || Array.isArray(base.fehler)) base.fehler = {};
   if (base.session && (base.session.done || !base.pakete.some(p => p.id === base.session.id))) base.session = null;
   if (migriert) { try { localStorage.setItem(keyOf(id), JSON.stringify(base)); } catch (e) { /* wird beim nächsten Speichern erneut versucht */ } }
   return { base, migriert };
@@ -711,6 +712,12 @@ function importObj(o, label, force) {
       have.sort((a, b) => a.t - b.t);
     });
   }
+  if (isBackup && o.fehler && typeof o.fehler === 'object') rw(() => Object.keys(o.fehler).forEach(id => {
+    const e = o.fehler[id]; if (!e || !Array.isArray(e.l)) return;
+    if (!db.fehler || typeof db.fehler !== 'object') db.fehler = {};
+    if (db.fehler[id] && +db.fehler[id].t >= +e.t) return; /* der neuere Stand gewinnt */
+    db.fehler[id] = { t: +e.t || 0, l: e.l.slice(0, 300).filter(x => x && Number.isInteger(x.i) && typeof x.h === 'string').map(x => ({ i: x.i, h: x.h.slice(0, 12) })) };
+  }));
   if (isBackup && o.punkte && belohnt()) rw(() => punkteMerge(o.punkte));
   return res;
 }
@@ -824,7 +831,7 @@ function packCard(p) {
   return `<article class="card pack${nx ? ' next' : ''}" style="--sub:${st.hue}"><div class="pk-head"><span class="tile" aria-hidden="true">${st.icon}</span><div><div class="chips">${nx ? '<span class="chip acc">Als Nächstes</span>' : ''}${p.ueben === false && probeMinuten(p) ? `<span class="chip">⏱ ${probeMinuten(p)} Min.</span>` : ''}${p.reihenfolge !== undefined && p.termin ? `<span class="chip">Schritt ${esc(String(p.reihenfolge))}</span>` : ''}${p.fach ? `<span class="chip">${esc(p.fach)}</span>` : ''}${p.klasse ? `<span class="chip">${esc(klasseChip(p.klasse))}</span>` : ''}<span class="chip">${p.aufgaben.length} ${p.aufgaben.length === 1 ? 'Aufgabe' : 'Aufgaben'}</span></div>
 <h2>${esc(p.titel)}</h2></div></div>${p.beschreibung ? `<p class="muted">${inl(p.beschreibung)}</p>` : ''}${p.hinweis ? `<details class="note fold" data-hid="${id}"${hinweisAuf.has(p.id) ? ' open' : ''}><summary><span class="fold-t"><b>⚠ Hinweis</b><span class="fold-tz">: ${inl(p.hinweis)}</span></span></summary><p>${inl(p.hinweis)}</p></details>` : ''}
 ${trend}
-<div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span>${verwalten ? `<button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button>` : ''}</div></article>`;
+<div class="row">${p.ueben === false ? '' : `<button class="btn" data-act="ueben" data-id="${id}">Üben</button>`}${p.probe === false ? '' : `<button class="btn${p.ueben === false ? '' : ' sec'}" data-act="test" data-id="${id}">${wort().probe}</button>`}${rw(() => fehlerKnopfHtml(p), '')}${p.lernblatt && p.lernblatt.length ? `<button class="btn sec" data-act="lernblatt" data-id="${id}">Lernblatt</button>` : ''}<span class="sp"></span>${verwalten ? `<button class="btn ghost sm" data-act="del" data-id="${id}">Löschen</button>` : ''}</div></article>`;
 }
 let hinweisAuf = new Set(); /* aufgeklappte Hinweise auf den Karten, gilt nur bis zum Neuladen */
 /* Lernstand für die Startseite: nur Pakete, die gerade importiert sind; je Paket zählt der letzte vollständige Durchgang (ohne "Fehler wiederholen") */
@@ -1179,6 +1186,30 @@ function totals(p, s) {
   s.order.forEach(i => { const r = taskScore(p, s, i); got += r.got; max += r.max; });
   return { got, max, pct: max ? Math.round(100 * got / max) : 0 };
 }
+/* Fehlerliste je Paket: die noch nicht ganz richtigen Aufgaben aus dem letzten vollständigen Durchgang bleiben gespeichert (auch nach dem Verlassen der Ergebnisseite);
+   Fehlerrunden nehmen richtig beantwortete heraus. Aufgaben werden über Position und Kurzkennung ihres Inhalts erkannt, damit ein aktualisiertes Paket nichts durcheinanderbringt. */
+const fehlerHash = t => { const x = JSON.stringify([t && t.typ, t && t.frage, t && t.text, t && t.richtig, t && t.antworten, t && t.paare]); let h = 5381; for (let i = 0; i < x.length; i++) h = ((h * 33) ^ x.charCodeAt(i)) >>> 0; return h.toString(36); };
+function fehlerListe(p) { /* aktuelle Positionen im Paket; Eintraege, die es nicht mehr gibt, fallen weg */
+  const e = db && db.fehler && db.fehler[p.id]; if (!e || !Array.isArray(e.l)) return [];
+  const hs = p.aufgaben.map(fehlerHash), used = new Set(), out = [];
+  e.l.forEach(x => {
+    if (!x || typeof x !== 'object') return;
+    const j = Number.isInteger(x.i) && hs[x.i] === x.h && !used.has(x.i) ? x.i : hs.findIndex((h, k) => h === x.h && !used.has(k));
+    if (j >= 0 && p.aufgaben[j].typ !== 'frei') { used.add(j); out.push(j); }
+  });
+  return out.sort((a, b) => a - b);
+}
+function fehlerMerken(p, s) { /* beim Abgeben und bei jeder späteren Selbstbewertung; liefert immer dasselbe Ergebnis */
+  if (!db.fehler || typeof db.fehler !== 'object' || Array.isArray(db.fehler)) db.fehler = {};
+  const falsch = [], richtig = new Set();
+  s.order.forEach(i => { const t = p.aufgaben[i]; if (!t || t.typ === 'frei') return; const r = taskScore(p, s, i); if (r.got < r.max) falsch.push(i); else richtig.add(i); });
+  let ids;
+  if (!s.teil) ids = falsch;
+  else { const bleibt = new Set(fehlerListe(p).filter(i => !richtig.has(i))); falsch.forEach(i => bleibt.add(i)); ids = [...bleibt]; }
+  ids.sort((a, b) => a - b);
+  if (ids.length) db.fehler[p.id] = { t: s.resultT || Date.now(), l: ids.map(i => ({ i, h: fehlerHash(p.aufgaben[i]) })) }; else delete db.fehler[p.id];
+}
+function fehlerKnopfHtml(p) { const n = fehlerListe(p).length; return n ? `<button class="btn sec" data-act="fehler-ueben" data-id="${esc(p.id)}">Fehler üben (${n})</button>` : ''; }
 function saveResult() {
   const s = db.session, p = getPack(s.id), tt = totals(p, s);
   if (!s.resultT) s.resultT = Date.now();
@@ -1190,6 +1221,7 @@ function saveResult() {
   if (k >= 0) arr[k] = e; else arr.push(e);
   if (arr.length > 40) arr.splice(0, arr.length - 40);
   rw(() => durchgangFertig(p, s, tt));
+  rw(() => fehlerMerken(p, s));
   save(true);
   rw(elternAuto);
 }
@@ -1254,7 +1286,7 @@ function renderResult() {
   const unrated = s.order.filter(i => p.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
   const anim = !s.ringShown; s.ringShown = true; /* der Ring läuft nur beim ersten Anzeigen ein */
   const rc = tt.pct >= 75 ? 'var(--ok)' : tt.pct >= 50 ? 'var(--part)' : 'var(--bad)';
-  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten</div>` : ''}${s.zeitUm ? `<p class="note">Die Zeit war um, die ${wort().probe} wurde automatisch abgegeben. Aufgaben ohne Antwort zählen als nicht gelöst.</p>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button>${rw(elternKnopfHtml, '')}<button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div>${rw(elternStatusHtml, '')}</div>${rw(() => rwErgebnisHtml(s), '')}${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
+  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten</div>` : ''}${s.zeitUm ? `<p class="note">Die Zeit war um, die ${wort().probe} wurde automatisch abgegeben. Aufgaben ohne Antwort zählen als nicht gelöst.</p>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button>${rw(elternKnopfHtml, '')}<button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div>${wrong.length ? '<p class="muted" style="margin:.6rem 0 0;text-align:center">Diese Fehler merkt sich die Lernhilfe: Auf der Startseite steht beim Paket „Fehler üben“, auch noch morgen.</p>' : ''}${rw(elternStatusHtml, '')}</div>${rw(() => rwErgebnisHtml(s), '')}${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
   if (anim) requestAnimationFrame(() => requestAnimationFrame(() => { const r = $('#ringval'); if (r) r.setAttribute('stroke-dasharray', tt.pct + ' 100'); }));
   save();
 }
@@ -1989,7 +2021,7 @@ function elCodeNeuErzeugen() {
 }
 
 /* ========== Sicherung, Bibliothek ========== */
-function backupData() { return { typ: 'sicherung', version: 1, person: cur.id, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse, punkte: db.punkte }; }
+function backupData() { return { typ: 'sicherung', version: 1, person: cur.id, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse, fehler: db.fehler, punkte: db.punkte }; }
 function download(name, text) {
   const b = new Blob([text], { type: 'application/json' }); const a = document.createElement('a');
   a.href = URL.createObjectURL(b); a.download = name; document.body.appendChild(a); a.click();
@@ -2146,6 +2178,7 @@ document.addEventListener('click', e => {
     case 'backup-copy': navigator.clipboard.writeText(JSON.stringify(backupData())).then(() => { db.gesichert = Date.now(); save(true); toast('Sicherung in die Zwischenablage kopiert.'); }, () => toast('Kopieren nicht möglich.')); break;
     case 'lernblatt': go(H('lernblatt/' + encodeURIComponent(id))); break;
     case 'ueben': case 'test': startSession(id, act === 'test' ? 'test' : 'ueben'); break;
+    case 'fehler-ueben': { const fp = getPack(id), fl2 = fp ? rw(() => fehlerListe(fp), []) : []; if (fl2.length) startSession(id, 'ueben', fl2); else { toast('Hier ist keine Fehlerliste mehr offen.'); renderHome(); } break; }
     case 'verwalten': { verwalten = !verwalten; renderHome(); const nb = $('[data-act=verwalten]'); if (nb) nb.focus(); break; }
     case 'del-all': {
       const n = db.pakete.length; if (!n) return;
