@@ -1237,10 +1237,11 @@ function renderResult() {
   save();
 }
 
-/* ========== Belohnungen (nur für Kinder): Punkte, Stufen, Abzeichen, Sammelalbum ========== */
+/* ========== Belohnungen: Punkte, Stufen, Abzeichen, Sammelalbum (Kinder) bzw. Kartei (Erwachsene) ========== */
 /* Das ist Beiwerk: Ein Fehler hier darf das Üben nie stören. Jeder Einstieg läuft deshalb über rw() und fängt Fehler ab. */
 function rw(fn, fallback) { try { return fn(); } catch (err) { try { console.warn('Belohnung:', err); } catch (e2) { /* egal */ } return fallback; } }
-const belohnt = () => !!(cur && cur.art === 'kind' && db);
+const belohnt = () => !!(cur && db);
+const erw = () => !!(cur && cur.art === 'erwachsen'); /* Erwachsene bekommen dieselben Punkte, aber andere Namen, Wörter und kein Konfetti */
 const STUFEN = [ /* Name, Zeichen, ab Punkten – alle Geschichte-Pakete zusammen bringen etwa 2000 Punkte */
   ['Rucksack-Packer', '🎒', 0], ['Spurenleser', '🐾', 100], ['Pfadfinder', '🧭', 300], ['Höhlenforscher', '🔦', 600], ['Zeitreisender', '⏳', 1000],
   ['Kartenmeister', '🗺️', 1500], ['Wissensjäger', '📚', 2200], ['Expeditions\u00ADleiter', '⛰️', 3200], ['Meisterdetektiv', '🕵️', 4500], ['Legende', '👑', 6500]
@@ -1266,7 +1267,28 @@ const ABZEICHEN = [ /* Familien mit vier Stufen (Bronze, Silber, Gold, Diamant);
   { id: 'sammler', name: 'Sammler', icon: '🗂️', stufen: [3, 6, 11, 20], einheit: 'Karten gesammelt', hilfe: 'Karten im Sammelalbum freischalten.', wert: (d, st) => st.karten },
   { id: 'crashkurs', name: 'Crashkurs-Champion', icon: '⚡', stufen: [1, 2, 4, 8], einheit: 'Crashkurse mit 90 % oder mehr', hilfe: 'Einen Crashkurs mit mindestens 90 % abschließen.', wert: d => anzahl(d.cc) }
 ];
-const stufeVon = pts => { let i = 0; STUFEN.forEach((s, n) => { if (pts >= s[2]) i = n; }); return i; };
+const STUFEN_ERW = [['Erstsemester', '📘', 0], ['Lerngruppe', '👥', 100], ['Tutorin', '📝', 300], ['Hilfskraft', '🔬', 600], ['Bachelorandin', '🎓', 1000], ['Methodenprofi', '📊', 1500], ['Masterstudentin', '🧠', 2200], ['Doktorandin', '🔎', 3200], ['Professorin', '🏛️', 4500], ['Nobelpreisträgerin', '🏆', 6500]];
+const stufen = () => erw() ? STUFEN_ERW : STUFEN;
+const rangName = n => (erw() ? ['', 'Bestanden', 'Gut', 'Sehr gut'] : ['', 'Bronze', 'Silber', 'Gold'])[n] || ''; /* Karten-Rang: Kinder Metalle, Erwachsene Noten */
+const ABZ_ERW = { /* Namen und Texte für Erwachsene (Zahlen und Stufen bleiben gleich) */
+  aufgabenheld: { name: 'Aufgabenprofi', icon: '✅', einheit: 'Aufgaben ganz richtig' },
+  fehlerjaeger: { name: 'Aus Fehlern gelernt', icon: '🔍', einheit: 'Fehler korrigiert', hilfe: 'Eine Aufgabe, die du schon einmal falsch hattest, jetzt ganz richtig lösen.' },
+  mutzumfehler: { name: 'Lücken geschlossen', icon: '🔁', einheit: 'Fehler-Runden gelernt' },
+  dranbleiber: { name: 'Durchhaltevermögen', icon: '📆', einheit: 'Tage in Folge gelernt', hilfe: 'An mehreren Tagen hintereinander lernen. Dein bester Lauf zählt.' },
+  volltreffer: { name: 'Punktlandung', icon: '🎯' },
+  alleteile: { name: 'Rundum sicher', icon: '🧩' },
+  pruefungsprofi: { name: 'Klausurprofi', icon: '🎓', einheit: 'Probeklausuren mit 75 % oder mehr', hilfe: 'Eine Probeklausur mit mindestens 75 % abschließen.' },
+  zeitmeister: { name: 'Zeitmanagement', icon: '⏱️', einheit: 'Probeklausuren rechtzeitig abgegeben', hilfe: 'Eine Probeklausur vor Ablauf des Timers selbst abgeben (mindestens 50 %).' },
+  fruehdran: { name: 'Früh dran', einheit: 'Pakete früh gelernt (mindestens 3 Tage vor der Klausur)', hilfe: 'Ein Paket mindestens drei Tage vor dem Termin der Klausur durcharbeiten.' },
+  aufsteiger: { name: 'Steigerung', icon: '📈', einheit: 'Karteikarten verbessert', hilfe: 'Eine Karteikarte durch ein besseres Ergebnis auf einen höheren Rang bringen.' },
+  goldschmied: { name: 'Bestnoten', icon: '🥇', einheit: 'Karteikarten mit „Sehr gut“', hilfe: 'Karteikarten mit mindestens 90 % im Durchgang („Sehr gut“).' },
+  sammler: { name: 'Karteikasten', icon: '🗂️', einheit: 'Karteikarten angelegt', hilfe: 'Karteikarten in der Kartei freischalten.' }
+};
+const abzF = f => erw() && ABZ_ERW[f.id] ? Object.assign({}, f, ABZ_ERW[f.id]) : f;
+const WORTE = () => erw()
+  ? { karte: 'Karteikarte', album: 'Meine Kartei', sek: 'Karteikasten', knopf: '🗂️ Meine Kartei', neu: '🗂️', hoch: '📈', leer: 'Noch nicht angelegt. Arbeite das Paket durch und erreiche mindestens 50 %.', crumb: 'Kartei', keine: 'Sobald Lernpakete da sind, gibt es hier für jedes Paket eine Karteikarte.' }
+  : { karte: 'Karte', album: 'Mein Album', sek: 'Sammelalbum', knopf: '🃏 Mein Album', neu: '🃏', hoch: '⬆️', leer: 'Noch nicht erspielt. Spiele das Paket durch und erreiche mindestens 50 %.', crumb: 'Album', keine: 'Sobald Lernpakete da sind, gibt es hier für jedes Paket eine Karte zum Sammeln.' };
+const stufeVon = pts => { let i = 0; stufen().forEach((s, n) => { if (pts >= s[2]) i = n; }); return i; };
 const tierVon = (f, d, st) => { const w = f.wert(d, st); return f.stufen.filter(x => w >= x).length; };
 
 /* Spielstand je Person: db.punkte. a = je Paket und Aufgabe ein Code (Bit 0–1: Punkte 0–3, 4 = war schon falsch, 8 = Fehler besiegt). */
@@ -1324,14 +1346,14 @@ function aufgabeBelohnen(p, s, idx) { /* idempotent: jede Aufgabe zählt je Pake
 function sammeln(s, ev) { if (!ev.length) return; s.rw = s.rw || { ev: [] }; ev.forEach(x => { if (!s.rw.ev.includes(x)) s.rw.ev.push(x); }); }
 function meilensteine(d) { /* neue Abzeichen-Stufen und Stufen seit der letzten Meldung */
   const ev = [], st = stand(d);
-  ABZEICHEN.forEach(f => { const t = tierVon(f, d, st), alt = d.ab[f.id] || 0; if (t > alt) { d.ab[f.id] = t; ev.push(`${f.icon} Abzeichen: ${f.name} ${ROEM[t]} (${TIER_NAMEN[t]})`); } });
+  ABZEICHEN.forEach(f0 => { const f = abzF(f0), t = tierVon(f0, d, st), alt = d.ab[f0.id] || 0; if (t > alt) { d.ab[f0.id] = t; ev.push(`${f.icon} Abzeichen: ${f.name} ${ROEM[t]} (${TIER_NAMEN[t]})`); } });
   const sn = stufeVon(st.pts);
-  if (sn > d.st) { d.st = sn; ev.push(`${STUFEN[sn][1]} Neue Stufe: ${STUFEN[sn][0]}!`); }
+  if (sn > d.st) { d.st = sn; ev.push(`${stufen()[sn][1]} Neue Stufe: ${stufen()[sn][0]}!`); }
   return ev;
 }
 function feiern(ev, konf) {
   if (ev.length) toast(ev.slice(0, 2).join('  ·  ') + (ev.length > 2 ? '  ·  +' + (ev.length - 2) + ' mehr' : ''), 5600);
-  if (ev.length || konf) konfetti();
+  if (!erw() && (ev.length || konf)) konfetti(); /* Konfetti nur für Kinder */
 }
 function aufgabeFertig(p, s, idx) { /* Üben: gleich nach dem Prüfen. Die Probearbeit wird erst beim Abgeben gezählt. */
   if (!belohnt() || s.modus !== 'ueben') return;
@@ -1358,10 +1380,10 @@ function durchgangFertig(p, s, tt) { /* beim Abgeben und bei jeder späteren Sel
     const k = kartenInfo(p), neu = tt.pct >= 90 ? 3 : tt.pct >= 75 ? 2 : tt.pct >= 50 ? 1 : 0, al = d.al[p.id];
     if (neu > 0 && (!al || neu > al.s)) {
       d.al[p.id] = { s: neu, titel: p.titel, kt: k.titel, mo: k.motiv, tx: k.text, h: fachStil(p.fach).hue, f: p.fach || '', best: Math.max(tt.pct, al ? al.best || 0 : 0) };
-      ev.push(al ? `⬆️ Karte verbessert: ${k.titel} (${KARTEN_STUFEN[neu][0]})` : `🃏 Neue Karte: ${k.titel} (${KARTEN_STUFEN[neu][0]})`);
+      const w = WORTE(); ev.push(al ? `${w.hoch} ${w.karte} verbessert: ${k.titel} (${rangName(neu)})` : `${w.neu} Neue ${w.karte}: ${k.titel} (${rangName(neu)})`);
       if (al) d.up++;
     } else if (al) { Object.assign(al, { titel: p.titel, kt: k.titel, mo: k.motiv, tx: k.text, h: fachStil(p.fach).hue, f: p.fach || '', best: Math.max(tt.pct, al.best || 0) }); }
-    if (tt.got >= tt.max - 1e-9) { if (!d.vt[p.id]) ev.push('🎯 100 % – Volltreffer!'); d.vt[p.id] = 1; if (!s.rwK) { s.rwK = true; konf = true; } }
+    if (tt.got >= tt.max - 1e-9) { if (!d.vt[p.id]) ev.push(erw() ? '🎯 100 % – Punktlandung!' : '🎯 100 % – Volltreffer!'); d.vt[p.id] = 1; if (!s.rwK) { s.rwK = true; konf = true; } }
     const gr = teilGruppen(p, s); if (gr.length >= 2 && gr.every(g => g.pct >= 75)) d.ts[p.id] = 1;
     if (p.termin) { const dt = terminDatum(p.termin); if (dt && tageBis(dt) >= 3) d.fd[p.id] = 1; }
     if (/crashkurs/i.test(p.id) && tt.pct >= 90) d.cc[p.id] = 1;
@@ -1420,8 +1442,8 @@ function konfetti() {
 
 /* Startseite, Ergebnisseite und Album */
 function fortschrittZurStufe(pts) {
-  const sn = stufeVon(pts), nx = STUFEN[sn + 1];
-  return { sn, nx, pct: nx ? Math.round(100 * (pts - STUFEN[sn][2]) / (nx[2] - STUFEN[sn][2])) : 100, rest: nx ? nx[2] - pts : 0 };
+  const sn = stufeVon(pts), nx = stufen()[sn + 1];
+  return { sn, nx, pct: nx ? Math.round(100 * (pts - stufen()[sn][2]) / (nx[2] - stufen()[sn][2])) : 100, rest: nx ? nx[2] - pts : 0 };
 }
 function kartenListe(d) { /* aktuelle Pakete zuerst (in Lernreihenfolge), dann Karten von Paketen, die inzwischen gelöscht sind */
   const out = [], ids = new Set();
@@ -1438,35 +1460,35 @@ function rwHomeHtml() {
   const d = pdb(), st = stand(d), f = fortschrittZurStufe(st.pts);
   if (!db.pakete.length && !st.pts) return '';
   const kl = kartenListe(d), have = kl.filter(k => k.s).length, nab = ABZEICHEN.filter(a => tierVon(a, d, st) > 0).length;
-  const [name, icon] = STUFEN[f.sn];
-  return `<section class="card beloh" aria-label="Punkte und Stufe"><div class="bl-main"><span class="bl-ico" aria-hidden="true">${icon}</span><div><div class="bl-st">Stufe ${f.sn + 1} · ${esc(name)}</div><div class="bl-pts"><b>${st.pts}</b> ${st.pts === 1 ? 'Punkt' : 'Punkte'}</div></div></div><div class="fbar" role="img" aria-label="${f.pct} Prozent bis zur nächsten Stufe"><i style="width:${f.pct}%"></i></div><div class="muted bl-sub">${f.nx ? `Noch ${f.rest} ${f.rest === 1 ? 'Punkt' : 'Punkte'} bis ${esc(f.nx[0])} ${f.nx[1]}` : 'Höchste Stufe erreicht!'}</div><div class="row"><button class="btn sec sm" data-act="album">🃏 Mein Album (${have}/${kl.length})</button><button class="btn sec sm" data-act="abzeichen">🏅 Abzeichen (${nab}/${ABZEICHEN.length})</button></div></section>`;
+  const [name, icon] = stufen()[f.sn];
+  return `<section class="card beloh" aria-label="Punkte und Stufe"><div class="bl-main"><span class="bl-ico" aria-hidden="true">${icon}</span><div><div class="bl-st">Stufe ${f.sn + 1} · ${esc(name)}</div><div class="bl-pts"><b>${st.pts}</b> ${st.pts === 1 ? 'Punkt' : 'Punkte'}</div></div></div><div class="fbar" role="img" aria-label="${f.pct} Prozent bis zur nächsten Stufe"><i style="width:${f.pct}%"></i></div><div class="muted bl-sub">${f.nx ? `Noch ${f.rest} ${f.rest === 1 ? 'Punkt' : 'Punkte'} bis ${esc(f.nx[0])} ${f.nx[1]}` : 'Höchste Stufe erreicht!'}</div><div class="row"><button class="btn sec sm" data-act="album">${WORTE().knopf} (${have}/${kl.length})</button><button class="btn sec sm" data-act="abzeichen">🏅 Abzeichen (${nab}/${ABZEICHEN.length})</button></div></section>`;
 }
 function rwErgebnisHtml(s) {
   if (!belohnt() || s.p0 === undefined) return '';
   const d = pdb(), st = stand(d), f = fortschrittZurStufe(st.pts), plus = Math.max(0, st.pts - s.p0);
   const ev = (s.rw && s.rw.ev) || [];
-  return `<section class="card rwbox" aria-label="Belohnungen"><div class="rw-head"><b>+${plus}</b><span>${plus === 1 ? 'Punkt' : 'Punkte'} in diesem Durchgang</span></div>${ev.length ? `<ul class="rw-ev">${ev.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}<p class="muted">${STUFEN[f.sn][1]} Stufe ${f.sn + 1} · ${esc(STUFEN[f.sn][0])} · ${st.pts} Punkte${f.nx ? ` · noch ${f.rest} bis ${esc(f.nx[0])}` : ''}</p><div class="row"><button class="btn sec sm" data-act="album">🃏 Mein Album</button><button class="btn sec sm" data-act="abzeichen">🏅 Abzeichen</button></div></section>`;
+  return `<section class="card rwbox" aria-label="Belohnungen"><div class="rw-head"><b>+${plus}</b><span>${plus === 1 ? 'Punkt' : 'Punkte'} in diesem Durchgang</span></div>${ev.length ? `<ul class="rw-ev">${ev.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}<p class="muted">${stufen()[f.sn][1]} Stufe ${f.sn + 1} · ${esc(stufen()[f.sn][0])} · ${st.pts} Punkte${f.nx ? ` · noch ${f.rest} bis ${esc(f.nx[0])}` : ''}</p><div class="row"><button class="btn sec sm" data-act="album">${WORTE().knopf}</button><button class="btn sec sm" data-act="abzeichen">🏅 Abzeichen</button></div></section>`;
 }
 function karteHtml(k) {
-  if (!k.s) return `<li class="kart leer" style="--ch:${k.h}"><div class="k-mo" aria-hidden="true">❔</div><div class="k-t">${esc(k.kt)}</div><div class="k-n">Noch nicht erspielt. Spiele das Paket durch und erreiche mindestens ${KARTEN_STUFEN[1][1]} %.</div></li>`;
-  const rang = KARTEN_STUFEN[k.s][0];
+  if (!k.s) return `<li class="kart leer" style="--ch:${k.h}"><div class="k-mo" aria-hidden="true">❔</div><div class="k-t">${esc(k.kt)}</div><div class="k-n">${WORTE().leer}</div></li>`;
+  const rang = rangName(k.s);
   return `<li class="kart t${k.s}" style="--ch:${k.h}" aria-label="${esc(k.kt)}, ${rang}"><div class="k-top"><span class="k-rang">${rang}</span><span>${k.best} %</span></div><div class="k-mo" aria-hidden="true">${esc(k.mo)}</div><div class="k-t">${esc(k.kt)}</div>${k.tx ? `<div class="k-x">${esc(k.tx)}</div>` : ''}<div class="k-n">${k.s < 3 ? `Nächster Rang: ab ${KARTEN_STUFEN[k.s + 1][1]} %` : '✨ Höchster Rang'}</div></li>`;
 }
-function abzeichenHtml(f, d, st) {
-  const w = f.wert(d, st), t = tierVon(f, d, st), nxt = f.stufen[t];
+function abzeichenHtml(f0, d, st) {
+  const f = abzF(f0), w = f0.wert(d, st), t = tierVon(f0, d, st), nxt = f.stufen[t];
   return `<li class="abz t${t}" title="${esc(f.hilfe)}"><span class="a-ring" aria-hidden="true"><span>${f.icon}</span>${t ? `<i>${ROEM[t]}</i>` : ''}</span><div class="a-n">${esc(f.name)}${t ? ' ' + ROEM[t] : ''}</div><div class="a-s muted">${nxt ? `${w} von ${nxt} ${esc(f.einheit)}` : `${w} ${esc(f.einheit)} · höchste Stufe`}</div><div class="fbar" role="img" aria-label="${nxt ? Math.round(100 * w / nxt) : 100} Prozent bis zur nächsten Stufe"><i style="width:${nxt ? Math.round(100 * w / nxt) : 100}%"></i></div></li>`;
 }
 function renderAlbum(zuAbzeichen) {
-  $('#crumb').textContent = 'Album';
+  const w = WORTE(); $('#crumb').textContent = w.crumb;
   const d = pdb(), st = stand(d), f = fortschrittZurStufe(st.pts), kl = kartenListe(d), have = kl.filter(k => k.s).length;
-  const [name, icon] = STUFEN[f.sn];
-  $('#app').innerHTML = `<div class="hero"><div><h1>Mein Album</h1><p class="lead">Stufe ${f.sn + 1} · ${esc(name)} · ${st.pts} ${st.pts === 1 ? 'Punkt' : 'Punkte'}</p></div><div class="row"><button class="btn sec" data-act="home">Zur Übersicht</button></div></div>
-<section class="card stufen"><div class="bl-main"><span class="bl-ico" aria-hidden="true">${icon}</span><div><div class="bl-st">${esc(name)}</div><div class="muted">${f.nx ? `Noch ${f.rest} ${f.rest === 1 ? 'Punkt' : 'Punkte'} bis ${esc(f.nx[0])} ${f.nx[1]}` : 'Höchste Stufe erreicht!'}</div></div></div><div class="fbar" role="img" aria-label="${f.pct} Prozent bis zur nächsten Stufe"><i style="width:${f.pct}%"></i></div><ol class="leiter" aria-label="Alle Stufen">${STUFEN.map((x, i) => `<li class="${i <= f.sn ? 'on' : ''}${i === f.sn ? ' now' : ''}" title="${esc(x[0])} – ab ${x[2]} Punkten"><span aria-hidden="true">${x[1]}</span><small>${esc(x[0])}</small><span class="sr">${i <= f.sn ? 'erreicht' : 'ab ' + x[2] + ' Punkten'}</span></li>`).join('')}</ol></section>
-<h2>Sammelalbum <span class="muted">(${have} von ${kl.length} Karten)</span></h2>
-${kl.length ? `<ul class="kgrid">${kl.map(karteHtml).join('')}</ul>` : '<p class="muted">Sobald Lernpakete da sind, gibt es hier für jedes Paket eine Karte zum Sammeln.</p>'}
+  const [name, icon] = stufen()[f.sn];
+  $('#app').innerHTML = `<div class="hero"><div><h1>${w.album}</h1><p class="lead">Stufe ${f.sn + 1} · ${esc(name)} · ${st.pts} ${st.pts === 1 ? 'Punkt' : 'Punkte'}</p></div><div class="row"><button class="btn sec" data-act="home">Zur Übersicht</button></div></div>
+<section class="card stufen"><div class="bl-main"><span class="bl-ico" aria-hidden="true">${icon}</span><div><div class="bl-st">${esc(name)}</div><div class="muted">${f.nx ? `Noch ${f.rest} ${f.rest === 1 ? 'Punkt' : 'Punkte'} bis ${esc(f.nx[0])} ${f.nx[1]}` : 'Höchste Stufe erreicht!'}</div></div></div><div class="fbar" role="img" aria-label="${f.pct} Prozent bis zur nächsten Stufe"><i style="width:${f.pct}%"></i></div><ol class="leiter" aria-label="Alle Stufen">${stufen().map((x, i) => `<li class="${i <= f.sn ? 'on' : ''}${i === f.sn ? ' now' : ''}" title="${esc(x[0])} – ab ${x[2]} Punkten"><span aria-hidden="true">${x[1]}</span><small>${esc(x[0])}</small><span class="sr">${i <= f.sn ? 'erreicht' : 'ab ' + x[2] + ' Punkten'}</span></li>`).join('')}</ol></section>
+<h2>${w.sek} <span class="muted">(${have} von ${kl.length} ${erw() ? 'Karteikarten' : 'Karten'})</span></h2>
+${kl.length ? `<ul class="kgrid">${kl.map(karteHtml).join('')}</ul>` : `<p class="muted">${w.keine}</p>`}
 <h2 id="abz">Abzeichen <span class="muted">(${ABZEICHEN.filter(a => tierVon(a, d, st) > 0).length} von ${ABZEICHEN.length})</span></h2>
 <ul class="agrid">${ABZEICHEN.map(a => abzeichenHtml(a, d, st)).join('')}</ul>
-<details class="note fold"><summary><span class="fold-t"><b>So bekommst du Punkte</b></span></summary><ul><li>Jede beantwortete Aufgabe zählt: 1 Punkt, halb richtig 2 Punkte, ganz richtig 3 Punkte. Freie Aufgaben bringen höchstens 2 Punkte. „Weiß ich nicht“ bringt keinen Punkt.</li><li>Jede Aufgabe zählt je Paket nur einmal. Du kannst sie aber später verbessern und bekommst dann die fehlenden Punkte. Fehler üben lohnt sich also.</li><li>Ein Paket ganz durchspielen (mindestens 80 % der Aufgaben beantwortet): +${PAKETBONUS} Punkte.</li><li>Die Karte des Pakets gibt es ab ${KARTEN_STUFEN[1][1]} % (Bronze, +${KARTENBONUS[1]}), ${KARTEN_STUFEN[2][1]} % (Silber, insgesamt +${KARTENBONUS[2]}) und ${KARTEN_STUFEN[3][1]} % (Gold, insgesamt +${KARTENBONUS[3]}) in einem vollständigen Durchgang.</li><li>Abzeichen haben vier Stufen (Bronze, Silber, Gold, Diamant) und zählen über alle Pakete und Fächer hinweg.</li></ul></details>`;
+<details class="note fold"><summary><span class="fold-t"><b>So bekommst du Punkte</b></span></summary><ul><li>Jede beantwortete Aufgabe zählt: 1 Punkt, halb richtig 2 Punkte, ganz richtig 3 Punkte. Freie Aufgaben bringen höchstens 2 Punkte. „Weiß ich nicht“ bringt keinen Punkt.</li><li>Jede Aufgabe zählt je Paket nur einmal. Du kannst sie aber später verbessern und bekommst dann die fehlenden Punkte. Fehler üben lohnt sich also.</li><li>Ein Paket ganz durchspielen (mindestens 80 % der Aufgaben beantwortet): +${PAKETBONUS} Punkte.</li><li>Die ${w.karte} des Pakets gibt es ab ${KARTEN_STUFEN[1][1]} % (${rangName(1)}, +${KARTENBONUS[1]}), ${KARTEN_STUFEN[2][1]} % (${rangName(2)}, insgesamt +${KARTENBONUS[2]}) und ${KARTEN_STUFEN[3][1]} % (${rangName(3)}, insgesamt +${KARTENBONUS[3]}) in einem vollständigen Durchgang.</li><li>Abzeichen haben vier Stufen (Bronze, Silber, Gold, Diamant) und zählen über alle Pakete und Fächer hinweg.</li></ul></details>`;
   if (zuAbzeichen) { const a = $('#abz'); if (a) a.scrollIntoView(); }
   save();
 }
