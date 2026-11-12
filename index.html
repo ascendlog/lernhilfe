@@ -317,21 +317,21 @@ html[data-theme=light] .kart.leer{background:var(--surface);color:var(--muted)}
 .k-top{display:flex;justify-content:space-between;font-size:.78rem;font-weight:700}
 .k-rang{color:var(--tc);text-shadow:0 0 1px rgba(0,0,0,.35)}
 html[data-theme=light] .k-rang{color:color-mix(in srgb,var(--tc) 60%,#000);text-shadow:none}
-.k-mo{font-size:3rem;line-height:1.1;text-align:center;margin:.35rem 0 .15rem}
+.k-mo{font-size:3rem;line-height:1.1;text-align:center;margin:.35rem 0 .15rem;max-width:100%;overflow:hidden}
 .k-t{font:700 1.08rem/1.2 var(--display);text-align:center;overflow-wrap:anywhere}
-.k-x{font-size:.82rem;line-height:1.35;text-align:center;opacity:.9}
+.k-x{font-size:.82rem;line-height:1.35;text-align:center;opacity:.9;overflow-wrap:anywhere}
 .k-n{margin-top:auto;padding-top:.3rem;font-size:.76rem;text-align:center;opacity:.85}
 .abz{--tc:var(--line);display:flex;flex-direction:column;align-items:center;gap:.35rem;text-align:center;padding:.8rem .7rem;border-radius:14px;background:var(--surface);border:1px solid var(--line)}
 .abz.t1{--tc:var(--t1)}.abz.t2{--tc:var(--t2)}.abz.t3{--tc:var(--t3)}.abz.t4{--tc:var(--t4)}
 .a-ring{position:relative;display:grid;place-items:center;width:3.6rem;height:3.6rem;border-radius:50%;font-size:1.7rem;background:var(--surface-2);border:3px solid var(--tc)}
 .abz.t0 .a-ring{border-style:dashed;filter:grayscale(1);opacity:.55}
 .a-ring i{position:absolute;right:-.5rem;bottom:-.3rem;font:800 .72rem/1 var(--display);font-style:normal;background:var(--tc);color:#14161f;border-radius:99px;padding:.2rem .42rem}
-.a-n{font-weight:700;line-height:1.2}
+.a-n{font-weight:700;line-height:1.2;overflow-wrap:anywhere}
 .a-s{font-size:.8rem;line-height:1.3}
 .abz .fbar{width:100%;margin-top:auto}
 #abz{scroll-margin-top:4.5rem}
 #konf{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:40}
-@media (max-width:600px){.leiter{grid-template-columns:repeat(5,1fr);row-gap:.7rem}.kgrid{grid-template-columns:repeat(2,1fr)}.agrid{grid-template-columns:repeat(2,1fr)}.bl-st{font-size:1.15rem}}
+@media (max-width:600px){.leiter{grid-template-columns:repeat(5,1fr);row-gap:.7rem}.kgrid{grid-template-columns:repeat(2,minmax(0,1fr))}.agrid{grid-template-columns:repeat(2,minmax(0,1fr))}.bl-st{font-size:1.15rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 .eltxt{white-space:pre-wrap;overflow-wrap:anywhere;background:var(--surface-2);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;font-size:.95rem;max-height:45vh;overflow:auto}
 .note:empty{display:none}
@@ -404,8 +404,8 @@ const fmtDate = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', m
    ordner = Ordner unter pakete/, aus denen die Person ihre Pakete aus dem Repo bekommt (Standard: der eigene).
    Ein Ordner, der zwei Personen gemeinsam gehört (hier pakete/joel-dario/), taucht bei beiden auf. */
 const PERSONEN = [ /* farbe = Akzent, h = Farbton des „Raums“ (0–360) */
-  { id: 'joel', name: 'Joel', art: 'kind', farbe: '#ffc233', h: 228, ordner: ['joel', 'joel-dario'] },
-  { id: 'dario', name: 'Dario', art: 'kind', farbe: '#b794ff', h: 268, ordner: ['dario', 'joel-dario'] },
+  { id: 'joel', name: 'Joel', art: 'kind', freund: 'dario', farbe: '#ffc233', h: 228, ordner: ['joel', 'joel-dario'] },
+  { id: 'dario', name: 'Dario', art: 'kind', freund: 'joel', farbe: '#b794ff', h: 268, ordner: ['dario', 'joel-dario'] },
   { id: 'saskia', name: 'Saskia', art: 'erwachsen', farbe: '#2fd0b9', h: 176, probeMinuten: 90 }
 ];
 const ALT_BESITZER = 'joel'; /* ihm gehört der Speicherstand aus der Zeit vor den Profilen (lernhilfe.v1) */
@@ -746,20 +746,21 @@ function render() {
   closeDialog(); stopTimer();
   const seg = (location.hash || '#/').replace(/^#\/?/, '').split('/');
   if (seg[0] !== 'eltern') rw(elternStop);
-  if (seg[0] === 'eltern' && !seg[1]) { leavePerson(); window.scrollTo(0, 0); return renderEltern(); }
+  if (seg[0] === 'eltern' && !seg[1]) { leavePerson(); rw(freundStop); window.scrollTo(0, 0); return renderEltern(); }
   const p = personById(seg[0]);
   window.scrollTo(0, 0);
   if (!p) {
-    leavePerson();
+    leavePerson(); rw(freundStop);
     if (location.hash && location.hash !== '#/') history.replaceState(null, '', '#/'); /* alte oder falsche Adressen landen bei der Auswahl */
     return renderChooser();
   }
-  enterPerson(p);
+  enterPerson(p); rw(freundSync);
   $('#whoBtn').innerHTML = `<span class="av" style="--c:${p.farbe}" aria-hidden="true">${esc(p.name[0])}</span>${esc(p.name)}<span class="wl muted">wechseln</span>`;
   $('#whoBtn').hidden = false; $('#bkBtn').hidden = false;
   document.title = 'Lernhilfe – ' + p.name;
   const s = db.session, r0 = seg[1] || '';
   if (r0 === 'lernblatt' && seg[2]) return renderLernblatt(decodeURIComponent(seg[2]));
+  if (r0 === 'freund' && kindP() && cur.freund) return renderFreund();
   if (r0 === 'album' && belohnt()) return renderAlbum(seg[2] === 'abzeichen');
   if (r0 === 'aufgabe') { if (s && !s.done) { if (startTimer()) return; return renderTask(); } if (s && s.done) return go(H('ergebnis')); }
   if (r0 === 'ergebnis' && s && s.done) return renderResult();
@@ -1515,7 +1516,7 @@ function renderAlbum(zuAbzeichen) {
   const w = WORTE(); $('#crumb').textContent = w.crumb;
   const d = pdb(), st = stand(d), f = fortschrittZurStufe(st.pts), kl = kartenListe(d), have = kl.filter(k => k.s).length;
   const [name, icon] = stufen()[f.sn];
-  $('#app').innerHTML = `<div class="hero"><div><h1>${w.album}</h1><p class="lead">Stufe ${f.sn + 1} · ${esc(name)} · ${st.pts} ${st.pts === 1 ? 'Punkt' : 'Punkte'}</p></div><div class="row"><button class="btn sec" data-act="home">Zur Übersicht</button></div></div>
+  $('#app').innerHTML = `<div class="hero"><div><h1>${w.album}</h1><p class="lead">Stufe ${f.sn + 1} · ${esc(name)} · ${st.pts} ${st.pts === 1 ? 'Punkt' : 'Punkte'}</p></div><div class="row">${rw(freundKnopfHtml, '')}<button class="btn sec" data-act="home">Zur Übersicht</button></div></div>
 <section class="card stufen"><div class="bl-main"><span class="bl-ico" aria-hidden="true">${icon}</span><div><div class="bl-st">${esc(name)}</div><div class="muted">${f.nx ? `Noch ${f.rest} ${f.rest === 1 ? 'Punkt' : 'Punkte'} bis ${esc(f.nx[0])} ${f.nx[1]}` : 'Höchste Stufe erreicht!'}</div></div></div><div class="fbar" role="img" aria-label="${f.pct} Prozent bis zur nächsten Stufe"><i style="width:${f.pct}%"></i></div><ol class="leiter" aria-label="Alle Stufen">${stufen().map((x, i) => `<li class="${i <= f.sn ? 'on' : ''}${i === f.sn ? ' now' : ''}" title="${esc(x[0])} – ab ${x[2]} Punkten"><span aria-hidden="true">${x[1]}</span><small>${esc(x[0])}</small><span class="sr">${i <= f.sn ? 'erreicht' : 'ab ' + x[2] + ' Punkten'}</span></li>`).join('')}</ol></section>
 <h2>${w.sek} <span class="muted">(${have} von ${kl.length} ${erw() ? 'Karteikarten' : 'Karten'})</span></h2>
 ${kl.length ? `<ul class="kgrid">${kl.map(karteHtml).join('')}</ul>` : `<p class="muted">${w.keine}</p>`}
@@ -1726,11 +1727,11 @@ function elHomeInner() {
   h += ' · Eltern-Ansicht verbunden' + (e.gesendet ? ' (zuletzt gesendet ' + esc(wannTxt(e.gesendet)) + ')' : '') + (e.offen ? ', der neueste Stand wartet noch' : '');
   return h + ' · <button class="link" data-act="eltern-jetzt">Jetzt senden</button> · <button class="link" data-act="eltern-trennen">Trennen</button>';
 }
-const elternHomeHtml = () => kindP() ? '<p class="legend" id="elHome">' + elHomeInner() + '</p>' : '';
+const elternHomeHtml = () => kindP() ? '<p class="legend" id="elHome">' + elHomeInner() + '</p>' + rw(freundHomeHtml, '') : '';
 const elternKnopfHtml = () => kindP() ? '<button class="btn sec" data-act="eltern-text-ergebnis">An die Eltern schicken</button>' : '';
 const elternStatusHtml = () => kindP() && kindCode() ? '<p class="legend" id="elStatus" role="status" style="margin:.9rem 0 0;text-align:center">' + esc(elStatusTxt()) + '</p>' : '';
 function elVerbindenDialog() {
-  dialog('<h2>Mit der Eltern-Ansicht verbinden</h2><p>Deine Eltern öffnen auf ihrem Gerät die Lernhilfe und tippen auf der Startseite („Wer lernt heute?“) auf <strong>Eltern-Ansicht</strong>. Dort steht der Familiencode. Trage ihn hier ein.</p><p class="muted">Danach bekommen deine Eltern nach jedem Durchgang deinen Stand, sobald ihre Eltern-Ansicht offen ist. Gesendet werden Name, Punkte, Stufe, Lernstand und die letzten Ergebnisse, keine einzelnen Antworten.</p><input class="txt" id="elCode" maxlength="24" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCD-EFGH-JKMN" aria-label="Familiencode"><p class="note" id="elCodeMsg" style="min-height:1.2em;margin:.6rem 0 0" role="status"></p><div class="row" style="margin-top:.9rem"><button class="btn" data-act="eltern-verbinden-go">Verbinden</button><button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>');
+  dialog('<h2>Mit der Eltern-Ansicht verbinden</h2><p>Deine Eltern öffnen auf ihrem Gerät die Lernhilfe und tippen auf der Startseite („Wer lernt heute?“) auf <strong>Eltern-Ansicht</strong>. Dort steht der Familiencode. Trage ihn hier ein.</p><p class="muted">Danach bekommen deine Eltern nach jedem Durchgang deinen Stand, sobald ihre Eltern-Ansicht offen ist. Gesendet werden Name, Punkte, Stufe, Lernstand und die letzten Ergebnisse, keine einzelnen Antworten. Mit demselben Code können sich Joel und Dario gegenseitig ihr Album ansehen (nur Karten, Abzeichen und Stufe, keine Ergebnisse und Punkte); das lässt sich auf der Startseite jederzeit verbergen.</p><input class="txt" id="elCode" maxlength="24" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCD-EFGH-JKMN" aria-label="Familiencode"><p class="note" id="elCodeMsg" style="min-height:1.2em;margin:.6rem 0 0" role="status"></p><div class="row" style="margin-top:.9rem"><button class="btn" data-act="eltern-verbinden-go">Verbinden</button><button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>');
   setTimeout(() => { const t = $('#elCode'); if (t) t.focus(); }, 50);
 }
 function elVerbindenGo() {
@@ -1739,10 +1740,135 @@ function elVerbindenGo() {
   if (!setKindCode(c)) { toast('Speichern im Browser nicht möglich.'); return; }
   closeDialog();
   elternMerken(cur.id, { offen: true, seit: Date.now() });
+  rw(freundSync);
   const senden = elternSenden(); /* vor dem Neuzeichnen starten, sonst holt der automatische Nachholer es zuerst ab */
   renderHome(); toast('Wird gesendet …');
   senden.then(res => { toast(elMsg(res), 6000); rw(() => elternStatus(res)); });
 }
+
+/* ----- Freunde-Album: Joel und Dario sehen sich live ihr Album an (nur Karten, Abzeichen und Stufe; keine Ergebnisse, keine Punkte) ----- */
+/* Derselbe Familiencode wie bei der Eltern-Ansicht, den die Eltern vergeben. Wer die Lernhilfe offen hat (und das Album nicht verborgen hat),
+   ist unter lh-freund-<Code>-<Person> erreichbar; das Gegenüber fragt kurz nach und bekommt den Albumstand zurück. */
+const FR_PREFIX = 'lh-freund-';
+const freundAn = () => !!db && !db.freundAus;
+const freundVon = () => (cur && cur.freund && personById(cur.freund)) || null;
+function freundSnapshot() {
+  const d = pdb(), st = stand(d), sn = stufeVon(st.pts), kl = kartenListe(d);
+  return {
+    v: 1, p: cur.id, st: sn + 1, sname: stufen()[sn][0].replace(/­/g, ''),
+    karten: kl.slice(0, 40).map(k => ({ t: String(k.kt || k.titel || '').slice(0, 40), m: k.s ? String(k.mo || '').slice(0, 8) : '', x: k.s ? String(k.tx || '').slice(0, 200) : '', s: k.s || 0, h: Number.isFinite(+k.h) ? +k.h : 220 })),
+    abz: ABZEICHEN.map(a => ({ i: a.id, t: tierVon(a, d, st) })).filter(x => x.t > 0)
+  };
+}
+function freundBereinigen(s, erwartet) { /* kommt übers Netz: nur die erwartete Person, nur bekannte Felder, alles gekürzt */
+  if (!s || typeof s !== 'object' || s.v !== 1 || s.p !== erwartet) return null;
+  const arr = (a, max) => (Array.isArray(a) ? a.slice(0, max) : []).filter(x => x && typeof x === 'object');
+  return {
+    v: 1, p: erwartet, st: nz(s.st, 1, 99), sname: sz(s.sname, 40),
+    karten: arr(s.karten, 40).map(k => ({ t: sz(k.t, 40), m: sz(k.m, 8), x: sz(k.x, 200), s: Math.round(nz(k.s, 0, 3)), h: nz(k.h, 0, 360) })),
+    abz: arr(s.abz, 30).map(a => ({ i: sz(a.i, 30), t: Math.round(nz(a.t, 0, 4)) })).filter(a => a.t > 0 && ABZEICHEN.some(f => f.id === a.i))
+  };
+}
+/* Zuhören: antwortet auf „album“ mit dem eigenen Stand */
+const fl = { peer: null, id: '', pid: '', timer: null, starting: false, gen: 0 };
+function freundStop() {
+  clearTimeout(fl.timer); const pr = fl.peer; fl.peer = null; fl.id = ''; fl.pid = ''; fl.starting = false; fl.gen++;
+  if (pr) { try { pr.destroy(); } catch (e) { /* egal */ } }
+}
+function freundSync() { /* wird bei jedem Seitenwechsel aufgerufen: zuhören, solange eine Person mit Freund, Code und eingeschaltetem Album gewählt ist */
+  const code = kindP() && cur.freund ? kindCode() : '';
+  if (!code || !freundAn()) { freundStop(); return; }
+  const id = FR_PREFIX + code + '-' + cur.id;
+  if (fl.id === id && (fl.starting || (fl.peer && !fl.peer.destroyed))) return;
+  freundStop(); fl.id = id; fl.pid = cur.id; fl.starting = true;
+  const gen = ++fl.gen;
+  peerLaden().then(() => { if (fl.gen === gen) { fl.starting = false; freundHorchen(id, 0); } }, () => { if (fl.gen === gen) fl.starting = false; /* ohne Bibliothek gibt es das Freunde-Album eben nicht */ });
+}
+function freundHorchen(id, versuch) {
+  let pr; try { pr = new Peer(id, { debug: 1 }); } catch (e) { return; }
+  fl.peer = pr;
+  const aktuell = () => fl.peer === pr && fl.id === id;
+  const neu = (ms, n) => { fl.peer = null; try { pr.destroy(); } catch (e) { /* egal */ } clearTimeout(fl.timer); fl.timer = setTimeout(() => { if (fl.id === id) freundHorchen(id, n); }, ms); };
+  pr.on('connection', c => {
+    if (!aktuell()) return;
+    c.on('data', d => rw(() => {
+      if (!(d && d.t === 'album') || !kindP() || cur.id !== fl.pid || !freundAn()) { try { c.send({ t: 'nein' }); } catch (e) { /* egal */ } return; }
+      try { c.send({ t: 'album', s: freundSnapshot() }); } catch (e) { /* egal */ }
+    }));
+    c.on('error', () => { /* das Gegenüber fragt noch einmal */ });
+  });
+  pr.on('disconnected', () => { if (aktuell()) { try { pr.reconnect(); } catch (e) { /* wird beim nächsten Seitenwechsel neu versucht */ } } });
+  pr.on('error', err => {
+    if (!aktuell()) return;
+    const t = err && err.type;
+    if (t === 'peer-unavailable') return;
+    if (versuch < 8) neu(t === 'unavailable-id' ? 3000 : 10000, versuch + 1); /* z. B. dasselbe Profil noch in einem anderen Fenster oder nach dem Neuladen */
+  });
+}
+/* Nachfragen: Album des Freundes holen */
+let frSt = { status: '', snap: null };
+function freundAbfragen(fid) {
+  const code = kindCode(), mine = cur.id;
+  frSt = { status: 'verbinde', snap: null }; frZeichnen();
+  const fertig = (st, snap) => { if (cur && cur.id === mine && location.hash === H('freund')) { frSt = { status: st, snap: snap || null }; frZeichnen(); } };
+  if (!code) return fertig('code');
+  peerLaden().then(() => new Promise(resolve => {
+    let done = false, peer = null, conn = null, tm = null;
+    const ende = (res, s) => { if (done) return; done = true; clearTimeout(tm); try { if (conn) conn.close(); } catch (e) { /* egal */ } try { if (peer) peer.destroy(); } catch (e) { /* egal */ } resolve([res, s]); };
+    tm = setTimeout(() => ende('offline'), 12000);
+    try {
+      peer = new Peer({ debug: 1 });
+      peer.on('error', err => ende(err && err.type === 'peer-unavailable' ? 'offline' : 'fehler'));
+      peer.on('open', () => {
+        conn = peer.connect(FR_PREFIX + code + '-' + fid, { reliable: true, serialization: 'json' });
+        conn.on('open', () => { try { conn.send({ t: 'album' }); } catch (e) { ende('fehler'); } });
+        conn.on('data', d => { if (d && d.t === 'album') { const s = freundBereinigen(d.s, fid); ende(s ? 'ok' : 'fehler', s); } else if (d && d.t === 'nein') ende('aus'); });
+        conn.on('error', () => ende('fehler'));
+      });
+    } catch (e) { ende('fehler'); }
+  })).catch(() => ['bibliothek']).then(([res, s]) => rw(() => fertig(res, s)));
+}
+function freundKarteHtml(k) {
+  if (!k.s) return `<li class="kart leer" style="--ch:${k.h}"><div class="k-mo" aria-hidden="true">❔</div><div class="k-t">${esc(k.t)}</div><div class="k-n">Noch nicht erspielt</div></li>`;
+  const rang = rangName(k.s);
+  return `<li class="kart t${k.s}" style="--ch:${k.h}" aria-label="${esc(k.t)}, ${rang}"><div class="k-top"><span class="k-rang">${rang}</span></div><div class="k-mo" aria-hidden="true">${esc(k.m)}</div><div class="k-t">${esc(k.t)}</div>${k.x ? `<div class="k-x">${esc(k.x)}</div>` : ''}</li>`;
+}
+function freundAbzHtml(a) {
+  const f = abzF(ABZEICHEN.find(x => x.id === a.i));
+  return `<li class="abz t${a.t}" title="${esc(f.hilfe)}"><span class="a-ring" aria-hidden="true"><span>${f.icon}</span><i>${ROEM[a.t]}</i></span><div class="a-n">${esc(f.name)} ${ROEM[a.t]}</div><div class="a-s muted">${TIER_NAMEN[a.t]}</div></li>`;
+}
+function renderFreund() {
+  const fr = freundVon(); if (!fr) return go(H());
+  $('#crumb').textContent = 'Album von ' + fr.name;
+  frZeichnen(); freundAbfragen(fr.id);
+}
+function frZeichnen() {
+  const fr = freundVon(); if (!fr || location.hash !== H('freund')) return;
+  const s = frSt.snap, n = esc(fr.name), w = erw() ? 'Karteikarten' : 'Karten';
+  let h = `<div class="hero"><div><h1>Album von ${n}</h1>${s ? `<p class="lead">Stufe ${s.st} · ${esc(s.sname)}</p>` : ''}</div><div class="row"><button class="btn sec" data-act="home">Zur Übersicht</button><button class="btn sec" data-act="freund-neu">Aktualisieren</button></div></div>`;
+  const msg = {
+    verbinde: `Verbinde mit ${n} …`,
+    offline: `${n} ist gerade nicht in der Lernhilfe. Er muss sie geöffnet haben (und sein Album nicht verborgen haben).`,
+    aus: `${n} hat sein Album gerade verborgen.`,
+    code: 'Zuerst mit der Eltern-Ansicht verbinden (unten auf der Startseite). Den Familiencode bekommst du von deinen Eltern.',
+    bibliothek: 'Die Verbindungs-Bibliothek konnte nicht geladen werden. Ist das Internet an?',
+    fehler: 'Das hat nicht geklappt. Ist das Internet an? Probier es gleich noch einmal.'
+  }[frSt.status];
+  if (msg) h += `<p class="note" role="status">${msg}</p>`;
+  if (s) {
+    const have = s.karten.filter(k => k.s).length;
+    h += `<h2>Sammelalbum <span class="muted">(${have} von ${s.karten.length} ${w})</span></h2>${s.karten.length ? `<ul class="kgrid">${s.karten.map(freundKarteHtml).join('')}</ul>` : '<p class="muted">Noch keine Karten.</p>'}`;
+    h += `<h2>Abzeichen <span class="muted">(${s.abz.length} von ${ABZEICHEN.length})</span></h2>${s.abz.length ? `<ul class="agrid">${s.abz.map(freundAbzHtml).join('')}</ul>` : '<p class="muted">Noch keine Abzeichen.</p>'}`;
+    h += `<p class="legend">Zu sehen sind nur Karten, Abzeichen und Stufe, keine Ergebnisse und keine Punkte.</p>`;
+  }
+  $('#app').innerHTML = `<div class="col" style="max-width:1000px">${h}</div>`;
+}
+function freundHomeHtml() {
+  const fr = freundVon(); if (!kindP() || !fr || !kindCode()) return '';
+  const an = freundAn();
+  return `<p class="legend" id="frHome">Freund: <button class="link" data-act="freund-ansehen">Album von ${esc(fr.name)} ansehen</button> · Dein Album ist für ${esc(fr.name)} ${an ? 'sichtbar' : 'verborgen'} (<button class="link" data-act="freund-toggle">${an ? 'verbergen' : 'sichtbar machen'}</button>)</p>`;
+}
+function freundKnopfHtml() { const fr = freundVon(); return kindP() && fr && kindCode() ? `<button class="btn sec" data-act="freund-ansehen">Album von ${esc(fr.name)}</button>` : ''; }
 
 /* ----- Eltern-Gerät: Verbindung und Ansicht ----- */
 const sz = (x, n) => String(x ?? '').slice(0, n);
@@ -1847,7 +1973,7 @@ function elRender() {
     $('#app').innerHTML = h; window.scrollTo(0, y); return;
   }
   const stTxt = { bereit: ['ok', 'Bereit – der Stand kommt an, sobald ein Kind einen Durchgang abgibt.'], verbinde: ['', 'Verbinde mit dem Vermittlungsserver …'], fehler: ['bad', 'Nicht verbunden.'], belegt: ['bad', 'Diese Eltern-Ansicht ist schon in einem anderen Fenster oder auf einem anderen Gerät geöffnet.'] }[elP.status] || ['', 'Nicht verbunden.'];
-  h += `<div class="card"><div class="row" style="justify-content:space-between"><span class="elst ${stTxt[0]}" role="status">${esc(stTxt[1])}</span>${elP.status === 'bereit' || elP.status === 'verbinde' ? '' : '<button class="btn sec sm" data-act="eltern-neustart">Erneut verbinden</button>'}</div>${elP.msg ? `<p class="muted" style="margin:.5rem 0 0">${esc(elP.msg)}</p>` : ''}<p class="muted" style="margin:.7rem 0 .2rem">Familiencode für die Geräte der Kinder: Startseite → „Mit Eltern-Ansicht verbinden“.</p><div class="row"><span class="elcode">${esc(elCodeShow(o.code))}</span><button class="btn sec sm" data-act="eltern-code-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-code-neu">Neuer Code</button></div><p class="legend" style="margin:.7rem 0 0">Lassen Sie diese Seite offen, solange die Kinder üben (Bildschirm an). Die Daten gehen direkt von Gerät zu Gerät.</p></div>`;
+  h += `<div class="card"><div class="row" style="justify-content:space-between"><span class="elst ${stTxt[0]}" role="status">${esc(stTxt[1])}</span>${elP.status === 'bereit' || elP.status === 'verbinde' ? '' : '<button class="btn sec sm" data-act="eltern-neustart">Erneut verbinden</button>'}</div>${elP.msg ? `<p class="muted" style="margin:.5rem 0 0">${esc(elP.msg)}</p>` : ''}<p class="muted" style="margin:.7rem 0 .2rem">Familiencode für die Geräte der Kinder: Startseite → „Mit Eltern-Ansicht verbinden“.</p><div class="row"><span class="elcode">${esc(elCodeShow(o.code))}</span><button class="btn sec sm" data-act="eltern-code-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-code-neu">Neuer Code</button></div><p class="legend" style="margin:.7rem 0 0">Lassen Sie diese Seite offen, solange die Kinder üben (Bildschirm an). Die Daten gehen direkt von Gerät zu Gerät. Mit demselben Code können sich Joel und Dario außerdem gegenseitig ihr Album ansehen (nur Karten, Abzeichen und Stufe, keine Ergebnisse); wer den Code nicht hat, kommt nicht hinein.</p></div>`;
   h += kinder.map(k => elKindHtml(k, o.kinder[k.id])).join('') + '</div>';
   $('#app').innerHTML = h; window.scrollTo(0, y);
 }
@@ -2000,13 +2126,16 @@ document.addEventListener('click', e => {
     case 'lib-toggle': { const g = el.dataset.g; if (libOffen.has(g)) libOffen.delete(g); else libOffen.add(g); renderLib(); break; }
     case 'dlg-close': closeDialog(); break;
     case 'eltern-ansicht': go('#/eltern'); break;
+    case 'freund-ansehen': if (kindP() && cur.freund) go(H('freund')); break;
+    case 'freund-neu': if (kindP() && cur.freund) rw(() => freundAbfragen(cur.freund)); break;
+    case 'freund-toggle': if (kindP()) { db.freundAus = !db.freundAus; save(true); rw(freundSync); renderHome(); toast(db.freundAus ? 'Dein Album ist jetzt verborgen.' : 'Dein Album ist wieder sichtbar.'); } break;
     case 'eltern-text-ergebnis': if (kindP() && sess && sess.done) rw(() => elTextDialog(elTextErgebnis())); break;
     case 'eltern-text-stand': if (kindP()) rw(() => elTextDialog(elTextStand())); break;
     case 'eltern-share': rw(elShare); break;
     case 'eltern-copy': rw(elCopy); break;
     case 'eltern-verbinden': if (kindP()) rw(elVerbindenDialog); break;
     case 'eltern-verbinden-go': rw(elVerbindenGo); break;
-    case 'eltern-trennen': if (kindP() && confirm('Verbindung zur Eltern-Ansicht trennen? Dann wird nichts mehr automatisch gesendet.')) { setKindCode(''); elternMerken(cur.id, { offen: false }); renderHome(); toast('Getrennt.'); } break;
+    case 'eltern-trennen': if (kindP() && confirm('Verbindung zur Eltern-Ansicht trennen? Dann wird nichts mehr automatisch gesendet.')) { setKindCode(''); elternMerken(cur.id, { offen: false }); rw(freundSync); renderHome(); toast('Getrennt.'); } break;
     case 'eltern-jetzt': if (kindP()) { toast('Wird gesendet …'); elternSenden().then(res => { toast(elMsg(res), 6000); rw(() => elternStatus(res)); }); } break;
     case 'eltern-setup': rw(elSetup); break;
     case 'eltern-code-kopieren': rw(elCodeKopieren); break;
