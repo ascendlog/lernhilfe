@@ -1013,7 +1013,7 @@ function answerHtml(t, idx, s, locked) {
       if (!ord) { do { ord = shuffle(t.schritte.map((_, i) => i)); } while (n > 1 && ord.every((v, i) => v === i)); s.answers[idx] = ord; }
       return '<p class="hintline">Mit ▲ und ▼ in die richtige Reihenfolge bringen.</p><ol class="order">' + ord.map((v, pos) => {
         const cls = locked ? (ev.parts[pos] ? 'ok' : 'bad') : '';
-        return `<li class="${cls}"><span class="txt">${inl(t.schritte[v])}</span>${locked ? '' : `<span class="mv"><button type="button" class="fbar" data-act="up" data-pos="${pos}" ${pos === 0 ? 'disabled' : ''} aria-label="nach oben">▲</button><button type="button" class="fbar" data-act="down" data-pos="${pos}" ${pos === n - 1 ? 'disabled' : ''} aria-label="nach unten">▼</button></span>`}</li>`;
+        return `<li class="${cls}"><span class="txt">${inl(t.schritte[v])}</span>${locked ? '' : `<span class="mv"><button type="button" class="mini" data-act="up" data-pos="${pos}" ${pos === 0 ? 'disabled' : ''} aria-label="nach oben">▲</button><button type="button" class="mini" data-act="down" data-pos="${pos}" ${pos === n - 1 ? 'disabled' : ''} aria-label="nach unten">▼</button></span>`}</li>`;
       }).join('') + '</ol>';
     }
     case 'frei':
