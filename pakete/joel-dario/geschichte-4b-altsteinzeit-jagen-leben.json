@@ -984,5 +984,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 6
+ "reihenfolge": 6,
+ "karte": {
+  "titel": "Rentierjäger",
+  "motiv": "🏹",
+  "text": "Jagen und Sammeln: Vom Rentier wurde fast alles genutzt."
+ }
 }

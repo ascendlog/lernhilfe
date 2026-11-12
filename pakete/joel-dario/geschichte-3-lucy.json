@@ -925,5 +925,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 4
+ "reihenfolge": 4,
+ "karte": {
+  "titel": "Lucy",
+  "motiv": "🦴",
+  "text": "Über 3 Millionen Jahre alt, aus Ostafrika – und sie ging schon aufrecht."
+ }
 }

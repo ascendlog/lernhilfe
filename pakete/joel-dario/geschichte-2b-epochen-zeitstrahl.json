@@ -996,5 +996,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 3
+ "reihenfolge": 3,
+ "karte": {
+  "titel": "Zeitstrahl-Profi",
+  "motiv": "📏",
+  "text": "Die fünf Epochen in der richtigen Reihenfolge – und Ereignisse auf dem Zeitstrahl."
+ }
 }

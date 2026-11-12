@@ -1036,5 +1036,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 7
+ "reihenfolge": 7,
+ "karte": {
+  "titel": "Erste Bauern",
+  "motiv": "🌾",
+  "text": "Sesshaft werden, Tiere zähmen und Getreide anbauen."
+ }
 }

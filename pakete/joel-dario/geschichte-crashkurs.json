@@ -277,5 +277,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 11
+ "reihenfolge": 11,
+ "karte": {
+  "titel": "Spickzettel",
+  "motiv": "⚡",
+  "text": "Das Wichtigste kurz gefasst – schnell wiederholt."
+ }
 }

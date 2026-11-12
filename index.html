@@ -280,6 +280,58 @@ html[data-theme=light] .spark i{background:hsl(var(--sub) 60% 42%)}
 .last{font:700 1.9rem/1 var(--display);font-variant-numeric:tabular-nums}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 @media (max-width:600px){html{font-size:16px}.meta{gap:.4rem;font-size:.88rem}.meta .btn.sm{padding-inline:.4rem;margin-left:auto}.meta.hastimer .lbl,.meta.hastimer .chip:not(.tm){display:none}.brand .bt,.pill .wl,.crumb{display:none}.top-in{padding:.5rem .8rem}main{padding:1.1rem .9rem 4rem}.pair{grid-template-columns:1fr}.opts.tf{grid-template-columns:1fr}.card{padding:1rem}.task{padding:1.1rem}.stats{gap:1.3rem}.who .ini{font-size:10rem}}
+/* Belohnungen: Stufe, Karten, Abzeichen */
+:root{--t1:#c8843f;--t2:#b4bfce;--t3:#f2b632;--t4:#59d0f5}
+html[data-theme=light]{--t1:#a8661f;--t2:#8993a5;--t3:#c98d00;--t4:#1b9cc9}
+.fbar{height:.5rem;border-radius:99px;background:var(--surface-2);overflow:hidden}
+.fbar i{display:block;height:100%;border-radius:99px;background:var(--accent)}
+.beloh{display:grid;gap:.65rem}
+.bl-main{display:flex;align-items:center;gap:.9rem}
+.bl-ico{display:grid;place-items:center;width:3.4rem;height:3.4rem;flex:none;border-radius:50%;font-size:1.7rem;background:color-mix(in srgb,var(--accent) 20%,var(--surface-2));border:2px solid var(--accent)}
+.bl-st{font:700 1.3rem/1.1 var(--display)}
+.bl-pts{color:var(--muted)}
+.bl-pts b{color:var(--ink);font:700 1.6rem/1 var(--display);font-variant-numeric:tabular-nums}
+.bl-sub{font-size:.9rem;margin-top:-.2rem}
+.stufen{display:grid;gap:.7rem}
+.leiter{list-style:none;margin:.3rem 0 0;padding:0;display:grid;grid-template-columns:repeat(10,1fr);gap:.4rem}
+.leiter li{display:grid;justify-items:center;align-content:start;gap:.2rem;text-align:center;opacity:.4;filter:grayscale(1)}
+.leiter li.on{opacity:1;filter:none}
+.leiter li>span:first-child{display:grid;place-items:center;width:2.2rem;height:2.2rem;border-radius:50%;background:var(--surface-2);font-size:1.15rem}
+.leiter li.now>span:first-child{outline:2.5px solid var(--accent);outline-offset:2px}
+.leiter small{font-size:.68rem;line-height:1.15;color:var(--muted);hyphens:auto;overflow-wrap:break-word;max-width:100%}
+.pkt{display:inline-block;margin-left:.5rem;padding:.05rem .6rem;border-radius:99px;font-size:.82rem;font-weight:750;background:var(--accent);color:var(--on-accent);vertical-align:.1em;white-space:nowrap}
+.pkt.bes{background:var(--surface-2);color:var(--ink);border:1.5px solid var(--accent)}
+.rwbox{border-color:color-mix(in srgb,var(--accent) 50%,var(--line))}
+.rw-head{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap}
+.rw-head b{font:700 2.4rem/1 var(--display);font-variant-numeric:tabular-nums;color:var(--accent-text)}
+.rw-ev{list-style:none;margin:.5rem 0;padding:0;display:grid;gap:.3rem;font-weight:600}
+.kgrid,.agrid{list-style:none;margin:0 0 1.6rem;padding:0;display:grid;gap:.8rem}
+.kgrid{grid-template-columns:repeat(auto-fill,minmax(10.5rem,1fr))}
+.agrid{grid-template-columns:repeat(auto-fill,minmax(9.5rem,1fr))}
+.kart{position:relative;display:flex;flex-direction:column;gap:.3rem;min-height:15rem;padding:.7rem .8rem .8rem;border-radius:16px;border:2.5px solid var(--tc,var(--line));color:#f4f6fb;background:linear-gradient(160deg,hsl(var(--ch) 46% 25%),hsl(var(--ch) 38% 14%))}
+html[data-theme=light] .kart{color:#1a1f33;background:linear-gradient(160deg,hsl(var(--ch) 75% 93%),hsl(var(--ch) 62% 85%))}
+.kart.t1{--tc:var(--t1)}.kart.t2{--tc:var(--t2)}.kart.t3{--tc:var(--t3);box-shadow:0 0 0 1px var(--t3),0 10px 26px -12px var(--t3)}
+.kart.leer{background:var(--surface);border:2px dashed var(--line);color:var(--muted)}
+html[data-theme=light] .kart.leer{background:var(--surface);color:var(--muted)}
+.kart.leer .k-mo{opacity:.35;filter:grayscale(1)}
+.k-top{display:flex;justify-content:space-between;font-size:.78rem;font-weight:700}
+.k-rang{color:var(--tc);text-shadow:0 0 1px rgba(0,0,0,.35)}
+html[data-theme=light] .k-rang{color:color-mix(in srgb,var(--tc) 60%,#000);text-shadow:none}
+.k-mo{font-size:3rem;line-height:1.1;text-align:center;margin:.35rem 0 .15rem}
+.k-t{font:700 1.08rem/1.2 var(--display);text-align:center;overflow-wrap:anywhere}
+.k-x{font-size:.82rem;line-height:1.35;text-align:center;opacity:.9}
+.k-n{margin-top:auto;padding-top:.3rem;font-size:.76rem;text-align:center;opacity:.85}
+.abz{--tc:var(--line);display:flex;flex-direction:column;align-items:center;gap:.35rem;text-align:center;padding:.8rem .7rem;border-radius:14px;background:var(--surface);border:1px solid var(--line)}
+.abz.t1{--tc:var(--t1)}.abz.t2{--tc:var(--t2)}.abz.t3{--tc:var(--t3)}.abz.t4{--tc:var(--t4)}
+.a-ring{position:relative;display:grid;place-items:center;width:3.6rem;height:3.6rem;border-radius:50%;font-size:1.7rem;background:var(--surface-2);border:3px solid var(--tc)}
+.abz.t0 .a-ring{border-style:dashed;filter:grayscale(1);opacity:.55}
+.a-ring i{position:absolute;right:-.5rem;bottom:-.3rem;font:800 .72rem/1 var(--display);font-style:normal;background:var(--tc);color:#14161f;border-radius:99px;padding:.2rem .42rem}
+.a-n{font-weight:700;line-height:1.2}
+.a-s{font-size:.8rem;line-height:1.3}
+.abz .fbar{width:100%;margin-top:auto}
+#abz{scroll-margin-top:4.5rem}
+#konf{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:40}
+@media (max-width:600px){.leiter{grid-template-columns:repeat(5,1fr);row-gap:.7rem}.kgrid{grid-template-columns:repeat(2,1fr)}.agrid{grid-template-columns:repeat(2,1fr)}.bl-st{font-size:1.15rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
@@ -325,7 +377,7 @@ function rt(s) {
 const plain = s => String(s || '').replace(/\*\*/g, '').replace(/`/g, '').replace(/\s+/g, ' ').trim();
 function shuffle(a) { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; }
 let toastTimer;
-function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('on'), 3800); }
+function toast(msg, ms) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('on'), ms || 3800); }
 function dialog(html) { const d = $('#dlg'); d.innerHTML = '<div class="dlg-in">' + html + '</div>'; if (!d.open) d.showModal(); }
 function closeDialog() { const d = $('#dlg'); if (d.open) d.close(); }
 const fmtDate = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', month: '2-digit', year: 'numeric' });
@@ -590,6 +642,10 @@ function validatePack(p) {
     if (!p.nachlesen || typeof p.nachlesen !== 'object' || Array.isArray(p.nachlesen)) e.push('"nachlesen" muss eine Zuordnung Abschnitt → Lernblatt-Abschnitt sein.');
     else Object.keys(p.nachlesen).forEach(k => lesenErrs(p.nachlesen[k], p, '"nachlesen" zu „' + k + '“: ', e));
   }
+  if (p.karte !== undefined) {
+    const k = p.karte;
+    if (!k || typeof k !== 'object' || Array.isArray(k) || typeof k.titel !== 'string' || !k.titel.trim() || k.titel.length > 40 || (k.motiv !== undefined && (typeof k.motiv !== 'string' || !k.motiv.trim() || [...k.motiv].length > 8)) || (k.text !== undefined && (typeof k.text !== 'string' || k.text.length > 200))) e.push('"karte" muss ein Objekt mit "titel" (höchstens 40 Zeichen), optional "motiv" (ein Emoji) und "text" (höchstens 200 Zeichen) sein.');
+  }
   if (p.ueben === false && p.probe === false) e.push('"ueben" und "probe" dürfen nicht beide false sein (sonst gäbe es keinen Weg, das Paket zu starten).');
   if (!Array.isArray(p.aufgaben) || !p.aufgaben.length) e.push('Die Liste "aufgaben" fehlt oder ist leer.');
   else {
@@ -640,6 +696,7 @@ function importObj(o, label, force) {
       have.sort((a, b) => a.t - b.t);
     });
   }
+  if (isBackup && o.punkte && belohnt()) rw(() => punkteMerge(o.punkte));
   return res;
 }
 function reportImport(res) {
@@ -666,7 +723,7 @@ async function importFiles(files) {
 }
 
 /* ========== Router ========== */
-/* Adressen: #/ = „Wer lernt?“, #/<person> = Startseite der Person, #/<person>/aufgabe, /ergebnis, /lernblatt/<id> */
+/* Adressen: #/ = „Wer lernt?“, #/<person> = Startseite der Person, #/<person>/aufgabe, /ergebnis, /lernblatt/<id>, /album (nur Kinder; /album/abzeichen springt zu den Abzeichen) */
 const H = sub => '#/' + cur.id + (sub ? '/' + sub : '');
 function go(h) { if (location.hash === h) render(); else location.hash = h; }
 window.addEventListener('hashchange', render);
@@ -686,6 +743,7 @@ function render() {
   document.title = 'Lernhilfe – ' + p.name;
   const s = db.session, r0 = seg[1] || '';
   if (r0 === 'lernblatt' && seg[2]) return renderLernblatt(decodeURIComponent(seg[2]));
+  if (r0 === 'album' && belohnt()) return renderAlbum(seg[2] === 'abzeichen');
   if (r0 === 'aufgabe') { if (s && !s.done) { if (startTimer()) return; return renderTask(); } if (s && s.done) return go(H('ergebnis')); }
   if (r0 === 'ergebnis' && s && s.done) return renderResult();
   if (r0) history.replaceState(null, '', H());
@@ -798,6 +856,7 @@ function renderHome() {
   const s = db.session, sp = s && getPack(s.id), w = wort();
   const ls = lernStand();
   let h = `<div class="hero"><div><h1>Hallo ${esc(cur.name)}!</h1><p class="lead">${leadHtml(ls)}</p></div>${statsHtml(ls)}</div>`;
+  h += rw(rwHomeHtml, '');
   if (s && sp && s.done) {
     const tt = totals(sp, s), offen = s.order.filter(i => sp.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
     h += `<div class="resume card"><div><strong>${esc(sp.titel)}</strong> abgegeben<div class="muted">${s.modus === 'test' ? w.probe : s.teil ? 'Fehler wiederholen' : 'Üben'}, ${+tt.got.toFixed(1)} von ${tt.max} Punkten${offen ? ` · ${offen} ${offen === 1 ? 'freie Aufgabe' : 'freie Aufgaben'} noch ohne Selbstbewertung` : ''}</div></div><div class="row"><button class="btn" data-act="resume">Ergebnis ansehen</button><button class="btn ghost" data-act="finish-home">Schließen</button></div></div>`;
@@ -887,6 +946,7 @@ function startSession(id, modus, only) {
   if (alt && alt.done) { const ap = getPack(alt.id); if (ap && alt.order.some(i => ap.aufgaben[i].typ === 'frei' && alt.self[i] === undefined) && !confirm('Bei der letzten Abgabe fehlen noch Selbstbewertungen der freien Aufgaben. Trotzdem neu starten?')) return; }
   const order = only || p.aufgaben.map((_, i) => i);
   db.session = { id, modus, order, pos: 0, answers: {}, checked: {}, self: {}, touched: {}, shuf: {}, hint: {}, done: false, started: Date.now(), teil: !!only };
+  rw(() => startPunkte(db.session));
   const min = modus === 'test' && !only ? probeMinuten(p) : 0;
   if (min) { db.session.limit = min * 60000; db.session.zeit = 0; } /* Timer: zählt nur die Zeit, in der die Aufgabenansicht offen ist */
   save(true); go(H('aufgabe'));
@@ -953,7 +1013,7 @@ function answerHtml(t, idx, s, locked) {
       if (!ord) { do { ord = shuffle(t.schritte.map((_, i) => i)); } while (n > 1 && ord.every((v, i) => v === i)); s.answers[idx] = ord; }
       return '<p class="hintline">Mit ▲ und ▼ in die richtige Reihenfolge bringen.</p><ol class="order">' + ord.map((v, pos) => {
         const cls = locked ? (ev.parts[pos] ? 'ok' : 'bad') : '';
-        return `<li class="${cls}"><span class="txt">${inl(t.schritte[v])}</span>${locked ? '' : `<span class="mv"><button type="button" class="mini" data-act="up" data-pos="${pos}" ${pos === 0 ? 'disabled' : ''} aria-label="nach oben">▲</button><button type="button" class="mini" data-act="down" data-pos="${pos}" ${pos === n - 1 ? 'disabled' : ''} aria-label="nach unten">▼</button></span>`}</li>`;
+        return `<li class="${cls}"><span class="txt">${inl(t.schritte[v])}</span>${locked ? '' : `<span class="mv"><button type="button" class="fbar" data-act="up" data-pos="${pos}" ${pos === 0 ? 'disabled' : ''} aria-label="nach oben">▲</button><button type="button" class="fbar" data-act="down" data-pos="${pos}" ${pos === n - 1 ? 'disabled' : ''} aria-label="nach unten">▼</button></span>`}</li>`;
       }).join('') + '</ol>';
     }
     case 'frei':
@@ -991,11 +1051,12 @@ function ratingHtml(s, idx) {
   return '<p><strong>Wie gut war deine Antwort im Vergleich zur Musterlösung?</strong></p><div class="rate">' + [[1, '✓ Passt'], [0.5, '½ Teilweise'], [0, '✗ Noch nicht']].map(([x, l]) => `<button type="button" class="btn sec ${v === x ? 'on' : ''}" data-act="self" data-v="${x}">${l}</button>`).join('') + '</div>';
 }
 function feedbackHtml(t, idx, s, p) {
-  if (t.typ === 'frei') return `<div class="fb neutral" id="fb"><h3>Musterlösung</h3>${solutionHtml(t)}${t.info ? `<p class="muted">${inl(t.info)}</p>` : ''}${ratingHtml(s, idx)}${lesenHtml(t, p)}</div>`;
+  const chip = rw(() => punkteChip(s, idx), '');
+  if (t.typ === 'frei') return `<div class="fb neutral" id="fb"><h3>Musterlösung${chip}</h3>${solutionHtml(t)}${t.info ? `<p class="muted">${inl(t.info)}</p>` : ''}${ratingHtml(s, idx)}${lesenHtml(t, p)}</div>`;
   const r = taskScore(p, s, idx);
   const cls = r.got >= r.max ? 'ok' : r.got > 0 ? 'part' : 'bad';
   const head = r.got >= r.max ? '✓ Richtig!' : r.got > 0 ? `Fast: ${+r.got.toFixed(1)} von ${r.max} Punkten` : '✗ Nicht ganz.';
-  return `<div class="fb ${cls}" id="fb"><h3>${head}</h3>${r.got < r.max ? `<div class="sol"><strong>Richtig wäre:</strong>${solutionHtml(t)}</div>` : ''}${t.info ? `<p>💡 ${inl(t.info)}</p>` : ''}${r.got < r.max ? lesenHtml(t, p) : ''}</div>`;
+  return `<div class="fb ${cls}" id="fb"><h3>${head}${chip}</h3>${r.got < r.max ? `<div class="sol"><strong>Richtig wäre:</strong>${solutionHtml(t)}</div>` : ''}${t.info ? `<p>💡 ${inl(t.info)}</p>` : ''}${r.got < r.max ? lesenHtml(t, p) : ''}</div>`;
 }
 function navHtml(t, idx, s) {
   const last = s.pos === s.order.length - 1; const checked = !!s.checked[idx];
@@ -1107,6 +1168,7 @@ function saveResult() {
   const k = arr.findIndex(x => x.t === s.resultT);
   if (k >= 0) arr[k] = e; else arr.push(e);
   if (arr.length > 40) arr.splice(0, arr.length - 40);
+  rw(() => durchgangFertig(p, s, tt));
   save(true);
 }
 function finish(auto) {
@@ -1170,13 +1232,247 @@ function renderResult() {
   const unrated = s.order.filter(i => p.aufgaben[i].typ === 'frei' && s.self[i] === undefined).length;
   const anim = !s.ringShown; s.ringShown = true; /* der Ring läuft nur beim ersten Anzeigen ein */
   const rc = tt.pct >= 75 ? 'var(--ok)' : tt.pct >= 50 ? 'var(--part)' : 'var(--bad)';
-  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten</div>` : ''}${s.zeitUm ? `<p class="note">Die Zeit war um, die ${wort().probe} wurde automatisch abgegeben. Aufgaben ohne Antwort zählen als nicht gelöst.</p>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
+  $('#app').innerHTML = `<div class="col"><h1>Ergebnis</h1><div class="card score"><div class="ringbox"><svg class="ring" viewBox="0 0 100 100" aria-hidden="true" style="--rc:${rc}"><circle class="trk" cx="50" cy="50" r="45" pathLength="100"/><circle class="val" id="ringval" cx="50" cy="50" r="45" pathLength="100" stroke-dasharray="${anim ? 0 : tt.pct} 100"/></svg><div class="big" id="pct">${tt.pct} %</div></div><div id="pts">${+tt.got.toFixed(1)} von ${tt.max} Punkten</div>${s.limit ? `<div class="muted">Zeit: ${Math.max(1, Math.round((s.zeit || 0) / 60000))} von ${Math.round(s.limit / 60000)} Minuten</div>` : ''}${s.zeitUm ? `<p class="note">Die Zeit war um, die ${wort().probe} wurde automatisch abgegeben. Aufgaben ohne Antwort zählen als nicht gelöst.</p>` : ''}<p id="msg">${msgFor(tt.pct)}</p>${unrated ? `<p class="note">${unrated} freie ${unrated === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'} noch auf deine Selbstbewertung (unten in der Liste).</p>` : ''}<div class="row" style="justify-content:center">${wrong.length ? `<button class="btn" data-act="retry-wrong">Fehler nochmal üben (${wrong.length})</button>` : ''}<button class="btn sec" data-act="again">Nochmal von vorn</button><button class="btn ghost" data-act="finish-home">Zur Übersicht</button></div></div>${rw(() => rwErgebnisHtml(s), '')}${teileHtml(p, s)}<h2>Alle Aufgaben</h2>${resultRows(p, s)}</div>`;
   if (anim) requestAnimationFrame(() => requestAnimationFrame(() => { const r = $('#ringval'); if (r) r.setAttribute('stroke-dasharray', tt.pct + ' 100'); }));
   save();
 }
 
+/* ========== Belohnungen (nur für Kinder): Punkte, Stufen, Abzeichen, Sammelalbum ========== */
+/* Das ist Beiwerk: Ein Fehler hier darf das Üben nie stören. Jeder Einstieg läuft deshalb über rw() und fängt Fehler ab. */
+function rw(fn, fallback) { try { return fn(); } catch (err) { try { console.warn('Belohnung:', err); } catch (e2) { /* egal */ } return fallback; } }
+const belohnt = () => !!(cur && cur.art === 'kind' && db);
+const STUFEN = [ /* Name, Zeichen, ab Punkten – alle Geschichte-Pakete zusammen bringen etwa 2000 Punkte */
+  ['Rucksack-Packer', '🎒', 0], ['Spurenleser', '🐾', 100], ['Pfadfinder', '🧭', 300], ['Höhlenforscher', '🔦', 600], ['Zeitreisender', '⏳', 1000],
+  ['Kartenmeister', '🗺️', 1500], ['Wissensjäger', '📚', 2200], ['Expeditions\u00ADleiter', '⛰️', 3200], ['Meisterdetektiv', '🕵️', 4500], ['Legende', '👑', 6500]
+];
+const KARTEN_STUFEN = [['', 0], ['Bronze', 50], ['Silber', 75], ['Gold', 90]]; /* Rang, ab Prozent im vollständigen Durchgang */
+const KARTENBONUS = [0, 10, 20, 30], PAKETBONUS = 20;
+const TIER_NAMEN = ['', 'Bronze', 'Silber', 'Gold', 'Diamant'], ROEM = ['', 'I', 'II', 'III', 'IV'];
+const anzahl = o => Object.keys(o || {}).length;
+const MENGEN = ['fb', 'vt', 'ts', 'po', 'zm', 'fd', 'cc']; /* Mengen „Paket-ID → 1“: je Paket höchstens einmal gezählt */
+const ABZEICHEN = [ /* Familien mit vier Stufen (Bronze, Silber, Gold, Diamant); gelten für alle Pakete und Fächer zusammen */
+  { id: 'aufgabenheld', name: 'Aufgabenheld', icon: '⭐', stufen: [25, 100, 300, 750], einheit: 'Aufgaben ganz richtig', hilfe: 'Verschiedene Aufgaben mindestens einmal ganz richtig lösen.', wert: (d, st) => st.drei },
+  { id: 'fehlerjaeger', name: 'Fehlerjäger', icon: '🔎', stufen: [20, 50, 100, 250], einheit: 'Fehler besiegt', hilfe: 'Eine Aufgabe, die du schon einmal falsch hattest, jetzt ganz richtig lösen.', wert: (d, st) => st.besiegt },
+  { id: 'mutzumfehler', name: 'Mut zum Fehler', icon: '💪', stufen: [1, 5, 15, 30], einheit: 'Fehler-Runden gespielt', hilfe: '„Fehler wiederholen“ bis zum Ergebnis durchspielen.', wert: d => d.mo },
+  { id: 'dranbleiber', name: 'Dranbleiber', icon: '🔥', stufen: [3, 7, 14, 30], einheit: 'Tage in Folge geübt', hilfe: 'An mehreren Tagen hintereinander üben. Dein bester Lauf zählt.', wert: d => d.ser.b },
+  { id: 'paketprofi', name: 'Paketprofi', icon: '📦', stufen: [1, 5, 11, 25], einheit: 'Pakete geschafft', hilfe: 'Ein Paket ganz durchspielen und mindestens 80 % der Aufgaben beantworten.', wert: d => anzahl(d.fb) },
+  { id: 'volltreffer', name: 'Volltreffer', icon: '🎯', stufen: [1, 3, 6, 12], einheit: 'Pakete mit 100 %', hilfe: 'Ein Paket in einem Durchgang mit 100 % abschließen.', wert: d => anzahl(d.vt) },
+  { id: 'alleteile', name: 'Alle Teile stark', icon: '🧩', stufen: [1, 3, 6, 12], einheit: 'Pakete, in denen jeder Teil mindestens 75 % hatte', hilfe: 'Bei „Nach Teilen“ im Ergebnis überall mindestens 75 % erreichen.', wert: d => anzahl(d.ts) },
+  { id: 'pruefungsprofi', name: 'Prüfungsprofi', icon: '🎓', stufen: [1, 2, 4, 8], einheit: 'Probearbeiten mit 75 % oder mehr', hilfe: 'Eine Probearbeit mit mindestens 75 % abschließen.', wert: d => anzahl(d.po) },
+  { id: 'zeitmeister', name: 'Zeitmeister', icon: '⏱️', stufen: [1, 2, 4, 8], einheit: 'Probearbeiten rechtzeitig abgegeben', hilfe: 'Eine Probearbeit vor Ablauf des Timers selbst abgeben (mindestens 50 %).', wert: d => anzahl(d.zm) },
+  { id: 'fruehdran', name: 'Früh dran', icon: '🌅', stufen: [1, 2, 4, 8], einheit: 'Pakete früh geübt (mindestens 3 Tage vor der Arbeit)', hilfe: 'Ein Paket mindestens drei Tage vor dem Termin der Arbeit durchspielen.', wert: d => anzahl(d.fd) },
+  { id: 'aufsteiger', name: 'Aufsteiger', icon: '🚀', stufen: [1, 5, 12, 25], einheit: 'Karten verbessert', hilfe: 'Eine Karte durch ein besseres Ergebnis auf einen höheren Rang bringen.', wert: d => d.up },
+  { id: 'goldschmied', name: 'Goldschmied', icon: '🥇', stufen: [1, 3, 6, 12], einheit: 'Goldkarten', hilfe: 'Karten mit mindestens 90 % im Durchgang (Gold).', wert: (d, st) => st.gold },
+  { id: 'sammler', name: 'Sammler', icon: '🗂️', stufen: [3, 6, 11, 20], einheit: 'Karten gesammelt', hilfe: 'Karten im Sammelalbum freischalten.', wert: (d, st) => st.karten },
+  { id: 'crashkurs', name: 'Crashkurs-Champion', icon: '⚡', stufen: [1, 2, 4, 8], einheit: 'Crashkurse mit 90 % oder mehr', hilfe: 'Einen Crashkurs mit mindestens 90 % abschließen.', wert: d => anzahl(d.cc) }
+];
+const stufeVon = pts => { let i = 0; STUFEN.forEach((s, n) => { if (pts >= s[2]) i = n; }); return i; };
+const tierVon = (f, d, st) => { const w = f.wert(d, st); return f.stufen.filter(x => w >= x).length; };
+
+/* Spielstand je Person: db.punkte. a = je Paket und Aufgabe ein Code (Bit 0–1: Punkte 0–3, 4 = war schon falsch, 8 = Fehler besiegt). */
+function pdb() {
+  let d = db.punkte;
+  if (!d || typeof d !== 'object' || Array.isArray(d)) d = db.punkte = {};
+  ['a', 'al', 'ab', ...MENGEN].forEach(k => { if (!d[k] || typeof d[k] !== 'object' || Array.isArray(d[k])) d[k] = {}; });
+  ['mo', 'up', 'st'].forEach(k => { if (!Number.isFinite(d[k])) d[k] = 0; });
+  if (!d.ser || typeof d.ser !== 'object') d.ser = {};
+  ['l', 'a', 'b'].forEach(k => { if (!Number.isFinite(d.ser[k])) d.ser[k] = 0; });
+  return d;
+}
+function stand(d) {
+  let pts = 0, besiegt = 0, drei = 0;
+  Object.values(d.a).forEach(o => Object.values(o).forEach(c => { pts += c & 3; if ((c & 3) === 3) drei++; if (c & 8) besiegt++; }));
+  const karten = Object.values(d.al);
+  pts += anzahl(d.fb) * PAKETBONUS + karten.reduce((n, k) => n + (KARTENBONUS[k.s] || 0), 0);
+  return { pts, besiegt, drei, karten: karten.length, gold: karten.filter(k => k.s === 3).length };
+}
+const punkteJetzt = () => stand(pdb()).pts;
+const fnv = s => { let h = 2166136261; for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); } return (h >>> 0).toString(36); };
+const keyCache = new WeakMap();
+function aufgabenKey(t) { /* Kennung aus dem Inhalt: bleibt gleich, auch wenn ein Paket neu importiert oder die Reihenfolge geändert wird */
+  let k = keyCache.get(t);
+  if (!k) { k = fnv(JSON.stringify([t.typ, t.frage, t.text, t.antworten, t.richtig, t.paare, t.schritte, t.auswahl, t.wortbank])); keyCache.set(t, k); }
+  return k;
+}
+const tagNr = () => { const h = new Date(); return Math.round(Date.UTC(h.getFullYear(), h.getMonth(), h.getDate()) / 864e5); };
+function serieZaehlen(d) {
+  const n = tagNr(), q = d.ser;
+  if (q.l === n) return;
+  q.a = q.l === n - 1 ? q.a + 1 : 1; q.l = n; q.b = Math.max(q.b, q.a);
+}
+/* Eine beantwortete Aufgabe bringt 1 Punkt, halb richtig 2, ganz richtig 3. Freie Aufgaben höchstens 2 (Selbstbewertung). „Weiß ich nicht“ bringt nichts. */
+function aufgabeLevel(p, s, idx) {
+  const t = p.aufgaben[idx];
+  if (!isAnswered(t, s, idx)) return { lv: 0, falsch: t.typ !== 'frei' };
+  if (t.typ === 'frei') return { lv: s.self[idx] === 1 ? 2 : 1, falsch: false };
+  const r = taskScore(p, s, idx), q = r.max ? r.got / r.max : 0;
+  return { lv: q >= 0.999 ? 3 : q >= 0.5 ? 2 : 1, falsch: q < 0.999 };
+}
+function aufgabeBelohnen(p, s, idx) { /* idempotent: jede Aufgabe zählt je Paket nur einmal, später kann nur noch nachgeholt werden */
+  const d = pdb(), k = aufgabenKey(p.aufgaben[idx]);
+  const m = d.a[p.id] = d.a[p.id] || {};
+  const alt = m[k] || 0, e = aufgabeLevel(p, s, idx);
+  if (e.lv > 0) serieZaehlen(d);
+  let neu = alt;
+  if ((alt & 3) < e.lv) neu = (neu & ~3) | e.lv;
+  if (e.falsch && (alt & 3) < 3) neu |= 4;
+  let besiegt = 0;
+  if ((neu & 4) && !(neu & 8) && e.lv === 3) { neu |= 8; besiegt = 1; }
+  m[k] = neu;
+  return { pts: (neu & 3) - (alt & 3), besiegt };
+}
+function sammeln(s, ev) { if (!ev.length) return; s.rw = s.rw || { ev: [] }; ev.forEach(x => { if (!s.rw.ev.includes(x)) s.rw.ev.push(x); }); }
+function meilensteine(d) { /* neue Abzeichen-Stufen und Stufen seit der letzten Meldung */
+  const ev = [], st = stand(d);
+  ABZEICHEN.forEach(f => { const t = tierVon(f, d, st), alt = d.ab[f.id] || 0; if (t > alt) { d.ab[f.id] = t; ev.push(`${f.icon} Abzeichen: ${f.name} ${ROEM[t]} (${TIER_NAMEN[t]})`); } });
+  const sn = stufeVon(st.pts);
+  if (sn > d.st) { d.st = sn; ev.push(`${STUFEN[sn][1]} Neue Stufe: ${STUFEN[sn][0]}!`); }
+  return ev;
+}
+function feiern(ev, konf) {
+  if (ev.length) toast(ev.slice(0, 2).join('  ·  ') + (ev.length > 2 ? '  ·  +' + (ev.length - 2) + ' mehr' : ''), 5600);
+  if (ev.length || konf) konfetti();
+}
+function aufgabeFertig(p, s, idx) { /* Üben: gleich nach dem Prüfen. Die Probearbeit wird erst beim Abgeben gezählt. */
+  if (!belohnt() || s.modus !== 'ueben') return;
+  const g = aufgabeBelohnen(p, s, idx);
+  s.pk = s.pk || {}; s.pk[idx] = (s.pk[idx] || 0) + g.pts;
+  if (g.besiegt) { s.pkb = s.pkb || {}; s.pkb[idx] = 1; }
+  const ev = meilensteine(pdb()); sammeln(s, ev); feiern(ev);
+}
+function kartenInfo(p) {
+  const k = p.karte && typeof p.karte === 'object' && !Array.isArray(p.karte) ? p.karte : {};
+  const motiv = k.motiv || (p.ueben === false ? '📜' : /crashkurs/i.test(p.id) ? '⚡' : fachStil(p.fach).icon);
+  return { titel: String(k.titel || p.titel).slice(0, 60), motiv: String(motiv).slice(0, 12), text: String(k.text || '').slice(0, 220) };
+}
+function startPunkte(s) { if (belohnt()) s.p0 = punkteJetzt(); }
+function durchgangFertig(p, s, tt) { /* beim Abgeben und bei jeder späteren Selbstbewertung; alles darin ist idempotent */
+  if (!belohnt() || !tt.max) return;
+  const d = pdb(), ev = []; let konf = false;
+  s.order.forEach(i => { if (s.checked[i]) aufgabeBelohnen(p, s, i); });
+  const beantwortet = s.order.filter(i => isAnswered(p.aufgaben[i], s, i)).length;
+  const ernst = !s.teil && beantwortet >= 0.8 * s.order.length; /* ein vollständiger Durchgang mit mindestens 80 % beantworteten Aufgaben */
+  if (s.teil && beantwortet && !s.rwMo) { s.rwMo = true; d.mo++; }
+  if (ernst) {
+    if (!d.fb[p.id]) { d.fb[p.id] = 1; ev.push(`📦 Paket geschafft: +${PAKETBONUS} Punkte`); }
+    const k = kartenInfo(p), neu = tt.pct >= 90 ? 3 : tt.pct >= 75 ? 2 : tt.pct >= 50 ? 1 : 0, al = d.al[p.id];
+    if (neu > 0 && (!al || neu > al.s)) {
+      d.al[p.id] = { s: neu, titel: p.titel, kt: k.titel, mo: k.motiv, tx: k.text, h: fachStil(p.fach).hue, f: p.fach || '', best: Math.max(tt.pct, al ? al.best || 0 : 0) };
+      ev.push(al ? `⬆️ Karte verbessert: ${k.titel} (${KARTEN_STUFEN[neu][0]})` : `🃏 Neue Karte: ${k.titel} (${KARTEN_STUFEN[neu][0]})`);
+      if (al) d.up++;
+    } else if (al) { Object.assign(al, { titel: p.titel, kt: k.titel, mo: k.motiv, tx: k.text, h: fachStil(p.fach).hue, f: p.fach || '', best: Math.max(tt.pct, al.best || 0) }); }
+    if (tt.got >= tt.max - 1e-9) { if (!d.vt[p.id]) ev.push('🎯 100 % – Volltreffer!'); d.vt[p.id] = 1; if (!s.rwK) { s.rwK = true; konf = true; } }
+    const gr = teilGruppen(p, s); if (gr.length >= 2 && gr.every(g => g.pct >= 75)) d.ts[p.id] = 1;
+    if (p.termin) { const dt = terminDatum(p.termin); if (dt && tageBis(dt) >= 3) d.fd[p.id] = 1; }
+    if (/crashkurs/i.test(p.id) && tt.pct >= 90) d.cc[p.id] = 1;
+    if (s.modus === 'test') {
+      if (tt.pct >= 75) d.po[p.id] = 1;
+      if (s.limit && !s.zeitUm && tt.pct >= 50) d.zm[p.id] = 1;
+    }
+  }
+  ev.push(...meilensteine(d));
+  sammeln(s, ev); feiern(ev, konf);
+}
+function punkteChip(s, idx) {
+  if (!belohnt() || !s.pk || s.pk[idx] === undefined) return '';
+  const n = s.pk[idx];
+  return (n > 0 ? `<span class="pkt" title="Punkte für diese Aufgabe">+${n}</span>` : '') + (s.pkb && s.pkb[idx] ? '<span class="pkt bes">🎯 Fehler besiegt!</span>' : '');
+}
+function cleanKarte(k) {
+  if (!k || typeof k !== 'object') return null;
+  const s = Math.round(+k.s); if (!(s >= 1 && s <= 3)) return null;
+  const str = (v, n) => String(v == null ? '' : v).slice(0, n);
+  return { s, titel: str(k.titel, 120), kt: str(k.kt, 60), mo: str(k.mo, 12), tx: str(k.tx, 220), h: Number.isFinite(+k.h) ? +k.h % 360 : 220, f: str(k.f, 60), best: Math.min(100, Math.max(0, Math.round(+k.best || 0))) };
+}
+function punkteMerge(src) { /* Sicherung wiederherstellen: nichts geht verloren, jeder Wert nimmt das Bessere */
+  if (!src || typeof src !== 'object') return;
+  const d = pdb();
+  MENGEN.forEach(k => { if (src[k] && typeof src[k] === 'object') Object.keys(src[k]).forEach(id => { d[k][id] = 1; }); });
+  if (src.a && typeof src.a === 'object') Object.keys(src.a).forEach(pid => {
+    const m = src.a[pid]; if (!m || typeof m !== 'object') return;
+    const t = d.a[pid] = d.a[pid] || {};
+    Object.keys(m).forEach(k => { const c = Math.round(+m[k]); if (!Number.isFinite(c)) return; const o = t[k] || 0; t[k] = Math.max(o & 3, c & 3) | ((o | c) & 12); });
+  });
+  if (src.al && typeof src.al === 'object') Object.keys(src.al).forEach(id => { const k = cleanKarte(src.al[id]); if (k && (!d.al[id] || d.al[id].s < k.s)) d.al[id] = k; });
+  if (src.ab && typeof src.ab === 'object') Object.keys(src.ab).forEach(id => { const v = Math.round(+src.ab[id]); if (v >= 1 && v <= 4) d.ab[id] = Math.max(d.ab[id] || 0, v); });
+  ['mo', 'up', 'st'].forEach(k => { if (Number.isFinite(+src[k])) d[k] = Math.max(d[k], Math.round(+src[k])); });
+  if (src.ser && typeof src.ser === 'object') { const q = src.ser; if (Number.isFinite(+q.b)) d.ser.b = Math.max(d.ser.b, +q.b); if (Number.isFinite(+q.l) && +q.l > d.ser.l) { d.ser.l = +q.l; d.ser.a = Number.isFinite(+q.a) ? +q.a : 1; } }
+  meilensteine(d); /* ohne Meldung: das Wiederhergestellte ist schon bekannt */
+}
+
+/* Konfetti: kurz, ohne Ton, entfällt bei „Bewegung reduzieren“ */
+function konfetti() {
+  try {
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const alt = $('#konf'); if (alt) alt.remove();
+    const c = document.createElement('canvas'); c.id = 'konf'; c.setAttribute('aria-hidden', 'true');
+    const W = c.width = window.innerWidth, Hh = c.height = window.innerHeight; document.body.appendChild(c);
+    const x = c.getContext('2d'), farben = ['#ffc233', '#3ccf82', '#ff7d72', '#59d0f5', '#b794ff', '#ffffff'];
+    const ps = Array.from({ length: 120 }, () => ({ x: W * (0.25 + Math.random() * 0.5), y: Hh * 0.4, vx: (Math.random() - 0.5) * 12, vy: -7 - Math.random() * 9, w: 5 + Math.random() * 6, h: 3 + Math.random() * 5, r: Math.random() * 6.28, vr: (Math.random() - 0.5) * 0.4, c: farben[Math.floor(Math.random() * farben.length)] }));
+    const t0 = performance.now(), DAUER = 2400;
+    (function loop(t) {
+      const el = t - t0; x.clearRect(0, 0, W, Hh);
+      ps.forEach(q => { q.vy += 0.3; q.vx *= 0.995; q.x += q.vx; q.y += q.vy; q.r += q.vr; x.save(); x.globalAlpha = Math.max(0, Math.min(1, (DAUER - el) / 700)); x.translate(q.x, q.y); x.rotate(q.r); x.fillStyle = q.c; x.fillRect(-q.w / 2, -q.h / 2, q.w, q.h); x.restore(); });
+      if (el < DAUER) requestAnimationFrame(loop); else c.remove();
+    })(t0);
+  } catch (err) { /* nur Zierde */ }
+}
+
+/* Startseite, Ergebnisseite und Album */
+function fortschrittZurStufe(pts) {
+  const sn = stufeVon(pts), nx = STUFEN[sn + 1];
+  return { sn, nx, pct: nx ? Math.round(100 * (pts - STUFEN[sn][2]) / (nx[2] - STUFEN[sn][2])) : 100, rest: nx ? nx[2] - pts : 0 };
+}
+function kartenListe(d) { /* aktuelle Pakete zuerst (in Lernreihenfolge), dann Karten von Paketen, die inzwischen gelöscht sind */
+  const out = [], ids = new Set();
+  db.pakete.slice().sort(nachReihenfolge).forEach(p => {
+    ids.add(p.id);
+    const al = d.al[p.id], k = kartenInfo(p);
+    out.push({ id: p.id, s: al ? al.s : 0, best: al ? al.best || 0 : 0, titel: p.titel, kt: k.titel, mo: k.motiv, tx: k.text, h: fachStil(p.fach).hue });
+  });
+  Object.keys(d.al).forEach(id => { if (!ids.has(id)) out.push(Object.assign({ id }, d.al[id])); });
+  return out;
+}
+function rwHomeHtml() {
+  if (!belohnt()) return '';
+  const d = pdb(), st = stand(d), f = fortschrittZurStufe(st.pts);
+  if (!db.pakete.length && !st.pts) return '';
+  const kl = kartenListe(d), have = kl.filter(k => k.s).length, nab = ABZEICHEN.filter(a => tierVon(a, d, st) > 0).length;
+  const [name, icon] = STUFEN[f.sn];
+  return `<section class="card beloh" aria-label="Punkte und Stufe"><div class="bl-main"><span class="bl-ico" aria-hidden="true">${icon}</span><div><div class="bl-st">Stufe ${f.sn + 1} · ${esc(name)}</div><div class="bl-pts"><b>${st.pts}</b> ${st.pts === 1 ? 'Punkt' : 'Punkte'}</div></div></div><div class="fbar" role="img" aria-label="${f.pct} Prozent bis zur nächsten Stufe"><i style="width:${f.pct}%"></i></div><div class="muted bl-sub">${f.nx ? `Noch ${f.rest} ${f.rest === 1 ? 'Punkt' : 'Punkte'} bis ${esc(f.nx[0])} ${f.nx[1]}` : 'Höchste Stufe erreicht!'}</div><div class="row"><button class="btn sec sm" data-act="album">🃏 Mein Album (${have}/${kl.length})</button><button class="btn sec sm" data-act="abzeichen">🏅 Abzeichen (${nab}/${ABZEICHEN.length})</button></div></section>`;
+}
+function rwErgebnisHtml(s) {
+  if (!belohnt() || s.p0 === undefined) return '';
+  const d = pdb(), st = stand(d), f = fortschrittZurStufe(st.pts), plus = Math.max(0, st.pts - s.p0);
+  const ev = (s.rw && s.rw.ev) || [];
+  return `<section class="card rwbox" aria-label="Belohnungen"><div class="rw-head"><b>+${plus}</b><span>${plus === 1 ? 'Punkt' : 'Punkte'} in diesem Durchgang</span></div>${ev.length ? `<ul class="rw-ev">${ev.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}<p class="muted">${STUFEN[f.sn][1]} Stufe ${f.sn + 1} · ${esc(STUFEN[f.sn][0])} · ${st.pts} Punkte${f.nx ? ` · noch ${f.rest} bis ${esc(f.nx[0])}` : ''}</p><div class="row"><button class="btn sec sm" data-act="album">🃏 Mein Album</button><button class="btn sec sm" data-act="abzeichen">🏅 Abzeichen</button></div></section>`;
+}
+function karteHtml(k) {
+  if (!k.s) return `<li class="kart leer" style="--ch:${k.h}"><div class="k-mo" aria-hidden="true">❔</div><div class="k-t">${esc(k.kt)}</div><div class="k-n">Noch nicht erspielt. Spiele das Paket durch und erreiche mindestens ${KARTEN_STUFEN[1][1]} %.</div></li>`;
+  const rang = KARTEN_STUFEN[k.s][0];
+  return `<li class="kart t${k.s}" style="--ch:${k.h}" aria-label="${esc(k.kt)}, ${rang}"><div class="k-top"><span class="k-rang">${rang}</span><span>${k.best} %</span></div><div class="k-mo" aria-hidden="true">${esc(k.mo)}</div><div class="k-t">${esc(k.kt)}</div>${k.tx ? `<div class="k-x">${esc(k.tx)}</div>` : ''}<div class="k-n">${k.s < 3 ? `Nächster Rang: ab ${KARTEN_STUFEN[k.s + 1][1]} %` : '✨ Höchster Rang'}</div></li>`;
+}
+function abzeichenHtml(f, d, st) {
+  const w = f.wert(d, st), t = tierVon(f, d, st), nxt = f.stufen[t];
+  return `<li class="abz t${t}" title="${esc(f.hilfe)}"><span class="a-ring" aria-hidden="true"><span>${f.icon}</span>${t ? `<i>${ROEM[t]}</i>` : ''}</span><div class="a-n">${esc(f.name)}${t ? ' ' + ROEM[t] : ''}</div><div class="a-s muted">${nxt ? `${w} von ${nxt} ${esc(f.einheit)}` : `${w} ${esc(f.einheit)} · höchste Stufe`}</div><div class="fbar" role="img" aria-label="${nxt ? Math.round(100 * w / nxt) : 100} Prozent bis zur nächsten Stufe"><i style="width:${nxt ? Math.round(100 * w / nxt) : 100}%"></i></div></li>`;
+}
+function renderAlbum(zuAbzeichen) {
+  $('#crumb').textContent = 'Album';
+  const d = pdb(), st = stand(d), f = fortschrittZurStufe(st.pts), kl = kartenListe(d), have = kl.filter(k => k.s).length;
+  const [name, icon] = STUFEN[f.sn];
+  $('#app').innerHTML = `<div class="hero"><div><h1>Mein Album</h1><p class="lead">Stufe ${f.sn + 1} · ${esc(name)} · ${st.pts} ${st.pts === 1 ? 'Punkt' : 'Punkte'}</p></div><div class="row"><button class="btn sec" data-act="home">Zur Übersicht</button></div></div>
+<section class="card stufen"><div class="bl-main"><span class="bl-ico" aria-hidden="true">${icon}</span><div><div class="bl-st">${esc(name)}</div><div class="muted">${f.nx ? `Noch ${f.rest} ${f.rest === 1 ? 'Punkt' : 'Punkte'} bis ${esc(f.nx[0])} ${f.nx[1]}` : 'Höchste Stufe erreicht!'}</div></div></div><div class="fbar" role="img" aria-label="${f.pct} Prozent bis zur nächsten Stufe"><i style="width:${f.pct}%"></i></div><ol class="leiter" aria-label="Alle Stufen">${STUFEN.map((x, i) => `<li class="${i <= f.sn ? 'on' : ''}${i === f.sn ? ' now' : ''}" title="${esc(x[0])} – ab ${x[2]} Punkten"><span aria-hidden="true">${x[1]}</span><small>${esc(x[0])}</small><span class="sr">${i <= f.sn ? 'erreicht' : 'ab ' + x[2] + ' Punkten'}</span></li>`).join('')}</ol></section>
+<h2>Sammelalbum <span class="muted">(${have} von ${kl.length} Karten)</span></h2>
+${kl.length ? `<ul class="kgrid">${kl.map(karteHtml).join('')}</ul>` : '<p class="muted">Sobald Lernpakete da sind, gibt es hier für jedes Paket eine Karte zum Sammeln.</p>'}
+<h2 id="abz">Abzeichen <span class="muted">(${ABZEICHEN.filter(a => tierVon(a, d, st) > 0).length} von ${ABZEICHEN.length})</span></h2>
+<ul class="agrid">${ABZEICHEN.map(a => abzeichenHtml(a, d, st)).join('')}</ul>
+<details class="note fold"><summary><span class="fold-t"><b>So bekommst du Punkte</b></span></summary><ul><li>Jede beantwortete Aufgabe zählt: 1 Punkt, halb richtig 2 Punkte, ganz richtig 3 Punkte. Freie Aufgaben bringen höchstens 2 Punkte. „Weiß ich nicht“ bringt keinen Punkt.</li><li>Jede Aufgabe zählt je Paket nur einmal. Du kannst sie aber später verbessern und bekommst dann die fehlenden Punkte. Fehler üben lohnt sich also.</li><li>Ein Paket ganz durchspielen (mindestens 80 % der Aufgaben beantwortet): +${PAKETBONUS} Punkte.</li><li>Die Karte des Pakets gibt es ab ${KARTEN_STUFEN[1][1]} % (Bronze, +${KARTENBONUS[1]}), ${KARTEN_STUFEN[2][1]} % (Silber, insgesamt +${KARTENBONUS[2]}) und ${KARTEN_STUFEN[3][1]} % (Gold, insgesamt +${KARTENBONUS[3]}) in einem vollständigen Durchgang.</li><li>Abzeichen haben vier Stufen (Bronze, Silber, Gold, Diamant) und zählen über alle Pakete und Fächer hinweg.</li></ul></details>`;
+  if (zuAbzeichen) { const a = $('#abz'); if (a) a.scrollIntoView(); }
+  save();
+}
+
 /* ========== Sicherung, Bibliothek ========== */
-function backupData() { return { typ: 'sicherung', version: 1, person: cur.id, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse }; }
+function backupData() { return { typ: 'sicherung', version: 1, person: cur.id, erstellt: new Date().toISOString(), pakete: db.pakete, ergebnisse: db.ergebnisse, punkte: db.punkte }; }
 function download(name, text) {
   const b = new Blob([text], { type: 'application/json' }); const a = document.createElement('a');
   a.href = URL.createObjectURL(b); a.download = name; document.body.appendChild(a); a.click();
@@ -1335,17 +1631,19 @@ document.addEventListener('click', e => {
     case 'eingabe': { try { localStorage.setItem('lernhilfe.eingabe', eingabe() === 'ziehen' ? 'tippen' : 'ziehen'); } catch (err) { /* ohne Speicher gilt die Standardeinstellung */ } actGap = null; redrawAnswer(); break; }
     case 'up': moveStep(+el.dataset.pos, -1); break;
     case 'down': moveStep(+el.dataset.pos, 1); break;
-    case 'check': { const { s, idx } = curTask(); s.checked[idx] = true; save(); renderTask(true); break; }
+    case 'check': { const { s, p, idx } = curTask(); s.checked[idx] = true; rw(() => aufgabeFertig(p, s, idx)); save(); renderTask(true); break; }
     case 'next': { const { s } = curTask(); if (s.pos < s.order.length - 1) { s.pos++; save(); renderTask(); window.scrollTo(0, 0); } break; }
     case 'prev': { const { s } = curTask(); if (s.pos > 0) { s.pos--; save(); renderTask(); window.scrollTo(0, 0); } break; }
     case 'jump': { const { s } = curTask(); s.pos = +el.dataset.p; save(); renderTask(); break; }
     case 'finish': finish(); break;
-    case 'self': { const { s, idx } = curTask(); s.self[idx] = parseFloat(el.dataset.v); save(); renderTask(true); break; }
+    case 'self': { const { s, p, idx } = curTask(); s.self[idx] = parseFloat(el.dataset.v); rw(() => aufgabeFertig(p, s, idx)); save(); renderTask(true); break; }
     case 'self-r': { const s = db.session; s.self[+el.dataset.i] = parseFloat(el.dataset.v); saveResult(); const keep = $$('details.rrow').map(d => d.open); const y = window.scrollY; renderResult(); $$('details.rrow').forEach((d, i) => { d.open = keep[i]; }); window.scrollTo(0, y); break; }
     case 'retry-teil': { const { s, p } = curTask(); const g = teilGruppen(p, s)[+el.dataset.g]; if (!g || !g.wrong.length) return; const sid = s.id; db.session = null; startSession(sid, 'ueben', g.wrong); break; }
     case 'retry-wrong': { const { s, p } = curTask(); const wrong = s.order.filter(i => { const r = taskScore(p, s, i); return r.got < r.max && p.aufgaben[i].typ !== 'frei'; }); db.session = null; startSession(s.id, 'ueben', wrong); break; }
     case 'again': { const { s } = curTask(); const id2 = s.id, m = s.modus; db.session = null; startSession(id2, m); break; }
     case 'finish-home': db.session = null; save(true); go(H()); break;
+    case 'album': go(H('album')); break;
+    case 'abzeichen': go(H('album/abzeichen')); break;
   }
 });
 window.addEventListener('pagehide', () => save(true));

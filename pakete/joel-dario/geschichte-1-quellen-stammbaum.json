@@ -1012,5 +1012,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 1
+ "reihenfolge": 1,
+ "karte": {
+  "titel": "Quellenforscher",
+  "motiv": "📜",
+  "text": "Eine Quelle stammt aus der Zeit selbst. Eine Darstellung berichtet erst später darüber."
+ }
 }

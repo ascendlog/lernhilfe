@@ -20,6 +20,21 @@ import gesch_p1, gesch_p2, gesch_p3, gesch_p4, gesch_p5, gesch_p6
 THEMA = 'geschichte'
 TERMIN = '2026-11-16'   # Geschichte-Arbeit (Montag)
 DAUER = {'geschichte-probearbeit': 45}   # eigene Probearbeit, etwa 45 Minuten (siehe beschreibung)
+# Sammelkarte je Paket (Album in der App): Titel höchstens 40 Zeichen, ein Emoji als Motiv, kurzer Text (höchstens 200 Zeichen).
+# Neue Pakete bekommen immer eine eigene "karte".
+KARTEN = {
+    'geschichte-1-quellen-stammbaum': {'titel': 'Quellenforscher', 'motiv': '📜', 'text': 'Eine Quelle stammt aus der Zeit selbst. Eine Darstellung berichtet erst später darüber.'},
+    'geschichte-2a-zeitrechnung-kalender': {'titel': 'Kalendermeister', 'motiv': '🗓️', 'text': 'Jahre vor und nach Christi Geburt vergleichen und Jahrhunderte bestimmen.'},
+    'geschichte-2b-epochen-zeitstrahl': {'titel': 'Zeitstrahl-Profi', 'motiv': '📏', 'text': 'Die fünf Epochen in der richtigen Reihenfolge – und Ereignisse auf dem Zeitstrahl.'},
+    'geschichte-3-lucy': {'titel': 'Lucy', 'motiv': '🦴', 'text': 'Über 3 Millionen Jahre alt, aus Ostafrika – und sie ging schon aufrecht.'},
+    'geschichte-4a-steinzeit-eiszeit-werkzeuge': {'titel': 'Eiszeitforscher', 'motiv': '🦣', 'text': 'Steinzeit, Eiszeit, Mammut und die ersten Werkzeuge.'},
+    'geschichte-4b-altsteinzeit-jagen-leben': {'titel': 'Rentierjäger', 'motiv': '🏹', 'text': 'Jagen und Sammeln: Vom Rentier wurde fast alles genutzt.'},
+    'geschichte-5a-neolithische-revolution': {'titel': 'Erste Bauern', 'motiv': '🌾', 'text': 'Sesshaft werden, Tiere zähmen und Getreide anbauen.'},
+    'geschichte-5b-jungsteinzeit-leben-vergleich': {'titel': 'Dorfbewohner', 'motiv': '🏡', 'text': 'Leben im Dorf der Jungsteinzeit – und der Vergleich mit der Altsteinzeit.'},
+    'geschichte-6-oetzi': {'titel': 'Ötzi', 'motiv': '🏔️', 'text': 'Der Mann aus dem Eis – über 5000 Jahre alt.'},
+    'geschichte-probearbeit': {'titel': 'Probearbeit-Urkunde', 'motiv': '🏆', 'text': 'Die Probearbeit gemeistert: Quellen, Zeit, Lucy, Steinzeit und Ötzi.'},
+    'geschichte-crashkurs': {'titel': 'Spickzettel', 'motiv': '⚡', 'text': 'Das Wichtigste kurz gefasst – schnell wiederholt.'},
+}
 
 
 def datei(p):
@@ -54,6 +69,10 @@ def main():
         p['reihenfolge'] = n
         if p['id'] in DAUER:
             p['dauer'] = DAUER[p['id']]   # Timer der Probearbeit in Minuten
+        assert p['id'] in KARTEN, f"Karte fehlt für {p['id']}"
+        k = KARTEN[p['id']]
+        assert len(k['titel']) <= 40 and len(k['text']) <= 200, k
+        p['karte'] = k   # Sammelkarte fürs Album
     for p in pakete:
         with open(os.path.join(ziel(p)[0], datei(p)), 'w', encoding='utf-8') as f:
             json.dump(p, f, ensure_ascii=False, indent=1)

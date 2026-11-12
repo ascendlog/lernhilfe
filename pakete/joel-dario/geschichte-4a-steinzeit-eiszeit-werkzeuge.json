@@ -967,5 +967,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 5
+ "reihenfolge": 5,
+ "karte": {
+  "titel": "Eiszeitforscher",
+  "motiv": "🦣",
+  "text": "Steinzeit, Eiszeit, Mammut und die ersten Werkzeuge."
+ }
 }

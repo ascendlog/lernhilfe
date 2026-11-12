@@ -999,5 +999,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 9
+ "reihenfolge": 9,
+ "karte": {
+  "titel": "Ötzi",
+  "motiv": "🏔️",
+  "text": "Der Mann aus dem Eis – über 5000 Jahre alt."
+ }
 }

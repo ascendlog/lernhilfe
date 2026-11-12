@@ -917,5 +917,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 2
+ "reihenfolge": 2,
+ "karte": {
+  "titel": "Kalendermeister",
+  "motiv": "🗓️",
+  "text": "Jahre vor und nach Christi Geburt vergleichen und Jahrhunderte bestimmen."
+ }
 }

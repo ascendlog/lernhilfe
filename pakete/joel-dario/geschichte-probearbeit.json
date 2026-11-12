@@ -622,5 +622,10 @@
  "ueben": false,
  "termin": "2026-11-16",
  "reihenfolge": 10,
- "dauer": 45
+ "dauer": 45,
+ "karte": {
+  "titel": "Probearbeit-Urkunde",
+  "motiv": "🏆",
+  "text": "Die Probearbeit gemeistert: Quellen, Zeit, Lucy, Steinzeit und Ötzi."
+ }
 }

@@ -1037,5 +1037,10 @@
  },
  "probe": false,
  "termin": "2026-11-16",
- "reihenfolge": 8
+ "reihenfolge": 8,
+ "karte": {
+  "titel": "Dorfbewohner",
+  "motiv": "🏡",
+  "text": "Leben im Dorf der Jungsteinzeit – und der Vergleich mit der Altsteinzeit."
+ }
 }
