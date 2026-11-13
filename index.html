@@ -1296,8 +1296,8 @@ function renderResult() {
 function rw(fn, fallback) { try { return fn(); } catch (err) { try { console.warn('Belohnung:', err); } catch (e2) { /* egal */ } return fallback; } }
 const belohnt = () => !!(cur && db);
 const erw = () => !!(cur && cur.art === 'erwachsen'); /* Erwachsene bekommen dieselben Punkte und Effekte, aber andere Namen und Wörter */
-const STUFEN = [ /* Name, Zeichen, ab Punkten – alle Geschichte-Pakete zusammen bringen etwa 2000 Punkte */
-  ['Rucksack-Packer', '🎒', 0], ['Spurenleser', '🐾', 100], ['Pfadfinder', '🧭', 300], ['Höhlenforscher', '🔦', 600], ['Zeitreisender', '⏳', 1000],
+const STUFEN = [ /* Name, Zeichen, ab Punkten; fachunabhängig (Entdecker-Reise durch alle Fächer und Arbeiten), alle Geschichte-Pakete zusammen bringen etwa 2000 Punkte */
+  ['Rucksack-Packer', '🎒', 0], ['Spurenleser', '🐾', 100], ['Pfadfinder', '🧭', 300], ['Entdecker', '🔭', 600], ['Gipfelstürmer', '🧗', 1000],
   ['Kartenmeister', '🗺️', 1500], ['Wissensjäger', '📚', 2200], ['Expeditions\u00ADleiter', '⛰️', 3200], ['Meisterdetektiv', '🕵️', 4500], ['Legende', '👑', 6500]
 ];
 const KARTEN_STUFEN = [['', 0], ['Bronze', 50], ['Silber', 75], ['Gold', 90]]; /* Rang, ab Prozent im vollständigen Durchgang */
