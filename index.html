@@ -1304,13 +1304,14 @@ const KARTEN_STUFEN = [['', 0], ['Bronze', 50], ['Silber', 75], ['Gold', 90]]; /
 const KARTENBONUS = [0, 10, 20, 30], PAKETBONUS = 20;
 const TIER_NAMEN = ['', 'Bronze', 'Silber', 'Gold', 'Diamant'], ROEM = ['', 'I', 'II', 'III', 'IV'];
 const anzahl = o => Object.keys(o || {}).length;
-const MENGEN = ['fb', 'vt', 'ts', 'po', 'zm', 'fd', 'cc']; /* Mengen „Paket-ID → 1“: je Paket höchstens einmal gezählt */
+const MENGEN = ['fb', 'vt', 'ts', 'po', 'zm', 'fd', 'cc', 'ak']; /* Mengen „Paket-ID → 1“: je Paket höchstens einmal gezählt */
 const ABZEICHEN = [ /* Familien mit vier Stufen (Bronze, Silber, Gold, Diamant); gelten für alle Pakete und Fächer zusammen */
   { id: 'aufgabenheld', name: 'Aufgabenheld', icon: '⭐', stufen: [25, 100, 300, 750], einheit: 'Aufgaben ganz richtig', hilfe: 'Verschiedene Aufgaben mindestens einmal ganz richtig lösen.', wert: (d, st) => st.drei },
   { id: 'fehlerjaeger', name: 'Fehlerjäger', icon: '🔎', stufen: [20, 50, 100, 250], einheit: 'Fehler besiegt', hilfe: 'Eine Aufgabe, die du schon einmal falsch hattest, jetzt ganz richtig lösen.', wert: (d, st) => st.besiegt },
   { id: 'mutzumfehler', name: 'Mut zum Fehler', icon: '💪', stufen: [1, 5, 15, 30], einheit: 'Fehler-Runden gespielt', hilfe: '„Fehler wiederholen“ bis zum Ergebnis durchspielen.', wert: d => d.mo },
   { id: 'dranbleiber', name: 'Dranbleiber', icon: '🔥', stufen: [3, 7, 14, 30], einheit: 'Tage in Folge geübt', hilfe: 'An mehreren Tagen hintereinander üben. Dein bester Lauf zählt.', wert: d => d.ser.b },
   { id: 'paketprofi', name: 'Paketprofi', icon: '📦', stufen: [1, 5, 11, 25], einheit: 'Pakete geschafft', hilfe: 'Ein Paket ganz durchspielen und mindestens 80 % der Aufgaben beantworten.', wert: d => anzahl(d.fb) },
+  { id: 'komplett', name: 'Komplettpaket', icon: '🎁', stufen: [1, 2, 4, 8], einheit: 'Arbeiten komplett vorbereitet', hilfe: 'Alle Pakete einer Arbeit (gleiches Fach, gleicher Termin) geschafft, auch Probearbeit und Crashkurs.', wert: d => anzahl(d.ak) },
   { id: 'volltreffer', name: 'Volltreffer', icon: '🎯', stufen: [1, 3, 6, 12], einheit: 'Pakete mit 100 %', hilfe: 'Ein Paket in einem Durchgang mit 100 % abschließen.', wert: d => anzahl(d.vt) },
   { id: 'alleteile', name: 'Alle Teile stark', icon: '🧩', stufen: [1, 3, 6, 12], einheit: 'Pakete, in denen jeder Teil mindestens 75 % hatte', hilfe: 'Bei „Nach Teilen“ im Ergebnis überall mindestens 75 % erreichen.', wert: d => anzahl(d.ts) },
   { id: 'pruefungsprofi', name: 'Prüfungsprofi', icon: '🎓', stufen: [1, 2, 4, 8], einheit: 'Probearbeiten mit 75 % oder mehr', hilfe: 'Eine Probearbeit mit mindestens 75 % abschließen.', wert: d => anzahl(d.po) },
@@ -1329,6 +1330,7 @@ const ABZ_ERW = { /* Namen und Texte für Erwachsene (Zahlen und Stufen bleiben 
   fehlerjaeger: { name: 'Aus Fehlern gelernt', icon: '🔍', einheit: 'Fehler korrigiert', hilfe: 'Eine Aufgabe, die du schon einmal falsch hattest, jetzt ganz richtig lösen.' },
   mutzumfehler: { name: 'Lücken geschlossen', icon: '🔁', einheit: 'Fehler-Runden gelernt' },
   dranbleiber: { name: 'Durchhaltevermögen', icon: '📆', einheit: 'Tage in Folge gelernt', hilfe: 'An mehreren Tagen hintereinander lernen. Dein bester Lauf zählt.' },
+  komplett: { einheit: 'Klausuren komplett vorbereitet', hilfe: 'Alle Pakete einer Klausur (gleiches Fach, gleicher Termin) geschafft, auch Probeklausur und Crashkurs.' },
   volltreffer: { name: 'Punktlandung', icon: '🎯' },
   alleteile: { name: 'Rundum sicher', icon: '🧩' },
   pruefungsprofi: { name: 'Klausurprofi', icon: '🎓', einheit: 'Probeklausuren mit 75 % oder mehr', hilfe: 'Eine Probeklausur mit mindestens 75 % abschließen.' },
@@ -1398,6 +1400,11 @@ function aufgabeBelohnen(p, s, idx) { /* idempotent: jede Aufgabe zählt je Pake
   return { pts: (neu & 3) - (alt & 3), besiegt };
 }
 function sammeln(s, ev) { if (!ev.length) return; s.rw = s.rw || { ev: [] }; ev.forEach(x => { if (!s.rw.ev.includes(x)) s.rw.ev.push(x); }); }
+function arbeitenPruefen(d) { /* eine Arbeit = Pakete mit gleichem Fach und gleichem Termin (wie die Termin-Karte); komplett, wenn jedes Paket geschafft ist (mindestens zwei Pakete); einmal erreicht, bleibt es */
+  const gr = {}; (db.pakete || []).forEach(p => { if (!p.termin) return; (gr[(p.fach || '') + '|' + p.termin] = gr[(p.fach || '') + '|' + p.termin] || []).push(p); });
+  const neu = []; Object.keys(gr).forEach(k => { if (!d.ak[k] && gr[k].length >= 2 && gr[k].every(p => d.fb[p.id])) { d.ak[k] = 1; neu.push(k.split('|')[0]); } });
+  return neu;
+}
 function meilensteine(d) { /* neue Abzeichen-Stufen und Stufen seit der letzten Meldung */
   const ev = [], st = stand(d);
   ABZEICHEN.forEach(f0 => { const f = abzF(f0), t = tierVon(f0, d, st), alt = d.ab[f0.id] || 0; if (t > alt) { d.ab[f0.id] = t; ev.push(`${f.icon} Abzeichen: ${f.name} ${ROEM[t]} (${TIER_NAMEN[t]})`); } });
@@ -1431,6 +1438,7 @@ function durchgangFertig(p, s, tt) { /* beim Abgeben und bei jeder späteren Sel
   if (s.teil && beantwortet && !s.rwMo) { s.rwMo = true; d.mo++; }
   if (ernst) {
     if (!d.fb[p.id]) { d.fb[p.id] = 1; ev.push(`📦 Paket geschafft: +${PAKETBONUS} Punkte`); }
+    arbeitenPruefen(d).forEach(f => ev.push(`🎁 Komplettpaket: ${f ? f + ': ' : ''}${erw() ? 'Klausur' : 'Arbeit'} komplett vorbereitet!`));
     const k = kartenInfo(p), neu = tt.pct >= 90 ? 3 : tt.pct >= 75 ? 2 : tt.pct >= 50 ? 1 : 0, al = d.al[p.id];
     if (neu > 0 && (!al || neu > al.s)) {
       d.al[p.id] = { s: neu, titel: p.titel, kt: k.titel, mo: k.motiv, tx: k.text, h: fachStil(p.fach).hue, f: p.fach || '', best: Math.max(tt.pct, al ? al.best || 0 : 0) };
@@ -1473,6 +1481,7 @@ function punkteMerge(src) { /* Sicherung wiederherstellen: nichts geht verloren,
   if (src.ab && typeof src.ab === 'object') Object.keys(src.ab).forEach(id => { const v = Math.round(+src.ab[id]); if (v >= 1 && v <= 4) d.ab[id] = Math.max(d.ab[id] || 0, v); });
   ['mo', 'up', 'st'].forEach(k => { if (Number.isFinite(+src[k])) d[k] = Math.max(d[k], Math.round(+src[k])); });
   if (src.ser && typeof src.ser === 'object') { const q = src.ser; if (Number.isFinite(+q.b)) d.ser.b = Math.max(d.ser.b, +q.b); if (Number.isFinite(+q.l) && +q.l > d.ser.l) { d.ser.l = +q.l; d.ser.a = Number.isFinite(+q.a) ? +q.a : 1; } }
+  arbeitenPruefen(d);
   meilensteine(d); /* ohne Meldung: das Wiederhergestellte ist schon bekannt */
 }
 
