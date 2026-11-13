@@ -1566,7 +1566,7 @@ ${kl.length ? `<ul class="kgrid">${kl.map(karteHtml).join('')}</ul>` : `<p class
 const kindP = () => !!(cur && db && cur.art === 'kind');
 const EL_PREFIX = 'lh-eltern-', EL_ALPHA = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
 const PEER_URL = 'https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js';
-const EL_KEY = 'lernhilfe.eltern.v1', EL_CODE = 'lernhilfe.elterncode';
+const EL_KEY = 'lernhilfe.eltern.v1', EL_CODE = 'lernhilfe.elterncode', FR_CODE = 'lernhilfe.freundcode';
 const elCodeNorm = s => String(s || '').toUpperCase().replace(/[^A-Z0-9]/g, '');
 const elCodeOk = c => c.length === 12 && [...c].every(ch => EL_ALPHA.includes(ch));
 const elCodeShow = c => (c.match(/.{1,4}/g) || []).join('-');
@@ -1577,9 +1577,14 @@ function elCodeNeu() {
 }
 const kindCode = () => { try { const c = elCodeNorm(localStorage.getItem(EL_CODE)); return elCodeOk(c) ? c : ''; } catch (e) { return ''; } };
 const setKindCode = c => { try { if (c) localStorage.setItem(EL_CODE, c); else localStorage.removeItem(EL_CODE); return true; } catch (e) { return false; } };
+/* Freunde-Code: eigener Code für das Freunde-Album, damit sich Joel und Dario sehen können, auch wenn ihre Eltern je einen eigenen Familiencode haben.
+   Ohne eigenen Freunde-Code gilt der Familiencode. */
+const freundCodeEigen = () => { try { const c = elCodeNorm(localStorage.getItem(FR_CODE)); return elCodeOk(c) ? c : ''; } catch (e) { return ''; } };
+const setFreundCode = c => { try { if (c) localStorage.setItem(FR_CODE, c); else localStorage.removeItem(FR_CODE); return true; } catch (e) { return false; } };
+const freundCode = () => freundCodeEigen() || kindCode();
 function elRead() {
-  const o = readRaw(EL_KEY) || {}, c = elCodeNorm(o.code);
-  return { code: elCodeOk(c) ? c : '', kinder: o.kinder && typeof o.kinder === 'object' && !Array.isArray(o.kinder) ? o.kinder : {} };
+  const o = readRaw(EL_KEY) || {}, c = elCodeNorm(o.code), f = elCodeNorm(o.fcode);
+  return { code: elCodeOk(c) ? c : '', fcode: elCodeOk(f) ? f : '', kinder: o.kinder && typeof o.kinder === 'object' && !Array.isArray(o.kinder) ? o.kinder : {} };
 }
 function elWrite(o) { try { localStorage.setItem(EL_KEY, JSON.stringify(o)); return true; } catch (e) { toast('Speichern im Browser nicht möglich (Speicher voll oder gesperrt).'); return false; } }
 
@@ -1763,7 +1768,7 @@ const elternHomeHtml = () => kindP() ? '<p class="legend" id="elHome">' + elHome
 const elternKnopfHtml = () => kindP() ? '<button class="btn sec" data-act="eltern-text-ergebnis">An die Eltern schicken</button>' : '';
 const elternStatusHtml = () => kindP() && kindCode() ? '<p class="legend" id="elStatus" role="status" style="margin:.9rem 0 0;text-align:center">' + esc(elStatusTxt()) + '</p>' : '';
 function elVerbindenDialog() {
-  dialog('<h2>Mit der Eltern-Ansicht verbinden</h2><p>Deine Eltern öffnen auf ihrem Gerät die Lernhilfe und tippen auf der Startseite („Wer lernt heute?“) auf <strong>Eltern-Ansicht</strong>. Dort steht der Familiencode. Trage ihn hier ein.</p><p class="muted">Danach bekommen deine Eltern nach jedem Durchgang deinen Stand, sobald ihre Eltern-Ansicht offen ist. Gesendet werden Name, Punkte, Stufe, Lernstand und die letzten Ergebnisse, keine einzelnen Antworten. Mit demselben Code können sich Joel und Dario gegenseitig ihr Album ansehen (nur Karten, Abzeichen und Stufe, keine Ergebnisse und Punkte); das lässt sich auf der Startseite jederzeit verbergen.</p><input class="txt" id="elCode" maxlength="24" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCD-EFGH-JKMN" aria-label="Familiencode"><p class="note" id="elCodeMsg" style="min-height:1.2em;margin:.6rem 0 0" role="status"></p><div class="row" style="margin-top:.9rem"><button class="btn" data-act="eltern-verbinden-go">Verbinden</button><button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>');
+  dialog('<h2>Mit der Eltern-Ansicht verbinden</h2><p>Deine Eltern öffnen auf ihrem Gerät die Lernhilfe und tippen auf der Startseite („Wer lernt heute?“) auf <strong>Eltern-Ansicht</strong>. Dort steht der Familiencode. Trage ihn hier ein.</p><p class="muted">Danach bekommen deine Eltern nach jedem Durchgang deinen Stand, sobald ihre Eltern-Ansicht offen ist. Gesendet werden Name, Punkte, Stufe, Lernstand und die letzten Ergebnisse, keine einzelnen Antworten. Das Freunde-Album (Joel und Dario sehen sich gegenseitig Karten, Abzeichen und Stufe, keine Ergebnisse und Punkte) hat einen eigenen Freunde-Code, den du auf der Startseite einträgst; ohne den gilt dieser Familiencode. Das lässt sich auf der Startseite jederzeit verbergen.</p><input class="txt" id="elCode" maxlength="24" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCD-EFGH-JKMN" aria-label="Familiencode"><p class="note" id="elCodeMsg" style="min-height:1.2em;margin:.6rem 0 0" role="status"></p><div class="row" style="margin-top:.9rem"><button class="btn" data-act="eltern-verbinden-go">Verbinden</button><button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>');
   setTimeout(() => { const t = $('#elCode'); if (t) t.focus(); }, 50);
 }
 function elVerbindenGo() {
@@ -1779,7 +1784,7 @@ function elVerbindenGo() {
 }
 
 /* ----- Freunde-Album: Joel und Dario sehen sich live ihr Album an (nur Karten, Abzeichen und Stufe; keine Ergebnisse, keine Punkte) ----- */
-/* Derselbe Familiencode wie bei der Eltern-Ansicht, den die Eltern vergeben. Wer die Lernhilfe offen hat (und das Album nicht verborgen hat),
+/* Eigener Freunde-Code (Eltern erzeugen ihn in der Eltern-Ansicht und geben ihn weiter; ohne ihn gilt der Familiencode). Wer die Lernhilfe offen hat (und das Album nicht verborgen hat),
    ist unter lh-freund-<Code>-<Person> erreichbar; das Gegenüber fragt kurz nach und bekommt den Albumstand zurück. */
 const FR_PREFIX = 'lh-freund-';
 const freundAn = () => !!db && !db.freundAus;
@@ -1808,7 +1813,7 @@ function freundStop() {
   if (pr) { try { pr.destroy(); } catch (e) { /* egal */ } }
 }
 function freundSync() { /* wird bei jedem Seitenwechsel aufgerufen: zuhören, solange eine Person mit Freund, Code und eingeschaltetem Album gewählt ist */
-  const code = kindP() && cur.freund ? kindCode() : '';
+  const code = kindP() && cur.freund ? freundCode() : '';
   if (!code || !freundAn()) { freundStop(); return; }
   const id = FR_PREFIX + code + '-' + cur.id;
   if (fl.id === id && (fl.starting || (fl.peer && !fl.peer.destroyed))) return;
@@ -1840,7 +1845,7 @@ function freundHorchen(id, versuch) {
 /* Nachfragen: Album des Freundes holen */
 let frSt = { status: '', snap: null };
 function freundAbfragen(fid) {
-  const code = kindCode(), mine = cur.id;
+  const code = freundCode(), mine = cur.id;
   frSt = { status: 'verbinde', snap: null }; frZeichnen();
   const fertig = (st, snap) => { if (cur && cur.id === mine && location.hash === H('freund')) { frSt = { status: st, snap: snap || null }; frZeichnen(); } };
   if (!code) return fertig('code');
@@ -1882,7 +1887,7 @@ function frZeichnen() {
     verbinde: `Verbinde mit ${n} …`,
     offline: `${n} ist gerade nicht in der Lernhilfe. Er muss sie geöffnet haben (und sein Album nicht verborgen haben).`,
     aus: `${n} hat sein Album gerade verborgen.`,
-    code: 'Zuerst mit der Eltern-Ansicht verbinden (unten auf der Startseite). Den Familiencode bekommst du von deinen Eltern.',
+    code: 'Zuerst den Freunde-Code eintragen (Startseite, unten bei „Freund“). Den bekommst du von deinen Eltern.',
     bibliothek: 'Die Verbindungs-Bibliothek konnte nicht geladen werden. Ist das Internet an?',
     fehler: 'Das hat nicht geklappt. Ist das Internet an? Probier es gleich noch einmal.'
   }[frSt.status];
@@ -1896,11 +1901,25 @@ function frZeichnen() {
   $('#app').innerHTML = `<div class="col" style="max-width:1000px">${h}</div>`;
 }
 function freundHomeHtml() {
-  const fr = freundVon(); if (!kindP() || !fr || !kindCode()) return '';
+  const fr = freundVon(); if (!kindP() || !fr) return '';
+  if (!freundCode()) return `<p class="legend" id="frHome">Freund: <button class="link" data-act="freund-code">Freunde-Album mit ${esc(fr.name)} einrichten</button></p>`;
   const an = freundAn();
-  return `<p class="legend" id="frHome">Freund: <button class="link" data-act="freund-ansehen">Album von ${esc(fr.name)} ansehen</button> · Dein Album ist für ${esc(fr.name)} ${an ? 'sichtbar' : 'verborgen'} (<button class="link" data-act="freund-toggle">${an ? 'verbergen' : 'sichtbar machen'}</button>)</p>`;
+  return `<p class="legend" id="frHome">Freund: <button class="link" data-act="freund-ansehen">Album von ${esc(fr.name)} ansehen</button> · Dein Album ist für ${esc(fr.name)} ${an ? 'sichtbar' : 'verborgen'} (<button class="link" data-act="freund-toggle">${an ? 'verbergen' : 'sichtbar machen'}</button>) · <button class="link" data-act="freund-code">Freunde-Code</button></p>`;
 }
-function freundKnopfHtml() { const fr = freundVon(); return kindP() && fr && kindCode() ? `<button class="btn sec" data-act="freund-ansehen">Album von ${esc(fr.name)}</button>` : ''; }
+function freundCodeDialog() {
+  const fr = freundVon(); if (!fr) return;
+  const eig = freundCodeEigen();
+  dialog(`<h2>Freunde-Code</h2><p>Mit diesem Code könnt ihr, ${esc(fr.name)} und du, euch gegenseitig das Album ansehen (nur Karten, Abzeichen und Stufe, keine Ergebnisse und keine Punkte). <strong>Ihr beide müsst denselben Code eintragen.</strong> Den bekommen eure Eltern in der Eltern-Ansicht und geben ihn an euch weiter.</p><p class="muted">${eig ? 'Gerade ist dieser Code eingetragen.' : kindCode() ? 'Ohne eigenen Freunde-Code gilt der Familiencode der Eltern-Ansicht.' : 'Es ist noch kein Code eingetragen.'}</p><input class="txt" id="frCode" maxlength="24" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABCD-EFGH-JKMN" aria-label="Freunde-Code" value="${esc(eig ? elCodeShow(eig) : '')}"><p class="note" id="frCodeMsg" style="min-height:1.2em;margin:.6rem 0 0" role="status"></p><div class="row" style="margin-top:.9rem"><button class="btn" data-act="freund-code-go">Speichern</button>${eig ? '<button class="btn sec" data-act="freund-code-weg">Code entfernen</button>' : ''}<button class="btn ghost" data-act="dlg-close">Abbrechen</button></div>`);
+  setTimeout(() => { const t = $('#frCode'); if (t) t.focus(); }, 50);
+}
+function freundCodeGo() {
+  const c = elCodeNorm(($('#frCode') || {}).value);
+  if (!elCodeOk(c)) { const m = $('#frCodeMsg'); if (m) m.textContent = 'Der Code hat 12 Zeichen aus Buchstaben und Zahlen (ohne 0, 1, O, I, L). Bitte noch einmal prüfen.'; return; }
+  if (!setFreundCode(c)) { toast('Speichern im Browser nicht möglich.'); return; }
+  closeDialog(); rw(freundSync); renderHome(); toast('Freunde-Code gespeichert.');
+}
+function freundCodeWeg() { setFreundCode(''); closeDialog(); rw(freundSync); renderHome(); toast(kindCode() ? 'Freunde-Code entfernt. Es gilt wieder der Familiencode.' : 'Freunde-Code entfernt.'); }
+function freundKnopfHtml() { const fr = freundVon(); return kindP() && fr && freundCode() ? `<button class="btn sec" data-act="freund-ansehen">Album von ${esc(fr.name)}</button>` : ''; }
 
 /* ----- Eltern-Gerät: Verbindung und Ansicht ----- */
 const sz = (x, n) => String(x ?? '').slice(0, n);
@@ -2005,13 +2024,22 @@ function elRender() {
     $('#app').innerHTML = h; window.scrollTo(0, y); return;
   }
   const stTxt = { bereit: ['ok', 'Bereit – der Stand kommt an, sobald ein Kind einen Durchgang abgibt.'], verbinde: ['', 'Verbinde mit dem Vermittlungsserver …'], fehler: ['bad', 'Nicht verbunden.'], belegt: ['bad', 'Diese Eltern-Ansicht ist schon in einem anderen Fenster oder auf einem anderen Gerät geöffnet.'] }[elP.status] || ['', 'Nicht verbunden.'];
-  h += `<div class="card"><div class="row" style="justify-content:space-between"><span class="elst ${stTxt[0]}" role="status">${esc(stTxt[1])}</span>${elP.status === 'bereit' || elP.status === 'verbinde' ? '' : '<button class="btn sec sm" data-act="eltern-neustart">Erneut verbinden</button>'}</div>${elP.msg ? `<p class="muted" style="margin:.5rem 0 0">${esc(elP.msg)}</p>` : ''}<p class="muted" style="margin:.7rem 0 .2rem">Familiencode für die Geräte der Kinder: Startseite → „Mit Eltern-Ansicht verbinden“.</p><div class="row"><span class="elcode">${esc(elCodeShow(o.code))}</span><button class="btn sec sm" data-act="eltern-code-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-code-neu">Neuer Code</button></div><p class="legend" style="margin:.7rem 0 0">Lassen Sie diese Seite offen, solange die Kinder üben (Bildschirm an). Die Daten gehen direkt von Gerät zu Gerät. Mit demselben Code können sich Joel und Dario außerdem gegenseitig ihr Album ansehen (nur Karten, Abzeichen und Stufe, keine Ergebnisse); wer den Code nicht hat, kommt nicht hinein.</p></div>`;
+  h += `<div class="card"><div class="row" style="justify-content:space-between"><span class="elst ${stTxt[0]}" role="status">${esc(stTxt[1])}</span>${elP.status === 'bereit' || elP.status === 'verbinde' ? '' : '<button class="btn sec sm" data-act="eltern-neustart">Erneut verbinden</button>'}</div>${elP.msg ? `<p class="muted" style="margin:.5rem 0 0">${esc(elP.msg)}</p>` : ''}<p class="muted" style="margin:.7rem 0 .2rem">Familiencode für die Geräte der Kinder: Startseite → „Mit Eltern-Ansicht verbinden“.</p><div class="row"><span class="elcode">${esc(elCodeShow(o.code))}</span><button class="btn sec sm" data-act="eltern-code-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-code-neu">Neuer Code</button></div><p class="legend" style="margin:.7rem 0 0">Lassen Sie diese Seite offen, solange die Kinder üben (Bildschirm an). Die Daten gehen direkt von Gerät zu Gerät. Für das Freunde-Album gibt es unten einen eigenen Code.</p></div>`;
+  h += rw(() => elFreundCard(o), '');
   h += kinder.map(k => elKindHtml(k, o.kinder[k.id])).join('') + '</div>';
   $('#app').innerHTML = h; window.scrollTo(0, y);
 }
+function elFreundCard(o) {
+  return `<div class="card"><h2 style="margin-top:0">Freunde-Code für das Album</h2><p class="muted">Joel und Dario können sich ihr Album gegenseitig ansehen (nur Karten, Abzeichen und Stufe, keine Ergebnisse und keine Punkte), wenn beide <strong>denselben</strong> Freunde-Code eingetragen haben: Startseite → „Freunde-Code“. Der Code ist unabhängig vom Familiencode, so sehen Sie und die Eltern des anderen Kindes nicht die Ergebnisse der jeweils anderen. Erzeugen Sie ihn hier einmal und geben Sie ihn an die Eltern des anderen Kindes weiter. Ohne Freunde-Code gilt der Familiencode.</p>${o.fcode ? `<div class="row"><span class="elcode">${esc(elCodeShow(o.fcode))}</span><button class="btn sec sm" data-act="eltern-fcode-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-fcode-neu">Neuer Code</button></div>` : '<div class="row"><button class="btn sec" data-act="eltern-fcode-neu">Freunde-Code erzeugen</button></div>'}</div>`;
+}
+function elFreundCodeNeu() {
+  const o = elRead();
+  if (o.fcode && !confirm('Neuen Freunde-Code erzeugen? Danach müssen ihn beide Kinder neu eintragen.')) return;
+  o.fcode = elCodeNeu(); if (!elWrite(o)) return; elRender();
+}
 function elSetup() { const o = elRead(); o.code = elCodeNeu(); if (!elWrite(o)) return; elternStart(); }
-function elCodeKopieren() {
-  const c = elCodeShow(elRead().code); if (!c) return;
+function elCodeKopieren(freund) {
+  const o = elRead(), c = elCodeShow(freund ? o.fcode : o.code); if (!c) return;
   if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(c).then(() => toast('Code kopiert.'), () => toast('Kopieren ging nicht. Der Code steht oben auf der Seite.'));
   else toast('Kopieren ging nicht. Der Code steht oben auf der Seite.');
 }
@@ -2160,6 +2188,9 @@ document.addEventListener('click', e => {
     case 'eltern-ansicht': go('#/eltern'); break;
     case 'freund-ansehen': if (kindP() && cur.freund) go(H('freund')); break;
     case 'freund-neu': if (kindP() && cur.freund) rw(() => freundAbfragen(cur.freund)); break;
+    case 'freund-code': if (kindP() && cur.freund) rw(freundCodeDialog); break;
+    case 'freund-code-go': rw(freundCodeGo); break;
+    case 'freund-code-weg': rw(freundCodeWeg); break;
     case 'freund-toggle': if (kindP()) { db.freundAus = !db.freundAus; save(true); rw(freundSync); renderHome(); toast(db.freundAus ? 'Dein Album ist jetzt verborgen.' : 'Dein Album ist wieder sichtbar.'); } break;
     case 'eltern-text-ergebnis': if (kindP() && sess && sess.done) rw(() => elTextDialog(elTextErgebnis())); break;
     case 'eltern-text-stand': if (kindP()) rw(() => elTextDialog(elTextStand())); break;
@@ -2172,6 +2203,8 @@ document.addEventListener('click', e => {
     case 'eltern-setup': rw(elSetup); break;
     case 'eltern-code-kopieren': rw(elCodeKopieren); break;
     case 'eltern-code-neu': rw(elCodeNeuErzeugen); break;
+    case 'eltern-fcode-kopieren': rw(() => elCodeKopieren(true)); break;
+    case 'eltern-fcode-neu': rw(elFreundCodeNeu); break;
     case 'eltern-neustart': rw(elternStart); break;
     case 'backup': dialog('<h2>Sicherung für ' + esc(cur.name) + '</h2><p>Enthält alle importierten Lernpakete und die bisherigen Ergebnisse von ' + esc(cur.name) + '. Die Daten liegen sonst nur in diesem Browser.</p><div class="row"><button class="btn" data-act="backup-save">Als Datei speichern</button><button class="btn sec" data-act="backup-copy">Als Text kopieren</button><button class="btn sec" data-act="import">Wiederherstellen (Datei)</button><button class="btn ghost" data-act="dlg-close">Schließen</button></div>'); break;
     case 'backup-save': download('lernhilfe-sicherung-' + cur.id + '-' + new Date().toISOString().slice(0, 10) + '.json', JSON.stringify(backupData(), null, 1)); db.gesichert = Date.now(); save(true); toast('Sicherung gespeichert.'); break;
