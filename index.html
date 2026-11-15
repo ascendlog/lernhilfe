@@ -967,6 +967,26 @@ function startTimer() { /* true = die Zeit war schon um, die Arbeit wurde abgege
   timerLast = Date.now(); timerId = setInterval(tickTimer, 1000); return false;
 }
 /* Absicherung: Eine laufende Sitzung öffnet immer, auch wenn ihr gespeicherter Stand beschädigt oder veraltet ist (Meldung von Alessandro, 15.11.2026: „Fortsetzen“ tat bei einer Probearbeit nichts). */
+/* Hat die gespeicherte Antwort die Form, die der Aufgabentyp braucht? (Schutz gegen Reste aus früheren Fehlern.) */
+function antwortOk(t, a) {
+  switch (t.typ) {
+    case 'mc': return Array.isArray(a) && a.every(i => Number.isInteger(i) && i >= 0 && i < (t.antworten || []).length);
+    case 'tf': return typeof a === 'boolean';
+    case 'kurz': case 'frei': return typeof a === 'string';
+    case 'luecke': case 'zuordnen': return Array.isArray(a);
+    case 'reihenfolge': { const n = (t.schritte || []).length; return Array.isArray(a) && a.length === n && new Set(a).size === n && a.every(v => Number.isInteger(v) && v >= 0 && v < n); }
+  }
+  return true;
+}
+/* Wirft Antworten weg, die nicht zur Aufgabe passen; gibt die Zahl der verworfenen zurück. */
+function antwortenRepair(s, p) {
+  let n = 0;
+  Object.keys(s.answers).forEach(k => {
+    const t = p.aufgaben[+k];
+    if (!t || !antwortOk(t, s.answers[k])) { delete s.answers[k]; delete s.touched[k]; n++; }
+  });
+  return n;
+}
 function sessionRepair(s, p) {
   ['answers', 'checked', 'self', 'touched', 'shuf', 'hint'].forEach(k => { if (!s[k] || typeof s[k] !== 'object' || Array.isArray(s[k])) s[k] = {}; });
   const n = p.aufgaben.length;
@@ -976,6 +996,7 @@ function sessionRepair(s, p) {
   if (!Number.isInteger(s.pos) || s.pos < 0) s.pos = 0;
   if (s.pos > s.order.length - 1) s.pos = s.order.length - 1;
   if (s.limit && !(s.zeit >= 0)) s.zeit = 0;
+  antwortenRepair(s, p);
 }
 function seiteFehler(titel, err, skip) {
   console.error(err);
@@ -1069,7 +1090,7 @@ function answerHtml(t, idx, s, locked) {
     }
     case 'reihenfolge': {
       const n = t.schritte.length; let ord = s.answers[idx];
-      if (!ord) { do { ord = shuffle(t.schritte.map((_, i) => i)); } while (n > 1 && ord.every((v, i) => v === i)); s.answers[idx] = ord; }
+      if (!antwortOk(t, ord)) { do { ord = shuffle(t.schritte.map((_, i) => i)); } while (n > 1 && ord.every((v, i) => v === i)); s.answers[idx] = ord; }
       return '<p class="hintline">Mit ▲ und ▼ in die richtige Reihenfolge bringen.</p><ol class="order">' + ord.map((v, pos) => {
         const cls = locked ? (ev.parts[pos] ? 'ok' : 'bad') : '';
         return `<li class="${cls}"><span class="txt">${inl(t.schritte[v])}</span>${locked ? '' : `<span class="mv"><button type="button" class="mini" data-act="up" data-pos="${pos}" ${pos === 0 ? 'disabled' : ''} aria-label="nach oben">▲</button><button type="button" class="mini" data-act="down" data-pos="${pos}" ${pos === n - 1 ? 'disabled' : ''} aria-label="nach unten">▼</button></span>`}</li>`;
@@ -1175,7 +1196,7 @@ function renderTask(focusPrimary) {
   if (t.text && t.typ !== 'luecke') h += `<div class="lesetext">${rt(t.text)}</div>`;
   if (img) h += `<img class="bild" src="${img}" alt="${esc(t.bildAlt || 'Abbildung zur Aufgabe')}">`;
   h += listenHtml(t);
-  h += `<div id="ans">${answerHtml(t, idx, s, locked)}</div>`;
+  h += `<div id="ans" data-idx="${idx}">${answerHtml(t, idx, s, locked)}</div>`;
   if (s.modus === 'ueben' && t.tipp && !locked) h += s.hint[idx] ? `<div class="fb neutral">💡 ${inl(t.tipp)}</div>` : '<p><button type="button" class="btn ghost sm" data-act="hint">💡 Tipp anzeigen</button></p>';
   h += locked ? feedbackHtml(t, idx, s, p) : '';
   h += navHtml(t, idx, s) + keysHtml(t, s, checked) + '</article></div>';
@@ -1192,18 +1213,25 @@ function updatePrimary() {
 function onInput(e) {
   const el = e.target, k = el.dataset && el.dataset.k;
   if (!k || !db || !db.session || db.session.done) return;
-  const { s, idx, t } = curTask();
+  /* Eine Eingabe gehört zu der Aufgabe, in deren Feld sie entstand – nicht zwingend zu der, die gerade „dran“ ist: Beim Weiterblättern
+     meldet der Browser für das noch fokussierte Textfeld ein letztes „change“, wenn pos schon weitergezählt ist (Tablets, Enter-Taste, Wischgeste). */
+  const box = el.closest && el.closest('#ans');
+  if (!box || box.dataset.idx === undefined) return;
+  const s = db.session, p = getPack(s.id), idx = +box.dataset.idx, t = p && p.aufgaben[idx];
+  if (!t || !s.order.includes(idx)) return;
+  if ({ kurz: 'kurz', frei: 'frei', gap: 'luecke', pair: 'zuordnen', mc: 'mc', tf: 'tf' }[k] !== t.typ) return;
   switch (k) {
     case 'kurz': case 'frei': s.answers[idx] = el.value; break;
-    case 'gap': case 'pair': { const a = s.answers[idx] = s.answers[idx] || []; a[+el.dataset.i] = el.value; break; }
-    case 'mc': s.answers[idx] = Array.isArray(t.richtig) ? $$('input[data-k=mc]:checked').map(x => +x.value) : [+el.value]; break;
+    case 'gap': case 'pair': { const a = Array.isArray(s.answers[idx]) ? s.answers[idx] : (s.answers[idx] = []); a[+el.dataset.i] = el.value; break; }
+    case 'mc': s.answers[idx] = Array.isArray(t.richtig) ? Array.from(box.querySelectorAll('input[data-k=mc]:checked')).map(x => +x.value) : [+el.value]; break;
     case 'tf': s.answers[idx] = el.value === 'true'; break;
   }
-  updatePrimary(); save();
+  if (idx === s.order[s.pos]) updatePrimary();
+  save();
 }
 function moveStep(pos, d) {
   const { s, idx } = curTask(); const a = s.answers[idx]; const q = pos + d;
-  if (q < 0 || q >= a.length) return;
+  if (!Array.isArray(a) || q < 0 || q >= a.length) return;
   [a[pos], a[q]] = [a[q], a[pos]]; s.touched[idx] = true;
   const { t } = curTask(); $('#ans').innerHTML = answerHtml(t, idx, s, false);
   const dir = d < 0 ? 'up' : 'down', other = d < 0 ? 'down' : 'up';
@@ -1259,6 +1287,7 @@ function saveResult() {
 }
 function finish(auto) {
   const { s, p } = curTask();
+  try { antwortenRepair(s, p); } catch (err) { console.error(err); }
   if (s.modus === 'test') {
     const open = s.order.filter(i => !isAnswered(p.aufgaben[i], s, i)).length;
     if (open && auto !== true && !confirm('Du hast noch ' + open + (open === 1 ? ' Aufgabe' : ' Aufgaben') + ' ohne Antwort. Trotzdem abgeben?')) return;
