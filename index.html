@@ -769,8 +769,8 @@ function render() {
   if (r0 === 'lernblatt' && seg[2]) return renderLernblatt(decodeURIComponent(seg[2]));
   if (r0 === 'freund' && kindP() && cur.freund) return renderFreund();
   if (r0 === 'album' && belohnt()) return renderAlbum(seg[2] === 'abzeichen');
-  if (r0 === 'aufgabe') { if (s && !s.done) { if (startTimer()) return; return renderTask(); } if (s && s.done) return go(H('ergebnis')); }
-  if (r0 === 'ergebnis' && s && s.done) return renderResult();
+  if (r0 === 'aufgabe') { if (s && !s.done) return aufgabeOeffnen(s); if (s && s.done) return go(H('ergebnis')); }
+  if (r0 === 'ergebnis' && s && s.done) { try { return renderResult(); } catch (err) { return seiteFehler('Das Ergebnis lässt sich nicht anzeigen', err, false); } }
   if (r0) history.replaceState(null, '', H());
   renderHome();
 }
@@ -965,6 +965,38 @@ function startTimer() { /* true = die Zeit war schon um, die Arbeit wurde abgege
   stopTimer(); const s = db && db.session; if (!s || s.done || !s.limit) return false;
   if ((s.zeit || 0) >= s.limit) { zeitAbgelaufen(s); return true; }
   timerLast = Date.now(); timerId = setInterval(tickTimer, 1000); return false;
+}
+/* Absicherung: Eine laufende Sitzung öffnet immer, auch wenn ihr gespeicherter Stand beschädigt oder veraltet ist (Meldung von Alessandro, 15.11.2026: „Fortsetzen“ tat bei einer Probearbeit nichts). */
+function sessionRepair(s, p) {
+  ['answers', 'checked', 'self', 'touched', 'shuf', 'hint'].forEach(k => { if (!s[k] || typeof s[k] !== 'object' || Array.isArray(s[k])) s[k] = {}; });
+  const n = p.aufgaben.length;
+  if (!Array.isArray(s.order)) s.order = [];
+  s.order = s.order.filter(i => Number.isInteger(i) && i >= 0 && i < n);
+  if (!s.order.length) s.order = p.aufgaben.map((_, i) => i);
+  if (!Number.isInteger(s.pos) || s.pos < 0) s.pos = 0;
+  if (s.pos > s.order.length - 1) s.pos = s.order.length - 1;
+  if (s.limit && !(s.zeit >= 0)) s.zeit = 0;
+}
+function seiteFehler(titel, err, skip) {
+  console.error(err);
+  const s = db && db.session;
+  $('#app').innerHTML = `<div class="col"><h1>${esc(titel)}</h1><div class="card"><p>Dein Stand ist gespeichert, es ist nichts verloren.</p><div class="row">${skip && s && s.pos < s.order.length - 1 ? '<button class="btn" data-act="task-skip">Nächste Aufgabe</button>' : ''}<button class="btn sec" data-act="home">Zur Übersicht</button></div><details class="fold"><summary>Technische Angabe (für die Eltern)</summary><p class="muted">${esc(String((err && err.message) || err))}</p></details></div></div>`;
+}
+let aufgabeRetry = false;
+function aufgabeOeffnen(s) {
+  const p = getPack(s.id);
+  if (!p) { db.session = null; save(true); toast('Diese Sitzung gehörte zu einem gelöschten Paket und wurde beendet.'); history.replaceState(null, '', H()); return renderHome(); }
+  try { sessionRepair(s, p); if (startTimer()) return; renderTask(); }
+  catch (err) {
+    stopTimer();
+    if (!aufgabeRetry && !s.done) { /* einmal selbst reparieren: nur die Antwort der aktuellen Aufgabe verwerfen */
+      aufgabeRetry = true;
+      try { const idx = s.order[s.pos]; ['answers', 'shuf', 'touched', 'checked', 'self', 'hint'].forEach(k => { if (s[k]) delete s[k][idx]; }); save(true); if (startTimer()) return; renderTask(); toast('Die Antwort dieser Aufgabe war beschädigt und wurde zurückgesetzt.'); return; }
+      catch (e2) { stopTimer(); err = e2; }
+      finally { aufgabeRetry = false; }
+    }
+    seiteFehler('Diese Aufgabe lässt sich nicht öffnen', err, true);
+  }
 }
 function startSession(id, modus, only) {
   const p = getPack(id); if (!p) return;
@@ -1232,7 +1264,7 @@ function finish(auto) {
     if (open && auto !== true && !confirm('Du hast noch ' + open + (open === 1 ? ' Aufgabe' : ' Aufgaben') + ' ohne Antwort. Trotzdem abgeben?')) return;
     s.order.forEach(i => { s.checked[i] = true; });
   }
-  s.done = true; saveResult(); go(H('ergebnis'));
+  s.done = true; try { saveResult(); } catch (err) { console.error(err); toast('Die Abgabe wurde gespeichert, aber ein Teil der Auswertung hat nicht geklappt.'); save(true); } go(H('ergebnis'));
 }
 function msgFor(pct) {
   if (pct >= 90) return 'Sehr stark! Das sitzt. Schau dir trotzdem kurz an, was nicht ganz gestimmt hat.';
@@ -2167,6 +2199,10 @@ document.addEventListener('pointerdown', e => {
   window.addEventListener('pointermove', onDragMove, { passive: false }); window.addEventListener('pointerup', onDragEnd); window.addEventListener('pointercancel', onDragCancel);
   if (e.pointerType !== 'mouse') e.preventDefault();
 });
+let klickZeit = 0;
+document.addEventListener('click', () => { klickZeit = Date.now(); }, true);
+const meldeFehler = e => { try { if (Date.now() - klickZeit < 1500) toast('Fehler: ' + String((e && (e.message || (e.reason && e.reason.message))) || e.reason || 'unbekannt').slice(0, 120)); } catch (x) { /* nichts */ } };
+window.addEventListener('error', meldeFehler); window.addEventListener('unhandledrejection', meldeFehler);
 document.addEventListener('click', e => { /* Tastatur: Enter oder Leertaste auf Wort oder Lücke */
   if (e.detail !== 0) return;
   const el = e.target.closest && e.target.closest('button[data-k=wc], button[data-k=dz]'); if (!el || el.disabled) return;
@@ -2241,6 +2277,7 @@ document.addEventListener('click', e => {
     case 'down': moveStep(+el.dataset.pos, 1); break;
     case 'check': { const { s, p, idx } = curTask(); s.checked[idx] = true; rw(() => aufgabeFertig(p, s, idx)); save(); renderTask(true); break; }
     case 'next': { const { s } = curTask(); if (s.pos < s.order.length - 1) { s.pos++; save(); renderTask(); window.scrollTo(0, 0); } break; }
+    case 'task-skip': { const x = db && db.session; if (x && !x.done && x.pos < x.order.length - 1) { x.pos++; save(true); go(H('aufgabe')); } break; }
     case 'prev': { const { s } = curTask(); if (s.pos > 0) { s.pos--; save(); renderTask(); window.scrollTo(0, 0); } break; }
     case 'jump': { const { s } = curTask(); s.pos = +el.dataset.p; save(); renderTask(); break; }
     case 'finish': finish(); break;
