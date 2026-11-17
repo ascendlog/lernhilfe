@@ -59,6 +59,7 @@ main{max-width:1040px;margin:0 auto;padding:1.4rem 1.2rem 4rem;outline:none}
 .btn.sec:hover:not(:disabled){border-color:var(--accent);filter:none}
 .btn.ghost{background:transparent;border-color:transparent;color:var(--muted)}
 .btn.ghost:hover:not(:disabled){background:var(--surface-2);color:var(--ink);filter:none}
+.btn.ghost.danger{color:var(--bad)}
 .btn.sm{padding:.34rem .75rem;font-size:.88rem;border-radius:9px}
 .btn.icon{padding:.34rem .5rem;display:inline-flex;align-items:center}
 .btn.icon svg{width:1.15rem;height:1.15rem}
@@ -650,6 +651,7 @@ function validatePack(p) {
   if (p.probe !== undefined && typeof p.probe !== 'boolean') e.push('"probe" muss true oder false sein.');
   if (p.ueben !== undefined && typeof p.ueben !== 'boolean') e.push('"ueben" muss true oder false sein.');
   if (p.gruppe !== undefined && (typeof p.gruppe !== 'string' || !p.gruppe.trim() || p.gruppe.length > 80)) e.push('"gruppe" muss ein kurzer Text sein (z. B. "R Studio zum Nachschlagen").');
+  if (p.dauerhaft !== undefined && typeof p.dauerhaft !== 'boolean') e.push('"dauerhaft" muss true oder false sein.');
   if (p.termin !== undefined && !terminDatum(p.termin)) e.push('"termin" muss ein Datum im Format JJJJ-MM-TT sein (z. B. "2026-11-16").');
   if (p.dauer !== undefined && !(typeof p.dauer === 'number' && p.dauer > 0 && p.dauer <= 600)) e.push('"dauer" muss die Zeit der Probearbeit in Minuten sein (Zahl von 1 bis 600).');
   if (p.reihenfolge !== undefined && !(typeof p.reihenfolge === 'number' && isFinite(p.reihenfolge) && p.reihenfolge > 0)) e.push('"reihenfolge" muss eine Zahl größer 0 sein (1 = zuerst).');
@@ -869,6 +871,8 @@ function leadHtml(ls) {
   if (w && ls.nUebbar >= 2) return 'Alle geübten Pakete liegen bei 75 % oder mehr.';
   return cur.art === 'erwachsen' ? 'Übungsaufgaben fürs Studium – am Bildschirm.' : 'Aufgaben für die nächste Arbeit – am Bildschirm statt auf Papier.';
 }
+/* Dauerhafte Pakete bleiben bei „Alle Pakete löschen“ erhalten (z. B. R-Studio zum Nachschlagen): Feld "dauerhaft": true; ohne dieses Feld gelten Pakete mit "gruppe" (Dauerhaftes ohne Klausur) als dauerhaft, "dauerhaft": false hebt das auf. */
+const istDauerhaft = p => p.dauerhaft === true || (p.dauerhaft === undefined && !!p.gruppe);
 let verwalten = false; /* Verwaltung (Import, Löschen) ist standardmäßig ausgeblendet, gilt nur für diese Sitzung */
 /* Eingeklappte Paket-Gruppen je Person: nur eine Bequemlichkeit, wird im Browser gemerkt (ohne Speicher gilt sie für die Sitzung) */
 const gruppeZu = {};
@@ -891,7 +895,7 @@ function renderHome() {
   h += terminHtml(plaene);
   const offen = verwalten || !db.pakete.length; /* ohne Pakete gibt es nichts anderes zu tun als zu importieren */
   h += offen
-    ? '<div class="toolbar"><button class="btn" data-act="import">Lernpaket importieren</button><button class="btn sec" data-act="paste">Text einfügen</button><button class="btn sec" data-act="library">Pakete aus dem Repo</button>' + (db.pakete.length ? '<button class="btn sec danger" data-act="del-all">Alle Pakete löschen</button><button class="btn ghost" data-act="verwalten">Fertig</button>' : '') + '</div>'
+    ? '<div class="toolbar"><button class="btn" data-act="import">Lernpaket importieren</button><button class="btn sec" data-act="paste">Text einfügen</button><button class="btn sec" data-act="library">Pakete aus dem Repo</button>' + (db.pakete.length ? (db.pakete.some(p => !istDauerhaft(p)) ? '<button class="btn sec danger" data-act="del-all">' + (db.pakete.some(istDauerhaft) ? 'Alle löschen (Dauerhaftes bleibt)' : 'Alle Pakete löschen') + '</button>' : '') + (db.pakete.some(istDauerhaft) ? '<button class="btn ghost sm danger" data-act="del-dau">Dauerhafte Pakete löschen (' + db.pakete.filter(istDauerhaft).length + ')</button>' : '') + '<button class="btn ghost" data-act="verwalten">Fertig</button>' : '') + '</div>'
     : '<div class="toolbar"><button class="btn ghost sm" data-act="verwalten">Verwalten</button></div>';
   if (!db.pakete.length) {
     h += '<div class="card"><h2>Noch keine Lernpakete</h2><p>Lass dir in Claude ein Lernpaket erstellen (Aufgaben samt Lösungen als JSON-Datei) und importiere die Datei hier. Du kannst sie auch einfach in dieses Fenster ziehen.</p></div>';
@@ -2288,11 +2292,18 @@ document.addEventListener('click', e => {
     case 'fehler-ueben': { const fp = getPack(id), fl2 = fp ? rw(() => fehlerListe(fp), []) : []; if (fl2.length) startSession(id, 'ueben', fl2); else { toast('Hier ist keine Fehlerliste mehr offen.'); renderHome(); } break; }
     case 'verwalten': { verwalten = !verwalten; renderHome(); const nb = $('[data-act=verwalten]'); if (nb) nb.focus(); break; }
     case 'del-all': {
-      const n = db.pakete.length; if (!n) return;
-      if (!confirm((n === 1 ? 'Das Lernpaket' : 'Alle ' + n + ' Lernpakete') + ' von ' + cur.name + ' löschen? Die Ergebnisse bleiben gespeichert, falls die Pakete später wieder importiert werden.' + (db.gesichert ? '' : '\n\nEs gibt noch keine Sicherung.'))) return;
-      db.pakete = []; db.session = null; save(true); render(); toast(n === 1 ? 'Das Lernpaket wurde gelöscht.' : 'Alle ' + n + ' Lernpakete wurden gelöscht.'); break;
+      const dau = db.pakete.filter(istDauerhaft), weg = db.pakete.filter(p => !istDauerhaft(p)), n = weg.length; if (!n) return;
+      const bleibt = dau.length ? '\n\nDauerhaft gekennzeichnet und deshalb behalten ' + (dau.length === 1 ? 'wird: „' + dau[0].titel + '“.' : 'werden: ' + dau.length + ' Pakete (' + [...new Set(dau.map(p => p.gruppe || p.titel))].join(', ') + ').') : '';
+      if (!confirm((n === 1 ? 'Das Lernpaket' : (dau.length ? 'Die übrigen ' : 'Alle ') + n + ' Lernpakete') + ' von ' + cur.name + ' löschen? Die Ergebnisse bleiben gespeichert, falls die Pakete später wieder importiert werden.' + bleibt + (db.gesichert ? '' : '\n\nEs gibt noch keine Sicherung.'))) return;
+      db.pakete = dau; if (db.session && !dau.some(p => p.id === db.session.id)) db.session = null; save(true); render();
+      toast((n === 1 ? 'Das Lernpaket wurde gelöscht.' : (dau.length ? n + ' Lernpakete wurden gelöscht.' : 'Alle ' + n + ' Lernpakete wurden gelöscht.')) + (dau.length ? ' Dauerhafte Pakete bleiben.' : '')); break;
     }
-    case 'del': { const p = getPack(id); if (p && confirm('„' + p.titel + '“ löschen? Die Ergebnisse bleiben gespeichert, falls du das Paket später wieder importierst.')) { db.pakete = db.pakete.filter(x => x.id !== id); if (sess && sess.id === id) db.session = null; save(true); render(); } break; }
+    case 'del-dau': {
+      const dau = db.pakete.filter(istDauerhaft), n = dau.length; if (!n) return;
+      if (!confirm((n === 1 ? 'Das dauerhafte Paket „' + dau[0].titel + '“' : n + ' dauerhafte Pakete (' + [...new Set(dau.map(p => p.gruppe || p.titel))].join(', ') + ')') + ' von ' + cur.name + ' löschen? Sie bleiben sonst bei „Alle Pakete löschen“ erhalten. Die Ergebnisse bleiben gespeichert, falls die Pakete später wieder importiert werden.')) return;
+      db.pakete = db.pakete.filter(p => !istDauerhaft(p)); if (db.session && !getPack(db.session.id)) db.session = null; save(true); render(); toast(n === 1 ? 'Das dauerhafte Paket wurde gelöscht.' : n + ' dauerhafte Pakete wurden gelöscht.'); break;
+    }
+    case 'del': { const p = getPack(id); if (p && confirm('„' + p.titel + '“ löschen? ' + (istDauerhaft(p) ? 'Dieses Paket ist als dauerhaft gekennzeichnet und bliebe bei „Alle Pakete löschen“ erhalten. ' : '') + 'Die Ergebnisse bleiben gespeichert, falls du das Paket später wieder importierst.')) { db.pakete = db.pakete.filter(x => x.id !== id); if (sess && sess.id === id) db.session = null; save(true); render(); } break; }
     case 'resume': go(H('aufgabe')); break;
     case 'discard': if (confirm('Die laufende Sitzung verwerfen?')) { db.session = null; save(true); render(); } break;
     case 'quit': dialog('<h2>Sitzung beenden?</h2><p>Mit „Pause“ kannst du später genau hier weitermachen.</p><div class="row"><button class="btn" data-act="pause">Pause</button><button class="btn sec" data-act="discard-go">Verwerfen</button><button class="btn ghost" data-act="dlg-close">Weitermachen</button></div>'); break;
