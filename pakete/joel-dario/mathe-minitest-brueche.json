@@ -1,0 +1,493 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario"
+ ],
+ "id": "mathe-minitest-brueche",
+ "titel": "Mathe Klasse 6: Minitest Brüche (Erweitern, Kürzen, Vergleichen)",
+ "fach": "Mathe",
+ "klasse": "6",
+ "beschreibung": "Kurzpaket für den Minitest: Brüche erweitern und kürzen und Brüche vergleichen. Mit kurzem Lernblatt und 35 Übungsaufgaben mit Lösungen.",
+ "hinweis": "Kurzfassung für den Minitest am 24.11. (kein Vollpaket). Brüche gibst du in zwei Feldern ein: erst den Zähler, dann den Nenner. Steht in deinem Heft beim Vergleichen ein anderer Rechenweg als das Gleichnamig-Machen, gilt der Weg aus dem Heft.",
+ "lernblatt": [
+  {
+   "titel": "Gleichwertige Brüche: Erweitern und Kürzen",
+   "text": "Ein Bruch besteht aus **Zähler** (oben), **Bruchstrich** und **Nenner** (unten). Der Nenner sagt, in wie viele gleich große Teile das Ganze geteilt ist. Der Zähler sagt, wie viele dieser Teile gemeint sind. Bei 3/4 ist das Ganze in 4 Teile geteilt und 3 davon sind gefärbt.\n\nDen **gleichen Anteil** kannst du mit ganz verschiedenen Brüchen aufschreiben. Die Hälfte ist 1/2, aber auch 2/4, 3/6 oder 4/8. Schau dir die Streifen an: Die gefärbte Länge ist immer gleich lang, nur die Stücke sind verschieden groß. Solche Brüche heißen **gleichwertig**: 1/2 = 2/4 = 3/6 = 4/8.\n\nZwei Wege führen zu gleichwertigen Brüchen: **Erweitern** (feinere Stücke, mehr davon) und **Kürzen** (gröbere Stücke, weniger davon).",
+   "merke": "Gleichwertige Brüche haben denselben Wert. Erweitern und Kürzen ändern nur die Stückelung, nicht den Anteil.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 304\" width=\"640\" height=\"304\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"304\" fill=\"#ffffff\"/><rect x=\"100.0\" y=\"20\" width=\"260.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"20\" width=\"260.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"33.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1</text><line x1=\"36.2\" y1=\"38.0\" x2=\"59.8\" y2=\"38.0\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"48\" y=\"61.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">2</text><rect x=\"100.0\" y=\"90\" width=\"130.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"230.0\" y=\"90\" width=\"130.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"90\" width=\"130.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"490.0\" y=\"90\" width=\"130.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"103.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">2</text><line x1=\"36.2\" y1=\"108.0\" x2=\"59.8\" y2=\"108.0\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"48\" y=\"131.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4</text><rect x=\"100.0\" y=\"160\" width=\"86.7\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"186.7\" y=\"160\" width=\"86.7\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"273.3\" y=\"160\" width=\"86.7\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"160\" width=\"86.7\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"446.7\" y=\"160\" width=\"86.7\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"533.3\" y=\"160\" width=\"86.7\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"173.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3</text><line x1=\"36.2\" y1=\"178.0\" x2=\"59.8\" y2=\"178.0\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"48\" y=\"201.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"100.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"165.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"230.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"295.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"425.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"490.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"555.0\" y=\"230\" width=\"65.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"243.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4</text><line x1=\"36.2\" y1=\"248.0\" x2=\"59.8\" y2=\"248.0\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"48\" y=\"271.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">8</text></svg>",
+   "bildAlt": "Vier gleich lange Streifen: 1/2, 2/4, 3/6 und 4/8. Bei allen ist die Hälfte gefärbt."
+  },
+  {
+   "titel": "Brüche erweitern",
+   "text": "**Erweitern** heißt: Du multiplizierst (nimmst mal) **Zähler und Nenner mit derselben Zahl**. Die Zahl darf nicht 0 sein.\n\nBeispiel: 3/4 mit 5 erweitern. 3 · 5 = 15 und 4 · 5 = 20, also 3/4 = 15/20.\n\n**Welche Zahl fehlt?** Beispiel: 2/3 = ?/12. Schau zuerst auf die Nenner: Von 3 zu 12 geht es mal 4 (3 · 4 = 12). Dann muss auch der Zähler mal 4 genommen werden: 2 · 4 = 8. Ergebnis: 2/3 = 8/12.\n\n**Typische Fehler:** Du erweiterst nur den Nenner (3/4 → 3/20) oder du rechnest + statt · (3/4 → 8/9). Dann ändert sich der Wert.",
+   "merke": "Erweitern: Zähler UND Nenner mal dieselbe Zahl. Der Bruch sieht anders aus, hat aber denselben Wert.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 232\" width=\"600\" height=\"232\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"600\" height=\"232\" fill=\"#ffffff\"/><text x=\"170\" y=\"103\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3</text><line x1=\"154.5\" y1=\"108\" x2=\"185.5\" y2=\"108\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"170\" y=\"143\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4</text><text x=\"300.0\" y=\"120\" font-size=\"40\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">=</text><text x=\"430\" y=\"103\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">15</text><line x1=\"403.9\" y1=\"108\" x2=\"456.1\" y2=\"108\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"430\" y=\"143\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">20</text><path d=\"M226,62 Q300.0,26 374,62\" fill=\"none\" stroke=\"#e2701a\" stroke-width=\"3\"/><polygon points=\"374,62 361.5,62.6 366.8,51.7\" fill=\"#e2701a\"/><path d=\"M226,160 Q300.0,196 374,160\" fill=\"none\" stroke=\"#e2701a\" stroke-width=\"3\"/><polygon points=\"374,160 366.8,170.3 361.5,159.4\" fill=\"#e2701a\"/><text x=\"300.0\" y=\"32\" font-size=\"28\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">· 5</text><text x=\"300.0\" y=\"212\" font-size=\"28\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">· 5</text></svg>",
+   "bildAlt": "3/4 wird mit 5 erweitert: Zähler und Nenner mal 5, Ergebnis 15/20."
+  },
+  {
+   "titel": "Brüche kürzen",
+   "text": "**Kürzen** ist das Gegenteil von Erweitern: Du teilst **Zähler und Nenner durch dieselbe Zahl**. Diese Zahl muss in beide Zahlen genau hineinpassen (ein **gemeinsamer Teiler**).\n\nBeispiel: 12/18 durch 6 kürzen. 12 : 6 = 2 und 18 : 6 = 3, also 12/18 = 2/3.\n\n**Vollständig gekürzt** ist ein Bruch, wenn man nicht mehr weiter kürzen kann, weil Zähler und Nenner außer 1 keinen gemeinsamen Teiler mehr haben. Beispiele: 2/3 und 7/12.\n\nDu siehst den größten gemeinsamen Teiler nicht gleich? Dann kürze in Schritten: 48/72 → durch 2 → 24/36 → durch 2 → 12/18 → durch 6 → 2/3. Am Ende immer prüfen: Geht noch was?\n\n**Teilbarkeit hilft beim Suchen:**\n\n- durch 2 teilbar: letzte Ziffer 0, 2, 4, 6 oder 8\n- durch 3 teilbar: Quersumme durch 3 teilbar (57: 5 + 7 = 12, also ja)\n- durch 5 teilbar: letzte Ziffer 0 oder 5\n- durch 9 teilbar: Quersumme durch 9 teilbar\n- durch 10 teilbar: letzte Ziffer 0 (bei 30/50 streichst du in beiden Zahlen die Null weg: 3/5)\n\n**Typischer Fehler:** Du teilst nur den Zähler (18/24 → 9/24). Dann stimmt der Wert nicht mehr.",
+   "merke": "Kürzen: Zähler UND Nenner durch dieselbe Zahl teilen. Danach prüfen, ob man noch weiter kürzen kann.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 232\" width=\"600\" height=\"232\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"600\" height=\"232\" fill=\"#ffffff\"/><text x=\"170\" y=\"103\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">12</text><line x1=\"143.9\" y1=\"108\" x2=\"196.1\" y2=\"108\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"170\" y=\"143\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">18</text><text x=\"300.0\" y=\"120\" font-size=\"40\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">=</text><text x=\"430\" y=\"103\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">2</text><line x1=\"414.5\" y1=\"108\" x2=\"445.5\" y2=\"108\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"430\" y=\"143\" font-size=\"34\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3</text><path d=\"M226,62 Q300.0,26 374,62\" fill=\"none\" stroke=\"#e2701a\" stroke-width=\"3\"/><polygon points=\"374,62 361.5,62.6 366.8,51.7\" fill=\"#e2701a\"/><path d=\"M226,160 Q300.0,196 374,160\" fill=\"none\" stroke=\"#e2701a\" stroke-width=\"3\"/><polygon points=\"374,160 366.8,170.3 361.5,159.4\" fill=\"#e2701a\"/><text x=\"300.0\" y=\"32\" font-size=\"28\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">: 6</text><text x=\"300.0\" y=\"212\" font-size=\"28\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">: 6</text></svg>",
+   "bildAlt": "12/18 wird durch 6 gekürzt: Zähler und Nenner geteilt durch 6, Ergebnis 2/3."
+  },
+  {
+   "titel": "Brüche vergleichen",
+   "text": "Beim Vergleichen schreibst du < (kleiner als), > (größer als) oder = (gleich). Es gibt drei Fälle:\n\n**1. Gleicher Nenner:** Die Stücke sind gleich groß. Dann ist der Bruch mit dem **größeren Zähler** größer. Beispiel: 5/8 > 3/8.\n\n**2. Gleicher Zähler:** Du hast gleich viele Stücke, aber die Stücke sind verschieden groß. Je **größer der Nenner**, desto kleiner die Stücke. Beispiel: 1/3 > 1/5 (Drittel sind größer als Fünftel).\n\n**3. Verschiedene Nenner:** Mache die Brüche erst **gleichnamig**. Das heißt, du erweiterst sie auf denselben Nenner. Am besten nimmst du den kleinsten Nenner, in den beide Nenner hineinpassen (den **Hauptnenner**). Dann vergleichst du die Zähler wie im Fall 1.\n\nBeispiel: 3/4 und 5/6. Der Hauptnenner ist 12. 3/4 = 9/12 und 5/6 = 10/12. Weil 9/12 < 10/12 ist, gilt 3/4 < 5/6.\n\n**Hauptnenner finden:** Zähle die Vielfachen des größeren Nenners auf (6, 12, 18 …), bis eine Zahl dabei ist, die auch der andere Nenner teilt (4 passt in 12). Findest du nichts Schnelles, multipliziere die beiden Nenner (4 · 6 = 24). Das klappt immer, nur sind die Zahlen größer.\n\n**Der Größe nach ordnen:** Bringe alle Brüche auf denselben Nenner und ordne dann die Zähler.",
+   "merke": "Gleicher Nenner: größerer Zähler gewinnt. Gleicher Zähler: kleinerer Nenner gewinnt. Verschiedene Nenner: erst gleichnamig machen.",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 180\" width=\"760\" height=\"180\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"760\" height=\"180\" fill=\"#ffffff\"/><line x1=\"24\" y1=\"130\" x2=\"742\" y2=\"130\" stroke=\"#222\" stroke-width=\"3\"/><line x1=\"40.0\" y1=\"119\" x2=\"40.0\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"40.0\" y=\"164\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">0</text><line x1=\"96.7\" y1=\"119\" x2=\"96.7\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"96.7\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">1/12</text><line x1=\"153.3\" y1=\"119\" x2=\"153.3\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"153.3\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">2/12</text><line x1=\"210.0\" y1=\"119\" x2=\"210.0\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"210.0\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">3/12</text><line x1=\"266.7\" y1=\"119\" x2=\"266.7\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"266.7\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">4/12</text><line x1=\"323.3\" y1=\"119\" x2=\"323.3\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"323.3\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5/12</text><line x1=\"380.0\" y1=\"119\" x2=\"380.0\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"380.0\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6/12</text><line x1=\"436.7\" y1=\"119\" x2=\"436.7\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"436.7\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7/12</text><line x1=\"493.3\" y1=\"119\" x2=\"493.3\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"493.3\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8/12</text><line x1=\"550.0\" y1=\"119\" x2=\"550.0\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"550.0\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">9/12</text><line x1=\"606.7\" y1=\"119\" x2=\"606.7\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"606.7\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">10/12</text><line x1=\"663.3\" y1=\"119\" x2=\"663.3\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"663.3\" y=\"164\" font-size=\"15\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11/12</text><line x1=\"720.0\" y1=\"119\" x2=\"720.0\" y2=\"141\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"720.0\" y=\"164\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">1</text><line x1=\"210.0\" y1=\"130\" x2=\"210.0\" y2=\"90\" stroke=\"#e2701a\" stroke-width=\"2.5\"/><circle cx=\"210.0\" cy=\"130\" r=\"6\" fill=\"#e2701a\"/><text x=\"210.0\" y=\"63\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">1</text><line x1=\"198.8\" y1=\"68\" x2=\"221.2\" y2=\"68\" stroke=\"#e2701a\" stroke-width=\"2.2\"/><text x=\"210.0\" y=\"89\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">4</text><line x1=\"266.7\" y1=\"130\" x2=\"266.7\" y2=\"90\" stroke=\"#e2701a\" stroke-width=\"2.5\"/><circle cx=\"266.7\" cy=\"130\" r=\"6\" fill=\"#e2701a\"/><text x=\"266.7\" y=\"63\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">1</text><line x1=\"255.5\" y1=\"68\" x2=\"277.9\" y2=\"68\" stroke=\"#e2701a\" stroke-width=\"2.2\"/><text x=\"266.7\" y=\"89\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">3</text><line x1=\"380.0\" y1=\"130\" x2=\"380.0\" y2=\"90\" stroke=\"#e2701a\" stroke-width=\"2.5\"/><circle cx=\"380.0\" cy=\"130\" r=\"6\" fill=\"#e2701a\"/><text x=\"380.0\" y=\"63\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">1</text><line x1=\"368.8\" y1=\"68\" x2=\"391.2\" y2=\"68\" stroke=\"#e2701a\" stroke-width=\"2.2\"/><text x=\"380.0\" y=\"89\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">2</text><line x1=\"493.3\" y1=\"130\" x2=\"493.3\" y2=\"90\" stroke=\"#e2701a\" stroke-width=\"2.5\"/><circle cx=\"493.3\" cy=\"130\" r=\"6\" fill=\"#e2701a\"/><text x=\"493.3\" y=\"63\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">2</text><line x1=\"482.1\" y1=\"68\" x2=\"504.5\" y2=\"68\" stroke=\"#e2701a\" stroke-width=\"2.2\"/><text x=\"493.3\" y=\"89\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">3</text><line x1=\"550.0\" y1=\"130\" x2=\"550.0\" y2=\"90\" stroke=\"#e2701a\" stroke-width=\"2.5\"/><circle cx=\"550.0\" cy=\"130\" r=\"6\" fill=\"#e2701a\"/><text x=\"550.0\" y=\"63\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">3</text><line x1=\"538.8\" y1=\"68\" x2=\"561.2\" y2=\"68\" stroke=\"#e2701a\" stroke-width=\"2.2\"/><text x=\"550.0\" y=\"89\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">4</text><line x1=\"606.7\" y1=\"130\" x2=\"606.7\" y2=\"90\" stroke=\"#e2701a\" stroke-width=\"2.5\"/><circle cx=\"606.7\" cy=\"130\" r=\"6\" fill=\"#e2701a\"/><text x=\"606.7\" y=\"63\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">5</text><line x1=\"595.5\" y1=\"68\" x2=\"617.9\" y2=\"68\" stroke=\"#e2701a\" stroke-width=\"2.2\"/><text x=\"606.7\" y=\"89\" font-size=\"20\" font-weight=\"bold\" fill=\"#e2701a\" text-anchor=\"middle\">6</text></svg>",
+   "bildAlt": "Zahlenstrahl von 0 bis 1 in Zwölfteln. 1/4 liegt bei 3/12, 1/3 bei 4/12, 1/2 bei 6/12, 2/3 bei 8/12, 3/4 bei 9/12 und 5/6 bei 10/12. Je weiter rechts, desto größer."
+  },
+  {
+   "titel": "Checkliste und Tipps für den Minitest",
+   "text": "**Ich kann:**\n\n- erklären, was Zähler und Nenner sind\n- einen Bruch erweitern (Zähler und Nenner mal dieselbe Zahl)\n- die fehlende Zahl bei 2/3 = ?/12 finden\n- einen Bruch kürzen und vollständig kürzen\n- mit den Teilbarkeitsregeln sehen, ob ich noch kürzen kann\n- Brüche mit gleichem Nenner, mit gleichem Zähler und mit verschiedenen Nennern vergleichen\n- Brüche gleichnamig machen und der Größe nach ordnen\n- die Zeichen <, > und = richtig setzen\n\n**Tipps für die Arbeit:**\n\n- Lies jede Aufgabe zweimal. Steht da erweitern (mal) oder kürzen (geteilt)?\n- Schreibe die Zwischenschritte auf, auch wenn du sie im Kopf rechnest.\n- Mache die Probe: Einen erweiterten Bruch kannst du wieder kürzen, einen gekürzten wieder erweitern. Kommst du beim Anfang an, stimmt es.\n- Beim Kürzen am Ende fragen: Geht noch was?\n- Haben die Brüche verschiedene Nenner? Dann zuerst gleichnamig machen.",
+   "merke": "Erweitern = mal, Kürzen = geteilt, beides mit Zähler und Nenner. Vergleichen geht am sichersten mit gleichem Nenner."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Du erweiterst 3/4 mit 5. Welcher Bruch entsteht?",
+   "info": "Zähler und Nenner werden mit 5 multipliziert: 3 · 5 = 15 und 4 · 5 = 20. Addieren (8/9) oder nur eine Zahl ändern (3/20, 15/4) verändert den Wert.",
+   "antworten": [
+    "15/20",
+    "8/9",
+    "3/20",
+    "15/4"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Erweitere 2/5 mit 3. Schreibe Zähler und Nenner in die Felder.",
+   "text": "2/5 = {{6}}/{{15}}",
+   "info": "2 · 3 = 6 und 5 · 3 = 15."
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Erweitere mit der angegebenen Zahl.",
+   "text": "a) 1/3 mit 4 erweitern: 1/3 = {{4}}/{{12}}\nb) 5/6 mit 2 erweitern: 5/6 = {{10}}/{{12}}\nc) 3/7 mit 5 erweitern: 3/7 = {{15}}/{{35}}",
+   "info": "Immer Zähler und Nenner mit derselben Zahl multiplizieren. 1/3 mit 4: 1 · 4 = 4, 3 · 4 = 12. 5/6 mit 2: 5 · 2 = 10, 6 · 2 = 12. 3/7 mit 5: 3 · 5 = 15, 7 · 5 = 35."
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Mit welcher Zahl wurde erweitert? 3/8 = 21/56",
+   "tipp": "Teile den neuen Nenner durch den alten Nenner.",
+   "info": "56 : 8 = 7. Zur Probe: 3 · 7 = 21. Es wurde mit 7 erweitert.",
+   "richtig": "7"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Welche Zahl fehlt? Ergänze so, dass die Brüche gleichwertig sind.",
+   "text": "a) 2/3 = {{8}}/12\nb) 5/6 = 20/{{24}}\nc) 4/9 = {{12}}/27",
+   "tipp": "Finde zuerst heraus, mit welcher Zahl erweitert wurde.",
+   "info": "Schau, mit welcher Zahl erweitert wurde, und rechne dann die fehlende Zahl aus: 2/3 = 8/12 (erweitert mit 4); 5/6 = 20/24 (erweitert mit 4); 4/9 = 12/27 (erweitert mit 3)."
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Welcher Bruch ist NICHT gleichwertig zu 2/3?",
+   "info": "2/3 = 4/6 (mit 2 erweitert), 2/3 = 6/9 (mit 3) und 2/3 = 10/15 (mit 5). Bei 8/10 passt es nicht: 8/10 kürzt man zu 4/5, und 4/5 ist nicht 2/3 (2/3 wäre 8/12).",
+   "antworten": [
+    "8/10",
+    "4/6",
+    "6/9",
+    "10/15"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Ordne jedem Bruch den gleichwertigen Bruch mit dem Nenner 12 zu.",
+   "tipp": "Mit welcher Zahl musst du den Nenner erweitern, damit 12 herauskommt?",
+   "info": "Du erweiterst jeden Bruch auf den Nenner 12: 1/2 mit 6 (6/12), 1/3 mit 4 (4/12), 3/4 mit 3 (9/12), 5/6 mit 2 (10/12) und 1/4 mit 3 (3/12). Der Zähler wird immer mit derselben Zahl multipliziert wie der Nenner. 7/12 passt zu keinem der Brüche.",
+   "paare": [
+    [
+     "1/2",
+     "6/12"
+    ],
+    [
+     "1/3",
+     "4/12"
+    ],
+    [
+     "3/4",
+     "9/12"
+    ],
+    [
+     "5/6",
+     "10/12"
+    ],
+    [
+     "1/4",
+     "3/12"
+    ]
+   ],
+   "extra": [
+    "7/12"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Brüche erweitern",
+   "frage": "Beide Streifen sind gleich lang. Der obere zeigt 3/4. Der untere Streifen ist in 12 Teile geteilt. Schreibe auf, welchen Bruch der untere Streifen zeigt und mit welcher Zahl 3/4 erweitert wurde.",
+   "text": "3/4 = {{9}}/{{12}} (erweitert mit {{3}})",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 164\" width=\"640\" height=\"164\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"164\" fill=\"#ffffff\"/><rect x=\"100.0\" y=\"20\" width=\"130.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"230.0\" y=\"20\" width=\"130.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"20\" width=\"130.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"490.0\" y=\"20\" width=\"130.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"33.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">3</text><line x1=\"36.2\" y1=\"38.0\" x2=\"59.8\" y2=\"38.0\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"48\" y=\"61.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">4</text><rect x=\"100.0\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"143.3\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"186.7\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"230.0\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"273.3\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"316.7\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"403.3\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"446.7\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"490.0\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"533.3\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"576.7\" y=\"90\" width=\"43.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/></svg>",
+   "bildAlt": "Zwei gleich lange Streifen. Oben: 4 Teile, 3 gefärbt (3/4). Unten: 12 Teile, 9 gefärbt.",
+   "info": "Der untere Streifen hat 12 Teile, 9 davon sind gefärbt: 9/12. Von 4 Teilen zu 12 Teilen: 4 · 3 = 12, also wurde mit 3 erweitert (3 · 3 = 9)."
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Du kürzt 12/18 mit 6. Welcher Bruch entsteht?",
+   "info": "Zähler und Nenner werden durch 6 geteilt: 12 : 6 = 2 und 18 : 6 = 3. Wer nur eine der beiden Zahlen teilt, ändert den Wert.",
+   "antworten": [
+    "2/3",
+    "2/18",
+    "12/3",
+    "6/12"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Kürze 15/20 durch 5. Schreibe Zähler und Nenner in die Felder.",
+   "text": "15/20 = {{3}}/{{4}}",
+   "info": "15 : 5 = 3 und 20 : 5 = 4."
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Kürze vollständig.",
+   "text": "a) 8/12 = {{2}}/{{3}}\nb) 18/30 = {{3}}/{{5}}\nc) 20/32 = {{5}}/{{8}}",
+   "tipp": "Wenn du nicht gleich die größte Zahl siehst: Kürze in kleinen Schritten, zum Beispiel erst durch 2.",
+   "info": "Vollständig gekürzt heißt: Zähler und Nenner haben keinen gemeinsamen Teiler mehr (außer 1). 8/12 durch 4 = 2/3; 18/30 durch 6 = 3/5; 20/32 durch 4 = 5/8."
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Durch welche Zahl wurde gekürzt? 35/45 = 7/9",
+   "tipp": "Teile den alten Nenner durch den neuen Nenner.",
+   "info": "45 : 9 = 5. Zur Probe: 35 : 5 = 7. Es wurde durch 5 gekürzt.",
+   "richtig": "5"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Welcher Bruch ist schon vollständig gekürzt?",
+   "info": "9/12 lässt sich durch 3 kürzen (3/4), 10/15 durch 5 (2/3) und 14/21 durch 7 (2/3). 7/12 hat keinen gemeinsamen Teiler außer 1: Die 7 teilt die 12 nicht, die 12 hat nur die Teiler 1, 2, 3, 4, 6 und 12.",
+   "antworten": [
+    "7/12",
+    "9/12",
+    "10/15",
+    "14/21"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Der Bruch 21/28 lässt sich durch 7 kürzen.",
+   "info": "21 : 7 = 3 und 28 : 7 = 4. Es ergibt 3/4, und das ist vollständig gekürzt.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Woran erkennst du, dass eine Zahl durch … teilbar ist? Ordne zu.",
+   "tipp": "Bei einer Regel zählt als letzte Ziffer nur die 0.",
+   "info": "Diese Regeln helfen dir, schnell einen gemeinsamen Teiler von Zähler und Nenner zu finden. Bei 3 und 9 zählst du die Ziffern zusammen (Quersumme) und prüfst, ob die Summe in der 3er- bzw. 9er-Reihe steht. Endet eine Zahl auf 0, ist sie durch 2, 5 und 10 teilbar. Hier gehört „letzte Ziffer ist 0“ zur 10, weil nur bei der 10 allein die 0 zählt.",
+   "paare": [
+    [
+     "durch 2",
+     "letzte Ziffer ist 0, 2, 4, 6 oder 8"
+    ],
+    [
+     "durch 3",
+     "Quersumme ist durch 3 teilbar"
+    ],
+    [
+     "durch 5",
+     "letzte Ziffer ist 0 oder 5"
+    ],
+    [
+     "durch 9",
+     "Quersumme ist durch 9 teilbar"
+    ],
+    [
+     "durch 10",
+     "letzte Ziffer ist 0"
+    ]
+   ],
+   "extra": [
+    "letzte Ziffer ist 1"
+   ],
+   "lesen": "Brüche kürzen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Tim kürzt 18/24 und schreibt: 18/24 = 9/24. Was hat er falsch gemacht?",
+   "info": "Beim Kürzen werden Zähler und Nenner durch dieselbe Zahl geteilt: 18 : 2 = 9 und 24 : 2 = 12, also 9/12. 9/24 hat einen anderen Wert als 18/24. Vollständig gekürzt wäre sogar 3/4 (durch 6).",
+   "antworten": [
+    "Er hat nur den Zähler durch 2 geteilt. Der Nenner muss auch durch 2 geteilt werden.",
+    "Er darf 18/24 gar nicht kürzen.",
+    "Er hätte mit 2 erweitern müssen.",
+    "Er hat nichts falsch gemacht."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Brüche kürzen",
+   "frage": "Beide Streifen sind gleich lang. Der obere zeigt 8/12. Kürze den Bruch so, dass er zum unteren Streifen passt, und nenne die Zahl, durch die du gekürzt hast.",
+   "text": "8/12 = {{2}}/{{3}} (gekürzt durch {{4}})",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 164\" width=\"640\" height=\"164\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"164\" fill=\"#ffffff\"/><rect x=\"100.0\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"143.3\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"186.7\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"230.0\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"273.3\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"316.7\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"403.3\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"446.7\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"490.0\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"533.3\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"576.7\" y=\"20\" width=\"43.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"33.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">8</text><line x1=\"29.4\" y1=\"38.0\" x2=\"66.6\" y2=\"38.0\" stroke=\"#222\" stroke-width=\"2.2\"/><text x=\"48\" y=\"61.0\" font-size=\"22\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">12</text><rect x=\"100.0\" y=\"90\" width=\"173.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"273.3\" y=\"90\" width=\"173.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"446.7\" y=\"90\" width=\"173.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/></svg>",
+   "bildAlt": "Zwei gleich lange Streifen. Oben: 12 Teile, 8 gefärbt (8/12). Unten: 3 Teile, 2 gefärbt.",
+   "info": "Der untere Streifen hat 3 Teile, 2 davon sind gefärbt: 2/3. Von 12 Teilen zu 3 Teilen: 12 : 3 = 4, also wurde durch 4 gekürzt (8 : 4 = 2)."
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Setze <, > oder = ein. Die Brüche haben denselben Nenner.",
+   "text": "a) 3/8 {{<}} 5/8\nb) 7/9 {{>}} 4/9\nc) 2/5 {{<}} 3/5",
+   "info": "Gleicher Nenner heißt: gleich große Stücke. Der Bruch mit dem größeren Zähler hat mehr Stücke und ist größer. 3 < 5, 7 > 4 und 2 < 3.",
+   "wortbank": [
+    "<",
+    ">",
+    "="
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Setze <, > oder = ein. Die Brüche haben denselben Zähler.",
+   "text": "a) 1/4 {{>}} 1/7\nb) 3/5 {{<}} 3/4\nc) 5/6 {{>}} 5/8",
+   "tipp": "Je größer der Nenner, desto kleiner sind die Stücke.",
+   "info": "Gleicher Zähler heißt: gleich viele Stücke, aber verschieden große. Der kleinere Nenner gibt die größeren Stücke, also den größeren Bruch. Viertel sind größer als Siebtel, Fünftel kleiner als Viertel, Sechstel größer als Achtel.",
+   "wortbank": [
+    ">",
+    "<",
+    "="
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Welcher Bruch ist kleiner: 4/7 oder 4/9?",
+   "info": "Gleicher Zähler: je größer der Nenner, desto kleiner die Stücke. Neuntel sind kleiner als Siebtel, also ist 4/9 < 4/7.",
+   "antworten": [
+    "4/9",
+    "4/7",
+    "Beide sind gleich groß."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Mache gleichnamig. Der Hauptnenner von 2/3 und 3/4 ist 12. Erweitere beide Brüche auf den Nenner 12.",
+   "text": "a) 2/3 = {{8}}/12\nb) 3/4 = {{9}}/12",
+   "info": "2/3: von 3 nach 12 ist es mal 4, also 2 · 4 = 8. 3/4: von 4 nach 12 ist es mal 3, also 3 · 3 = 9. Weil 8/12 < 9/12 ist, gilt 2/3 < 3/4."
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Setze <, > oder = ein. Erweitere im Kopf oder auf dem Blatt.",
+   "text": "a) 1/2 {{<}} 5/8\nb) 2/3 {{>}} 5/9\nc) 3/4 {{=}} 9/12",
+   "tipp": "Erweitere den Bruch mit dem kleineren Nenner auf den größeren Nenner.",
+   "info": "a) 1/2 = 4/8 und 4/8 < 5/8. b) 2/3 = 6/9 und 6/9 > 5/9. c) 3/4 = 9/12, beide Brüche sind gleichwertig.",
+   "wortbank": [
+    "<",
+    ">",
+    "="
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Setze <, > oder = ein. Mache zuerst gleichnamig.",
+   "text": "a) 3/4 {{<}} 5/6\nb) 2/5 {{>}} 3/8\nc) 5/6 {{>}} 7/9",
+   "tipp": "Hauptnenner suchen: a) 12, b) 40, c) 18.",
+   "info": "a) 3/4 = 9/12 und 5/6 = 10/12, also 3/4 < 5/6. b) 2/5 = 16/40 und 3/8 = 15/40, also 2/5 > 3/8. c) 5/6 = 15/18 und 7/9 = 14/18, also 5/6 > 7/9.",
+   "wortbank": [
+    "<",
+    ">"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Welcher dieser Brüche ist der größte?",
+   "tipp": "Gemeinsamer Nenner kann 60 sein.",
+   "info": "Auf den Nenner 60 erweitert: 3/5 = 36/60, 7/10 = 42/60, 2/3 = 40/60, 3/4 = 45/60. Der größte Zähler gehört zu 3/4.",
+   "antworten": [
+    "3/4",
+    "3/5",
+    "7/10",
+    "2/3"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Ordne die Brüche der Größe nach. Der kleinste Bruch kommt zuerst.",
+   "tipp": "Bringe alle auf den Nenner 6.",
+   "info": "Hauptnenner 6: 1/3 = 2/6, 1/2 = 3/6, 2/3 = 4/6, 5/6. Also 2/6 < 3/6 < 4/6 < 5/6.",
+   "schritte": [
+    "1/3",
+    "1/2",
+    "2/3",
+    "5/6"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Ordne die Brüche mit verschiedenen Nennern der Größe nach. Beginne mit dem kleinsten.",
+   "tipp": "Der Hauptnenner ist 20.",
+   "info": "Hauptnenner 20: 7/10 = 14/20, 3/4 = 15/20, 4/5 = 16/20, dazu 13/20. Also 13/20 < 14/20 < 15/20 < 16/20.",
+   "schritte": [
+    "13/20",
+    "7/10",
+    "3/4",
+    "4/5"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Brüche vergleichen",
+   "frage": "Die beiden Streifen sind gleich lang. Lies die Brüche am Bild ab und vergleiche sie. Welche Aussage stimmt?",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 640 164\" width=\"640\" height=\"164\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"640\" height=\"164\" fill=\"#ffffff\"/><rect x=\"100.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"165.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"230.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"295.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"360.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"425.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"490.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"555.0\" y=\"20\" width=\"65.0\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"48.0\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">A</text><rect x=\"100.0\" y=\"90\" width=\"173.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"273.3\" y=\"90\" width=\"173.3\" height=\"40\" fill=\"#3b6ea5\" stroke=\"#222\" stroke-width=\"2\"/><rect x=\"446.7\" y=\"90\" width=\"173.3\" height=\"40\" fill=\"#ffffff\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"48\" y=\"118.0\" font-size=\"26\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">B</text></svg>",
+   "bildAlt": "Zwei gleich lange Streifen. A: 8 Teile, 5 gefärbt. B: 3 Teile, 2 gefärbt. B ist ein kleines Stück weiter gefärbt als A.",
+   "info": "A zeigt 5/8, B zeigt 2/3. Mit Nenner 24: 5/8 = 15/24 und 2/3 = 16/24. Also 5/8 < 2/3. Der Unterschied ist klein, nur ein Vierundzwanzigstel.",
+   "antworten": [
+    "5/8 < 2/3",
+    "5/8 > 2/3",
+    "5/8 = 2/3"
+   ],
+   "richtig": 0,
+   "lesen": [
+    "Gleichwertige Brüche: Erweitern und Kürzen",
+    "Brüche vergleichen"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Erweitere 5/8 mit 6.",
+   "text": "5/8 = {{30}}/{{48}}",
+   "info": "5 · 6 = 30 und 8 · 6 = 48.",
+   "lesen": "Brüche erweitern"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Kürze 36/48 vollständig.",
+   "text": "36/48 = {{3}}/{{4}}",
+   "tipp": "Probiere erst die 2, dann siehst du weiter.",
+   "info": "Der größte gemeinsame Teiler ist 12: 36 : 12 = 3 und 48 : 12 = 4. Schrittweise geht es auch: 36/48 → 18/24 → 9/12 → 3/4.",
+   "lesen": "Brüche kürzen"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Setze <, > oder = ein.",
+   "text": "a) 4/9 {{>}} 3/7\nb) 5/12 {{<}} 1/2\nc) 7/10 {{=}} 14/20",
+   "info": "a) Nenner 63: 4/9 = 28/63 und 3/7 = 27/63, also 4/9 > 3/7. b) 1/2 = 6/12 und 5/12 < 6/12. c) 14/20 gekürzt durch 2 ist 7/10, die Brüche sind gleichwertig.",
+   "wortbank": [
+    ">",
+    "<",
+    "="
+   ],
+   "lesen": "Brüche vergleichen"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Ordne die Brüche vom kleinsten zum größten.",
+   "tipp": "Der Hauptnenner ist 16.",
+   "info": "Auf Sechzehntel erweitert: 1/4 = 4/16, 3/8 = 6/16, 1/2 = 8/16, dazu 5/16. Also 4/16 < 5/16 < 6/16 < 8/16.",
+   "schritte": [
+    "1/4",
+    "5/16",
+    "3/8",
+    "1/2"
+   ],
+   "lesen": "Brüche vergleichen"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Ein Bruch wurde mit 7 erweitert. Es entstand 35/56. Wie hieß der Bruch vorher?",
+   "text": "35/56 = {{5}}/{{8}}",
+   "tipp": "Erweitern rückgängig machen heißt kürzen.",
+   "info": "Du musst durch 7 kürzen: 35 : 7 = 5 und 56 : 7 = 8. Zur Probe: 5 · 7 = 35 und 8 · 7 = 56.",
+   "lesen": [
+    "Brüche erweitern",
+    "Brüche kürzen"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Mia und Ben bekommen gleich große Schokoladentafeln. Mia isst 3/4 ihrer Tafel, Ben isst 5/8 seiner Tafel. Wer hat mehr gegessen?",
+   "info": "Mache gleichnamig: 3/4 = 6/8. Mia hat 6/8 gegessen, Ben 5/8. Weil 6/8 > 5/8 ist, hat Mia mehr gegessen.",
+   "antworten": [
+    "Mia",
+    "Ben",
+    "Beide gleich viel"
+   ],
+   "richtig": 0,
+   "lesen": "Brüche vergleichen"
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Lena sagt: „1/3 ist größer als 1/2, weil 3 größer ist als 2.“ Hat Lena recht? Begründe.",
+   "punkte": 2,
+   "muster": "Nein. Lena hat nicht recht. Beim Nenner ist es umgekehrt: Je größer der Nenner, desto kleiner sind die Stücke. Drittel sind kleiner als Halbe. Man sieht es auch, wenn man gleichnamig macht: 1/2 = 3/6 und 1/3 = 2/6, und 2/6 ist kleiner als 3/6. Also ist 1/3 < 1/2.",
+   "kriterien": [
+    "Antwort: Nein, Lena hat nicht recht (1/3 ist kleiner als 1/2).",
+    "Begründung: Je größer der Nenner, desto kleiner die Stücke, oder Vergleich mit gleichem Nenner (1/2 = 3/6, 1/3 = 2/6)."
+   ],
+   "lesen": "Brüche vergleichen"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Minitest-Mix",
+   "frage": "Anna kürzt 18/27 durch 3 und erhält 6/9. Damit ist der Bruch vollständig gekürzt.",
+   "info": "18/27 durch 3 ergibt 6/9. Aber 6 und 9 kann man noch einmal durch 3 teilen: 2/3. Der größte gemeinsame Teiler war 9, deshalb kommt man mit einem Schritt durch 9 auch gleich auf 2/3.",
+   "richtig": false,
+   "lesen": "Brüche kürzen"
+  }
+ ],
+ "nachlesen": {
+  "A – Brüche erweitern": "Brüche erweitern",
+  "B – Brüche kürzen": "Brüche kürzen",
+  "C – Brüche vergleichen": "Brüche vergleichen",
+  "D – Minitest-Mix": [
+   "Brüche erweitern",
+   "Brüche kürzen",
+   "Brüche vergleichen"
+  ]
+ },
+ "probe": false,
+ "termin": "2026-11-24",
+ "reihenfolge": 1,
+ "karte": {
+  "titel": "Bruchmeister",
+  "motiv": "🍕",
+  "text": "Brüche erweitern, kürzen und vergleichen: Der Wert bleibt gleich, nur die Stücke werden feiner oder gröber."
+ }
+}
