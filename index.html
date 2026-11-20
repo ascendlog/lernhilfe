@@ -1971,8 +1971,8 @@ function frZeichnen() {
   if (fs.length > 1) h += `<div class="row" role="group" aria-label="Wessen Album?" style="margin:0 0 .8rem">${fs.map(f => `<button class="btn ${f.id === fr.id ? '' : 'sec'}" data-act="freund-ansehen" data-id="${f.id}"${f.id === fr.id ? ' aria-current="true"' : ''}>${esc(f.name)}</button>`).join('')}</div>`;
   const msg = {
     verbinde: `Verbinde mit ${n} …`,
-    offline: `${n} ist gerade nicht in der Lernhilfe. Dort muss die Lernhilfe geöffnet sein (und das Album nicht verborgen).`,
-    aus: `${n} hat das Album gerade verborgen.`,
+    offline: `${n} ist gerade nicht in der Lernhilfe. Er muss sie geöffnet haben (und sein Album nicht verborgen haben).`,
+    aus: `${n} hat sein Album gerade verborgen.`,
     code: 'Zuerst den Freunde-Code eintragen (Startseite, ganz unten). Den bekommst du von deinen Eltern.',
     bibliothek: 'Die Verbindungs-Bibliothek konnte nicht geladen werden. Ist das Internet an?',
     fehler: 'Das hat nicht geklappt. Ist das Internet an? Probier es gleich noch einmal.'
