@@ -2140,7 +2140,8 @@ let libItems = [];
 const libOffen = new Set(); /* aufgeklappte Gruppen (nur für die Dauer der Sitzung) */
 const libThema = t => t.replace(/[-_]+/g, ' ').replace(/^./, c => c.toUpperCase());
 function libRow(x, i) {
-  const have = x.p && getPack(x.p.id); const same = have && JSON.stringify(have) === JSON.stringify(normalizePack(JSON.parse(JSON.stringify(x.p))));
+  const have = x.p && getPack(x.p.id); const ohneP = q => { const c = { ...q }; delete c.person; delete c.kind; return JSON.stringify(c); }; /* wer das Paket bekommt, ändert nichts am Inhalt */
+  const same = have && ohneP(have) === ohneP(normalizePack(JSON.parse(JSON.stringify(x.p))));
   return `<div class="lib"><div><strong>${esc(x.p ? x.p.titel : x.f)}</strong><div class="muted">${x.errs.length ? 'Fehler: ' + esc(x.errs[0]) : esc([x.p.fach, x.p.aufgaben.length + ' Aufgaben'].filter(Boolean).join(', '))}</div></div>${x.errs.length ? '' : same ? '<span class="muted">aktuell</span>' : `<button class="btn sm" data-act="lib-add" data-i="${i}">${have ? 'Aktualisieren' : 'Hinzufügen'}</button>`}</div>`;
 }
 /* Abgeschlossene Themen liegen im Repo in pakete/<ordner>/abgeschlossen/<thema>/ und stehen in der index.json als „abgeschlossen/<thema>/<datei>.json“. */
