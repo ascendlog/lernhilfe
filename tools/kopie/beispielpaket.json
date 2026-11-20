@@ -1,0 +1,143 @@
+{
+  "typ": "lernpaket",
+  "version": 1,
+  "id": "beispiel-brueche",
+  "titel": "Beispiel: Brüche erweitern und kürzen",
+  "fach": "Mathe",
+  "klasse": "6",
+  "beschreibung": "Beispielpaket zum Ausprobieren. Es zeigt alle Aufgabenarten der Lernhilfe.",
+  "hinweis": "Nur zum Ausprobieren. Nach dem Testen kann es unter „Verwalten“ gelöscht werden.",
+  "karte": {
+    "titel": "Bruchprofi",
+    "motiv": "🍕",
+    "text": "Erweitern und Kürzen ändern den Wert eines Bruchs nicht: Zähler und Nenner werden mit derselben Zahl malgenommen oder geteilt."
+  },
+  "lernblatt": [
+    {
+      "titel": "Brüche erweitern",
+      "text": "Beim **Erweitern** multiplizierst du Zähler und Nenner mit **derselben Zahl**.\n\nBeispiel: 2/3 mit 4 erweitern: 2 · 4 = 8 und 3 · 4 = 12, also 2/3 = 8/12.\n\nDer Bruch sieht anders aus, ist aber **genauso groß**.",
+      "merke": "Erweitern: Zähler und Nenner mal dieselbe Zahl."
+    },
+    {
+      "titel": "Brüche kürzen",
+      "text": "Beim **Kürzen** teilst du Zähler und Nenner durch **dieselbe Zahl**.\n\nBeispiel: 6/8 durch 2 kürzen: 6 : 2 = 3 und 8 : 2 = 4, also 6/8 = 3/4.\n\nTypischer Fehler: nur den Zähler teilen. Das verändert den Wert des Bruchs.",
+      "merke": "Kürzen: Zähler und Nenner durch dieselbe Zahl teilen."
+    }
+  ],
+  "aufgaben": [
+    {
+      "typ": "mc",
+      "abschnitt": "Block A: Erweitern und Kürzen",
+      "frage": "Welcher Bruch ist genauso groß wie 1/2?",
+      "antworten": [
+        "2/3",
+        "2/4",
+        "3/5",
+        "1/3"
+      ],
+      "richtig": 1,
+      "info": "2/4 entsteht, wenn man 1/2 mit 2 erweitert: 1 · 2 = 2 und 2 · 2 = 4.",
+      "lesen": "Brüche erweitern"
+    },
+    {
+      "typ": "tf",
+      "frage": "Beim Erweitern verändert sich der Wert des Bruchs nicht.",
+      "richtig": true,
+      "info": "Zähler und Nenner werden mit derselben Zahl multipliziert, der Bruch bleibt gleich groß.",
+      "lesen": "Brüche erweitern"
+    },
+    {
+      "typ": "kurz",
+      "frage": "Du erweiterst 2/3 mit 4. Wie lautet der neue Zähler?",
+      "richtig": "8",
+      "info": "2 · 4 = 8. Der neue Nenner ist 3 · 4 = 12.",
+      "tipp": "Multipliziere den Zähler mit der Zahl, mit der du erweiterst.",
+      "lesen": "Brüche erweitern"
+    },
+    {
+      "typ": "luecke",
+      "frage": "Kürze 6/8 durch 2. Trage Zähler und Nenner ein.",
+      "text": "6/8 = {{3}}/{{4}}",
+      "info": "6 : 2 = 3 und 8 : 2 = 4.",
+      "lesen": "Brüche kürzen"
+    },
+    {
+      "typ": "luecke",
+      "abschnitt": "Block B: Vergleichen",
+      "frage": "Ziehe das richtige Zeichen in jede Lücke.",
+      "text": "3/4 {{>}} 2/4\n1/2 {{=}} 2/4\n1/3 {{<}} 1/2",
+      "wortbank": [
+        "<",
+        ">",
+        "="
+      ],
+      "info": "Bei gleichem Nenner entscheidet der Zähler. 1/2 = 2/4, und 1/3 ist kleiner als 1/2."
+    },
+    {
+      "typ": "zuordnen",
+      "frage": "Ordne jedem Bruch den gekürzten Bruch zu.",
+      "paare": [
+        [
+          "4/8",
+          "1/2"
+        ],
+        [
+          "3/9",
+          "1/3"
+        ],
+        [
+          "6/8",
+          "3/4"
+        ],
+        [
+          "10/15",
+          "2/3"
+        ]
+      ],
+      "extra": [
+        "1/4"
+      ],
+      "info": "Beispiel: 10/15 durch 5 gekürzt ergibt 2/3.",
+      "lesen": "Brüche kürzen"
+    },
+    {
+      "typ": "reihenfolge",
+      "frage": "Bringe die Schritte zum Kürzen in die richtige Reihenfolge.",
+      "schritte": [
+        "Einen gemeinsamen Teiler von Zähler und Nenner suchen",
+        "Den Zähler durch diesen Teiler teilen",
+        "Den Nenner durch denselben Teiler teilen",
+        "Prüfen, ob man noch weiter kürzen kann"
+      ],
+      "info": "Erst den Teiler suchen, dann beide Zahlen teilen, am Ende nachsehen, ob es weitergeht.",
+      "lesen": "Brüche kürzen"
+    },
+    {
+      "typ": "mc",
+      "frage": "Welche Brüche sind genauso groß wie 3/4? Mehrere Antworten sind richtig.",
+      "antworten": [
+        "6/8",
+        "9/12",
+        "4/5",
+        "12/16"
+      ],
+      "richtig": [
+        0,
+        1,
+        3
+      ],
+      "info": "6/8, 9/12 und 12/16 lassen sich alle auf 3/4 kürzen. 4/5 gehört nicht dazu.",
+      "lesen": "Brüche kürzen"
+    },
+    {
+      "typ": "frei",
+      "abschnitt": "Block C: In eigenen Worten",
+      "frage": "Erkläre in eigenen Worten, warum man beim Erweitern Zähler und Nenner mit derselben Zahl multiplizieren muss.",
+      "muster": "Wenn man nur den Zähler oder nur den Nenner mit einer Zahl multipliziert, ändert sich der Wert des Bruchs. Multipliziert man beide mit derselben Zahl, werden alle Teile feiner unterteilt, es sind entsprechend mehr Teile gemeint, und der Anteil am Ganzen bleibt gleich.",
+      "kriterien": [
+        "Ich habe gesagt, dass der Wert gleich bleibt.",
+        "Ich habe gesagt, dass beide Zahlen mit derselben Zahl malgenommen werden."
+      ]
+    }
+  ]
+}

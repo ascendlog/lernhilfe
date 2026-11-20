@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lernhilfe: Anleitung</title>
+<meta name="theme-color" content="#111522">
+<style>
+:root{--bg:#0e101b;--surface:#171b2c;--line:#2d3350;--ink:#f1f3fb;--muted:#aab0c8;--accent:#ffc233;--accent-text:#ffc233;--on-accent:#2a1c00;--field:#0b0d17}
+@media (prefers-color-scheme:light){:root{--bg:#f5f6fb;--surface:#fff;--line:#d9dceb;--ink:#161a2b;--muted:#50577a;--accent:#ffc233;--accent-text:#7d5000;--on-accent:#2a1c00;--field:#f5f6fb}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:46rem;margin:0 auto;padding:2rem 16px 4rem}
+h1{font-size:1.9rem;line-height:1.2;margin:0 0 .5rem}
+h2{font-size:1.25rem;margin:2.2rem 0 .5rem}
+p,li{max-width:62ch}
+a{color:var(--accent-text)}
+.lead{color:var(--muted);font-size:1.05rem}
+.row{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
+.btn{display:inline-block;font:inherit;font-weight:600;text-decoration:none;cursor:pointer;border:2px solid var(--accent);background:var(--accent);color:var(--on-accent);padding:.55rem 1.1rem;border-radius:10px}
+.btn.sec{background:transparent;color:var(--accent-text);border-color:var(--line)}
+.btn:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid var(--accent-text);outline-offset:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:1rem 1.1rem;margin:1rem 0}
+.card>:first-child{margin-top:0}.card>:last-child{margin-bottom:0}
+ol,ul{padding-left:1.3rem}
+li{margin:.35rem 0}
+textarea{width:100%;height:14rem;font:14px/1.5 ui-monospace,Menlo,Consolas,monospace;background:var(--field);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:.7rem}
+.msg{min-height:1.4em;color:var(--muted);margin:.2rem 0 0}
+code{font:.92em ui-monospace,Menlo,Consolas,monospace;background:var(--field);border:1px solid var(--line);border-radius:5px;padding:.05em .35em}
+</style>
+</head>
+<body>
+<main>
+<h1>Lernhilfe: Anleitung</h1>
+<p class="lead">Mit der Lernhilfe üben @@KIND1_NAME@@ und @@KIND2_NAME@@ vor Klassenarbeiten am Bildschirm statt auf Papier. Die Aufgaben samt Lösungen erstellen Sie selbst mit Claude und laden sie in die App. Es gibt kein Konto und keine Anmeldung.</p>
+<div class="row">
+  <a class="btn" href="index.html#/@@KIND1_ID@@">Lernhilfe für @@KIND1_NAME@@ öffnen</a>
+  <a class="btn" href="index.html#/@@KIND2_ID@@">Lernhilfe für @@KIND2_NAME@@ öffnen</a>
+</div>
+
+<h2>1. Einmal einrichten</h2>
+<ol>
+  <li>Öffnen Sie die Lernhilfe auf dem Gerät, an dem die Kinder üben (Tablet, Laptop oder Handy), und legen Sie ein Lesezeichen an.</li>
+  <li>Auf Tablet oder Handy lässt sie sich wie eine App auf den Startbildschirm legen. In Safari auf dem iPad oder iPhone: Teilen, dann „Zum Home-Bildschirm“. In Chrome auf Android: Menü, dann „Zum Startbildschirm hinzufügen“.</li>
+  <li>Zum Ausprobieren: Laden Sie das Beispielpaket herunter, wählen Sie in der App ein Kind und importieren Sie die Datei (Schritt 3).</li>
+</ol>
+<div class="row"><a class="btn sec" href="beispielpaket.json" download>Beispielpaket herunterladen</a></div>
+
+<h2>2. Lernpakete mit Claude erstellen</h2>
+<p>Ein Lernpaket besteht aus einem kurzen Lernblatt und 20 bis 35 Aufgaben mit Lösungen und Erklärungen. Claude baut es aus dem, was Sie ihm zeigen.</p>
+<ol>
+  <li>Öffnen Sie Claude und legen Sie ein neues Projekt an (oder starten Sie einen neuen Chat). Kopieren Sie die Vorlage unten und fügen Sie sie in die Projektanweisungen ein, im Chat als erste Nachricht.</li>
+  <li>Geben Sie Claude pro Klassenarbeit das Material: Foto vom Lernzettel, Themenliste des Lehrers, Seiten aus Heft oder Buch. Schreiben Sie dazu, für wen, welches Fach und wann die Arbeit ist, zum Beispiel: „Erstelle ein Lernpaket für @@KIND1_NAME@@, Mathe, Arbeit am 12.12.“</li>
+  <li>Claude liefert eine Datei mit der Endung <code>.json</code>. Laden Sie sie herunter.</li>
+</ol>
+<div class="card">
+  <textarea id="vorlage" readonly aria-label="Vorlage für Claude">@@VORLAGE@@</textarea>
+  <div class="row" style="margin-bottom:0">
+    <button class="btn" id="kopieren" type="button">Vorlage kopieren</button>
+    <a class="btn sec" href="vorlage.txt" download>Als Textdatei laden</a>
+  </div>
+  <p class="msg" id="msg" role="status"></p>
+</div>
+<p>Claude kann sich irren. Vergleichen Sie Jahreszahlen, Fachbegriffe und Rechnungen kurz mit dem Heft. Unsichere Stellen markiert Claude selbst im Paket und in seiner Antwort.</p>
+
+<h2>3. Pakete in die App holen</h2>
+<ol>
+  <li>Wählen Sie in der App das Kind aus, für das das Paket ist.</li>
+  <li>Tippen Sie auf „Lernpaket importieren“ und wählen Sie die Datei aus, oder ziehen Sie sie ins Fenster. „Text einfügen“ geht auch.</li>
+  <li>Die App prüft das Paket. Meldet sie einen Fehler, kopieren Sie die Meldung in den Chat mit Claude. Er schickt eine verbesserte Datei, die Sie genauso importieren. Sie ersetzt das alte Paket, bereits erreichte Ergebnisse bleiben erhalten.</li>
+</ol>
+
+<h2>4. Üben</h2>
+<ul>
+  <li>Jedes Paket hat eine Karte mit „Lernblatt“, „Üben“ und, wenn vorhanden, „Probearbeit“ mit Zeitvorgabe.</li>
+  <li>Falsche Antworten lassen sich am Ende wiederholen. Zu jeder Aufgabe gibt es eine Erklärung, und bei falschen Antworten zeigt die App den passenden Abschnitt aus dem Lernblatt.</li>
+  <li>Für erledigte Pakete gibt es Punkte, Stufen und Sammelkarten.</li>
+  <li>Ist beim Paket ein Termin eingetragen, steht auf der Startseite, wie viele Tage bis zur Arbeit bleiben.</li>
+</ul>
+
+<h2>5. Gut zu wissen</h2>
+<ul>
+  <li><strong>Alles bleibt auf dem Gerät.</strong> Pakete und Ergebnisse liegen im Browser des Geräts, nichts davon liegt auf einem Server. Wer die Browserdaten löscht, verliert sie. Machen Sie deshalb ab und zu eine Sicherung: Kind wählen, „Verwalten“, „Sicherung“.</li>
+  <li><strong>Mehrere Geräte:</strong> Jedes Gerät hat seinen eigenen Stand. Ein Paket muss auf jedem Gerät importiert werden, an dem geübt wird. Eine Sicherung lässt sich auf ein anderes Gerät übertragen.</li>
+  <li><strong>Eltern-Ansicht:</strong> Auf der Startseite finden Sie „Eltern-Ansicht“. Dort sehen Sie Punkte, Stufe und die letzten Ergebnisse der Kinder, sobald diese ihr Gerät mit Ihrem Familiencode verbunden haben. Einzelne Antworten werden nicht übertragen.</li>
+  <li>Die Ordnung nach Kind ist eine Orientierungshilfe, kein Passwortschutz.</li>
+</ul>
+</main>
+<script>
+(function () {
+  var ta = document.getElementById('vorlage'), msg = document.getElementById('msg');
+  document.getElementById('kopieren').addEventListener('click', function () {
+    var ok = function () { msg.textContent = 'Kopiert. Jetzt in Claude einfügen.'; };
+    var fallback = function () {
+      ta.focus(); ta.select();
+      try { document.execCommand('copy') ? ok() : (msg.textContent = 'Bitte den Text markieren und selbst kopieren.'); }
+      catch (e) { msg.textContent = 'Bitte den Text markieren und selbst kopieren.'; }
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(ta.value).then(ok, fallback); else fallback();
+  });
+})();
+</script>
+</body>
+</html>
