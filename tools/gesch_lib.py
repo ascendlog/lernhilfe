@@ -21,7 +21,7 @@ def pack(id, titel, beschreibung, lernblatt, aufgaben, hinweis=None, min_aufgabe
         for i, t in enumerate(aufgaben, 1):
             if t["typ"] != "frei":
                 assert t.get("info", "").strip(), f"{id} Aufgabe {i}: info fehlt ({t['frage'][:50]})"
-    p = {"typ": "lernpaket", "version": 1, "person": ["joel", "dario"], "id": id, "titel": titel,
+    p = {"typ": "lernpaket", "version": 1, "person": ["joel", "dario", "lio", "luca"], "id": id, "titel": titel,
          "fach": FACH, "klasse": "6", "beschreibung": beschreibung}
     if hinweis:
         p["hinweis"] = hinweis

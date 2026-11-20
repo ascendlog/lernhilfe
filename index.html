@@ -15,9 +15,13 @@
 :root{--h:228;--bg:hsl(var(--h) 34% 8%);--chrome:hsl(var(--h) 32% 10%);--surface:hsl(var(--h) 27% 13%);--surface-2:hsl(var(--h) 25% 18%);--line:hsl(var(--h) 21% 25%);--ink:hsl(var(--h) 50% 96%);--muted:hsl(var(--h) 16% 71%);--accent:#ffc233;--accent-text:#ffc233;--on-accent:#1d1500;--ok:#3ccf82;--bad:#ff7d72;--part:#f3b43f;--shadow:0 18px 40px -18px rgba(2,4,14,.85);--display:"Bahnschrift","DIN Alternate","Avenir Next Condensed","Inter Display",system-ui,sans-serif;--body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color-scheme:dark}
 html[data-p=saskia]{--h:176;--accent:#2fd0b9;--accent-text:#2fd0b9;--on-accent:#03201b}
 html[data-p=dario]{--h:268;--accent:#b794ff;--accent-text:#b794ff;--on-accent:#1b0f38}
+html[data-p=lio]{--h:132;--accent:#7ddc6a;--accent-text:#7ddc6a;--on-accent:#0b2a08}
+html[data-p=luca]{--h:20;--accent:#ff8a5b;--accent-text:#ff8a5b;--on-accent:#3a1204}
 html[data-theme=light]{color-scheme:light;--bg:hsl(var(--h) 38% 96%);--chrome:#fff;--surface:#fff;--surface-2:hsl(var(--h) 36% 95%);--line:hsl(var(--h) 24% 86%);--ink:hsl(var(--h) 42% 12%);--muted:hsl(var(--h) 12% 38%);--accent-text:#7d5000;--ok:#117a47;--bad:#c1372b;--part:#8f5b00;--shadow:0 16px 36px -18px hsl(var(--h) 40% 25% / .35)}
 html[data-theme=light][data-p=saskia]{--accent-text:#09665b}
 html[data-theme=light][data-p=dario]{--accent-text:#5a2fb3}
+html[data-theme=light][data-p=lio]{--accent-text:#2e801e}
+html[data-theme=light][data-p=luca]{--accent-text:#cb3a00}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{font-size:17px}
@@ -403,10 +407,12 @@ const fmtDate = t => new Date(t).toLocaleDateString('de-DE', { day: '2-digit', m
    Für eine eigene Farbe zusätzlich im CSS oben eine Zeile html[data-p=<id>] ergänzen.
    probeMinuten = Zeit der Probearbeit/-klausur in Minuten, wenn das Paket kein eigenes "dauer" hat (ohne Angabe: kein Timer).
    ordner = Ordner unter pakete/, aus denen die Person ihre Pakete aus dem Repo bekommt (Standard: der eigene).
-   Ein Ordner, der zwei Personen gemeinsam gehört (hier pakete/joel-dario/), taucht bei beiden auf. */
+   Ein Ordner, der mehreren Personen gemeinsam gehört (hier pakete/joel-dario/ für Joel, Dario, Lio und Luca; der Name stammt aus der Zeit zu zweit), taucht bei allen auf. */
 const PERSONEN = [ /* farbe = Akzent, h = Farbton des „Raums“ (0–360) */
   { id: 'joel', name: 'Joel', art: 'kind', freund: 'dario', farbe: '#ffc233', h: 228, ordner: ['joel', 'joel-dario'] },
   { id: 'dario', name: 'Dario', art: 'kind', freund: 'joel', farbe: '#b794ff', h: 268, ordner: ['dario', 'joel-dario'] },
+  { id: 'lio', name: 'Lio', art: 'kind', farbe: '#7ddc6a', h: 132, ordner: ['lio', 'joel-dario'] },
+  { id: 'luca', name: 'Luca', art: 'kind', farbe: '#ff8a5b', h: 20, ordner: ['luca', 'joel-dario'] },
   { id: 'saskia', name: 'Saskia', art: 'erwachsen', farbe: '#2fd0b9', h: 176, probeMinuten: 90 }
 ];
 const ALT_BESITZER = 'joel'; /* ihm gehört der Speicherstand aus der Zeit vor den Profilen (lernhilfe.v1) */
@@ -681,7 +687,8 @@ function normalizePack(p) {
 function fremd(o) { /* Namen der Person(en), für die ein Paket oder eine Sicherung gedacht ist – leer, wenn es zur gewählten Person passt oder niemand genannt ist */
   const vals = [o && o.person, o && o.kind].flat().filter(x => typeof x === 'string' && x.trim());
   if (!vals.length || vals.some(v => { const w = fold(v); return w === fold(cur.id) || w === fold(cur.name); })) return '';
-  return vals.map(v => { const w = fold(v); const q = PERSONEN.find(x => w === fold(x.id) || w === fold(x.name)); return q ? q.name : v.trim(); }).join(' und ');
+  const ns = vals.map(v => { const w = fold(v); const q = PERSONEN.find(x => w === fold(x.id) || w === fold(x.name)); return q ? q.name : v.trim(); });
+  return ns.length > 1 ? ns.slice(0, -1).join(', ') + ' und ' + ns[ns.length - 1] : ns[0] || '';
 }
 function importObj(o, label, force) {
   const res = { added: 0, updated: 0, skipped: 0, errors: [] };

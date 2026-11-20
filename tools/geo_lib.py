@@ -135,7 +135,7 @@ def lb(titel, text, merke=None, bild=None, bildAlt=None):
 def pack(id, titel, beschreibung, lernblatt, aufgaben, hinweis=None, min_aufgaben=None):
     if min_aufgaben:
         assert len(aufgaben) >= min_aufgaben, f"{id}: nur {len(aufgaben)} Aufgaben (Ziel {min_aufgaben})"
-    p = {"typ": "lernpaket", "version": 1, "person": ["joel", "dario"], "id": id, "titel": titel,
+    p = {"typ": "lernpaket", "version": 1, "person": ["joel", "dario", "lio", "luca"], "id": id, "titel": titel,
          "fach": "Geografie", "klasse": "6", "beschreibung": beschreibung}
     if hinweis:
         p["hinweis"] = hinweis

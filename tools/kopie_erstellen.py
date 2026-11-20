@@ -215,7 +215,7 @@ def main():
     # Endkontrolle: nichts von der Ursprungsfamilie darf in der Kopie stehen
     verboten = [v for v in k['verboten'] if v.strip()]
     if verboten:
-        rx = re.compile('|'.join(re.escape(v) for v in verboten), re.I)
+        rx = re.compile(r'\b(?:' + '|'.join(re.escape(v) for v in verboten) + r')\b', re.I)  # ganze Wörter, sonst träfe „lio“ auch „Bibliothek“
         funde = []
         for wurzel, _, dateien in os.walk(ziel):
             if os.sep + '.git' in wurzel + os.sep:
