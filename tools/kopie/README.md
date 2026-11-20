@@ -1,4 +1,4 @@
-# Lernhilfe (Familien-Kopie)
+# Lernhilfe
 
 Aufgaben für Klassenarbeiten am Bildschirm statt auf Papier. Läuft als Web-App im Browser, ohne Server und ohne Anmeldung. Beim Öffnen fragt die App zuerst, **wer lernt** (@@KIND1_NAME@@ oder @@KIND2_NAME@@). Jedes Kind hat seine eigenen Lernpakete und Ergebnisse.
 
