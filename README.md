@@ -75,6 +75,10 @@ Fehlerhafte Pakete werden nicht importiert. Die App nennt dann die Stelle (z. B.
 
 Pakete, Ergebnisse und die laufende Aufgabe liegen nur im Browser des jeweiligen Geräts (und Browser-Profils), getrennt je Person (`lernhilfe.v2.joel`, `lernhilfe.v2.dario`, `lernhilfe.v2.saskia`). Mit **Sicherung** (oben rechts, gilt für die gerade gewählte Person) lässt sich alles als Datei speichern oder als Text kopieren und über denselben Import wiederherstellen. Wer an mehreren Geräten lernt, sichert und stellt je Person wieder her.
 
+## Urheberrecht und Lizenz
+
+© 2026 Alessandro Di Tommaso, alle Rechte vorbehalten (Text in `LICENSE`, derzeit ein Entwurf). Der Quelltext ist öffentlich einsehbar, aber nicht zur freien Nutzung freigegeben. Unten auf jeder Seite der App steht der Urhebervermerk; ein Klick auf „Herkunft“ zeigt ihn mit der Kennung der App. Diese Angaben (`HERKUNFT` im Skript sowie Meta-Tags und Kommentar im Kopf von `index.html`) bitte nicht entfernen. Die Kopien für andere Familien (`tools/kopie_erstellen.py`) bekommen je eine eigene Kennung (`lhf-…`, optional `"kennung"` in der Konfiguration, Register `kopien-register.json` neben der Konfiguration) und nennen den Namen des Urhebers bewusst nicht.
+
 ## Format eines Lernpakets
 
 ```json

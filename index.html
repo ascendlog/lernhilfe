@@ -2,6 +2,9 @@
 <html lang="de">
 <head>
 <meta charset="utf-8">
+<!-- Lernhilfe · © 2026 Alessandro Di Tommaso · Alle Rechte vorbehalten · siehe LICENSE · Kennung lhk-53e5ad14200b -->
+<meta name="author" content="Alessandro Di Tommaso">
+<meta name="copyright" content="© 2026 Alessandro Di Tommaso. Alle Rechte vorbehalten.">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="dark light">
 <script>try{document.documentElement.dataset.theme=localStorage.getItem('lernhilfe.theme')==='light'?'light':'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
@@ -353,17 +356,36 @@ html[data-theme=light] .k-rang{color:color-mix(in srgb,var(--tc) 60%,#000);text-
 .ek-bar{height:.55rem;border-radius:99px;background:var(--surface-2);overflow:hidden}
 .ek-bar i{display:block;height:100%;border-radius:99px;background:var(--c,var(--accent))}
 @media (max-width:560px){.ek-pk{grid-template-columns:minmax(0,1fr) 3.2rem}.ek-bar{grid-column:1/-1;grid-row:2}}
+.urh{max-width:1040px;margin:-1.6rem auto 0;padding:0 1.2rem 2rem;text-align:center;font-size:.78rem;color:var(--muted)}
+.urh .link{font-size:inherit}
+/* Rastermaße der Karten, Stand r-bbdaccb6dd81b61b */
 </style>
 </head>
 <body>
 <header class="top"><div class="top-in"><button class="brand" data-act="home" aria-label="Lernhilfe, zur Startseite"><svg viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="7" fill="var(--accent)"/><path d="M8 6v9a2 2 0 0 0 2 2h6" stroke="var(--on-accent)" stroke-width="2.6" fill="none" stroke-linecap="round"/><circle cx="16" cy="9" r="1.7" fill="var(--on-accent)"/></svg><span class="bt">Lernhilfe</span></button><span id="crumb" class="crumb"></span><span class="sp"></span><button id="whoBtn" class="btn ghost sm pill" data-act="wechseln" aria-label="Person wechseln" hidden></button><button id="bkBtn" class="btn ghost sm" data-act="backup" hidden>Sicherung</button><button id="themeBtn" class="btn ghost sm icon" data-act="theme"></button></div></header>
 <main id="app" tabindex="-1"></main>
+<footer class="urh" id="urh"></footer>
 <dialog id="dlg"></dialog>
 <div id="toast" role="status" aria-live="polite"></div>
 <input type="file" id="file" accept=".json,application/json" multiple hidden>
 
 <script>
 'use strict';
+/* ========== Herkunft und Urheberrecht (siehe LICENSE) ========== */
+/* Diese Angaben bitte nicht entfernen. Sie gehören zur Lizenz der Lernhilfe. */
+const HERKUNFT = Object.freeze({ autor: 'Alessandro Di Tommaso', jahr: 2026, kennung: 'lhk-53e5ad14200b', kopie: '' });
+function herkunftText() { return (HERKUNFT.autor ? '© ' + HERKUNFT.jahr + ' ' + HERKUNFT.autor + ' · ' : '') + 'Alle Rechte vorbehalten'; }
+function herkunftFooter() {
+  const f = $('#urh'); if (!f) return;
+  f.innerHTML = esc(herkunftText()) + ' · <button type="button" class="link" data-act="herkunft">Herkunft</button>';
+  f.dataset.k = HERKUNFT.kopie || HERKUNFT.kennung;
+}
+function herkunftDialog() {
+  dialog('<h2>Herkunft dieser Lernhilfe</h2><p>' + esc(herkunftText()) + '.</p>'
+    + '<p class="muted">Kennung: ' + esc(HERKUNFT.kennung) + (HERKUNFT.kopie ? '<br>Kopie: ' + esc(HERKUNFT.kopie) : '') + '</p>'
+    + '<p class="muted">Quelltext, Lernpakete, Texte und Zeichnungen sind urheberrechtlich geschützt. Weitergabe, Veränderung und Verkauf nur mit schriftlicher Zustimmung.</p>'
+    + '<div class="row"><button class="btn" data-act="dlg-close">Schließen</button></div>');
+}
 /* ========== Hilfsfunktionen ========== */
 const $ = (s, r = document) => r.querySelector(s);
 const $$ = (s, r = document) => Array.from(r.querySelectorAll(s));
@@ -521,6 +543,7 @@ function normText(s, t) {
   if (!(t && t.gross)) x = x.toLowerCase();
   return x.replace(/[.!?,;:]+$/, '').trim();
 }
+/* ref b392c76f3be58b81 */
 function toNum(s) { const x = String(s).trim().replace(',', '.'); return /^-?\d+(\.\d+)?$/.test(x) ? parseFloat(x) : null; }
 /* Nachsicht (Aufgabenfeld "nachsicht": true) für Texteingaben: Artikel und Präpositionen am Anfang, Leerzeichen, Bindestriche und Punkte in Abkürzungen sowie Umlaut-Schreibweise (ae/ä) spielen keine Rolle,
    und bei Wörtern ab 6 Buchstaben ohne Ziffern wird ein Tippfehler verziehen (ein Buchstabe zu viel, zu wenig, falsch oder zwei Nachbarbuchstaben vertauscht). Zahlen und Jahre müssen stimmen. */
@@ -2261,7 +2284,7 @@ document.addEventListener('contextmenu', e => { if (e.target.closest && e.target
 document.addEventListener('click', e => {
   const el = e.target.closest('[data-act]'); if (!el) return;
   const act = el.dataset.act, id = el.dataset.id;
-  if (!db && act !== 'person' && act !== 'home' && act !== 'wechseln' && act !== 'theme' && !act.startsWith('eltern')) return; /* auf der Startseite „Wer lernt?“ gibt es nur die Auswahl */
+  if (!db && act !== 'person' && act !== 'home' && act !== 'wechseln' && act !== 'theme' && act !== 'herkunft' && act !== 'dlg-close' && !act.startsWith('eltern')) return; /* auf der Startseite „Wer lernt?“ gibt es nur die Auswahl */
   const sess = db && db.session;
   switch (act) {
     case 'theme': toggleTheme(); break;
@@ -2277,6 +2300,7 @@ document.addEventListener('click', e => {
     case 'grp-toggle': { const g = el.dataset.g, zu = zuSet(); if (zu.has(g)) zu.delete(g); else zu.add(g); try { localStorage.setItem('lernhilfe.zu.' + cur.id, JSON.stringify([...zu])); } catch (err) { /* gilt dann nur für diese Sitzung */ } renderHome(); const nb = [...document.querySelectorAll('.pgbtn')].find(x => x.dataset.g === g); if (nb) nb.focus(); break; }
     case 'lib-toggle': { const g = el.dataset.g; if (libOffen.has(g)) libOffen.delete(g); else libOffen.add(g); renderLib(); break; }
     case 'dlg-close': closeDialog(); break;
+    case 'herkunft': herkunftDialog(); break;
     case 'eltern-ansicht': go('#/eltern'); break;
     case 'freund-ansehen': if (kindP() && freundListe().some(f => f.id === id)) go(H('freund/' + id)); break;
     case 'freund-neu': if (kindP() && freundListe().some(f => f.id === frFid)) rw(() => freundAbfragen(frFid)); break;
@@ -2387,6 +2411,7 @@ applyTheme(document.documentElement.dataset.theme || 'dark');
   let id = null; try { id = localStorage.getItem('lernhilfe.zuletzt'); } catch (e) { id = null; }
   if (id && personById(id)) history.replaceState(null, '', '#/' + id);
 })();
+rw(herkunftFooter);
 render();
 </script>
 </body>

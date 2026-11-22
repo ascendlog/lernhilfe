@@ -10,13 +10,17 @@ Die Namen stehen NICHT in diesem Skript, sondern in der Konfigurationsdatei (lie
     {"id": "anna", "name": "Anna", "klasse": "6", "farbe": "#5ec2ff", "h": 205, "auf_akzent": "#06202e", "akzent_hell": "#0b5a80"},
     {"id": "ben",  "name": "Ben",  "klasse": "5", "farbe": "#ff9e7d", "h": 14,  "auf_akzent": "#3a1306", "akzent_hell": "#a63d1a"}
   ],
-  "verboten": ["…Namen, die in der Kopie nirgends vorkommen dürfen…"]
+  "verboten": ["…Namen, die in der Kopie nirgends vorkommen dürfen…"],
+  "kennung": "lhf-0123456789ab",          (freiwillig: Kennung dieser Kopie; ohne Angabe wird eine neue vergeben)
+  "register": "/pfad/kopien-register.json" (freiwillig: Standard ist kopien-register.json neben der Konfiguration)
 }
+Jede Kopie bekommt eine Kennung (lhf-…): im Kopfkommentar, im Skript (HERKUNFT.kopie), im Dialog „Herkunft“ und am Fuß der Seite.
+Das Register (außerhalb des Repos) hält fest, welche Kennung wann für wen erzeugt wurde. Der Name des Urhebers steht in der Kopie nicht.
 Die Kopie enthält: index.html (Personenliste ersetzt, keine Namen der Ursprungsfamilie, keine Repo-Pakete),
 manifest und Icons, anleitung.html, vorlage.txt (für das Claude der Eltern), beispielpaket.json, README.md.
 Am Ende wird die Kopie nach den verbotenen Namen durchsucht; findet das Skript einen, bricht es ab.
 """
-import json, os, re, shutil, subprocess, sys
+import datetime, json, os, re, secrets, shutil, subprocess, sys
 
 HIER = os.path.dirname(os.path.abspath(__file__))
 REPO = os.path.dirname(HIER)
@@ -98,6 +102,8 @@ def lade_konfig(pfad):
     if ps[0]['id'] == ps[1]['id']:
         fehler('Die beiden ids müssen verschieden sein.')
     k.setdefault('verboten', [])
+    if 'kennung' in k and not re.fullmatch(r'lhf-[0-9a-f]{12}', str(k['kennung'])):
+        fehler('„kennung“ muss so aussehen: lhf- und 12 Zeichen 0-9, a-f.')
     return k
 
 
@@ -108,7 +114,7 @@ def platzhalter(text, ps):
     return text
 
 
-def kopie_index(s, ps):
+def kopie_index(s, ps, kennung):
     a, b = ps
     # 1. Eigener Speicher: Die Kopie darf sich auf derselben Domain keine Schlüssel mit der Ursprungs-App teilen.
     s, n = re.subn(r"'lernhilfe\.", "'lhfam.", s)
@@ -163,7 +169,32 @@ def kopie_index(s, ps):
                 lambda m: m.group(1) + '<p class="legend"><a class="link" href="anleitung.html">Anleitung: so kommen Aufgaben in die App</a></p>', name='Link Startseite')
     s = ersetze(s, r'(Du kannst sie auch einfach in dieses Fenster ziehen\.</p>)(</div>)',
                 lambda m: m.group(1) + '<p class="muted">Eltern: Die <a class="link" href="anleitung.html">Anleitung</a> enthält eine Vorlage, mit der Claude passende Pakete baut.</p>' + m.group(2), name='Link leere Startseite')
+
+    # 8. Herkunft: Der Name des Urhebers bleibt aus der Kopie heraus, dafür trägt sie ihre eigene Kennung.
+    s = ersetze(s, r'<meta name="author" content="[^"]*">\n', lambda m: '', name='meta author')
+    s = ersetze(s, r'<meta name="copyright" content="[^"]*">', lambda m: '<meta name="copyright" content="Alle Rechte vorbehalten.">', name='meta copyright')
+    s = ersetze(s, r'<!-- Lernhilfe · © \d{4} [^·]*· Alle Rechte vorbehalten · siehe LICENSE · Kennung (lhk-[0-9a-f]{12}) -->',
+                lambda m: f'<!-- Lernhilfe · Alle Rechte vorbehalten · Kennung {m.group(1)} · Kopie {kennung} -->', name='Kopfkommentar')
+    s = ersetze(s, r"autor: '[^']*'", lambda m: "autor: ''", name='HERKUNFT autor')
+    s = ersetze(s, r"kopie: ''", lambda m: f"kopie: '{kennung}'", name='HERKUNFT kopie')
     return s
+
+
+def register_eintragen(pfad, kennung, ps, ziel):
+    try:
+        with open(pfad, encoding='utf-8') as f:
+            reg = json.load(f)
+    except FileNotFoundError:
+        reg = []
+    jetzt = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec='seconds')
+    e = next((x for x in reg if x.get('kennung') == kennung), None)
+    if e is None:
+        e = {'kennung': kennung, 'erzeugt': jetzt, 'personen': [p['name'] for p in ps], 'ausgabe': ziel}
+        reg.append(e)
+    e['zuletzt'] = jetzt
+    with open(pfad, 'w', encoding='utf-8', newline='\n') as f:
+        json.dump(reg, f, ensure_ascii=False, indent=2)
+        f.write('\n')
 
 
 def node_pruefung(html, pfad):
@@ -188,9 +219,11 @@ def main():
         fehler('Kein Ausgabeordner (Argument 2 oder „ausgabe“ in der Konfiguration).')
     ps = k['personen']
     os.makedirs(ziel, exist_ok=True)
+    neu_vergeben = 'kennung' not in k
+    kennung = k['kennung'] if not neu_vergeben else 'lhf-' + secrets.token_hex(6)
 
     with open(os.path.join(REPO, 'index.html'), encoding='utf-8') as f:
-        html = kopie_index(f.read(), ps)
+        html = kopie_index(f.read(), ps, kennung)
     node_pruefung(html, os.path.join(ziel, '.pruefung'))
 
     def schreibe(name, text):
@@ -233,7 +266,12 @@ def main():
             fehler('Namen der Ursprungsfamilie in der Kopie:\n' + '\n'.join(funde))
     else:
         print('Hinweis: „verboten“ ist leer, keine Endkontrolle auf Namen.')
+    reg = k.get('register') or os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), 'kopien-register.json')
+    register_eintragen(reg, kennung, ps, os.path.abspath(ziel))
     print('Kopie erzeugt in', ziel)
+    print('Kennung dieser Kopie:', kennung, '(Register:', reg + ')')
+    if neu_vergeben:
+        print('Hinweis: neue Kennung vergeben. Soll eine spätere Kopie für dieselbe Familie dieselbe Kennung behalten, in der Konfiguration eintragen: "kennung": "' + kennung + '"')
     for d in sorted(os.listdir(ziel)):
         print('  ', d)
 
