@@ -1928,10 +1928,23 @@ function freundBereinigen(s, erwartet) { /* kommt übers Netz: nur die erwartete
   };
 }
 /* Zuhören: antwortet auf „album“ mit dem eigenen Stand */
-const fl = { peer: null, id: '', pid: '', timer: null, starting: false, gen: 0 };
+/* Gleiche Schutzmaßnahmen wie bei der Eltern-Ansicht (siehe dort): Der Vermittler vergisst die Anmeldung, wenn die Seite im Hintergrund war, ohne dass die Seite es merkt.
+   Darum nach dem Zurückkehren (>30 s) oder wenn das Netz wieder da ist neu anmelden, ein Wächter alle 15 s, bei Verbindungsverlust nie aufgeben. Ein Bildschirm-an-Sperre gibt es hier nicht,
+   denn das Kind sitzt ja am Gerät. */
+const fl = { peer: null, id: '', pid: '', timer: null, wd: null, starting: false, gen: 0, fehl: 0, t: 0 };
 function freundStop() {
-  clearTimeout(fl.timer); const pr = fl.peer; fl.peer = null; fl.id = ''; fl.pid = ''; fl.starting = false; fl.gen++;
+  clearTimeout(fl.timer); clearInterval(fl.wd); fl.wd = null; const pr = fl.peer; fl.peer = null; fl.id = ''; fl.pid = ''; fl.starting = false; fl.gen++; fl.fehl = 0;
   if (pr) { try { pr.destroy(); } catch (e) { /* egal */ } }
+}
+function frWachen(hart) { /* prüft, ob die Anmeldung beim Vermittler noch lebt; hart = nach dem Zurückkehren oder Netz wieder da: auf jeden Fall frisch anmelden */
+  const pr = fl.peer; if (!fl.id || !pr || document.hidden) return; /* ohne Peer läuft entweder das Laden oder ein geplanter Neuaufbau */
+  try {
+    if (pr.destroyed) { freundStop(); freundSync(); return; }
+    if (pr.disconnected) { pr.reconnect(); return; }
+    if (!pr.open) { if (Date.now() - fl.t > 25000) { freundStop(); freundSync(); } return; } /* hängt im Verbindungsaufbau */
+    let tot = false; try { const w = pr.socket && pr.socket._socket; tot = !!w && w.readyState !== undefined && w.readyState !== 1; } catch (e) { /* egal */ }
+    if (hart || tot) { pr.disconnect(); pr.reconnect(); } /* bestehende Verbindungen bleiben offen; derselbe Name wird sofort wieder angemeldet */
+  } catch (e) { try { freundStop(); freundSync(); } catch (e2) { /* egal */ } }
 }
 function freundSync() { /* wird bei jedem Seitenwechsel aufgerufen: zuhören, solange eine Person mit Freunden, Code und eingeschaltetem Album gewählt ist */
   const code = kindP() && freundListe().length ? freundCode() : '';
@@ -1944,9 +1957,19 @@ function freundSync() { /* wird bei jedem Seitenwechsel aufgerufen: zuhören, so
 }
 function freundHorchen(id, versuch) {
   let pr; try { pr = new Peer(id, { debug: 1 }); } catch (e) { return; }
-  fl.peer = pr;
+  fl.peer = pr; fl.t = Date.now();
+  if (!fl.wd) fl.wd = setInterval(() => rw(() => frWachen(false)), 15000);
   const aktuell = () => fl.peer === pr && fl.id === id;
   const neu = (ms, n) => { fl.peer = null; try { pr.destroy(); } catch (e) { /* egal */ } clearTimeout(fl.timer); fl.timer = setTimeout(() => { if (fl.id === id) freundHorchen(id, n); }, ms); };
+  const nachholen = () => { /* Verbindung zum Vermittler weg: zuerst unter derselben Kennung neu anmelden (mit wachsenden Pausen), nur wenn das nicht geht, den Peer neu aufbauen */
+    clearTimeout(fl.timer);
+    fl.timer = setTimeout(() => {
+      if (!aktuell()) return;
+      fl.fehl++;
+      try { if (pr.destroyed) neu(0, versuch + 1); else if (pr.disconnected) pr.reconnect(); /* sonst läuft die Anmeldung schon; hängt sie, merkt es der Wächter */ } catch (e) { neu(1000, versuch + 1); }
+    }, Math.min(20000, 1000 * 2 ** Math.min(fl.fehl, 4)));
+  };
+  pr.on('open', () => { if (aktuell()) { versuch = 0; fl.fehl = 0; fl.t = Date.now(); } });
   pr.on('connection', c => {
     if (!aktuell()) return;
     c.on('data', d => rw(() => {
@@ -1955,25 +1978,51 @@ function freundHorchen(id, versuch) {
     }));
     c.on('error', () => { /* das Gegenüber fragt noch einmal */ });
   });
-  pr.on('disconnected', () => { if (aktuell()) { try { pr.reconnect(); } catch (e) { /* wird beim nächsten Seitenwechsel neu versucht */ } } });
+  pr.on('disconnected', () => { if (aktuell()) { fl.t = Date.now(); nachholen(); } });
   pr.on('error', err => {
     if (!aktuell()) return;
     const t = err && err.type;
-    if (t === 'peer-unavailable') return;
-    if (versuch < 8) neu(t === 'unavailable-id' ? 3000 : 10000, versuch + 1); /* z. B. dasselbe Profil noch in einem anderen Fenster oder nach dem Neuladen */
+    if (t === 'peer-unavailable' || t === 'webrtc') return; /* betrifft nur eine einzelne Verbindung, nicht unsere Anmeldung */
+    if (t === 'unavailable-id') { neu(versuch < 25 ? 3000 : 30000, versuch + 1); return; } /* z. B. nach dem Neuladen: die alte Anmeldung läuft erst nach etwa einer Minute ab; ein anderes Fenster hält sie vielleicht dauerhaft */
+    if (!pr.destroyed && (t === 'network' || t === 'socket-error' || t === 'socket-closed')) { nachholen(); return; }
+    neu(Math.min(30000, 3000 + 3000 * versuch), versuch + 1); /* nie aufgeben, solange die Person gewählt ist */
   });
 }
+let frVersteckt = 0;
+document.addEventListener('visibilitychange', () => rw(() => {
+  if (document.hidden) { frVersteckt = Date.now(); return; }
+  const lang = frVersteckt && Date.now() - frVersteckt > 30000; frVersteckt = 0; /* so lange im Hintergrund: der Vermittler hat die Anmeldung vermutlich schon vergessen */
+  freundSync(); frWachen(lang);
+}));
+window.addEventListener('online', () => rw(() => { frWachen(true); frNochmal(); }));
+window.addEventListener('pageshow', e => rw(() => { if (e.persisted) { freundSync(); frWachen(true); } }));
+window.addEventListener('pagehide', () => { const pr = fl.peer; if (pr) { try { pr.destroy(); } catch (e) { /* egal */ } } }); /* Anmeldung beim Vermittler sauber beenden */
 /* Nachfragen: Album eines Freundes holen */
-let frSt = { status: '', snap: null }, frFid = '';
-function freundAbfragen(fid) {
-  const code = freundCode(), mine = cur.id;
-  frSt = { status: 'verbinde', snap: null }; frFid = fid; frZeichnen();
-  const fertig = (st, snap) => { if (cur && cur.id === mine && frFid === fid && location.hash === H('freund/' + fid)) { frSt = { status: st, snap: snap || null }; frZeichnen(); } };
+let frSt = { status: '', snap: null, weiter: false }, frFid = '', frTok = 0, frRetryT = null;
+const FR_WARTE = [4000, 8000, 15000]; /* Wiederholungen, wenn der Freund nicht antwortet; die Meldung steht schon da, der Versuch läuft im Hintergrund weiter */
+function frNochmal() { /* Netz wieder da: eine gescheiterte Abfrage gleich noch einmal */
+  if (!cur || !frFid || location.hash !== H('freund/' + frFid) || !['offline', 'zeit', 'fehler', 'bibliothek'].includes(frSt.status)) return;
+  freundAbfragen(frFid);
+}
+function freundAbfragen(fid, versuch) {
+  versuch = versuch || 0; clearTimeout(frRetryT);
+  const code = freundCode(), mine = cur.id, tok = versuch ? frTok : ++frTok;
+  if (!versuch) { frSt = { status: 'verbinde', snap: null, weiter: false }; frFid = fid; frZeichnen(); }
+  const aktiv = () => tok === frTok && cur && cur.id === mine && frFid === fid && location.hash === H('freund/' + fid);
+  const fertig = (st, snap) => {
+    if (!aktiv()) return;
+    if ((st === 'offline' || st === 'zeit' || st === 'fehler') && versuch < FR_WARTE.length) {
+      frSt = { status: st, snap: null, weiter: true }; frZeichnen();
+      frRetryT = setTimeout(() => rw(() => { if (aktiv()) freundAbfragen(fid, versuch + 1); }), FR_WARTE[versuch]);
+      return;
+    }
+    frSt = { status: st, snap: snap || null, weiter: false }; frZeichnen();
+  };
   if (!code) return fertig('code');
   peerLaden().then(() => new Promise(resolve => {
     let done = false, peer = null, conn = null, tm = null;
     const ende = (res, s) => { if (done) return; done = true; clearTimeout(tm); try { if (conn) conn.close(); } catch (e) { /* egal */ } try { if (peer) peer.destroy(); } catch (e) { /* egal */ } resolve([res, s]); };
-    tm = setTimeout(() => ende('offline'), 12000);
+    tm = setTimeout(() => ende('zeit'), 20000); /* Anmeldung beim Vermittler und Verbindungsaufbau übers Mobilfunknetz können länger dauern */
     try {
       peer = new Peer({ debug: 1 });
       peer.on('error', err => ende(err && err.type === 'peer-unavailable' ? 'offline' : 'fehler'));
@@ -1982,6 +2031,7 @@ function freundAbfragen(fid) {
         conn.on('open', () => { try { conn.send({ t: 'album' }); } catch (e) { ende('fehler'); } });
         conn.on('data', d => { if (d && d.t === 'album') { const s = freundBereinigen(d.s, fid); ende(s ? 'ok' : 'fehler', s); } else if (d && d.t === 'nein') ende('aus'); });
         conn.on('error', () => ende('fehler'));
+        conn.on('close', () => ende('fehler'));
       });
     } catch (e) { ende('fehler'); }
   })).catch(() => ['bibliothek']).then(([res, s]) => rw(() => fertig(res, s)));
@@ -2013,9 +2063,10 @@ function frZeichnen() {
     aus: `${n} hat sein Album gerade verborgen.`,
     code: 'Zuerst den Freunde-Code eintragen (Startseite, ganz unten). Den bekommst du von deinen Eltern.',
     bibliothek: 'Die Verbindungs-Bibliothek konnte nicht geladen werden. Ist das Internet an?',
+    zeit: `Die Verbindung zu ${n} hat zu lange gedauert. Ist das Internet an?`,
     fehler: 'Das hat nicht geklappt. Ist das Internet an? Probier es gleich noch einmal.'
   }[frSt.status];
-  if (msg) h += `<p class="note" role="status">${msg}</p>`;
+  if (msg) h += `<p class="note" role="status">${msg}${frSt.weiter ? ' Es wird weiter versucht.' : ''}</p>`;
   if (s) {
     const have = s.karten.filter(k => k.s).length;
     h += `<h2>Sammelalbum <span class="muted">(${have} von ${s.karten.length} ${w})</span></h2>${s.karten.length ? `<ul class="kgrid">${s.karten.map(freundKarteHtml).join('')}</ul>` : '<p class="muted">Noch keine Karten.</p>'}`;
