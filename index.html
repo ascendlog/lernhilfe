@@ -1794,7 +1794,8 @@ function peerLaden() {
 }
 
 /* ----- Senden (Kinder-Gerät) ----- */
-let elSendet = false, elLetzter = 0;
+let elSendet = false, elLetzter = 0, elFehl = 0, elRetryT = null;
+const EL_WARTE = [4000, 8000, 15000, 30000, 60000]; /* Pausen zwischen den Versuchen, wenn die Eltern-Ansicht nicht antwortet: erst schnell, dann seltener */
 function elternMerken(pid, werte) { /* db.eltern der Person ändern, auch wenn inzwischen jemand anderes gewählt ist */
   if (cur && cur.id === pid && db) { db.eltern = Object.assign({}, db.eltern, werte); save(true); return; }
   const raw = readRaw(keyOf(pid)); if (!raw) return;
@@ -1803,9 +1804,10 @@ function elternMerken(pid, werte) { /* db.eltern der Person ändern, auch wenn i
 }
 function elMsg(res) {
   if (res === 'ok') return 'Gesendet. Die Eltern-Ansicht hat deinen Stand.';
-  if (res === 'offline' || res === 'zeit') return 'Die Eltern-Ansicht ist gerade nicht offen (oder der Code stimmt nicht). Der Stand wird später gesendet.';
+  if (res === 'offline') return 'Die Eltern-Ansicht ist gerade nicht offen (Bildschirm aus oder Code falsch?). Es wird automatisch weiter versucht.';
+  if (res === 'zeit') return 'Die Verbindung zur Eltern-Ansicht hat zu lange gedauert. Es wird automatisch weiter versucht.';
   if (res === 'beschaeftigt') return 'Es wird schon gesendet …';
-  return 'Das Senden hat nicht geklappt. Ist das Internet an? Der Stand wird später gesendet.';
+  return 'Das Senden hat nicht geklappt. Ist das Internet an? Es wird automatisch weiter versucht.';
 }
 function elternSenden() { /* Antwort: 'ok', 'offline', 'zeit', 'fehler', 'beschaeftigt', 'keincode', 'nein' */
   if (!kindP()) return Promise.resolve('nein');
@@ -1817,7 +1819,7 @@ function elternSenden() { /* Antwort: 'ok', 'offline', 'zeit', 'fehler', 'bescha
   return peerLaden().then(() => new Promise(resolve => {
     let fertig = false, peer = null, conn = null, tm = null;
     const ende = res => { if (fertig) return; fertig = true; clearTimeout(tm); try { if (conn) conn.close(); } catch (e) { /* egal */ } try { if (peer) peer.destroy(); } catch (e) { /* egal */ } resolve(res); };
-    tm = setTimeout(() => ende('zeit'), 15000);
+    tm = setTimeout(() => ende('zeit'), 25000); /* Anmeldung beim Vermittler und Verbindungsaufbau übers Mobilfunknetz können länger dauern */
     try {
       peer = new Peer({ debug: 1 });
       peer.on('error', err => ende(err && err.type === 'peer-unavailable' ? 'offline' : 'fehler'));
@@ -1832,15 +1834,15 @@ function elternSenden() { /* Antwort: 'ok', 'offline', 'zeit', 'fehler', 'bescha
   })).catch(() => 'fehler').then(res => {
     elSendet = false;
     rw(() => {
-      if (res === 'ok') elternMerken(pid, { gesendet: Date.now(), offen: false });
-      else { const o = (cur && cur.id === pid && db ? db.eltern : (readRaw(keyOf(pid)) || {}).eltern) || {}; elternMerken(pid, { offen: true, seit: o.offen && o.seit ? o.seit : Date.now() }); }
+      if (res === 'ok') { elFehl = 0; clearTimeout(elRetryT); elternMerken(pid, { gesendet: Date.now(), offen: false }); }
+      else { const o = (cur && cur.id === pid && db ? db.eltern : (readRaw(keyOf(pid)) || {}).eltern) || {}; elternMerken(pid, { offen: true, seit: o.offen && o.seit ? o.seit : Date.now() }); elFehl++; elternPlan(); }
     });
     return res;
   });
 }
 function elStatusTxt() {
   const e = db.eltern || {};
-  return e.offen ? 'Wird an die Eltern-Ansicht gesendet …' : e.gesendet ? '✓ An die Eltern-Ansicht gesendet (' + wannTxt(e.gesendet) + ').' : '';
+  return e.offen ? (elFehl ? 'Die Eltern-Ansicht ist noch nicht erreichbar. Es wird weiter versucht (bisher ' + elFehl + (elFehl === 1 ? ' Versuch' : ' Versuche') + ').' : 'Wird an die Eltern-Ansicht gesendet …') : e.gesendet ? '✓ An die Eltern-Ansicht gesendet (' + wannTxt(e.gesendet) + ').' : '';
 }
 function elternStatus(res) { /* zeigt das Ergebnis eines Sendeversuchs an, falls die Stelle gerade auf dem Bildschirm ist */
   if (!kindP()) return;
@@ -1854,13 +1856,26 @@ function elternAuto() { /* nach jedem Durchgang: gleich senden, sonst später na
   clearTimeout(elAutoT);
   elAutoT = setTimeout(() => rw(() => { if (kindP() && kindCode()) elternSenden().then(res => rw(() => elternStatus(res))); }), 1200);
 }
-function elternRetry() { /* offen gebliebenen Stand nachholen: beim Öffnen und alle paar Minuten, solange die Lernhilfe sichtbar ist */
-  if (!kindP() || !kindCode() || document.hidden || elSendet) return;
-  const e = db.eltern; if (!e || !e.offen || Date.now() - elLetzter < 60000) return;
+/* Offen gebliebenen Stand nachholen. Nach einem Fehlschlag gibt es eine Kette von Versuchen (4, 8, 15, 30, dann alle 60 Sekunden), solange die Lernhilfe sichtbar ist (höchstens 12 Stunden).
+   Dazu kommt ein Versuch beim Öffnen der Startseite, beim Zurückkehren in die App und wenn das Netz wieder da ist; die Eltern-Ansicht meldet sich ja oft erst dann wieder beim Vermittler an. */
+function elternPlan() {
+  clearTimeout(elRetryT);
+  if (!kindP() || !kindCode()) return;
+  elRetryT = setTimeout(() => rw(elternRetry), EL_WARTE[Math.min(Math.max(elFehl, 1), EL_WARTE.length) - 1]);
+}
+function elternRetry() {
+  if (kindP() && kindCode() && !window.Peer) peerLaden().catch(() => { /* wird beim Senden erneut versucht */ }); /* Bibliothek schon vorher holen, damit das Senden nicht darauf warten muss */
+  clearTimeout(elRetryT);
+  if (!kindP() || !kindCode()) return;
+  const e = db.eltern; if (!e || !e.offen) { elFehl = 0; return; }
+  if (document.hidden || Date.now() - (e.seit || 0) > 12 * 36e5) return; /* beim Zurückkehren geht es von selbst weiter */
+  const warte = elSendet ? 3000 : 3000 - (Date.now() - elLetzter); /* nie zwei Versuche gleichzeitig oder dicht hintereinander */
+  if (warte > 0) { elRetryT = setTimeout(() => rw(elternRetry), warte); return; }
   elternSenden().then(res => rw(() => elternStatus(res)));
 }
-setInterval(() => rw(() => { const e = kindP() && db.eltern; if (e && e.offen && Date.now() - (e.seit || 0) < 12 * 36e5) elternRetry(); }), 90000);
+setInterval(() => rw(elternRetry), 60000);
 document.addEventListener('visibilitychange', () => { if (!document.hidden) rw(elternRetry); });
+['online', 'pageshow', 'focus'].forEach(ev => window.addEventListener(ev, () => rw(elternRetry)));
 
 /* ----- Kinder-Gerät: Oberfläche ----- */
 function elHomeInner() {
@@ -2047,17 +2062,44 @@ function elBereinigen(s) { /* Alles, was übers Netz kommt oder aus dem Speicher
     erg: arr(s.erg, 15).map(x => ({ t: nz(x.t, 0, jetzt), i: sz(x.i, 80), m: ['p', 'u', 'f'].includes(x.m) ? x.m : 'u', p: nz(x.p, 0, 100), s: nz(x.s, 0, 36000), w: Array.isArray(x.w) && x.w.length === 2 ? [sz(x.w[0], 60), nz(x.w[1], 0, 100)] : null }))
   };
 }
-const elP = { peer: null, aktiv: false, status: '', msg: '', timer: null };
-function elStatus(status, msg) { elP.status = status; elP.msg = msg || ''; if (location.hash === '#/eltern') elRender(); }
+/* Warum die Verbindung der Eltern-Ansicht leicht „einschläft“: Der Vermittler vergisst eine Anmeldung nach etwa einer Minute ohne Lebenszeichen. Ist die Seite im Hintergrund oder der Bildschirm aus,
+   stehen die Zeitgeber still, und die Anmeldung ist weg, ohne dass die Seite es merkt. Deshalb: (1) Bildschirm anlassen (Wake Lock), (2) nach dem Zurückkehren oder wenn das Netz wieder da ist
+   gleich unter derselben Kennung neu anmelden, (3) ein Wächter prüft alle 15 Sekunden, (4) bei Verbindungsverlust nie aufgeben, sondern mit wachsenden Pausen weiter versuchen. */
+const elP = { peer: null, aktiv: false, status: '', msg: '', timer: null, wd: null, wl: null, seit: 0, t: 0, fehl: 0, weg: 0 };
+function elStatus(status, msg) { if (elP.status !== status) elP.t = Date.now(); elP.status = status; elP.msg = msg || ''; if (location.hash === '#/eltern') elRender(); }
+function elWlFrei() { const wl = elP.wl; elP.wl = null; if (wl) { try { wl.release().catch(() => { /* egal */ }); } catch (e) { /* egal */ } } }
+function elWlHolen() { /* Bildschirm anlassen, solange die Eltern-Ansicht offen ist (wo der Browser es kann) */
+  try {
+    if (!navigator.wakeLock || !elP.aktiv || document.hidden || elP.wl) return;
+    navigator.wakeLock.request('screen').then(wl => {
+      if (!elP.aktiv || elP.wl) { try { wl.release().catch(() => { /* egal */ }); } catch (e) { /* egal */ } return; }
+      elP.wl = wl;
+      wl.addEventListener('release', () => { if (elP.wl === wl) { elP.wl = null; if (location.hash === '#/eltern') elRender(); } });
+      if (location.hash === '#/eltern') elRender();
+    }, () => { /* nicht erlaubt (z. B. Energiesparmodus): dann bleibt es beim normalen Verhalten */ });
+  } catch (e) { /* egal */ }
+}
 function elternStop() {
-  elP.aktiv = false; clearTimeout(elP.timer);
-  const pr = elP.peer; elP.peer = null; elP.status = '';
+  elP.aktiv = false; clearTimeout(elP.timer); clearInterval(elP.wd); elWlFrei();
+  const pr = elP.peer; elP.peer = null; elP.status = ''; elP.fehl = 0;
   if (pr) { try { pr.destroy(); } catch (e) { /* egal */ } }
 }
 function elternStart() {
   if (!elRead().code) return;
   elternStop(); elP.aktiv = true; elStatus('verbinde');
+  elP.wd = setInterval(() => rw(() => elWachen(false)), 15000); elWlHolen();
   peerLaden().then(() => { if (elP.aktiv) elHorchen(0); }, () => { if (elP.aktiv) elStatus('fehler', 'Die Verbindungs-Bibliothek konnte nicht geladen werden. Ist das Internet an?'); });
+}
+function elWachen(hart) { /* prüft, ob die Anmeldung beim Vermittler noch lebt; hart = nach dem Zurückkehren oder Netz wieder da: auf jeden Fall frisch anmelden */
+  const pr = elP.peer; if (!elP.aktiv || document.hidden) return;
+  if (!pr) { if (elP.status !== 'verbinde' && elP.status !== 'belegt') elternStart(); return; }
+  try {
+    if (pr.destroyed) { elternStart(); return; }
+    if (pr.disconnected) { pr.reconnect(); return; }
+    if (!pr.open) { if (Date.now() - elP.t > 25000) elternStart(); return; } /* hängt im Verbindungsaufbau */
+    let tot = false; try { const w = pr.socket && pr.socket._socket; tot = !!w && w.readyState !== undefined && w.readyState !== 1; } catch (e) { /* egal */ }
+    if (hart || tot) { pr.disconnect(); pr.reconnect(); } /* bestehende Kinder-Verbindungen bleiben dabei offen; derselbe Name wird sofort wieder angemeldet */
+  } catch (e) { elternStart(); }
 }
 function elHorchen(versuch) {
   const code = elRead().code; let pr;
@@ -2065,18 +2107,27 @@ function elHorchen(versuch) {
   elP.peer = pr;
   const aktuell = () => elP.peer === pr && elP.aktiv;
   const neu = (ms, n) => { elP.peer = null; try { pr.destroy(); } catch (e) { /* egal */ } clearTimeout(elP.timer); elP.timer = setTimeout(() => { if (elP.aktiv) elHorchen(n); }, ms); };
-  pr.on('open', () => { if (aktuell()) elStatus('bereit'); });
+  const nachholen = () => { /* Verbindung zum Vermittler weg: zuerst unter derselben Kennung neu anmelden (mit wachsenden Pausen), nur wenn das nicht geht, den Peer neu aufbauen */
+    clearTimeout(elP.timer);
+    elP.timer = setTimeout(() => {
+      if (!aktuell()) return;
+      elP.fehl++;
+      try { if (pr.destroyed) neu(0, versuch + 1); else if (pr.disconnected) pr.reconnect(); /* sonst läuft die Anmeldung schon; hängt sie, merkt es der Wächter */ } catch (e) { neu(1000, versuch + 1); }
+    }, Math.min(20000, 1000 * 2 ** Math.min(elP.fehl, 4)));
+  };
+  pr.on('open', () => { if (aktuell()) { versuch = 0; elP.fehl = 0; elP.seit = Date.now(); elStatus('bereit'); } });
   pr.on('connection', c => { if (!aktuell()) return; c.on('data', d => rw(() => elEmpfang(c, d))); c.on('error', () => { /* das Kind sendet es später noch einmal */ }); });
-  pr.on('disconnected', () => { if (!aktuell()) return; elStatus('verbinde'); try { pr.reconnect(); } catch (e) { /* wird beim Zurückkehren neu versucht */ } });
+  pr.on('disconnected', () => { if (!aktuell()) return; elStatus('verbinde', 'Verbindung zum Vermittlungsserver unterbrochen. Es wird neu verbunden …'); nachholen(); });
   pr.on('error', err => {
     if (!aktuell()) return;
     const t = err && err.type;
-    if (t === 'unavailable-id') { /* z. B. nach dem Neuladen, die alte Anmeldung läuft erst nach einigen Sekunden ab */
-      if (versuch < 10) { elStatus('verbinde', 'Einen Moment, die alte Verbindung wird freigegeben …'); neu(2000, versuch + 1); } else elStatus('belegt');
+    if (t === 'unavailable-id') { /* z. B. nach dem Neuladen: die alte Anmeldung läuft erst nach etwa einer Minute ab */
+      if (versuch < 25) { elStatus('verbinde', 'Einen Moment, die alte Verbindung wird freigegeben …'); neu(3000, versuch + 1); } else elStatus('belegt');
       return;
     }
-    if (t === 'peer-unavailable') return;
-    if (versuch < 30) { elStatus('fehler', 'Keine Verbindung zum Vermittlungsserver. Es wird weiter versucht …'); neu(8000, versuch + 1); } else elStatus('fehler', 'Keine Verbindung zum Vermittlungsserver.');
+    if (t === 'peer-unavailable' || t === 'webrtc') return; /* betrifft nur eine einzelne Verbindung, nicht unsere Anmeldung */
+    if (!pr.destroyed && (t === 'network' || t === 'socket-error' || t === 'socket-closed')) { elStatus('verbinde', 'Verbindung zum Vermittlungsserver unterbrochen. Es wird neu verbunden …'); nachholen(); return; }
+    elStatus('fehler', 'Keine Verbindung zum Vermittlungsserver. Es wird weiter versucht …'); neu(Math.min(30000, 3000 + 3000 * versuch), versuch + 1); /* nie aufgeben, solange die Ansicht offen ist */
   });
 }
 function elEmpfang(c, d) {
@@ -2088,10 +2139,17 @@ function elEmpfang(c, d) {
   antwort({ t: 'ok' });
   if (location.hash === '#/eltern') elRender();
 }
+let elVersteckt = 0;
 document.addEventListener('visibilitychange', () => rw(() => {
-  if (document.hidden || location.hash !== '#/eltern' || !elRead().code) return;
-  const pr = elP.peer; if (!elP.aktiv || !pr || pr.destroyed || pr.disconnected) elternStart();
+  if (document.hidden) { elVersteckt = Date.now(); return; }
+  const lang = elVersteckt && Date.now() - elVersteckt > 30000; elVersteckt = 0; /* so lange im Hintergrund: der Vermittler hat die Anmeldung vermutlich schon vergessen */
+  if (location.hash !== '#/eltern' || !elRead().code) return;
+  if (!elP.aktiv) { elternStart(); return; }
+  elWlHolen(); elWachen(lang);
 }));
+window.addEventListener('online', () => rw(() => { if (location.hash === '#/eltern' && elP.aktiv) elWachen(true); }));
+window.addEventListener('pageshow', e => rw(() => { if (e.persisted && location.hash === '#/eltern' && elRead().code) { const pr = elP.peer; if (!elP.aktiv || !pr || pr.destroyed) elternStart(); else { elWlHolen(); elWachen(true); } } }));
+window.addEventListener('pagehide', () => { const pr = elP.peer; if (pr) { try { pr.destroy(); } catch (e) { /* egal */ } } }); /* Anmeldung beim Vermittler sauber beenden, damit sie nicht als „belegt“ hängen bleibt */
 function renderEltern() {
   $('#crumb').textContent = 'Eltern-Ansicht'; document.title = 'Lernhilfe – Eltern-Ansicht';
   $('#whoBtn').hidden = true; $('#bkBtn').hidden = true;
@@ -2133,8 +2191,8 @@ function elRender() {
     h += '<div class="card"><p>Hier sehen Sie, wie die Kinder üben: Lernstand je Paket, letzte Ergebnisse, Punkte und Termine. Die Kinder schicken ihren Stand direkt von ihrem Gerät an dieses Gerät, ohne eigenen Server und ohne Konto.</p><p class="muted">Dafür richten Sie hier einmal einen Familiencode ein und tragen ihn auf den Geräten der Kinder ein. Beim Üben muss diese Ansicht offen sein (Bildschirm an), sonst wartet der Stand und wird später gesendet.</p><div class="row"><button class="btn" data-act="eltern-setup">Eltern-Ansicht einrichten</button></div></div></div>';
     $('#app').innerHTML = h; window.scrollTo(0, y); return;
   }
-  const stTxt = { bereit: ['ok', 'Bereit – der Stand kommt an, sobald ein Kind einen Durchgang abgibt.'], verbinde: ['', 'Verbinde mit dem Vermittlungsserver …'], fehler: ['bad', 'Nicht verbunden.'], belegt: ['bad', 'Diese Eltern-Ansicht ist schon in einem anderen Fenster oder auf einem anderen Gerät geöffnet.'] }[elP.status] || ['', 'Nicht verbunden.'];
-  h += `<div class="card"><div class="row" style="justify-content:space-between"><span class="elst ${stTxt[0]}" role="status">${esc(stTxt[1])}</span>${elP.status === 'bereit' || elP.status === 'verbinde' ? '' : '<button class="btn sec sm" data-act="eltern-neustart">Erneut verbinden</button>'}</div>${elP.msg ? `<p class="muted" style="margin:.5rem 0 0">${esc(elP.msg)}</p>` : ''}<p class="muted" style="margin:.7rem 0 .2rem">Familiencode für die Geräte der Kinder: Startseite → „Mit Eltern-Ansicht verbinden“.</p><div class="row"><span class="elcode">${esc(elCodeShow(o.code))}</span><button class="btn sec sm" data-act="eltern-code-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-code-neu">Neuer Code</button></div><p class="legend" style="margin:.7rem 0 0">Lassen Sie diese Seite offen, solange die Kinder üben (Bildschirm an). Die Daten gehen direkt von Gerät zu Gerät. Für das Freunde-Album gibt es unten einen eigenen Code.</p></div>`;
+  const stTxt = { bereit: ['ok', 'Bereit seit ' + uhrzeit(elP.seit || Date.now()) + ' – der Stand kommt an, sobald ein Kind einen Durchgang abgibt.'], verbinde: ['', 'Verbinde mit dem Vermittlungsserver …'], fehler: ['bad', 'Nicht verbunden.'], belegt: ['bad', 'Diese Eltern-Ansicht ist schon in einem anderen Fenster oder auf einem anderen Gerät geöffnet.'] }[elP.status] || ['', 'Nicht verbunden.'];
+  h += `<div class="card"><div class="row" style="justify-content:space-between"><span class="elst ${stTxt[0]}" role="status">${esc(stTxt[1])}</span>${elP.status === 'verbinde' ? '' : elP.status === 'bereit' ? '<button class="btn ghost sm" data-act="eltern-neustart">Auffrischen</button>' : '<button class="btn sec sm" data-act="eltern-neustart">Erneut verbinden</button>'}</div>${elP.msg ? `<p class="muted" style="margin:.5rem 0 0">${esc(elP.msg)}</p>` : ''}<p class="muted" style="margin:.7rem 0 .2rem">Familiencode für die Geräte der Kinder: Startseite → „Mit Eltern-Ansicht verbinden“.</p><div class="row"><span class="elcode">${esc(elCodeShow(o.code))}</span><button class="btn sec sm" data-act="eltern-code-kopieren">Code kopieren</button><button class="btn ghost sm" data-act="eltern-code-neu">Neuer Code</button></div><p class="legend" style="margin:.7rem 0 0">${elP.wl ? 'Lassen Sie diese Seite offen, solange die Kinder üben. Der Bildschirm bleibt dabei an.' : 'Lassen Sie diese Seite offen, solange die Kinder üben (Bildschirm an).'} Die Daten gehen direkt von Gerät zu Gerät. Für das Freunde-Album gibt es unten einen eigenen Code.</p></div>`;
   h += rw(() => elFreundCard(o), '');
   h += kinder.map(k => elKindHtml(k, o.kinder[k.id])).join('') + '</div>';
   $('#app').innerHTML = h; window.scrollTo(0, y);
