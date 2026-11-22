@@ -12,10 +12,12 @@ Die Namen stehen NICHT in diesem Skript, sondern in der Konfigurationsdatei (lie
   ],
   "verboten": ["…Namen, die in der Kopie nirgends vorkommen dürfen…"],
   "kennung": "lhf-0123456789ab",          (freiwillig: Kennung dieser Kopie; ohne Angabe wird eine neue vergeben)
-  "register": "/pfad/kopien-register.json" (freiwillig: Standard ist kopien-register.json neben der Konfiguration)
+  "register": "/pfad/kopien-register.json" (freiwillig: Standard ist kopien-register.json neben der Konfiguration),
+  "urheber_nennen": true                   (freiwillig: der Name des Urhebers aus der App bleibt in der Kopie; Standard: ohne Namen)
 }
 Jede Kopie bekommt eine Kennung (lhf-…): im Kopfkommentar, im Skript (HERKUNFT.kopie), im Dialog „Herkunft“ und am Fuß der Seite.
-Das Register (außerhalb des Repos) hält fest, welche Kennung wann für wen erzeugt wurde. Der Name des Urhebers steht in der Kopie nicht.
+Das Register (außerhalb des Repos) hält fest, welche Kennung wann für wen erzeugt wurde. Der Name des Urhebers steht in der Kopie nur mit „urheber_nennen“.
+In „verboten“ darf der Name des Urhebers stehen: Mit „urheber_nennen“ wird genau diese Zeichenfolge (HERKUNFT.autor) bei der Namenssuche übergangen, jede andere Nennung bricht weiter ab.
 Die Kopie enthält: index.html (Personenliste ersetzt, keine Namen der Ursprungsfamilie, keine Repo-Pakete),
 manifest und Icons, anleitung.html, vorlage.txt (für das Claude der Eltern), beispielpaket.json, README.md.
 Am Ende wird die Kopie nach den verbotenen Namen durchsucht; findet das Skript einen, bricht es ab.
@@ -104,6 +106,8 @@ def lade_konfig(pfad):
     k.setdefault('verboten', [])
     if 'kennung' in k and not re.fullmatch(r'lhf-[0-9a-f]{12}', str(k['kennung'])):
         fehler('„kennung“ muss so aussehen: lhf- und 12 Zeichen 0-9, a-f.')
+    if 'urheber_nennen' in k and not isinstance(k['urheber_nennen'], bool):
+        fehler('„urheber_nennen“ muss true oder false sein.')
     return k
 
 
@@ -114,7 +118,7 @@ def platzhalter(text, ps):
     return text
 
 
-def kopie_index(s, ps, kennung):
+def kopie_index(s, ps, kennung, urheber_nennen=False):
     a, b = ps
     # 1. Eigener Speicher: Die Kopie darf sich auf derselben Domain keine Schlüssel mit der Ursprungs-App teilen.
     s, n = re.subn(r"'lernhilfe\.", "'lhfam.", s)
@@ -170,12 +174,17 @@ def kopie_index(s, ps, kennung):
     s = ersetze(s, r'(Du kannst sie auch einfach in dieses Fenster ziehen\.</p>)(</div>)',
                 lambda m: m.group(1) + '<p class="muted">Eltern: Die <a class="link" href="anleitung.html">Anleitung</a> enthält eine Vorlage, mit der Claude passende Pakete baut.</p>' + m.group(2), name='Link leere Startseite')
 
-    # 8. Herkunft: Der Name des Urhebers bleibt aus der Kopie heraus, dafür trägt sie ihre eigene Kennung.
-    s = ersetze(s, r'<meta name="author" content="[^"]*">\n', lambda m: '', name='meta author')
-    s = ersetze(s, r'<meta name="copyright" content="[^"]*">', lambda m: '<meta name="copyright" content="Alle Rechte vorbehalten.">', name='meta copyright')
-    s = ersetze(s, r'<!-- Lernhilfe · © \d{4} [^·]*· Alle Rechte vorbehalten · siehe LICENSE · Kennung (lhk-[0-9a-f]{12}) -->',
-                lambda m: f'<!-- Lernhilfe · Alle Rechte vorbehalten · Kennung {m.group(1)} · Kopie {kennung} -->', name='Kopfkommentar')
-    s = ersetze(s, r"autor: '[^']*'", lambda m: "autor: ''", name='HERKUNFT autor')
+    # 8. Herkunft: Standardmäßig bleibt der Name des Urhebers aus der Kopie heraus; mit „urheber_nennen“ bleibt er stehen.
+    #    In beiden Fällen trägt die Kopie ihre eigene Kennung.
+    if urheber_nennen:
+        s = ersetze(s, r'<!-- Lernhilfe · (© \d{4} [^·]*· Alle Rechte vorbehalten) · siehe LICENSE · Kennung (lhk-[0-9a-f]{12}) -->',
+                    lambda m: f'<!-- Lernhilfe · {m.group(1)} · Kennung {m.group(2)} · Kopie {kennung} -->', name='Kopfkommentar (mit Namen)')
+    else:
+        s = ersetze(s, r'<meta name="author" content="[^"]*">\n', lambda m: '', name='meta author')
+        s = ersetze(s, r'<meta name="copyright" content="[^"]*">', lambda m: '<meta name="copyright" content="Alle Rechte vorbehalten.">', name='meta copyright')
+        s = ersetze(s, r'<!-- Lernhilfe · © \d{4} [^·]*· Alle Rechte vorbehalten · siehe LICENSE · Kennung (lhk-[0-9a-f]{12}) -->',
+                    lambda m: f'<!-- Lernhilfe · Alle Rechte vorbehalten · Kennung {m.group(1)} · Kopie {kennung} -->', name='Kopfkommentar')
+        s = ersetze(s, r"autor: '[^']*'", lambda m: "autor: ''", name='HERKUNFT autor')
     s = ersetze(s, r"kopie: ''", lambda m: f"kopie: '{kennung}'", name='HERKUNFT kopie')
     return s
 
@@ -223,7 +232,14 @@ def main():
     kennung = k['kennung'] if not neu_vergeben else 'lhf-' + secrets.token_hex(6)
 
     with open(os.path.join(REPO, 'index.html'), encoding='utf-8') as f:
-        html = kopie_index(f.read(), ps, kennung)
+        orig = f.read()
+    urheber = None
+    if k.get('urheber_nennen'):
+        m = re.search(r"autor: '([^']+)'", orig)
+        if not m:
+            fehler('„urheber_nennen“: In index.html steht kein Urhebername (HERKUNFT.autor).')
+        urheber = m.group(1)
+    html = kopie_index(orig, ps, kennung, bool(urheber))
     node_pruefung(html, os.path.join(ziel, '.pruefung'))
 
     def schreibe(name, text):
@@ -259,7 +275,7 @@ def main():
                 p = os.path.join(wurzel, d)
                 with open(p, encoding='utf-8', errors='replace') as f:
                     for nr, zeile in enumerate(f, 1):
-                        m = rx.search(zeile)
+                        m = rx.search(zeile.replace(urheber, '') if urheber else zeile)  # der erlaubte Name wird übergangen, alles andere nicht
                         if m:
                             funde.append(f'  „{m.group(0)}“ in {os.path.relpath(p, ziel)}, Zeile {nr}: {zeile.strip()[:140]}')
         if funde:
@@ -268,6 +284,8 @@ def main():
         print('Hinweis: „verboten“ ist leer, keine Endkontrolle auf Namen.')
     reg = k.get('register') or os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), 'kopien-register.json')
     register_eintragen(reg, kennung, ps, os.path.abspath(ziel))
+    if urheber:
+        print(f'Hinweis: Der Name „{urheber}“ steht in der Kopie (urheber_nennen).')
     print('Kopie erzeugt in', ziel)
     print('Kennung dieser Kopie:', kennung, '(Register:', reg + ')')
     if neu_vergeben:
