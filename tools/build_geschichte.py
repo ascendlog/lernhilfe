@@ -16,6 +16,7 @@ OUT = os.path.join(HIER, '..', 'pakete', 'joel-dario')
 os.makedirs(OUT, exist_ok=True)
 
 import gesch_p1, gesch_p2, gesch_p3, gesch_p4, gesch_p5, gesch_p6
+from repo_ziel import finde   # noqa: E402
 
 THEMA = 'geschichte'
 TERMIN = '2026-11-16'   # Geschichte-Arbeit (Montag)
@@ -42,11 +43,8 @@ def datei(p):
 
 
 def ziel(p):
-    """(Ordner, Eintrag für index.json): Ist das Thema abgeschlossen (liegt unter abgeschlossen/geschichte/), wird dort weitergeschrieben."""
-    abg = os.path.join(OUT, 'abgeschlossen', THEMA)
-    if os.path.exists(os.path.join(abg, datei(p))):
-        return abg, f'abgeschlossen/{THEMA}/{datei(p)}'
-    return OUT, datei(p)
+    """(Ordner, Eintrag für index.json): Liegt das Paket schon in einem Unterordner (abgeschlossen/geschichte/ oder einem Arbeits-Ordner), wird dort weitergeschrieben."""
+    return finde(OUT, THEMA, datei(p))
 
 
 def main():

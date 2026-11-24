@@ -16,6 +16,7 @@ OUT = os.path.join(HIER, '..', 'pakete', 'joel-dario')
 os.makedirs(OUT, exist_ok=True)
 
 import geo_p1, geo_p2, geo_p3, geo_p4, geo_pt, geo_crashkurs, geo_lesen
+from repo_ziel import finde   # noqa: E402
 
 ALT = ['geografie-nordsee-wattenmeer.json']   # alter Entwurf mit 13 Aufgaben, ersetzt durch die neuen Pakete
 
@@ -28,11 +29,8 @@ THEMA = 'geografie'
 
 
 def ziel(p):
-    """(Ordner, Eintrag für index.json): Ist das Thema abgeschlossen (Datei liegt unter abgeschlossen/geografie/), wird dort weitergeschrieben."""
-    abg = os.path.join(OUT, 'abgeschlossen', THEMA)
-    if os.path.exists(os.path.join(abg, datei(p))):
-        return abg, f'abgeschlossen/{THEMA}/{datei(p)}'
-    return OUT, datei(p)
+    """(Ordner, Eintrag für index.json): Liegt das Paket schon in einem Unterordner (abgeschlossen/geografie/ oder einem Arbeits-Ordner), wird dort weitergeschrieben."""
+    return finde(OUT, THEMA, datei(p))
 
 
 def main():

@@ -2277,26 +2277,44 @@ function download(name, text) {
 let libItems = [];
 const libOffen = new Set(); /* aufgeklappte Gruppen (nur für die Dauer der Sitzung) */
 const libThema = t => t.replace(/[-_]+/g, ' ').replace(/^./, c => c.toUpperCase());
-function libRow(x, i) {
+function libStatus(x) {
   const have = x.p && getPack(x.p.id); const ohneP = q => { const c = { ...q }; delete c.person; delete c.kind; return JSON.stringify(c); }; /* wer das Paket bekommt, ändert nichts am Inhalt */
-  const same = have && ohneP(have) === ohneP(normalizePack(JSON.parse(JSON.stringify(x.p))));
+  return { have, same: !!(have && ohneP(have) === ohneP(normalizePack(JSON.parse(JSON.stringify(x.p))))) };
+}
+function libRow(x, i) {
+  const { have, same } = libStatus(x);
   return `<div class="lib"><div><strong>${esc(x.p ? x.p.titel : x.f)}</strong><div class="muted">${x.errs.length ? 'Fehler: ' + esc(x.errs[0]) : esc([x.p.fach, x.p.aufgaben.length + ' Aufgaben'].filter(Boolean).join(', '))}</div></div>${x.errs.length ? '' : same ? '<span class="muted">aktuell</span>' : `<button class="btn sm" data-act="lib-add" data-i="${i}">${have ? 'Aktualisieren' : 'Hinzufügen'}</button>`}</div>`;
 }
-/* Abgeschlossene Themen liegen im Repo in pakete/<ordner>/abgeschlossen/<thema>/ und stehen in der index.json als „abgeschlossen/<thema>/<datei>.json“. */
+/* Ordnung im Repo: Jede Arbeit bekommt einen Unterordner pakete/<ordner>/<arbeit>/ (z. B. deutscharbeit-02.12.2026), die index.json nennt die Dateien als „<arbeit>/<datei>.json“.
+   Die App zeigt jede Arbeit als eigene Gruppe (aufgeklappt, mit „Alle hinzufügen“). Ist die Arbeit vorbei, wandert der Ordner nach pakete/<ordner>/abgeschlossen/<arbeit>/ und steht dann
+   unten in der eingeklappten Gruppe „Abgeschlossen“ (ebenso abgeschlossen/<thema>/ für alte Themen). Pakete ohne Unterordner stehen wie bisher einzeln oben. */
+function libGruppe(f) { /* ['fertig'|'arbeit', Name] oder null */
+  let m = /^abgeschlossen\/([^/]+)\//.exec(f); if (m) return ['fertig', m[1]];
+  m = /^([^/]+)\//.exec(f); return m && m[1] !== 'abgeschlossen' ? ['arbeit', m[1]] : null;
+}
+const libZu = new Set(); /* zugeklappte Arbeiten (nur für die Dauer der Sitzung) */
 function renderLib() {
-  const offen = [], fertig = {};
-  libItems.forEach((x, i) => { const m = /^abgeschlossen\/([^/]+)\//.exec(x.f); if (m) (fertig[m[1]] = fertig[m[1]] || []).push(i); else offen.push(i); });
-  const themen = Object.keys(fertig);
+  const offen = [], arbeiten = {}, fertig = {};
+  libItems.forEach((x, i) => { const g = libGruppe(x.f); if (!g) offen.push(i); else { const t = g[0] === 'fertig' ? fertig : arbeiten; (t[g[1]] = t[g[1]] || []).push(i); } });
+  const themen = Object.keys(fertig), jetzt = Object.keys(arbeiten), pk = n => n + (n === 1 ? ' Paket' : ' Pakete');
   let h = '<h2>Pakete aus dem Repo</h2><p class="muted">Lernpakete für <strong>' + esc(cur.name) + '</strong> aus ' + (cur.ordner && cur.ordner.length > 1 ? 'den Ordnern ' : 'dem Ordner ') + (cur.ordner || [cur.id]).map(d => '<code>pakete/' + esc(d) + '/</code>').join(' und ') + ' dieser Seite.</p>';
   if (offen.length) h += offen.map(i => libRow(libItems[i], i)).join('');
-  else if (!themen.length) h += '<p>Für ' + esc(cur.name) + ' liegen noch keine Pakete im Repo. Lernpakete lassen sich jederzeit als Datei importieren.</p>';
-  else h += '<p>Alle Themen sind abgeschlossen. Die Pakete findest du unten unter „Abgeschlossen“.</p>';
+  jetzt.forEach(t => {
+    const k = 'arbeit/' + t, auf = !libZu.has(k), neu = arbeiten[t].filter(i => { const x = libItems[i]; return !x.errs.length && x.p && !libStatus(x).same; }).length;
+    h += `<div class="libgrp"><button class="libhead" data-act="lib-toggle" data-g="${esc(k)}" aria-expanded="${auf}">${auf ? '▾' : '▸'} ${esc(libThema(t))} <span class="muted">(${pk(arbeiten[t].length)})</span></button>`;
+    if (auf) h += `<div class="row" style="margin:.6rem 0">${neu ? `<button class="btn sm" data-act="lib-add-all" data-g="${esc(t)}">Alle hinzufügen (${neu})</button>` : '<span class="muted">Alle Pakete sind aktuell.</span>'}</div>` + arbeiten[t].map(i => libRow(libItems[i], i)).join('');
+    h += '</div>';
+  });
+  if (!offen.length && !jetzt.length) {
+    if (!themen.length) h += '<p>Für ' + esc(cur.name) + ' liegen noch keine Pakete im Repo. Lernpakete lassen sich jederzeit als Datei importieren.</p>';
+    else h += '<p>Alle Themen sind abgeschlossen. Die Pakete findest du unten unter „Abgeschlossen“.</p>';
+  }
   if (themen.length) {
     const auf = libOffen.has('abgeschlossen');
     h += `<div class="libgrp"><button class="libhead" data-act="lib-toggle" data-g="abgeschlossen" aria-expanded="${auf}">${auf ? '▾' : '▸'} Abgeschlossen <span class="muted">(${themen.length} ${themen.length === 1 ? 'Thema' : 'Themen'})</span></button>`;
     if (auf) h += themen.map(t => {
       const k = 'abgeschlossen/' + t, o = libOffen.has(k);
-      return `<div class="libsub"><button class="libhead" data-act="lib-toggle" data-g="${esc(k)}" aria-expanded="${o}">${o ? '▾' : '▸'} ${esc(libThema(t))} <span class="muted">(${fertig[t].length} ${fertig[t].length === 1 ? 'Paket' : 'Pakete'})</span></button>${o ? fertig[t].map(i => libRow(libItems[i], i)).join('') : ''}</div>`;
+      return `<div class="libsub"><button class="libhead" data-act="lib-toggle" data-g="${esc(k)}" aria-expanded="${o}">${o ? '▾' : '▸'} ${esc(libThema(t))} <span class="muted">(${pk(fertig[t].length)})</span></button>${o ? fertig[t].map(i => libRow(libItems[i], i)).join('') : ''}</div>`;
     }).join('');
     h += '</div>';
   }
@@ -2314,7 +2332,7 @@ async function openLibrary() {
       if (r.status !== 404) { if (!r.ok) throw new Error('HTTP ' + r.status); list = await r.json(); } /* kein Ordner = noch keine Pakete */
       if (!Array.isArray(list)) throw new Error('index.json in ' + dir + ' ist keine Liste');
       for (const f of list) {
-        if (typeof f !== 'string' || !/^(?:[\w\-.]+\/)*[\w\- .]+\.json$/.test(f) || f.split('/').some(t => t === '.' || t === '..')) continue; /* Unterordner wie abgeschlossen/geografie/… sind erlaubt */
+        if (typeof f !== 'string' || !/^(?:[\p{L}\p{N}_\-. ]+\/)*[\p{L}\p{N}_\-. ]+\.json$/u.test(f) || f.split('/').some(t => !t.trim() || t === '.' || t === '..')) continue; /* Unterordner wie deutscharbeit-02.12.2026/… oder abgeschlossen/geografie/… sind erlaubt */
         try { const rr = await fetch(base + f.split('/').map(encodeURIComponent).join('/'), { cache: 'no-store' }); const p = await rr.json(); if (p && seen.has(p.id)) continue; if (p) seen.add(p.id); items.push({ f, p, errs: validatePack(p) }); }
         catch (e) { items.push({ f, p: null, errs: ['Datei nicht lesbar'] }); }
       }
@@ -2407,7 +2425,12 @@ document.addEventListener('click', e => {
     case 'library': openLibrary(); break;
     case 'lib-add': { const x = libItems[+el.dataset.i]; if (!x || x.errs.length) return; reportImport(importObj(JSON.parse(JSON.stringify(x.p)), x.f, true)); renderLib(); break; }
     case 'grp-toggle': { const g = el.dataset.g, zu = zuSet(); if (zu.has(g)) zu.delete(g); else zu.add(g); try { localStorage.setItem('lernhilfe.zu.' + cur.id, JSON.stringify([...zu])); } catch (err) { /* gilt dann nur für diese Sitzung */ } renderHome(); const nb = [...document.querySelectorAll('.pgbtn')].find(x => x.dataset.g === g); if (nb) nb.focus(); break; }
-    case 'lib-toggle': { const g = el.dataset.g; if (libOffen.has(g)) libOffen.delete(g); else libOffen.add(g); renderLib(); break; }
+    case 'lib-toggle': { const g = el.dataset.g, m = g.startsWith('arbeit/') ? libZu : libOffen; if (m.has(g)) m.delete(g); else m.add(g); renderLib(); break; }
+    case 'lib-add-all': { /* alle neuen und geänderten Pakete einer Arbeit auf einmal */
+      const res = { added: 0, updated: 0, skipped: 0, errors: [] };
+      libItems.forEach(x => { const gr = libGruppe(x.f); if (!gr || gr[0] !== 'arbeit' || gr[1] !== el.dataset.g || x.errs.length || !x.p || libStatus(x).same) return; const r = importObj(JSON.parse(JSON.stringify(x.p)), x.f, true); res.added += r.added; res.updated += r.updated; res.skipped += r.skipped; res.errors.push(...r.errors); });
+      reportImport(res); renderLib(); break;
+    }
     case 'dlg-close': closeDialog(); break;
     case 'herkunft': herkunftDialog(); break;
     case 'eltern-ansicht': go('#/eltern'); break;
