@@ -763,6 +763,7 @@
  "reihenfolge": 5,
  "gruppe": "Deutscharbeit 02.12.2026",
  "dauerhaft": false,
+ "probe": false,
  "karte": {
   "titel": "Satzgefüge-Knacker",
   "motiv": "🧩",

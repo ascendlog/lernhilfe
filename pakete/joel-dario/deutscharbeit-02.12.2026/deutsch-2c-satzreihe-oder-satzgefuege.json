@@ -584,6 +584,7 @@
  "reihenfolge": 6,
  "gruppe": "Deutscharbeit 02.12.2026",
  "dauerhaft": false,
+ "probe": false,
  "karte": {
   "titel": "Komma-Meister",
   "motiv": "✍️",

@@ -68,6 +68,8 @@ def main():
         p['reihenfolge'] = n
         p['gruppe'] = GRUPPE
         p['dauerhaft'] = False   # sonst bleiben Pakete mit „gruppe“ bei „Alle Pakete löschen“ stehen
+        if p['id'] != 'deutsch-probearbeit':
+            p['probe'] = False   # Übungspakete und Crashkurs ohne Probearbeit: die gibt es nur im eigenen Paket „deutsch-probearbeit“
         if p['id'] in DAUER:
             p['dauer'] = DAUER[p['id']]   # Timer der Probearbeit in Minuten
         assert p['id'] in KARTEN, f"Karte fehlt für {p['id']}"

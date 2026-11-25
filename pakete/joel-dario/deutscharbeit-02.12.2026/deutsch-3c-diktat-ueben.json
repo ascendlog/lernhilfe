@@ -534,6 +534,7 @@
  "reihenfolge": 9,
  "gruppe": "Deutscharbeit 02.12.2026",
  "dauerhaft": false,
+ "probe": false,
  "karte": {
   "titel": "Diktat-Profi",
   "motiv": "🎧",

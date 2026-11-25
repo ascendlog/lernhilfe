@@ -865,6 +865,7 @@
  "reihenfolge": 8,
  "gruppe": "Deutscharbeit 02.12.2026",
  "dauerhaft": false,
+ "probe": false,
  "karte": {
   "titel": "Wörter-Detektiv",
   "motiv": "🕵️",
