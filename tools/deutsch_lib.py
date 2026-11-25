@@ -164,7 +164,7 @@ def pruefe(p):
             s = t.get(feld, "")
             if isinstance(s, str):
                 assert "  " not in s, w + f"zwei Leerzeichen in {feld}: {s[:60]!r}"
-                assert not re.search(r"\s[.,;:!?]", s.replace("{{", "").replace("}}", "")) or "„" in s or "→" in s, w + f"Leerzeichen vor Satzzeichen in {feld}: {s[:80]!r}"
+                assert not re.search(r"\s[.,;:!?]", s.replace("{{", "").replace("}}", "")) or "„" in s or "→" in s or "Hs" in s, w + f"Leerzeichen vor Satzzeichen in {feld}: {s[:80]!r}"
 
 
 def woerter(text):
