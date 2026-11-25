@@ -103,6 +103,7 @@ details.fold>p{margin:0;padding:0 .8rem .6rem 2.3rem}
 .bild{display:block;max-width:100%;max-height:420px;margin:.2rem auto 1rem;border-radius:10px;border:1px solid var(--line);background:#fff}
 .listen{margin:0 0 1rem}
 .listen .row{margin-bottom:.4rem}
+.listen-msg{margin:.1rem 0 .5rem;font-size:.92rem;color:var(--muted)}
 .script{font-size:.92rem;background:var(--surface-2);border-radius:10px;padding:.4rem .8rem}
 .script summary{cursor:pointer;color:var(--muted)}
 .opts{display:grid;gap:.55rem}
@@ -499,7 +500,6 @@ function save(now) {
   const run = () => { try { localStorage.setItem(key, JSON.stringify(data)); } catch (e) { toast('Speichern im Browser nicht möglich (Speicher voll oder gesperrt).'); } };
   if (now) run(); else saveTimer = setTimeout(run, 150);
 }
-function stopSpeech() { if ('speechSynthesis' in window) speechSynthesis.cancel(); }
 function enterPerson(p) {
   if (cur && cur.id === p.id) return;
   save(true); stopSpeech();
@@ -1077,7 +1077,7 @@ function bildSrc(b) {
 }
 function listenHtml(t) {
   if (!t.vorlesen) return '';
-  return `<div class="listen"><div class="row"><button type="button" class="btn sec" data-act="speak">🔊 Anhören</button><button type="button" class="btn ghost sm" data-act="stop">Stopp</button></div><details class="script"><summary>Text zum Vorlesen (für Eltern)</summary>${rt(t.vorlesen.text)}</details></div>`;
+  return `<div class="listen"><div class="row"><button type="button" class="btn sec" data-act="speak">🔊 Anhören</button><button type="button" class="btn ghost sm" data-act="stop">Stopp</button></div><p class="listen-msg" role="status" aria-live="polite" hidden></p><details class="script"><summary>Text zum Vorlesen (für Eltern)</summary>${rt(t.vorlesen.text)}</details></div>`;
 }
 function answerHtml(t, idx, s, locked) {
   const a = s.answers[idx]; const ev = locked ? evaluate(t, a, s.touched[idx]) : null; const dis = locked ? 'disabled' : '';
@@ -2481,7 +2481,7 @@ document.addEventListener('click', e => {
     case 'discard-go': db.session = null; save(true); closeDialog(); go(H()); break;
     case 'hint': { const { s, idx } = curTask(); s.hint[idx] = true; save(); renderTask(); break; }
     case 'speak': { const { t } = curTask(); speak(t.vorlesen.text, t.vorlesen.sprache); break; }
-    case 'stop': if ('speechSynthesis' in window) speechSynthesis.cancel(); break;
+    case 'stop': stopSpeech(); break;
     case 'eingabe': { try { localStorage.setItem('lernhilfe.eingabe', eingabe() === 'ziehen' ? 'tippen' : 'ziehen'); } catch (err) { /* ohne Speicher gilt die Standardeinstellung */ } actGap = null; redrawAnswer(); break; }
     case 'up': moveStep(+el.dataset.pos, -1); break;
     case 'down': moveStep(+el.dataset.pos, 1); break;
@@ -2526,13 +2526,86 @@ window.addEventListener('dragover', e => e.preventDefault());
 window.addEventListener('drop', e => { e.preventDefault(); dragDepth = 0; document.body.classList.remove('dropping'); const f = Array.from(e.dataTransfer.files || []).filter(x => /\.json$/i.test(x.name)); if (f.length) importFiles(f); });
 
 /* ========== Vorlesen ========== */
+/* Handy-fest (Android und iPhone): Der Text wird in Sätze zerlegt und nacheinander eingereiht (lange Texte brechen in Chrome sonst ab),
+   nach einem laufenden Vorlesen wird kurz gewartet (cancel() direkt vor speak() verschluckt das Sprechen auf Android), die Stimme wird bei
+   jedem Start neu gesucht (die Liste ist auf Handys anfangs oft leer), bei einem Fehler oder wenn nichts startet, wird eine andere Stimme
+   versucht, sonst steht eine verständliche Meldung da und der Text zum Vorlesen für die Eltern klappt auf. */
+if ('speechSynthesis' in window) { try { speechSynthesis.getVoices(); } catch (e) { /* lädt die Stimmenliste vor */ } }
+function speechMsg(text, oeffnen) {
+  const m = document.querySelector('.listen-msg'); if (!m) return;
+  m.textContent = text || ''; m.hidden = !text;
+  if (oeffnen) { const d = m.closest('.listen') && m.closest('.listen').querySelector('details.script'); if (d) d.open = true; }
+}
+function speechChunks(text) {
+  const MAX = 170, t = String(text).replace(/\s+/g, ' ').trim(); if (!t) return [];
+  const saetze = (t.match(/[^.!?…]+[.!?…]+["“”„»«)’']*|[^.!?…]+$/g) || [t]).map(s => s.trim()).filter(Boolean), teile = [];
+  saetze.forEach(s => {
+    if (s.length <= MAX) { teile.push(s); return; }
+    let z = ''; /* zu langer Satz: an Kommas, sonst an Wortgrenzen teilen */
+    s.split(' ').forEach(w => { if (z && z.length + 1 + w.length > MAX) { teile.push(z); z = ''; } z += (z ? ' ' : '') + w; if (/[,;:]$/.test(w) && z.length > MAX * 0.6) { teile.push(z); z = ''; } });
+    if (z) teile.push(z);
+  });
+  const out = []; /* kurze Sätze wieder zusammenfassen: weniger Pausen, weniger Starts */
+  teile.forEach(s => { const i = out.length - 1; if (i >= 0 && out[i].length + 1 + s.length <= MAX) out[i] += ' ' + s; else out.push(s); });
+  return out;
+}
+function speechStimmen(l) {
+  let vs = []; try { vs = speechSynthesis.getVoices() || []; } catch (e) { vs = []; }
+  const voll = x => String(x.lang || '').toLowerCase().replace('_', '-');
+  const kurz = x => { const c = voll(x).split('-')[0]; return ({ eng: 'en', deu: 'de', ger: 'de' })[c] || c; }; /* manche Android-Stimmen nennen „eng-GBR“ */
+  const L = l.toLowerCase(), exakt = vs.filter(x => voll(x) === L), gleich = vs.filter(x => kurz(x) === L.slice(0, 2)), reihe = [];
+  const add = v => { if (v && !reihe.includes(v)) reihe.push(v); };
+  add(exakt[0] || gleich[0]);                                              /* wie bisher */
+  add(exakt.find(x => x.localService) || gleich.find(x => x.localService)); /* zweiter Versuch: Stimme auf dem Gerät, braucht kein Netz */
+  reihe.push(null);                                                        /* zuletzt: das System wählt anhand der Sprache selbst */
+  return { reihe, n: vs.length, gibt: gleich.length > 0 };
+}
+let spTok = 0, spQueue = [], spTimer = null;
+function stopSpeech() {
+  spTok++; clearTimeout(spTimer); spQueue = [];
+  if ('speechSynthesis' in window) { try { speechSynthesis.cancel(); } catch (e) { /* nichts zu stoppen */ } }
+  speechMsg('');
+}
 function speak(text, lang) {
-  if (!('speechSynthesis' in window)) { toast('Dein Browser kann nicht vorlesen. Öffne „Text zum Vorlesen“ für die Eltern.'); return; }
-  const ss = window.speechSynthesis; ss.cancel();
-  const u = new SpeechSynthesisUtterance(text); const l = lang || 'en-GB'; u.lang = l; u.rate = 0.88;
-  const vs = ss.getVoices();
-  const v = vs.find(x => x.lang.replace('_', '-').toLowerCase() === l.toLowerCase()) || vs.find(x => x.lang.toLowerCase().startsWith(l.slice(0, 2).toLowerCase()));
-  if (v) u.voice = v; ss.speak(u);
+  const l = lang || 'en-GB', tok = ++spTok; clearTimeout(spTimer); speechMsg('');
+  if (!('speechSynthesis' in window) || typeof SpeechSynthesisUtterance === 'undefined') { speechMsg('Dieser Browser kann nicht vorlesen. Der Text zum Vorlesen steht darunter.', true); return; }
+  const ss = window.speechSynthesis, chunks = speechChunks(text); if (!chunks.length) return;
+  const sprachwort = ({ en: 'englische', de: 'deutsche', fr: 'französische', es: 'spanische', it: 'italienische' })[l.slice(0, 2).toLowerCase()] || 'passende';
+  const meldung = (er, info) => {
+    let m;
+    if (er === 'not-allowed') m = 'Der Browser hat die Sprachausgabe nicht erlaubt. Bitte „Anhören“ noch einmal antippen.';
+    else if (er === 'language-unavailable' || er === 'voice-unavailable' || (info && info.n && !info.gibt)) m = 'Auf diesem Gerät ist keine ' + sprachwort + ' Stimme installiert. In den Einstellungen unter „Text-in-Sprache“ (Android) bzw. „Gesprochene Inhalte“ (iPhone) lässt sich eine nachladen.';
+    else m = 'Die Sprachausgabe startet auf diesem Gerät nicht' + (er && er !== 'timeout' ? ' (' + er + ')' : '') + '. Lautstärke prüfen (beim iPhone auch den Stummschalter) und noch einmal versuchen.';
+    return m + ' Den Text zum Vorlesen findest du darunter.';
+  };
+  const fehler = (er, info) => { spTok++; clearTimeout(spTimer); spQueue = []; speechMsg(meldung(er, info), true); };
+  const versuche = (ci, t) => {
+    const info = speechStimmen(l), v = info.reihe[ci];
+    if (v === undefined) { fehler('', info); return; }
+    let gestartet = false, vorbei = false;
+    const weiter = er => { /* Start gescheitert: nächste Stimme, sonst Meldung */
+      if (vorbei || t !== spTok) return; vorbei = true; clearTimeout(spTimer);
+      if (er === 'timeout') speechMsg(meldung(er, info), true); /* Hinweis gleich zeigen, während noch eine andere Stimme versucht wird */
+      if (ci + 1 < info.reihe.length) { const t2 = ++spTok; try { ss.cancel(); } catch (e) { /* egal */ } setTimeout(() => { if (t2 === spTok) versuche(ci + 1, t2); }, 150); }
+      else fehler(er, info);
+    };
+    const reihe = chunks.map(c => {
+      const u = new SpeechSynthesisUtterance(c); u.lang = l; u.rate = 0.88; if (v) u.voice = v;
+      u.onerror = e => {
+        const er = e && e.error; if (er === 'canceled' || er === 'interrupted' || t !== spTok) return;
+        if (gestartet) fehler(er, info); else weiter(er);
+      };
+      return u;
+    });
+    reihe[0].onstart = () => { if (t !== spTok) return; gestartet = true; clearTimeout(spTimer); speechMsg('Wird vorgelesen …'); };
+    reihe[reihe.length - 1].onend = () => { if (t !== spTok) return; clearTimeout(spTimer); spQueue = []; speechMsg(''); };
+    spQueue = reihe; /* Verweis halten: sonst räumt der Browser die Objekte manchmal vor dem Ende weg */
+    reihe.forEach(u => ss.speak(u));
+    spTimer = setTimeout(() => { if (t === spTok && !gestartet) weiter('timeout'); }, 4000);
+  };
+  try { if (ss.paused) ss.resume(); } catch (e) { /* egal */ }
+  if (ss.speaking || ss.pending) { try { ss.cancel(); } catch (e) { /* egal */ } setTimeout(() => { if (tok === spTok) versuche(0, tok); }, 150); }
+  else versuche(0, tok); /* sofort, solange die Berührung noch zählt (iPhone) */
 }
 
 applyTheme(document.documentElement.dataset.theme || 'dark');
