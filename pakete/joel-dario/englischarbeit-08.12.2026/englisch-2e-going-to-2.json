@@ -1,0 +1,593 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "englisch-2e-going-to-2",
+ "titel": "Englisch Teil 2e: going to-future (2)",
+ "fach": "Englisch",
+ "klasse": "6",
+ "beschreibung": "Fragen und Kurzantworten mit going to, Fragewörter, Aussage, Verneinung und Frage im Wechsel, typische Fehler, Gespräche und E-Mails. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Schulbuch, dem Workbook oder den Arbeitsblättern. Wenn mehrere Schreibweisen richtig sind (isn't / is not), werden alle gewertet.",
+ "lernblatt": [
+  {
+   "titel": "Fragen mit going to",
+   "text": "Bei einer **Ja-Nein-Frage** tauschen **am / is / are** und das Subjekt die Plätze. Das Wort „going to“ bleibt dahinter stehen.\n\n- Aussage: Mia **is** going to play tennis.\n- Frage: **Is** Mia going to play tennis?\n- Aussage: You **are** going to join the club.\n- Frage: **Are** you going to join the club?\n\nDu brauchst **kein do oder does**: nicht „Does Mia going to play?“. Nach dem Subjekt kommt wie immer going to und dann die **Grundform** des Verbs.",
+   "merke": "Frage: am / is / are + Subjekt + going to + Grundform ...? Kein do, kein does."
+  },
+  {
+   "titel": "Kurzantworten",
+   "text": "Die **Kurzantwort** besteht nur aus Yes oder No, dem Pronomen und dem Wort **be**. Das „going to“ lässt man weg.\n\n- Are you going to sing? – **Yes, I am.** / **No, I'm not.**\n- Is she going to sing? – **Yes, she is.** / **No, she isn't.**\n- Are they going to sing? – **Yes, they are.** / **No, they aren't.**\n\nBei **Yes** schreibt man die Form ohne Kurzform: Yes, I **am** (nicht „Yes, I'm“). Bei **No** gibt es Kurzformen: No, I'm not. No, he isn't. No, we aren't.\n\nFür Namen nimmst du das passende Pronomen: Is Ben going to come? – Yes, **he** is. Are Mia and Ella going to sing? – No, **they** aren't.",
+   "merke": "Kurzantwort: Yes, Pronomen + am / is / are. No, Pronomen + am not / isn't / aren't. Kein going to."
+  },
+  {
+   "titel": "Fragewörter",
+   "text": "Mit einem **Fragewort** fragst du nach etwas Bestimmtem. Es steht ganz vorn, danach geht es weiter wie bei der Ja-Nein-Frage.\n\n- **What** are you going to do? (Was?)\n- **Where** is Ben going to eat? (Wo? Wohin?)\n- **When** are they going to start? (Wann?)\n- **Who** are you going to invite? (Wen? Wer?)\n- **Why** is she going to stay at home? (Warum?)\n- **How** are we going to get there? (Wie?)\n\nFragst du nach dem **Subjekt** (wer?), steht kein Tausch: **Who** is going to sing? (Wer wird singen?) Dann antwortest du: Mia is. / I am.",
+   "merke": "Fragewort + am / is / are + Subjekt + going to + Grundform? Bei „Who is going to ...?“ (Subjektfrage) bleibt die Wortstellung wie in der Aussage."
+  },
+  {
+   "titel": "Alle Formen im Überblick",
+   "text": "So sehen alle drei Formen im Überblick aus:\n\n- **Aussage:** He is going to dance.\n- **Verneinung:** He isn't going to dance.\n- **Frage:** Is he going to dance?\n- **Kurzantwort:** Yes, he is. / No, he isn't.\n\nDas Muster ist immer gleich: **be** (am, is, are) kommt zuerst oder in die Mitte, dann **going to**, dann die **Grundform**. Wenn du nicht sicher bist, schreibe zuerst die Aussage und forme sie dann um.",
+   "merke": "Erst die Aussage schreiben, dann umformen: Verneinung = not hinter be, Frage = be nach vorn."
+  },
+  {
+   "titel": "Typische Fehler bei Fragen",
+   "text": "Achte bei Fragen auf diese Fehler:\n\n- **do statt be:** Do you going to swim? → **Are** you going to swim?\n- **Kein Tausch:** You are going to swim? (nur als Satz mit Fragezeichen, aber keine richtige Frage) → Are you going to swim?\n- **going to in der Kurzantwort:** Yes, I am going to. → Yes, I **am**.\n- **Kurzform bei Yes:** Yes, I'm. → Yes, I **am**.\n- **Falsche Grundform:** Is he going to goes? → Is he going to **go**?",
+   "merke": "Frage mit be beginnen, Kurzantwort ohne going to, bei Yes keine Kurzform."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Mache aus dem Satz eine Frage: Mia is going to play tennis.",
+   "info": "is geht nach vorn: Is Mia going to play tennis? Das Wort going to bleibt hinter dem Subjekt.",
+   "richtig": "Is Mia going to play tennis"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Mache aus dem Satz eine Frage: You are going to join the drama club.",
+   "info": "are geht nach vorn: Are you going to join the drama club? Aus „You“ wird in der Mitte „you“.",
+   "richtig": "Are you going to join the drama club"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Mache aus dem Satz eine Frage: The children are going to paint a poster.",
+   "info": "are geht nach vorn: Are the children going to paint a poster?",
+   "richtig": "Are the children going to paint a poster"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Mache aus dem Satz eine Frage: Your brother is going to buy a ticket.",
+   "info": "is geht nach vorn: Is your brother going to buy a ticket? Der Rest bleibt gleich.",
+   "richtig": "Is your brother going to buy a ticket"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Bringe die Satzteile in die richtige Reihenfolge, sodass eine Frage entsteht (Frage 1).",
+   "info": "Frage: be + Subjekt + going to + Grundform + Rest: Are you going to sing a song?",
+   "schritte": [
+    "Are",
+    "you",
+    "going to",
+    "sing",
+    "a song"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Bringe die Satzteile in die richtige Reihenfolge, sodass eine Frage entsteht (Frage 2).",
+   "info": "Is Oskar going to cook dinner? is steht zuerst, dann das Subjekt Oskar.",
+   "schritte": [
+    "Is",
+    "Oskar",
+    "going to",
+    "cook",
+    "dinner"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Bringe die Satzteile in die richtige Reihenfolge, sodass eine Frage entsteht (Frage 3).",
+   "info": "Frage: Are they going to watch a film tonight? Die Zeitangabe steht am Ende.",
+   "schritte": [
+    "Are",
+    "they",
+    "going to",
+    "watch",
+    "a film",
+    "tonight"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Welche Frage ist richtig?",
+   "info": "Fragen mit going to beginnen mit am, is oder are (kein do, kein does). Danach folgt die Grundform learn.",
+   "antworten": [
+    "Is she going to learn the guitar?",
+    "Does she going to learn the guitar?",
+    "She is going to learn the guitar?",
+    "Is she going to learns the guitar?"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Fragen bilden",
+   "frage": "Welche Frage ist richtig?",
+   "info": "Zu we gehört are. Es steht am Anfang der Frage: Are we going to be late?",
+   "antworten": [
+    "Are we going to be late?",
+    "Is we going to be late?",
+    "Do we going to be late?",
+    "We are going to be late?"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "Ergänze die Kurzantworten.",
+   "text": "Is Ben going to swim? – Yes, he {{is}}.\nAre you going to sing? – Yes, I {{am}}.\nAre they going to dance? – Yes, they {{are}}.\nIs Nora going to cook? – Yes, she {{is}}.",
+   "info": "Die Kurzantwort besteht aus dem Pronomen und dem Wort be: he is, I am, they are, she is. Das „going to“ fällt weg.",
+   "auswahl": [
+    "am",
+    "is",
+    "are"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "Antworte kurz mit Yes: Are you going to help me?",
+   "info": "Yes, I am. Bei Yes schreibt man am voll aus (nicht „Yes, I'm“).",
+   "richtig": [
+    "Yes, I am",
+    "Yes I am"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "Antworte kurz mit No: Are you going to help me?",
+   "info": "No, I'm not. oder No, I am not. Bei I gibt es keine Kurzform „amn't“.",
+   "richtig": [
+    "No, I am not",
+    "No I am not",
+    "No, I'm not",
+    "No I'm not"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "Antworte kurz mit No: Is she going to come? Schreibe die Antwort mit Kurzform (isn't).",
+   "info": "No, she isn't. (oder: No, she is not / No, she's not). Die Kurzform von is not ist isn't.",
+   "richtig": [
+    "No, she is not",
+    "No she is not",
+    "No, she isn't",
+    "No she isn't",
+    "No, she's not",
+    "No she's not"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "Antworte kurz mit Yes: Are Mia and Ella going to sing?",
+   "info": "Mia and Ella sind they, also: Yes, they are.",
+   "richtig": [
+    "Yes, they are",
+    "Yes they are"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "Welche Kurzantwort passt? Is Finn going to play chess? – No, …",
+   "info": "Für Finn nimmst du he. Die Verneinung von is ist isn't. do/does und going to gehören nicht in die Kurzantwort.",
+   "antworten": [
+    "he isn't.",
+    "he doesn't.",
+    "he isn't going to.",
+    "he don't."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "„Yes, I'm.“ ist eine richtige Kurzantwort auf „Are you going to come?“.",
+   "info": "Bei Yes darf das be nicht verkürzt werden: Yes, I am. Bei No sind Kurzformen erlaubt: No, I'm not.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Kurzantworten",
+   "frage": "„No, they aren't.“ ist eine richtige Kurzantwort auf „Are they going to wait?“.",
+   "info": "Die Kurzantwort besteht aus No, dem Pronomen und aren't (= are not). Going to fehlt hier richtig.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Fragewörter",
+   "frage": "Ordne das Fragewort der Bedeutung zu.",
+   "info": "What = was, where = wo oder wohin, when = wann, who = wer oder wen, why = warum, how = wie.",
+   "paare": [
+    [
+     "What",
+     "was"
+    ],
+    [
+     "Where",
+     "wo, wohin"
+    ],
+    [
+     "When",
+     "wann"
+    ],
+    [
+     "Who",
+     "wer, wen"
+    ],
+    [
+     "Why",
+     "warum"
+    ],
+    [
+     "How",
+     "wie"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Fragewörter",
+   "frage": "Ergänze das passende Fragewort.",
+   "text": "{{What}} are you going to do after school? – I'm going to play football.\n{{Where}} is Ben going to eat? – In the canteen.\n{{When}} are they going to start? – At nine o'clock.\n{{Why}} is she going to stay at home? – Because she is ill.",
+   "info": "What fragt nach einer Tätigkeit, where nach dem Ort, when nach der Zeit, why nach dem Grund (Antwort mit because).",
+   "wortbank": [
+    "What",
+    "Where",
+    "When",
+    "Why",
+    "Who",
+    "How"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Fragewörter",
+   "frage": "… are you going to travel to London? – By train.",
+   "info": "Die Antwort „By train“ sagt, wie man reist. Also fragt man mit how.",
+   "antworten": [
+    "How",
+    "Where",
+    "Why",
+    "When"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Fragewörter",
+   "frage": "… is going to sing at the show? – Nora is.",
+   "info": "Gefragt ist eine Person (Nora). Das Fragewort ist who. Bei „Who is going to ...?“ steht kein Subjekt hinter is.",
+   "antworten": [
+    "Who",
+    "What",
+    "Where",
+    "When"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fragewörter",
+   "frage": "Schreibe die Frage mit Fragewort: Where / you / go on holiday? (going to, vollständiger Satz mit Fragezeichen)",
+   "info": "Where + are + you + going to + go on holiday? Auch das zweite „go“ ist richtig: going to go.",
+   "richtig": "Where are you going to go on holiday"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fragewörter",
+   "frage": "Schreibe die Frage mit Fragewort: What / Mia / wear to the party? (going to)",
+   "info": "What + is + Mia + going to + wear to the party? Zu Mia gehört is.",
+   "richtig": "What is Mia going to wear to the party"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fragewörter",
+   "frage": "Schreibe die Frage mit Fragewort: When / the twins / start the game? (going to)",
+   "info": "When + are + the twins + going to + start the game? Zu the twins (they) gehört are.",
+   "richtig": "When are the twins going to start the game"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Fragewörter",
+   "frage": "Welche Frage ist richtig?",
+   "info": "Nach dem Fragewort kommt wie bei der Ja-Nein-Frage zuerst be (are), dann das Subjekt (they), dann going to.",
+   "antworten": [
+    "What are they going to do tomorrow?",
+    "What they are going to do tomorrow?",
+    "What do they going to do tomorrow?",
+    "What are going they to do tomorrow?"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Verneine den Satz (Kurzform): Tom is going to wait.",
+   "info": "Verneinung: not hinter is. Tom isn't going to wait.",
+   "richtig": [
+    "Tom isn't going to wait",
+    "Tom is not going to wait",
+    "Tom's not going to wait"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Mache aus der Aussage eine Verneinung: We are going to leave early.",
+   "info": "Verneinung: not hinter are. We aren't going to leave early.",
+   "richtig": [
+    "We aren't going to leave early",
+    "We are not going to leave early",
+    "We're not going to leave early"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Mache aus der Verneinung eine Frage: He isn't going to come. → … ?",
+   "info": "Frage: be nach vorn, not fällt weg: Is he going to come?",
+   "richtig": "Is he going to come"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Mache aus der Frage eine Aussage: Are they going to win?",
+   "info": "Subjekt zuerst, dann be: They are going to win.",
+   "richtig": [
+    "They are going to win",
+    "They're going to win"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Welche Aussage passt zur Antwort „No, she isn't.“?",
+   "info": "Die Kurzantwort „No, she isn't.“ beantwortet eine Ja-Nein-Frage, also Is Kim going to come?",
+   "antworten": [
+    "Is Kim going to come?",
+    "Kim is going to come.",
+    "Kim isn't going to come.",
+    "Does Kim come?"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Ordne jedem Satz die Satzart zu.",
+   "info": "Die Frage beginnt mit be. Die Verneinung hat not (aren't) in der Mitte. Die Aussage hat das Subjekt vorn. Die Kurzantwort beginnt mit Yes oder No.",
+   "paare": [
+    [
+     "Are you going to sing?",
+     "Frage"
+    ],
+    [
+     "You aren't going to sing.",
+     "Verneinung"
+    ],
+    [
+     "You are going to sing.",
+     "Aussage"
+    ],
+    [
+     "No, I'm not.",
+     "Kurzantwort"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Wähle für jede Lücke: Aussage (affirmative), Verneinung (negative) oder Frage (question).",
+   "text": "She is going to dance. → {{affirmative}}\nShe isn't going to dance. → {{negative}}\nIs she going to dance? → {{question}}",
+   "info": "Aussage = affirmative, Verneinung = negative, Frage = question.",
+   "auswahl": [
+    "affirmative",
+    "negative",
+    "question"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Wie lautet die richtige Verneinung? Nora is going to wear her new shoes.",
+   "info": "Verneinung = is + not (isn't) und danach die Grundform wear.",
+   "antworten": [
+    "Nora isn't going to wear her new shoes.",
+    "Nora doesn't going to wear her new shoes.",
+    "Nora isn't going to wears her new shoes.",
+    "Nora not going to wear her new shoes."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Aussage, Verneinung oder Frage?",
+   "frage": "Schreibe die Frage: they – going to – win – the game",
+   "info": "Frage: Are they going to win the game? Das Wort be (are) steht vorn.",
+   "richtig": "Are they going to win the game"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Fehler finden",
+   "frage": "Schreibe den Satz richtig auf: He going to buy a new bike.",
+   "info": "Es fehlt is: He is going to buy a new bike.",
+   "richtig": [
+    "He is going to buy a new bike",
+    "He's going to buy a new bike"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Fehler finden",
+   "frage": "Schreibe den Satz richtig auf: They are play football tomorrow. (going to)",
+   "info": "Es fehlt going to: They are going to play football tomorrow.",
+   "richtig": [
+    "They are going to play football tomorrow",
+    "They're going to play football tomorrow"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Fehler finden",
+   "frage": "Schreibe den Satz richtig auf: Ruby is going to plays the piano.",
+   "info": "Nach to steht die Grundform: play, nicht plays.",
+   "richtig": [
+    "Ruby is going to play the piano",
+    "Ruby's going to play the piano"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Fehler finden",
+   "frage": "Schreibe die Frage richtig auf: Do you going to come?",
+   "info": "Fragen mit going to beginnen mit be: Are you going to come?",
+   "richtig": "Are you going to come"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Fehler finden",
+   "frage": "In welchem Satz steckt ein Fehler?",
+   "info": "Falsch ist „going to goes“: Nach to steht die Grundform go.",
+   "antworten": [
+    "Mia is going to goes home.",
+    "Mia is going to go home.",
+    "Is Mia going to go home?",
+    "Mia isn't going to go home."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Fehler finden",
+   "frage": "„Are you going to coming to the party?“ ist richtig.",
+   "info": "Nach going to steht die Grundform: Are you going to come to the party?",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gespräche und Texte",
+   "frage": "Ergänze das Gespräch (ohne Kurzformen).",
+   "text": "Ella: What {{are}} you going to do after school, Tim?\nTim: I {{am}} going to play basketball. Are you going to come with me?\nElla: No, I {{am not}}. I am going to {{practise|practice}} for the school show.",
+   "info": "you → are, I → am. Die Kurzantwort verneint mit am not. Nach going to steht die Grundform practise (britisch, auch practice ist hier erlaubt).",
+   "wortbank": [
+    "are",
+    "am",
+    "am not",
+    "practise",
+    "is",
+    "practising"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gespräche und Texte",
+   "frage": "Ergänze die E-Mail. Schreibe die Verbformen ohne Kurzform.",
+   "text": "Hi Oskar,\nOn Saturday we {{are}} going to have a picnic in the park. Mum {{is}} going to make sandwiches. Are you going to {{bring}} your football? We are going to {{play}} a match!\nSee you, Finn",
+   "info": "we → are, Mum → is. Nach going to steht die Grundform bring und play (nicht brings oder playing).",
+   "wortbank": [
+    "are",
+    "is",
+    "bring",
+    "play",
+    "am",
+    "brings"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "F – Gespräche und Texte",
+   "frage": "Bringe das Gespräch in die richtige Reihenfolge.",
+   "info": "Erst die Ja-Nein-Frage, dann die Kurzantwort, dann die Frage mit What und die passende Antwort.",
+   "schritte": [
+    "Are you going to sing at the audition?",
+    "Yes, I am.",
+    "What are you going to sing?",
+    "I'm going to sing a pop song."
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Gespräche und Texte",
+   "frage": "Welche Antwort passt? What are you going to do at the weekend?",
+   "info": "Auf eine Frage mit What antwortet man mit einem ganzen Satz, nicht mit Yes oder No.",
+   "antworten": [
+    "I'm going to visit my cousin.",
+    "Yes, I am.",
+    "No, I'm not.",
+    "I visit not."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Gespräche und Texte",
+   "frage": "Schreibe 3 Sätze mit going to über deine Pläne für das Wochenende (zum Beispiel: I'm going to ...).",
+   "punkte": 3,
+   "muster": "I'm going to play football with my friends on Saturday. My mum is going to bake a cake. On Sunday we are going to visit my grandparents.",
+   "kriterien": [
+    "Alle drei Sätze haben am / is / are + going to + Grundform.",
+    "Die Sätze sind verständlich und sinnvoll.",
+    "Rechtschreibung und Satzanfänge (Großbuchstaben) stimmen."
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Fragen bilden": "Fragen mit going to",
+  "B – Kurzantworten": "Kurzantworten",
+  "C – Fragewörter": "Fragewörter",
+  "D – Aussage, Verneinung oder Frage?": [
+   "Alle Formen im Überblick",
+   "Fragen mit going to",
+   "Kurzantworten"
+  ],
+  "E – Fehler finden": [
+   "Typische Fehler bei Fragen",
+   "Fragen mit going to",
+   "Kurzantworten"
+  ],
+  "F – Gespräche und Texte": [
+   "Fragen mit going to",
+   "Kurzantworten",
+   "Fragewörter"
+  ]
+ },
+ "termin": "2026-12-08",
+ "reihenfolge": 5,
+ "gruppe": "Englischarbeit 08.12.2026",
+ "dauerhaft": false,
+ "probe": false,
+ "karte": {
+  "titel": "Fragen-Meister",
+  "motiv": "❓",
+  "text": "Are you going to come? Fragen, Fragewörter und Kurzantworten mit going to."
+ }
+}

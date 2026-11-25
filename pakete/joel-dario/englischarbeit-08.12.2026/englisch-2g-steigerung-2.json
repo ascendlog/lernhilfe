@@ -1,0 +1,632 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "englisch-2g-steigerung-2",
+ "titel": "Englisch Teil 2g: Steigerung der Adjektive (2) – Vergleiche",
+ "fach": "Englisch",
+ "klasse": "6",
+ "beschreibung": "Comparison of adjectives, Teil 2: Vergleiche mit than, Superlativ mit the … of / in, as … as und not as … as, Vergleiche umschreiben, Tabellen und Texte. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Namen und Zahlen sind selbst ausgedacht, nicht aus dem Schulbuch, dem Workbook oder den Arbeitsblättern. Die Tabellen sind erfunden.",
+ "lernblatt": [
+  {
+   "titel": "Vergleichen mit than",
+   "text": "Mit dem **Komparativ** vergleichst du **zwei** Dinge. Das deutsche „als“ heißt im Englischen **than** (nicht „as“, nicht „then“).\n\n- Tom is **taller than** Ben.\n- This book is **more interesting than** that film.\n- My sister is **older than** me.\n\nNach than stehen oft die Objektformen: older than **me**, faster than **him**, smaller than **us**.\n\n**Achtung:** than (als) und then (dann) klingen ähnlich, bedeuten aber etwas anderes. Beim Vergleich schreibst du immer **than**.",
+   "merke": "Komparativ + than = „… er als …“. Beispiel: faster than, more expensive than."
+  },
+  {
+   "titel": "Der Superlativ im Satz: of und in",
+   "text": "Der **Superlativ** nennt das **Höchste, Kleinste oder Beste unter mehreren**. Er hat immer **the** vor sich: Tom is **the tallest**.\n\nDanach sagst du, womit verglichen wird:\n\n- **of** + mehrere Personen oder Dinge: the tallest **of the three**, the best **of all**\n- **in** + Gruppe oder Ort: the best singer **in the school**, the most beautiful village **in Britain**, the oldest **in our family**\n\nDas kleine **the** gehört fest zum Superlativ. Bei most gehört es ebenfalls dazu: **the most** interesting.",
+   "merke": "Superlativ: the + -est / most … Danach of (mehrere) oder in (Ort, Gruppe)."
+  },
+  {
+   "titel": "as … as und not as … as",
+   "text": "Mit **as … as** (so … wie) sagst du, dass zwei Dinge **gleich** sind: Tom is **as tall as** Ben.\n\nMit **not as … as** (nicht so … wie) sagst du, dass das erste **weniger** hat: Ben is **not as tall as** Tom. Das bedeutet: Tom ist größer als Ben.\n\nZwischen as und as steht immer die **Grundform** des Adjektivs: as tall as, not as old as, as expensive as. Nie as taller as und nie as more expensive as.",
+   "merke": "as + Grundform + as = gleich. not as + Grundform + as = weniger."
+  },
+  {
+   "titel": "Vergleiche umschreiben",
+   "text": "Du kannst fast jeden Vergleich auf zwei Arten sagen. Dazu drehst du den Satz um:\n\n- Mia is **older than** Tom. = Tom is **not as old as** Mia.\n- This bag is **more expensive than** that bag. = That bag is **not as expensive as** this bag.\n- Mia is **taller than** Tom. = Tom is **shorter than** Mia.\n\nDafür brauchst du die Gegensätze: tall – short, old – young, big – small, fast – slow, cheap – expensive, heavy – light.",
+   "merke": "A is taller than B = B is not as tall as A = B is shorter than A."
+  },
+  {
+   "titel": "Welche Form? Typische Fehler",
+   "text": "So entscheidest du, welche Form du brauchst:\n\n- Siehst du **than** oder sind es **zwei** Dinge? → **Komparativ** (taller than).\n- Siehst du **the**, **of the three**, **of all** oder **in the class**? → **Superlativ** (the tallest).\n- Siehst du **as … as**? → **Grundform** (as tall as).\n\n**Typische Fehler:**\n\n- Komparativ statt Superlativ: Mia is the older of the three. → Mia is **the oldest** of the three.\n- most vergessen: the beautiful girl in the class → the **most** beautiful girl in the class.\n- as statt than: bigger as → bigger **than**.\n- doppelt gesteigert: more taller, most tallest → taller, the tallest.\n- the vergessen: She is tallest. → She is **the** tallest.",
+   "merke": "than → Komparativ. the … of / in → Superlativ. as … as → Grundform."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Schau auf die Tabelle und ergänze die Komparative.",
+   "text": "Pia is {{taller}} than Mara.\nNils is {{older}} than Mara.\nPia is {{younger}} than Nils.",
+   "info": "Pia (156 cm) ist größer als Mara (150 cm): taller than. Nils (12) ist älter als Mara (11): older than. Pia (10) ist jünger als Nils (12): younger than.",
+   "wortbank": [
+    "taller",
+    "older",
+    "younger",
+    "more tall",
+    "oldest",
+    "youngest"
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 172\" width=\"390\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"390\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"110\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Name</text><rect x=\"120\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Age</text><rect x=\"250\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Height</text><rect x=\"10\" y=\"48\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mara</text><rect x=\"120\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">150 cm</text><rect x=\"10\" y=\"86\" width=\"110\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nils</text><rect x=\"120\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12 years</text><rect x=\"250\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">146 cm</text><rect x=\"10\" y=\"124\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Pia</text><rect x=\"120\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">10 years</text><rect x=\"250\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">156 cm</text></svg>",
+   "bildAlt": "Tabelle: Mara ist 11 Jahre alt und 150 cm groß, Nils ist 12 Jahre alt und 146 cm groß, Pia ist 10 Jahre alt und 156 cm groß."
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Nils (146 cm) und Mara (150 cm): Nils is … than Mara. Schreibe die richtige Form von „short“.",
+   "info": "short ist kurz: shorter. Nils ist kleiner als Mara, also: Nils is shorter than Mara.",
+   "richtig": "shorter",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 172\" width=\"390\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"390\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"110\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Name</text><rect x=\"120\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Age</text><rect x=\"250\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Height</text><rect x=\"10\" y=\"48\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mara</text><rect x=\"120\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">150 cm</text><rect x=\"10\" y=\"86\" width=\"110\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nils</text><rect x=\"120\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12 years</text><rect x=\"250\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">146 cm</text><rect x=\"10\" y=\"124\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Pia</text><rect x=\"120\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">10 years</text><rect x=\"250\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">156 cm</text></svg>",
+   "bildAlt": "Tabelle: Mara ist 11 Jahre alt und 150 cm groß, Nils ist 12 Jahre alt und 146 cm groß, Pia ist 10 Jahre alt und 156 cm groß."
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Welches Wort fehlt? A horse is faster … a dog.",
+   "info": "Nach dem Komparativ steht than (= als). Then bedeutet „dann“, as steht bei as … as.",
+   "antworten": [
+    "than",
+    "then",
+    "as",
+    "that"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Welcher Satz stimmt mit der Tabelle überein?",
+   "info": "Das blaue Fahrrad kostet £180, das rote £120. Also ist das blaue teurer: more expensive than.",
+   "antworten": [
+    "The blue bike is more expensive than the red bike.",
+    "The blue bike is cheaper than the red bike.",
+    "The red bike is more expensive than the green bike.",
+    "The green bike is cheaper than the red bike."
+   ],
+   "richtig": 0,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 172\" width=\"290\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"290\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Bike</text><rect x=\"160\" y=\"10\" width=\"120\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Price</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the red bike</text><rect x=\"160\" y=\"48\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£120</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the blue bike</text><rect x=\"160\" y=\"86\" width=\"120\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£180</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the green bike</text><rect x=\"160\" y=\"124\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£150</text></svg>",
+   "bildAlt": "Tabelle: das rote Fahrrad kostet 120 Pfund, das blaue 180 Pfund, das grüne 150 Pfund."
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Schreibe einen Vergleich mit than: the blue bike (£180) – the green bike (£150) – expensive. Beginne mit „The blue bike“.",
+   "info": "expensive ist ein langes Adjektiv: more expensive than. Das blaue Fahrrad kostet mehr als das grüne.",
+   "richtig": "The blue bike is more expensive than the green bike",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 172\" width=\"290\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"290\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Bike</text><rect x=\"160\" y=\"10\" width=\"120\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Price</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the red bike</text><rect x=\"160\" y=\"48\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£120</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the blue bike</text><rect x=\"160\" y=\"86\" width=\"120\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£180</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the green bike</text><rect x=\"160\" y=\"124\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£150</text></svg>",
+   "bildAlt": "Tabelle: das rote Fahrrad kostet 120 Pfund, das blaue 180 Pfund, das grüne 150 Pfund."
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "„A cheetah is faster than a horse.“ Das stimmt nach der Tabelle.",
+   "info": "Der Gepard läuft 110 km/h, das Pferd 70 km/h. Also: A cheetah is faster than a horse.",
+   "richtig": true,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 172\" width=\"300\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"300\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Animal</text><rect x=\"140\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Speed</text><rect x=\"10\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">cheetah</text><rect x=\"140\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">110 km/h</text><rect x=\"10\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">horse</text><rect x=\"140\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">70 km/h</text><rect x=\"10\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">dog</text><rect x=\"140\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">55 km/h</text></svg>",
+   "bildAlt": "Tabelle: Gepard 110 km/h, Pferd 70 km/h, Hund 55 km/h."
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "„Nils is younger than Pia.“ Das stimmt nach der Tabelle.",
+   "info": "Nils ist 12, Pia ist 10. Also ist Nils älter: Nils is older than Pia.",
+   "richtig": false,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 172\" width=\"390\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"390\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"110\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Name</text><rect x=\"120\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Age</text><rect x=\"250\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Height</text><rect x=\"10\" y=\"48\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mara</text><rect x=\"120\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">150 cm</text><rect x=\"10\" y=\"86\" width=\"110\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nils</text><rect x=\"120\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12 years</text><rect x=\"250\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">146 cm</text><rect x=\"10\" y=\"124\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Pia</text><rect x=\"120\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">10 years</text><rect x=\"250\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">156 cm</text></svg>",
+   "bildAlt": "Tabelle: Mara ist 11 Jahre alt und 150 cm groß, Nils ist 12 Jahre alt und 146 cm groß, Pia ist 10 Jahre alt und 156 cm groß."
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Bringe die Wörter in die richtige Reihenfolge.",
+   "info": "Subjekt, is, Komparativ, than, zweites Subjekt: Pia is taller than Mara.",
+   "schritte": [
+    "Pia",
+    "is",
+    "taller",
+    "than",
+    "Mara"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "than = als. Das Wort then bedeutet „dann“. old ist kurz: older (nicht more old).",
+   "antworten": [
+    "Mia is older than her brother.",
+    "Mia is older then her brother.",
+    "Mia is older as her brother.",
+    "Mia is more old than her brother."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Vergleiche mit than",
+   "frage": "Setze den Komparativ von „heavy“, „boring“ und „small“ ein.",
+   "text": "My bag is {{heavier}} than your bag.\nThis film is {{more boring}} than that book.\nA mouse is {{smaller}} than a cat.",
+   "info": "heavy → heavier (y wird i). boring ist lang: more boring. small ist kurz: smaller.",
+   "wortbank": [
+    "heavier",
+    "more boring",
+    "smaller",
+    "heavyer",
+    "more small",
+    "boringer"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Schau auf die Tabelle und ergänze die Superlative (ohne the).",
+   "text": "Pia is the {{tallest}} of the three.\nNils is the {{oldest}} of the three.\nPia is the {{youngest}} of the three.",
+   "info": "Pia ist mit 156 cm die Größte (the tallest), Nils mit 12 Jahren der Älteste (the oldest), Pia mit 10 Jahren die Jüngste (the youngest).",
+   "wortbank": [
+    "tallest",
+    "oldest",
+    "youngest",
+    "taller",
+    "most tall",
+    "older"
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 172\" width=\"390\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"390\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"110\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Name</text><rect x=\"120\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Age</text><rect x=\"250\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Height</text><rect x=\"10\" y=\"48\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mara</text><rect x=\"120\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">150 cm</text><rect x=\"10\" y=\"86\" width=\"110\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nils</text><rect x=\"120\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12 years</text><rect x=\"250\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">146 cm</text><rect x=\"10\" y=\"124\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Pia</text><rect x=\"120\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">10 years</text><rect x=\"250\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">156 cm</text></svg>",
+   "bildAlt": "Tabelle: Mara ist 11 Jahre alt und 150 cm groß, Nils ist 12 Jahre alt und 146 cm groß, Pia ist 10 Jahre alt und 156 cm groß."
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Der Gepard in der Tabelle: The cheetah is … animal in the table.",
+   "info": "Der Gepard ist von allen Tieren das schnellste: the fastest. fast ist kurz (-est), und beim Superlativ steht the.",
+   "antworten": [
+    "the fastest",
+    "faster",
+    "the faster",
+    "the most fast"
+   ],
+   "richtig": 0,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 172\" width=\"300\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"300\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Animal</text><rect x=\"140\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Speed</text><rect x=\"10\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">cheetah</text><rect x=\"140\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">110 km/h</text><rect x=\"10\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">horse</text><rect x=\"140\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">70 km/h</text><rect x=\"10\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"75.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">dog</text><rect x=\"140\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"215.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">55 km/h</text></svg>",
+   "bildAlt": "Tabelle: Gepard 110 km/h, Pferd 70 km/h, Hund 55 km/h."
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Setze in oder of ein.",
+   "text": "Tom is the best player {{in}} the team.\nMara is the oldest {{of}} the three girls.\nThis is the most beautiful beach {{in}} the world.\nHe is the fastest runner {{of}} all.",
+   "info": "of steht bei mehreren Personen oder Dingen (of the three, of all). in steht bei einem Ort oder einer Gruppe (in the team, in the world).",
+   "auswahl": [
+    "in",
+    "of"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Bilde den Superlativ: Mia is the tall girl in our class. → Mia is the … girl in our class. Schreibe nur das fehlende Wort.",
+   "info": "Der Superlativ von tall ist the tallest. Das the steht schon im Satz.",
+   "richtig": "tallest"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Ergänze den Superlativ.",
+   "text": "The blue bike is the {{most expensive}} of the three bikes.\nThe red bike is the {{cheapest}} of the three bikes.",
+   "info": "Das blaue Fahrrad kostet £180 und ist das teuerste: the most expensive (langes Adjektiv). Das rote kostet £120 und ist das billigste: the cheapest.",
+   "wortbank": [
+    "most expensive",
+    "cheapest",
+    "expensivest",
+    "most cheap"
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 172\" width=\"290\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"290\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Bike</text><rect x=\"160\" y=\"10\" width=\"120\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Price</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the red bike</text><rect x=\"160\" y=\"48\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£120</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the blue bike</text><rect x=\"160\" y=\"86\" width=\"120\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£180</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the green bike</text><rect x=\"160\" y=\"124\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£150</text></svg>",
+   "bildAlt": "Tabelle: das rote Fahrrad kostet 120 Pfund, das blaue 180 Pfund, das grüne 150 Pfund."
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "„Mara is the oldest of the three.“ Das stimmt nach der Tabelle.",
+   "info": "Mara ist 11, Nils ist 12. Nils ist der Älteste: Nils is the oldest of the three.",
+   "richtig": false,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 172\" width=\"390\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"390\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"110\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Name</text><rect x=\"120\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Age</text><rect x=\"250\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Height</text><rect x=\"10\" y=\"48\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mara</text><rect x=\"120\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">150 cm</text><rect x=\"10\" y=\"86\" width=\"110\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nils</text><rect x=\"120\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12 years</text><rect x=\"250\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">146 cm</text><rect x=\"10\" y=\"124\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Pia</text><rect x=\"120\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">10 years</text><rect x=\"250\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">156 cm</text></svg>",
+   "bildAlt": "Tabelle: Mara ist 11 Jahre alt und 150 cm groß, Nils ist 12 Jahre alt und 146 cm groß, Pia ist 10 Jahre alt und 156 cm groß."
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "Der Superlativ von good ist the best (unregelmäßig). Nach dem Superlativ steht in, wenn man von einem Ort oder einer Gruppe spricht (in our school).",
+   "antworten": [
+    "Lena is the best singer in our school.",
+    "Lena is best singer in our school.",
+    "Lena is the goodest singer in our school.",
+    "Lena is the best singer of our school."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Bringe die Satzteile in die richtige Reihenfolge.",
+   "info": "Superlativ: the most beautiful, danach das Nomen und die Gruppe mit in.",
+   "schritte": [
+    "This is",
+    "the most beautiful",
+    "village",
+    "in Britain"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Setze den Superlativ von „big“ ein: Our school is the … school in the town. Schreibe nur das fehlende Wort.",
+   "info": "big verdoppelt das g: bigger, the biggest.",
+   "richtig": "biggest"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Der Superlativ: the … of / in",
+   "frage": "Welche Form passt? Ruby is … of the three sisters.",
+   "info": "Der Superlativ von young ist the youngest. of the three zeigt: unter mehreren (drei), also Superlativ mit the.",
+   "antworten": [
+    "the youngest",
+    "younger",
+    "the younger",
+    "the most young"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "Ergänze die Grundform. Ella und Finn sind beide 152 cm groß. Finn ist 11, Ella ist 12.",
+   "text": "Ella is as {{tall}} as Finn.\nFinn is not as {{old}} as Ella.",
+   "info": "Zwischen as und as steht die Grundform: as tall as, not as old as.",
+   "wortbank": [
+    "tall",
+    "old",
+    "taller",
+    "older"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "Mara (150 cm) und Pia (156 cm): Mara is not … Pia. Schreibe die fehlenden Wörter (as … as).",
+   "info": "Mara ist kleiner als Pia, also: Mara is not as tall as Pia. Dazwischen steht die Grundform tall.",
+   "richtig": "as tall as",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 172\" width=\"390\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"390\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"110\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Name</text><rect x=\"120\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Age</text><rect x=\"250\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Height</text><rect x=\"10\" y=\"48\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Mara</text><rect x=\"120\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">150 cm</text><rect x=\"10\" y=\"86\" width=\"110\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Nils</text><rect x=\"120\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12 years</text><rect x=\"250\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">146 cm</text><rect x=\"10\" y=\"124\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Pia</text><rect x=\"120\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">10 years</text><rect x=\"250\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">156 cm</text></svg>",
+   "bildAlt": "Tabelle: Mara ist 11 Jahre alt und 150 cm groß, Nils ist 12 Jahre alt und 146 cm groß, Pia ist 10 Jahre alt und 156 cm groß."
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "Bei as … as steht die Grundform (fast). Danach kommt wieder as, nicht than.",
+   "antworten": [
+    "Tom is as fast as Ben.",
+    "Tom is as faster as Ben.",
+    "Tom is as fast than Ben.",
+    "Tom is so fast as Ben."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "„Pia is not as old as Nils.“ Das stimmt nach der Tabelle (Pia 10, Nils 12).",
+   "info": "not as old as = nicht so alt wie. Pia ist 10 und Nils ist 12, also ist Pia weniger alt.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "Ergänze mit as … as.",
+   "text": "The red bike is not as {{expensive}} as the blue bike.\nThe green bike is not as {{cheap}} as the red bike.",
+   "info": "Das rote Fahrrad (£120) ist weniger teuer als das blaue (£180). Das grüne (£150) ist nicht so billig wie das rote. Zwischen as und as steht die Grundform.",
+   "wortbank": [
+    "expensive",
+    "cheap",
+    "more expensive",
+    "cheaper"
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 290 172\" width=\"290\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"290\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Bike</text><rect x=\"160\" y=\"10\" width=\"120\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Price</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the red bike</text><rect x=\"160\" y=\"48\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£120</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the blue bike</text><rect x=\"160\" y=\"86\" width=\"120\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£180</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">the green bike</text><rect x=\"160\" y=\"124\" width=\"120\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"220.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">£150</text></svg>",
+   "bildAlt": "Tabelle: das rote Fahrrad kostet 120 Pfund, das blaue 180 Pfund, das grüne 150 Pfund."
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "Schreibe den Satz mit not as … as: Mia is taller than Ben. → Ben is not as … as Mia. Schreibe nur das Wort in der Mitte.",
+   "info": "Aus dem Vergleich mit taller than wird not as tall as: Ben is not as tall as Mia.",
+   "richtig": "tall"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "Ordne die Struktur der Bedeutung zu.",
+   "info": "as … as: gleich. not as … as: weniger. -er than: mehr als (Komparativ). the -est: das Höchste unter mehreren (Superlativ).",
+   "paare": [
+    [
+     "as … as",
+     "gleich (so … wie)"
+    ],
+    [
+     "not as … as",
+     "weniger (nicht so … wie)"
+    ],
+    [
+     "… -er than",
+     "mehr als (… er als)"
+    ],
+    [
+     "the … -est",
+     "am meisten (Superlativ)"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "Welche Form steht zwischen as … as?",
+   "info": "Zwischen as und as steht immer die Grundform des Adjektivs: as tall as.",
+   "antworten": [
+    "die Grundform (tall)",
+    "der Komparativ (taller)",
+    "der Superlativ (tallest)",
+    "more + Grundform"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – as … as und not as … as",
+   "frage": "„Tom is as taller as Ben.“ ist richtig.",
+   "info": "Zwischen as und as steht die Grundform: Tom is as tall as Ben.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "Tom is … boy in our class. (tall)",
+   "info": "in our class zeigt: unter vielen, also Superlativ mit the: the tallest.",
+   "antworten": [
+    "the tallest",
+    "taller",
+    "the taller",
+    "as tall"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "Tom is … than Ben. (tall)",
+   "info": "than zeigt: Komparativ, ohne the: taller than.",
+   "antworten": [
+    "taller",
+    "the tallest",
+    "tallest",
+    "as tall"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "Welche Stufe ist es? Wähle Grundform, Komparativ oder Superlativ.",
+   "text": "Pia is taller than Mara. → {{Komparativ}}\nPia is the tallest of the three. → {{Superlativ}}\nPia is as tall as her cousin. → {{Grundform}}",
+   "info": "than → Komparativ. the … of the three → Superlativ. as … as → Grundform.",
+   "auswahl": [
+    "Grundform",
+    "Komparativ",
+    "Superlativ"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "Welche Stufe gehört zu welchem Signal?",
+   "info": "than verlangt den Komparativ. of the three verlangt den Superlativ. as … as verlangt die Grundform.",
+   "paare": [
+    [
+     "than",
+     "Komparativ"
+    ],
+    [
+     "of the three",
+     "Superlativ"
+    ],
+    [
+     "as … as",
+     "Grundform"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "Setze den Komparativ oder den Superlativ ein.",
+   "text": "My dog is {{bigger}} than your dog. But the {{biggest}} dog in our street is Rex.",
+   "info": "than → bigger (Komparativ, g wird doppelt). in our street → the biggest (Superlativ).",
+   "wortbank": [
+    "bigger",
+    "biggest",
+    "more big",
+    "big"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "Setze die richtige Form von „high“ ein: Mount Everest is the … mountain in the world. Schreibe nur das fehlende Wort.",
+   "info": "Der Berg ist der höchste von allen: Superlativ the highest.",
+   "richtig": "highest"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "intelligent ist lang: the most intelligent. Mit in our group steht der Superlativ.",
+   "antworten": [
+    "Anna is the most intelligent girl in our group.",
+    "Anna is the intelligentest girl in our group.",
+    "Anna is the more intelligent girl in our group.",
+    "Anna is the intelligent girl in our group."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Komparativ, Superlativ oder Grundform?",
+   "frage": "„The more beautiful“ ist ein Superlativ.",
+   "info": "„more beautiful“ ist ein Komparativ. Der Superlativ heißt the most beautiful.",
+   "richtig": false
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Vergleiche umschreiben",
+   "frage": "Schreibe denselben Vergleich mit not as … as: Mia is older than Tom. → Tom …",
+   "info": "Du drehst den Satz um: Tom is not as old as Mia. Die Grundform old steht zwischen den beiden as.",
+   "richtig": [
+    "Tom is not as old as Mia",
+    "Tom isn't as old as Mia"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Vergleiche umschreiben",
+   "frage": "Schreibe denselben Vergleich mit than: Ben isn't as fast as Max. → Max …",
+   "info": "Ben ist weniger schnell, also ist Max schneller: Max is faster than Ben.",
+   "richtig": "Max is faster than Ben"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Vergleiche umschreiben",
+   "frage": "Schreibe denselben Vergleich mit dem Gegenwort „shorter“: Mia is taller than Tom. → Tom …",
+   "info": "tall und short sind Gegensätze: Tom is shorter than Mia.",
+   "richtig": "Tom is shorter than Mia"
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "E – Vergleiche umschreiben",
+   "frage": "Bringe die Wörter in die richtige Reihenfolge (Vergleich mit more).",
+   "info": "more expensive than: langes Adjektiv mit more, danach than und das zweite Nomen.",
+   "schritte": [
+    "The blue bike",
+    "is more expensive",
+    "than",
+    "the red bike"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Vergleiche umschreiben",
+   "frage": "Bilde einen Satz mit dem Komparativ: dog / small / horse. Beginne mit „A dog“.",
+   "info": "small ist kurz: smaller than. Ein Hund ist kleiner als ein Pferd.",
+   "richtig": "A dog is smaller than a horse"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Vergleiche umschreiben",
+   "frage": "Welcher Satz sagt dasselbe wie „The red bag is cheaper than the blue bag.“?",
+   "info": "Wenn die rote Tasche billiger ist, ist die blaue teurer. Die anderen Sätze sagen das Gegenteil oder etwas anderes.",
+   "antworten": [
+    "The blue bag is more expensive than the red bag.",
+    "The blue bag is cheaper than the red bag.",
+    "The blue bag is not as expensive as the red bag.",
+    "The red bag is as cheap as the blue bag."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Ergänze den Text.",
+   "text": "There are five people in my family. My grandpa is the {{oldest}} (old). My dad is {{taller}} (tall) than my mum, but my brother is the {{tallest}} (tall) in the family. My sister is {{younger}} (young) than me. My mum is the {{best}} (good) cook in the world. Her cake is {{more delicious}} (delicious) than any cake in the shop.",
+   "info": "old → the oldest, tall → taller (than) und the tallest (in the family), young → younger (than me), good → the best, delicious → more delicious.",
+   "wortbank": [
+    "oldest",
+    "taller",
+    "tallest",
+    "younger",
+    "best",
+    "more delicious",
+    "goodest",
+    "more tall",
+    "youngest"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Schau auf die Tabelle und ergänze.",
+   "text": "Oskar is the {{tallest}}.\nElias is {{shorter}} than Jonas.\nJonas is not as {{tall}} as Oskar.\nElias is the {{oldest}} of the three boys.",
+   "info": "Oskar hat 152 cm und ist der Größte. Elias (143) ist kleiner als Jonas (148). Jonas ist nicht so groß wie Oskar. Elias ist 12 und der Älteste.",
+   "wortbank": [
+    "tallest",
+    "shorter",
+    "tall",
+    "oldest",
+    "taller",
+    "more tall",
+    "older"
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 390 172\" width=\"390\" height=\"172\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"390\" height=\"172\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"110\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Name</text><rect x=\"120\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Age</text><rect x=\"250\" y=\"10\" width=\"130\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Height</text><rect x=\"10\" y=\"48\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Jonas</text><rect x=\"120\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"48\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">148 cm</text><rect x=\"10\" y=\"86\" width=\"110\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Elias</text><rect x=\"120\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">12 years</text><rect x=\"250\" y=\"86\" width=\"130\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">143 cm</text><rect x=\"10\" y=\"124\" width=\"110\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"65.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Oskar</text><rect x=\"120\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"185.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">11 years</text><rect x=\"250\" y=\"124\" width=\"130\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"315.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">152 cm</text></svg>",
+   "bildAlt": "Tabelle: Jonas ist 11 Jahre alt und 148 cm groß, Elias ist 12 Jahre alt und 143 cm groß, Oskar ist 11 Jahre alt und 152 cm groß."
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Vergleiche zwei Tiere (zum Beispiel Hund und Katze, Pferd und Maus). Schreibe 3 Sätze mit than, as … as und the … -est.",
+   "punkte": 3,
+   "muster": "A horse is bigger than a dog. A dog is not as big as a horse. The elephant is the biggest animal of all.",
+   "kriterien": [
+    "Ein Satz hat einen richtigen Komparativ mit than.",
+    "Ein Satz hat as … as oder not as … as mit der Grundform.",
+    "Ein Satz hat einen richtigen Superlativ mit the (und of oder in)."
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Vergleiche drei Personen aus deiner Familie oder deinem Freundeskreis (ohne Namen, zum Beispiel my cousin, my sister, my friend). Schreibe 4 Sätze.",
+   "punkte": 4,
+   "muster": "My brother is older than me. My cousin is as tall as my sister. My friend is not as fast as my brother. My brother is the oldest of the four.",
+   "kriterien": [
+    "Es kommt ein Komparativ mit than vor.",
+    "Es kommt as … as oder not as … as mit der Grundform vor.",
+    "Es kommt ein Superlativ mit the vor.",
+    "Die Sätze sind richtig geschrieben (Verb is, Rechtschreibung der Steigerung)."
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Vergleiche mit than": "Vergleichen mit than",
+  "B – Der Superlativ: the … of / in": "Der Superlativ im Satz: of und in",
+  "C – as … as und not as … as": "as … as und not as … as",
+  "D – Komparativ, Superlativ oder Grundform?": "Welche Form? Typische Fehler",
+  "E – Vergleiche umschreiben": "Vergleiche umschreiben",
+  "F – Tabellen und Texte": [
+   "Vergleichen mit than",
+   "Der Superlativ im Satz: of und in",
+   "as … as und not as … as",
+   "Welche Form? Typische Fehler"
+  ]
+ },
+ "termin": "2026-12-08",
+ "reihenfolge": 7,
+ "gruppe": "Englischarbeit 08.12.2026",
+ "dauerhaft": false,
+ "probe": false,
+ "karte": {
+  "titel": "Vergleichs-König",
+  "motiv": "👑",
+  "text": "than, as … as und the … of / in: Menschen, Tiere und Schulen sicher vergleichen."
+ }
+}

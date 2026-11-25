@@ -1,0 +1,537 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "englisch-probearbeit",
+ "titel": "Englisch Klasse 6: Probearbeit (Listening, Vocabulary, Grammar, Writing)",
+ "fach": "Englisch",
+ "klasse": "6",
+ "beschreibung": "Eigene Probearbeit mit 48 Punkten in vier Teilen (A Listening 10, B Vocabulary 12, C Grammar 18, D Writing 8), 45 Minuten mit Timer, Buch und Heft zu. Alle Aufgaben sind neu. Wo Punkte fehlen, geh in das passende Übungspaket zurück.",
+ "hinweis": "Das ist nicht die Klassenarbeit deines Lehrers, sondern eine eigene Probearbeit unter Prüfungsbedingungen. Dauer, Aufbau und Punkte der echten Arbeit sind nicht bekannt, deshalb sind Aufbau, Punkte und Zeit selbst festgelegt. Die Hörtexte sind selbst geschrieben (Knopf „Anhören“, du darfst jeden Text zweimal hören). Lege Buch, Heft und Vokabelheft weg und vergleiche erst am Ende mit den Lösungen. Den Text in Teil D bewertest du mit einem Elternteil nach den Kriterien. Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer.",
+ "aufgaben": [
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Listening (10 Punkte)",
+   "frage": "Aufgabe 1: Höre den Text (Anhören) und ergänze die Angaben zum Ausflug (Ziffern). (4 Punkte)",
+   "text": "Date of the trip: {{20|twentieth}} June\nMeeting time: {{7:45|7.45}}\nThe bus leaves at: {{8:00|8.00|8}}\nTicket: £{{15|fifteen}}",
+   "info": "twentieth of June = 20. Juni (nicht thirteenth). quarter to eight = 7:45. eight o'clock = 8:00. fifteen pounds = £15.",
+   "vorlesen": {
+    "text": "Hi Max, it's Nina. The class trip is on the twentieth of June, not on the thirteenth. We meet at quarter to eight at the school gate. The bus leaves at eight o'clock and the ticket costs fifteen pounds. Please bring a sandwich and a drink. See you!",
+    "sprache": "en-GB"
+   },
+   "lesen": [
+    {
+     "paket": "englisch-2a-hoeren",
+     "titel": "Hörstrategien"
+    },
+    {
+     "paket": "englisch-2a-hoeren",
+     "titel": "Zahlen verstehen"
+    },
+    {
+     "paket": "englisch-2a-hoeren",
+     "titel": "Datum und Ordnungszahlen"
+    },
+    {
+     "paket": "englisch-2a-hoeren",
+     "titel": "Uhrzeiten"
+    }
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Teil A – Listening (10 Punkte)",
+   "frage": "Aufgabe 2: Höre den Text noch einmal. Die Klasse trifft sich am Bahnhof.",
+   "info": "Im Text: „at the school gate“. Die Klasse trifft sich am Schultor.",
+   "richtig": false,
+   "vorlesen": {
+    "text": "Hi Max, it's Nina. The class trip is on the twentieth of June, not on the thirteenth. We meet at quarter to eight at the school gate. The bus leaves at eight o'clock and the ticket costs fifteen pounds. Please bring a sandwich and a drink. See you!",
+    "sprache": "en-GB"
+   },
+   "lesen": {
+    "paket": "englisch-2a-hoeren",
+    "titel": "Richtig oder falsch? Antworten finden"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil A – Listening (10 Punkte)",
+   "frage": "Aufgabe 3: Was sollen die Kinder mitbringen?",
+   "info": "Im Text: „Please bring a sandwich and a drink.“",
+   "antworten": [
+    "ein Sandwich und etwas zu trinken",
+    "Geld für ein Eis",
+    "eine Mütze und Handschuhe",
+    "ein Buch und einen Stift"
+   ],
+   "richtig": 0,
+   "vorlesen": {
+    "text": "Hi Max, it's Nina. The class trip is on the twentieth of June, not on the thirteenth. We meet at quarter to eight at the school gate. The bus leaves at eight o'clock and the ticket costs fifteen pounds. Please bring a sandwich and a drink. See you!",
+    "sprache": "en-GB"
+   },
+   "lesen": {
+    "paket": "englisch-2a-hoeren",
+    "titel": "Richtig oder falsch? Antworten finden"
+   }
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil A – Listening (10 Punkte)",
+   "frage": "Aufgabe 4: Höre den Text (Anhören). Was macht Ella an welchem Tag? (3 Punkte)",
+   "info": "Im Text: Monday half past three (3:30), Thursday four o'clock (4:00), on Friday chess with a friend.",
+   "paare": [
+    [
+     "Monday",
+     "Choir at 3:30"
+    ],
+    [
+     "Thursday",
+     "Choir at 4:00"
+    ],
+    [
+     "Friday",
+     "Chess with a friend"
+    ]
+   ],
+   "vorlesen": {
+    "text": "My name is Ella and I'm in the choir. We practise on Monday and on Thursday. On Monday the choir starts at half past three and on Thursday at four o'clock. I like the choir because the teacher is kind. On Friday I'm going to play chess with my friend.",
+    "sprache": "en-GB"
+   },
+   "lesen": [
+    {
+     "paket": "englisch-2a-hoeren",
+     "titel": "Hörstrategien"
+    },
+    {
+     "paket": "englisch-2a-hoeren",
+     "titel": "Uhrzeiten"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil A – Listening (10 Punkte)",
+   "frage": "Aufgabe 5: Warum mag Ella den Chor?",
+   "info": "Im Text: „because the teacher is kind“ (weil die Lehrerin nett ist).",
+   "antworten": [
+    "Die Lehrerin ist nett.",
+    "Der Chor ist sehr laut.",
+    "Ihre Freundin singt auch im Chor.",
+    "Sie darf auf der Bühne tanzen."
+   ],
+   "richtig": 0,
+   "vorlesen": {
+    "text": "My name is Ella and I'm in the choir. We practise on Monday and on Thursday. On Monday the choir starts at half past three and on Thursday at four o'clock. I like the choir because the teacher is kind. On Friday I'm going to play chess with my friend.",
+    "sprache": "en-GB"
+   },
+   "lesen": {
+    "paket": "englisch-2a-hoeren",
+    "titel": "Richtig oder falsch? Antworten finden"
+   }
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil B – Vocabulary (12 Punkte)",
+   "frage": "Aufgabe 6: Ordne die englischen Wörter den deutschen zu. (4 Punkte)",
+   "info": "recorder = Blockflöte, stairs = Treppe, worksheet = Arbeitsblatt, awful = schrecklich.",
+   "paare": [
+    [
+     "recorder",
+     "Blockflöte"
+    ],
+    [
+     "stairs",
+     "Treppe"
+    ],
+    [
+     "worksheet",
+     "Arbeitsblatt"
+    ],
+    [
+     "awful",
+     "schrecklich"
+    ]
+   ],
+   "lesen": [
+    {
+     "paket": "englisch-2b-wortschatz-1",
+     "titel": "Bühne, Musical und Gefühle"
+    },
+    {
+     "paket": "englisch-2c-wortschatz-2",
+     "titel": "Dinge und Orte"
+    },
+    {
+     "paket": "englisch-2b-wortschatz-1",
+     "titel": "Schule und Schultag"
+    }
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil B – Vocabulary (12 Punkte)",
+   "frage": "Aufgabe 7: Ergänze die Wörter. (4 Punkte)",
+   "text": "Our teacher gives everyone a {{worksheet}}. Please read the text {{aloud}} and {{label}} the picture. Try not to make a {{mistake}}.",
+   "info": "worksheet = Arbeitsblatt, read aloud = laut lesen, label = beschriften, mistake = Fehler.",
+   "wortbank": [
+    "worksheet",
+    "aloud",
+    "label",
+    "mistake",
+    "article",
+    "stage"
+   ],
+   "lesen": [
+    {
+     "paket": "englisch-2b-wortschatz-1",
+     "titel": "Schule und Schultag"
+    },
+    {
+     "paket": "englisch-2c-wortschatz-2",
+     "titel": "Verben und Wendungen"
+    }
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil B – Vocabulary (12 Punkte)",
+   "frage": "Aufgabe 8: Ergänze das Wort: Sam sings really well. He is a very ___ singer. (begabt)",
+   "info": "talented = begabt, talentiert.",
+   "richtig": "talented",
+   "lesen": {
+    "paket": "englisch-2b-wortschatz-1",
+    "titel": "Bühne, Musical und Gefühle"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil B – Vocabulary (12 Punkte)",
+   "frage": "Aufgabe 9: Ergänze das richtige Wort. (2 Punkte)",
+   "text": "I have a blue bag and Mila has a red bag. The blue bag is {{mine}} and the red bag is {{hers}}.",
+   "info": "mine = meins (statt my bag), hers = ihrs (statt her bag). Nach mine und hers steht kein Nomen.",
+   "wortbank": [
+    "mine",
+    "hers",
+    "her",
+    "my"
+   ],
+   "lesen": {
+    "paket": "englisch-2c-wortschatz-2",
+    "titel": "Possessivpronomen: my und mine"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil B – Vocabulary (12 Punkte)",
+   "frage": "Aufgabe 10: Was bedeutet get in diesem Satz? „It is getting dark.“",
+   "info": "get + Adjektiv heißt „werden“: It is getting dark = Es wird dunkel.",
+   "antworten": [
+    "bekommen",
+    "werden",
+    "holen",
+    "gehen"
+   ],
+   "richtig": 1,
+   "mischen": false,
+   "lesen": {
+    "paket": "englisch-2c-wortschatz-2",
+    "titel": "get – ein Wort, viele Bedeutungen"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 11: Ergänze am, is oder are. (3 Punkte)",
+   "text": "Tonight my brother {{is}} going to cook. My parents {{are}} going to clean the kitchen, and I {{am}} going to set the table.",
+   "info": "I am, he/she/it is, we/you/they are. Danach going to + Grundform.",
+   "wortbank": [
+    "is",
+    "are",
+    "am",
+    "be",
+    "was"
+   ],
+   "lesen": [
+    {
+     "paket": "englisch-2d-going-to-1",
+     "titel": "So bildest du going to"
+    },
+    {
+     "paket": "englisch-2d-going-to-1",
+     "titel": "Wann benutzt man going to?"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 12: Welcher Satz ist richtig?",
+   "info": "Verneinung: is not / isn't + going to + Grundform. Kein doesn't, und das Verb bleibt in der Grundform (watch).",
+   "antworten": [
+    "She isn't going to watch TV tonight.",
+    "She not going to watch TV tonight.",
+    "She doesn't going to watch TV tonight.",
+    "She isn't going to watches TV tonight."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "englisch-2d-going-to-1",
+    "titel": "Die Verneinung"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 13: Bilde eine Frage mit going to: Nina / play tennis / tomorrow",
+   "info": "Frage: Is + Subjekt + going to + Grundform. Is Nina going to play tennis tomorrow?",
+   "richtig": "Is Nina going to play tennis tomorrow",
+   "lesen": {
+    "paket": "englisch-2e-going-to-2",
+    "titel": "Fragen mit going to"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 14: Antworte mit einer Kurzantwort (nein): Are your friends going to come?",
+   "info": "No, they aren't. (oder: No, they are not.) Bei der Kurzantwort wird das Hilfsverb are wiederholt, nicht going to.",
+   "richtig": [
+    "No, they are not",
+    "No they are not",
+    "No, they aren't",
+    "No they aren't",
+    "No, they're not",
+    "No they're not"
+   ],
+   "lesen": {
+    "paket": "englisch-2e-going-to-2",
+    "titel": "Kurzantworten"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 15: Welche Frage ist richtig?",
+   "info": "Fragewort + are + Subjekt + going to + Grundform: What are you going to do?",
+   "antworten": [
+    "What are you going to do on Saturday?",
+    "What do you going to do on Saturday?",
+    "What are you going to doing on Saturday?",
+    "What you are going to do on Saturday?"
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "englisch-2e-going-to-2",
+    "titel": "Fragewörter"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 16: Ergänze die richtige Form des Adjektivs. (3 Punkte)",
+   "text": "My bag is {{heavier}} than your bag. This book is {{more interesting}} than that book. February is the {{shortest}} month of the year.",
+   "info": "heavy → heavier (y wird zu i). interesting ist lang: more interesting. short → shortest (Superlativ mit the).",
+   "wortbank": [
+    "heavier",
+    "more interesting",
+    "shortest",
+    "heavyer",
+    "interestinger"
+   ],
+   "lesen": [
+    {
+     "paket": "englisch-2f-steigerung-1",
+     "titel": "Kurze Adjektive: -er und -est"
+    },
+    {
+     "paket": "englisch-2f-steigerung-1",
+     "titel": "Lange Adjektive: more und most"
+    },
+    {
+     "paket": "englisch-2f-steigerung-1",
+     "titel": "Rechtschreibung der Formen"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 17: Mia ist 150 cm groß. Tom ist auch 150 cm groß. Welcher Satz ist richtig?",
+   "info": "Gleich groß: as + Grundform + as. Nach as … as steht die Grundform (tall), nicht taller.",
+   "antworten": [
+    "Mia is as tall as Tom.",
+    "Mia is taller than Tom.",
+    "Mia is as taller as Tom.",
+    "Mia is tall as Tom."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "englisch-2g-steigerung-2",
+    "titel": "as … as und not as … as"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 18: Ergänze die Steigerung: This pizza is good, but that pizza is ___ than this one.",
+   "info": "good – better – the best. Das sind unregelmäßige Formen (nicht gooder).",
+   "richtig": "better",
+   "lesen": {
+    "paket": "englisch-2f-steigerung-1",
+    "titel": "Unregelmäßige Formen"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 19: Ergänze den Superlativ: Mount Everest is the ___ mountain in the world. (high)",
+   "info": "high – higher – the highest. Der Superlativ steht mit the und mit in oder of.",
+   "richtig": "highest",
+   "lesen": {
+    "paket": "englisch-2g-steigerung-2",
+    "titel": "Der Superlativ im Satz: of und in"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 20: Welcher Satz hat einen Fehler?",
+   "info": "fast ist ein kurzes Adjektiv: faster, nicht more fast. Bei langen Adjektiven (exciting) nimmt man more.",
+   "antworten": [
+    "My dog is more fast than your dog.",
+    "This film is more exciting than that film.",
+    "Ben is the oldest of the three boys.",
+    "Our school is not as big as that school."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "englisch-2g-steigerung-2",
+    "titel": "Welche Form? Typische Fehler"
+   }
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 21: Bringe die Wörter in die richtige Reihenfolge.",
+   "info": "Subjekt – is – going to – Grundform – Rest: Lena is going to buy a present.",
+   "schritte": [
+    "Lena",
+    "is",
+    "going",
+    "to",
+    "buy",
+    "a",
+    "present"
+   ],
+   "lesen": {
+    "paket": "englisch-2d-going-to-1",
+    "titel": "So bildest du going to"
+   }
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 22: Der Satz „My bike is more old than yours.“ ist richtig.",
+   "info": "old ist kurz: older. Richtig: My bike is older than yours.",
+   "richtig": false,
+   "lesen": {
+    "paket": "englisch-2g-steigerung-2",
+    "titel": "Welche Form? Typische Fehler"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil C – Grammar (18 Punkte)",
+   "frage": "Aufgabe 23: Ergänze die verneinte Form. (2 Punkte)",
+   "text": "My sister {{isn't|is not}} going to come. We {{aren't|are not}} going to wait for her.",
+   "info": "Verneinung mit going to: is not (isn't) bei he/she/it, are not (aren't) bei we/you/they.",
+   "wortbank": [
+    "isn't",
+    "aren't",
+    "don't",
+    "am not"
+   ],
+   "lesen": {
+    "paket": "englisch-2d-going-to-1",
+    "titel": "Die Verneinung"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil D – Writing (8 Punkte)",
+   "frage": "Aufgabe 24: Verbinde die beiden Sätze mit because: „I like Fridays.“ „We have art.“",
+   "info": "because = weil. Es steht vor dem Grund: I like Fridays because we have art.",
+   "richtig": [
+    "I like Fridays because we have art",
+    "I like Fridays, because we have art"
+   ],
+   "lesen": {
+    "paket": "englisch-2h-schreiben",
+    "titel": "Sätze verbinden: and, but, because, so"
+   }
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "Teil D – Writing (8 Punkte)",
+   "frage": "Aufgabe 25: Bringe die Sätze in die richtige Reihenfolge.",
+   "info": "first, then, after that, finally zeigen die Reihenfolge.",
+   "schritte": [
+    "First, I have breakfast.",
+    "Then I pack my bag.",
+    "After that I walk to school.",
+    "Finally, I meet my friends at the gate."
+   ],
+   "lesen": {
+    "paket": "englisch-2h-schreiben",
+    "titel": "Mein Schultag"
+   }
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil D – Writing (8 Punkte)",
+   "frage": "Aufgabe 26: Schreibe einen Text mit 6 bis 8 Sätzen: Beschreibe kurz deinen Schultag (mit Uhrzeiten) und vergleiche deine Schule mit Oakfield School (Tabelle). Schreibe auch, was du nach der Schule vorhast (going to). (6 Punkte)",
+   "punkte": 6,
+   "muster": "I get up at half past six. After that I go to school by bus. School starts at five to eight at my school, so it starts earlier than at Oakfield School. My school is smaller than Oakfield School, but we have six lessons too. Oakfield School has a uniform, but we don't wear a uniform. After school I'm going to play football with my friends.",
+   "kriterien": [
+    "Der Text hat 6 bis 8 vollständige Sätze mit Satzanfang groß und Punkt.",
+    "Der Schultag wird mit richtigen Uhrzeiten oder mit first, then, after that beschrieben.",
+    "Es kommt ein richtiger Komparativ mit than vor (zum Beispiel smaller than, earlier than).",
+    "Es kommt not as … as oder but für einen Gegensatz vor.",
+    "Ein Satz sagt mit am/is/are + going to + Grundform, was du nach der Schule vorhast.",
+    "Rechtschreibung stimmt, bei he/she/it steht -s."
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 248\" width=\"380\" height=\"248\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"380\" height=\"248\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"160\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"90.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"170\" y=\"10\" width=\"200\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"270.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Oakfield School</text><rect x=\"10\" y=\"48\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"90.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"170\" y=\"48\" width=\"200\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"270.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">600</text><rect x=\"10\" y=\"86\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"90.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"170\" y=\"86\" width=\"200\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"270.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"90.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"170\" y=\"124\" width=\"200\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"270.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:30</text><rect x=\"10\" y=\"162\" width=\"160\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"90.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"170\" y=\"162\" width=\"200\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"270.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"10\" y=\"200\" width=\"160\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"90.0\" y=\"225.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lunch</text><rect x=\"170\" y=\"200\" width=\"200\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"270.0\" y=\"225.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">in the canteen</text></svg>",
+   "bildAlt": "Tabelle: Oakfield School hat 600 Schüler, 6 Stunden am Tag, Schulbeginn 8:30, Uniform und Mittagessen in der Kantine.",
+   "lesen": [
+    {
+     "paket": "englisch-2h-schreiben",
+     "titel": "Mein Schultag"
+    },
+    {
+     "paket": "englisch-2h-schreiben",
+     "titel": "Meine Schule mit einer englischen Schule vergleichen"
+    },
+    {
+     "paket": "englisch-2h-schreiben",
+     "titel": "Pläne und E-Mails"
+    }
+   ]
+  }
+ ],
+ "ueben": false,
+ "termin": "2026-12-08",
+ "reihenfolge": 9,
+ "gruppe": "Englischarbeit 08.12.2026",
+ "dauerhaft": false,
+ "dauer": 45,
+ "karte": {
+  "titel": "Probearbeit-Urkunde",
+  "motiv": "🏆",
+  "text": "Die Probearbeit gemeistert: Listening, Vocabulary, Grammar und Writing."
+ }
+}

@@ -1,0 +1,750 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "englisch-2f-steigerung-1",
+ "titel": "Englisch Teil 2f: Steigerung der Adjektive (1) – Formen",
+ "fach": "Englisch",
+ "klasse": "6",
+ "beschreibung": "Comparison of adjectives, Teil 1: Grundform, Komparativ und Superlativ bilden (-er / -est, Rechtschreibung bei e, doppeltem Konsonanten und y, more / most, good und bad). Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze und Namen sind selbst ausgedacht, nicht aus dem Schulbuch, dem Workbook oder den Arbeitsblättern. Bei den Adjektiven mit zwei Silben (zum Beispiel clever) steigern Schulbücher manchmal unterschiedlich. Hier kommen nur eindeutige Beispiele vor.",
+ "lernblatt": [
+  {
+   "titel": "Was ist die Steigerung?",
+   "text": "Mit der **Steigerung** (comparison of adjectives) vergleichst du Dinge, Tiere oder Personen. Jedes Adjektiv hat drei Stufen:\n\n- **Grundform:** tall (groß) – Tom is tall.\n- **Komparativ:** taller (größer) – Tom is taller than Ben.\n- **Superlativ:** the tallest (am größten) – Tom is the tallest in the class.\n\nDen Komparativ benutzt du, wenn du **zwei** Dinge vergleichst (mit **than** = als). Den Superlativ benutzt du für **das Größte, Kleinste, Beste** unter mehreren (mit **the** davor).",
+   "merke": "Grundform: tall. Komparativ: taller (than). Superlativ: the tallest."
+  },
+  {
+   "titel": "Kurze Adjektive: -er und -est",
+   "text": "Bei **kurzen Adjektiven** (meist eine Silbe) hängst du **-er** und **-est** an:\n\n- tall → taller → the tallest\n- old → older → the oldest\n- small → smaller → the smallest\n- fast → faster → the fastest\n- cheap → cheaper → the cheapest\n\nDas Adjektiv bleibt dabei unverändert. Vor dem Superlativ steht **the**. Vor dem Komparativ steht kein the: Anna is **taller** than Mia.",
+   "merke": "Kurze Adjektive: -er (than) und the -est. Beispiel: old, older, the oldest."
+  },
+  {
+   "titel": "Rechtschreibung der Formen",
+   "text": "Bei einigen Adjektiven verändert sich beim Anhängen die **Schreibweise**:\n\n- **Endet das Adjektiv auf -e**, hängst du nur **-r** und **-st** an: nice → nicer → the nicest, large → larger → the largest.\n- **Kurzer Vokal + ein Konsonant:** Der Konsonant wird **doppelt** geschrieben: big → bigger → the biggest, hot → hotter → the hottest, thin → thinner → the thinnest.\n- **Konsonant + y:** Das y wird zu **i**: happy → happier → the happiest, funny → funnier → the funniest, easy → easier → the easiest.\n\nMerke dir zum Prüfen: Sprich das Wort mit Endung leise nach und zähle die Buchstaben.",
+   "merke": "-e: nur -r / -st. Kurzer Vokal: Konsonant doppelt. y: wird zu i."
+  },
+  {
+   "titel": "Lange Adjektive: more und most",
+   "text": "Bei **langen Adjektiven** (zwei oder mehr Silben, aber nicht auf -y) steigerst du mit **more** und **most**. Das Adjektiv bleibt dabei unverändert:\n\n- beautiful → **more** beautiful → **the most** beautiful\n- expensive → **more** expensive → **the most** expensive\n- interesting → **more** interesting → **the most** interesting\n- intelligent, famous, difficult, dangerous, popular, boring …\n\n**Achtung:** Man sagt nie „more taller“ und nie „most tallest“. Entweder -er / -est **oder** more / most, nie beides zusammen.",
+   "merke": "Lange Adjektive: more … (than) und the most …. Niemals -er und more zusammen."
+  },
+  {
+   "titel": "Unregelmäßige Formen",
+   "text": "Zwei wichtige Adjektive haben **eigene Formen**. Du musst sie auswendig lernen:\n\n- **good** → **better** → **the best** (gut, besser, am besten)\n- **bad** → **worse** → **the worst** (schlecht, schlechter, am schlechtesten)\n\nEs heißt nie „gooder“, „more good“, „badder“ oder „the most bad“. Beispiel: My bike is **better** than your bike. This is **the best** song of all.",
+   "merke": "good – better – the best. bad – worse – the worst."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Ergänze Komparativ und Superlativ.",
+   "text": "tall – {{taller}} – the {{tallest}}\nold – {{older}} – the {{oldest}}\nsmall – {{smaller}} – the {{smallest}}",
+   "info": "„tall“ ist kurz: einfach -er und -est anhängen: tall → taller → the tallest. „old“ ist kurz: einfach -er und -est anhängen: old → older → the oldest. „small“ ist kurz: einfach -er und -est anhängen: small → smaller → the smallest.",
+   "wortbank": [
+    "taller",
+    "tallest",
+    "older",
+    "oldest",
+    "smaller",
+    "smallest",
+    "more tall",
+    "most small",
+    "olderest"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Ordne jedem Adjektiv seinen Komparativ zu.",
+   "info": "„tall“ ist kurz: einfach -er und -est anhängen: tall → taller → the tallest. „old“ ist kurz: einfach -er und -est anhängen: old → older → the oldest. „small“ ist kurz: einfach -er und -est anhängen: small → smaller → the smallest.",
+   "paare": [
+    [
+     "tall",
+     "taller"
+    ],
+    [
+     "old",
+     "older"
+    ],
+    [
+     "small",
+     "smaller"
+    ],
+    [
+     "fast",
+     "faster"
+    ],
+    [
+     "cheap",
+     "cheaper"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Ordne jedem Adjektiv seinen Superlativ zu.",
+   "info": "„young“ ist kurz: einfach -er und -est anhängen: young → younger → the youngest. „long“ ist kurz: einfach -er und -est anhängen: long → longer → the longest. „short“ ist kurz: einfach -er und -est anhängen: short → shorter → the shortest.",
+   "paare": [
+    [
+     "young",
+     "the youngest"
+    ],
+    [
+     "long",
+     "the longest"
+    ],
+    [
+     "short",
+     "the shortest"
+    ],
+    [
+     "strong",
+     "the strongest"
+    ],
+    [
+     "high",
+     "the highest"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Schreibe den Komparativ von „fast“.",
+   "tipp": "Ist das Adjektiv kurz oder lang? Endet es auf e, y oder auf einen Konsonanten mit kurzem Vokal?",
+   "info": "„fast“ ist kurz: einfach -er und -est anhängen: fast → faster → the fastest.",
+   "richtig": "faster"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Schreibe den Superlativ von „cheap“ (mit the).",
+   "tipp": "Vor dem Superlativ steht the.",
+   "info": "„cheap“ ist kurz: einfach -er und -est anhängen: cheap → cheaper → the cheapest.",
+   "richtig": "the cheapest"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Was ist der richtige Komparativ von „strong“?",
+   "info": "„strong“ ist kurz: einfach -er und -est anhängen: strong → stronger → the strongest.",
+   "antworten": [
+    "stronger",
+    "more strong",
+    "strongest"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Was ist der richtige Superlativ von „young“?",
+   "info": "„young“ ist kurz: einfach -er und -est anhängen: young → younger → the youngest.",
+   "antworten": [
+    "the youngest",
+    "the most young",
+    "the younger"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "„Tom is more tall than Ben.“ ist richtig.",
+   "info": "Tall ist ein kurzes Adjektiv. Es heißt taller (nicht more tall): Tom is taller than Ben.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Kurze Adjektive: -er und -est",
+   "frage": "Wann steht vor der Steigerungsform the?",
+   "info": "Nur der Superlativ hat the: the tallest, the oldest. Der Komparativ wird mit than verbunden: taller than.",
+   "antworten": [
+    "Beim Superlativ (the tallest).",
+    "Beim Komparativ (the taller).",
+    "Bei beiden Formen.",
+    "Nie."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Ergänze Komparativ und Superlativ (Adjektive auf -e).",
+   "text": "nice – {{nicer}} – the {{nicest}}\nlarge – {{larger}} – the {{largest}}\nlate – {{later}} – the {{latest}}",
+   "info": "„nice“ endet schon auf -e: nur -r und -st anhängen: nice → nicer → the nicest. „large“ endet schon auf -e: nur -r und -st anhängen: large → larger → the largest. „late“ endet schon auf -e: nur -r und -st anhängen: late → later → the latest.",
+   "wortbank": [
+    "nicer",
+    "nicest",
+    "larger",
+    "largest",
+    "later",
+    "latest",
+    "niceer",
+    "the nicer"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Ergänze Komparativ und Superlativ (der Konsonant wird verdoppelt).",
+   "text": "big – {{bigger}} – the {{biggest}}\nthin – {{thinner}} – the {{thinnest}}\nhot – {{hotter}} – the {{hottest}}",
+   "info": "„big“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: big → bigger → the biggest. „thin“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: thin → thinner → the thinnest. „hot“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: hot → hotter → the hottest.",
+   "wortbank": [
+    "bigger",
+    "biggest",
+    "thinner",
+    "thinnest",
+    "hotter",
+    "hottest",
+    "biger",
+    "the bigest"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Ergänze Komparativ und Superlativ (y wird zu i).",
+   "text": "happy – {{happier}} – the {{happiest}}\nfunny – {{funnier}} – the {{funniest}}\neasy – {{easier}} – the {{easiest}}",
+   "info": "„happy“ endet auf Konsonant + y: Das y wird zu i: happy → happier → the happiest. „funny“ endet auf Konsonant + y: Das y wird zu i: funny → funnier → the funniest. „easy“ endet auf Konsonant + y: Das y wird zu i: easy → easier → the easiest.",
+   "wortbank": [
+    "happier",
+    "happiest",
+    "funnier",
+    "funniest",
+    "easier",
+    "easiest",
+    "happyer",
+    "the funnyest"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Ordne jedem Adjektiv auf -e seinen Komparativ zu.",
+   "info": "„nice“ endet schon auf -e: nur -r und -st anhängen: nice → nicer → the nicest. „wide“ endet schon auf -e: nur -r und -st anhängen: wide → wider → the widest. „safe“ endet schon auf -e: nur -r und -st anhängen: safe → safer → the safest.",
+   "paare": [
+    [
+     "nice",
+     "nicer"
+    ],
+    [
+     "wide",
+     "wider"
+    ],
+    [
+     "safe",
+     "safer"
+    ],
+    [
+     "brave",
+     "braver"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Ordne jedem Adjektiv seinen Superlativ zu (doppelter Konsonant).",
+   "info": "„big“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: big → bigger → the biggest. „hot“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: hot → hotter → the hottest. „fat“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: fat → fatter → the fattest.",
+   "paare": [
+    [
+     "big",
+     "the biggest"
+    ],
+    [
+     "hot",
+     "the hottest"
+    ],
+    [
+     "fat",
+     "the fattest"
+    ],
+    [
+     "sad",
+     "the saddest"
+    ],
+    [
+     "wet",
+     "the wettest"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Ordne jedem Adjektiv auf -y seinen Superlativ zu.",
+   "info": "„pretty“ endet auf Konsonant + y: Das y wird zu i: pretty → prettier → the prettiest. „heavy“ endet auf Konsonant + y: Das y wird zu i: heavy → heavier → the heaviest. „busy“ endet auf Konsonant + y: Das y wird zu i: busy → busier → the busiest.",
+   "paare": [
+    [
+     "pretty",
+     "the prettiest"
+    ],
+    [
+     "heavy",
+     "the heaviest"
+    ],
+    [
+     "busy",
+     "the busiest"
+    ],
+    [
+     "lucky",
+     "the luckiest"
+    ],
+    [
+     "noisy",
+     "the noisiest"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Schreibe den Komparativ von „large“.",
+   "tipp": "Ist das Adjektiv kurz oder lang? Endet es auf e, y oder auf einen Konsonanten mit kurzem Vokal?",
+   "info": "„large“ endet schon auf -e: nur -r und -st anhängen: large → larger → the largest.",
+   "richtig": "larger"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Schreibe den Komparativ von „thin“.",
+   "tipp": "Ist das Adjektiv kurz oder lang? Endet es auf e, y oder auf einen Konsonanten mit kurzem Vokal?",
+   "info": "„thin“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: thin → thinner → the thinnest.",
+   "richtig": "thinner"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Schreibe den Komparativ von „happy“.",
+   "tipp": "Ist das Adjektiv kurz oder lang? Endet es auf e, y oder auf einen Konsonanten mit kurzem Vokal?",
+   "info": "„happy“ endet auf Konsonant + y: Das y wird zu i: happy → happier → the happiest.",
+   "richtig": "happier"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Schreibe den Superlativ von „funny“ (mit the).",
+   "tipp": "Vor dem Superlativ steht the.",
+   "info": "„funny“ endet auf Konsonant + y: Das y wird zu i: funny → funnier → the funniest.",
+   "richtig": "the funniest"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Was ist der richtige Komparativ von „big“?",
+   "info": "„big“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: big → bigger → the biggest.",
+   "antworten": [
+    "bigger",
+    "biger",
+    "more big"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "Was ist der richtige Superlativ von „nice“?",
+   "info": "„nice“ endet schon auf -e: nur -r und -st anhängen: nice → nicer → the nicest.",
+   "antworten": [
+    "the nicest",
+    "the niceest",
+    "the most nice"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "„The hotest day“ ist richtig geschrieben.",
+   "info": "hot hat einen kurzen Vokal und einen Konsonanten am Ende: Das t wird verdoppelt: hotter, the hottest.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Rechtschreibung: e, doppelter Buchstabe, y",
+   "frage": "„Mia is happier than Ben.“ ist richtig geschrieben.",
+   "info": "happy endet auf Konsonant + y: Das y wird zu i: happier, the happiest.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "Ergänze Komparativ und Superlativ (lange Adjektive).",
+   "text": "beautiful – {{more beautiful}} – the {{most beautiful}}\nexpensive – {{more expensive}} – the {{most expensive}}\ninteresting – {{more interesting}} – the {{most interesting}}",
+   "info": "„beautiful“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: beautiful → more beautiful → the most beautiful. „expensive“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: expensive → more expensive → the most expensive. „interesting“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: interesting → more interesting → the most interesting.",
+   "wortbank": [
+    "more beautiful",
+    "most beautiful",
+    "more expensive",
+    "most expensive",
+    "more interesting",
+    "most interesting",
+    "beautifuler",
+    "more good"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "Ordne jedem langen Adjektiv seinen Komparativ zu.",
+   "info": "„beautiful“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: beautiful → more beautiful → the most beautiful. „difficult“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: difficult → more difficult → the most difficult. „famous“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: famous → more famous → the most famous.",
+   "paare": [
+    [
+     "beautiful",
+     "more beautiful"
+    ],
+    [
+     "difficult",
+     "more difficult"
+    ],
+    [
+     "famous",
+     "more famous"
+    ],
+    [
+     "popular",
+     "more popular"
+    ],
+    [
+     "boring",
+     "more boring"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "Schreibe den Komparativ von „intelligent“.",
+   "tipp": "Ist das Adjektiv kurz oder lang? Endet es auf e, y oder auf einen Konsonanten mit kurzem Vokal?",
+   "info": "„intelligent“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: intelligent → more intelligent → the most intelligent.",
+   "richtig": "more intelligent"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "Schreibe den Superlativ von „dangerous“ (mit the).",
+   "tipp": "Vor dem Superlativ steht the.",
+   "info": "„dangerous“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: dangerous → more dangerous → the most dangerous.",
+   "richtig": "the most dangerous"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "Was ist der richtige Komparativ von „careful“?",
+   "info": "„careful“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: careful → more careful → the most careful.",
+   "antworten": [
+    "more careful",
+    "carefuler",
+    "more carefuler"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "Was ist der richtige Superlativ von „famous“?",
+   "info": "„famous“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: famous → more famous → the most famous.",
+   "antworten": [
+    "the most famous",
+    "the famousest",
+    "the more famous"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "„The most expensivest watch“ ist richtig.",
+   "info": "Bei langen Adjektiven steigert man nur mit most: the most expensive. Nie most und -est zusammen.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Lange Adjektive: more und most",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "interesting ist ein langes Adjektiv: more interesting than. -er und more darf man nicht kombinieren, most steht nur beim Superlativ.",
+   "antworten": [
+    "This film is more interesting than that book.",
+    "This film is interestinger than that book.",
+    "This film is more interestinger than that book.",
+    "This film is most interesting than that book."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Unregelmäßige Formen: good und bad",
+   "frage": "Ergänze die unregelmäßigen Formen.",
+   "text": "good – {{better}} – the {{best}}\nbad – {{worse}} – the {{worst}}",
+   "info": "good → better → the best und bad → worse → the worst sind eigene Formen, die man lernen muss.",
+   "wortbank": [
+    "better",
+    "best",
+    "worse",
+    "worst",
+    "gooder",
+    "badder",
+    "the goodest"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Unregelmäßige Formen: good und bad",
+   "frage": "Schreibe den Komparativ von „good“.",
+   "tipp": "Ist das Adjektiv kurz oder lang? Endet es auf e, y oder auf einen Konsonanten mit kurzem Vokal?",
+   "info": "„good“ hat eigene Formen: good → better → the best.",
+   "richtig": "better"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Unregelmäßige Formen: good und bad",
+   "frage": "Schreibe den Superlativ von „bad“ (mit the).",
+   "tipp": "Vor dem Superlativ steht the.",
+   "info": "„bad“ hat eigene Formen: bad → worse → the worst.",
+   "richtig": "the worst"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Unregelmäßige Formen: good und bad",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "Der Komparativ von good ist better. Vor dem Komparativ steht kein the.",
+   "antworten": [
+    "My new bike is better than my old bike.",
+    "My new bike is gooder than my old bike.",
+    "My new bike is more good than my old bike.",
+    "My new bike is the better than my old bike."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Unregelmäßige Formen: good und bad",
+   "frage": "„This is the worst day of my life.“ ist richtig gesteigert.",
+   "info": "Der Superlativ von bad ist the worst (nicht the baddest).",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Unregelmäßige Formen: good und bad",
+   "frage": "Ordne die deutsche Bedeutung der englischen Form zu.",
+   "info": "good – better – the best (gut, besser, am besten); bad – worse – the worst (schlecht, schlechter, am schlechtesten).",
+   "paare": [
+    [
+     "besser",
+     "better"
+    ],
+    [
+     "am besten",
+     "the best"
+    ],
+    [
+     "schlechter",
+     "worse"
+    ],
+    [
+     "am schlechtesten",
+     "the worst"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Ordne jedes Adjektiv der Regel zu.",
+   "info": "tall: einfach -er / -est. nice endet auf -e. big: kurzer Vokal, der Konsonant wird verdoppelt. happy: y wird zu i. beautiful: langes Adjektiv, more / most.",
+   "paare": [
+    [
+     "tall",
+     "-er / -est"
+    ],
+    [
+     "nice",
+     "nur -r / -st"
+    ],
+    [
+     "big",
+     "Konsonant doppelt"
+    ],
+    [
+     "happy",
+     "y wird i"
+    ],
+    [
+     "beautiful",
+     "more / most"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Welches Adjektiv wird mit more / most gesteigert?",
+   "info": "difficult hat drei Silben: more difficult, the most difficult. Die anderen steigert man mit -er / -est (cheaper, happier, nicer).",
+   "antworten": [
+    "difficult",
+    "cheap",
+    "happy",
+    "nice"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Welche Steigerung ist FALSCH?",
+   "info": "dangerous ist lang: more dangerous, the most dangerous. Die anderen drei Reihen sind richtig.",
+   "antworten": [
+    "dangerous – dangerouser – the dangerousest",
+    "old – older – the oldest",
+    "easy – easier – the easiest",
+    "good – better – the best"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Welches Wort ist der Komparativ von „heavy“? Schreibe die Form.",
+   "info": "„heavy“ endet auf Konsonant + y: Das y wird zu i: heavy → heavier → the heaviest.",
+   "richtig": "heavier"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Schreibe den Superlativ von „thin“ (mit the).",
+   "info": "„thin“ hat einen kurzen Vokal und einen Konsonanten am Ende: Der Konsonant wird verdoppelt: thin → thinner → the thinnest.",
+   "richtig": "the thinnest"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Schreibe den Komparativ von „popular“.",
+   "info": "„popular“ ist ein langes Adjektiv: more und most davor, das Adjektiv bleibt: popular → more popular → the most popular.",
+   "richtig": "more popular"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Setze die richtige Form ein.",
+   "text": "This is the {{best}} (good) cake of all.\nMy sister is {{taller}} (tall) than me.\nThat was the {{funniest}} (funny) film.\nA car is {{more expensive}} (expensive) than a bike.",
+   "info": "good → the best, tall → taller, funny → the funniest (y wird i), expensive → more expensive.",
+   "wortbank": [
+    "best",
+    "taller",
+    "funniest",
+    "more expensive",
+    "goodest",
+    "more tall",
+    "funnyest",
+    "expensiver"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Welche Regel gilt?",
+   "frage": "Bei jedem Adjektiv mit zwei Silben nimmt man more und most.",
+   "info": "Zweisilbige Adjektive auf -y (happy, easy, funny) steigert man mit -ier / -iest. more und most nimmt man bei langen Adjektiven wie beautiful, interesting, expensive.",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Ergänze die Tabelle (Grundform, Komparativ, Superlativ).",
+   "text": "wide – {{wider}} – the {{widest}}\nhot – {{hotter}} – the {{hottest}}\nfunny – {{funnier}} – the {{funniest}}\ngood – {{better}} – the {{best}}",
+   "info": "wide endet auf -e (nur -r / -st), hot verdoppelt das t, funny macht aus y ein i, good ist unregelmäßig.",
+   "wortbank": [
+    "wider",
+    "widest",
+    "hotter",
+    "hottest",
+    "funnier",
+    "funniest",
+    "better",
+    "best",
+    "more wide",
+    "hoter",
+    "funnyer",
+    "gooder"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Setze die Adjektive aus der Klammer in der richtigen Form ein (Komparativ oder Superlativ).",
+   "text": "Ruby is {{older}} (old) than Max, but Tom is the {{oldest}} (old) of the three.\nThe red bag is {{cheaper}} (cheap) than the blue bag, but the green bag is the {{cheapest}} (cheap) of all.",
+   "info": "Der Komparativ (older, cheaper) vergleicht zwei Dinge. Der Superlativ (the oldest, the cheapest) steht für das Höchste unter mehreren.",
+   "wortbank": [
+    "older",
+    "oldest",
+    "cheaper",
+    "cheapest",
+    "more old",
+    "most cheap",
+    "olderer"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Bringe die Formen von „expensive“ in die richtige Reihenfolge (von der Grundform zum Superlativ).",
+   "info": "Grundform → Komparativ (more expensive) → Superlativ (the most expensive).",
+   "schritte": [
+    "expensive",
+    "more expensive",
+    "the most expensive"
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "F – Tabellen und Texte",
+   "frage": "Bringe die Formen von „busy“ in die richtige Reihenfolge (von der Grundform zum Superlativ).",
+   "info": "busy endet auf Konsonant + y: Das y wird zu i: busier, the busiest.",
+   "schritte": [
+    "busy",
+    "busier",
+    "the busiest"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Kurze Adjektive: -er und -est": [
+   "Was ist die Steigerung?",
+   "Kurze Adjektive: -er und -est"
+  ],
+  "B – Rechtschreibung: e, doppelter Buchstabe, y": "Rechtschreibung der Formen",
+  "C – Lange Adjektive: more und most": "Lange Adjektive: more und most",
+  "D – Unregelmäßige Formen: good und bad": "Unregelmäßige Formen",
+  "E – Welche Regel gilt?": [
+   "Kurze Adjektive: -er und -est",
+   "Rechtschreibung der Formen",
+   "Lange Adjektive: more und most",
+   "Unregelmäßige Formen"
+  ],
+  "F – Tabellen und Texte": [
+   "Kurze Adjektive: -er und -est",
+   "Rechtschreibung der Formen",
+   "Lange Adjektive: more und most",
+   "Unregelmäßige Formen"
+  ]
+ },
+ "termin": "2026-12-08",
+ "reihenfolge": 6,
+ "gruppe": "Englischarbeit 08.12.2026",
+ "dauerhaft": false,
+ "probe": false,
+ "karte": {
+  "titel": "Steigerungs-Sprinter",
+  "motiv": "🏃",
+  "text": "tall, taller, the tallest: kurze Adjektive mit -er und -est, lange mit more und most."
+ }
+}

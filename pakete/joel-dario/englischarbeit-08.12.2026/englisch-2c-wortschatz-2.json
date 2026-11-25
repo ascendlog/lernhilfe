@@ -1,0 +1,782 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "englisch-2c-wortschatz-2",
+ "titel": "Englisch Teil 2c: Wortschatz (2) – get, Possessivpronomen, Wendungen",
+ "fach": "Englisch",
+ "klasse": "6",
+ "beschreibung": "Wortschatz zu Unit 2 „A school day“: get, Possessivpronomen (mine, yours, hers …), Adjektive zum Beschreiben, Dinge und Orte, Verben mit Vergangenheit, Satzzeichen. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Wörter und Bedeutungen folgen der Vokabelliste Unit 2 (S. 184–187). Alle Sätze und Texte sind selbst ausgedacht. In den Antworten zählt jeder Buchstabe.",
+ "lernblatt": [
+  {
+   "titel": "get – ein Wort, viele Bedeutungen",
+   "text": "**(to) get** (Simple Past: **got**) hat je nach Satz ganz verschiedene Bedeutungen:\n\n- **bekommen:** I get a letter from my aunt every month.\n- **besorgen, holen:** Can you get some bread from the shop?\n- **gelangen, (hin)kommen:** How do we get to the station?\n- **werden:** It gets dark early in winter.\n\nDazu kommen feste Wendungen:\n\n- **(to) get on** = vorankommen, zurechtkommen\n- **(to) get on / off (the bus)** = ein- / aussteigen\n- **(to) get ready (for)** = sich fertig machen (für)\n- **(to) get up** = aufstehen",
+   "merke": "get = bekommen, holen, gelangen, werden. get up = aufstehen, get ready = sich fertig machen, get on / off = ein- / aussteigen."
+  },
+  {
+   "titel": "Possessivpronomen: my und mine",
+   "text": "Zu jedem Personalpronomen gibt es zwei Possessivformen:\n\n- **my** steht vor einem Nomen: This is my bag.\n- **mine** steht allein: This bag is mine. (meiner, meine, meins)\n\nDie Reihe:\n\n- I → my → **mine**\n- you → your → **yours**\n- he → his → **his**\n- she → her → **hers**\n- we → our → **ours**\n- they → their → **theirs**\n\n**Whose …?** heißt „wessen …?“: Whose bike is that? – It's mine. Nach mine, yours, hers, ours, theirs steht **kein Nomen** und **kein Apostroph**: The bag is theirs (nicht their's).",
+   "merke": "my + Nomen, mine allein. his bleibt his. Kein Apostroph bei yours, hers, ours, theirs."
+  },
+  {
+   "titel": "Beschreiben: Adjektive und kleine Wörter",
+   "text": "Wörter zum **Beschreiben**:\n\n- **big / large** = groß (austauschbar bei Dingen: a big / large lake). **large** nimmt man in der Regel nicht für Menschen.\n- **tall** = groß bei Menschen und Tieren, hoch bei Gebäuden und Bäumen: a tall man, a tall tree.\n- **awful** = schrecklich; **lovely** = schön, hübsch, herrlich; **brilliant** = großartig, genial\n- **scared** = verängstigt (ich fühle mich so); **scary** = unheimlich, gruselig (der Film ist so)\n- **shy** = schüchtern; **clear** = klar, deutlich; **correct** = richtig, korrekt\n- **even** = sogar; **so far** = bis jetzt; **a bit** = ein bisschen; **about** = ungefähr\n\nMerke den Unterschied: Der Film war **scary**. Ich war **scared**.",
+   "merke": "tall für Menschen und Höhe, big und large für Größe. scared = verängstigt, scary = gruselig."
+  },
+  {
+   "titel": "Dinge und Orte",
+   "text": "**Dinge und Orte** der Unit:\n\n- **(the) earth** = die Erde; **plane** = Flugzeug; **town hall** = Rathaus; **snow** = Schnee\n- **paw** = Pfote, Tatze; **stairs** (nur Plural) = Treppe; **upstairs** = oben (die Treppe hinauf), **downstairs** = unten\n- **square kilometre (sq km)** = Quadratkilometer; **round the world** = um die Welt\n- **fork** = Gabel; **knife** (Plural **knives**) = Messer; **spoon** = Löffel\n- **size** = Größe: What size are your shoes?\n\n**Achtung bei den Präpositionen:** Im Flugzeug heißt auf Englisch **on the plane**, auf der Erde **on earth**.",
+   "merke": "knife – knives. Im Flugzeug: on the plane. stairs ist ein Pluralwort."
+  },
+  {
+   "titel": "Verben und Wendungen",
+   "text": "**Verben und Wendungen** mit ihrer Vergangenheit (Simple Past):\n\n- (to) **ring** – **rang** (klingeln, läuten)\n- (to) **mean** – **meant** (bedeuten; meinen, sagen wollen): What does this word mean? / What do you mean?\n- (to) **get** – **got**\n- (to) **lie** – **lay** (liegen), -ing-Form: **lying**\n- (to) **wake sb. up** – **woke up** (jemanden aufwecken)\n- (to) **stick sth. into sth.** – **stuck** (etwas in etwas stecken)\n- (to) **change** = (ver)ändern; (to) **pause** = innehalten, pausieren\n- (to) **make sure that …** = darauf achten, dass …; (to) **read aloud** = laut vorlesen\n- **could** = konnte(n) oder könnte(n): We could go to the cinema.\n- **like this** = so: Do it like this.",
+   "merke": "ring – rang, mean – meant, get – got, lie – lay (lying), wake up – woke up, stick – stuck."
+  },
+  {
+   "titel": "Satzzeichen",
+   "text": "Die **Satzzeichen** (punctuation) auf Englisch:\n\n- **.** = full stop (Punkt)\n- **,** = comma (Komma)\n- **:** = colon (Doppelpunkt)\n- **?** = question mark (Fragezeichen)\n- **!** = exclamation mark (Ausrufezeichen)\n- **-** = hyphen (Bindestrich)\n\nAm Satzende steht ein full stop, nach einer Frage ein question mark und nach einem Ausruf ein exclamation mark.",
+   "merke": "full stop, comma, colon, question mark, exclamation mark, hyphen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Was bedeutet „get“ in diesem Satz? I get a letter from my aunt every month.",
+   "info": "In diesem Satz bedeutet get „bekommen“. get hat je nach Satz vier Bedeutungen: bekommen, besorgen, gelangen, werden.",
+   "antworten": [
+    "bekommen",
+    "besorgen, holen",
+    "gelangen, (hin)kommen",
+    "werden"
+   ],
+   "richtig": 0,
+   "mischen": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Was bedeutet „get“ in diesem Satz? Can you get some bread from the shop?",
+   "info": "In diesem Satz bedeutet get „besorgen, holen“. get hat je nach Satz vier Bedeutungen: bekommen, besorgen, gelangen, werden.",
+   "antworten": [
+    "bekommen",
+    "besorgen, holen",
+    "gelangen, (hin)kommen",
+    "werden"
+   ],
+   "richtig": 1,
+   "mischen": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Was bedeutet „get“ in diesem Satz? How do we get to the station?",
+   "info": "In diesem Satz bedeutet get „gelangen, (hin)kommen“. get hat je nach Satz vier Bedeutungen: bekommen, besorgen, gelangen, werden.",
+   "antworten": [
+    "bekommen",
+    "besorgen, holen",
+    "gelangen, (hin)kommen",
+    "werden"
+   ],
+   "richtig": 2,
+   "mischen": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Was bedeutet „get“ in diesem Satz? It gets dark early in winter.",
+   "info": "In diesem Satz bedeutet get „werden“. get hat je nach Satz vier Bedeutungen: bekommen, besorgen, gelangen, werden.",
+   "antworten": [
+    "bekommen",
+    "besorgen, holen",
+    "gelangen, (hin)kommen",
+    "werden"
+   ],
+   "richtig": 3,
+   "mischen": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Ordne die Wendung der Bedeutung zu.",
+   "info": "get up = aufstehen, get ready = sich fertig machen, get on = vorankommen, get on the bus = einsteigen, get off the bus = aussteigen.",
+   "paare": [
+    [
+     "get up",
+     "aufstehen"
+    ],
+    [
+     "get ready",
+     "sich fertig machen"
+    ],
+    [
+     "get on",
+     "vorankommen, zurechtkommen"
+    ],
+    [
+     "get on the bus",
+     "in den Bus einsteigen"
+    ],
+    [
+     "get off the bus",
+     "aus dem Bus aussteigen"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Ergänze die Wendungen mit get.",
+   "text": "I always {{get up}} at seven. Then I {{get ready}} for school. I {{get on}} the bus at twenty to eight and {{get off}} at the school gate.",
+   "info": "get up = aufstehen, get ready = sich fertig machen, get on the bus = einsteigen, get off = aussteigen.",
+   "wortbank": [
+    "get up",
+    "get ready",
+    "get on",
+    "get off",
+    "get in",
+    "get over"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Schreibe die Vergangenheit (Simple Past) von „get“.",
+   "info": "get ist unregelmäßig: get – got. Beispiel: Yesterday I got a new bike.",
+   "richtig": "got"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "Wie sagt man „aufstehen“ auf Englisch?",
+   "info": "get up = aufstehen. Beispiel: I get up at seven.",
+   "richtig": [
+    "get up",
+    "to get up"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – get: ein Wort, viele Bedeutungen",
+   "frage": "„get off the bus“ bedeutet „in den Bus einsteigen“.",
+   "info": "get on = einsteigen, get off = aussteigen. Die Wörter on und off verraten es.",
+   "richtig": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Ordne dem Personalpronomen das Possessivpronomen (allein stehend) zu.",
+   "info": "I → mine, you → yours, she → hers, we → ours, they → theirs. he hat his (wie vor einem Nomen).",
+   "paare": [
+    [
+     "I",
+     "mine"
+    ],
+    [
+     "you",
+     "yours"
+    ],
+    [
+     "she",
+     "hers"
+    ],
+    [
+     "we",
+     "ours"
+    ],
+    [
+     "they",
+     "theirs"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Ergänze das Possessivpronomen.",
+   "text": "That is my bag. It's {{mine}}.\nThis is your pen. It's {{yours}}.\nThat is Mia's coat. It's {{hers}}.\nThis is our car. It's {{ours}}.\nThose are their books. They are {{theirs}}.",
+   "info": "my → mine, your → yours, Mia's (= her) → hers, our → ours, their → theirs. Danach steht kein Nomen.",
+   "wortbank": [
+    "mine",
+    "yours",
+    "hers",
+    "ours",
+    "theirs",
+    "his",
+    "its"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Wähle my / mine und your / yours.",
+   "text": "This is {{my}} bike. The red bike is {{mine}}.\nIs that {{your}} jacket? No, it is not {{yours}}.",
+   "info": "my und your stehen vor einem Nomen (my bike, your jacket). mine und yours stehen allein.",
+   "auswahl": [
+    "my",
+    "mine",
+    "your",
+    "yours"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Whose bike is that? – It's Tom's. It's …",
+   "info": "Tom ist he. Possessivpronomen für he ist his.",
+   "antworten": [
+    "his",
+    "hers",
+    "mine",
+    "theirs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Are these your pencils? – No, they aren't. They're Ella's. They're …",
+   "info": "Ella ist she. Das allein stehende Possessivpronomen für she ist hers.",
+   "antworten": [
+    "hers",
+    "his",
+    "ours",
+    "yours"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Wie heißt „unserer, unsere, unseres“ (allein stehend) auf Englisch?",
+   "info": "we → our (vor Nomen) und ours (allein): Whose house is that? – It's ours.",
+   "richtig": "ours"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Wie heißt „wessen?“ auf Englisch?",
+   "info": "whose = wessen? Beispiel: Whose scarf is this?",
+   "richtig": "whose"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "„The red scarf is her.“ ist richtig.",
+   "info": "Allein stehend heißt es hers: The red scarf is hers.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "theirs wird ohne Apostroph geschrieben. Allein stehend steht theirs, nicht their.",
+   "antworten": [
+    "The pencil case is theirs.",
+    "The pencil case is their's.",
+    "The pencil case is theirs'.",
+    "The pencil case is their."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Possessivpronomen: mine, yours, hers …",
+   "frage": "„his“ passt vor einem Nomen (his dog) und allein (It's his).",
+   "info": "Bei he ist beides his: his dog, The dog is his.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Welches Wort passt? A very … building. (Höhe)",
+   "info": "tall benutzt man bei der Höhe von Gebäuden, Bäumen und bei der Größe von Menschen.",
+   "antworten": [
+    "tall",
+    "small",
+    "awful",
+    "shy"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "„large“ benutzt man in der Regel nicht, um Menschen zu beschreiben.",
+   "info": "Für Menschen sagt man tall (groß) oder big (kräftig). large nimmt man eher bei Dingen: a large house.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Ordne das englische Adjektiv der deutschen Bedeutung zu.",
+   "info": "awful = schrecklich, lovely = schön, brilliant = großartig, shy = schüchtern, scared = verängstigt.",
+   "paare": [
+    [
+     "awful",
+     "schrecklich"
+    ],
+    [
+     "lovely",
+     "schön, herrlich"
+    ],
+    [
+     "brilliant",
+     "großartig, genial"
+    ],
+    [
+     "shy",
+     "schüchtern"
+    ],
+    [
+     "scared",
+     "verängstigt"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Ergänze scary oder scared.",
+   "text": "The ghost story was {{scary}}, and the children were {{scared}}.",
+   "info": "scary beschreibt, wie etwas ist (gruselig). scared beschreibt, wie man sich fühlt (verängstigt).",
+   "wortbank": [
+    "scary",
+    "scared",
+    "shy",
+    "awful"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Ergänze die Wörter.",
+   "text": "The weather was {{lovely}} on Saturday, but on Sunday it was {{awful}}. {{Even}} the dog did not want to go out.",
+   "info": "lovely = herrlich, awful = schrecklich, even = sogar.",
+   "wortbank": [
+    "lovely",
+    "awful",
+    "Even",
+    "shy",
+    "large"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Wie heißt das auf Englisch? „großartig, genial“",
+   "info": "„brilliant“ bedeutet „großartig, genial“. Beispiel: That was a brilliant idea!",
+   "richtig": "brilliant"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Wie heißt das auf Englisch? „bis jetzt, bis hierher“",
+   "info": "„so far“ bedeutet „bis jetzt, bis hierher“. Beispiel: So far the weather has been great.",
+   "richtig": "so far"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Wie heißt das auf Englisch? „klar, deutlich“",
+   "info": "„clear“ bedeutet „klar, deutlich“. Beispiel: The teacher has a clear voice.",
+   "richtig": "clear"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "„correct“ bedeutet „falsch“.",
+   "info": "correct = richtig, korrekt. Das Gegenteil ist wrong.",
+   "richtig": false
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Beschreiben: Adjektive und kleine Wörter",
+   "frage": "Welches Wort passt? What … are your shoes? Schreibe das Wort für „Größe“.",
+   "info": "size = Größe. Beispiel: What size are your shoes?",
+   "richtig": "size"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Ordne das englische Wort der deutschen Bedeutung zu.",
+   "info": "(the) earth = (die) Erde. plane = Flugzeug. town hall = Rathaus. snow = Schnee. paw = Pfote, Tatze.",
+   "paare": [
+    [
+     "(the) earth",
+     "(die) Erde"
+    ],
+    [
+     "plane",
+     "Flugzeug"
+    ],
+    [
+     "town hall",
+     "Rathaus"
+    ],
+    [
+     "snow",
+     "Schnee"
+    ],
+    [
+     "paw",
+     "Pfote, Tatze"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Ordne das englische Wort der deutschen Bedeutung zu.",
+   "info": "stairs (pl) = Treppe, Treppenstufen. fork = Gabel. knife = Messer. spoon = Löffel. round the world = um die Welt.",
+   "paare": [
+    [
+     "stairs (pl)",
+     "Treppe, Treppenstufen"
+    ],
+    [
+     "fork",
+     "Gabel"
+    ],
+    [
+     "knife",
+     "Messer"
+    ],
+    [
+     "spoon",
+     "Löffel"
+    ],
+    [
+     "round the world",
+     "um die Welt"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Wie heißt der Plural von „knife“?",
+   "info": "knife → knives: Bei einigen Wörtern auf -fe wird f zu v: knife – knives.",
+   "antworten": [
+    "knives",
+    "knifes",
+    "knifs",
+    "knive"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "„stairs“ gibt es nur im Plural: The stairs are old.",
+   "info": "stairs ist ein Pluralwort (Treppe, Treppenstufen).",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Ergänze die Wörter.",
+   "text": "My bedroom is {{upstairs}}, the kitchen is {{downstairs}}.",
+   "info": "upstairs = oben (im oberen Stockwerk), downstairs = unten.",
+   "wortbank": [
+    "upstairs",
+    "downstairs",
+    "stairs",
+    "plane"
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Ergänze das Besteck.",
+   "text": "For dinner we use a {{knife}}, a {{fork}} and a {{spoon}}.",
+   "info": "knife = Messer, fork = Gabel, spoon = Löffel.",
+   "wortbank": [
+    "knife",
+    "fork",
+    "spoon",
+    "paw",
+    "stairs"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Wie schreibt man „Quadratkilometer“ auf Englisch? Schreibe das ganze Wort (zwei Wörter).",
+   "info": "square kilometre (Abkürzung sq km) = Quadratkilometer.",
+   "richtig": [
+    "square kilometre",
+    "square kilometer",
+    "sq km"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Wie sagt man „im Flugzeug“ auf Englisch?",
+   "info": "Im Englischen sagt man on the plane (auch on the bus, on the train).",
+   "antworten": [
+    "on the plane",
+    "in the plane",
+    "at the plane",
+    "by the plane"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Wie sagt man „auf der Erde“ auf Englisch?",
+   "info": "on earth = auf der Erde.",
+   "antworten": [
+    "on earth",
+    "in earth",
+    "at earth",
+    "by earth"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Dinge und Orte",
+   "frage": "Wie heißt das auf Englisch? „Rathaus“",
+   "info": "„town hall“ bedeutet „Rathaus“. Beispiel: The market is in front of the town hall.",
+   "richtig": "town hall"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Ordne dem Verb die Vergangenheit (Simple Past) zu.",
+   "info": "Alle fünf Verben sind unregelmäßig: ring – rang, mean – meant, get – got, lie – lay, stick – stuck.",
+   "paare": [
+    [
+     "ring",
+     "rang"
+    ],
+    [
+     "mean",
+     "meant"
+    ],
+    [
+     "get",
+     "got"
+    ],
+    [
+     "lie",
+     "lay"
+    ],
+    [
+     "stick",
+     "stuck"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Setze die Vergangenheit (Simple Past) ein.",
+   "text": "Yesterday I {{got}} a letter. The bell {{rang}} at nine. I {{woke up}} at six. The cat {{lay}} in the sun. He {{stuck}} his hand into the bag. I did not understand what she {{meant}}.",
+   "info": "get – got, ring – rang, wake up – woke up, lie – lay, stick – stuck, mean – meant.",
+   "wortbank": [
+    "got",
+    "rang",
+    "woke up",
+    "lay",
+    "stuck",
+    "meant",
+    "getted",
+    "ringed",
+    "waked up"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Was bedeutet „mean“ in: What does „umbrella“ mean?",
+   "info": "Wenn man nach einer Bedeutung fragt, heißt mean „bedeuten“.",
+   "antworten": [
+    "bedeuten",
+    "meinen, sagen wollen",
+    "bekommen",
+    "ändern"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Was bedeutet „mean“ in: I don't understand. What do you mean?",
+   "info": "In dieser Frage fragt man, was jemand sagen will: What do you mean? = Was meinst du?",
+   "antworten": [
+    "meinen, sagen wollen",
+    "bedeuten",
+    "ändern",
+    "liegen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Wie heißt das auf Englisch? „liegen“",
+   "info": "„(to) lie“ bedeutet „liegen“. Beispiel: The cat likes to lie in the sun.",
+   "richtig": [
+    "lie",
+    "to lie"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Wie heißt die -ing-Form von „lie“?",
+   "info": "lie wird zu lying: Why are you lying there?",
+   "richtig": "lying"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Wie sagt man „jemanden aufwecken“ auf Englisch? Schreibe die Grundform.",
+   "info": "(to) wake sb. up = jemanden aufwecken. Simple Past: woke up.",
+   "richtig": [
+    "wake sb. up",
+    "wake somebody up",
+    "wake someone up",
+    "wake up",
+    "to wake sb. up",
+    "to wake up"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Was bedeutet „(to) change“?",
+   "info": "„(to) change“ bedeutet „(ver)ändern, sich (ver)ändern“. Beispiel: The leaves change their colour in autumn.",
+   "antworten": [
+    "(ver)ändern, sich (ver)ändern",
+    "jemanden (auf)wecken",
+    "etwas in etwas stecken",
+    "konnte(n), könnte(n)"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "„could“ bedeutet nur „kann“.",
+   "info": "could = konnte(n) oder könnte(n). Beispiel: We could go to the cinema.",
+   "richtig": false
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Übersetze: Wir könnten ins Kino gehen.",
+   "info": "could = könnten: We could go to the cinema.",
+   "richtig": "We could go to the cinema"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "„Make sure that you close the door.“ bedeutet: Achte darauf, dass du die Tür schließt.",
+   "info": "(to) make sure that … = darauf achten, dass …",
+   "richtig": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Verben und ihre Vergangenheit",
+   "frage": "Wie heißt das auf Englisch? „so“",
+   "info": "„like this“ bedeutet „so“. Beispiel: Hold the pencil like this.",
+   "richtig": "like this"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "F – Satzzeichen",
+   "frage": "Ordne dem Satzzeichen den englischen Namen zu.",
+   "info": ". = full stop, , = comma, : = colon, ? = question mark, ! = exclamation mark, - = hyphen.",
+   "paare": [
+    [
+     ".",
+     "full stop"
+    ],
+    [
+     ",",
+     "comma"
+    ],
+    [
+     ":",
+     "colon"
+    ],
+    [
+     "?",
+     "question mark"
+    ],
+    [
+     "!",
+     "exclamation mark"
+    ],
+    [
+     "-",
+     "hyphen"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Satzzeichen",
+   "frage": "Wie heißt das Zeichen „:“ auf Englisch?",
+   "info": "Der Doppelpunkt heißt colon. Das comma ist das Komma.",
+   "antworten": [
+    "colon",
+    "comma",
+    "hyphen",
+    "full stop"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Satzzeichen",
+   "frage": "Wie heißt das Zeichen „!“ auf Englisch?",
+   "info": "! = exclamation mark (Ausrufezeichen).",
+   "richtig": "exclamation mark"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Satzzeichen",
+   "frage": "Setze die Satzzeichen ein.",
+   "text": "A {{full stop}} comes at the end of a sentence.\nA {{question mark}} comes after a question.\nA {{hyphen}} joins two words like in „well-known“.",
+   "info": "full stop = Punkt, question mark = Fragezeichen, hyphen = Bindestrich.",
+   "wortbank": [
+    "full stop",
+    "question mark",
+    "hyphen",
+    "colon",
+    "comma"
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – get: ein Wort, viele Bedeutungen": "get – ein Wort, viele Bedeutungen",
+  "B – Possessivpronomen: mine, yours, hers …": "Possessivpronomen: my und mine",
+  "C – Beschreiben: Adjektive und kleine Wörter": "Beschreiben: Adjektive und kleine Wörter",
+  "D – Dinge und Orte": "Dinge und Orte",
+  "E – Verben und ihre Vergangenheit": "Verben und Wendungen",
+  "F – Satzzeichen": "Satzzeichen"
+ },
+ "termin": "2026-12-08",
+ "reihenfolge": 3,
+ "gruppe": "Englischarbeit 08.12.2026",
+ "dauerhaft": false,
+ "probe": false,
+ "karte": {
+  "titel": "Wörter-Zauberer",
+  "motiv": "🪄",
+  "text": "get hat viele Bedeutungen, mine und yours stehen allein, und jedes Wort will genau geschrieben sein."
+ }
+}

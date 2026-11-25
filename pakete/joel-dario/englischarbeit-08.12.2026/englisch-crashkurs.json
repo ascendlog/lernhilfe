@@ -1,0 +1,250 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "englisch-crashkurs",
+ "titel": "Englisch Klasse 6: Crashkurs (das Wichtigste kurz gefasst)",
+ "fach": "Englisch",
+ "klasse": "6",
+ "beschreibung": "Das Wichtigste kurz gefasst, für den letzten Blick vor der Arbeit: Lernblatt, Checkliste und ein Blitz-Check mit 12 Kurzaufgaben.",
+ "hinweis": "Kein neuer Stoff: Alles steht auch in den Lernblättern der Übungspakete. Die Beispiele und der Hörtext sind selbst ausgedacht, nicht aus dem Schulbuch oder Workbook.",
+ "lernblatt": [
+  {
+   "titel": "So nutzt du den Crashkurs",
+   "text": "Das ist dein **letzter Blick** am Tag vor der Arbeit: einmal in Ruhe lesen (etwa 10 Minuten), danach den **Blitz-Check** machen (etwa 5 Minuten). Hier steht nichts Neues. Wenn du unsicher bist, geh in das passende Übungspaket zurück."
+  },
+  {
+   "titel": "Hören: Zahlen, Zeiten, Daten",
+   "text": "- Lies die Aufgabe **vorher** und überlege, welche Wörter kommen.\n- **thirTEEN** (13) ist hinten betont, **THIRty** (30) vorn. Genauso fifteen und fifty.\n- Schreibe **forty** ohne u und **eighty** mit einem t.\n- **half past seven** ist 7:30, **quarter past** ist Viertel nach, **quarter to** ist Viertel vor.\n- Datum: first, second, third, **fifth**, **twelfth**, **twentieth**.\n- Achte auf **but** und **not**: Sie ändern oft die Aussage.\n- Beim zweiten Hören prüfst du deine Antworten.",
+   "merke": "-teen hinten betont, -ty vorn. half past seven = 7:30."
+  },
+  {
+   "titel": "Wortschatz: Schule und Bühne",
+   "text": "- Schule: **uniform**, **canteen**, **lessons**, **break**, **registration**, **worksheet**, **mistake**.\n- Bühne: **audition**, **stage**, **concert**, **theatre**, **recorder**, **nervous**, **talented**.\n- Aus Verben werden Personen mit **-er**: sing – **singer**, dance – **dancer**, run – **runner**.\n- Kleine Wörter: **a bit** (ein bisschen), **a few** (ein paar), **You should …** (Du solltest …).\n- Beim Schreiben zählt jeder Buchstabe: **theatre** (nicht theater), **dialogue** (nicht dialog).\n- Lerne mit eigenen Sätzen statt mit einzelnen Wörtern.",
+   "merke": "Verb + -er = Person. a few = ein paar, a bit = ein bisschen."
+  },
+  {
+   "titel": "get und Possessivpronomen",
+   "text": "- **get** heißt je nach Satz **bekommen**, **holen**, **gelangen** oder **werden**: It gets dark early in winter.\n- **get up** = aufstehen, **get ready** = sich fertig machen, **get on / off** = ein- / aussteigen.\n- **my** steht vor einem Nomen: This is my bag. **mine** steht allein: This bag is mine.\n- Die Reihe: mine, **yours**, his, **hers**, **ours**, **theirs**.\n- Nach yours, hers, ours, theirs steht **kein Apostroph**: The bag is theirs.",
+   "merke": "get = bekommen, holen, gelangen, werden. my + Nomen, mine allein."
+  },
+  {
+   "titel": "going to: Plan, Aussage, Verneinung",
+   "text": "- Mit **going to** sagst du, was du vorhast oder was man schon kommen sieht: Look at the clouds! It's going to rain.\n- Das Muster: **Subjekt + am / is / are + going to + Grundform**: She is going to play.\n- Nach to bleibt das Verb unverändert (nicht plays, nicht playing).\n- Verneinung: **am / is / are + not**. He **isn't** going to play. They **aren't** going to play. I'm not going to play.\n- Kein do: nicht I don't going to sing.\n- Zeitangaben wie **tomorrow**, **tonight**, **next week** stehen meist am Satzende.",
+   "merke": "Subjekt + am / is / are + going to + Grundform. Verneinung: not hinter be."
+  },
+  {
+   "titel": "going to: Fragen und Kurzantworten",
+   "text": "- Bei einer **Ja-Nein-Frage** steht **am / is / are** vor dem Subjekt: Is Mia going to play tennis? Kein do, kein does.\n- **Fragewörter** stehen ganz vorn: **What**, **Where**, **When**, **Who**, **Why**, **How**. What are you going to do?\n- Fragst du nach dem Subjekt, bleibt die Wortstellung: **Who** is going to sing?\n- Die **Kurzantwort** hat kein going to: Yes, I **am**. No, he **isn't**. No, they **aren't**.\n- Bei Yes gibt es keine Kurzform: Yes, I am (nicht Yes, I'm).\n- Bist du unsicher, schreibe erst die Aussage und forme sie dann um.",
+   "merke": "Frage: be + Subjekt + going to + Grundform. Kurzantwort ohne going to."
+  },
+  {
+   "titel": "Steigerung: -er, -est, more, most",
+   "text": "- Die drei Stufen: **Grundform** tall, **Komparativ** taller, **Superlativ** the tallest.\n- **Kurze Adjektive** (meist eine Silbe) bekommen **-er** und **-est**: old – older – the oldest.\n- Endet das Adjektiv auf **-e**, hängst du nur -r und -st an: nice – nicer – the nicest.\n- Kurzer Vokal und ein Konsonant: **doppelt** schreiben: big – bigger – the biggest. Das y wird zu i: happy – happier.\n- **Lange Adjektive** bekommen **more** und **the most**: beautiful – more beautiful – the most beautiful.\n- Unregelmäßig: **good** – **better** – **the best**, **bad** – **worse** – **the worst**.",
+   "merke": "-er / -est bei kurzen, more / most bei langen Adjektiven. Nie more taller."
+  },
+  {
+   "titel": "Vergleiche: than, as … as, of und in",
+   "text": "- Zwei Dinge vergleichst du mit dem Komparativ und **than**: Tom is taller than Ben.\n- Das **the** gehört zum Superlativ: Tom is **the tallest**. Danach steht **of** (mehrere) oder **in** (Gruppe, Ort): the best of all, the best singer in the school.\n- **as … as** (so … wie) braucht die **Grundform**: Tom is as tall as Ben.\n- **not as … as** heißt weniger: Ben is not as tall as Tom.\n- Dasselbe sagst du so: Mia is older than Tom. = Tom is not as old as Mia.",
+   "merke": "than → Komparativ. the … of / in → Superlativ. as … as → Grundform."
+  },
+  {
+   "titel": "Schreiben: Schule, Schultag, E-Mail",
+   "text": "- Ein Text hat **Einleitung**, **Hauptteil** und **Schluss**.\n- Schule: **My school is called** … / **There are** 450 students. / **We have** six lessons.\n- Schultag: **first**, **then**, **after that**, **finally** und **at** plus Uhrzeit.\n- Nach einer Zeitangabe bleibt die Reihenfolge normal: In the afternoon I play football.\n- Bei he, she, it bekommt das Verb ein **-s**: She gets up.\n- Verbinde mit **and** (und), **but** (aber), **because** (weil), **so** (deshalb).\n- Beim Vergleich der Schulen: **smaller than**, **not as big as**.",
+   "merke": "first, then, after that. he/she/it: Verb mit -s. Bindewörter: and, but, because, so."
+  },
+  {
+   "titel": "Tipps für die Arbeit",
+   "text": "- Lies jede Aufgabe **zweimal**.\n- **Listening:** erst die Aufgabe lesen, dann zuhören.\n- **Vocabulary:** Jeder Buchstabe zählt.\n- **Grammar:** Bei going to gilt der **Dreifach-Check**: be da? going to da? Grundform danach?\n- Bei der Steigerung zuerst nach **than**, **the** und **as … as** suchen.\n- **Writing:** einfache, richtige Sätze schreiben und am Ende alles noch einmal lesen."
+  },
+  {
+   "titel": "Checkliste für morgen",
+   "text": "**Ich kann:**\n\n- Zahlen, Uhrzeiten und Daten verstehen.\n- Wörter zu Schule und Bühne richtig schreiben.\n- get und die Possessivpronomen benutzen.\n- Pläne mit going to sagen, verneinen und erfragen.\n- Kurzantworten ohne going to geben.\n- Adjektive steigern.\n- Schulen vergleichen (than, as … as, of / in).\n- einen Text über Schule und Schultag schreiben."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Hören: Höre zu (Anhören). Wie viele Minuten dauert es bis zum Bus?",
+   "info": "Im Text: „forty minutes“. forty (vorn betont) ist 40, fourteen (hinten betont) wäre 14.",
+   "antworten": [
+    "40",
+    "14",
+    "4",
+    "44"
+   ],
+   "richtig": 0,
+   "vorlesen": {
+    "text": "The next bus comes in forty minutes.",
+    "sprache": "en-GB"
+   },
+   "lesen": "Hören: Zahlen, Zeiten, Daten"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Uhrzeit: Welche Uhrzeit ist „half past nine“?",
+   "info": "half past nine heißt 30 Minuten nach neun. Das ist 9:30 Uhr.",
+   "antworten": [
+    "9:30",
+    "8:30",
+    "9:15",
+    "9:45"
+   ],
+   "richtig": 0,
+   "lesen": "Hören: Zahlen, Zeiten, Daten"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Wortschatz: Welches Wort ist richtig geschrieben? On Saturday we are going to the …",
+   "info": "theatre schreibt man im britischen Englisch mit -re am Ende. Das Wort ist ein Merkwort.",
+   "antworten": [
+    "theatre",
+    "theater",
+    "theatr",
+    "teatre"
+   ],
+   "richtig": 0,
+   "lesen": "Wortschatz: Schule und Bühne"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Possessivpronomen: Ergänze mine, hers oder ours.",
+   "text": "These books are not {{mine}}. They are {{hers}}.",
+   "info": "Nach mine und hers steht kein Nomen. my und her stehen dagegen vor einem Nomen.",
+   "wortbank": [
+    "mine",
+    "hers",
+    "her",
+    "my"
+   ],
+   "lesen": "get und Possessivpronomen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, get: Was bedeutet get in „It gets cold in winter“?",
+   "info": "get + Adjektiv bedeutet werden: Es wird kalt im Winter.",
+   "antworten": [
+    "werden",
+    "bekommen",
+    "holen",
+    "gehen"
+   ],
+   "richtig": 0,
+   "lesen": "get und Possessivpronomen"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, going to: Welcher Satz ist richtig?",
+   "info": "Verneinung: is not (isn't) vor going to. Kein do, und das Verb bleibt in der Grundform.",
+   "antworten": [
+    "My cousin isn't going to come.",
+    "My cousin doesn't going to come.",
+    "My cousin isn't going to comes.",
+    "My cousin not going to come."
+   ],
+   "richtig": 0,
+   "lesen": "going to: Plan, Aussage, Verneinung"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Frage: Bilde die Frage mit going to: they / watch a film / tonight",
+   "info": "Frage: Are + Subjekt + going to + Grundform. Kein do.",
+   "richtig": "Are they going to watch a film tonight",
+   "lesen": "going to: Fragen und Kurzantworten"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Kurzantwort: Auf „Is Ben going to swim?“ ist „Yes, he is going to.“ die richtige Kurzantwort.",
+   "info": "Die Kurzantwort hat kein going to. Richtig ist: Yes, he is.",
+   "richtig": false,
+   "lesen": "going to: Fragen und Kurzantworten"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Steigerung: Ergänze den Komparativ: Anna is ___ than Lea. (happy)",
+   "info": "Bei Adjektiven auf -y wird das y zu i: happy – happier.",
+   "richtig": "happier",
+   "lesen": "Steigerung: -er, -est, more, most"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, as … as: Lea und Anna sind beide 12 Jahre alt. Welcher Satz ist richtig?",
+   "info": "Gleich alt: as + Grundform + as. Nach as … as steht nie der Komparativ.",
+   "antworten": [
+    "Lea is as old as Anna.",
+    "Lea is older than Anna.",
+    "Lea is as older as Anna.",
+    "Lea is not as old than Anna."
+   ],
+   "richtig": 0,
+   "lesen": "Vergleiche: than, as … as, of und in"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Steigerung: Ergänze die Formen.",
+   "text": "The blue bag is {{cheaper}} than the red bag. It is also {{the most}} beautiful bag in the shop.",
+   "info": "cheap ist kurz und bekommt -er. beautiful ist lang und bekommt the most.",
+   "wortbank": [
+    "cheaper",
+    "the most",
+    "more cheap"
+   ],
+   "lesen": [
+    "Steigerung: -er, -est, more, most",
+    "Vergleiche: than, as … as, of und in"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Text: Welches Wort passt? We have a test tomorrow, ___ I am going to learn tonight.",
+   "info": "so bedeutet deshalb und steht vor der Folge. but wäre ein Gegensatz und because steht vor dem Grund.",
+   "antworten": [
+    "so",
+    "but",
+    "or",
+    "because"
+   ],
+   "richtig": 0,
+   "lesen": "Schreiben: Schule, Schultag, E-Mail"
+  }
+ ],
+ "nachlesen": {
+  "Blitz-Check": [
+   "Hören: Zahlen, Zeiten, Daten",
+   "Wortschatz: Schule und Bühne",
+   "get und Possessivpronomen",
+   "going to: Plan, Aussage, Verneinung",
+   "going to: Fragen und Kurzantworten",
+   "Steigerung: -er, -est, more, most",
+   "Vergleiche: than, as … as, of und in",
+   "Schreiben: Schule, Schultag, E-Mail"
+  ]
+ },
+ "probe": false,
+ "termin": "2026-12-08",
+ "reihenfolge": 10,
+ "gruppe": "Englischarbeit 08.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Spickzettel",
+  "motiv": "⚡",
+  "text": "Das Wichtigste für die Englischarbeit kurz gefasst – schnell wiederholt."
+ }
+}

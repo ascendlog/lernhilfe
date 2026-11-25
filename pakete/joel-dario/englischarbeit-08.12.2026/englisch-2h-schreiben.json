@@ -1,0 +1,704 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "englisch-2h-schreiben",
+ "titel": "Englisch Teil 2h: Schreiben (Schule, Schultag, Vergleich)",
+ "fach": "Englisch",
+ "klasse": "6",
+ "beschreibung": "Schreiben für die Englischarbeit: über deine Schule und deinen Schultag schreiben, deine Schule mit einer englischen Schule vergleichen, Pläne mit going to und eine E-Mail. Mit Lernblatt, Satzbausteinen und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Namen und Zahlen sind selbst ausgedacht, nicht aus dem Schulbuch oder dem Workbook. Die Fakten über die Schule aus dem Buch (Plymstock) stehen nur im Buch: Schau sie dir dort an und übe den Vergleich mit deiner eigenen Schule. Freie Texte (Aufgaben mit Muster) bewertest du selbst oder zusammen mit den Eltern anhand der Kriterien.",
+ "lernblatt": [
+  {
+   "titel": "So planst du einen Text",
+   "text": "Ein guter Text hat **drei Teile**:\n\n- **Einleitung:** Worüber schreibst du? (My school is called …)\n- **Hauptteil:** Die wichtigsten Informationen, jede Information in einem eigenen Satz.\n- **Schluss:** Ein kurzer Satz zum Abschluss (My school is great!).\n\nSo gehst du vor:\n\n- **Stichwörter sammeln:** Was willst du erzählen? Schreibe 4 bis 6 Stichpunkte.\n- **Sätze bauen:** Jeder Satz hat ein Subjekt und ein Verb (I go, we have, she likes).\n- **Verbinden:** Benutze and, but, because und so.\n- **Kontrollieren:** Großschreibung am Satzanfang, Punkt am Ende, Rechtschreibung, -s bei he/she/it, Zahlen und Uhrzeiten.\n\n**Tipp:** Schreibe lieber einfache Sätze, die richtig sind, als lange Sätze mit vielen Fehlern.",
+   "merke": "Einleitung, Hauptteil, Schluss. Erst Stichwörter, dann Sätze, dann kontrollieren."
+  },
+  {
+   "titel": "Über meine Schule schreiben",
+   "text": "Mit diesen Satzanfängen kannst du deine Schule vorstellen:\n\n- **My school is called** Linden School. / **It is in** a small town.\n- **There are** 450 students and 30 teachers **at my school.**\n- **We have** six lessons every day. / **We don't have** a uniform.\n- **My favourite subject is** art **because** it is fun.\n- **I go to school by** bus. / **I walk to school.**\n- **The school has** a big playground and a library.\n\n**Achtung:** **There are** (mit mehreren Dingen), **there is** (mit einem Ding). Bei Zahlen: six hundred (ohne -s bei hundred).\n\nEin **Uniform** (school uniform) ist die einheitliche Schulkleidung. Man sagt: **We wear a uniform** (wir tragen) und **We don't wear a uniform.**",
+   "merke": "My school is called … / There are … / We have … / My favourite subject is … / I go to school by …"
+  },
+  {
+   "titel": "Mein Schultag",
+   "text": "Einen **Schultag** beschreibst du in der richtigen **Reihenfolge**. Diese Wörter helfen:\n\n- **first** (zuerst), **then** (dann), **after that** (danach), **later** (später), **finally** (zum Schluss)\n- **in the morning / in the afternoon / in the evening**\n- **at** + Uhrzeit: at half past eight. **on** + Tag: on Monday.\n\nWichtige Wendungen: **get up**, **have breakfast**, **go to school**, **have lunch**, **do my homework**, **go to bed**.\n\n**Wortstellung:** Steht die Zeitangabe am Satzanfang, bleibt die Reihenfolge normal: **In the afternoon I play football.** (Nicht: In the afternoon play I football wie im Deutschen.)\n\n**Achtung bei he, she, it:** Das Verb bekommt ein **-s**: She **gets** up. He **goes** to school. She **has** lunch.",
+   "merke": "first, then, after that, finally. Zeitangabe + Subjekt + Verb. he/she/it: Verb mit -s (gets, goes, has)."
+  },
+  {
+   "titel": "Meine Schule mit einer englischen Schule vergleichen",
+   "text": "In der Arbeit sollst du deine Schule mit der englischen Schule aus dem Buch (Plymstock) vergleichen. Die Fakten über die englische Schule findest du im Buch. Hier übst du mit zwei erfundenen Schulen. Benutze die Vergleiche aus der Grammatik:\n\n- **bigger than / smaller than:** My school is **smaller than** Greenfield School.\n- **not as … as:** My school is **not as big as** Greenfield School.\n- **earlier than / later than:** Our school starts **earlier than** their school.\n- **the biggest of / in:** It is **the biggest** school **in** the town.\n- **but:** In England students wear a uniform, **but** in Germany we don't.\n\nKurze Adjektive bekommen **-er** (bigger, older, earlier), lange bekommen **more** (more interesting). Nach dem Komparativ steht **than**.\n\n**Tipp:** Vergleiche immer **gleiche Dinge**: Zahl der Schüler mit Zahl der Schüler, Schulbeginn mit Schulbeginn.",
+   "merke": "smaller than, not as big as, earlier than. Nach dem Komparativ steht than."
+  },
+  {
+   "titel": "Sätze verbinden: and, but, because, so",
+   "text": "Mit **Bindewörtern** verbindest du zwei Sätze:\n\n- **and** = und: I like music **and** art.\n- **but** = aber: I like PE, **but** I don't like maths.\n- **because** = weil: I like art **because** it is fun.\n- **so** = deshalb: It is raining, **so** we play inside.\n- **or** = oder: Do you walk **or** do you take the bus?\n\n**Achtung:** **because** steht vor dem Grund. **so** steht vor der Folge. Vor **but** und **so** steht meistens ein Komma.\n\nDie Wortstellung nach because bleibt wie im normalen Satz (Subjekt, Verb): I like English because **the teacher is** nice. (Nicht wie im Deutschen: weil der Lehrer nett **ist**.)",
+   "merke": "and = und, but = aber, because = weil, so = deshalb. Nach because bleibt die Wortstellung normal."
+  },
+  {
+   "titel": "Pläne und E-Mails",
+   "text": "**Pläne** schreibst du mit **going to** + Grundform:\n\n- Tomorrow I **am going to** visit my grandma.\n- This weekend we **are going to** have a picnic.\n- She **is going to** play football after school.\n\n**E-Mail an einen Freund** (Aufbau):\n\n- **Anfang:** Hi Sam, / Dear Sam,\n- **Einstieg:** Thank you for your email. / How are you?\n- **Hauptteil:** Das, was du erzählen willst (zum Beispiel über deine Schule).\n- **Frage:** What about your school? / What is your school like?\n- **Schluss:** Please write back soon. / Write soon!\n- **Gruß:** Bye, / Best wishes, und dein Name.",
+   "merke": "going to + Grundform. E-Mail: Anfang, Einstieg, Hauptteil, Frage, Schluss, Gruß."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "Das Subjekt my school ist Einzahl, also is. Die Wortstellung ist Subjekt – Verb – Rest: My school is in a small town.",
+   "antworten": [
+    "My school is in a small town.",
+    "My school are in a small town.",
+    "My school is on a small town.",
+    "My school in a small town is."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Ergänze die Wörter.",
+   "text": "I go to school {{by}} bus. We have six lessons {{every|each}} day. My favourite subject {{is}} art.",
+   "info": "by bus = mit dem Bus, every day = jeden Tag, My favourite subject is art. (Einzahl, deshalb is).",
+   "wortbank": [
+    "by",
+    "every",
+    "is",
+    "in",
+    "at",
+    "are"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Ordne die deutschen Sätze den englischen zu.",
+   "info": "wear = tragen, don't wear = tragen nicht, starts at eight o'clock = beginnt um acht Uhr, favourite subject = Lieblingsfach.",
+   "paare": [
+    [
+     "Wir tragen eine Uniform.",
+     "We wear a uniform."
+    ],
+    [
+     "Wir haben keine Uniform.",
+     "We don't wear a uniform."
+    ],
+    [
+     "Die Schule beginnt um acht Uhr.",
+     "School starts at eight o'clock."
+    ],
+    [
+     "Mein Lieblingsfach ist Kunst.",
+     "My favourite subject is art."
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Ergänze die Wörter.",
+   "text": "There {{are}} twenty-five students in my class. My teacher {{is}} Mrs Berg. We {{have}} a big playground.",
+   "info": "There are + Mehrzahl (twenty-five students). My teacher is (Einzahl). We have = wir haben.",
+   "wortbank": [
+    "are",
+    "is",
+    "have",
+    "has",
+    "am"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Schreibe die Zahl 600 als englisches Wort.",
+   "info": "600 = six hundred. Nach einer Zahl bekommt hundred kein -s.",
+   "richtig": "six hundred"
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Ergänze das Wort: We have a ___ at half past ten and play outside.",
+   "info": "break = Pause. Half past ten ist 10:30.",
+   "richtig": "break"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "„We don't wear a uniform“ bedeutet: Wir tragen keine Uniform.",
+   "info": "wear = tragen, uniform = Uniform. don't + wear = tragen nicht.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Welche Frage passt zu der Antwort „My favourite subject is art.“?",
+   "info": "Die Antwort nennt das Lieblingsfach. Die Frage dazu: What is your favourite subject?",
+   "antworten": [
+    "What is your favourite subject?",
+    "Where is your school?",
+    "How old are you?",
+    "When does school start?"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "There are + Mehrzahl. Nach 450 steht die Mehrzahl: students.",
+   "antworten": [
+    "There are 450 students at my school.",
+    "There is 450 students at my school.",
+    "There are 450 student at my school.",
+    "It have 450 students at my school."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "A – Meine Schule vorstellen",
+   "frage": "Schreibe 3 Sätze über deine Schule: Wie heißt sie, wie viele Schüler gibt es, was ist dein Lieblingsfach?",
+   "punkte": 3,
+   "muster": "My school is called Linden School. There are 450 students at my school. My favourite subject is art.",
+   "kriterien": [
+    "Es gibt einen Satz zum Namen oder Ort der Schule (My school is called …).",
+    "Es gibt einen Satz mit There are + Zahl.",
+    "Es gibt einen Satz zum Lieblingsfach (My favourite subject is …)."
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Bringe die Sätze in die richtige Reihenfolge.",
+   "info": "Die Wörter then und after that zeigen die Reihenfolge: aufstehen, frühstücken, zur Schule fahren, Unterricht.",
+   "schritte": [
+    "I get up at seven o'clock.",
+    "Then I have breakfast.",
+    "After that I go to school by bus.",
+    "At eight o'clock the first lesson starts."
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Ergänze die Wörter.",
+   "text": "{{First}}, I get up at seven o'clock. {{Then}} I have breakfast. {{After that}} I go to school by bus. {{Finally}}, I am at school at eight.",
+   "info": "first = zuerst, then = dann, after that = danach, finally = zum Schluss.",
+   "wortbank": [
+    "First",
+    "Then",
+    "After that",
+    "Finally",
+    "because",
+    "but"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "Vor der Uhrzeit steht at: at half past twelve.",
+   "antworten": [
+    "I have lunch at half past twelve.",
+    "I have lunch on half past twelve.",
+    "I have lunch in half past twelve.",
+    "I have lunch to half past twelve."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Ergänze on, at oder in.",
+   "text": "We have PE {{on}} Tuesday. I go to bed {{at}} half past nine. I play football {{in}} the afternoon.",
+   "info": "on + Wochentag, at + Uhrzeit, in the afternoon = am Nachmittag.",
+   "wortbank": [
+    "on",
+    "at",
+    "in",
+    "to",
+    "by"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Ergänze das Wort: I get ___ at seven o'clock. (aufstehen)",
+   "info": "get up = aufstehen.",
+   "richtig": "up"
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Ordne die Wendungen den deutschen Wörtern zu.",
+   "info": "get up = aufstehen, have breakfast = frühstücken, do my homework = Hausaufgaben machen, go to bed = ins Bett gehen, have lunch = zu Mittag essen.",
+   "paare": [
+    [
+     "get up",
+     "aufstehen"
+    ],
+    [
+     "have breakfast",
+     "frühstücken"
+    ],
+    [
+     "do my homework",
+     "meine Hausaufgaben machen"
+    ],
+    [
+     "go to bed",
+     "ins Bett gehen"
+    ],
+    [
+     "have lunch",
+     "zu Mittag essen"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Welcher Satz hat die richtige Wortstellung?",
+   "info": "Im Englischen bleibt die Reihenfolge Subjekt – Verb – Rest, auch nach einer Zeitangabe: In the afternoon I play football.",
+   "antworten": [
+    "In the afternoon I play football.",
+    "In the afternoon play I football.",
+    "In the afternoon I football play.",
+    "I in the afternoon football play."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Ergänze die Verben (he/she braucht -s).",
+   "text": "My sister {{gets}} up at six. She {{goes}} to school by bike. She {{has}} lunch in the canteen.",
+   "info": "she + Verb mit -s: gets, goes, has (have wird zu has).",
+   "wortbank": [
+    "gets",
+    "goes",
+    "has",
+    "get",
+    "go",
+    "have"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Mein Schultag",
+   "frage": "Schreibe auf Englisch: Nach der Schule mache ich meine Hausaufgaben. (after school, do, my homework)",
+   "info": "After school I do my homework. Die Zeitangabe kann vorn oder hinten stehen: I do my homework after school.",
+   "richtig": [
+    "After school I do my homework",
+    "After school, I do my homework",
+    "I do my homework",
+    "I do my homework after school"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Schau dir die Tabelle an. Welcher Satz stimmt?",
+   "info": "Greenfield School hat 900 Schüler, Lindenschule 450. Greenfield School hat also mehr Schüler und ist größer.",
+   "antworten": [
+    "Greenfield School has more students than Lindenschule.",
+    "Lindenschule has more students than Greenfield School.",
+    "Lindenschule is bigger than Greenfield School.",
+    "Both schools have 900 students."
+   ],
+   "richtig": 0,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"500\" height=\"210\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"160\" y=\"10\" width=\"180\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Greenfield School</text><rect x=\"340\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lindenschule</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"160\" y=\"48\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">900</text><rect x=\"340\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">450</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"160\" y=\"86\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5</text><rect x=\"340\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"160\" y=\"124\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:45</text><rect x=\"340\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7:55</text><rect x=\"10\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"160\" y=\"162\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"340\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">no</text></svg>",
+   "bildAlt": "Tabelle: Greenfield School hat 900 Schüler, 5 Stunden am Tag, Schulbeginn 8:45 und Uniform. Lindenschule hat 450 Schüler, 6 Stunden am Tag, Schulbeginn 7:55 und keine Uniform."
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Ergänze die Steigerung.",
+   "text": "Greenfield School is {{bigger}} than Lindenschule. Lindenschule is {{smaller}} than Greenfield School.",
+   "info": "big → bigger (g wird verdoppelt), small → smaller. Nach dem Komparativ steht than.",
+   "wortbank": [
+    "bigger",
+    "smaller",
+    "more big",
+    "biger"
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"500\" height=\"210\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"160\" y=\"10\" width=\"180\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Greenfield School</text><rect x=\"340\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lindenschule</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"160\" y=\"48\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">900</text><rect x=\"340\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">450</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"160\" y=\"86\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5</text><rect x=\"340\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"160\" y=\"124\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:45</text><rect x=\"340\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7:55</text><rect x=\"10\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"160\" y=\"162\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"340\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">no</text></svg>",
+   "bildAlt": "Tabelle: Greenfield School hat 900 Schüler, 5 Stunden am Tag, Schulbeginn 8:45 und Uniform. Lindenschule hat 450 Schüler, 6 Stunden am Tag, Schulbeginn 7:55 und keine Uniform."
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Lindenschule starts earlier than Greenfield School.",
+   "info": "Lindenschule beginnt um 7:55, Greenfield School um 8:45. 7:55 ist früher, also stimmt die Aussage.",
+   "richtig": true,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"500\" height=\"210\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"160\" y=\"10\" width=\"180\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Greenfield School</text><rect x=\"340\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lindenschule</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"160\" y=\"48\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">900</text><rect x=\"340\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">450</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"160\" y=\"86\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5</text><rect x=\"340\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"160\" y=\"124\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:45</text><rect x=\"340\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7:55</text><rect x=\"10\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"160\" y=\"162\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"340\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">no</text></svg>",
+   "bildAlt": "Tabelle: Greenfield School hat 900 Schüler, 5 Stunden am Tag, Schulbeginn 8:45 und Uniform. Lindenschule hat 450 Schüler, 6 Stunden am Tag, Schulbeginn 7:55 und keine Uniform."
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Students at Lindenschule have five lessons a day.",
+   "info": "Lindenschule hat sechs Stunden am Tag. Fünf Stunden hat Greenfield School.",
+   "richtig": false,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"500\" height=\"210\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"160\" y=\"10\" width=\"180\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Greenfield School</text><rect x=\"340\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lindenschule</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"160\" y=\"48\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">900</text><rect x=\"340\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">450</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"160\" y=\"86\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5</text><rect x=\"340\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"160\" y=\"124\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:45</text><rect x=\"340\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7:55</text><rect x=\"10\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"160\" y=\"162\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"340\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">no</text></svg>",
+   "bildAlt": "Tabelle: Greenfield School hat 900 Schüler, 5 Stunden am Tag, Schulbeginn 8:45 und Uniform. Lindenschule hat 450 Schüler, 6 Stunden am Tag, Schulbeginn 7:55 und keine Uniform."
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Ergänze ein Wort: Lindenschule starts earlier ___ Greenfield School.",
+   "info": "Nach dem Komparativ steht than (nicht as, nicht then).",
+   "richtig": "than"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Ergänze die Wörter.",
+   "text": "Lindenschule is not as {{big}} as Greenfield School. Greenfield School starts {{later}} than Lindenschule.",
+   "info": "not as + Grundform + as: not as big as. later = später (Komparativ von late).",
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"500\" height=\"210\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"160\" y=\"10\" width=\"180\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Greenfield School</text><rect x=\"340\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lindenschule</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"160\" y=\"48\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">900</text><rect x=\"340\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">450</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"160\" y=\"86\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5</text><rect x=\"340\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"160\" y=\"124\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:45</text><rect x=\"340\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7:55</text><rect x=\"10\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"160\" y=\"162\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"340\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">no</text></svg>",
+   "bildAlt": "Tabelle: Greenfield School hat 900 Schüler, 5 Stunden am Tag, Schulbeginn 8:45 und Uniform. Lindenschule hat 450 Schüler, 6 Stunden am Tag, Schulbeginn 7:55 und keine Uniform."
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Welches Wort fehlt? At Greenfield School students wear a uniform, ___ at Lindenschule they don't.",
+   "info": "Hier stehen zwei Gegensätze (Uniform – keine Uniform). Dafür nimmt man but (= aber).",
+   "antworten": [
+    "but",
+    "because",
+    "so",
+    "or"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Welche Schule hat eine Uniform?",
+   "info": "In der Tabelle steht bei Greenfield School „yes“ und bei Lindenschule „no“.",
+   "antworten": [
+    "Greenfield School",
+    "Lindenschule",
+    "both schools",
+    "neither school"
+   ],
+   "richtig": 0,
+   "mischen": false,
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"500\" height=\"210\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"160\" y=\"10\" width=\"180\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Greenfield School</text><rect x=\"340\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lindenschule</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"160\" y=\"48\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">900</text><rect x=\"340\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">450</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"160\" y=\"86\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5</text><rect x=\"340\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"160\" y=\"124\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:45</text><rect x=\"340\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7:55</text><rect x=\"10\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"160\" y=\"162\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"340\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">no</text></svg>",
+   "bildAlt": "Tabelle: Greenfield School hat 900 Schüler, 5 Stunden am Tag, Schulbeginn 8:45 und Uniform. Lindenschule hat 450 Schüler, 6 Stunden am Tag, Schulbeginn 7:55 und keine Uniform."
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Schreibe auf Englisch: Meine Schule ist kleiner als Greenfield School.",
+   "info": "small + er = smaller. Nach dem Komparativ steht than.",
+   "richtig": "My school is smaller than Greenfield School"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "big → bigger (g verdoppelt, -er), danach than.",
+   "antworten": [
+    "My school is bigger than Greenfield School.",
+    "My school is more big than Greenfield School.",
+    "My school is biger than Greenfield School.",
+    "My school is bigger as Greenfield School."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "C – Zwei Schulen vergleichen",
+   "frage": "Bringe die Wörter in die richtige Reihenfolge (Vergleich der Schulen).",
+   "info": "Subjekt – is – Komparativ – than – zweites Ding: Greenfield School is bigger than Lindenschule.",
+   "schritte": [
+    "Greenfield School",
+    "is",
+    "bigger",
+    "than",
+    "Lindenschule"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Pläne mit going to",
+   "frage": "Schreibe auf Englisch mit going to: Morgen besuche ich meine Oma. (visit, grandma) Beginne mit „Tomorrow“.",
+   "info": "Tomorrow I'm going to visit my grandma. I'm ist die Kurzform von I am; beides ist richtig.",
+   "richtig": [
+    "Tomorrow I'm going to visit my grandma",
+    "Tomorrow, I'm going to visit my grandma",
+    "Tomorrow I am going to visit my grandma",
+    "Tomorrow, I am going to visit my grandma"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Pläne mit going to",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "Plan = am/is/are + going to + Grundform. Das Verb nach to bleibt in der Grundform (play).",
+   "antworten": [
+    "After school I'm going to play football.",
+    "After school I going to play football.",
+    "After school I'm going to playing football.",
+    "After school I'm go to play football."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Pläne mit going to",
+   "frage": "Ergänze am, is oder are.",
+   "text": "This weekend my friends and I {{are}} going to have a picnic. My mum {{is}} going to bake a cake. I {{am}} going to bring some drinks.",
+   "info": "we/they: are, he/she/it: is, I: am. Danach going to + Grundform.",
+   "wortbank": [
+    "are",
+    "is",
+    "am",
+    "be",
+    "was"
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Pläne mit going to",
+   "frage": "„I'm going to read a book“ sagt, was ich in der Zukunft vorhabe.",
+   "info": "going to benutzt man für Pläne und Vorhaben (Zukunft).",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Pläne mit going to",
+   "frage": "Welcher Satz bedeutet „Wir werden am Samstag Fußball spielen“?",
+   "info": "we are going to + Grundform (play). Nach to steht kein -ed und kein -s.",
+   "antworten": [
+    "We are going to play football on Saturday.",
+    "We are going to played football on Saturday.",
+    "We going to play football on Saturday.",
+    "We are go to play football on Saturday."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Pläne mit going to",
+   "frage": "Schreibe 3 Sätze mit going to: Was machst du morgen nach der Schule?",
+   "punkte": 3,
+   "muster": "After school I'm going to do my homework. Then I'm going to play with my friends. In the evening we are going to watch a film.",
+   "kriterien": [
+    "Alle drei Sätze benutzen am/is/are + going to + Grundform.",
+    "Die Sätze beschreiben drei verschiedene Pläne.",
+    "Satzanfang groß, Punkt am Ende, Rechtschreibung stimmt."
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sätze verbinden und E-Mails",
+   "frage": "Welches Wort fehlt? I like art, ___ I don't like maths.",
+   "info": "Die beiden Teile sind ein Gegensatz (mag Kunst – mag Mathe nicht). Dafür nimmt man but.",
+   "antworten": [
+    "but",
+    "because",
+    "so",
+    "or"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Sätze verbinden und E-Mails",
+   "frage": "Ergänze die Bindewörter.",
+   "text": "I like music {{and}} art. I like PE, {{but}} I don't like maths. I get up early {{because}} school starts at eight. It is raining, {{so}} we play inside.",
+   "info": "and = und, but = aber, because = weil (vor dem Grund), so = deshalb (vor der Folge).",
+   "wortbank": [
+    "and",
+    "but",
+    "because",
+    "so",
+    "or"
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Sätze verbinden und E-Mails",
+   "frage": "Ordne die Bindewörter zu.",
+   "info": "and = und, but = aber, because = weil, so = deshalb, or = oder.",
+   "paare": [
+    [
+     "and",
+     "und"
+    ],
+    [
+     "but",
+     "aber"
+    ],
+    [
+     "because",
+     "weil"
+    ],
+    [
+     "so",
+     "deshalb"
+    ],
+    [
+     "or",
+     "oder"
+    ]
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "E – Sätze verbinden und E-Mails",
+   "frage": "Bringe die Teile der E-Mail in die richtige Reihenfolge.",
+   "info": "Eine E-Mail hat: Anrede, Einstieg, Hauptteil, Schluss, Gruß mit Namen.",
+   "schritte": [
+    "Hi Sam,",
+    "Thank you for your email.",
+    "I'm going to tell you about my school.",
+    "Please write back soon.",
+    "Bye, Mila"
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Sätze verbinden und E-Mails",
+   "frage": "Ergänze das Wort: I like English ___ my teacher is nice.",
+   "info": "because = weil. Danach steht der Grund in normaler Wortstellung: my teacher is nice.",
+   "richtig": "because"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Sätze verbinden und E-Mails",
+   "frage": "Ein guter Text hat eine Einleitung, einen Hauptteil und einen Schluss.",
+   "info": "Einleitung (Worum geht es?), Hauptteil (die Informationen), Schluss (kurzer Abschluss).",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Sätze verbinden und E-Mails",
+   "frage": "Welcher Satz ist ein guter Schluss für eine E-Mail an einen Freund?",
+   "info": "Please write back soon. und Bye! stehen am Ende einer E-Mail. Hi Sam steht am Anfang.",
+   "antworten": [
+    "Please write back soon. Bye!",
+    "Hi Sam, how are you?",
+    "Thank you for your email.",
+    "My name is Mila."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Eigene Texte schreiben",
+   "frage": "Mila schreibt über ihre Schule. Welcher Satz hat einen Fehler?",
+   "info": "Nach we steht have (We have six lessons). has gehört zu he, she, it.",
+   "antworten": [
+    "We has six lessons every day.",
+    "My school is bigger than my old school.",
+    "I like art because it is fun.",
+    "After school I'm going to play football."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Eigene Texte schreiben",
+   "frage": "Schreibe einen kurzen Text über deine Schule (5 Sätze): Name, Ort, Zahl der Schüler, Lieblingsfach, Uniform.",
+   "punkte": 4,
+   "muster": "My school is called Linden School. It is in a small town. There are 450 students at my school. My favourite subject is art because it is fun. We don't wear a uniform.",
+   "kriterien": [
+    "Der Text hat mindestens 5 vollständige Sätze.",
+    "Der Text nennt Name oder Ort der Schule.",
+    "Der Text benutzt There are oder We have richtig.",
+    "Der Text benutzt because oder and oder but richtig."
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Eigene Texte schreiben",
+   "frage": "Beschreibe deinen Schultag (5 Sätze). Benutze first, then, after that und Uhrzeiten.",
+   "punkte": 4,
+   "muster": "First, I get up at half past six. Then I have breakfast. After that I go to school by bus. School starts at eight o'clock. After school I do my homework.",
+   "kriterien": [
+    "Der Text hat mindestens 5 vollständige Sätze.",
+    "Die Reihenfolge ist klar (first, then, after that oder in the morning).",
+    "Die Uhrzeiten sind richtig auf Englisch geschrieben.",
+    "Bei he/she/it steht -s, bei I/we nicht."
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Eigene Texte schreiben",
+   "frage": "Vergleiche deine Schule mit Greenfield School (Tabelle). Schreibe 5 Sätze: Schüler, Stunden, Schulbeginn, Uniform.",
+   "punkte": 5,
+   "muster": "My school is smaller than Greenfield School. We have six lessons, but they have five. School starts earlier at my school than at Greenfield School. They wear a uniform, but we don't. Greenfield School is not as small as my school.",
+   "kriterien": [
+    "Der Text hat mindestens 5 Sätze.",
+    "Es kommt ein richtiger Komparativ mit than vor.",
+    "Es kommt not as … as oder but für einen Gegensatz vor.",
+    "Die Angaben stimmen zur Tabelle (oder zu deiner Schule).",
+    "Rechtschreibung und Satzanfänge stimmen."
+   ],
+   "bild": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 210\" width=\"500\" height=\"210\" font-family=\"Arial,Helvetica,sans-serif\"><rect width=\"500\" height=\"210\" fill=\"#ffffff\"/><rect x=\"10\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Facts</text><rect x=\"160\" y=\"10\" width=\"180\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Greenfield School</text><rect x=\"340\" y=\"10\" width=\"150\" height=\"38\" fill=\"#dbe9f4\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"35.0\" font-size=\"15\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lindenschule</text><rect x=\"10\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"73.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Students</text><rect x=\"160\" y=\"48\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">900</text><rect x=\"340\" y=\"48\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"73.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">450</text><rect x=\"10\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"111.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Lessons a day</text><rect x=\"160\" y=\"86\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">5</text><rect x=\"340\" y=\"86\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"111.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">6</text><rect x=\"10\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"149.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">School starts</text><rect x=\"160\" y=\"124\" width=\"180\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">8:45</text><rect x=\"340\" y=\"124\" width=\"150\" height=\"38\" fill=\"#ffffff\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"149.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">7:55</text><rect x=\"10\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"85.0\" y=\"187.0\" font-size=\"17\" font-weight=\"bold\" fill=\"#222\" text-anchor=\"middle\">Uniform</text><rect x=\"160\" y=\"162\" width=\"180\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"250.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">yes</text><rect x=\"340\" y=\"162\" width=\"150\" height=\"38\" fill=\"#f7f7f7\" stroke=\"#7a8fa3\"/><text x=\"415.0\" y=\"187.0\" font-size=\"17\" font-weight=\"normal\" fill=\"#222\" text-anchor=\"middle\">no</text></svg>",
+   "bildAlt": "Tabelle: Greenfield School hat 900 Schüler, 5 Stunden am Tag, Schulbeginn 8:45 und Uniform. Lindenschule hat 450 Schüler, 6 Stunden am Tag, Schulbeginn 7:55 und keine Uniform."
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Eigene Texte schreiben",
+   "frage": "Schreibe eine E-Mail an einen englischen Freund (Sam). Erzähle von deiner Schule und stelle eine Frage über seine Schule.",
+   "punkte": 5,
+   "muster": "Hi Sam, thank you for your email. I'm going to tell you about my school. My school is called Linden School and there are 450 students. We have six lessons every day, but we don't wear a uniform. What is your school like? Please write back soon. Bye, Mila",
+   "kriterien": [
+    "Die E-Mail hat eine Anrede (Hi Sam,) und einen Gruß mit Namen.",
+    "Die E-Mail erzählt mindestens zwei Dinge über die Schule (zum Beispiel Schüler, Stunden, Uniform).",
+    "Es gibt eine Frage an Sam (What is your school like?).",
+    "Die E-Mail hat einen Schluss (Please write back soon.).",
+    "Rechtschreibung und Verbformen stimmen."
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "F – Eigene Texte schreiben",
+   "frage": "Schreibe 4 Sätze: Was machst du am nächsten Wochenende? Benutze going to und and, but oder because.",
+   "punkte": 4,
+   "muster": "On Saturday I'm going to visit my cousin. We are going to play games because it is going to rain. On Sunday I'm going to do my homework, but I'm also going to watch a film.",
+   "kriterien": [
+    "Alle Sätze mit Plänen benutzen am/is/are + going to + Grundform.",
+    "Es kommt ein Bindewort (and, but, because oder so) richtig vor.",
+    "Es gibt mindestens 4 vollständige Sätze.",
+    "Rechtschreibung und Satzzeichen stimmen."
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Meine Schule vorstellen": "Über meine Schule schreiben",
+  "B – Mein Schultag": "Mein Schultag",
+  "C – Zwei Schulen vergleichen": "Meine Schule mit einer englischen Schule vergleichen",
+  "D – Pläne mit going to": "Pläne und E-Mails",
+  "E – Sätze verbinden und E-Mails": [
+   "Sätze verbinden: and, but, because, so",
+   "Pläne und E-Mails"
+  ],
+  "F – Eigene Texte schreiben": [
+   "So planst du einen Text",
+   "Über meine Schule schreiben",
+   "Mein Schultag",
+   "Meine Schule mit einer englischen Schule vergleichen"
+  ]
+ },
+ "termin": "2026-12-08",
+ "reihenfolge": 8,
+ "gruppe": "Englischarbeit 08.12.2026",
+ "dauerhaft": false,
+ "probe": false,
+ "karte": {
+  "titel": "Schreib-Talent",
+  "motiv": "✍️",
+  "text": "Meine Schule, mein Schultag und ein Vergleich mit einer englischen Schule: ein Text mit Anfang, Mitte und Schluss."
+ }
+}
