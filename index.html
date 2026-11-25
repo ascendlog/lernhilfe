@@ -2560,6 +2560,9 @@ function speechChunks(text) {
 const speechVoll = x => String(x.lang || '').toLowerCase().replace('_', '-');
 const speechSprache = x => { const c = speechVoll(x).split('-')[0]; return ({ eng: 'en', deu: 'de', ger: 'de' })[c] || c; }; /* manche Android-Stimmen nennen „eng-GBR“ */
 const istHandy = () => /iPhone|iPad|iPod|Android/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && /Mac/i.test(navigator.platform));
+/* Spaß- und Geräuschstimmen (Apple: „Jester“/„Spaßvogel“, „Whisper“, „Bells“ …) und die Eloquence-Stimmen sollen weder automatisch gewählt noch oben in der Liste stehen */
+const SPASSSTIMME = /^(albert|bad news|bahh|bells|boing|bubbles|cellos|deranged|good news|hysterical|jester|organ|pipe organ|superstar|trinoids|whisper|wobble|zarvox|fred|junior|ralph|kathy|princess|grandma|grandpa|eddy|flo|reed|rocko|sandy|shelley|spaßvogel|flüsterer|flüstern|orgel|glocken|blubbern|schlechte nachrichten|gute nachrichten|verrückt|hysterisch|wackeln|oma|opa)\b/i;
+const spass = x => SPASSSTIMME.test(String(x.name || '').trim());
 const stimmeMem = {}; /* gewählte Stimme je Sprache; zusätzlich im Browser gemerkt (gilt für dieses Gerät, nicht je Person) */
 function stimmeGemerkt(sp) {
   if (stimmeMem[sp] !== undefined) return stimmeMem[sp];
@@ -2575,8 +2578,9 @@ function speechStimmen(l) {
   const add = v => { if (v && !reihe.includes(v)) reihe.push(v); };
   const gew = stimmeGemerkt(L.slice(0, 2));
   if (gew) add(gleich.find(x => (x.voiceURI || x.name) === gew));          /* von Hand gewählte Stimme zuerst */
-  add(exakt[0] || gleich[0]);                                              /* wie bisher */
-  add(exakt.find(x => x.localService) || gleich.find(x => x.localService)); /* nächster Versuch: Stimme auf dem Gerät, braucht kein Netz */
+  const ernst = a => a.filter(x => !spass(x)), erste = a => ernst(a)[0] || a[0];   /* Spaßstimmen nur, wenn es nichts anderes gibt */
+  add(erste(exakt) || erste(gleich));                                        /* wie bisher, nur ohne Spaßstimmen */
+  add(erste(exakt.filter(x => x.localService)) || erste(gleich.filter(x => x.localService))); /* nächster Versuch: Stimme auf dem Gerät, braucht kein Netz */
   reihe.push(null);                                                        /* zuletzt: das System wählt anhand der Sprache selbst */
   return { reihe, n: vs.length, gibt: gleich.length > 0 };
 }
@@ -2584,8 +2588,10 @@ function stimmenFuellen(d) { /* Auswahlliste „Kein Ton? Stimme wählen“ fül
   const sel = d && d.querySelector('select.stimme'); if (!sel) return;
   const sp = (sel.dataset.lang || 'en-GB').slice(0, 2).toLowerCase(), gew = stimmeGemerkt(sp);
   let vs = []; try { vs = speechSynthesis.getVoices() || []; } catch (e) { vs = []; }
-  const liste = vs.filter(x => speechSprache(x) === sp);
-  sel.innerHTML = '<option value="">Automatisch (das Gerät wählt)</option>' + liste.map(x => { const id = x.voiceURI || x.name; return `<option value="${esc(id)}"${id === gew ? ' selected' : ''}>${esc(x.name)} (${esc(x.lang)}${x.localService ? '' : ', online'})</option>`; }).join('');
+  const liste = vs.filter(x => speechSprache(x) === sp), L = (sel.dataset.lang || 'en-GB').toLowerCase();
+  const opt = x => { const id = x.voiceURI || x.name; return `<option value="${esc(id)}"${id === gew ? ' selected' : ''}>${esc(x.name)} (${esc(x.lang)}${x.localService ? '' : ', online'})</option>`; };
+  const gut = liste.filter(x => speechVoll(x) === L && !spass(x)), rest = liste.filter(x => !gut.includes(x));
+  sel.innerHTML = '<option value="">Automatisch (das Gerät wählt)</option>' + (gut.length && rest.length ? '<optgroup label="Empfohlen">' + gut.map(opt).join('') + '</optgroup><optgroup label="Weitere Stimmen (auch Spaßstimmen)">' + rest.map(opt).join('') + '</optgroup>' : liste.map(opt).join(''));
   const n = d.querySelector('.stimmen-n'); if (n) n.textContent = liste.length ? liste.length + (liste.length === 1 ? ' Stimme' : ' Stimmen') + ' auf diesem Gerät gefunden.' : 'Auf diesem Gerät wurde keine passende Stimme gefunden.';
 }
 if ('speechSynthesis' in window && speechSynthesis.addEventListener) { try { speechSynthesis.addEventListener('voiceschanged', () => document.querySelectorAll('details.ton[open]').forEach(stimmenFuellen)); } catch (e) { /* nur eine Bequemlichkeit */ } }
