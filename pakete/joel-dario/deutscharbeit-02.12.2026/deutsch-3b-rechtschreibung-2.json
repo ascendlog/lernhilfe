@@ -243,7 +243,7 @@
    "typ": "luecke",
    "abschnitt": "A – Verlängern: b/p, d/t, g/k",
    "frage": "Schreibe die Wörter richtig auf.",
-   "text": "Mein Hund ist {{gesund}}, {{stark}} und {{beliebt}}.",
+   "text": "Mein Hund ist {{gesund|stark|beliebt}}, {{stark|gesund|beliebt}} und {{beliebt|gesund|stark}}.",
    "info": "gesun-de (d), star-ke (k), be-lieb-te (b): Bei Adjektiven verlängerst du mit der Form auf -e.",
    "wortbank": [
     "gesund",

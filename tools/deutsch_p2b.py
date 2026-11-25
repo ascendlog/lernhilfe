@@ -186,7 +186,7 @@ def aufgaben():
                        ("bleiben", "Personalform im Hauptsatz"), ("regnet", "Personalform im Nebensatz")],
                       B_E, info="Der Nebensatz beginnt mit der Konjunktion „weil“ und hat die Personalform „regnet“ am Ende. Im Hauptsatz steht „bleiben“ an erster Stelle des Satzteils."))
     a.append(luecke("Ergänze den Satzbauplan mit Hs (Hauptsatz) und Ns (Nebensatz).",
-                    "Ich lache, weil es lustig ist: {{Hs}} , {{Ns}}\nWeil es lustig ist, lache ich: {{Ns}} , {{Hs}}", B_E,
+                    "Ich lache, weil es lustig ist: {{Hs}} , {{Ns}}\nWeil es lustig ist, lache ich: {{Ns}} , {{Hs}}", B_E, fest=True,
                     info="Im ersten Satz steht der Hauptsatz vorn, im zweiten der Nebensatz."))
 
     # ---------------------------------------------------------------- F

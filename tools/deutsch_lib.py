@@ -8,6 +8,10 @@ ein Komma als Lückenantwort geht nicht (am Ende abgeschnitten). Deshalb:
 - Groß/klein: luecke/kurz mit gross=True (und ohne Nachsicht).
 - s / ss / ß: nur als mc oder tf entscheiden lassen (nie als Lücke oder Zuordnung, dort sind ß und ss gleich).
 - Kommas: Lücken mit Auswahl „Komma“ / „kein Komma“ (Funktion kommas) oder ganzen Satz abtippen lassen.
+- Vertauschbare Lücken: Stehen zwei Lücken mit „und“, „oder“ oder Komma nebeneinander und dürfen ihre Wörter tauschen
+  („Ich habe Hunger und Durst“ = „Ich habe Durst und Hunger“), wertet die App ohne Hilfe nur die Reihenfolge des Textes als richtig.
+  Deshalb tauschbar=[("Hunger", "Durst")] angeben (die Wörter werden gegenseitig zu Alternativen {{Hunger|Durst}} … {{Durst|Hunger}}).
+  Hängt die Reihenfolge am Text („Teig und schiebt“, „Hs , Ns“), steht dort fest=True. Ohne eine der beiden Angaben bricht der Build ab.
 """
 import re
 
@@ -31,8 +35,49 @@ def kurz(frage, richtig, abschnitt, info=None, tipp=None, gross=False, vorlesen=
         t["vorlesen"] = {"text": vorlesen, "sprache": SPRACHE}
     return t
 
+_LUECKE = re.compile(r"\{\{([^{}]+)\}\}")
+_VERBINDER = re.compile(r"\{\{([^{}]+)\}\}(\s*(?:,|und|oder|sowie)\s*)\{\{([^{}]+)\}\}")
 
-def luecke(frage, text, abschnitt, extra=(), info=None, tipp=None, wortbank=True, gross=False, auswahl=None, vorlesen=None):
+
+def _tausche(text, gruppen):
+    """Wörter einer Gruppe dürfen die Lücken tauschen: jede Lücke bekommt die anderen Wörter der Gruppe als Alternative."""
+    if not gruppen:
+        return text
+    erste = [m.group(1).split("|")[0].strip() for m in _LUECKE.finditer(text)]
+    for gruppe in gruppen:
+        gruppe = list(gruppe)
+        assert len(gruppe) >= 2 and len(set(gruppe)) == len(gruppe), f"tauschbar: Gruppe {gruppe}"
+        for w in gruppe:
+            assert erste.count(w) == 1, f"tauschbar: „{w}“ steht nicht genau einmal als Lücke im Text: {text}"
+
+    def rep(m):
+        teile = [x.strip() for x in m.group(1).split("|")]
+        for gruppe in gruppen:
+            if teile[0] in gruppe:
+                teile += [w for w in gruppe if w not in teile]
+        return "{{" + "|".join(teile) + "}}"
+
+    return _LUECKE.sub(rep, text)
+
+
+def _pruefe_tausch(text, fest):
+    """Zwei Lücken, die nur durch „und“, „oder“ oder Komma getrennt sind, müssen als tauschbar oder als fest gekennzeichnet sein."""
+    if fest:
+        return
+    for m in _VERBINDER.finditer(text):
+        a = [x.strip() for x in m.group(1).split("|")]
+        b = [x.strip() for x in m.group(3).split("|")]
+        assert (b[0] in a and a[0] in b) or (len(a) > 1 and len(b) > 1), (
+            f"Lücken „{a[0]}“{m.group(2)}„{b[0]}“ stehen nebeneinander: tauschbar=[(\"{a[0]}\", \"{b[0]}\")] angeben, "
+            f"wenn die Wörter die Plätze tauschen dürfen, sonst fest=True. Text: {text}")
+
+
+def luecke(frage, text, abschnitt, extra=(), info=None, tipp=None, wortbank=True, gross=False, auswahl=None, vorlesen=None,
+           tauschbar=(), fest=False):
+    """Lückentext. tauschbar=[("Hunger", "Durst")]: diese Wörter dürfen die Plätze tauschen. fest=True: Reihenfolge ist Pflicht."""
+    text = _tausche(text, tauschbar)
+    if not auswahl:
+        _pruefe_tausch(text, fest)
     t = geo_lib.luecke(frage, text, abschnitt, extra=extra, info=info, tipp=tipp, wortbank=bool(wortbank and not auswahl))
     if auswahl:
         t["auswahl"] = list(auswahl)
@@ -57,10 +102,11 @@ def flip(w):
     return (w[0].lower() if w[0].isupper() else w[0].upper()) + w[1:]
 
 
-def gk(satz, abschnitt, frage=GK_FRAGE, extra=(), tipp=None, info_zusatz=None):
+def gk(satz, abschnitt, frage=GK_FRAGE, extra=(), tipp=None, info_zusatz=None, tauschbar=(), fest=False):
     """Lückentext Groß/klein. Im Satz steht jedes zu entscheidende Wort als [Wort|Grund] in seiner RICHTIGEN Schreibweise.
 
     Die Wortbank enthält die richtigen Wörter plus die jeweils andere Schreibweise (und extra). info entsteht aus den Gründen.
+    tauschbar=[("Hunger", "Durst")]: Wörter, die ihre Plätze tauschen dürfen (siehe luecke); fest=True: Reihenfolge ist Pflicht.
     """
     gaps = []
 
@@ -83,7 +129,7 @@ def gk(satz, abschnitt, frage=GK_FRAGE, extra=(), tipp=None, info_zusatz=None):
     for w, why in gaps:
         teile.append(f"„{w}“ schreibt man {'groß' if w[0].isupper() else 'klein'}: {why}.")
     info = " ".join(teile) + ((" " + info_zusatz) if info_zusatz else "")
-    return luecke(frage, text, abschnitt, extra=ex, info=info, tipp=tipp, gross=True)
+    return luecke(frage, text, abschnitt, extra=ex, info=info, tipp=tipp, gross=True, tauschbar=tauschbar, fest=fest)
 
 
 # ------------------------------------------------------------------ Kommas setzen (kommas)

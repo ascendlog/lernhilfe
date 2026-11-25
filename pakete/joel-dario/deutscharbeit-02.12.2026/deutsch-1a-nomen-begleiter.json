@@ -441,7 +441,7 @@
    "typ": "luecke",
    "abschnitt": "C – Nomen ohne Begleiter: die Probe",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
-   "text": "Ich habe {{Hunger}} und {{Durst}}, deshalb esse ich {{schnell}}.",
+   "text": "Ich habe {{Hunger|Durst}} und {{Durst|Hunger}}, deshalb esse ich {{schnell}}.",
    "info": "„Hunger“ schreibt man groß: Nomen ohne Begleiter, Probe: der große Hunger. „Durst“ schreibt man groß: Nomen ohne Begleiter, Probe: der große Durst. „schnell“ schreibt man klein: Adjektiv oder Adverb, die Probe geht nicht.",
    "wortbank": [
     "Hunger",
@@ -457,7 +457,7 @@
    "typ": "luecke",
    "abschnitt": "C – Nomen ohne Begleiter: die Probe",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
-   "text": "Wir brauchen {{Zeit}} und {{Geduld}}, dann klappt es {{bestimmt}}.",
+   "text": "Wir brauchen {{Zeit|Geduld}} und {{Geduld|Zeit}}, dann klappt es {{bestimmt}}.",
    "info": "„Zeit“ schreibt man groß: Nomen ohne Begleiter, Probe: die nötige Zeit. „Geduld“ schreibt man groß: Nomen ohne Begleiter, Probe: die nötige Geduld. „bestimmt“ schreibt man klein: Adverb, die Probe geht nicht.",
    "wortbank": [
     "Zeit",
@@ -752,7 +752,7 @@
    "typ": "luecke",
    "abschnitt": "E – Kleine Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Filmabend).",
-   "text": "Am {{Abend}} schauen wir einen {{Film}} im {{Wohnzimmer}}. Mama bringt {{Popcorn}} und {{Saft}}. Wir {{lachen}} {{laut}} über die {{Szenen}}.",
+   "text": "Am {{Abend}} schauen wir einen {{Film}} im {{Wohnzimmer}}. Mama bringt {{Popcorn|Saft}} und {{Saft|Popcorn}}. Wir {{lachen}} {{laut}} über die {{Szenen}}.",
    "info": "„Abend“ schreibt man groß: Begleiter „am“ (an dem). „Film“ schreibt man groß: Artikel „einen“ steht davor. „Wohnzimmer“ schreibt man groß: Begleiter „im“ (in dem). „Popcorn“ schreibt man groß: Nomen ohne Begleiter, Probe: das süße Popcorn. „Saft“ schreibt man groß: Nomen ohne Begleiter, Probe: der kalte Saft. „lachen“ schreibt man klein: Verb, kein Nomen. „laut“ schreibt man klein: Adjektiv oder Adverb, kein Nomen. „Szenen“ schreibt man groß: Artikel „die“ steht davor.",
    "wortbank": [
     "Abend",

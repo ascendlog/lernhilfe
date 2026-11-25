@@ -97,7 +97,7 @@ def aufgaben():
                     info="Wege (g), Stä-be (b), Hü-te (t): Beim Verlängern hörst du die Buchstaben."))
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Mein Hund ist {{gesund}}, {{stark}} und {{beliebt}}.",
-                    B_A, extra=["gesunt", "starg", "beliept"], gross=True,
+                    B_A, extra=["gesunt", "starg", "beliept"], gross=True, tauschbar=[("gesund", "stark", "beliebt")],
                     info="gesun-de (d), star-ke (k), be-lieb-te (b): Bei Adjektiven verlängerst du mit der Form auf -e."))
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Der Hamster {{nagt}} am Holz, das Auto {{blinkt}}, und die Oma {{lebt}} auf dem Land.",
@@ -209,7 +209,7 @@ def aufgaben():
                     info="wohnt und Fahrrad haben ein h vor n und r (Merkwörter). Stadt – Städte (d). fährt – fahren (ä). Meer hat Doppelvokal ee."))
     a.append(luecke("Schreibe die Wörter richtig auf (Text: In der Backstube).",
                     "Der {{Bäcker}} {{knetet}} den {{Teig}} und {{schiebt}} die {{Brötchen}} in den Ofen.",
-                    B_D, extra=["Beker", "knätet", "Teik", "schibt", "Brotchen"], gross=True,
+                    B_D, extra=["Beker", "knätet", "Teik", "schibt", "Brotchen"], gross=True, fest=True,
                     info="Bäcker – backen (ä), kneten (e, kein Wort mit a), Teig – Teige (g), schiebt – schieben (ie, b), Brötchen – Brote (ö)."))
     a.append(luecke("Schreibe die Wörter richtig auf (Text: Im Keller).",
                     "Im {{Keller}} liegt ein alter {{Koffer}} mit {{Wäsche}}, und im {{Schrank}} stehen bunte {{Gläser}}.",

@@ -131,9 +131,9 @@ def aufgaben():
                       [("Hilfe", "die"), ("Spaß", "der"), ("Wetter", "das"), ("Ruhe", "die"), ("Mut", "der")],
                       B_C, info="Die Artikel-Probe zeigt, dass es Nomen sind: die Hilfe, der Spaß, das Wetter, die Ruhe, der Mut."))
     a.append(gk("Ich habe [Hunger|Nomen ohne Begleiter, Probe: der große Hunger] und [Durst|Nomen ohne Begleiter, Probe: der große Durst], deshalb esse ich [schnell|Adjektiv oder Adverb, die Probe geht nicht].",
-                B_C))
+                B_C, tauschbar=[("Hunger", "Durst")]))
     a.append(gk("Wir brauchen [Zeit|Nomen ohne Begleiter, Probe: die nötige Zeit] und [Geduld|Nomen ohne Begleiter, Probe: die nötige Geduld], dann klappt es [bestimmt|Adverb, die Probe geht nicht].",
-                B_C))
+                B_C, tauschbar=[("Zeit", "Geduld")]))
     a.append(mc("Wie lautet die Artikel-Adjektiv-Probe bei „Angst“?",
                 "die große Angst", ["groß die Angst", "die große angst", "das große angst"], B_C,
                 info="Man setzt einen Artikel und ein Adjektiv vor das Wort: die große Angst. Das Nomen bleibt groß geschrieben."))
@@ -160,7 +160,8 @@ def aufgaben():
     a.append(gk("Ole [kauft|Verb, kein Nomen] auf dem [Flohmarkt|Artikel „dem“ steht davor] ein altes [Buch|Artikel „ein“ und Adjektiv „altes“ stehen davor] und eine [Mütze|Artikel „eine“]. Die [Verkäuferin|Artikel „die“] gibt ihm einen [Beutel|Artikel „einen“] dazu. Seine [Schwester|Pronomen „seine“] freut sich über die [Überraschung|Artikel „die“ steht davor].",
                 B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Auf dem Flohmarkt)."))
     a.append(gk("Am [Abend|Begleiter „am“ (an dem)] schauen wir einen [Film|Artikel „einen“ steht davor] im [Wohnzimmer|Begleiter „im“ (in dem)]. Mama bringt [Popcorn|Nomen ohne Begleiter, Probe: das süße Popcorn] und [Saft|Nomen ohne Begleiter, Probe: der kalte Saft]. Wir [lachen|Verb, kein Nomen] [laut|Adjektiv oder Adverb, kein Nomen] über die [Szenen|Artikel „die“ steht davor].",
-                B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Filmabend)."))
+                B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Filmabend).",
+                tauschbar=[("Popcorn", "Saft")]))
     a.append(gk("Der [Bäcker|Artikel „der“] steht schon früh am [Morgen|Begleiter „am“ (an dem)] in seiner [Backstube|Pronomen „seiner“ steht davor]. Er [knetet|Verb, kein Nomen] den [Teig|Artikel „den“ steht davor] und schiebt die [Brote|Artikel „die“ steht davor] in den [Ofen|Artikel „den“ steht davor]. Der [Duft|Artikel „der“ steht davor] zieht durch die [Straße|Artikel „die“ steht davor].",
                 B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: In der Backstube)."))
     a.append(gk("Im [Herbst|Begleiter „im“ (in dem)] fallen die [Blätter|Artikel „die“ steht davor] von den [Bäumen|Artikel „den“ steht davor]. Die [Kinder|Artikel „die“ steht davor] sammeln [Kastanien|Nomen ohne Begleiter, Probe: die braunen Kastanien] und basteln [Figuren|Nomen ohne Begleiter, Probe: die lustigen Figuren] daraus. Das [macht|Verb, kein Nomen] großen [Spaß|Adjektiv „großen“ steht davor].",

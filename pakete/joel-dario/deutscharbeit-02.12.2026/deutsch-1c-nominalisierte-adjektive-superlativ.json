@@ -421,7 +421,7 @@
    "typ": "luecke",
    "abschnitt": "C – Indefinitpronomen",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
-   "text": "Beim Spielen gab es {{etwas}} {{Besonderes}} und {{nichts}} {{Langweiliges}}.",
+   "text": "Beim Spielen gab es {{etwas|nichts}} {{Besonderes|Langweiliges}} und {{nichts|etwas}} {{Langweiliges|Besonderes}}.",
    "info": "„etwas“ schreibt man klein: Indefinitpronomen, kein Nomen. „Besonderes“ schreibt man groß: Indefinitpronomen „etwas“ steht davor. „nichts“ schreibt man klein: Indefinitpronomen, kein Nomen. „Langweiliges“ schreibt man groß: Indefinitpronomen „nichts“ steht davor.",
    "wortbank": [
     "etwas",
@@ -786,7 +786,7 @@
    "typ": "luecke",
    "abschnitt": "F – Gemischte Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Wandern).",
-   "text": "Wandern ist für {{Junge}} und {{Alte}} ein {{Vergnügen}}. Im {{Gebirge}} gibt es viel {{Schönes}} zu {{sehen}}. Das {{Beste}} ist die frische {{Luft}}.",
+   "text": "Wandern ist für {{Junge|Alte}} und {{Alte|Junge}} ein {{Vergnügen}}. Im {{Gebirge}} gibt es viel {{Schönes}} zu {{sehen}}. Das {{Beste}} ist die frische {{Luft}}.",
    "info": "„Junge“ schreibt man groß: Präposition „für“ steht davor. „Alte“ schreibt man groß: nominalisiert wie „Junge“, die Präposition „für“ gehört auch dazu. „Vergnügen“ schreibt man groß: Artikel „ein“ steht davor. „Gebirge“ schreibt man groß: Begleiter „Im“ (in dem) steht davor. „Schönes“ schreibt man groß: Indefinitpronomen „viel“ steht davor. „sehen“ schreibt man klein: Verb mit „zu“ davor (zu + Infinitiv). „Beste“ schreibt man groß: Artikel „Das“ steht davor. „Luft“ schreibt man groß: Artikel „die“ und Adjektiv „frische“ stehen davor.",
    "wortbank": [
     "Junge",
@@ -862,7 +862,7 @@
    "typ": "luecke",
    "abschnitt": "F – Gemischte Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Ein Regentag).",
-   "text": "Im {{Herbst}} ist das {{Wetter}} oft {{kalt}} und {{nass}}. Ich bleibe dann im {{Warmen}} und lese ein {{Buch}}. Das {{Lesen}} macht mir {{Spaß}}. Etwas {{Spannendes}} ist mir am {{liebsten}}.",
+   "text": "Im {{Herbst}} ist das {{Wetter}} oft {{kalt|nass}} und {{nass|kalt}}. Ich bleibe dann im {{Warmen}} und lese ein {{Buch}}. Das {{Lesen}} macht mir {{Spaß}}. Etwas {{Spannendes}} ist mir am {{liebsten}}.",
    "info": "„Herbst“ schreibt man groß: Begleiter „Im“ (in dem) steht davor. „Wetter“ schreibt man groß: Artikel „das“ steht davor. „kalt“ schreibt man klein: Adjektiv, kein Nomen. „nass“ schreibt man klein: Adjektiv, kein Nomen. „Warmen“ schreibt man groß: Begleiter „im“ (in dem), nominalisiert: das Warme. „Buch“ schreibt man groß: Artikel „ein“ steht davor. „Lesen“ schreibt man groß: Artikel „Das“ steht davor. „Spaß“ schreibt man groß: Nomen ohne Begleiter, Probe: der große Spaß. „Spannendes“ schreibt man groß: Indefinitpronomen „Etwas“ steht davor. „liebsten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?).",
    "wortbank": [
     "Herbst",
