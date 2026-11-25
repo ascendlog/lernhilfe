@@ -69,7 +69,7 @@ def lernblatt():
         lb(L6,
            "Bei **Richtig / Falsch** (right / wrong) geht es darum, ob die Aussage zum Hörtext passt.\n\n"
            "- Lies die Aussage zuerst und suche das **Schlüsselwort** (Zahl, Name, Ort, Tag).\n"
-           "- Achte auf **Gegenteile**: Wenn der Sprecher sagt „not on Tuesday, but on Thursday“, dann ist Tuesday falsch.\n"
+           "- Achte auf **Gegenteile**: Wenn die sprechende Person sagt „not on Tuesday, but on Thursday“, dann ist Tuesday falsch.\n"
            "- Wenn eine Aussage nur teilweise stimmt, ist sie **falsch**.\n"
            "- Bei **Auswahl** (a, b, c) hilft es, falsche Antworten zu streichen.\n"
            "- **Kurzantworten:** Schreibe nur das Wichtige (eine Zahl, ein Wort).",
@@ -102,7 +102,7 @@ def aufgaben():
                   info="Im Text: „thirteen pounds“. thirTEEN (hinten betont) = 13, THIRty (vorn betont) = 30."))
     a.append(kurz("Höre zu. Wie viele Schüler sind in der Klasse? Schreibe die Zahl mit Ziffern.", ["30", "thirty"], B_A, vorlesen="There are thirty students in my class.",
                   info="Im Text: „thirty students“. THIRty (vorn betont) = 30, thirTEEN (hinten betont) = 13."))
-    a.append(mit_ton(mc("Höre zu. Wie alt ist die Sprecherin?", "15", ["50", "5", "16"], B_A,
+    a.append(mit_ton(mc("Höre zu. Wie alt ist die sprechende Person?", "15", ["50", "5", "16"], B_A,
                         info="Im Text: „fifteen years old“. fifTEEN (hinten betont) = 15, FIFty (vorn betont) = 50."),
                      "I am fifteen years old."))
     a.append(mit_ton(mc("Höre zu. Wie alt ist der Großvater?", "70", ["17", "7", "60"], B_A,
@@ -120,7 +120,7 @@ def aufgaben():
                     "The bus leaves in {{13|thirteen}} minutes.\nThe film is {{90|ninety}} minutes long.\nThe tickets cost £{{18|eighteen}}.",
                     B_A, wortbank=False, vorlesen="The bus leaves in thirteen minutes. The film is ninety minutes long. The tickets cost eighteen pounds.",
                     info="thirTEEN = 13, NINEty = 90, eighTEEN = 18. Auf die Betonung achten: -teen hinten, -ty vorn."))
-    a.append(mit_ton(tf("Höre zu. Die Sprecherin sagt eine Zahl: „thirty“. Dann ist die Zahl 13.", False, B_A,
+    a.append(mit_ton(tf("Höre zu. Die sprechende Person sagt eine Zahl: „thirty“. Dann ist die Zahl 13.", False, B_A,
                         info="thirty = 30. Die Zahl 13 heißt thirteen. Beim Hören unterscheidest du an der Betonung."),
                      "I am thirty."))
     a.append(kurz("Schreibe die Zahl 15 als Wort.", ["fifteen"], B_A,
@@ -129,7 +129,7 @@ def aufgaben():
                   info="40 = forty. Anders als four ist forty ohne u."))
 
     # ---------------------------------------------------------------- B: Datum
-    a.append(mit_ton(mc("Höre zu. Wann hat die Sprecherin Geburtstag?", "13th May", ["30th May", "13th March", "30th March"], B_B,
+    a.append(mit_ton(mc("Höre zu. Wann hat die sprechende Person Geburtstag?", "13th May", ["30th May", "13th March", "30th March"], B_B,
                         info="Im Text: „thirteenth of May“. thirTEENth = 13th, THIRtieth = 30th, May = Mai."),
                      "My birthday is on the thirteenth of May."))
     a.append(mit_ton(mc("Höre zu. Wann ist die Schulaufführung?", "30th June", ["13th June", "30th July", "3rd June"], B_B,
@@ -250,9 +250,9 @@ def aufgaben():
                         info="Im Text: „earphones are not allowed in class“."),
                      T_SCHULE))
     a.append(mit_ton(mc("Höre zu. Wer spricht?", "die Schulleiterin", ["eine Schülerin", "eine Lehrerin der Klasse 6", "ein Busfahrer"], B_F,
-                        info="Die Sprecherin sagt: „My name is Mrs Parker and I am the head teacher.“ Head teacher = Schulleiterin."),
+                        info="Die sprechende Person sagt: „My name is Mrs Parker and I am the head teacher.“ Head teacher = Schulleiterin."),
                      T_SCHULE))
-    a.append(mit_ton(reihenfolge("Höre zu. In welcher Reihenfolge nennt die Sprecherin diese Dinge?", ["Türen öffnen", "Registration", "Pause", "Mittagessen"], B_F,
+    a.append(mit_ton(reihenfolge("Höre zu. In welcher Reihenfolge nennt die sprechende Person diese Dinge?", ["Türen öffnen", "Registration", "Pause", "Mittagessen"], B_F,
                                  info="Im Text: doors open, registration, break at half past ten, lunch at half past twelve."),
                      T_SCHULE))
     a.append(frei("Schreibe 2 bis 3 Sätze (auf Englisch) über deinen Schultag: Wann beginnt die Schule, wann ist Pause?",

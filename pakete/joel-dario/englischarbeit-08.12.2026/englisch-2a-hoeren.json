@@ -41,7 +41,7 @@
   },
   {
    "titel": "Richtig oder falsch? Antworten finden",
-   "text": "Bei **Richtig / Falsch** (right / wrong) geht es darum, ob die Aussage zum Hörtext passt.\n\n- Lies die Aussage zuerst und suche das **Schlüsselwort** (Zahl, Name, Ort, Tag).\n- Achte auf **Gegenteile**: Wenn der Sprecher sagt „not on Tuesday, but on Thursday“, dann ist Tuesday falsch.\n- Wenn eine Aussage nur teilweise stimmt, ist sie **falsch**.\n- Bei **Auswahl** (a, b, c) hilft es, falsche Antworten zu streichen.\n- **Kurzantworten:** Schreibe nur das Wichtige (eine Zahl, ein Wort).",
+   "text": "Bei **Richtig / Falsch** (right / wrong) geht es darum, ob die Aussage zum Hörtext passt.\n\n- Lies die Aussage zuerst und suche das **Schlüsselwort** (Zahl, Name, Ort, Tag).\n- Achte auf **Gegenteile**: Wenn die sprechende Person sagt „not on Tuesday, but on Thursday“, dann ist Tuesday falsch.\n- Wenn eine Aussage nur teilweise stimmt, ist sie **falsch**.\n- Bei **Auswahl** (a, b, c) hilft es, falsche Antworten zu streichen.\n- **Kurzantworten:** Schreibe nur das Wichtige (eine Zahl, ein Wort).",
    "merke": "Schlüsselwort suchen, auf but und not achten. Stimmt nur ein Teil der Aussage, ist sie falsch."
   }
  ],
@@ -77,7 +77,7 @@
   {
    "typ": "mc",
    "abschnitt": "A – Zahlen verstehen (13 oder 30?)",
-   "frage": "Höre zu. Wie alt ist die Sprecherin?",
+   "frage": "Höre zu. Wie alt ist die sprechende Person?",
    "info": "Im Text: „fifteen years old“. fifTEEN (hinten betont) = 15, FIFty (vorn betont) = 50.",
    "antworten": [
     "15",
@@ -161,7 +161,7 @@
   {
    "typ": "tf",
    "abschnitt": "A – Zahlen verstehen (13 oder 30?)",
-   "frage": "Höre zu. Die Sprecherin sagt eine Zahl: „thirty“. Dann ist die Zahl 13.",
+   "frage": "Höre zu. Die sprechende Person sagt eine Zahl: „thirty“. Dann ist die Zahl 13.",
    "info": "thirty = 30. Die Zahl 13 heißt thirteen. Beim Hören unterscheidest du an der Betonung.",
    "richtig": false,
    "vorlesen": {
@@ -186,7 +186,7 @@
   {
    "typ": "mc",
    "abschnitt": "B – Datum und Ordnungszahlen",
-   "frage": "Höre zu. Wann hat die Sprecherin Geburtstag?",
+   "frage": "Höre zu. Wann hat die sprechende Person Geburtstag?",
    "info": "Im Text: „thirteenth of May“. thirTEENth = 13th, THIRtieth = 30th, May = Mai.",
    "antworten": [
     "13th May",
@@ -708,7 +708,7 @@
    "typ": "mc",
    "abschnitt": "F – Ein längerer Hörtext",
    "frage": "Höre zu. Wer spricht?",
-   "info": "Die Sprecherin sagt: „My name is Mrs Parker and I am the head teacher.“ Head teacher = Schulleiterin.",
+   "info": "Die sprechende Person sagt: „My name is Mrs Parker and I am the head teacher.“ Head teacher = Schulleiterin.",
    "antworten": [
     "die Schulleiterin",
     "eine Schülerin",
@@ -724,7 +724,7 @@
   {
    "typ": "reihenfolge",
    "abschnitt": "F – Ein längerer Hörtext",
-   "frage": "Höre zu. In welcher Reihenfolge nennt die Sprecherin diese Dinge?",
+   "frage": "Höre zu. In welcher Reihenfolge nennt die sprechende Person diese Dinge?",
    "info": "Im Text: doors open, registration, break at half past ten, lunch at half past twelve.",
    "schritte": [
     "Türen öffnen",

@@ -1082,7 +1082,7 @@ function bildSrc(b) {
 }
 function listenHtml(t) {
   if (!t.vorlesen) return '';
-  return `<div class="listen"><div class="row"><button type="button" class="btn sec" data-act="speak">🔊 Anhören</button><button type="button" class="btn ghost sm" data-act="stop">Stopp</button></div><p class="listen-msg" role="status" aria-live="polite" hidden></p><details class="ton"><summary>Kein Ton? Stimme wählen</summary><p class="muted stimmen-n"></p><div class="row"><select class="stimme" data-lang="${esc(t.vorlesen.sprache || 'en-GB')}" aria-label="Stimme"></select><button type="button" class="btn ghost sm" data-act="stimme-test">Probe hören</button></div><p class="muted">Die Stimmen kommen vom Gerät. Die gewählte Stimme wird für diese Sprache gemerkt. Auch Lautstärke und (iPhone) den Stummschalter prüfen.</p></details><details class="script"><summary>Text zum Vorlesen (für Eltern)</summary>${rt(t.vorlesen.text)}</details></div>`;
+  return `<div class="listen"><div class="row"><button type="button" class="btn sec" data-act="speak">🔊 Anhören</button><button type="button" class="btn ghost sm" data-act="stop">Stopp</button></div><p class="listen-msg" role="status" aria-live="polite" hidden></p><details class="ton"><summary>Stimme wählen (kein Ton? andere Stimme probieren)</summary><p class="muted stimmen-n"></p><div class="row"><select class="stimme" data-lang="${esc(t.vorlesen.sprache || 'en-GB')}" aria-label="Stimme"></select><button type="button" class="btn ghost sm" data-act="stimme-test">Probe hören</button></div><p class="muted">Die Stimmen kommen vom Gerät. Die gewählte Stimme wird für diese Sprache gemerkt. Auch Lautstärke und (iPhone) den Stummschalter prüfen.</p></details><details class="script"><summary>Text zum Vorlesen (für Eltern)</summary>${rt(t.vorlesen.text)}</details></div>`;
 }
 function answerHtml(t, idx, s, locked) {
   const a = s.answers[idx]; const ev = locked ? evaluate(t, a, s.touched[idx]) : null; const dis = locked ? 'disabled' : '';
@@ -2626,7 +2626,7 @@ function speak(text, lang) {
       };
       return u;
     });
-    reihe[0].onstart = () => { if (t !== spTok) return; gestartet = true; clearTimeout(spTimer); speechMsg('Wird vorgelesen (Stimme: ' + (v ? v.name : 'Systemstimme') + ')' + (istHandy() ? '. Kein Ton? Lautstärke prüfen (iPhone: Stummschalter aus) oder unten „Kein Ton?“ öffnen und eine andere Stimme wählen.' : ' …')); };
+    reihe[0].onstart = () => { if (t !== spTok) return; gestartet = true; clearTimeout(spTimer); speechMsg('Wird vorgelesen (Stimme: ' + (v ? v.name : 'Systemstimme') + ')' + (istHandy() ? '. Kein Ton? Lautstärke prüfen (iPhone: Stummschalter aus) oder unten „Stimme wählen“ öffnen und eine andere Stimme probieren.' : ' …')); };
     reihe[reihe.length - 1].onend = () => { if (t !== spTok) return; clearTimeout(spTimer); spQueue = []; speechMsg(''); };
     spQueue = reihe; /* Verweis halten: sonst räumt der Browser die Objekte manchmal vor dem Ende weg */
     reihe.forEach(u => ss.speak(u));
