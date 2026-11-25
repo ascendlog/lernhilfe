@@ -1,0 +1,1065 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-3a-rechtschreibung-1",
+ "titel": "Deutsch Teil 3a: Rechtschreibung 1",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Silben schwingen (offen und geschlossen), Doppelkonsonanten, ck und tz, s/ss/ß, i/ie/ih, silbenöffnendes h und Doppelvokale. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Deutschbuch oder Aufgabenheft. Die Regeln stehen so auch im Deutschbuch (S. 313–317) und im Aufgabenheft (S. 64–81). In der App zählen ß und ss beim Tippen als gleich. Deshalb entscheidest du bei s, ss und ß nur über die Auswahl. Bei den Lücken zählt jeder Buchstabe: Tippe das Wort genau so, wie es geschrieben werden muss.",
+ "lernblatt": [
+  {
+   "titel": "Silben schwingen: offen oder geschlossen",
+   "text": "Wörter bestehen aus **Silben**. Du erkennst sie, wenn du das Wort **langsam sprichst** und dabei **mitschwingst** (mit der Hand für jede Silbe einen Bogen zeichnen): Ba-na-ne (3 Silben), Son-ne (2 Silben), Rad (1 Silbe).\nDie erste Silbe kann **offen** oder **geschlossen** sein:\n\n- **Offene Silbe:** Sie endet auf einen **Vokal** (a, e, i, o, u), einen **Umlaut** (ä, ö, ü) oder einen **Zwielaut** (ei, au, eu, äu): Ho-se, Hö-fe, Hei-zung.\n- **Geschlossene Silbe:** Sie endet auf einen **Konsonanten**: Kan-ne, Hil-fe, Gar-ten.\n\nIn einer offenen Silbe klingt der Vokal meistens **lang**, in einer geschlossenen Silbe **kurz**. Daran hängen fast alle Rechtschreibregeln auf diesem Lernblatt.",
+   "merke": "Offene Silbe: endet auf Vokal, Umlaut oder Zwielaut (Ho-se). Geschlossene Silbe: endet auf einen Konsonanten (Kan-ne)."
+  },
+  {
+   "titel": "Doppelkonsonanten, ck und tz",
+   "text": "Nach einem **kurzen Vokal** steht oft ein **Doppelkonsonant**. Das gilt, wenn die erste Silbe **geschlossen** ist und du an der Silbengrenze **nur einen** Konsonanten hörst: kom-men, Kan-ne, Mit-te, Bäl-le.\nHörst du an der Silbengrenze **zwei verschiedene** Konsonanten, wird **nicht verdoppelt**: Hil-fe, Kar-te, bun-te, Gar-ten.\n**Einsilber verlängern:** Dann hörst du es genau: Ball – Bälle, Bett – Betten, Tipp – tippen. Bei Heft – Hefte hörst du f und t, also kein Doppelkonsonant.\nStatt **kk** schreibt man **ck** (Ba-cken, Bä-cker, Zu-cker). Statt **zz** schreibt man **tz** (Kat-ze, Plät-ze, Sitz). Nach l, n und r steht nur ein z oder k: Salz, Tanz, Herz, Dank.",
+   "merke": "Geschlossene erste Silbe und nur ein Konsonant zu hören: Doppelkonsonant. Zwei verschiedene Konsonanten: nicht verdoppeln. Statt kk schreibt man ck, statt zz schreibt man tz."
+  },
+  {
+   "titel": "s, ss oder ß?",
+   "text": "Der s-Laut kann **summen** (wie eine Biene: Hase) oder **zischen** (wie eine Schlange: Straße). Dazu kommt, ob die erste Silbe **offen** oder **geschlossen** ist:\n\n- **s:** erste Silbe **offen**, der Laut **summt**: Ha-se, lei-se, Ro-se, Ra-sen.\n- **ß:** erste Silbe **offen**, der Laut **zischt**: Stra-ße, grü-ßen, bei-ßen, hei-ßen.\n- **ss:** erste Silbe **geschlossen** (kurzer Vokal), der Laut **zischt**: Tas-se, müs-sen, Wis-sen, Kes-sel.\n\n**Einsilber verlängern:** Gras – Grä-ser (s), Fuß – Fü-ße (ß), muss – müs-sen (ss), Fluss – Flüs-se (ss).",
+   "merke": "s: offene Silbe, summt. ß: offene Silbe, zischt. ss: geschlossene Silbe, kurzer Vokal, zischt. Einsilber verlängern!"
+  },
+  {
+   "titel": "Wechsel des s-Lauts und Merkwörter mit s",
+   "text": "Bei Verben kann der s-Laut **wechseln**, weil sich der Vokal ändert: fließen – er fließt – er floss – der Fluss. Beim kurzen Vokal (floss, Fluss) steht ss, beim langen Vokal oder Zwielaut (fließen, heißen, beißen) steht ß.\nWeitere Beispiele: ich esse – ich **aß** (langer Vokal: ß), ich weiß – ich **wusste** (kurzer Vokal: ss), ich lasse – ich **ließ** (langer Vokal: ß).\n**Merkwörter mit s:** Diese Wörter kann man nicht verlängern. Man schreibt sie trotzdem mit einfachem s: als, aus, bis, es, etwas, niemals, alles, anders, morgens.",
+   "merke": "Der s-Laut kann wechseln: fließen – floss – Fluss. Merkwörter mit s: als, aus, bis, es, etwas, niemals, alles, anders, morgens."
+  },
+  {
+   "titel": "i, ie oder ih?",
+   "text": "Man schreibt **oft ie**, wenn die erste Silbe **offen** ist und der Vokal **lang** klingt: Zie-le, Brie-fe, Wie-se, Bie-ne, spie-len.\nIst die erste Silbe **geschlossen** (kurzer Vokal), schreibt man **i**: Kin-der, Tin-te, Pil-ze, bil-den.\n**Einsilber verlängern:** Kind – Kin-der (i), Brief – Brie-fe (ie), Spiel – spie-len (ie).\n**Merkwörter mit i und ih:** mir, dir, wir, ihr, ihm, ihn, ihnen, ihre. Dazu kommen einige Fremdwörter, bei denen das i lang klingt und trotzdem nur ein i steht: Kino, Kilo, Tiger, Medizin. Verben auf **-ieren** schreibt man immer mit ie: probieren, trainieren, musizieren.",
+   "merke": "Oft ie: erste Silbe offen, Vokal lang (Zie-le). i: erste Silbe geschlossen (Kin-der). Merkwörter: mir, dir, wir, ihr, ihm, ihn, ihnen, ihre."
+  },
+  {
+   "titel": "Das h und Wörter mit Doppelvokal",
+   "text": "**Silbenöffnendes h:** Bei Einsilbern hört man das h nicht. Verlängere das Wort, dann steht das h **am Anfang der zweiten Silbe** und du kannst es **hören**: Kuh – Kü-he, geht – ge-hen, zieht – zie-hen, Zeh – Ze-hen, Mühe (Mü-he), ruhen (ru-hen).\n**h am Ende der ersten Silbe (Dehnungs-h):** Es steht oft vor **l, m, n, r**, man hört es nicht. Diese Wörter sind **Merkwörter**: Zahl, lahm, zahm, Mahnung, wohnen, Wohnung, fahren, Lehrer, Jahr, Nahrung.\n**Doppelvokale** (Merkwörter, nur wenige Wörter): **aa** (Aal, Haar, Paar, Saal, Staat), **ee** (Beere, Beet, Klee, Meer, Schnee, See, Allee, Idee, Kaffee, Tee), **oo** (Boot, Moor, Moos, Zoo).",
+   "merke": "Silbenöffnendes h: beim Verlängern am Anfang der zweiten Silbe hörbar (zie-hen). h vor l, m, n, r: Merkwörter. Doppelvokale aa, ee, oo: Merkwörter."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Wie viele Silben hat das Wort „Elefant“? Schwinge mit.",
+   "info": "E-le-fant: Wenn du langsam sprichst und mitschwingst, zählst du drei Bögen, also drei Silben.",
+   "richtig": "3",
+   "nachsicht": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Wie viele Silben hat das Wort?",
+   "info": "Rad (1), Son-ne (2), Kar-tof-fel (3), Scho-ko-la-de (4), Was-ser-me-lo-ne (5). Sprich langsam und schwinge für jede Silbe einen Bogen.",
+   "paare": [
+    [
+     "Rad",
+     "1"
+    ],
+    [
+     "Sonne",
+     "2"
+    ],
+    [
+     "Kartoffel",
+     "3"
+    ],
+    [
+     "Schokolade",
+     "4"
+    ],
+    [
+     "Wassermelone",
+     "5"
+    ]
+   ]
+  },
+  {
+   "typ": "reihenfolge",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Bringe die Silben in die richtige Reihenfolge: Geburtstagsgeschenk.",
+   "info": "Ge-burts-tags-ge-schenk: Das Wort hat fünf Silben. Schwinge beim Sprechen mit, dann hörst du die Reihenfolge.",
+   "schritte": [
+    "Ge",
+    "burts",
+    "tags",
+    "ge",
+    "schenk"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Wie trennt man „Kartoffel“ richtig in Silben?",
+   "info": "Beim Schwingen hörst du: Kar – tof – fel. Der Doppelkonsonant ff wird bei der Silbentrennung geteilt: tof-fel.",
+   "antworten": [
+    "Kar-tof-fel",
+    "Kart-of-fel",
+    "Kar-to-ffel",
+    "Ka-rtof-fel"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Ist die erste Silbe offen oder geschlossen?",
+   "info": "Offen: Ho (Vokal o), Ke (Vokal e), Hei (Zwielaut ei). Geschlossen: Kan (endet auf n), Kis (endet auf s), Hil (endet auf l).",
+   "paare": [
+    [
+     "Ho-se",
+     "offen"
+    ],
+    [
+     "Kan-ne",
+     "geschlossen"
+    ],
+    [
+     "Ke-gel",
+     "offen"
+    ],
+    [
+     "Kis-te",
+     "geschlossen"
+    ],
+    [
+     "Hei-zung",
+     "offen"
+    ],
+    [
+     "Hil-fe",
+     "geschlossen"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Eine offene Silbe endet auf …",
+   "info": "Offen heißt: Die Silbe endet auf einen Selbstlaut (Ho-se), einen Umlaut (Hö-fe) oder einen Zwielaut (Hei-zung). Endet sie auf einen Konsonanten, ist sie geschlossen (Kan-ne).",
+   "antworten": [
+    "einen Vokal, einen Umlaut oder einen Zwielaut",
+    "einen Konsonanten",
+    "zwei gleiche Konsonanten",
+    "ein stummes e"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Wie klingt der Vokal meistens in einer geschlossenen ersten Silbe wie bei „Kan-ne“?",
+   "info": "In einer geschlossenen Silbe klingt der Vokal kurz (Kan-ne). In einer offenen Silbe klingt er meistens lang (Ho-se).",
+   "antworten": [
+    "kurz",
+    "lang",
+    "gar nicht"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Welche Wörter haben eine offene erste Silbe? (mehrere Antworten sind richtig)",
+   "info": "Offen: Ho, Ba und Hei enden auf Vokal beziehungsweise Zwielaut. Bei Kis-te und Hil-fe endet die erste Silbe auf einen Konsonanten (s, l), sie ist geschlossen.",
+   "antworten": [
+    "Ho-se",
+    "Ba-den",
+    "Hei-zung",
+    "Kis-te",
+    "Hil-fe"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Die erste Silbe von „Hö-fe“ ist offen, weil sie auf einen Umlaut endet.",
+   "info": "Das ö ist ein Umlaut, also ein Vokal. Die Silbe „Hö“ endet auf einen Vokal und ist deshalb offen.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Die erste Silbe von „Wand-ta-fel“ ist offen.",
+   "info": "„Wand“ endet auf die Konsonanten n und d. Die Silbe ist geschlossen.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Bei „Hei-zung“ ist die erste Silbe offen, weil „ei“ ein Zwielaut ist.",
+   "info": "„Hei“ endet auf einen Zwielaut (ei) und damit auf einen Vokalklang. Die Silbe ist offen.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Silben schwingen: offen und geschlossen",
+   "frage": "Setze die passenden Wörter ein.",
+   "text": "Eine Silbe ist {{offen}}, wenn sie auf einen Vokal, Umlaut oder Zwielaut endet. Sie ist {{geschlossen}}, wenn sie auf einen Konsonanten endet. Bei „Ho-se“ ist die erste Silbe {{offen}}.",
+   "info": "Offene Silbe: Vokal, Umlaut oder Zwielaut am Ende. Geschlossene Silbe: Konsonant am Ende. „Ho“ endet auf o, also ist die Silbe offen.",
+   "wortbank": [
+    "offen",
+    "geschlossen"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Hat das Wort einen Doppelkonsonanten?",
+   "info": "Kan-ne, Son-ne und Mit-te: Man hört nur einen Konsonanten, also doppelt man. Kar-te, Hil-fe und Wol-ke: zwei verschiedene Konsonanten (r und t, l und f, l und k), also nicht doppelt.",
+   "paare": [
+    [
+     "Kanne",
+     "mit Doppelkonsonant"
+    ],
+    [
+     "Karte",
+     "ohne Doppelkonsonant"
+    ],
+    [
+     "Sonne",
+     "mit Doppelkonsonant"
+    ],
+    [
+     "Hilfe",
+     "ohne Doppelkonsonant"
+    ],
+    [
+     "Mitte",
+     "mit Doppelkonsonant"
+    ],
+    [
+     "Wolke",
+     "ohne Doppelkonsonant"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Warum schreibt man „Kanne“ mit nn?",
+   "info": "Kan-ne: Die erste Silbe endet auf n, der Vokal klingt kurz. Man hört an der Silbengrenze nur ein n, deshalb verdoppelt man es.",
+   "antworten": [
+    "Die erste Silbe (Kan-) ist geschlossen und man hört nur einen Konsonanten.",
+    "Weil die erste Silbe offen ist.",
+    "Weil „Kanne“ ein Nomen ist.",
+    "Weil der Vokal lang klingt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Warum schreibt man „Hilfe“ nur mit einem f?",
+   "info": "Bei zwei verschiedenen Konsonanten (l und f) verdoppelt man nicht. Das f wird nur verdoppelt, wenn man an der Silbengrenze ein einzelnes f hört (Löf-fel).",
+   "antworten": [
+    "An der Silbengrenze (Hil-fe) stehen zwei verschiedene Konsonanten, l und f.",
+    "Weil die erste Silbe offen ist.",
+    "Weil „Hilfe“ ein Nomen ist.",
+    "Weil man f nie verdoppelt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Welches Wort ist richtig geschrieben? Am … schreibt die Klasse eine Deutscharbeit.",
+   "info": "Mitt-woch: Die erste Silbe (Mitt-) ist geschlossen, man hört nur ein t, also steht tt. Das Wort endet auf -woch.",
+   "antworten": [
+    "Mittwoch",
+    "Mitwoch",
+    "Mittwock"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Welche Wörter haben einen Doppelkonsonanten? (mehrere Antworten sind richtig)",
+   "info": "Kar-tof-fel (ff), Som-mer (mm) und Mut-ter (tt) haben einen Doppelkonsonanten. Gar-ten (r und t) und Ker-ze (r und z) haben zwei verschiedene Konsonanten an der Silbengrenze.",
+   "antworten": [
+    "Kartoffel",
+    "Sommer",
+    "Mutter",
+    "Garten",
+    "Kerze"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "„Fallobst“ schreibt man mit ll, weil man verlängert: fallen.",
+   "info": "Bei zusammengesetzten Wörtern klärt man den Teil mit dem unklaren Laut: Fall – fal-len. Man hört ein l an der Silbengrenze, die Silbe ist geschlossen, also schreibt man ll.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Bei „Wolke“ steht kein Doppelkonsonant, weil an der Silbengrenze zwei verschiedene Konsonanten stehen (Wol-ke).",
+   "info": "Zwischen l und k wird nicht verdoppelt. Man verdoppelt nur, wenn man an der Silbengrenze einen einzelnen Konsonanten hört.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Was schreibt man statt „kk“ und statt „zz“?",
+   "info": "Ba-cken statt „Bakken“ und Kat-ze statt „Kazze“: Statt kk schreibt man ck, statt zz schreibt man tz.",
+   "antworten": [
+    "ck und tz",
+    "kk und zz",
+    "ch und sch",
+    "ks und zs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Welche Wörter schreibt man mit tz? (mehrere Antworten sind richtig)",
+   "info": "Nach kurzem Vokal steht tz: Kat-ze, Blitz, Pfüt-ze. Nach n und r steht nur z: Tanz (tanzen), Herz.",
+   "antworten": [
+    "Katze",
+    "Blitz",
+    "Pfütze",
+    "Tanz",
+    "Herz"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Verlängere das Wort. Ordne die verlängerte Form zu.",
+   "info": "Beim Verlängern hörst du den Konsonanten: Bäl-le, Schif-fe, Bet-ten, tip-pen. Bei Hef-te hörst du f und t, deshalb steht dort kein Doppelkonsonant.",
+   "paare": [
+    [
+     "Ball",
+     "Bälle"
+    ],
+    [
+     "Schiff",
+     "Schiffe"
+    ],
+    [
+     "Bett",
+     "Betten"
+    ],
+    [
+     "Tipp",
+     "tippen"
+    ],
+    [
+     "Heft",
+     "Hefte"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Schreibe die Mehrzahl von „Ball“.",
+   "info": "Ball – Bäl-le: Die erste Silbe ist geschlossen, nach dem kurzen ä steht ll. Aus a wird ä, weil es das Wort Ball dazu gibt.",
+   "richtig": "Bälle",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Schreibe das Verb in der Grundform: er rennt – …",
+   "info": "Ren-nen: Die erste Silbe ist geschlossen, man hört ein n, deshalb steht nn. Auch bei „er rennt“ schreibt man nn.",
+   "richtig": "rennen",
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Im {{Sommer}} steht die {{Sonne}} hoch am {{Himmel}}.",
+   "info": "Som-mer, Son-ne und Him-mel: Die erste Silbe ist jeweils geschlossen, nach dem kurzen Vokal hört man nur einen Konsonanten, deshalb steht mm beziehungsweise nn.",
+   "wortbank": [
+    "Sommer",
+    "Sonne",
+    "Himmel",
+    "Somer",
+    "Sone",
+    "Himel"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Mia stellt einen {{Teller}} auf den Tisch und legt einen {{Löffel}} daneben. Dazu gibt es {{Pfannkuchen}} mit {{Butter}}.",
+   "info": "Tel-ler (ll), Löf-fel (ff), Pfann-ku-chen (nn), But-ter (tt): Nach kurzem Vokal steht ein Doppelkonsonant.",
+   "wortbank": [
+    "Teller",
+    "Löffel",
+    "Pfannkuchen",
+    "Butter",
+    "Teler",
+    "Löfel",
+    "Pfankuchen",
+    "Buter"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Die {{Katze}} springt auf die {{Decke}} und putzt ihren {{Rücken}}.",
+   "info": "Kat-ze (tz statt zz), De-cke (ck statt kk), Rü-cken (ck statt kk).",
+   "wortbank": [
+    "Katze",
+    "Decke",
+    "Rücken",
+    "Kaze",
+    "Deke",
+    "Rüken"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Ole {{schwitzt}}, denn er rennt über den {{Platz}} und erzählt einen {{Witz}}.",
+   "info": "schwit-zen (tz), Platz (Plät-ze), Witz (Wit-ze): Nach kurzem Vokal schreibt man tz statt zz.",
+   "wortbank": [
+    "schwitzt",
+    "Platz",
+    "Witz",
+    "schwizt",
+    "Plaz",
+    "Wiz"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Doppelkonsonanten, ck und tz",
+   "frage": "Welches Wort ist richtig geschrieben? Die Kinder malen mit …",
+   "info": "bunt – bun-te: Man hört ein t. An der Silbengrenze stehen zwei verschiedene Konsonanten (n und t), deshalb wird nicht verdoppelt: Bunt-stif-te.",
+   "antworten": [
+    "Buntstiften",
+    "Bundstiften",
+    "Bunstiften"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Summt oder zischt der s-Laut in dem Wort?",
+   "info": "Summt (wie eine Biene): Hase, Dose, leise. Zischt (wie eine Schlange): Straße, beißen, Tasse. Das ist der erste Schritt bei der Frage s, ss oder ß.",
+   "paare": [
+    [
+     "Hase",
+     "summt"
+    ],
+    [
+     "Straße",
+     "zischt"
+    ],
+    [
+     "Dose",
+     "summt"
+    ],
+    [
+     "beißen",
+     "zischt"
+    ],
+    [
+     "leise",
+     "summt"
+    ],
+    [
+     "Tasse",
+     "zischt"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Die erste Silbe ist offen und der s-Laut summt, wie bei „Hase“. Was schreibt man?",
+   "info": "Offene Silbe und summender Laut: einfaches s. Beispiele: Ha-se, lei-se, Ro-se, Ra-sen.",
+   "antworten": [
+    "s",
+    "ß",
+    "ss",
+    "z"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Die erste Silbe ist offen und der s-Laut zischt, wie bei „Straße“. Was schreibt man?",
+   "info": "Offene Silbe und zischender Laut: ß. Beispiele: Stra-ße, grü-ßen, bei-ßen, hei-ßen.",
+   "antworten": [
+    "ß",
+    "s",
+    "ss",
+    "sz"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Die erste Silbe ist geschlossen (kurzer Vokal) und der s-Laut zischt, wie bei „Tasse“. Was schreibt man?",
+   "info": "Geschlossene Silbe, kurzer Vokal, zischender Laut: ss. Beispiele: Tas-se, müs-sen, Kes-sel, wis-sen.",
+   "antworten": [
+    "ss",
+    "ß",
+    "s",
+    "sz"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Welches Wort ist richtig geschrieben? Wir wohnen in einer ruhigen …",
+   "info": "Stra-ße: Die erste Silbe (Stra-) ist offen, der Vokal ist lang und der s-Laut zischt. Dann schreibt man ß.",
+   "antworten": [
+    "Straße",
+    "Strase",
+    "Strasse"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Welche Wörter schreibt man mit einfachem s? (mehrere Antworten sind richtig)",
+   "info": "Ha-se, Na-se und Ra-sen: offene erste Silbe, summender Laut, also s. Bei Gruß (Grü-ße) zischt der Laut und die Silbe ist offen (ß), bei Tas-se ist die erste Silbe geschlossen (ss).",
+   "antworten": [
+    "Hase",
+    "Nase",
+    "Rasen",
+    "Gruß",
+    "Tasse"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Verlängere: er muss – wir müssen. Wie schreibt man das Wort richtig?",
+   "info": "müs-sen: Die erste Silbe ist geschlossen, der Vokal ist kurz, der Laut zischt. Also steht ss: er muss.",
+   "antworten": [
+    "muss",
+    "mus",
+    "muß"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Man schreibt „Gras“ mit einfachem s, weil man verlängern kann: Grä-ser.",
+   "info": "Beim Verlängern (Grä-ser) ist die erste Silbe offen und der Laut summt. Also schreibt man s: Gras.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Man schreibt „Fuß“ mit ß, weil beim Verlängern (Fü-ße) die erste Silbe offen ist und der s-Laut zischt.",
+   "info": "Fü-ße: offene Silbe, langer Vokal, zischender Laut. Dann schreibt man ß, auch am Wortende: Fuß.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Man schreibt „Tasse“ mit ss, weil die erste Silbe offen ist.",
+   "info": "Bei Tas-se ist die erste Silbe geschlossen (sie endet auf s) und der Vokal ist kurz. Nur deshalb steht ss.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Wechsel des s-Lauts: fließen – er floss – der Fluss. Warum schreibt man „floss“ mit ss?",
+   "info": "In „floss“ und „Fluss“ ist der Vokal kurz, deshalb steht ss. Bei „fließen“ ist der Vokal lang, deshalb steht ß. Der s-Laut wechselt mit dem Vokal.",
+   "antworten": [
+    "Der Vokal wird kurz gesprochen und der s-Laut zischt.",
+    "Der Vokal wird lang gesprochen und die Silbe ist offen.",
+    "Weil „floss“ ein Nomen ist.",
+    "Weil die Vergangenheit immer ss hat."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Wie schreibt man die Vergangenheit von „essen“? (ich esse – ich …) Der Vokal wird lang gesprochen.",
+   "info": "ich esse – ich aß: Der Vokal wird lang gesprochen, der Laut zischt, also steht ß.",
+   "antworten": [
+    "aß",
+    "ass",
+    "as"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Welches Wort ist richtig geschrieben? Ich … nicht, wo mein Heft ist.",
+   "info": "ich weiß: „ei“ ist ein Zwielaut, der s-Laut zischt, also steht ß. Die Vergangenheit „ich wusste“ hat einen kurzen Vokal und deshalb ss.",
+   "antworten": [
+    "weiß",
+    "weis",
+    "weiss"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Welche Wörter schreibt man mit s, obwohl man sie nicht verlängern kann? (Merkwörter)",
+   "info": "Merkwörter mit s: als, aus, bis, es, etwas, niemals, alles, anders, morgens. Gruß (Grü-ße) und Floß (Flö-ße) kann man verlängern, dort zischt der Laut.",
+   "antworten": [
+    "als",
+    "aus",
+    "bis",
+    "Gruß",
+    "Floß"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – s, ss oder ß?",
+   "frage": "Man schreibt „heiß“ mit ß, weil man verlängern kann: hei-ße Suppe, die erste Silbe ist offen und der Laut zischt.",
+   "info": "Hei-ße: Die erste Silbe endet auf den Zwielaut ei, ist also offen. Der Laut zischt, deshalb ß.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Verlängere das Wort. Ordne die verlängerte Form zu.",
+   "info": "Kin-der (i, geschlossen), Brie-fe (ie, offen), Schil-der (i, geschlossen), spie-len (ie, offen), Sie-be (ie, offen). Beim Verlängern erkennst du, ob die erste Silbe offen ist.",
+   "paare": [
+    [
+     "Kind",
+     "Kinder"
+    ],
+    [
+     "Brief",
+     "Briefe"
+    ],
+    [
+     "Schild",
+     "Schilder"
+    ],
+    [
+     "Spiel",
+     "spielen"
+    ],
+    [
+     "Sieb",
+     "Siebe"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Wann schreibt man oft ie?",
+   "info": "Oft ie: offene erste Silbe, langer Vokal, zum Beispiel Zie-le, Brie-fe, Wie-se. Bei geschlossener Silbe (Kin-der) steht i.",
+   "antworten": [
+    "Wenn die erste Silbe offen ist und der Vokal lang klingt (Zie-le).",
+    "Wenn die erste Silbe geschlossen ist und der Vokal kurz klingt.",
+    "Immer, wenn ein i im Wort vorkommt.",
+    "Nur bei Verben."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Warum schreibt man „Kinder“ nur mit i?",
+   "info": "Kin-der: Die erste Silbe endet auf n, der Vokal ist kurz. Dann schreibt man i.",
+   "antworten": [
+    "Die erste Silbe (Kin-) ist geschlossen und der Vokal klingt kurz.",
+    "Die erste Silbe ist offen und der Vokal klingt lang.",
+    "Weil „Kinder“ ein Nomen ist.",
+    "Weil das Wort aus drei Silben besteht."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Auf der {{Wiese}} summt eine {{Biene}}, und eine {{Fliege}} sitzt auf einem {{Pilz}}.",
+   "info": "Wie-se, Bie-ne und Flie-ge: offene erste Silbe, langer Vokal, also ie. Pilz hat einen kurzen Vokal (Pil-ze), deshalb nur i.",
+   "wortbank": [
+    "Wiese",
+    "Biene",
+    "Fliege",
+    "Pilz",
+    "Wise",
+    "Bine",
+    "Flige",
+    "Pielz"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Mia schreibt einen {{Brief}} mit blauer {{Tinte}} und hat dabei {{viel}} Spaß.",
+   "info": "Brief (Brie-fe, ie), Tin-te (geschlossene Silbe, i), viel (vie-le, ie).",
+   "wortbank": [
+    "Brief",
+    "Tinte",
+    "viel",
+    "Brif",
+    "Tiente",
+    "fil"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Wir geben das Buch meinem Bruder zurück. Wir geben es … zurück. Wie schreibt man das fehlende Wort?",
+   "info": "„ihm“ ist ein Merkwort mit ih. „im“ (in dem) ist etwas ganz anderes.",
+   "antworten": [
+    "ihm",
+    "im",
+    "iem"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Mama erzählt {{ihr}} eine Geschichte, schenkt {{ihm}} ein Buch und singt {{ihnen}} ein Lied.",
+   "info": "Die Wörter ihr, ihm, ihn, ihnen und ihre sind Merkwörter. Man schreibt sie mit ih.",
+   "wortbank": [
+    "ihr",
+    "ihm",
+    "ihnen",
+    "ir",
+    "inen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Die Wörter mir, dir und wir schreibt man nur mit i.",
+   "info": "mir, dir und wir sind Merkwörter und werden nur mit einfachem i geschrieben (anders als ihr, ihm, ihn).",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Bei welchen Wörtern klingt das i lang, obwohl nur ein i geschrieben wird? (mehrere Antworten sind richtig)",
+   "info": "Kino, Kilo und Tiger sind Fremdwörter mit langem i und einfachem i. Bei Kinder und Tinte ist das i kurz und die erste Silbe geschlossen.",
+   "antworten": [
+    "Kino",
+    "Kilo",
+    "Tiger",
+    "Kinder",
+    "Tinte"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Welches Wort ist richtig geschrieben? Darf ich das Eis …?",
+   "info": "Verben auf -ieren schreibt man mit ie: probieren, trainieren, musizieren, verlieren.",
+   "antworten": [
+    "probieren",
+    "probiren",
+    "probihren"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – i, ie oder ih?",
+   "frage": "Man schreibt „Schild“ mit ie, weil beim Verlängern (Schilder) die erste Silbe offen ist.",
+   "info": "Schil-der: Die erste Silbe endet auf l, sie ist geschlossen. Deshalb schreibt man i: Schild.",
+   "richtig": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Verlängere das Wort. Ordne die verlängerte Form zu. Dort hörst du das h.",
+   "info": "Beim Verlängern hörst du das h am Anfang der zweiten Silbe: Kü-he, Re-he, ge-hen, zie-hen, Schu-he. Das ist das silbenöffnende h.",
+   "paare": [
+    [
+     "Kuh",
+     "Kühe"
+    ],
+    [
+     "Reh",
+     "Rehe"
+    ],
+    [
+     "geht",
+     "gehen"
+    ],
+    [
+     "zieht",
+     "ziehen"
+    ],
+    [
+     "Schuh",
+     "Schuhe"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Wie erkennst du ein silbenöffnendes h?",
+   "info": "Bei Einsilbern hört man das h nicht. Nach dem Verlängern steht es am Anfang der zweiten Silbe und ist hörbar: Kü-he, zie-hen.",
+   "antworten": [
+    "Man verlängert das Wort und hört das h am Anfang der zweiten Silbe (Kuh – Kü-he).",
+    "Man hört das h immer deutlich im Einsilber.",
+    "Das h steht immer am Wortanfang.",
+    "Nach jedem langen Vokal steht ein h."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Welche Wörter haben ein silbenöffnendes h (hörbar beim Verlängern)? (mehrere Antworten sind richtig)",
+   "info": "zie-hen, ru-hen, Mü-he: Das h steht am Anfang der zweiten Silbe. Bei Zahl (Zah-len) und woh-nen steht das h am Ende der ersten Silbe, vor l und n. Diese Wörter sind Merkwörter.",
+   "antworten": [
+    "ziehen",
+    "ruhen",
+    "Mühe",
+    "Zahl",
+    "wohnen"
+   ],
+   "richtig": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Welcher Buchstabe steht direkt hinter dem h?",
+   "info": "Das h steht oft vor l, m, n oder r: Zahl, zahm, Woh-nung, Leh-rer, Feh-ler. Man hört es nicht, deshalb sind das Merkwörter.",
+   "paare": [
+    [
+     "Zahl",
+     "l"
+    ],
+    [
+     "zahm",
+     "m"
+    ],
+    [
+     "Wohnung",
+     "n"
+    ],
+    [
+     "Lehrer",
+     "r"
+    ],
+    [
+     "Fehler",
+     "l"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Der {{Lehrer}} {{zählt}} die Kinder, und die Klasse {{wählt}} ihre Sprecherin.",
+   "info": "Leh-rer, zäh-len (Zahl), wäh-len (Wahl): Das h steht vor l oder r und ist ein Merkwort-h.",
+   "wortbank": [
+    "Lehrer",
+    "zählt",
+    "wählt",
+    "Lerer",
+    "zält",
+    "wält"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Mein Onkel {{wohnt}} schon ein {{Jahr}} in der {{Nähe}}.",
+   "info": "wohnt (woh-nen), Jahr (Merkwort mit h) und Nähe (Nä-he, silbenöffnendes h) schreibt man mit h.",
+   "wortbank": [
+    "wohnt",
+    "Jahr",
+    "Nähe",
+    "wont",
+    "Jar",
+    "Nehe"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Bei „Zahl“ hört man das h beim Verlängern (Zah-len).",
+   "info": "Das h steht am Ende der ersten Silbe (Zahl, Zah-len) und ist nicht zu hören. Wörter mit h vor l, m, n und r sind Merkwörter.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Welches Wort ist richtig geschrieben? Das Schiff fährt über das …",
+   "info": "Meer ist ein Wort mit Doppelvokal ee. „mehr“ (mehr Wasser) ist ein anderes Wort.",
+   "antworten": [
+    "Meer",
+    "Mehr",
+    "Mer"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Schreibe die Wörter richtig auf.",
+   "text": "Am {{See}} liegt ein {{Boot}}, und im {{Beet}} wächst {{Klee}}.",
+   "info": "See, Boot, Beet und Klee haben einen Doppelvokal. Das sind Merkwörter, die man auswendig lernen muss.",
+   "wortbank": [
+    "See",
+    "Boot",
+    "Beet",
+    "Klee",
+    "Sehe",
+    "Bot",
+    "Bet",
+    "Kle"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Welches Wort ist richtig geschrieben? Im Park gibt es eine lange …",
+   "info": "Fremdwörter mit ee am Ende: Allee, Idee, Kaffee, Püree, Tee.",
+   "antworten": [
+    "Allee",
+    "Alee",
+    "Aleh"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Welcher Doppelvokal steckt im Wort?",
+   "info": "aa: Haar, Saal. ee: Schnee, Fee. oo: Moos, Zoo. Diese Wörter muss man sich merken.",
+   "paare": [
+    [
+     "Haar",
+     "aa"
+    ],
+    [
+     "Schnee",
+     "ee"
+    ],
+    [
+     "Moos",
+     "oo"
+    ],
+    [
+     "Saal",
+     "aa"
+    ],
+    [
+     "Zoo",
+     "oo"
+    ],
+    [
+     "Fee",
+     "ee"
+    ]
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Wie heißt das warme Getränk aus Blättern oder Kräutern?",
+   "info": "Tee schreibt man mit Doppelvokal ee, genau wie Kaffee, Idee und Allee.",
+   "richtig": "Tee",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Das h und Wörter mit Doppelvokal",
+   "frage": "Wie heißt das kleine Schiff, mit dem man auf einem See rudern kann?",
+   "info": "Boot schreibt man mit Doppelvokal oo, genau wie Moor, Moos und Zoo.",
+   "richtig": "Boot",
+   "gross": true
+  }
+ ],
+ "nachlesen": {
+  "A – Silben schwingen: offen und geschlossen": "Silben schwingen: offen oder geschlossen",
+  "B – Doppelkonsonanten, ck und tz": "Doppelkonsonanten, ck und tz",
+  "C – s, ss oder ß?": [
+   "s, ss oder ß?",
+   "Wechsel des s-Lauts und Merkwörter mit s"
+  ],
+  "D – i, ie oder ih?": "i, ie oder ih?",
+  "E – Das h und Wörter mit Doppelvokal": "Das h und Wörter mit Doppelvokal"
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 7,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Silbenschwinger",
+  "motiv": "🎵",
+  "text": "Offene und geschlossene Silben, Doppelkonsonanten, s-Laute, ie und h."
+ }
+}

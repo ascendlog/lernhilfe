@@ -1,0 +1,542 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-3c-diktat-ueben",
+ "titel": "Deutsch Teil 3c: Diktat üben",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Diktat üben mit Schwerpunkt Nominalisierung: Sätze anhören und schreiben, drei Diktattexte Satz für Satz, Fehler finden, zwei Diktate auf Papier und die Fehlerarten zuordnen. Mit Lernblatt.",
+ "hinweis": "Das Diktat in der Arbeit ist unbekannt. Diese Texte sind selbst geschrieben und nicht der Text des Lehrers. Auf „Anhören“ liest dein Gerät den Satz vor (geht in Edge und Chrome am besten). Klappt das nicht, liest ein Elternteil den Text vor („Text zum Vorlesen“). Beim Abtippen zählt jeder Buchstabe, Groß- und Kleinschreibung und jedes Komma mitten im Satz.",
+ "lernblatt": [
+  {
+   "titel": "So gehst du beim Diktat vor",
+   "text": "Im Diktat schreibst du einen Text, den dir jemand vorliest. So gehst du vor:\n1. **Zuhören:** Der Text wird zuerst ganz vorgelesen. Höre genau hin.\n2. **Schreiben:** Schreibe Satz für Satz. Sprich leise mit und **schwinge** die Silben. Bei unsicheren Wörtern: **einkreisen** und weiterschreiben.\n3. **Prüfen:** Lies am Ende alles noch einmal Wort für Wort. Prüfe die eingekreisten Wörter mit einer Strategie: Verlängern, Zerlegen, Ableiten, Merkwörter.\n**Schwerpunkt Nominalisierung:** Achte auf Wörter, vor denen ein **Begleiter** oder Signalwort steht: beim Wandern, zum Essen, im Dunkeln, das Schönste, etwas Neues, nichts Besonderes, viel Interessantes, alles Gute. Diese Wörter schreibst du **groß**. Bei **am** plus Superlativ (am schnellsten) schreibst du **klein**.\n**Kommas:** Ein Komma steht vor aber, doch, sondern und denn, vor Nebensätzen (weil, dass, wenn, obwohl, damit) und vor und nach einem Relativsatz (der, die, das). Vor „und“ und „oder“ zwischen Hauptsätzen darf das Komma wegfallen.",
+   "merke": "Diktat: Zuhören, Satz für Satz schreiben, unsichere Wörter einkreisen, am Ende prüfen. Nominalisierungen groß, am + Superlativ klein, Kommas nicht vergessen."
+  },
+  {
+   "titel": "Fehlerarten im Diktat: Wo liegt der Fehler?",
+   "text": "Im Fehlerbogen ordnest du jeden Fehler einer **Fehlerart** zu. Daran erkennst du auch die passende Strategie:\n\n- **Doppelkonsonanten, ck und tz** (Kanne, Decke, Katze): schwingen und verlängern.\n- **s, ss oder ß** (Hase, Tasse, Straße): Silbe offen oder geschlossen? Summt oder zischt der Laut?\n- **i oder ie** (Kinder, Wiese): Ist die erste Silbe offen oder geschlossen?\n- **Silbenöffnendes h** (ziehen, Mühe): verlängern, das h steht am Anfang der zweiten Silbe.\n- **b/p, d/t, g/k** (Korb, Hund, Berg): verlängern.\n- **Zusammengesetzte Wörter** (Handtuch, Landkarte): zerlegen und verlängern.\n- **e/ä und eu/äu** (Bäume, Keller): ableiten.\n- **Groß- und Kleinschreibung** (beim Wandern, das Schönste): Begleiter suchen, Probe machen.",
+   "merke": "Acht Fehlerarten: Doppelkonsonant/ck/tz, s-Laute, i/ie, h, b/p d/t g/k, zusammengesetzte Wörter, e/ä eu/äu, Groß- und Kleinschreibung."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "tipp": "Suche den Begleiter vor dem Verb.",
+   "info": "„Beim“ (bei dem) steht vor „Lesen“. Das Verb ist nominalisiert und wird großgeschrieben. „Zeit“ ist ein Nomen.",
+   "richtig": "Beim Lesen vergesse ich die Zeit.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Beim Lesen vergesse ich die Zeit.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„viel“ steht vor „Schönes“. Das Adjektiv ist nominalisiert und wird großgeschrieben. „sehen“ ist ein Verb und bleibt klein.",
+   "richtig": "Im Garten gibt es viel Schönes zu sehen.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Im Garten gibt es viel Schönes zu sehen.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "Nach „nichts“ wird das Adjektiv nominalisiert: nichts Besseres. „tun“ bleibt klein.",
+   "richtig": "Er hat nichts Besseres zu tun.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Er hat nichts Besseres zu tun.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "tipp": "Mache die Frage „Wie?“",
+   "info": "Frage: Wie läuft Mia? Am schnellsten. Superlative mit „am“ schreibt man klein. „allen“ ist ein Indefinitpronomen und bleibt klein.",
+   "richtig": "Am schnellsten läuft Mia von allen.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Am schnellsten läuft Mia von allen.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„Das Wichtigste“: Der Artikel „das“ steht davor, der Superlativ ist nominalisiert und wird großgeschrieben. „Gesundheit“ ist ein Nomen.",
+   "richtig": "Das Wichtigste ist die Gesundheit.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Das Wichtigste ist die Gesundheit.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„alles Gute“ ist nominalisiert (Signalwort „alles“). „zum“ ist zu dem, deshalb schreibt man „Geburtstag“ groß.",
+   "richtig": "Wir wünschen dir alles Gute zum Geburtstag.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Wir wünschen dir alles Gute zum Geburtstag.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„Beim“ steht vor „Kochen“: nominalisiertes Verb, groß. „Bruder“ hat den Begleiter „mein“.",
+   "richtig": "Beim Kochen hilft mir mein Bruder.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Beim Kochen hilft mir mein Bruder.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„etwas Neues“ ist nominalisiert. Kin-der hat eine geschlossene erste Silbe, deshalb schreibt man i.",
+   "richtig": "Der Lehrer erklärt den Kindern etwas Neues.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Der Lehrer erklärt den Kindern etwas Neues.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„auf das“ steht vor „Wiedersehen“: nominalisiertes Verb, groß. „sehr“ bleibt klein.",
+   "richtig": "Auf das Wiedersehen freuen wir uns sehr.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Auf das Wiedersehen freuen wir uns sehr.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„Das Schwimmen“ ist nominalisiert. „Meer“ hat einen Doppelvokal (ee), „Freude“ ist ein Nomen.",
+   "richtig": "Das Schwimmen im Meer macht Mia Freude.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Das Schwimmen im Meer macht Mia Freude.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„Im Dunkeln“ (in dem Dunkeln) ist ein nominalisiertes Adjektiv und wird großgeschrieben. „Angst“ hat den Begleiter „keine“.",
+   "richtig": "Im Dunkeln hat Ole keine Angst.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Im Dunkeln hat Ole keine Angst.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Einzelne Sätze diktieren",
+   "frage": "Hör genau hin (Tippe auf „Anhören“) und schreibe den Satz auf.",
+   "info": "„Zum“ (zu dem) steht vor „Frühstück“. Brötchen kommt von Brot (ö). „Marmelade“ ist ein Nomen.",
+   "richtig": "Zum Frühstück gibt es Brötchen mit Marmelade.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Zum Frühstück gibt es Brötchen mit Marmelade.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 1 „Der Schulausflug“, Satz 1: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Beim“ steht vor „Wandern“ (nominalisiert). „viel Neues“ ist ein nominalisiertes Adjektiv. „Wald“ hat den Begleiter „im“ (in dem).",
+   "richtig": "Beim Wandern im Wald haben wir viel Neues gesehen.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Beim Wandern im Wald haben wir viel Neues gesehen.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 1 „Der Schulausflug“, Satz 2: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Das Schönste“ ist ein nominalisierter Superlativ. „Picknick“ und „See“ sind Nomen (See hat Doppelvokal ee).",
+   "richtig": "Das Schönste war das Picknick am See.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Das Schönste war das Picknick am See.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 1 „Der Schulausflug“, Satz 3: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Zum Essen“ ist nominalisiert. Käse ist ein Merkwort mit ä. Vor „denn“ steht ein Komma (Satzreihe). Brote kommt von Brot, großen und Hunger schreibt man wie gehört.",
+   "richtig": "Zum Essen gab es Brote mit Käse, denn die Kinder hatten großen Hunger.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Zum Essen gab es Brote mit Käse, denn die Kinder hatten großen Hunger.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 1 „Der Schulausflug“, Satz 4: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Nach dem Spielen“ ist nominalisiert. „die am Rand des Weges wuchsen“ ist ein Relativsatz, davor steht ein Komma. Pil-ze hat eine geschlossene erste Silbe (i).",
+   "richtig": "Nach dem Spielen suchten wir Pilze, die am Rand des Weges wuchsen.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Nach dem Spielen suchten wir Pilze, die am Rand des Weges wuchsen.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 1 „Der Schulausflug“, Satz 5: Hör genau hin und schreibe den Satz auf.",
+   "info": "„alle“ bleibt klein. Vor „aber“ steht ein Komma. „Das Beste“ ist ein nominalisierter Superlativ.",
+   "richtig": "Auf dem Heimweg waren alle müde, aber das Beste war der gemeinsame Ausflug.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Auf dem Heimweg waren alle müde, aber das Beste war der gemeinsame Ausflug.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 2 „Im Hallenbad“, Satz 1: Hör genau hin und schreibe den Satz auf.",
+   "info": "Mitt-woch hat tt. „zum Schwimmen“ ist nominalisiert. „ins“ ist in das, danach steht das Nomen „Hallenbad“.",
+   "richtig": "Am Mittwoch gehen wir zum Schwimmen ins Hallenbad.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Am Mittwoch gehen wir zum Schwimmen ins Hallenbad.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 2 „Im Hallenbad“, Satz 2: Hör genau hin und schreibe den Satz auf.",
+   "info": "„auf das Springen“ ist nominalisiert. Vor „weil“ steht ein Komma (Satzgefüge). „warm“ ist ein Adjektiv und bleibt klein.",
+   "richtig": "Die Kinder freuen sich auf das Springen, weil das Wasser angenehm warm ist.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Die Kinder freuen sich auf das Springen, weil das Wasser angenehm warm ist.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 2 „Im Hallenbad“, Satz 3: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Beim Tauchen“ ist nominalisiert. „nichts Gefährliches“ ist ein nominalisiertes Adjektiv. „dürfen“ und „tun“ sind Verben.",
+   "richtig": "Beim Tauchen dürfen sie nichts Gefährliches tun.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Beim Tauchen dürfen sie nichts Gefährliches tun.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 2 „Im Hallenbad“, Satz 4: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Nach dem Schwimmen“ ist nominalisiert. „etwas Warmes“ ist ein nominalisiertes Adjektiv. „trinken“ bleibt klein.",
+   "richtig": "Nach dem Schwimmen gibt es etwas Warmes zu trinken.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Nach dem Schwimmen gibt es etwas Warmes zu trinken.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 2 „Im Hallenbad“, Satz 5: Hör genau hin und schreibe den Satz auf.",
+   "info": "Vor „doch“ steht ein Komma (Gegensatz). „Das Schönste“ ist ein nominalisierter Superlativ, „das gemeinsame Lachen“ ein nominalisiertes Verb mit Adjektiv.",
+   "richtig": "Am Ende sind alle müde, doch das Schönste war das gemeinsame Lachen.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Am Ende sind alle müde, doch das Schönste war das gemeinsame Lachen.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 3 „Im Herbst“, Satz 1: Hör genau hin und schreibe den Satz auf.",
+   "info": "Blätter (Blatt) und Bäumen (Baum) schreibt man mit ä. Vor „weil“ steht ein Komma. kräftig kommt von Kraft.",
+   "richtig": "Im Herbst fallen die Blätter von den Bäumen, weil der Wind kräftig weht.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Im Herbst fallen die Blätter von den Bäumen, weil der Wind kräftig weht.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 3 „Im Herbst“, Satz 2: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Beim Sammeln“ ist nominalisiert. „viel Interessantes“ ist ein nominalisiertes Adjektiv. Kastanien hat keine Verdopplung (s und t).",
+   "richtig": "Beim Sammeln der Kastanien finden die Kinder viel Interessantes.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Beim Sammeln der Kastanien finden die Kinder viel Interessantes.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 3 „Im Herbst“, Satz 3: Hör genau hin und schreibe den Satz auf.",
+   "info": "„das auf dem Boden liegt“ ist ein Relativsatz, er steht zwischen zwei Kommas. „beim Gehen“ ist nominalisiert.",
+   "richtig": "Das Laub, das auf dem Boden liegt, raschelt beim Gehen.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Das Laub, das auf dem Boden liegt, raschelt beim Gehen.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 3 „Im Herbst“, Satz 4: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Am liebsten“ ist ein Superlativ mit „am“ und bleibt klein. Vor „denn“ steht ein Komma. „Das Lustigste“ und „das Verstecken“ sind nominalisiert.",
+   "richtig": "Am liebsten spielen sie im Laub, denn das Lustigste ist das Verstecken.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Am liebsten spielen sie im Laub, denn das Lustigste ist das Verstecken.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Diktattexte Satz für Satz",
+   "frage": "Diktat 3 „Im Herbst“, Satz 5: Hör genau hin und schreibe den Satz auf.",
+   "info": "„Mit etwas Glück“: „Glück“ ist ein Nomen. „am Nachmittag“ (an dem Nachmittag) ist ein Nomen mit Begleiter. Son-ne hat nn.",
+   "richtig": "Mit etwas Glück scheint am Nachmittag noch die Sonne.",
+   "gross": true,
+   "vorlesen": {
+    "text": "Mit etwas Glück scheint am Nachmittag noch die Sonne.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fehler finden und verbessern",
+   "frage": "In diesem Satz stecken Fehler: „Beim tanzen entdeckte Mia etwas lustiges.“. Schreibe den Satz richtig auf.",
+   "info": "„Beim Tanzen“ ist ein nominalisiertes Verb (Begleiter „beim“). „etwas Lustiges“ ist ein nominalisiertes Adjektiv (Signalwort „etwas“).",
+   "richtig": "Beim Tanzen entdeckte Mia etwas Lustiges.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fehler finden und verbessern",
+   "frage": "In diesem Satz stecken Fehler: „Am Besten malt Ole von allen.“. Schreibe den Satz richtig auf.",
+   "info": "Frage: Wie malt Ole? Am besten. Superlative mit „am“ schreibt man klein.",
+   "richtig": "Am besten malt Ole von allen.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fehler finden und verbessern",
+   "frage": "In diesem Satz stecken Fehler: „Das Wasser ist kalt aber die Kinder baden trotzdem.“. Schreibe den Satz richtig auf.",
+   "info": "Vor „aber“ steht in einer Satzreihe immer ein Komma.",
+   "richtig": "Das Wasser ist kalt, aber die Kinder baden trotzdem.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fehler finden und verbessern",
+   "frage": "In diesem Satz stecken Fehler: „Der Hunt trägt einen Stap im Maul.“. Schreibe den Satz richtig auf.",
+   "info": "Verlängern: Hunde (d), Stäbe (b).",
+   "richtig": "Der Hund trägt einen Stab im Maul.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fehler finden und verbessern",
+   "frage": "In diesem Satz stecken Fehler: „Die Meuse laufen über die Wise.“. Schreibe den Satz richtig auf.",
+   "info": "Mäuse – Maus (äu). Wie-se: offene erste Silbe, langes i, also ie.",
+   "richtig": "Die Mäuse laufen über die Wiese.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Fehler finden und verbessern",
+   "frage": "In diesem Satz stecken Fehler: „Ole hat nichts gefährliches getan, weil er vorsichtig war.“. Schreibe den Satz richtig auf.",
+   "info": "Nach „nichts“ wird das Adjektiv nominalisiert: nichts Gefährliches. Das Komma vor „weil“ steht schon richtig.",
+   "richtig": "Ole hat nichts Gefährliches getan, weil er vorsichtig war.",
+   "gross": true
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Ganzes Diktat auf Papier",
+   "frage": "Diktat auf Papier: Ein Elternteil liest den Text vor (Tippe auf „Anhören“ oder lass dir den Text aufklappen). Erst ganz, dann in kleinen Stücken, am Ende noch einmal ganz. Schreibe in dein Heft oder hier und vergleiche danach mit der Musterlösung. Text: Der Regentag.",
+   "info": "Zähle deine Fehler und ordne sie einer Fehlerart zu. Übe diese Fehlerart noch einmal im passenden Übungspaket.",
+   "punkte": 6,
+   "muster": "Am Samstag blieben wir zu Hause, weil es den ganzen Tag regnete. Beim Spielen im Wohnzimmer entdeckten die Kinder viel Altes auf dem Dachboden. Das Interessanteste war eine Kiste, die mit Briefen gefüllt war. Mia las die Briefe leise, aber Ole suchte nach etwas Besonderem. Zum Abendessen gab es Suppe, denn bei Kälte schmeckt Warmes am besten. Das Beste am Tag war das Vorlesen vor dem Einschlafen.",
+   "kriterien": [
+    "Alle Nominalisierungen sind großgeschrieben (Beim Spielen, viel Altes, Das Interessanteste, etwas Besonderem, Warmes, Das Beste, das Vorlesen, dem Einschlafen).",
+    "Am besten steht klein (Superlativ mit „am“).",
+    "Die Kommas vor weil, aber und denn und vor dem Relativsatz (die mit Briefen gefüllt war) stehen richtig.",
+    "Unsichere Wörter hast du mit einer Strategie geprüft (Verlängern, Ableiten, Zerlegen, Merkwörter)."
+   ],
+   "vorlesen": {
+    "text": "Am Samstag blieben wir zu Hause, weil es den ganzen Tag regnete. Beim Spielen im Wohnzimmer entdeckten die Kinder viel Altes auf dem Dachboden. Das Interessanteste war eine Kiste, die mit Briefen gefüllt war. Mia las die Briefe leise, aber Ole suchte nach etwas Besonderem. Zum Abendessen gab es Suppe, denn bei Kälte schmeckt Warmes am besten. Das Beste am Tag war das Vorlesen vor dem Einschlafen.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Ganzes Diktat auf Papier",
+   "frage": "Diktat auf Papier: Ein Elternteil liest den Text vor (Tippe auf „Anhören“ oder lass dir den Text aufklappen). Erst ganz, dann in kleinen Stücken, am Ende noch einmal ganz. Schreibe in dein Heft oder hier und vergleiche danach mit der Musterlösung. Text: Auf dem Spielplatz.",
+   "info": "Zähle deine Fehler und ordne sie einer Fehlerart zu. Übe diese Fehlerart noch einmal im passenden Übungspaket.",
+   "punkte": 6,
+   "muster": "Nach der Schule gehen die Kinder auf den Spielplatz. Beim Klettern auf dem hohen Gerüst haben sie keine Angst. Ole schaukelt am höchsten, doch Mia rutscht am schnellsten. Alle freuen sich auf das Wippen, das sie jeden Tag machen. Am Ende wissen sie nichts Neues zu erzählen, aber das Schönste ist das Zusammensein.",
+   "kriterien": [
+    "Alle Nominalisierungen sind großgeschrieben (Beim Klettern, das Wippen, nichts Neues, das Schönste, das Zusammensein).",
+    "Die Superlative mit „am“ (am höchsten, am schnellsten) stehen klein.",
+    "Die Kommas vor doch und aber und vor dem Relativsatz (das sie jeden Tag machen) stehen richtig.",
+    "Unsichere Wörter hast du mit einer Strategie geprüft (Verlängern, Ableiten, Zerlegen, Merkwörter)."
+   ],
+   "vorlesen": {
+    "text": "Nach der Schule gehen die Kinder auf den Spielplatz. Beim Klettern auf dem hohen Gerüst haben sie keine Angst. Ole schaukelt am höchsten, doch Mia rutscht am schnellsten. Alle freuen sich auf das Wippen, das sie jeden Tag machen. Am Ende wissen sie nichts Neues zu erzählen, aber das Schönste ist das Zusammensein.",
+    "sprache": "de-DE"
+   }
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Fehlerarten und Selbstkontrolle",
+   "frage": "Welcher Fehlerart gehört der Fehler an?",
+   "info": "Kaze: tz fehlt. Strase: ß fehlt (Stra-ße). Spilen: ie fehlt (spie-len). Müe: das silbenöffnende h fehlt (Mü-he). Hunt: Verlängern zeigt d (Hunde). Meuse: Ableiten zeigt äu (Maus). beim schwimmen: Nominalisierung groß.",
+   "paare": [
+    [
+     "Kaze statt Katze",
+     "Doppelkonsonant, ck oder tz"
+    ],
+    [
+     "Strase statt Straße",
+     "s, ss oder ß"
+    ],
+    [
+     "Spilen statt spielen",
+     "i oder ie"
+    ],
+    [
+     "Müe statt Mühe",
+     "silbenöffnendes h"
+    ],
+    [
+     "Hunt statt Hund",
+     "b/p, d/t oder g/k"
+    ],
+    [
+     "Meuse statt Mäuse",
+     "e/ä oder eu/äu"
+    ],
+    [
+     "beim schwimmen statt beim Schwimmen",
+     "Groß- und Kleinschreibung"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Fehlerarten und Selbstkontrolle",
+   "frage": "Du bist bei einem Wort im Diktat unsicher. Was machst du?",
+   "info": "Unsichere Wörter einkreisen und weiterschreiben, damit du den Faden nicht verlierst. Am Ende prüfst du sie mit Verlängern, Zerlegen, Ableiten oder bei Merkwörtern aus dem Gedächtnis.",
+   "antworten": [
+    "Ich kreise es ein, schreibe weiter und prüfe am Ende mit einer Regel oder Strategie.",
+    "Ich höre auf zu schreiben und warte.",
+    "Ich lasse das Wort weg.",
+    "Ich schreibe es dreimal und nehme das schönste."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Fehlerarten und Selbstkontrolle",
+   "frage": "Welche Wörter schreibst du in diesem Satz groß? beim wandern im wald hatten wir viel spaß und sahen etwas schönes. (mehrere Antworten sind richtig)",
+   "info": "Groß: Wandern (Begleiter „beim“), Wald (Begleiter „im“), Spaß (Signalwort „viel“), Schönes (Signalwort „etwas“). Klein: hatten und sahen sind Verben.",
+   "antworten": [
+    "wandern",
+    "wald",
+    "spaß",
+    "schönes",
+    "hatten",
+    "sahen"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Fehlerarten und Selbstkontrolle",
+   "frage": "Vor einer Nominalisierung steht ein Begleiter oder Signalwort wie beim, zum, das, etwas, viel oder nichts.",
+   "info": "Diese Wörter zeigen dir, dass ein Verb oder Adjektiv zum Nomen geworden ist: beim Lesen, etwas Neues, nichts Besonderes.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Fehlerarten und Selbstkontrolle",
+   "frage": "Bei „am schnellsten“ schreibt man „schnellsten“ groß, weil „am“ davor steht.",
+   "info": "Superlative mit „am“ beantworten die Frage „Wie?“ und bleiben klein: Mia läuft am schnellsten.",
+   "richtig": false
+  }
+ ],
+ "nachlesen": {
+  "A – Einzelne Sätze diktieren": "So gehst du beim Diktat vor",
+  "B – Diktattexte Satz für Satz": "So gehst du beim Diktat vor",
+  "C – Fehler finden und verbessern": [
+   "Fehlerarten im Diktat: Wo liegt der Fehler?",
+   "So gehst du beim Diktat vor"
+  ],
+  "D – Ganzes Diktat auf Papier": "So gehst du beim Diktat vor",
+  "E – Fehlerarten und Selbstkontrolle": "Fehlerarten im Diktat: Wo liegt der Fehler?"
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 9,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Diktat-Profi",
+  "motiv": "🎧",
+  "text": "Genau zuhören, Satz für Satz schreiben und am Ende prüfen."
+ }
+}

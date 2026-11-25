@@ -1,0 +1,592 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-2c-satzreihe-oder-satzgefuege",
+ "titel": "Deutsch Teil 2c: Satzreihe oder Satzgefüge?",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Satzreihe und Satzgefüge unterscheiden (Verbprobe), Konjunktionen sortieren, Kommaregeln gemischt anwenden, Sätze umformen und Satzbaupläne zuordnen. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Deutschbuch oder Aufgabenheft. Kommas wählst du in einer Liste aus („Komma“ oder „kein Komma“). Beim Abschreiben und Umformen zählt jeder Buchstabe und jedes Komma.",
+ "lernblatt": [
+  {
+   "titel": "Satzreihe oder Satzgefüge? Die Verbprobe",
+   "text": "**Satzreihe** und **Satzgefüge** unterscheidest du mit der **Verbprobe**: Wo steht das gebeugte Verb (die Personalform)?\n\n- Steht es in **jedem** Satzteil an **zweiter Stelle**, sind es zwei Hauptsätze: **Satzreihe** (Hs + Hs). Ich bleibe zu Hause, denn ich **bin** müde.\n- Steht es im zweiten Teil am **Ende**, ist dieser Teil ein Nebensatz: **Satzgefüge** (Hs + Ns). Ich bleibe zu Hause, weil ich müde **bin**.\n\nBeide Sätze sagen dasselbe, aber die Wortstellung ist anders.",
+   "merke": "Verb überall an zweiter Stelle: Satzreihe. Verb im zweiten Teil am Ende: Satzgefüge."
+  },
+  {
+   "titel": "Nebenordnend oder unterordnend?",
+   "text": "Die Konjunktion verrät dir, welcher Satztyp es ist:\n\n- **nebenordnend** (verbinden Hauptsätze, Satzreihe): **und, oder, aber, sondern, denn, doch** (jedoch)\n- **unterordnend** (leiten Nebensätze ein, Satzgefüge): **weil, da, obwohl, damit, wenn, dass, sodass, nachdem, während, bevor, indem** (im Buch auch als, bis)\n\nMerkpaare mit gleicher Bedeutung, aber anderer Wortstellung:\n\n- **denn** (Hauptsatz) und **weil / da** (Nebensatz): Begründung\n- **aber / doch** (Hauptsatz) und **obwohl** (Nebensatz): Gegensatz oder Einschränkung",
+   "merke": "denn = weil, aber = obwohl (fast): Mit denn und aber steht das Verb vorn, mit weil und obwohl hinten."
+  },
+  {
+   "titel": "Die Kommaregeln im Überblick",
+   "text": "**Satzreihe** (Hauptsätze):\n\n- Komma **immer** vor aber, sondern, denn, doch (jedoch).\n- Vor **und** und **oder** darf das Komma **wegfallen**.\n- Ohne Konjunktion steht **immer** ein Komma.\n\n**Satzgefüge** (Haupt- und Nebensatz):\n\n- **Immer** ein Komma zwischen Haupt- und Nebensatz. Das Komma steht **vor** der Konjunktion, wenn der Nebensatz hinten steht.\n- Steht der Nebensatz **vorn**, folgt das Komma hinter ihm.\n- Steht er **in der Mitte**, setzt man **zwei** Kommas.\n\nKein Komma steht, wenn „und“ nur Wörter oder Satzteile verbindet (Äpfel und Birnen).",
+   "merke": "Satzreihe: Komma vor aber, sondern, denn, doch; vor und/oder darf es fehlen. Satzgefüge: immer Komma."
+  },
+  {
+   "titel": "Umformen und Satzbaupläne",
+   "text": "**Umformen:** Aus einer Satzreihe wird ein Satzgefüge, wenn du die Konjunktion tauschst und das Verb ans Ende stellst:\n\n- Ich lache, **denn** der Witz **ist** lustig. → Ich lache, **weil** der Witz lustig **ist**.\n- Es regnet, **aber** wir gehen raus. → Wir gehen raus, **obwohl** es regnet.\n\n**Satzbaupläne** (Hs = Hauptsatz, Ns = Nebensatz):\n\n- Hs , Hs (Satzreihe): Ole lacht, denn der Witz ist gut.\n- Hs , Ns: Ole lacht, weil der Witz gut ist.\n- Ns , Hs: Weil der Witz gut ist, lacht Ole.\n- Hs , Ns , Hs: Ole hat, weil der Witz gut war, laut gelacht.",
+   "merke": "Satzreihe: Hs , Hs. Satzgefüge: Hs , Ns oder Ns , Hs oder Hs , Ns , Hs."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Satzreihe oder Satzgefüge? Ordne zu.",
+   "info": "Verbprobe: In der Satzreihe steht die Personalform in jedem Teil an zweiter Stelle. Im Satzgefüge steht sie im Nebensatz am Ende.",
+   "paare": [
+    [
+     "Ich lese, denn das Buch ist spannend.",
+     "Satzreihe"
+    ],
+    [
+     "Ich lese, weil das Buch spannend ist.",
+     "Satzgefüge"
+    ],
+    [
+     "Es regnet, aber wir gehen raus.",
+     "Satzreihe"
+    ],
+    [
+     "Wir gehen raus, obwohl es regnet.",
+     "Satzgefüge"
+    ],
+    [
+     "Mia singt, und Ole spielt Gitarre.",
+     "Satzreihe"
+    ],
+    [
+     "Wenn Ole Gitarre spielt, singt Mia.",
+     "Satzgefüge"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Welcher Satz ist ein Satzgefüge?",
+   "info": "Nur im ersten Satz steht die Personalform „ist“ im zweiten Teil am Ende. Die anderen Sätze sind Satzreihen.",
+   "antworten": [
+    "Ole bleibt zu Hause, weil er krank ist.",
+    "Ole bleibt zu Hause, denn er ist krank.",
+    "Ole bleibt zu Hause, und er ruht sich aus.",
+    "Ole ist krank, aber er bleibt nicht liegen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Welcher Satz ist eine Satzreihe?",
+   "info": "Nach „aber“ steht ein Hauptsatz mit der Personalform „bleibt“ an zweiter Stelle.",
+   "antworten": [
+    "Mia lacht, aber Ole bleibt ernst.",
+    "Mia lacht, weil Ole lustig ist.",
+    "Mia lacht, obwohl Ole ernst bleibt.",
+    "Mia lacht, wenn Ole erzählt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Woran erkennt man das Satzgefüge?",
+   "info": "Das ist die Verbprobe: Steht das gebeugte Verb im zweiten Teil am Ende, ist dieser Teil ein Nebensatz.",
+   "antworten": [
+    "Das gebeugte Verb steht im zweiten Teil am Ende.",
+    "Das gebeugte Verb steht überall an zweiter Stelle.",
+    "Es steht immer ein „und“ im Satz.",
+    "Es hat kein Komma."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "In einer Satzreihe steht das gebeugte Verb in jedem Satzteil an zweiter Stelle.",
+   "info": "Eine Satzreihe besteht nur aus Hauptsätzen, und im Hauptsatz steht die Personalform an zweiter Stelle.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "In einem Satzgefüge steht das gebeugte Verb im Nebensatz am Ende.",
+   "info": "Das ist das Merkmal des Nebensatzes. Im Hauptsatz steht die Personalform dagegen an zweiter Stelle.",
+   "richtig": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Satzreihe oder Satzgefüge? Ich bleibe zu Hause, denn ich bin krank.",
+   "info": "Nach „denn“ steht die Personalform „bin“ an zweiter Stelle. Beide Teile sind Hauptsätze.",
+   "richtig": "Satzreihe",
+   "nachsicht": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Satzreihe oder Satzgefüge? Ich bleibe zu Hause, weil ich krank bin.",
+   "info": "Nach „weil“ steht die Personalform „bin“ am Ende. Der zweite Teil ist ein Nebensatz.",
+   "richtig": "Satzgefüge",
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Wie viele Hauptsätze hat diese Satzreihe? Ich lese, Mia malt und Ole baut.",
+   "info": "Ich lese. – Mia malt. – Ole baut. In jedem Teil steht die Personalform an zweiter Stelle.",
+   "antworten": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Satzreihe oder Satzgefüge?",
+   "frage": "Ein Satz besteht aus einem Hauptsatz und einem Nebensatz. Wie heißt er?",
+   "info": "Hauptsatz + Nebensatz = Satzgefüge. Zwei oder mehr Hauptsätze = Satzreihe.",
+   "antworten": [
+    "Satzgefüge",
+    "Satzreihe",
+    "Aufzählung",
+    "Wortgruppe"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Nebenordnend oder unterordnend? Ordne die Konjunktion zu.",
+   "info": "Nebenordnend (Hauptsätze): und, oder, aber, sondern, denn, doch. Unterordnend (Nebensätze): weil, da, obwohl, damit, wenn, dass, sodass, nachdem, während, bevor, indem.",
+   "paare": [
+    [
+     "und",
+     "nebenordnend"
+    ],
+    [
+     "weil",
+     "unterordnend"
+    ],
+    [
+     "aber",
+     "nebenordnend"
+    ],
+    [
+     "obwohl",
+     "unterordnend"
+    ],
+    [
+     "denn",
+     "nebenordnend"
+    ],
+    [
+     "damit",
+     "unterordnend"
+    ],
+    [
+     "sondern",
+     "nebenordnend"
+    ],
+    [
+     "nachdem",
+     "unterordnend"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Welche Wörter sind unterordnende Konjunktionen? (mehrere Antworten sind richtig)",
+   "info": "weil, obwohl, nachdem und bevor leiten Nebensätze ein. „denn“ und „doch“ verbinden Hauptsätze.",
+   "antworten": [
+    "weil",
+    "obwohl",
+    "nachdem",
+    "bevor",
+    "denn",
+    "doch"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "„denn“ und „weil“ nennen beide eine Begründung.",
+   "info": "Bei „denn“ steht danach ein Hauptsatz, bei „weil“ ein Nebensatz mit dem Verb am Ende.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Welche Konjunktion macht aus „Ich bleibe, denn ich bin müde.“ ein Satzgefüge?",
+   "info": "Mit „weil“ wird der zweite Teil ein Nebensatz: Ich bleibe, weil ich müde bin.",
+   "antworten": [
+    "weil",
+    "denn",
+    "aber",
+    "und"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Ergänze „denn“ oder „weil“.",
+   "text": "Ich lache, {{denn}} der Film ist lustig. Ich lache, {{weil}} der Film lustig ist.",
+   "info": "Nach „denn“ steht ein Hauptsatz (Verb an zweiter Stelle), nach „weil“ ein Nebensatz (Verb am Ende).",
+   "wortbank": [
+    "denn",
+    "weil",
+    "obwohl"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Ergänze „aber“ oder „obwohl“.",
+   "text": "Es regnet, {{aber}} wir gehen raus. Wir gehen raus, {{obwohl}} es regnet.",
+   "info": "Nach „aber“ steht ein Hauptsatz, nach „obwohl“ ein Nebensatz mit dem Verb am Ende.",
+   "wortbank": [
+    "aber",
+    "obwohl",
+    "denn"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Welche Konjunktion passt in eine Satzreihe? Ich möchte kommen, … ich habe keine Zeit.",
+   "info": "Es ist ein Gegensatz zwischen zwei Hauptsätzen: Ich möchte kommen, doch ich habe keine Zeit. Mit „aber“ ginge es auch.",
+   "antworten": [
+    "doch",
+    "weil",
+    "obwohl",
+    "damit"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Welche Konjunktion passt? Ole möchte kommen, … er keine Zeit hat.",
+   "info": "Das Verb „hat“ steht am Ende, also ist es ein Nebensatz. Nur „obwohl“ ist von den Wörtern eine unterordnende Konjunktion.",
+   "antworten": [
+    "obwohl",
+    "doch",
+    "aber",
+    "denn"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Konjunktionen sortieren und wählen",
+   "frage": "Nach „denn“ bleibt die Wortstellung des Hauptsatzes (Verb an zweiter Stelle).",
+   "info": "Beispiel: …, denn die Geschichte ist lustig. „ist“ steht an zweiter Stelle.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ich esse einen Apfel {{Komma}} denn ich habe Hunger.",
+   "info": "Satzreihe: Vor „denn“ steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ich esse einen Apfel {{Komma}} weil ich Hunger habe.",
+   "info": "Satzgefüge: Zwischen Haupt- und Nebensatz steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Mia spielt Klavier {{Komma|kein Komma}} und Ole zeichnet Bilder.",
+   "info": "Satzreihe: Vor „und“ darf das Komma wegfallen. Beide Antworten sind richtig.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Wenn es dunkel wird {{Komma}} gehen wir nach Hause.",
+   "info": "Satzgefüge mit vorangestelltem Nebensatz: Nach dem Nebensatz steht das Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ole ist klein {{Komma}} aber er ist sehr schnell.",
+   "info": "Satzreihe: Vor „aber“ steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Pia weiß {{Komma}} dass sie gewinnen kann.",
+   "info": "Satzgefüge: Vor „dass“ steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Sie lacht {{Komma}} sie tanzt {{Komma}} sie ist glücklich.",
+   "info": "Drei Hauptsätze ohne Konjunktion: Dazwischen steht jeweils ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Wir wollten gehen {{Komma}} doch es hat geregnet.",
+   "info": "Satzreihe: Vor „doch“ steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ole bleibt zu Hause {{Komma}} obwohl er gesund ist.",
+   "info": "Satzgefüge: Vor „obwohl“ steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Mia kauft Brot {{kein Komma}} und Milch.",
+   "info": "„und“ verbindet nur zwei Wörter (Brot und Milch). Es folgt kein neuer Hauptsatz, also steht kein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Kommas: alles gemischt",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Soll ich anrufen {{Komma|kein Komma}} oder schreibst du?",
+   "info": "Satzreihe: Vor „oder“ darf das Komma wegfallen. Beide Antworten sind richtig.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Forme in ein Satzgefüge um: Ich bleibe zu Hause, denn ich bin krank.",
+   "info": "„denn“ wird zu „weil“, die Personalform „bin“ rückt ans Ende. Das Komma bleibt.",
+   "antworten": [
+    "Ich bleibe zu Hause, weil ich krank bin.",
+    "Ich bleibe zu Hause, weil ich bin krank.",
+    "Ich bleibe zu Hause, aber ich bin krank.",
+    "Ich bleibe zu Hause weil ich krank bin."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Forme in eine Satzreihe um (mit „denn“): Ich lache, weil der Witz lustig ist.",
+   "info": "Aus „weil“ wird „denn“. Das Verb „ist“ rückt an die zweite Stelle: Ich lache, denn der Witz ist lustig.",
+   "richtig": "Ich lache, denn der Witz ist lustig.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Forme in eine Satzreihe um (mit „aber“): Wir gehen raus, obwohl es regnet.",
+   "info": "Aus „obwohl“ wird „aber“ (oder „doch“). Der Regen steht dann im ersten Hauptsatz: Es regnet, aber wir gehen raus.",
+   "richtig": [
+    "Es regnet, aber wir gehen raus.",
+    "Es regnet, doch wir gehen raus."
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Welcher Satzbauplan passt zu: Es regnet, aber wir gehen raus.?",
+   "info": "Beide Teile sind Hauptsätze, es ist eine Satzreihe.",
+   "antworten": [
+    "Hs , Hs",
+    "Hs , Ns",
+    "Ns , Hs",
+    "Hs , Ns , Hs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Welcher Satzbauplan passt zu: Wir gehen raus, obwohl es regnet.?",
+   "info": "Der Hauptsatz steht vorn, der Nebensatz „obwohl es regnet“ steht hinten.",
+   "antworten": [
+    "Hs , Ns",
+    "Hs , Hs",
+    "Ns , Hs",
+    "Hs , Ns , Hs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Ordne jedem Satz den passenden Satzbauplan zu.",
+   "info": "Hs , Hs ist eine Satzreihe. Bei Hs , Ns steht der Nebensatz hinten, bei Ns , Hs vorn und bei Hs , Ns , Hs in der Mitte.",
+   "paare": [
+    [
+     "Ole lacht, denn der Witz ist gut.",
+     "Hs , Hs"
+    ],
+    [
+     "Weil der Witz gut ist, lacht Ole.",
+     "Ns , Hs"
+    ],
+    [
+     "Ole lacht, weil der Witz gut ist.",
+     "Hs , Ns"
+    ],
+    [
+     "Ole hat, weil der Witz gut war, laut gelacht.",
+     "Hs , Ns , Hs"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Ordne jedem Satz den passenden Satzbauplan zu.",
+   "info": "Bei jedem Satz zuerst die Personalformen suchen: Wo das Verb am Ende steht, ist ein Nebensatz.",
+   "paare": [
+    [
+     "Mia singt, und Ole spielt Gitarre.",
+     "Hs , Hs"
+    ],
+    [
+     "Nachdem Mia gesungen hat, klatschen alle.",
+     "Ns , Hs"
+    ],
+    [
+     "Alle klatschen, nachdem Mia gesungen hat.",
+     "Hs , Ns"
+    ],
+    [
+     "Mia hat, obwohl sie Angst hatte, gesungen.",
+     "Hs , Ns , Hs"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Wir gehen {{Komma}} nachdem wir gegessen haben {{Komma}} spazieren.",
+   "info": "Der Nebensatz steht in der Mitte des Hauptsatzes und wird von zwei Kommas eingeschlossen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Nenne den Satzbauplan von: Weil es kalt ist, ziehe ich eine Jacke an. (Schreibe zum Beispiel: Hs , Ns)",
+   "info": "Der Nebensatz „Weil es kalt ist“ steht vorn, danach folgt der Hauptsatz: „Ns , Hs“.",
+   "richtig": "Ns , Hs",
+   "nachsicht": true
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Umformen und Satzbaupläne",
+   "frage": "Schreibe einen Satz mit dem Satzbauplan Hs , Ns , Hs.",
+   "info": "Der Nebensatz steht in der Mitte des Hauptsatzes. Er wird durch zwei Kommas abgetrennt.",
+   "punkte": 2,
+   "muster": "Mia hat, weil sie müde war, früh geschlafen.",
+   "kriterien": [
+    "Der Satz hat einen Hauptsatz, der durch einen Nebensatz unterbrochen wird.",
+    "Der Nebensatz hat eine unterordnende Konjunktion und das Verb am Ende.",
+    "Vor und hinter dem Nebensatz steht ein Komma."
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Satzreihe oder Satzgefüge?": "Satzreihe oder Satzgefüge? Die Verbprobe",
+  "B – Konjunktionen sortieren und wählen": "Nebenordnend oder unterordnend?",
+  "C – Kommas: alles gemischt": "Die Kommaregeln im Überblick",
+  "D – Umformen und Satzbaupläne": "Umformen und Satzbaupläne"
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 6,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Komma-Meister",
+  "motiv": "✍️",
+  "text": "Satzreihe oder Satzgefüge? Die Verbprobe verrät es."
+ }
+}

@@ -1,0 +1,594 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-2a-satzreihe",
+ "titel": "Deutsch Teil 2a: Die Satzreihe",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Hauptsätze erkennen und zählen, nebenordnende Konjunktionen (und, oder, aber, sondern, denn, doch), Kommaregeln in der Satzreihe, Satzreihen bilden und mit Kommas schreiben. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Deutschbuch oder Aufgabenheft. Kommas wählst du in einer Liste aus („Komma“ oder „kein Komma“). Wo das Komma wegfallen darf (vor „und“ und „oder“), gelten beide Antworten. Beim Abschreiben zählt jeder Buchstabe und jedes Komma.",
+ "lernblatt": [
+  {
+   "titel": "Hauptsatz und Satzreihe",
+   "text": "Ein **Hauptsatz** kann allein stehen. In ihm steht die **Personalform** des Verbs (das gebeugte Verb) an **zweiter Stelle**: Die Kinder **spielen** im Garten. – Heute **backt** Mama einen Kuchen.\nEine **Satzreihe** besteht aus **zwei oder mehr Hauptsätzen**. Die Hauptsätze werden durch ein **Komma** getrennt oder durch eine Konjunktion verbunden.\nBeispiel mit zwei Hauptsätzen: Ich lese gern, denn die Geschichte ist spannend.\nBeispiel mit drei Hauptsätzen: Mia singt, Ole spielt Gitarre und Pia trommelt.",
+   "merke": "Satzreihe = zwei oder mehr Hauptsätze. Die Personalform steht in jedem Hauptsatz an zweiter Stelle."
+  },
+  {
+   "titel": "Nebenordnende Konjunktionen",
+   "text": "Hauptsätze werden oft durch **nebenordnende Konjunktionen** verbunden: **und, oder, aber, sondern, denn, doch** (das Buch nennt zusätzlich **jedoch**).\nSie haben verschiedene Bedeutungen:\n\n- **und**: Reihung (Ole malt, und Mia baut.)\n- **oder**: Alternative (Spielen wir Karten, oder schauen wir einen Film?)\n- **aber, doch, jedoch**: Gegensatz (Es regnet, aber wir gehen raus.)\n- **sondern**: Berichtigung nach „nicht“ (Er ruft nicht an, sondern er schreibt.)\n- **denn**: Begründung (Ich bleibe zu Hause, denn ich bin müde.)\n\nNach diesen Konjunktionen bleibt die Wortstellung des **Hauptsatzes**: Das Verb steht an zweiter Stelle. …, denn die Geschichte **ist** lustig.",
+   "merke": "und, oder, aber, sondern, denn, doch verbinden Hauptsätze. Danach steht das Verb an zweiter Stelle."
+  },
+  {
+   "titel": "Das Komma in der Satzreihe",
+   "text": "So setzt du das **Komma** in der Satzreihe:\n\n- Vor **aber, sondern, denn, doch** (und jedoch) steht **immer** ein Komma.\n- Vor **und** und **oder** darf das Komma **wegfallen**. Man kann es aber setzen.\n- Steht **keine Konjunktion** zwischen zwei Hauptsätzen, steht **immer** ein Komma: Es klingelt, Mia öffnet die Tür.\n\nWichtig: Verbindet „und“ nur zwei **Wörter oder Satzteile** (niedlich und zahm, Äpfel und Birnen), steht **kein** Komma davor.",
+   "merke": "Komma immer vor aber, sondern, denn, doch. Vor und und oder darf es wegfallen. Ohne Konjunktion steht es immer."
+  },
+  {
+   "titel": "Satzreihen bilden",
+   "text": "So machst du aus zwei Hauptsätzen eine Satzreihe:\n1. Lies beide Sätze und überlege, wie sie zusammenhängen (Grund, Gegensatz, Reihung, Auswahl).\n2. Wähle die passende Konjunktion.\n3. Schreibe beide Hauptsätze hintereinander. Setze das Komma, wenn es nötig ist.\nBeispiel: Wir bleiben zu Hause. Es regnet. → Wir bleiben zu Hause, **denn** es regnet.\nMehrere Konjunktionen können passen: Ich möchte kommen, **aber** ich habe keine Zeit. Oder: …, **doch** ich habe keine Zeit.",
+   "merke": "Erst den Zusammenhang klären, dann die Konjunktion wählen, dann das Komma setzen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Wo steht die Personalform im Hauptsatz?",
+   "info": "Im Hauptsatz steht die Personalform (das gebeugte Verb) an zweiter Satzgliedstelle: Die Kinder spielen im Garten.",
+   "antworten": [
+    "An zweiter Stelle",
+    "An erster Stelle",
+    "Am Ende",
+    "An dritter Stelle"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Welcher Satz ist ein Hauptsatz?",
+   "info": "Nur im ersten Satz steht die Personalform „spielen“ an zweiter Stelle, und er kann allein stehen. Die anderen drei sind Nebensätze mit dem Verb am Ende.",
+   "antworten": [
+    "Die Kinder spielen im Garten.",
+    "weil die Kinder im Garten spielen",
+    "ob die Kinder im Garten spielen",
+    "damit sie im Garten spielen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Eine Satzreihe besteht aus zwei oder mehr Hauptsätzen.",
+   "info": "So steht es im Merkkasten. Die Hauptsätze werden durch ein Komma getrennt oder durch eine Konjunktion verbunden.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Die Hauptsätze einer Satzreihe werden durch ein Komma getrennt.",
+   "info": "Das Komma steht zwischen den Hauptsätzen. Nur vor „und“ und „oder“ darf es wegfallen.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Wie viele Hauptsätze hat diese Satzreihe? Ich lese gern, denn die Geschichte ist spannend, und mein Bruder liest mit.",
+   "info": "Ich lese gern. – Die Geschichte ist spannend. – Mein Bruder liest mit. In jedem Teil steht die Personalform an zweiter Stelle.",
+   "antworten": [
+    "3",
+    "1",
+    "2",
+    "4"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Wie viele Hauptsätze hat diese Satzreihe? Mia singt, Ole spielt Gitarre, Pia trommelt und Tom tanzt.",
+   "info": "Mia singt. – Ole spielt Gitarre. – Pia trommelt. – Tom tanzt. Vier Hauptsätze, zwei Kommas ohne Konjunktion und ein „und“.",
+   "antworten": [
+    "4",
+    "2",
+    "3",
+    "5"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Schreibe die Personalform auf: Heute backt Mama einen Kuchen.",
+   "info": "„backt“ ist das gebeugte Verb und steht an zweiter Stelle (Heute – backt – …).",
+   "richtig": "backt",
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Hauptsätze erkennen und zählen",
+   "frage": "Welcher Satz ist eine Satzreihe?",
+   "info": "Es regnet (Hauptsatz) und wir gehen trotzdem raus (Hauptsatz) sind durch „aber“ verbunden. In den anderen Sätzen steht ein Nebensatz oder nur ein Hauptsatz.",
+   "antworten": [
+    "Es regnet, aber wir gehen trotzdem raus.",
+    "Wir gehen raus, obwohl es regnet.",
+    "Weil es regnet, bleiben wir drinnen.",
+    "Wir gehen raus."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Welche Bedeutung hat die Konjunktion?",
+   "info": "und reiht auf, oder stellt zur Wahl, aber drückt einen Gegensatz aus, denn nennt einen Grund, sondern berichtigt etwas nach „nicht“.",
+   "paare": [
+    [
+     "und",
+     "Reihung"
+    ],
+    [
+     "oder",
+     "Alternative"
+    ],
+    [
+     "aber",
+     "Gegensatz"
+    ],
+    [
+     "denn",
+     "Begründung"
+    ],
+    [
+     "sondern",
+     "Berichtigung nach „nicht“"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Welche Wörter sind nebenordnende Konjunktionen? (mehrere Antworten sind richtig)",
+   "info": "und, oder, aber, denn (außerdem sondern und doch) verbinden Hauptsätze. „weil“ und „obwohl“ leiten Nebensätze ein.",
+   "antworten": [
+    "und",
+    "oder",
+    "aber",
+    "denn",
+    "weil",
+    "obwohl"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Welche Konjunktion passt? Ich möchte ein Eis, … es ist zu kalt.",
+   "info": "Es ist ein Gegensatz: Ich möchte Eis, aber es ist zu kalt. „doch“ würde auch passen.",
+   "antworten": [
+    "aber",
+    "denn",
+    "oder",
+    "sondern"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Ergänze die passende Konjunktion.",
+   "text": "Mia kommt nicht zu Fuß, {{sondern}} sie fährt mit dem Rad. Ich bleibe zu Hause, {{denn}} ich bin müde. Wir können Karten spielen, {{oder}} wir schauen einen Film.",
+   "info": "sondern berichtigt nach „nicht“, denn nennt den Grund, oder stellt zur Wahl.",
+   "wortbank": [
+    "sondern",
+    "denn",
+    "oder",
+    "aber",
+    "und"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Nach „nicht“ steht in einer Satzreihe oft die Konjunktion …",
+   "info": "Beispiel: Er ruft nicht an, sondern er schreibt einen Brief. Mit „sondern“ wird etwas berichtigt.",
+   "antworten": [
+    "sondern",
+    "denn",
+    "oder",
+    "und"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "„denn“ leitet eine Begründung ein und verbindet zwei Hauptsätze.",
+   "info": "Nach „denn“ bleibt die Wortstellung des Hauptsatzes: Ich bleibe zu Hause, denn ich bin müde.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Welche Form ist richtig? Ich bleibe zu Hause, …",
+   "info": "Nach „denn“ steht ein Hauptsatz: Die Personalform „bin“ steht an zweiter Stelle.",
+   "antworten": [
+    "denn ich bin müde.",
+    "denn ich müde bin.",
+    "denn bin ich müde.",
+    "denn müde ich bin."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Welche Satzreihe ist richtig gebildet?",
+   "info": "Nach „aber“ steht wieder ein Hauptsatz: Die Personalform „spielt“ ist an zweiter Stelle. Das Komma steht vor „aber“.",
+   "antworten": [
+    "Ich lese gern, aber mein Bruder spielt lieber.",
+    "Ich lese gern, aber mein Bruder lieber spielt.",
+    "Ich lese gern, aber spielt mein Bruder lieber lieber.",
+    "Ich lese gern aber, mein Bruder spielt lieber."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Nebenordnende Konjunktionen",
+   "frage": "Welche nebenordnende Konjunktion leitet eine Begründung ein? (Sie hat vier Buchstaben.)",
+   "info": "Mit „denn“ nennt man einen Grund: Wir gehen früh schlafen, denn morgen ist ein langer Tag.",
+   "richtig": "denn",
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ich lese gern {{Komma}} denn die Geschichte ist spannend.",
+   "info": "Vor „denn“ steht immer ein Komma, weil zwei Hauptsätze verbunden werden.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Mia singt laut {{Komma}} aber Ole hört nicht zu.",
+   "info": "Vor „aber“ steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Wir bleiben zu Hause {{Komma}} denn es regnet in Strömen.",
+   "info": "Vor „denn“ steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Er ruft nicht an {{Komma}} sondern er schreibt einen Brief.",
+   "info": "Vor „sondern“ steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ole spielt Fußball {{Komma|kein Komma}} und Mia fährt Rad.",
+   "info": "Vor „und“ darf das Komma wegfallen. Beide Antworten sind richtig.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Möchtest du ein Eis {{Komma|kein Komma}} oder möchtest du lieber einen Kuchen?",
+   "info": "Vor „oder“ darf das Komma wegfallen. Beide Antworten sind richtig.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Es klingelt {{Komma}} Mia öffnet die Tür.",
+   "info": "Zwischen zwei Hauptsätzen ohne Konjunktion steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Die Sonne scheint {{Komma}} die Vögel singen {{Komma}} der Frühling beginnt.",
+   "info": "Drei Hauptsätze ohne Konjunktion: Nach dem ersten und nach dem zweiten Hauptsatz steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Vor welchen Konjunktionen darf das Komma in einer Satzreihe wegfallen?",
+   "info": "Nur vor „und“ und „oder“ darf das Komma entfallen. Vor aber, sondern, denn und doch steht es immer.",
+   "antworten": [
+    "und, oder",
+    "aber, sondern",
+    "denn, doch",
+    "aber, denn"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Vor „aber“ darf man das Komma weglassen.",
+   "info": "Vor aber, sondern, denn und doch muss das Komma stehen. Nur vor und/oder darf es wegfallen.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "Das Komma gehört vor „denn“, direkt hinter den ersten Hauptsatz.",
+   "antworten": [
+    "Ole kommt heute nicht, denn er ist krank.",
+    "Ole kommt heute nicht denn er ist krank.",
+    "Ole kommt heute nicht denn, er ist krank.",
+    "Ole kommt, heute nicht denn er ist krank."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Schreibe den Satz mit dem richtigen Komma ab: Ich mag Tee aber meine Schwester trinkt lieber Saft.",
+   "info": "Vor „aber“ steht immer ein Komma: Ich mag Tee, aber meine Schwester trinkt lieber Saft.",
+   "richtig": "Ich mag Tee, aber meine Schwester trinkt lieber Saft.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Schreibe den Satz mit dem richtigen Komma ab: Wir gehen früh schlafen denn morgen ist ein langer Tag.",
+   "info": "Vor „denn“ steht immer ein Komma.",
+   "richtig": "Wir gehen früh schlafen, denn morgen ist ein langer Tag.",
+   "gross": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Das Komma in der Satzreihe",
+   "frage": "Zwischen zwei Hauptsätzen ohne Konjunktion steht immer ein Komma.",
+   "info": "Ohne Konjunktion trennt das Komma die Hauptsätze: Es klingelt, Mia öffnet die Tür.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Verbinde die Sätze: Mara ist müde. Sie geht nicht schlafen. Welche Satzreihe ist richtig?",
+   "info": "Es ist ein Gegensatz, deshalb passt „aber“ (oder „doch“). Das Komma steht vor „aber“.",
+   "antworten": [
+    "Mara ist müde, aber sie geht nicht schlafen.",
+    "Mara ist müde aber sie geht nicht schlafen.",
+    "Mara ist müde, denn sie geht nicht schlafen.",
+    "Mara ist müde, sondern sie geht nicht schlafen."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Verbinde mit „denn“: Wir bleiben zu Hause. Es regnet.",
+   "info": "Beide Sätze bleiben Hauptsätze. Vor „denn“ steht ein Komma: Wir bleiben zu Hause, denn es regnet.",
+   "richtig": "Wir bleiben zu Hause, denn es regnet.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Verbinde mit „und“ (das Komma darf wegfallen): Ole malt ein Bild. Mia baut einen Turm.",
+   "info": "Vor „und“ darf das Komma wegfallen. Beide Schreibweisen sind richtig.",
+   "richtig": [
+    "Ole malt ein Bild, und Mia baut einen Turm.",
+    "Ole malt ein Bild und Mia baut einen Turm."
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Verbinde mit „sondern“: Mara geht nicht zu Fuß. Sie fährt mit dem Rad.",
+   "info": "Nach „nicht“ berichtigt „sondern“ die Aussage. Vor „sondern“ steht immer ein Komma.",
+   "richtig": "Mara geht nicht zu Fuß, sondern sie fährt mit dem Rad.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Verbinde mit „oder“ (das Komma darf wegfallen): Wir spielen Karten. Wir schauen einen Film.",
+   "info": "Vor „oder“ darf das Komma wegfallen. Beide Schreibweisen sind richtig.",
+   "richtig": [
+    "Wir spielen Karten, oder wir schauen einen Film.",
+    "Wir spielen Karten oder wir schauen einen Film."
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Welche Konjunktionen passen? Es ist kalt, … ich friere nicht. (mehrere Antworten sind richtig)",
+   "info": "Der zweite Satz sagt das Gegenteil von dem, was man erwartet (ein Gegensatz). Dafür passen aber und doch.",
+   "antworten": [
+    "aber",
+    "doch",
+    "denn",
+    "sondern",
+    "oder"
+   ],
+   "richtig": [
+    0,
+    1
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Bilde eine Satzreihe mit „aber“ aus den Sätzen: Ich möchte spielen. Ich muss lernen.",
+   "info": "Vor „aber“ steht immer ein Komma. Auch „doch“ wäre möglich.",
+   "punkte": 2,
+   "muster": "Ich möchte spielen, aber ich muss lernen.",
+   "kriterien": [
+    "Beide Teile sind Hauptsätze (Personalform an zweiter Stelle).",
+    "Die Konjunktion „aber“ verbindet sie.",
+    "Vor „aber“ steht ein Komma."
+   ]
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "D – Satzreihen bilden",
+   "frage": "Schreibe eine eigene Satzreihe mit drei Hauptsätzen.",
+   "info": "Zwischen den ersten beiden Hauptsätzen steht ein Komma, vor „und“ darf es wegfallen.",
+   "punkte": 3,
+   "muster": "Die Sonne scheint, die Vögel singen und wir gehen spazieren.",
+   "kriterien": [
+    "Der Satz hat drei Hauptsätze.",
+    "In jedem Hauptsatz steht die Personalform an zweiter Stelle.",
+    "Die Kommas sind richtig gesetzt."
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Texte mit Kommas",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“ (Text: Ein Regentag).",
+   "text": "Ich möchte heute Fußball spielen {{Komma}} aber es regnet {{Komma|kein Komma}} und der Platz ist nass. Wir bleiben zu Hause {{Komma}} denn bei dem Wetter macht Spielen keinen Spaß. Mia malt ein Bild {{Komma|kein Komma}} und Ole liest ein Buch.",
+   "info": "Vor „aber“ und „denn“ steht immer ein Komma. Vor „und“ darf es wegfallen (beide Antworten sind richtig).",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Texte mit Kommas",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“ (Text: Zu Hause).",
+   "text": "Der Hund bellt laut {{Komma}} denn er hört ein Geräusch. Die Katze schläft {{kein Komma}} und träumt von Mäusen. Papa lacht {{Komma}} Mama kocht Tee.",
+   "info": "Vor „denn“ steht ein Komma. „und“ verbindet in „schläft und träumt“ nur zwei Verben, kein Hauptsatz folgt, also kein Komma. Ohne Konjunktion (Papa lacht, Mama kocht) steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Texte mit Kommas",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“ (Text: Ein Ausflug).",
+   "text": "Wir wollten wandern {{Komma}} doch das Wetter war schlecht. Also fuhren wir ins Schwimmbad {{Komma|kein Komma}} und wir hatten viel Spaß. Ich war nicht müde {{Komma}} sondern ich wollte weiter schwimmen.",
+   "info": "Vor „doch“ und „sondern“ steht immer ein Komma. Vor „und“ vor einem neuen Hauptsatz darf es wegfallen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Texte mit Kommas",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“ (Text: Beim Essen).",
+   "text": "Pia mag Äpfel {{kein Komma}} und Birnen. Sie isst keinen Käse {{Komma}} aber sie liebt Schinken. Ole mag Nudeln {{Komma}} Mia mag Reis {{Komma|kein Komma}} und Tom isst gern Pizza.",
+   "info": "„Äpfel und Birnen“: „und“ verbindet nur zwei Wörter, kein Komma. Vor „aber“ steht ein Komma. Bei der Reihung von Hauptsätzen steht ein Komma, vor „und“ darf es wegfallen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Texte mit Kommas",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“ (Text: Nach der Schule).",
+   "text": "Die Schule ist aus {{Komma|kein Komma}} und alle rennen nach Hause. Mia wartet auf Ole {{Komma}} denn sie gehen zusammen. Er kommt nicht {{Komma}} sondern er ist schon vorgegangen.",
+   "info": "Vor „denn“ und „sondern“ steht immer ein Komma. Vor „und“ darf es wegfallen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Texte mit Kommas",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“ (Text: Am Abend).",
+   "text": "Soll ich dir helfen {{Komma|kein Komma}} oder machst du es allein? Du kannst es versuchen {{Komma}} aber du musst es nicht tun. Es ist spät {{Komma}} doch ich bin nicht müde.",
+   "info": "Vor „oder“ darf das Komma wegfallen. Vor „aber“ und „doch“ steht immer ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  }
+ ],
+ "nachlesen": {
+  "A – Hauptsätze erkennen und zählen": "Hauptsatz und Satzreihe",
+  "B – Nebenordnende Konjunktionen": "Nebenordnende Konjunktionen",
+  "C – Das Komma in der Satzreihe": "Das Komma in der Satzreihe",
+  "D – Satzreihen bilden": "Satzreihen bilden",
+  "E – Texte mit Kommas": [
+   "Nebenordnende Konjunktionen",
+   "Das Komma in der Satzreihe"
+  ]
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 4,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Satzreihen-Baumeister",
+  "motiv": "🧱",
+  "text": "Zwei Hauptsätze, eine Konjunktion und das Komma an der richtigen Stelle."
+ }
+}

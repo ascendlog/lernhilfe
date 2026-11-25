@@ -1,0 +1,879 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-1a-nomen-begleiter",
+ "titel": "Deutsch Teil 1a: Nomen und ihre Begleiter",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Begleitwörter von Nomen (Artikel, Adjektiv, Pronomen, Präposition mit Artikel, Zahlwort), verschmolzene Präpositionen (im, beim, zum …), Nomen ohne Begleiter mit der Artikel-Adjektiv-Probe, Groß- und Kleinschreibung. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Deutschbuch oder Aufgabenheft. Die Regeln stehen so auch im Deutschbuch (S. 301) und im Aufgabenheft (S. 82). Bei den Groß-/Kleinschreibungs-Lücken zählt jeder Buchstabe: Tippe das Wort so, wie es im Satz stehen muss.",
+ "lernblatt": [
+  {
+   "titel": "Nomen und ihre Begleiter",
+   "text": "**Nomen** schreibt man **groß**. Nomen sind Namen für Menschen, Tiere, Pflanzen, Dinge und Gedachtes: der Junge, die Katze, der Baum, das Handy, die Freude.\nVor einem Nomen steht oft ein Wort, das zu ihm gehört. Man nennt es **Begleiter** (Begleitwort). Daran erkennst du ein Nomen:\n\n- **Artikel**: der Hund, ein Hund, die Katze, das Spiel\n- **Adjektiv**: der kleine Hund, schöne Ferien\n- **Pronomen**: mein Hund, dieses Spiel, unsere Klasse, deine Idee\n- **Präposition**: mit Spaß, auf dem Dach, in einer Mannschaft\n- **Zahlwort**: elf Spieler, zwanzig Karten\n\nEs können auch **zwei Begleiter** vor einem Nomen stehen: das schnelle Auto, bei strahlendem Sonnenschein, in einer kleinen Stadt.",
+   "merke": "Begleiter eines Nomens: Artikel, Adjektiv, Pronomen, Präposition, Zahlwort. Wo ein Begleiter steht, folgt ein groß geschriebenes Nomen."
+  },
+  {
+   "titel": "Präposition und Artikel verschmolzen",
+   "text": "Oft sind Präposition und Artikel zu **einem Wort** verschmolzen:\n\n- in dem → **im**, bei dem → **beim**, zu dem → **zum**, zu der → **zur**, von dem → **vom**, an dem → **am**\n- an das → **ans**, auf das → **aufs**, in das → **ins**, für das → **fürs**\n\nAuch diese Wörter sind **Begleiter**. Danach steht ein Nomen: im Garten, beim Bäcker, zum Training, zur Schule, vom Dach, am Fenster, ins Bett.\n**Probe:** Kannst du das Wort in zwei Wörter zerlegen (in dem, zu der)? Dann ist es Präposition und Artikel in einem Wort.",
+   "merke": "im = in dem, beim = bei dem, zum = zu dem, zur = zu der, vom = von dem, am = an dem. Danach folgt ein Nomen."
+  },
+  {
+   "titel": "Nomen ohne Begleiter: die Probe",
+   "text": "Manchmal steht **kein Begleiter** vor dem Nomen: Wir haben Hunger. Sie braucht Zeit. Dann hilft die **Artikel-Adjektiv-Probe**: Setze einen **Artikel** und ein **Adjektiv** davor.\n\n- Hunger → der große Hunger\n- Zeit → die nötige Zeit\n- Hunde (Plural) → die großen Hunde\n\nGeht die Probe, ist das Wort ein **Nomen** und wird großgeschrieben. Bei Wörtern wie **gern**, **schnell**, **heute** oder **und** geht sie nicht: „das große gern“ ergibt keinen Sinn.\nAuch **Namen** (Mara, Hamburg, Rhein) schreibt man groß.",
+   "merke": "Artikel-Adjektiv-Probe: Passt „der große …“ oder „die nötige …“ davor, ist es ein Nomen. Es wird großgeschrieben."
+  },
+  {
+   "titel": "Groß oder klein bei Nomen?",
+   "text": "Neben den Nomen schreibt man **groß**: den **Satzanfang** und **Namen**.\n**Klein** schreibt man Verben (spielen, schläft), Adjektive (schnell, klein) und die meisten kleinen Wörter (gern, heute, und, mit).\nSo entscheidest du bei einem Wort:\n1. Steht ein **Begleiter** davor (Artikel, Adjektiv, Pronomen, Präposition, Zahlwort)? Dann **groß**.\n2. Steht keiner da? Dann mach die **Artikel-Adjektiv-Probe**. Geht sie, schreib **groß**.\n3. Geht sie nicht, schreib **klein**.",
+   "merke": "Erst nach dem Begleiter suchen, dann die Probe machen. Erst dann entscheiden: groß oder klein."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Welche Art von Begleiter steht vor dem Nomen? Ordne zu.",
+   "info": "Artikel: der, die, das, ein, eine. Adjektiv: beschreibt das Nomen (lecker). Pronomen: mein, sein, dieser. Präposition: mit, auf, in, bei.",
+   "paare": [
+    [
+     "die Pizza",
+     "Artikel"
+    ],
+    [
+     "leckere Pizza",
+     "Adjektiv"
+    ],
+    [
+     "seine Pizza",
+     "Pronomen"
+    ],
+    [
+     "mit Pizza",
+     "Präposition"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Tim putzt im Garten sein Fahrrad. Welches Wort ist der Begleiter des Nomens „Fahrrad“?",
+   "info": "„sein“ steht direkt vor „Fahrrad“ und gehört dazu (Pronomen). „im“ begleitet „Garten“, „putzt“ ist ein Verb.",
+   "antworten": [
+    "sein",
+    "putzt",
+    "Tim",
+    "im"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Welche Art von Begleiter ist „dieses“ in „dieses Spiel“?",
+   "info": "Wörter wie dieses, mein, unser, ihre gehören zu den Pronomen. Sie stehen vor dem Nomen und begleiten es.",
+   "antworten": [
+    "Pronomen",
+    "Artikel",
+    "Adjektiv",
+    "Präposition"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Die kleine Mara trägt ihre rote Mütze zum Bäcker. Welche Wörter sind Begleiter von Nomen? (mehrere Antworten sind richtig)",
+   "info": "Begleiter sind: Die (Artikel), kleine (Adjektiv), ihre (Pronomen), rote (Adjektiv), zum (= zu dem, Präposition und Artikel). „trägt“ ist ein Verb und kein Begleiter.",
+   "antworten": [
+    "Die",
+    "kleine",
+    "ihre",
+    "rote",
+    "zum",
+    "trägt"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Ein Begleiter steht meistens vor dem Nomen.",
+   "info": "Begleiter stehen direkt vor dem Nomen oder vor einem weiteren Begleiter: der alte Baum.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "In dem Satz „Wir spielen Fußball.“ hat „Fußball“ keinen Begleiter und ist trotzdem ein Nomen.",
+   "info": "Es steht kein Begleiter davor. Mit der Probe merkst du es aber: der spannende Fußball. Also schreibt man „Fußball“ groß.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Welche Art von Begleiter ist das Wort?",
+   "info": "der = Artikel, schöne = Adjektiv, mein = Pronomen, auf = Präposition, zwei = Zahlwort.",
+   "paare": [
+    [
+     "der",
+     "Artikel"
+    ],
+    [
+     "schöne",
+     "Adjektiv"
+    ],
+    [
+     "mein",
+     "Pronomen"
+    ],
+    [
+     "auf",
+     "Präposition"
+    ],
+    [
+     "zwei",
+     "Zahlwort"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Welche Wortgruppe enthält zwei Begleiter?",
+   "info": "„das“ (Artikel) und „schnelle“ (Adjektiv) stehen vor „Auto“. Bei „schnelle Autos“ und „das Auto“ ist es nur ein Begleiter.",
+   "antworten": [
+    "das schnelle Auto",
+    "schnelle Autos",
+    "das Auto",
+    "Auto fahren"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "Im Garten blüht die Rose. Schreibe den Artikel auf, der zu „Rose“ gehört.",
+   "info": "Der Artikel steht direkt vor dem Nomen: die Rose. „Im“ gehört zu „Garten“.",
+   "richtig": "die",
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Begleiter erkennen",
+   "frage": "In „zwölf Schüler“ ist „zwölf“ ein …",
+   "info": "Zahlwörter wie zwölf, zwanzig oder drei können Nomen begleiten. Danach steht ein groß geschriebenes Nomen.",
+   "antworten": [
+    "Zahlwort",
+    "Artikel",
+    "Pronomen",
+    "Verb"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Aus welchen zwei Wörtern besteht das verschmolzene Wort?",
+   "info": "im = in dem, beim = bei dem, zum = zu dem, zur = zu der, vom = von dem. Präposition und Artikel sind zusammengezogen.",
+   "paare": [
+    [
+     "im",
+     "in dem"
+    ],
+    [
+     "beim",
+     "bei dem"
+    ],
+    [
+     "zum",
+     "zu dem"
+    ],
+    [
+     "zur",
+     "zu der"
+    ],
+    [
+     "vom",
+     "von dem"
+    ]
+   ]
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Schreibe die lange Form dazu.",
+   "info": "ans = an das, aufs = auf das, ins = in das, fürs = für das, am = an dem.",
+   "paare": [
+    [
+     "ans",
+     "an das"
+    ],
+    [
+     "aufs",
+     "auf das"
+    ],
+    [
+     "ins",
+     "in das"
+    ],
+    [
+     "fürs",
+     "für das"
+    ],
+    [
+     "am",
+     "an dem"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Wir gehen zum Schwimmbad. Welches Wort ist Präposition und Artikel in einem Wort?",
+   "info": "„zum“ ist zu dem. Danach steht das Nomen „Schwimmbad“.",
+   "antworten": [
+    "zum",
+    "gehen",
+    "Wir",
+    "Schwimmbad"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Setze die verschmolzene Form ein.",
+   "text": "Die Katze sitzt {{am}} Fenster. Ole spielt {{im}} Garten. Mia geht {{ins}} Bett.",
+   "info": "am = an dem Fenster, im = in dem Garten, ins = in das Bett.",
+   "wortbank": [
+    "am",
+    "im",
+    "ins",
+    "beim",
+    "zum",
+    "vom"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Setze die verschmolzene Form ein.",
+   "text": "Tom geht {{zum}} Training. Seine Mutter holt ihn {{vom}} Sportplatz ab. Sie fahren dann {{zur}} Oma.",
+   "info": "zum Training = zu dem Training, vom Sportplatz = von dem Sportplatz, zur Oma = zu der Oma.",
+   "wortbank": [
+    "zum",
+    "vom",
+    "zur",
+    "beim",
+    "im",
+    "ins"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Setze die verschmolzene Form ein.",
+   "text": "Pia hilft {{beim}} Kochen. Dann schreibt sie {{fürs}} Wochenende eine Liste. Danach geht sie {{ans}} Telefon.",
+   "info": "beim = bei dem, fürs = für das, ans = an das Telefon.",
+   "wortbank": [
+    "beim",
+    "fürs",
+    "ans",
+    "zum",
+    "am",
+    "vom"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "„im“ ist ein Begleiter, weil es für „in dem“ steht.",
+   "info": "Präposition (in) und Artikel (dem) sind zu „im“ verschmolzen. Das Wort begleitet ein Nomen: im Haus.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "„im“ und „dritten“ sind Begleiter, deshalb schreibt man „Stock“ groß. „im“ bleibt mitten im Satz klein. „Mara“ ist ein Name und steht am Satzanfang.",
+   "antworten": [
+    "Mara wohnt im dritten Stock.",
+    "Mara wohnt im dritten stock.",
+    "Mara wohnt Im dritten Stock.",
+    "mara wohnt im dritten Stock."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Präposition und Artikel in einem Wort",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Beim {{Frühstück}} liest Papa die {{Zeitung}} und trinkt {{Kaffee}}.",
+   "tipp": "Suche zuerst die Begleiter. Beim Wort ohne Begleiter hilft die Artikel-Adjektiv-Probe.",
+   "info": "„Frühstück“ schreibt man groß: Begleiter „beim“ (bei dem) steht davor. „Zeitung“ schreibt man groß: Artikel „die“ steht davor. „Kaffee“ schreibt man groß: Nomen ohne Begleiter, Probe: der starke Kaffee.",
+   "wortbank": [
+    "Frühstück",
+    "Zeitung",
+    "Kaffee",
+    "frühstück",
+    "zeitung",
+    "kaffee"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "„Mut“ ist ein Nomen, denn man kann sagen: der große Mut.",
+   "info": "Die Artikel-Adjektiv-Probe geht (der große Mut). Also ist „Mut“ ein Nomen und wird großgeschrieben.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "„gern“ ist ein Nomen, denn man kann sagen: das große gern.",
+   "info": "Die Probe geht nicht: „das große gern“ ergibt keinen Sinn. „gern“ ist ein Wort, das man kleinschreibt.",
+   "richtig": false
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "Nomen oder kein Nomen? Mach die Artikel-Adjektiv-Probe.",
+   "info": "Freude (die große Freude), Zeit (die nötige Zeit) und Ruhe (die tiefe Ruhe) bestehen die Probe. Bei schnell, heute und und geht sie nicht.",
+   "paare": [
+    [
+     "Freude",
+     "Nomen"
+    ],
+    [
+     "schnell",
+     "kein Nomen"
+    ],
+    [
+     "Zeit",
+     "Nomen"
+    ],
+    [
+     "heute",
+     "kein Nomen"
+    ],
+    [
+     "Ruhe",
+     "Nomen"
+    ],
+    [
+     "und",
+     "kein Nomen"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "Der Hund hat Durst. Welches Wort ist ein Nomen ohne Begleiter?",
+   "info": "„Hund“ hat den Begleiter „Der“. Bei „Durst“ steht kein Begleiter, aber die Probe geht: der große Durst.",
+   "antworten": [
+    "Durst",
+    "Der",
+    "Hund",
+    "hat"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "In welchem Satz steht ein Nomen ohne Begleiter?",
+   "info": "„Hunde“ hat keinen Begleiter, es ist aber ein Nomen (die lauten Hunde). In den anderen Sätzen stehen der, mein oder ein davor.",
+   "antworten": [
+    "Hunde bellen.",
+    "Der Hund bellt.",
+    "Mein Hund bellt.",
+    "Ein Hund bellt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "Welcher Artikel passt bei der Probe? (der, die oder das)",
+   "info": "Die Artikel-Probe zeigt, dass es Nomen sind: die Hilfe, der Spaß, das Wetter, die Ruhe, der Mut.",
+   "paare": [
+    [
+     "Hilfe",
+     "die"
+    ],
+    [
+     "Spaß",
+     "der"
+    ],
+    [
+     "Wetter",
+     "das"
+    ],
+    [
+     "Ruhe",
+     "die"
+    ],
+    [
+     "Mut",
+     "der"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Ich habe {{Hunger}} und {{Durst}}, deshalb esse ich {{schnell}}.",
+   "info": "„Hunger“ schreibt man groß: Nomen ohne Begleiter, Probe: der große Hunger. „Durst“ schreibt man groß: Nomen ohne Begleiter, Probe: der große Durst. „schnell“ schreibt man klein: Adjektiv oder Adverb, die Probe geht nicht.",
+   "wortbank": [
+    "Hunger",
+    "Durst",
+    "schnell",
+    "hunger",
+    "durst",
+    "Schnell"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Wir brauchen {{Zeit}} und {{Geduld}}, dann klappt es {{bestimmt}}.",
+   "info": "„Zeit“ schreibt man groß: Nomen ohne Begleiter, Probe: die nötige Zeit. „Geduld“ schreibt man groß: Nomen ohne Begleiter, Probe: die nötige Geduld. „bestimmt“ schreibt man klein: Adverb, die Probe geht nicht.",
+   "wortbank": [
+    "Zeit",
+    "Geduld",
+    "bestimmt",
+    "zeit",
+    "geduld",
+    "Bestimmt"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Nomen ohne Begleiter: die Probe",
+   "frage": "Wie lautet die Artikel-Adjektiv-Probe bei „Angst“?",
+   "info": "Man setzt einen Artikel und ein Adjektiv vor das Wort: die große Angst. Das Nomen bleibt groß geschrieben.",
+   "antworten": [
+    "die große Angst",
+    "groß die Angst",
+    "die große angst",
+    "das große angst"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Im {{Keller}} steht ein {{Regal}} mit alten {{Gläsern}}.",
+   "info": "„Keller“ schreibt man groß: Begleiter „im“ (in dem). „Regal“ schreibt man groß: Artikel „ein“. „Gläsern“ schreibt man groß: Adjektiv „alten“ steht davor.",
+   "wortbank": [
+    "Keller",
+    "Regal",
+    "Gläsern",
+    "keller",
+    "regal",
+    "gläsern"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Meine {{Schwester}} spielt am {{Nachmittag}} mit dem {{Hund}} im {{Park}}.",
+   "info": "„Schwester“ schreibt man groß: Pronomen „meine“. „Nachmittag“ schreibt man groß: Begleiter „am“ (an dem). „Hund“ schreibt man groß: Artikel „dem“. „Park“ schreibt man groß: Begleiter „im“.",
+   "wortbank": [
+    "Schwester",
+    "Nachmittag",
+    "Hund",
+    "Park",
+    "schwester",
+    "nachmittag",
+    "hund",
+    "park"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Der {{Lehrer}} erklärt den {{Kindern}} die {{Aufgabe}} sehr {{genau}}.",
+   "info": "„Lehrer“ schreibt man groß: Artikel „der“. „Kindern“ schreibt man groß: Artikel „den“. „Aufgabe“ schreibt man groß: Artikel „die“. „genau“ schreibt man klein: Adverb, kein Nomen: die Probe geht nicht.",
+   "wortbank": [
+    "Lehrer",
+    "Kindern",
+    "Aufgabe",
+    "genau",
+    "lehrer",
+    "kindern",
+    "aufgabe",
+    "Genau"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Zum {{Geburtstag}} bekommt Ole ein neues {{Fahrrad}} und zwei {{Karten}}.",
+   "info": "„Geburtstag“ schreibt man groß: Begleiter „zum“ (zu dem). „Fahrrad“ schreibt man groß: Artikel „ein“ und Adjektiv „neues“ stehen davor. „Karten“ schreibt man groß: Zahlwort „zwei“ steht davor.",
+   "wortbank": [
+    "Geburtstag",
+    "Fahrrad",
+    "Karten",
+    "geburtstag",
+    "fahrrad",
+    "karten"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Die {{Katze}} schläft {{gern}} auf dem warmen {{Sofa}}.",
+   "info": "„Katze“ schreibt man groß: Artikel „die“. „gern“ schreibt man klein: Adverb, kein Nomen. „Sofa“ schreibt man groß: Artikel „dem“ und Adjektiv „warmen“ stehen davor.",
+   "wortbank": [
+    "Katze",
+    "gern",
+    "Sofa",
+    "katze",
+    "Gern",
+    "sofa"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Bei starkem {{Regen}} bleiben wir {{lieber}} im {{Haus}} und spielen ein {{Spiel}}.",
+   "info": "„Regen“ schreibt man groß: Adjektiv „starkem“ steht davor. „lieber“ schreibt man klein: Adverb, kein Nomen. „Haus“ schreibt man groß: Begleiter „im“. „Spiel“ schreibt man groß: Artikel „ein“.",
+   "wortbank": [
+    "Regen",
+    "lieber",
+    "Haus",
+    "Spiel",
+    "regen",
+    "Lieber",
+    "haus",
+    "spiel"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "In der {{Pause}} essen wir {{Brötchen}} und trinken {{Saft}}.",
+   "info": "„Pause“ schreibt man groß: Artikel „der“. „Brötchen“ schreibt man groß: Nomen ohne Begleiter, Probe: die leckeren Brötchen. „Saft“ schreibt man groß: Nomen ohne Begleiter, Probe: der kalte Saft.",
+   "wortbank": [
+    "Pause",
+    "Brötchen",
+    "Saft",
+    "pause",
+    "brötchen",
+    "saft"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Unser {{Nachbar}} hat einen {{Garten}} mit bunten {{Blumen}}.",
+   "info": "„Nachbar“ schreibt man groß: Pronomen „unser“. „Garten“ schreibt man groß: Artikel „einen“. „Blumen“ schreibt man groß: Adjektiv „bunten“ steht davor.",
+   "wortbank": [
+    "Nachbar",
+    "Garten",
+    "Blumen",
+    "nachbar",
+    "garten",
+    "blumen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Mit {{Freude}} helfen die {{Schüler}} ihrer {{Lehrerin}} im {{Klassenzimmer}}.",
+   "info": "„Freude“ schreibt man groß: Präposition „mit“ steht davor. „Schüler“ schreibt man groß: Artikel „die“. „Lehrerin“ schreibt man groß: Pronomen „ihrer“. „Klassenzimmer“ schreibt man groß: Begleiter „im“.",
+   "wortbank": [
+    "Freude",
+    "Schüler",
+    "Lehrerin",
+    "Klassenzimmer",
+    "freude",
+    "schüler",
+    "lehrerin",
+    "klassenzimmer"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Groß oder klein: einzelne Sätze",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Ich lese {{gern}} ein {{Buch}} über {{Piraten}} und große {{Schiffe}}.",
+   "info": "„gern“ schreibt man klein: Adverb, kein Nomen. „Buch“ schreibt man groß: Artikel „ein“. „Piraten“ schreibt man groß: Präposition „über“ steht davor. „Schiffe“ schreibt man groß: Adjektiv „große“ steht davor.",
+   "wortbank": [
+    "gern",
+    "Buch",
+    "Piraten",
+    "Schiffe",
+    "Gern",
+    "buch",
+    "piraten",
+    "schiffe"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Ausflug).",
+   "text": "Am {{Morgen}} packt {{Mia}} ihren {{Rucksack}}. Sie legt eine {{Flasche}} mit {{Wasser}} und zwei {{Äpfel}} hinein. Dann geht sie zum {{Bahnhof}}.",
+   "info": "„Morgen“ schreibt man groß: Begleiter „am“ (an dem). „Mia“ schreibt man groß: Name einer Person. „Rucksack“ schreibt man groß: Pronomen „ihren“. „Flasche“ schreibt man groß: Artikel „eine“. „Wasser“ schreibt man groß: Präposition „mit“. „Äpfel“ schreibt man groß: Zahlwort „zwei“. „Bahnhof“ schreibt man groß: Begleiter „zum“ (zu dem).",
+   "wortbank": [
+    "Morgen",
+    "Mia",
+    "Rucksack",
+    "Flasche",
+    "Wasser",
+    "Äpfel",
+    "Bahnhof",
+    "morgen",
+    "mia",
+    "rucksack",
+    "flasche",
+    "wasser",
+    "äpfel",
+    "bahnhof"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Im Zoo).",
+   "text": "Im {{Zoo}} sehen die {{Kinder}} einen {{Löwen}}. Er liegt {{faul}} auf einem großen {{Felsen}}. Ein {{Wärter}} bringt {{Fleisch}}.",
+   "info": "„Zoo“ schreibt man groß: Begleiter „im“ (in dem). „Kinder“ schreibt man groß: Artikel „die“. „Löwen“ schreibt man groß: Artikel „einen“. „faul“ schreibt man klein: Adjektiv, kein Nomen. „Felsen“ schreibt man groß: Artikel „einem“ und Adjektiv „großen“ stehen davor. „Wärter“ schreibt man groß: Artikel „ein“. „Fleisch“ schreibt man groß: Nomen ohne Begleiter, Probe: das frische Fleisch.",
+   "wortbank": [
+    "Zoo",
+    "Kinder",
+    "Löwen",
+    "faul",
+    "Felsen",
+    "Wärter",
+    "Fleisch",
+    "zoo",
+    "kinder",
+    "löwen",
+    "Faul",
+    "felsen",
+    "wärter",
+    "fleisch"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Die Radtour).",
+   "text": "Bei schönem {{Wetter}} fahren wir mit dem {{Rad}} zum {{See}}. Unterwegs machen wir eine {{Pause}} und essen {{Brot}} mit {{Käse}}.",
+   "info": "„Wetter“ schreibt man groß: Adjektiv „schönem“ steht davor. „Rad“ schreibt man groß: Artikel „dem“ steht davor. „See“ schreibt man groß: Begleiter „zum“ (zu dem). „Pause“ schreibt man groß: Artikel „eine“. „Brot“ schreibt man groß: Nomen ohne Begleiter, Probe: das frische Brot. „Käse“ schreibt man groß: Präposition „mit“ steht davor.",
+   "wortbank": [
+    "Wetter",
+    "Rad",
+    "See",
+    "Pause",
+    "Brot",
+    "Käse",
+    "wetter",
+    "rad",
+    "see",
+    "pause",
+    "brot",
+    "käse"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Auf dem Flohmarkt).",
+   "text": "Ole {{kauft}} auf dem {{Flohmarkt}} ein altes {{Buch}} und eine {{Mütze}}. Die {{Verkäuferin}} gibt ihm einen {{Beutel}} dazu. Seine {{Schwester}} freut sich über die {{Überraschung}}.",
+   "info": "„kauft“ schreibt man klein: Verb, kein Nomen. „Flohmarkt“ schreibt man groß: Artikel „dem“ steht davor. „Buch“ schreibt man groß: Artikel „ein“ und Adjektiv „altes“ stehen davor. „Mütze“ schreibt man groß: Artikel „eine“. „Verkäuferin“ schreibt man groß: Artikel „die“. „Beutel“ schreibt man groß: Artikel „einen“. „Schwester“ schreibt man groß: Pronomen „seine“. „Überraschung“ schreibt man groß: Artikel „die“ steht davor.",
+   "wortbank": [
+    "kauft",
+    "Flohmarkt",
+    "Buch",
+    "Mütze",
+    "Verkäuferin",
+    "Beutel",
+    "Schwester",
+    "Überraschung",
+    "Kauft",
+    "flohmarkt",
+    "buch",
+    "mütze",
+    "verkäuferin",
+    "beutel",
+    "schwester",
+    "überraschung"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Filmabend).",
+   "text": "Am {{Abend}} schauen wir einen {{Film}} im {{Wohnzimmer}}. Mama bringt {{Popcorn}} und {{Saft}}. Wir {{lachen}} {{laut}} über die {{Szenen}}.",
+   "info": "„Abend“ schreibt man groß: Begleiter „am“ (an dem). „Film“ schreibt man groß: Artikel „einen“ steht davor. „Wohnzimmer“ schreibt man groß: Begleiter „im“ (in dem). „Popcorn“ schreibt man groß: Nomen ohne Begleiter, Probe: das süße Popcorn. „Saft“ schreibt man groß: Nomen ohne Begleiter, Probe: der kalte Saft. „lachen“ schreibt man klein: Verb, kein Nomen. „laut“ schreibt man klein: Adjektiv oder Adverb, kein Nomen. „Szenen“ schreibt man groß: Artikel „die“ steht davor.",
+   "wortbank": [
+    "Abend",
+    "Film",
+    "Wohnzimmer",
+    "Popcorn",
+    "Saft",
+    "lachen",
+    "laut",
+    "Szenen",
+    "abend",
+    "film",
+    "wohnzimmer",
+    "popcorn",
+    "saft",
+    "Lachen",
+    "Laut",
+    "szenen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: In der Backstube).",
+   "text": "Der {{Bäcker}} steht schon früh am {{Morgen}} in seiner {{Backstube}}. Er {{knetet}} den {{Teig}} und schiebt die {{Brote}} in den {{Ofen}}. Der {{Duft}} zieht durch die {{Straße}}.",
+   "info": "„Bäcker“ schreibt man groß: Artikel „der“. „Morgen“ schreibt man groß: Begleiter „am“ (an dem). „Backstube“ schreibt man groß: Pronomen „seiner“ steht davor. „knetet“ schreibt man klein: Verb, kein Nomen. „Teig“ schreibt man groß: Artikel „den“ steht davor. „Brote“ schreibt man groß: Artikel „die“ steht davor. „Ofen“ schreibt man groß: Artikel „den“ steht davor. „Duft“ schreibt man groß: Artikel „der“ steht davor. „Straße“ schreibt man groß: Artikel „die“ steht davor.",
+   "wortbank": [
+    "Bäcker",
+    "Morgen",
+    "Backstube",
+    "knetet",
+    "Teig",
+    "Brote",
+    "Ofen",
+    "Duft",
+    "Straße",
+    "bäcker",
+    "morgen",
+    "backstube",
+    "Knetet",
+    "teig",
+    "brote",
+    "ofen",
+    "duft",
+    "straße"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Im Herbst).",
+   "text": "Im {{Herbst}} fallen die {{Blätter}} von den {{Bäumen}}. Die {{Kinder}} sammeln {{Kastanien}} und basteln {{Figuren}} daraus. Das {{macht}} großen {{Spaß}}.",
+   "info": "„Herbst“ schreibt man groß: Begleiter „im“ (in dem). „Blätter“ schreibt man groß: Artikel „die“ steht davor. „Bäumen“ schreibt man groß: Artikel „den“ steht davor. „Kinder“ schreibt man groß: Artikel „die“ steht davor. „Kastanien“ schreibt man groß: Nomen ohne Begleiter, Probe: die braunen Kastanien. „Figuren“ schreibt man groß: Nomen ohne Begleiter, Probe: die lustigen Figuren. „macht“ schreibt man klein: Verb, kein Nomen. „Spaß“ schreibt man groß: Adjektiv „großen“ steht davor.",
+   "wortbank": [
+    "Herbst",
+    "Blätter",
+    "Bäumen",
+    "Kinder",
+    "Kastanien",
+    "Figuren",
+    "macht",
+    "Spaß",
+    "herbst",
+    "blätter",
+    "bäumen",
+    "kinder",
+    "kastanien",
+    "figuren",
+    "Macht",
+    "spaß"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Landschulheim).",
+   "text": "Mit meiner {{Klasse}} fahre ich im {{Sommer}} ins {{Landschulheim}}. Wir wandern durch den {{Wald}}, bauen eine {{Hütte}} und kochen am {{Feuer}} unser {{Essen}}.",
+   "info": "„Klasse“ schreibt man groß: Pronomen „meiner“ steht davor. „Sommer“ schreibt man groß: Begleiter „im“ (in dem). „Landschulheim“ schreibt man groß: Begleiter „ins“ (in das). „Wald“ schreibt man groß: Artikel „den“ steht davor. „Hütte“ schreibt man groß: Artikel „eine“ steht davor. „Feuer“ schreibt man groß: Begleiter „am“ (an dem). „Essen“ schreibt man groß: Pronomen „unser“ steht davor.",
+   "wortbank": [
+    "Klasse",
+    "Sommer",
+    "Landschulheim",
+    "Wald",
+    "Hütte",
+    "Feuer",
+    "Essen",
+    "klasse",
+    "sommer",
+    "landschulheim",
+    "wald",
+    "hütte",
+    "feuer",
+    "essen"
+   ],
+   "gross": true
+  }
+ ],
+ "nachlesen": {
+  "A – Begleiter erkennen": "Nomen und ihre Begleiter",
+  "B – Präposition und Artikel in einem Wort": "Präposition und Artikel verschmolzen",
+  "C – Nomen ohne Begleiter: die Probe": "Nomen ohne Begleiter: die Probe",
+  "D – Groß oder klein: einzelne Sätze": [
+   "Nomen und ihre Begleiter",
+   "Groß oder klein bei Nomen?"
+  ],
+  "E – Kleine Texte": [
+   "Nomen und ihre Begleiter",
+   "Nomen ohne Begleiter: die Probe",
+   "Groß oder klein bei Nomen?"
+  ]
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 1,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Begleiter-Detektiv",
+  "motiv": "🔎",
+  "text": "Artikel, Adjektiv, Pronomen: Wer einen Begleiter hat, ist ein Nomen und wird großgeschrieben."
+ }
+}

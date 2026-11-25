@@ -1,0 +1,771 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-2b-satzgefuege",
+ "titel": "Deutsch Teil 2b: Das Satzgefüge",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Haupt- und Nebensatz, unterordnende Konjunktionen und ihre Bedeutung, Kommas im Satzgefüge (Nebensatz vorn, in der Mitte, hinten), Satzbaupläne und ein kleiner Relativsatz-Block (so weit wie auf der Seite „Teste dich“ im Aufgabenheft). Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Deutschbuch oder Aufgabenheft. Kommas wählst du in einer Liste aus („Komma“ oder „kein Komma“). Beim Abschreiben zählt jeder Buchstabe und jedes Komma. Relativsätze üben wir nur so weit, wie sie im Aufgabenheft („Teste dich“, S. 61) vorkommen.",
+ "lernblatt": [
+  {
+   "titel": "Hauptsatz, Nebensatz und Satzgefüge",
+   "text": "Ein **Satzgefüge** besteht aus einem **Hauptsatz** und mindestens einem **Nebensatz**.\n\n- Der **Hauptsatz** kann allein stehen. Die **Personalform** steht an **zweiter Stelle**: Ole **bleibt** zu Hause.\n- Der **Nebensatz** kann **nicht allein** stehen. Er ist dem Hauptsatz **untergeordnet**. Die **Personalform** steht am **Ende**: …, weil er krank **ist**.\n\nBeispiel: Ole bleibt zu Hause, weil er krank ist.\nIm Buch heißt es „aus mindestens einem Hauptsatz und mindestens einem Nebensatz“, im Heft „aus einem Hauptsatz und mindestens einem weiteren Nebensatz“. Beides ist richtig.",
+   "merke": "Satzgefüge = Hauptsatz + Nebensatz. Hauptsatz: Verb an zweiter Stelle. Nebensatz: Verb am Ende."
+  },
+  {
+   "titel": "Unterordnende Konjunktionen",
+   "text": "Ein Nebensatz beginnt oft mit einer **unterordnenden Konjunktion**:\n**weil, da, obwohl, damit, wenn, dass, sodass, nachdem, während, bevor, indem** (im Buch auch **als** und **bis**).\nSie haben verschiedene Bedeutungen:\n\n- **Begründung**: weil, da (Ole bleibt zu Hause, weil er krank ist.)\n- **Zeit**: nachdem, bevor, während, als, bis (Putze die Zähne, bevor du schlafen gehst.)\n- **Einschränkung**: obwohl (Wir gehen raus, obwohl es regnet.)\n- **Bedingung**: wenn (Wenn die Sonne scheint, gehen wir schwimmen.)\n- **Zweck**: damit (Ich lerne, damit ich eine gute Note bekomme.)\n- **Folge**: sodass (Es regnete so stark, sodass wir nass wurden.)\n- **Inhalt**: dass (Mia sagt, dass sie kommt.)\n- **Art und Weise**: indem (Du öffnest die Tür, indem du den Griff drückst.)",
+   "merke": "weil, da, obwohl, damit, wenn, dass, sodass, nachdem, während, bevor, indem leiten Nebensätze ein. Das Verb steht am Ende."
+  },
+  {
+   "titel": "Das Komma im Satzgefüge",
+   "text": "Zwischen Hauptsatz und Nebensatz steht **immer ein Komma**. Hier darf es nicht wegfallen.\nDer Nebensatz kann an drei Stellen stehen:\n\n- **hinten**: Wir gehen raus, obwohl es regnet. (Das Komma steht **vor** der Konjunktion.)\n- **vorn**: Obwohl es regnet, gehen wir raus. (Der Hauptsatz beginnt danach mit der **Personalform**.)\n- **in der Mitte** (eingeschoben): Wir gehen, obwohl es regnet, raus. (**Zwei** Kommas: eins davor und eins dahinter.)",
+   "merke": "Komma zwischen Haupt- und Nebensatz, immer. Eingeschobener Nebensatz: zwei Kommas. Steht der Nebensatz vorn, folgt die Personalform."
+  },
+  {
+   "titel": "Satzbaupläne",
+   "text": "Ein **Satzbauplan** zeigt, wie ein Satz aufgebaut ist. **Hs** = Hauptsatz, **Ns** = Nebensatz.\n\n- **Hs , Ns**: Ole freut sich, dass Mia kommt. (Nebensatz hinten)\n- **Ns , Hs**: Wenn die Sonne scheint, gehen wir raus. (Nebensatz vorn)\n- **Hs , Ns , Hs**: Das Kind hat, weil es Hunger hatte, einen Apfel gegessen. (Nebensatz in der Mitte; der Hauptsatz wird fortgesetzt)\n- **Hs , Hs**: Ole lacht, denn der Witz ist gut. (Satzreihe, kein Nebensatz)",
+   "merke": "Satzbaupläne: Hs , Ns – Ns , Hs – Hs , Ns , Hs. Bei einer Satzreihe: Hs , Hs."
+  },
+  {
+   "titel": "Relativsätze",
+   "text": "Ein **Relativsatz** ist ein **Nebensatz**, der mit **der, die, das** beginnt. Er bezieht sich auf ein **Nomen** davor und sagt etwas darüber:\n\n- Der Dieb, **der** eine Mütze trägt, flüchtet.\n- Die Tasche, **die** auf dem Tisch lag, war leer.\n- Das Kind, **das** lacht, heißt Ole.\n\nDas **Relativpronomen** richtet sich nach dem Nomen davor (Dieb → der, Tasche → die, Kind → das, Kinder → die). Die **Personalform** steht am **Ende**.\nDer Relativsatz wird mit **Komma** abgetrennt. Steht er mitten im Satz, setzt man **zwei Kommas**: Der Hund, der gern bellt, gehört Mia. Das ist der Plan **Hs , Ns , Hs**.",
+   "merke": "Relativsatz = Nebensatz mit der, die, das. Zwei Kommas, wenn er mitten im Satz steht."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "mc",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Wo steht die Personalform im Nebensatz?",
+   "info": "Im Nebensatz steht die Personalform an letzter Stelle (am Satzende): …, weil er krank ist.",
+   "antworten": [
+    "Am Ende",
+    "An zweiter Stelle",
+    "An erster Stelle",
+    "Direkt nach der Konjunktion"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Mia freut sich, weil die Sonne scheint. Welcher Teil ist der Nebensatz?",
+   "info": "Der Nebensatz beginnt mit der Konjunktion „weil“ und hat das Verb „scheint“ am Ende. „Mia freut sich“ ist der Hauptsatz.",
+   "antworten": [
+    "weil die Sonne scheint",
+    "Mia freut sich",
+    "die Sonne",
+    "Mia"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Ein Nebensatz kann allein stehen.",
+   "info": "Ein Nebensatz ist dem Hauptsatz untergeordnet und kann nicht allein stehen. „weil die Sonne scheint“ ist kein vollständiger Satz.",
+   "richtig": false
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Ein Satzgefüge besteht aus mindestens einem Hauptsatz und mindestens einem Nebensatz.",
+   "info": "So steht es im Merkkasten des Buchs. Im Heft heißt es „aus einem Hauptsatz und mindestens einem weiteren Nebensatz“. Beides ist richtig.",
+   "richtig": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Ole bleibt zu Hause, weil er krank ist. Schreibe die Personalform am Ende des Nebensatzes auf.",
+   "info": "Im Nebensatz steht die Personalform am Satzende: weil er krank ist.",
+   "richtig": "ist",
+   "nachsicht": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Wir gehen schwimmen, obwohl es kalt ist. Schreibe die unterordnende Konjunktion auf.",
+   "info": "„obwohl“ leitet den Nebensatz ein. Er drückt eine Einschränkung aus.",
+   "richtig": "obwohl",
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Welcher Satz ist ein Nebensatz?",
+   "info": "„weil es regnet“ beginnt mit einer Konjunktion, das Verb steht am Ende und der Satz kann nicht allein stehen.",
+   "antworten": [
+    "weil es regnet",
+    "Es regnet.",
+    "Wir bleiben zu Hause.",
+    "Der Regen fällt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Haupt- und Nebensatz",
+   "frage": "Woran erkennt man einen Nebensatz?",
+   "info": "Das sicherste Zeichen ist die Stellung der Personalform: Im Nebensatz steht sie am Satzende, im Hauptsatz an zweiter Stelle.",
+   "antworten": [
+    "Die Personalform steht am Ende.",
+    "Er beginnt immer mit einem Nomen.",
+    "Er steht immer am Satzanfang.",
+    "Er hat kein Verb."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Welche Bedeutung hat die Konjunktion?",
+   "info": "weil und da begründen, obwohl schränkt ein, nachdem nennt die Zeit, damit nennt den Zweck, sodass nennt die Folge.",
+   "paare": [
+    [
+     "weil",
+     "Begründung"
+    ],
+    [
+     "da",
+     "Begründung"
+    ],
+    [
+     "obwohl",
+     "Einschränkung"
+    ],
+    [
+     "nachdem",
+     "Zeit"
+    ],
+    [
+     "damit",
+     "Zweck"
+    ],
+    [
+     "sodass",
+     "Folge"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Welche Wörter sind unterordnende Konjunktionen? (mehrere Antworten sind richtig)",
+   "info": "weil, obwohl, damit und nachdem leiten Nebensätze ein. „denn“ und „aber“ verbinden Hauptsätze.",
+   "antworten": [
+    "weil",
+    "obwohl",
+    "damit",
+    "nachdem",
+    "denn",
+    "aber"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Welche Konjunktion passt? Wir gehen spazieren, … es regnet.",
+   "info": "Es regnet, trotzdem gehen wir spazieren. Das ist eine Einschränkung: obwohl.",
+   "antworten": [
+    "obwohl",
+    "weil",
+    "damit",
+    "nachdem"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Welche Konjunktion passt? Ole übt jeden Tag, … er besser wird.",
+   "info": "Das Üben hat einen Zweck, nämlich besser zu werden: damit.",
+   "antworten": [
+    "damit",
+    "obwohl",
+    "nachdem",
+    "bevor"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Ergänze die passende Konjunktion.",
+   "text": "Ich lerne, {{damit}} ich eine gute Note bekomme. Er lacht, {{weil}} der Witz lustig ist. Wir spielen draußen, {{obwohl}} es kalt ist.",
+   "info": "damit nennt den Zweck, weil die Begründung, obwohl die Einschränkung.",
+   "wortbank": [
+    "damit",
+    "weil",
+    "obwohl",
+    "nachdem",
+    "bevor"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Ergänze die passende Konjunktion.",
+   "text": "Mia putzt die Zähne, {{bevor}} sie ins Bett geht. Wir essen Eis, {{nachdem}} wir geschwommen sind. Er singt, {{während}} er kocht.",
+   "info": "bevor = vor einer Handlung, nachdem = nach einer Handlung, während = gleichzeitig.",
+   "wortbank": [
+    "bevor",
+    "nachdem",
+    "während",
+    "weil",
+    "damit"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "„denn“ und „weil“ nennen beide eine Begründung, verlangen aber eine andere Wortstellung.",
+   "info": "Nach „denn“ steht ein Hauptsatz (… denn ich bin müde), nach „weil“ ein Nebensatz (… weil ich müde bin).",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Welcher Satz ist richtig?",
+   "info": "Im Nebensatz steht die Personalform „bin“ am Ende. Vor „weil“ steht ein Komma.",
+   "antworten": [
+    "Ich bleibe zu Hause, weil ich müde bin.",
+    "Ich bleibe zu Hause, weil ich bin müde.",
+    "Ich bleibe zu Hause, weil bin ich müde.",
+    "Ich bleibe zu Hause weil ich müde bin."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Was drückt „obwohl“ aus?",
+   "info": "Mit „obwohl“ nennt man etwas, das gegen die Erwartung gilt: Wir gehen raus, obwohl es regnet.",
+   "antworten": [
+    "eine Einschränkung",
+    "eine Begründung",
+    "einen Zweck",
+    "einen Zeitpunkt"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Unterordnende Konjunktionen",
+   "frage": "Mit „weil“ und „denn“ kann man dieselbe Begründung ausdrücken: …, denn ich bin müde. / …, weil ich müde bin.",
+   "info": "Beide Sätze haben denselben Sinn. Der Satz mit „denn“ ist eine Satzreihe, der Satz mit „weil“ ein Satzgefüge.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ole bleibt zu Hause {{Komma}} weil er krank ist.",
+   "info": "Vor „weil“ steht immer ein Komma: Haupt- und Nebensatz werden getrennt.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Mia lacht {{Komma}} obwohl der Witz nicht lustig ist.",
+   "info": "Vor „obwohl“ steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Wir gehen schwimmen {{Komma}} wenn die Sonne scheint.",
+   "info": "Vor „wenn“ steht ein Komma, wenn der Nebensatz hinten steht.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Nachdem wir gegessen haben {{Komma}} spielen wir Fußball.",
+   "info": "Steht der Nebensatz vorn, folgt das Komma hinter dem Nebensatz (vor der Personalform des Hauptsatzes).",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Weil es regnet {{Komma}} bleiben wir drinnen.",
+   "info": "Nach dem Nebensatz „Weil es regnet“ steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ich putze die Zähne {{Komma}} bevor ich ins Bett gehe.",
+   "info": "Vor „bevor“ steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Der Hund bellt {{Komma}} damit niemand näher kommt.",
+   "info": "Vor „damit“ steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Meine Schwester sagt {{Komma}} dass sie Hunger hat.",
+   "info": "Auch vor „dass“ steht ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Wann steht im Satzgefüge ein Komma?",
+   "info": "Zwischen Haupt- und Nebensatz muss immer ein Komma stehen, egal ob der Nebensatz vorn, in der Mitte oder hinten steht.",
+   "antworten": [
+    "Immer zwischen Hauptsatz und Nebensatz.",
+    "Nur vor „und“.",
+    "Nie.",
+    "Nur nach dem Nebensatz am Ende des Satzes."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Zwischen Haupt- und Nebensatz darf das Komma wegfallen.",
+   "info": "Das gilt nur für „und“ und „oder“ in der Satzreihe. Zwischen Hauptsatz und Nebensatz muss das Komma stehen.",
+   "richtig": false
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Schreibe den Satz mit dem richtigen Komma ab: Ich gehe nach Hause weil ich müde bin.",
+   "info": "Das Komma steht vor „weil“, direkt zwischen Hauptsatz und Nebensatz.",
+   "richtig": "Ich gehe nach Hause, weil ich müde bin.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Schreibe den Satz mit dem richtigen Komma ab: Wenn die Sonne scheint gehen wir in den Park.",
+   "info": "Der Nebensatz steht vorn. Das Komma steht hinter dem Nebensatz, vor „gehen“.",
+   "richtig": "Wenn die Sonne scheint, gehen wir in den Park.",
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Das Komma im Satzgefüge",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "Der Nebensatz steht vorn, danach steht das Komma. Der Hauptsatz beginnt mit der Personalform „gehen“.",
+   "antworten": [
+    "Obwohl es kalt ist, gehen wir raus.",
+    "Obwohl es kalt ist gehen wir raus.",
+    "Obwohl, es kalt ist gehen wir raus.",
+    "Obwohl es kalt ist gehen, wir raus."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Wo steht der Nebensatz?",
+   "info": "Vorn: Der Satz beginnt mit der Konjunktion. Hinten: Der Satz endet mit dem Nebensatz. In der Mitte: Der Nebensatz ist in den Hauptsatz eingeschoben (zwei Kommas).",
+   "paare": [
+    [
+     "Weil es regnet, bleiben wir zu Hause.",
+     "Nebensatz vorn"
+    ],
+    [
+     "Wir bleiben zu Hause, weil es regnet.",
+     "Nebensatz hinten"
+    ],
+    [
+     "Wir bleiben, weil es regnet, zu Hause.",
+     "Nebensatz in der Mitte"
+    ],
+    [
+     "Obwohl er müde war, ging er laufen.",
+     "Nebensatz vorn"
+    ],
+    [
+     "Er ging laufen, obwohl er müde war.",
+     "Nebensatz hinten"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Mia hat {{Komma}} weil sie Durst hatte {{Komma}} ein Glas Wasser getrunken.",
+   "info": "Der Nebensatz ist eingeschoben. Deshalb stehen zwei Kommas: eins davor und eins dahinter.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Wir sind {{Komma}} obwohl es regnete {{Komma}} spazieren gegangen.",
+   "info": "Der Nebensatz „obwohl es regnete“ steht in der Mitte. Er wird von zwei Kommas eingeschlossen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Mama hat {{Komma}} damit wir pünktlich kommen {{Komma}} den Wecker gestellt.",
+   "info": "Auch hier ist der Nebensatz eingeschoben: zwei Kommas.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Wie beginnt der Hauptsatz, wenn der Nebensatz vorn steht?",
+   "info": "Beispiel: Weil es regnet, bleiben wir zu Hause. Nach dem Komma steht zuerst die Personalform „bleiben“.",
+   "antworten": [
+    "Mit der Personalform",
+    "Mit einem Nomen",
+    "Mit einer Konjunktion",
+    "Mit einem Komma"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Beginne mit dem Nebensatz: Ich ziehe eine Jacke an, weil es kalt ist. Welcher Satz ist richtig?",
+   "info": "Der Nebensatz steht vorn, dahinter folgt ein Komma und der Hauptsatz beginnt mit der Personalform „ziehe“. Der Sinn bleibt gleich.",
+   "antworten": [
+    "Weil es kalt ist, ziehe ich eine Jacke an.",
+    "Weil es kalt ist, ich ziehe eine Jacke an.",
+    "Weil es kalt ist ziehe ich eine Jacke an.",
+    "Weil ich eine Jacke anziehe, ist es kalt."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Beginne mit dem Nebensatz: Wir spielen draußen, obwohl es kalt ist.",
+   "info": "Der Nebensatz kommt nach vorn, dann das Komma, dann der Hauptsatz mit der Personalform an erster Stelle: Obwohl es kalt ist, spielen wir draußen.",
+   "richtig": "Obwohl es kalt ist, spielen wir draußen.",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Nebensatz vorn, in der Mitte, hinten",
+   "frage": "Beginne mit dem Nebensatz: Ole putzt die Zähne, bevor er ins Bett geht.",
+   "info": "Nebensatz vorn, Komma, Hauptsatz mit der Personalform: Bevor er ins Bett geht, putzt Ole die Zähne.",
+   "richtig": "Bevor er ins Bett geht, putzt Ole die Zähne.",
+   "gross": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Welcher Satzbauplan passt?",
+   "info": "Hs = Hauptsatz, Ns = Nebensatz. Steht der Nebensatz hinten, ist es „Hs , Ns“, vorn „Ns , Hs“, in der Mitte „Hs , Ns , Hs“.",
+   "paare": [
+    [
+     "Ich bleibe zu Hause, weil ich müde bin.",
+     "Hs , Ns"
+    ],
+    [
+     "Weil ich müde bin, bleibe ich zu Hause.",
+     "Ns , Hs"
+    ],
+    [
+     "Ich bleibe, weil ich müde bin, zu Hause.",
+     "Hs , Ns , Hs"
+    ],
+    [
+     "Wir spielen, obwohl es regnet.",
+     "Hs , Ns"
+    ],
+    [
+     "Nachdem wir gegessen hatten, gingen wir raus.",
+     "Ns , Hs"
+    ],
+    [
+     "Mia hat, damit sie pünktlich ist, den Wecker gestellt.",
+     "Hs , Ns , Hs"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Welcher Satzbauplan passt zu: Wenn die Sonne scheint, gehen wir raus.?",
+   "info": "Der Nebensatz „Wenn die Sonne scheint“ steht vorn, danach folgt der Hauptsatz.",
+   "antworten": [
+    "Ns , Hs",
+    "Hs , Ns",
+    "Hs , Ns , Hs",
+    "Hs , Hs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Welcher Satzbauplan passt zu: Ole freut sich, dass Mia kommt.?",
+   "info": "Der Hauptsatz „Ole freut sich“ steht vorn, der Nebensatz „dass Mia kommt“ steht hinten.",
+   "antworten": [
+    "Hs , Ns",
+    "Ns , Hs",
+    "Hs , Ns , Hs",
+    "Hs , Hs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Welcher Satzbauplan passt zu: Das Kind hat, weil es Hunger hatte, einen Apfel gegessen.?",
+   "info": "Der Nebensatz ist in den Hauptsatz eingeschoben, der Hauptsatz wird danach fortgesetzt.",
+   "antworten": [
+    "Hs , Ns , Hs",
+    "Hs , Ns",
+    "Ns , Hs",
+    "Hs , Hs"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Welcher Satz passt zum Plan „Ns , Hs“?",
+   "info": "Bei „Ns , Hs“ steht der Nebensatz vorn. Der Hauptsatz folgt mit der Personalform an erster Stelle.",
+   "antworten": [
+    "Als der Regen aufhörte, gingen wir raus.",
+    "Wir gingen raus, als der Regen aufhörte.",
+    "Wir gingen, als der Regen aufhörte, raus.",
+    "Wir gingen raus, und der Regen hörte auf."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Beim Plan „Hs , Ns , Hs“ steht der Nebensatz in der Mitte des Hauptsatzes.",
+   "info": "Der Hauptsatz wird durch den Nebensatz unterbrochen und danach fortgesetzt. Davor und dahinter steht ein Komma.",
+   "richtig": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Benenne die Teile des Satzes: Weil es regnet, bleiben wir zu Hause.",
+   "info": "Der Nebensatz beginnt mit der Konjunktion „weil“ und hat die Personalform „regnet“ am Ende. Im Hauptsatz steht „bleiben“ an erster Stelle des Satzteils.",
+   "paare": [
+    [
+     "Weil es regnet",
+     "Nebensatz"
+    ],
+    [
+     "bleiben wir zu Hause",
+     "Hauptsatz"
+    ],
+    [
+     "weil",
+     "Konjunktion"
+    ],
+    [
+     "bleiben",
+     "Personalform im Hauptsatz"
+    ],
+    [
+     "regnet",
+     "Personalform im Nebensatz"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Satzbaupläne",
+   "frage": "Ergänze den Satzbauplan mit Hs (Hauptsatz) und Ns (Nebensatz).",
+   "text": "Ich lache, weil es lustig ist: {{Hs}} , {{Ns}}\nWeil es lustig ist, lache ich: {{Ns}} , {{Hs}}",
+   "info": "Im ersten Satz steht der Hauptsatz vorn, im zweiten der Nebensatz.",
+   "wortbank": [
+    "Hs",
+    "Ns"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Welches Relativpronomen passt? Der Hund, … bellt, gehört Mia.",
+   "info": "„Hund“ ist männlich (der Hund), deshalb beginnt der Relativsatz mit „der“.",
+   "antworten": [
+    "der",
+    "die",
+    "das",
+    "dem"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Welches Relativpronomen passt? Die Tasche, … auf dem Tisch lag, war leer.",
+   "info": "„Tasche“ ist weiblich (die Tasche), deshalb „die“.",
+   "antworten": [
+    "die",
+    "der",
+    "das",
+    "dem"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Welches Relativpronomen passt? Das Kind, … lacht, heißt Ole.",
+   "info": "„Kind“ ist sächlich (das Kind), deshalb „das“.",
+   "antworten": [
+    "das",
+    "der",
+    "die",
+    "dem"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Welches Relativpronomen passt? Die Kinder, … am Teich spielen, sind laut.",
+   "info": "„Kinder“ steht in der Mehrzahl, dafür gilt „die“.",
+   "antworten": [
+    "die",
+    "der",
+    "das",
+    "dem"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Der Hund {{Komma}} der gern bellt {{Komma}} gehört Mia.",
+   "info": "Der Relativsatz „der gern bellt“ steht mitten im Satz. Er wird von zwei Kommas eingeschlossen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Das Mädchen {{Komma}} das gerade lacht {{Komma}} heißt Pia.",
+   "info": "Der Relativsatz steht in der Mitte, deshalb zwei Kommas.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Verbinde mit einem Relativsatz: Der Dieb flüchtet. Der Dieb trägt eine Mütze.",
+   "info": "Der zweite Satz wird zum Relativsatz „der eine Mütze trägt“ und mitten in den ersten Satz eingeschoben (zwei Kommas, Personalform am Ende).",
+   "richtig": "Der Dieb, der eine Mütze trägt, flüchtet.",
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "F – Relativsätze (nur das Wichtigste)",
+   "frage": "Welchen Satzbauplan hat: Der Dieb, der eine Mütze trägt, flüchtet.?",
+   "info": "Der Relativsatz ist ein Nebensatz und steht mitten im Hauptsatz: „Der Dieb … flüchtet“ ist der Hauptsatz.",
+   "antworten": [
+    "Hs , Ns , Hs",
+    "Hs , Ns",
+    "Ns , Hs",
+    "Hs , Hs"
+   ],
+   "richtig": 0
+  }
+ ],
+ "nachlesen": {
+  "A – Haupt- und Nebensatz": "Hauptsatz, Nebensatz und Satzgefüge",
+  "B – Unterordnende Konjunktionen": "Unterordnende Konjunktionen",
+  "C – Das Komma im Satzgefüge": "Das Komma im Satzgefüge",
+  "D – Nebensatz vorn, in der Mitte, hinten": "Das Komma im Satzgefüge",
+  "E – Satzbaupläne": "Satzbaupläne",
+  "F – Relativsätze (nur das Wichtigste)": "Relativsätze"
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 5,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Satzgefüge-Knacker",
+  "motiv": "🧩",
+  "text": "Hauptsatz plus Nebensatz: Das Verb steht am Ende und davor steht das Komma."
+ }
+}

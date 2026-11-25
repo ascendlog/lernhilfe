@@ -1,0 +1,458 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-probearbeit",
+ "titel": "Deutsch Klasse 6: Probearbeit (Nominalisierung, Satzreihe und Satzgefüge, Diktat)",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Eigene Probearbeit mit 51 Punkten in drei Teilen (A Nominalisierung: groß oder klein 23, B Satzreihe, Satzgefüge und Komma 14, C Diktat und Rechtschreibung 14), 45 Minuten mit Timer, Buch und Heft zu. Alle Aufgaben sind neu. Wo Punkte fehlen, geh in das passende Übungspaket zurück.",
+ "hinweis": "Das ist nicht die Klassenarbeit deines Lehrers, sondern eine eigene Probearbeit unter Prüfungsbedingungen. Dauer, Aufbau und Diktattext der echten Arbeit sind nicht bekannt, deshalb sind Aufbau, Punkte und Zeit selbst festgelegt. Lege Buch, Heft und Regelheft weg und vergleiche erst am Ende mit den Lösungen. Für das Diktat liest ein Elternteil vor (oder tippe auf „Anhören“). Welche Note es für welche Punktzahl gibt, bestimmt dein Lehrer.",
+ "aufgaben": [
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 1: Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise. (4 Punkte)",
+   "text": "Nach dem {{Frühstück}} packt {{Ole}} seine {{Tasche}} und geht zum {{Bus}}.",
+   "info": "„Frühstück“ schreibt man groß: Begleiter „dem“ (nach dem) steht davor. „Ole“ schreibt man groß: Name einer Person. „Tasche“ schreibt man groß: Pronomen „seine“ steht davor. „Bus“ schreibt man groß: Begleiter „zum“ (zu dem).",
+   "wortbank": [
+    "Frühstück",
+    "Ole",
+    "Tasche",
+    "Bus",
+    "frühstück",
+    "ole",
+    "tasche",
+    "bus"
+   ],
+   "gross": true,
+   "lesen": [
+    {
+     "paket": "deutsch-1a-nomen-begleiter",
+     "titel": "Nomen und ihre Begleiter"
+    },
+    {
+     "paket": "deutsch-1a-nomen-begleiter",
+     "titel": "Groß oder klein bei Nomen?"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 2: Welcher Satz ist richtig geschrieben?",
+   "info": "„Beim“ steht vor „Schwimmen“, das Verb ist nominalisiert und wird großgeschrieben. „viel Spaß“: Spaß ist ein Nomen.",
+   "antworten": [
+    "Beim Schwimmen hat Tim viel Spaß.",
+    "Beim schwimmen hat Tim viel Spaß.",
+    "Beim Schwimmen hat Tim viel spaß."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "deutsch-1b-nominalisierte-verben",
+    "titel": "Verben als Nomen"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 3: Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise. (4 Punkte)",
+   "text": "Zum {{Lernen}} braucht Mia {{Ruhe}}. Beim {{Rechnen}} hilft ihr der {{Taschenrechner}}.",
+   "info": "„Lernen“ schreibt man groß: Begleiter „zum“ (zu dem). „Ruhe“ schreibt man groß: Nomen ohne Begleiter, Probe: die große Ruhe. „Rechnen“ schreibt man groß: Begleiter „beim“ (bei dem). „Taschenrechner“ schreibt man groß: Artikel „der“ steht davor.",
+   "wortbank": [
+    "Lernen",
+    "Ruhe",
+    "Rechnen",
+    "Taschenrechner",
+    "lernen",
+    "ruhe",
+    "rechnen",
+    "taschenrechner"
+   ],
+   "gross": true,
+   "lesen": [
+    {
+     "paket": "deutsch-1b-nominalisierte-verben",
+     "titel": "Die Begleiter erkennen"
+    },
+    {
+     "paket": "deutsch-1a-nomen-begleiter",
+     "titel": "Nomen ohne Begleiter: die Probe"
+    }
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 4: Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise. (3 Punkte)",
+   "text": "Ole hat etwas {{Besonderes}} erlebt und erzählt {{alles}} {{Interessante}}.",
+   "info": "„Besonderes“ schreibt man groß: Signalwort „etwas“ steht davor. „alles“ schreibt man klein: Indefinitpronomen, bleibt klein. „Interessante“ schreibt man groß: Signalwort „alles“ steht davor.",
+   "wortbank": [
+    "Besonderes",
+    "alles",
+    "Interessante",
+    "besonderes",
+    "Alles",
+    "interessante"
+   ],
+   "gross": true,
+   "lesen": [
+    {
+     "paket": "deutsch-1c-nominalisierte-adjektive-superlativ",
+     "titel": "Adjektive als Nomen"
+    },
+    {
+     "paket": "deutsch-1c-nominalisierte-adjektive-superlativ",
+     "titel": "Indefinitpronomen"
+    }
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 5: Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise. (3 Punkte)",
+   "text": "Im Zoo läuft der Gepard am {{schnellsten}}. Das {{Schönste}} aber sind die {{Pinguine}}.",
+   "info": "„schnellsten“ schreibt man klein: Superlativ mit „am“ bleibt klein. „Schönste“ schreibt man groß: Artikel „das“ steht davor. „Pinguine“ schreibt man groß: Artikel „die“ steht davor.",
+   "wortbank": [
+    "schnellsten",
+    "Schönste",
+    "Pinguine",
+    "Schnellsten",
+    "schönste",
+    "pinguine"
+   ],
+   "gross": true,
+   "lesen": {
+    "paket": "deutsch-1c-nominalisierte-adjektive-superlativ",
+    "titel": "Superlativ mit „am“ oder nominalisiert?"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 6: Welche Wörter schreibt man in diesem Satz groß? wir hoffen auf ein baldiges wiedersehen und wünschen euch alles gute. (mehrere Antworten sind richtig) (2 Punkte)",
+   "info": "Groß: Wiedersehen (Begleiter „ein baldiges“) und Gute (Signalwort „alles“). „baldiges“ ist ein Adjektiv vor einem Nomen und bleibt klein, „hoffen“ ist ein Verb.",
+   "antworten": [
+    "wiedersehen",
+    "gute",
+    "baldiges",
+    "hoffen"
+   ],
+   "richtig": [
+    0,
+    1
+   ],
+   "punkte": 2,
+   "lesen": [
+    {
+     "paket": "deutsch-1b-nominalisierte-verben",
+     "titel": "Die Begleiter erkennen"
+    },
+    {
+     "paket": "deutsch-1c-nominalisierte-adjektive-superlativ",
+     "titel": "Indefinitpronomen"
+    }
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 7: Schreibe den Satz richtig auf: „beim tauchen sah ole etwas buntes.“ (2 Punkte)",
+   "info": "„Beim Tauchen“ ist ein nominalisiertes Verb. „etwas Buntes“ ist ein nominalisiertes Adjektiv. „Ole“ ist ein Name.",
+   "richtig": "Beim Tauchen sah Ole etwas Buntes.",
+   "gross": true,
+   "punkte": 2,
+   "lesen": [
+    {
+     "paket": "deutsch-1b-nominalisierte-verben",
+     "titel": "Verben als Nomen"
+    },
+    {
+     "paket": "deutsch-1c-nominalisierte-adjektive-superlativ",
+     "titel": "Adjektive als Nomen"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 8: Welcher Satz ist richtig geschrieben?",
+   "info": "„Das Laufen“ ist ein nominalisiertes Verb mit Artikel. In „laufen gehen“ bleibt „laufen“ ein Verb und wird kleingeschrieben.",
+   "antworten": [
+    "Das Laufen im Wald macht Mia Spaß.",
+    "Das laufen im Wald macht Mia Spaß.",
+    "Mia will im Wald Laufen gehen."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "deutsch-1b-nominalisierte-verben",
+    "titel": "Fallen: Verb bleibt Verb"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
+   "frage": "Aufgabe 9: Verb oder Nomen? Ziehe in jede Lücke das Wort in der richtigen Schreibweise. (3 Punkte)",
+   "text": "Ole kann gut {{schwimmen}}. Das {{Schwimmen}} macht ihm Freude. Er will morgen wieder {{schwimmen}} gehen.",
+   "info": "Im ersten und dritten Satz ist „schwimmen“ ein Verb (kann gut schwimmen, schwimmen gehen) und wird kleingeschrieben. Im zweiten Satz steht der Artikel „Das“ davor, das Verb ist nominalisiert.",
+   "wortbank": [
+    "schwimmen",
+    "Schwimmen"
+   ],
+   "gross": true,
+   "lesen": {
+    "paket": "deutsch-1b-nominalisierte-verben",
+    "titel": "Fallen: Verb bleibt Verb"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil B – Satzreihe, Satzgefüge und Komma (14 Punkte)",
+   "frage": "Aufgabe 10: Welche Aussage passt zu dem Satz „Es regnet, aber wir gehen trotzdem hinaus.“?",
+   "info": "Beide Teile könnten allein stehen und haben die Personalform an zweiter Stelle (regnet, gehen). „aber“ ist eine nebenordnende Konjunktion. Also ist es eine Satzreihe.",
+   "antworten": [
+    "Eine Satzreihe: zwei Hauptsätze, durch „aber“ verbunden.",
+    "Ein Satzgefüge: ein Hauptsatz und ein Nebensatz.",
+    "Ein einfacher Satz mit nur einem Verb.",
+    "Ein Satzgefüge mit einem Relativsatz."
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "deutsch-2a-satzreihe",
+    "titel": "Hauptsatz und Satzreihe"
+   }
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil B – Satzreihe, Satzgefüge und Komma (14 Punkte)",
+   "frage": "Aufgabe 11: Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“. (3 Punkte)",
+   "text": "Wir bleiben zu Hause {{Komma}} weil es regnet. Ole liest ein Buch {{Komma}} denn er mag Geschichten. Mia malt ein Bild {{Komma|kein Komma}} und ihr Bruder baut mit Klötzen.",
+   "info": "Vor „weil“ (Nebensatz) und vor „denn“ (Satzreihe) steht immer ein Komma. Vor „und“ zwischen zwei Hauptsätzen darf das Komma wegfallen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "lesen": [
+    {
+     "paket": "deutsch-2a-satzreihe",
+     "titel": "Das Komma in der Satzreihe"
+    },
+    {
+     "paket": "deutsch-2b-satzgefuege",
+     "titel": "Das Komma im Satzgefüge"
+    }
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil B – Satzreihe, Satzgefüge und Komma (14 Punkte)",
+   "frage": "Aufgabe 12: Wo gehört ein Komma hin? Wähle bei jeder Lücke „Komma“ oder „kein Komma“. (2 Punkte)",
+   "text": "Der Hund {{Komma}} der im Garten spielt {{Komma}} gehört unserem Nachbarn.",
+   "info": "Der Relativsatz „der im Garten spielt“ steht mitten im Hauptsatz und wird vorn und hinten mit einem Komma abgetrennt.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "lesen": {
+    "paket": "deutsch-2b-satzgefuege",
+    "titel": "Relativsätze"
+   },
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil B – Satzreihe, Satzgefüge und Komma (14 Punkte)",
+   "frage": "Aufgabe 13: Ich bleibe zu Hause. Ich bin krank. Welche Konjunktion macht daraus ein Satzgefüge?",
+   "info": "„weil“ ist unterordnend und leitet einen Nebensatz ein: Ich bleibe zu Hause, weil ich krank bin. „und“, „aber“ und „denn“ verbinden Hauptsätze zu einer Satzreihe.",
+   "antworten": [
+    "weil",
+    "und",
+    "aber",
+    "denn"
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "deutsch-2b-satzgefuege",
+    "titel": "Unterordnende Konjunktionen"
+   }
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil B – Satzreihe, Satzgefüge und Komma (14 Punkte)",
+   "frage": "Aufgabe 14: Satzreihe oder Satzgefüge? Ordne zu. (4 Punkte)",
+   "info": "Verbprobe: Steht die Personalform im zweiten Teil an zweiter Stelle (denn das Buch ist …, und Ole spielt …), ist es eine Satzreihe. Steht sie am Ende (weil das Buch spannend ist, dass Mia singt), ist es ein Nebensatz.",
+   "paare": [
+    [
+     "Ich lese, denn das Buch ist spannend.",
+     "Satzreihe"
+    ],
+    [
+     "Ich lese, weil das Buch spannend ist.",
+     "Satzgefüge"
+    ],
+    [
+     "Mia singt, und Ole spielt Gitarre.",
+     "Satzreihe"
+    ],
+    [
+     "Ole freut sich, dass Mia singt.",
+     "Satzgefüge"
+    ]
+   ],
+   "lesen": {
+    "paket": "deutsch-2c-satzreihe-oder-satzgefuege",
+    "titel": "Satzreihe oder Satzgefüge? Die Verbprobe"
+   }
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Teil B – Satzreihe, Satzgefüge und Komma (14 Punkte)",
+   "frage": "Aufgabe 15: Verbinde die Sätze mit „weil“: Ole bleibt zu Hause. Er ist krank. (2 Punkte)",
+   "info": "Der Nebensatz mit „weil“ hat die Personalform am Ende (er krank ist). Zwischen Hauptsatz und Nebensatz steht ein Komma. Der Nebensatz darf auch vorn stehen.",
+   "richtig": [
+    "Ole bleibt zu Hause, weil er krank ist.",
+    "Weil er krank ist, bleibt Ole zu Hause."
+   ],
+   "gross": true,
+   "punkte": 2,
+   "lesen": {
+    "paket": "deutsch-2c-satzreihe-oder-satzgefuege",
+    "titel": "Umformen und Satzbaupläne"
+   }
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil B – Satzreihe, Satzgefüge und Komma (14 Punkte)",
+   "frage": "Aufgabe 16: Welcher Satzbauplan passt zu „Ich freue mich, dass du kommst.“?",
+   "info": "„Ich freue mich“ ist der Hauptsatz (Hs), „dass du kommst“ der Nebensatz (Ns). Der Hauptsatz steht vorn, dann folgt ein Komma und der Nebensatz.",
+   "antworten": [
+    "Hs , Ns",
+    "Ns , Hs",
+    "Hs , Hs",
+    "Hs , Ns , Hs"
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "deutsch-2b-satzgefuege",
+    "titel": "Satzbaupläne"
+   }
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "Teil C – Diktat und Rechtschreibung (14 Punkte)",
+   "frage": "Aufgabe 17: Diktat: Ein Elternteil liest den Text vor (oder tippe auf „Anhören“). Schreibe ihn auf und vergleiche erst danach mit der Musterlösung. (6 Punkte)",
+   "info": "Zähle deine Fehler. Ordne jeden Fehler einer Fehlerart zu und übe sie im passenden Übungspaket.",
+   "punkte": 6,
+   "muster": "Am Sonntag backt Mama mit uns einen Kuchen. Beim Rühren darf jeder etwas Eigenes beitragen, denn das Schönste ist das gemeinsame Backen. Ole holt die Eier, die im Keller liegen. Danach riecht es im Haus nach etwas Süßem.",
+   "kriterien": [
+    "Die Nominalisierungen sind großgeschrieben (Beim Rühren, etwas Eigenes, Das Schönste, das gemeinsame Backen, etwas Süßem).",
+    "Die Kommas vor „denn“ und vor und nach dem Relativsatz stehen richtig.",
+    "Wörter wie Keller, Eier und Kuchen sind richtig geschrieben.",
+    "Satzanfänge und Nomen sind großgeschrieben, Verben und Adjektive kleingeschrieben."
+   ],
+   "vorlesen": {
+    "text": "Am Sonntag backt Mama mit uns einen Kuchen. Beim Rühren darf jeder etwas Eigenes beitragen, denn das Schönste ist das gemeinsame Backen. Ole holt die Eier, die im Keller liegen. Danach riecht es im Haus nach etwas Süßem.",
+    "sprache": "de-DE"
+   },
+   "lesen": [
+    {
+     "paket": "deutsch-3c-diktat-ueben",
+     "titel": "So gehst du beim Diktat vor"
+    },
+    {
+     "paket": "deutsch-1b-nominalisierte-verben",
+     "titel": "Verben als Nomen"
+    }
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Teil C – Diktat und Rechtschreibung (14 Punkte)",
+   "frage": "Aufgabe 18: Schreibe die Wörter richtig auf. (4 Punkte)",
+   "text": "Die {{Katze}} sitzt im {{Keller}}, und die {{Mäuse}} suchen den {{Weg}}.",
+   "info": "Kat-ze (tz statt zz), Keller (kein verwandtes Wort mit a, ll nach kurzem Vokal), Mäuse – Maus (äu), Weg – Wege (g).",
+   "wortbank": [
+    "Katze",
+    "Keller",
+    "Mäuse",
+    "Weg",
+    "Kaze",
+    "Käller",
+    "Meuse",
+    "Wek"
+   ],
+   "gross": true,
+   "lesen": [
+    {
+     "paket": "deutsch-3a-rechtschreibung-1",
+     "titel": "Doppelkonsonanten, ck und tz"
+    },
+    {
+     "paket": "deutsch-3b-rechtschreibung-2",
+     "titel": "Ableiten: e oder ä, eu oder äu"
+    },
+    {
+     "paket": "deutsch-3b-rechtschreibung-2",
+     "titel": "Verlängern: b/p, d/t, g/k"
+    }
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Teil C – Diktat und Rechtschreibung (14 Punkte)",
+   "frage": "Aufgabe 19: Welches Wort ist richtig geschrieben? Ole … heute sein Zimmer aufräumen.",
+   "info": "müs-sen: Die erste Silbe ist geschlossen, der Vokal ist kurz, der Laut zischt. Also steht ss: er muss.",
+   "antworten": [
+    "muss",
+    "mus",
+    "muß"
+   ],
+   "richtig": 0,
+   "lesen": {
+    "paket": "deutsch-3a-rechtschreibung-1",
+    "titel": "s, ss oder ß?"
+   }
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "Teil C – Diktat und Rechtschreibung (14 Punkte)",
+   "frage": "Aufgabe 20: Welche Strategie hilft dir bei dem Wort? (3 Punkte)",
+   "info": "Handtuch: erst zerlegen (Hand + Tuch), dann Hand verlängern (Hände). Bäume: ableiten (Baum). Korb: verlängern (Körbe).",
+   "paare": [
+    [
+     "Handtuch",
+     "zerlegen und verlängern"
+    ],
+    [
+     "Bäume",
+     "ableiten"
+    ],
+    [
+     "Korb",
+     "verlängern"
+    ]
+   ],
+   "lesen": {
+    "paket": "deutsch-3b-rechtschreibung-2",
+    "titel": "Welche Strategie hilft?"
+   }
+  }
+ ],
+ "ueben": false,
+ "termin": "2026-12-02",
+ "reihenfolge": 10,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "dauer": 45,
+ "karte": {
+  "titel": "Probearbeit-Urkunde",
+  "motiv": "🏆",
+  "text": "Die Probearbeit gemeistert: Nominalisierung, Kommas, Diktat und Rechtschreibung."
+ }
+}

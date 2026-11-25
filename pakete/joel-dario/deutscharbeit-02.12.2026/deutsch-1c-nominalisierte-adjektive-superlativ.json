@@ -1,0 +1,917 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-1c-nominalisierte-adjektive-superlativ",
+ "titel": "Deutsch Teil 1c: Adjektive als Nomen, Indefinitpronomen und Superlativ",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Nominalisierte Adjektive (das Neue, im Dunkeln, etwas Schönes), Indefinitpronomen als Begleiter, Superlativ mit „am“ oder nominalisiert, Fallen und gemischte Texte. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Deutschbuch, dem Nominalisierungsheft oder dem Aufgabenheft. Die Regeln stehen so auch im Deutschbuch (S. 302–304). Bei den Groß-/Kleinschreibungs-Aufgaben zählt jeder Buchstabe: Tippe das Wort genau so, wie es im Satz stehen muss.",
+ "lernblatt": [
+  {
+   "titel": "Adjektive als Nomen",
+   "text": "**Adjektive** (Eigenschaftswörter) schreibt man **klein**. Man erkennt sie an Endungen wie **-ig, -isch, -lich, -sam, -bar** (eifrig, diebisch, wirklich, wirksam, lesbar) und daran, dass man die meisten **steigern** kann: schön – schöner – am schönsten.\nWird ein Adjektiv **wie ein Nomen** gebraucht, ist es **nominalisiert** und wird **großgeschrieben**:\n\n- Das Wetter ist **schön**. (Adjektiv, klein)\n- Das **Schöne** an dem Tag war die Ruhe. (nominalisiert, groß)\n\nWeitere Beispiele: das Neue, im Dunkeln, aufs Neue, im Allgemeinen, für Junge und Alte.",
+   "merke": "Wird ein Adjektiv als Nomen gebraucht, schreibt man es groß: das Neue, im Dunkeln."
+  },
+  {
+   "titel": "Begleiter nominalisierter Adjektive",
+   "text": "Nominalisierte Adjektive erkennst du an ihren **Begleitern**. Das sind:\n\n- **Artikel**: das Neue, der Verdächtige, das Schöne\n- **Präposition** (oft mit Artikel verschmolzen): im Dunkeln, im Allgemeinen, im Besonderen, aufs Neue, im Geringsten, für Junge und Alte\n- **Indefinitpronomen**: etwas Schönes, nichts Neues, alles Gute\n\nMit der **Artikelprobe** prüfst du es: Kannst du einen Artikel davorsetzen (oder steht schon einer da)? Dann ist es nominalisiert. Ein häufiger Begleiter ist die Präposition **im**: im Dunkeln, im Besonderen.",
+   "merke": "Artikel, Präposition (im, aufs, für …) und Indefinitpronomen (etwas, nichts, alles …) sind die Begleiter nominalisierter Adjektive."
+  },
+  {
+   "titel": "Indefinitpronomen",
+   "text": "**Indefinitpronomen** (unbestimmte Fürwörter) geben eine **ungefähre Menge oder Anzahl** an:\n**etwas, manches, alles, nichts, einige(s), kein, viel, (ein) paar, wenig, allerlei, mancherlei, genug**\nSie begleiten oft ein **nominalisiertes Adjektiv**: etwas Schönes, alles Gute, viel Schönes, nichts Neues, manches Kleine, einiges Traurige, allerlei Leckeres, etwas Erfreuliches.\nDie Wortart von „nichts“, „etwas“ und „alles“ heißt **Indefinitpronomen**. Das Indefinitpronomen selbst schreibt man **klein**.\nDas Adjektiv danach endet oft auf **-es** (etwas Schönes), nach „alles“ oft auf **-e** (alles Gute).",
+   "merke": "Indefinitpronomen (etwas, nichts, alles, viel …) + Adjektiv = nominalisiertes Adjektiv, groß: etwas Schönes, nichts Neues."
+  },
+  {
+   "titel": "Superlativ mit „am“ oder nominalisiert?",
+   "text": "Superlative mit „am“ und nominalisierte Adjektive sehen ähnlich aus, werden aber verschieden geschrieben:\n\n- **am schönsten, am spannendsten, am mutigsten** (Superlativ mit „am“) → **klein**. „am“ gehört zum Superlativ und ist hier kein Begleiter.\n- **das Schönste, das Spannendste, das Mutigste** (nominalisiert) → **groß**. Davor steht ein Artikel.\n\n**Proben:** Wie war es? → am spannendsten (klein). Was war es? → das Spannendste (groß). Auch mit Zusatz davor schreibt man groß: mit Abstand das Gruseligste.",
+   "merke": "Frage „Wie?“ → am …sten, klein. Frage „Was?“ → das …ste, groß."
+  },
+  {
+   "titel": "Fallen: Adjektiv, Nomen oder Verb?",
+   "text": "Diese Fälle sind knifflig:\n\n- Ein **Adjektiv vor einem Nomen** bleibt **klein**: ein furchtloser Held, die blinden Fußballer, einige schräge Töne, ein paar weiße Socken. Nach einem Indefinitpronomen schreibt man klein, wenn danach noch ein Nomen folgt.\n- Ein Adjektiv, das etwas über das **Verb** oder das **Subjekt** sagt, bleibt **klein**: Er singt **laut**. Das Zimmer ist **dunkel**.\n- **Endungen** nicht vergessen: ein berühmtes Lied, die coolen Songtexte, berühmte Sänger.\n- Manche Wörter sehen aus wie Verben oder Adjektive, sind aber **Nomen**: mit Hilfe, im Flug, in Not.",
+   "merke": "Folgt ein Nomen, bleibt das Adjektiv klein. Nominalisiert (groß) ist es nur, wenn es selbst wie ein Nomen gebraucht wird."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "Adjektiv oder nominalisiertes Adjektiv? Ordne zu.",
+   "info": "Nominalisiert ist ein Adjektiv, wenn ein Begleiter davorsteht und kein Nomen folgt: das Neue, im Dunkeln, etwas Besonderes. Sonst bleibt es klein.",
+   "paare": [
+    [
+     "Das Neue gefällt mir.",
+     "nominalisiert (groß)"
+    ],
+    [
+     "Das neue Fahrrad gefällt mir.",
+     "Adjektiv (klein)"
+    ],
+    [
+     "Im Dunkeln fürchte ich mich.",
+     "nominalisiert (groß)"
+    ],
+    [
+     "Das Zimmer ist dunkel.",
+     "Adjektiv (klein)"
+    ],
+    [
+     "Er wünscht sich etwas Besonderes.",
+     "nominalisiert (groß)"
+    ],
+    [
+     "Das Geschenk ist besonders schön.",
+     "Adjektiv (klein)"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "In welchem Satz wird „schön“ wie ein Nomen gebraucht?",
+   "info": "Nur im ersten Satz steht der Artikel „Das“ vor „Schöne“ und es folgt kein Nomen direkt dahinter. In den anderen Sätzen ist „schön“ ein Adjektiv.",
+   "antworten": [
+    "Das Schöne an dem Tag war die Ruhe.",
+    "Der Tag war schön.",
+    "Wir hatten schönes Wetter.",
+    "Es war ein schöner Tag."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "Wird ein Adjektiv wie ein Nomen gebraucht, schreibt man es groß.",
+   "info": "Das nennt man Nominalisierung: das Neue, im Dunkeln, etwas Schönes.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "„Das Beste“ ist ein nominalisiertes Adjektiv.",
+   "info": "Vor „Beste“ steht der Artikel „Das“. Es ist von „gut“ abgeleitet (gut – besser – am besten) und wird großgeschrieben.",
+   "richtig": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "Setze „besonders“ passend ein: Sie wünscht sich etwas … zum Geburtstag.",
+   "info": "Nach dem Indefinitpronomen „etwas“ wird das Adjektiv nominalisiert und großgeschrieben: etwas Besonderes.",
+   "richtig": "Besonderes",
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "Welche Schreibweise ist richtig?",
+   "info": "„im“ (= in dem) ist ein Begleiter, deshalb wird „Allgemeinen“ nominalisiert und großgeschrieben.",
+   "antworten": [
+    "im Allgemeinen",
+    "im allgemeinen",
+    "Im allgemeinen",
+    "im ALLGEMEINEN"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "Schreibe das nominalisierte Adjektiv mit „das“.",
+   "info": "Artikel „das“ + Adjektiv mit Endung -e, großgeschrieben: das Gute, das Schöne, das Neue, das Lustige, das Wichtige.",
+   "paare": [
+    [
+     "gut",
+     "das Gute"
+    ],
+    [
+     "schön",
+     "das Schöne"
+    ],
+    [
+     "neu",
+     "das Neue"
+    ],
+    [
+     "lustig",
+     "das Lustige"
+    ],
+    [
+     "wichtig",
+     "das Wichtige"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "Ich wünsche dir alles Gute zum Geburtstag! Welches Wort ist das nominalisierte Adjektiv?",
+   "info": "„alles“ ist das Indefinitpronomen und der Begleiter, „Gute“ ist das nominalisierte Adjektiv (gut). „Geburtstag“ ist ein Nomen, „wünsche“ ein Verb.",
+   "antworten": [
+    "Gute",
+    "wünsche",
+    "alles",
+    "Geburtstag"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "A – Adjektiv oder nominalisiert?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Das {{Geheimnisvolle}} und das {{Spannende}} mag ich {{gern}}.",
+   "info": "„Geheimnisvolle“ schreibt man groß: Artikel „Das“ steht davor. „Spannende“ schreibt man groß: Artikel „das“ steht davor. „gern“ schreibt man klein: Adverb, kein Nomen.",
+   "wortbank": [
+    "Geheimnisvolle",
+    "Spannende",
+    "gern",
+    "geheimnisvolle",
+    "spannende",
+    "Gern"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Welcher Begleiter steht vor dem nominalisierten Adjektiv?",
+   "info": "das = Artikel, im = in dem (Präposition mit Artikel), nichts = Indefinitpronomen, für = Präposition.",
+   "paare": [
+    [
+     "das Schöne",
+     "Artikel"
+    ],
+    [
+     "im Dunkeln",
+     "Präposition (mit Artikel)"
+    ],
+    [
+     "nichts Neues",
+     "Indefinitpronomen"
+    ],
+    [
+     "für Junge und Alte",
+     "Präposition"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Setze die verschmolzene Form ein.",
+   "text": "Ich bin {{im}} Großen und Ganzen zufrieden. Sie probiert es {{aufs}} Neue. Er wartet {{im}} Stillen.",
+   "info": "im = in dem, aufs = auf das. Danach stehen nominalisierte Adjektive: im Großen, aufs Neue, im Stillen.",
+   "wortbank": [
+    "im",
+    "aufs",
+    "zum",
+    "am",
+    "ins"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "„Im“ steht am Satzanfang. „Dunkeln“ ist nominalisiert (Begleiter „Im“). „leuchtet“ ist ein Verb und bleibt klein.",
+   "antworten": [
+    "Im Dunkeln leuchtet die Lampe.",
+    "Im dunkeln leuchtet die Lampe.",
+    "im Dunkeln leuchtet die Lampe.",
+    "Im Dunkeln Leuchtet die Lampe."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Nach „im“ kann ein nominalisiertes Adjektiv stehen: im Besonderen.",
+   "info": "Ein häufiger Begleiter nominalisierter Adjektive ist die Präposition „im“: im Allgemeinen, im Besonderen, im Dunkeln.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Welche Wörter sind Begleiter nominalisierter Adjektive? (mehrere Antworten sind richtig)",
+   "info": "Artikel (das), Indefinitpronomen (etwas, nichts) und Präposition mit Artikel (im) begleiten nominalisierte Adjektive. „schnell“ ist ein Adjektiv, „sie“ ein Personalpronomen.",
+   "antworten": [
+    "das",
+    "etwas",
+    "im",
+    "nichts",
+    "schnell",
+    "sie"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Schreibe „schön“ nominalisiert mit „etwas“.",
+   "info": "Nach „etwas“ wird das Adjektiv großgeschrieben, die Endung ist -es: etwas Schönes.",
+   "richtig": [
+    "etwas Schönes",
+    "Etwas Schönes"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Schreibe „neu“ nominalisiert mit „nichts“.",
+   "info": "Nach „nichts“ wird das Adjektiv großgeschrieben: nichts Neues.",
+   "richtig": [
+    "nichts Neues",
+    "Nichts Neues"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Begleiter nominalisierter Adjektive",
+   "frage": "Schreibe „gut“ nominalisiert mit „alles“.",
+   "info": "Nach „alles“ endet das Adjektiv meist auf -e: alles Gute.",
+   "richtig": [
+    "alles Gute",
+    "Alles Gute"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Welches Wort ist ein Indefinitpronomen?",
+   "info": "Indefinitpronomen geben eine ungefähre Menge an: etwas, nichts, alles, viel, manches … „dein“ ist ein Possessivpronomen, „der“ ein Artikel, „schnell“ ein Adjektiv.",
+   "antworten": [
+    "nichts",
+    "dein",
+    "der",
+    "schnell"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Welche Wörter sind Indefinitpronomen? (mehrere Antworten sind richtig)",
+   "info": "etwas, alles, nichts und viel sind Indefinitpronomen. „mein“ ist ein Possessivpronomen und „das“ ein Artikel.",
+   "antworten": [
+    "etwas",
+    "alles",
+    "nichts",
+    "viel",
+    "mein",
+    "das"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "„nichts“, „etwas“ und „alles“ gehören zur Wortart Indefinitpronomen.",
+   "info": "Sie geben eine ungefähre Menge an und begleiten häufig nominalisierte Adjektive.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Ein Indefinitpronomen nennt immer eine genaue Zahl.",
+   "info": "Indefinitpronomen geben eine ungefähre Menge oder Anzahl an, zum Beispiel etwas, einige, manches, viel.",
+   "richtig": false
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Setze das Adjektiv in Klammern nominalisiert ein. Achte auf die Großschreibung.",
+   "text": "Zum Fest gibt es etwas {{Leckeres}}. Ich wünsche dir alles {{Gute}}. Wir haben nichts {{Neues}} gehört.",
+   "info": "Nach etwas, alles und nichts wird das Adjektiv nominalisiert und großgeschrieben: etwas Leckeres, alles Gute, nichts Neues.",
+   "wortbank": [
+    "Leckeres",
+    "Gute",
+    "Neues",
+    "leckeres",
+    "gute",
+    "neues"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Im Laden gab es {{allerlei}} {{Leckeres}}.",
+   "info": "„allerlei“ schreibt man klein: Indefinitpronomen, kein Nomen. „Leckeres“ schreibt man groß: Indefinitpronomen „allerlei“ steht davor.",
+   "wortbank": [
+    "allerlei",
+    "Leckeres",
+    "Allerlei",
+    "leckeres"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Zum Geburtstag wünsche ich dir {{viel}} {{Schönes}}.",
+   "info": "„viel“ schreibt man klein: Indefinitpronomen, kein Nomen. „Schönes“ schreibt man groß: Indefinitpronomen „viel“ steht davor.",
+   "wortbank": [
+    "viel",
+    "Schönes",
+    "Viel",
+    "schönes"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Er erzählte {{manches}} {{Lustige}}, aber {{nichts}} {{Wichtiges}}.",
+   "info": "„manches“ schreibt man klein: Indefinitpronomen, kein Nomen. „Lustige“ schreibt man groß: Indefinitpronomen „manches“ steht davor. „nichts“ schreibt man klein: Indefinitpronomen, kein Nomen. „Wichtiges“ schreibt man groß: Indefinitpronomen „nichts“ steht davor.",
+   "wortbank": [
+    "manches",
+    "Lustige",
+    "nichts",
+    "Wichtiges",
+    "Manches",
+    "lustige",
+    "Nichts",
+    "wichtiges"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Sie hat {{einiges}} {{Neue}} gelernt und {{wenig}} {{Schwieriges}} gefunden.",
+   "info": "„einiges“ schreibt man klein: Indefinitpronomen, kein Nomen. „Neue“ schreibt man groß: Indefinitpronomen „einiges“ steht davor. „wenig“ schreibt man klein: Indefinitpronomen, kein Nomen. „Schwieriges“ schreibt man groß: Indefinitpronomen „wenig“ steht davor.",
+   "wortbank": [
+    "einiges",
+    "Neue",
+    "wenig",
+    "Schwieriges",
+    "Einiges",
+    "neue",
+    "Wenig",
+    "schwieriges"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "C – Indefinitpronomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Beim Spielen gab es {{etwas}} {{Besonderes}} und {{nichts}} {{Langweiliges}}.",
+   "info": "„etwas“ schreibt man klein: Indefinitpronomen, kein Nomen. „Besonderes“ schreibt man groß: Indefinitpronomen „etwas“ steht davor. „nichts“ schreibt man klein: Indefinitpronomen, kein Nomen. „Langweiliges“ schreibt man groß: Indefinitpronomen „nichts“ steht davor.",
+   "wortbank": [
+    "etwas",
+    "Besonderes",
+    "nichts",
+    "Langweiliges",
+    "Etwas",
+    "besonderes",
+    "Nichts",
+    "langweiliges"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Adjektive im Superlativ mit „am“ schreibt man klein: am schönsten.",
+   "info": "„am“ gehört hier zum Superlativ und ist kein Begleiter. Die Frage lautet „Wie?“.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Nominalisierte Adjektive wie „das Schönste“ schreibt man klein.",
+   "info": "Vor „Schönste“ steht der Artikel „das“. Das Adjektiv wird wie ein Nomen gebraucht und großgeschrieben.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Welche Frage passt zu „am spannendsten“?",
+   "info": "Wie war es? – Am spannendsten. Bei der Frage „Was?“ würde man „das Spannendste“ schreiben.",
+   "antworten": [
+    "Wie?",
+    "Was?",
+    "Wer?",
+    "Wann?"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Welche Probefrage passt zu der Wortgruppe?",
+   "info": "am …sten antwortet auf „Wie?“ (klein). das …ste antwortet auf „Was?“ (groß).",
+   "paare": [
+    [
+     "am spannendsten",
+     "Wie?"
+    ],
+    [
+     "das Spannendste",
+     "Was?"
+    ],
+    [
+     "am lautesten",
+     "Wie?"
+    ],
+    [
+     "das Lauteste",
+     "Was?"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "Wie war es? – Am schönsten. „am“ steht am Satzanfang groß, „schönsten“ bleibt klein. Bei „Das Schönste war der Strand“ wäre es nominalisiert.",
+   "antworten": [
+    "Am schönsten war der Strand.",
+    "Am Schönsten war der Strand.",
+    "Das schönste war der Strand.",
+    "am schönsten war der Strand."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "{{Am}} {{lautesten}} war der Löwe. Das {{Lauteste}} im ganzen Zoo war sein Gebrüll.",
+   "info": "„Am“ schreibt man groß: Satzanfang. „lautesten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Lauteste“ schreibt man groß: Artikel „Das“ steht davor (Frage: Was?).",
+   "wortbank": [
+    "Am",
+    "lautesten",
+    "Lauteste",
+    "am",
+    "Lautesten",
+    "lauteste"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Mia findet die Rutsche am {{aufregendsten}}. Für Ole ist das {{Aufregendste}} der Sprung ins Wasser.",
+   "info": "„aufregendsten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Aufregendste“ schreibt man groß: Artikel „das“ steht davor (Frage: Was?).",
+   "wortbank": [
+    "aufregendsten",
+    "Aufregendste",
+    "Aufregendsten",
+    "aufregendste"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Im Winter ist es am {{kältesten}}. Das {{Kälteste}} ist der Wind am Morgen.",
+   "info": "„kältesten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Kälteste“ schreibt man groß: Artikel „Das“ steht davor (Frage: Was?).",
+   "wortbank": [
+    "kältesten",
+    "Kälteste",
+    "Kältesten",
+    "kälteste"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Was war bei dem Spiel am {{schwierigsten}}? Das {{Schwierigste}} war, leise zu bleiben.",
+   "info": "„schwierigsten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Schwierigste“ schreibt man groß: Artikel „Das“ steht davor (Frage: Was?).",
+   "wortbank": [
+    "schwierigsten",
+    "Schwierigste",
+    "Schwierigsten",
+    "schwierigste"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Superlativ: am … oder das …ste?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "{{Am}} {{liebsten}} esse ich Pizza. Das {{Beste}} daran ist der Käse.",
+   "info": "„Am“ schreibt man groß: Satzanfang. „liebsten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Beste“ schreibt man groß: Artikel „Das“ steht davor (Frage: Was?).",
+   "wortbank": [
+    "Am",
+    "liebsten",
+    "Beste",
+    "am",
+    "Liebsten",
+    "beste"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Ein Adjektiv vor einem Nomen schreibt man klein: ein furchtloser Held.",
+   "info": "Hier ist „furchtloser“ ein Adjektiv, das „Held“ beschreibt. Es wird nicht wie ein Nomen gebraucht.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "„mutigen“ und „große“ stehen vor einem Nomen und bleiben klein. „Kinder“ und „Hütte“ sind Nomen.",
+   "antworten": [
+    "Die mutigen Kinder bauen eine große Hütte.",
+    "Die Mutigen Kinder bauen eine große Hütte.",
+    "Die mutigen Kinder bauen eine Große Hütte.",
+    "Die mutigen Kinder bauen eine große hütte."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Eine {{kluge}} {{Füchsin}} suchte etwas {{Essbares}}.",
+   "info": "„kluge“ schreibt man klein: Adjektiv vor dem Nomen „Füchsin“, bleibt klein. „Füchsin“ schreibt man groß: Artikel „Eine“ und Adjektiv „kluge“ stehen davor. „Essbares“ schreibt man groß: Indefinitpronomen „etwas“ steht davor.",
+   "wortbank": [
+    "kluge",
+    "Füchsin",
+    "Essbares",
+    "Kluge",
+    "füchsin",
+    "essbares"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "{{Einige}} {{schräge}} {{Töne}} störten niemanden, denn wir hörten {{nichts}} {{Peinliches}}.",
+   "info": "„Einige“ schreibt man groß: Satzanfang. „schräge“ schreibt man klein: Adjektiv vor dem Nomen „Töne“, bleibt klein. „Töne“ schreibt man groß: Indefinitpronomen „Einige“ und Adjektiv „schräge“ stehen davor. „nichts“ schreibt man klein: Indefinitpronomen, kein Nomen. „Peinliches“ schreibt man groß: Indefinitpronomen „nichts“ steht davor.",
+   "wortbank": [
+    "Einige",
+    "schräge",
+    "Töne",
+    "nichts",
+    "Peinliches",
+    "einige",
+    "Schräge",
+    "töne",
+    "Nichts",
+    "peinliches"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "{{Ein}} {{paar}} {{weiße}} {{Socken}} lagen im Schrank.",
+   "info": "„Ein“ schreibt man groß: Satzanfang. „paar“ schreibt man klein: Indefinitpronomen, kein Nomen. „weiße“ schreibt man klein: Adjektiv vor dem Nomen „Socken“, bleibt klein. „Socken“ schreibt man groß: Indefinitpronomen „paar“ und Adjektiv „weiße“ stehen davor.",
+   "wortbank": [
+    "Ein",
+    "paar",
+    "weiße",
+    "Socken",
+    "ein",
+    "Paar",
+    "Weiße",
+    "socken"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Warum schreibt man „bunten“ in „Sie trägt einen bunten Schal.“ klein?",
+   "info": "Ein Adjektiv vor einem Nomen bleibt klein. Nur wenn kein Nomen folgt, wäre es nominalisiert, zum Beispiel: Sie mag das Bunte.",
+   "antworten": [
+    "Weil danach das Nomen „Schal“ folgt.",
+    "Weil „bunten“ am Ende steht.",
+    "Weil Farben immer klein geschrieben werden.",
+    "Weil „einen“ ein Verb ist."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Setze „berühmt“ mit der richtigen Endung ein: Sie singt ein … Lied.",
+   "info": "Das Nomen „Lied“ ist sächlich, deshalb endet das Adjektiv auf -es: ein berühmtes Lied. Es bleibt klein, weil ein Nomen folgt.",
+   "richtig": "berühmtes",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "E – Fallen: Adjektiv vor dem Nomen",
+   "frage": "Setze „cool“ mit der richtigen Endung ein: Er trägt eine … Jacke.",
+   "info": "Das Nomen „Jacke“ ist weiblich, deshalb endet das Adjektiv auf -e: eine coole Jacke. Es bleibt klein, weil ein Nomen folgt.",
+   "richtig": "coole",
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Klassenfest).",
+   "text": "Am {{Samstag}} feiert unsere Klasse ein {{Fest}}. Das {{Beste}} daran ist das {{Tanzen}}. Wir wollen {{laut}} {{singen}} und nichts {{Trauriges}} hören. Am {{meisten}} freut sich Ole auf den {{Kuchen}}.",
+   "info": "„Samstag“ schreibt man groß: Begleiter „Am“ (an dem) steht davor. „Fest“ schreibt man groß: Artikel „ein“ steht davor. „Beste“ schreibt man groß: Artikel „Das“ steht davor. „Tanzen“ schreibt man groß: Artikel „das“ steht davor. „laut“ schreibt man klein: Adjektiv oder Adverb, kein Nomen. „singen“ schreibt man klein: Verb nach dem Modalverb „wollen“. „Trauriges“ schreibt man groß: Indefinitpronomen „nichts“ steht davor. „meisten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Kuchen“ schreibt man groß: Artikel „den“ steht davor.",
+   "wortbank": [
+    "Samstag",
+    "Fest",
+    "Beste",
+    "Tanzen",
+    "laut",
+    "singen",
+    "Trauriges",
+    "meisten",
+    "Kuchen",
+    "samstag",
+    "fest",
+    "beste",
+    "tanzen",
+    "Laut",
+    "Singen",
+    "trauriges",
+    "Meisten",
+    "kuchen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Die Radtour).",
+   "text": "Beim {{Radfahren}} im {{Wald}} entdeckten wir {{viel}} {{Neues}}. Im {{Flug}} raste ein {{Specht}} an uns vorbei. Mit {{Hilfe}} einer {{Karte}} fanden wir den Weg.",
+   "info": "„Radfahren“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „Wald“ schreibt man groß: Begleiter „im“ (in dem) steht davor. „viel“ schreibt man klein: Indefinitpronomen, kein Nomen. „Neues“ schreibt man groß: Indefinitpronomen „viel“ steht davor. „Flug“ schreibt man groß: Begleiter „Im“ (in dem) steht davor. „Specht“ schreibt man groß: Artikel „ein“ steht davor. „Hilfe“ schreibt man groß: Präposition „Mit“ steht davor. „Karte“ schreibt man groß: Artikel „einer“ steht davor.",
+   "wortbank": [
+    "Radfahren",
+    "Wald",
+    "viel",
+    "Neues",
+    "Flug",
+    "Specht",
+    "Hilfe",
+    "Karte",
+    "radfahren",
+    "wald",
+    "Viel",
+    "neues",
+    "flug",
+    "specht",
+    "hilfe",
+    "karte"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Im Tierheim).",
+   "text": "Im {{Tierheim}} gibt es {{allerlei}} {{Interessantes}}. Das {{Füttern}} der kleinen {{Katzen}} macht Pia {{Freude}}. Sie möchte am {{liebsten}} alle Tiere {{mitnehmen}}.",
+   "info": "„Tierheim“ schreibt man groß: Begleiter „Im“ (in dem) steht davor. „allerlei“ schreibt man klein: Indefinitpronomen, kein Nomen. „Interessantes“ schreibt man groß: Indefinitpronomen „allerlei“ steht davor. „Füttern“ schreibt man groß: Artikel „Das“ steht davor. „Katzen“ schreibt man groß: Artikel „der“ und Adjektiv „kleinen“ stehen davor. „Freude“ schreibt man groß: Nomen ohne Begleiter, Probe: die große Freude. „liebsten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „mitnehmen“ schreibt man klein: Verb nach dem Modalverb „möchte“.",
+   "wortbank": [
+    "Tierheim",
+    "allerlei",
+    "Interessantes",
+    "Füttern",
+    "Katzen",
+    "Freude",
+    "liebsten",
+    "mitnehmen",
+    "tierheim",
+    "Allerlei",
+    "interessantes",
+    "füttern",
+    "katzen",
+    "freude",
+    "Liebsten",
+    "Mitnehmen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Spieleabend).",
+   "text": "Der {{Spieleabend}} war das {{Schönste}} am Wochenende. Wir spielten {{lange}} und hatten nichts {{Besseres}} vor. Beim {{Würfeln}} war Mia am {{glücklichsten}}. Zum {{Schluss}} gab es {{Popcorn}}.",
+   "info": "„Spieleabend“ schreibt man groß: Artikel „Der“ steht davor. „Schönste“ schreibt man groß: Artikel „das“ steht davor. „lange“ schreibt man klein: Adverb, kein Nomen. „Besseres“ schreibt man groß: Indefinitpronomen „nichts“ steht davor. „Würfeln“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „glücklichsten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Schluss“ schreibt man groß: Begleiter „Zum“ (zu dem) steht davor. „Popcorn“ schreibt man groß: Nomen ohne Begleiter, Probe: das süße Popcorn.",
+   "wortbank": [
+    "Spieleabend",
+    "Schönste",
+    "lange",
+    "Besseres",
+    "Würfeln",
+    "glücklichsten",
+    "Schluss",
+    "Popcorn",
+    "spieleabend",
+    "schönste",
+    "Lange",
+    "besseres",
+    "würfeln",
+    "Glücklichsten",
+    "schluss",
+    "popcorn"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Wandern).",
+   "text": "Wandern ist für {{Junge}} und {{Alte}} ein {{Vergnügen}}. Im {{Gebirge}} gibt es viel {{Schönes}} zu {{sehen}}. Das {{Beste}} ist die frische {{Luft}}.",
+   "info": "„Junge“ schreibt man groß: Präposition „für“ steht davor. „Alte“ schreibt man groß: nominalisiert wie „Junge“, die Präposition „für“ gehört auch dazu. „Vergnügen“ schreibt man groß: Artikel „ein“ steht davor. „Gebirge“ schreibt man groß: Begleiter „Im“ (in dem) steht davor. „Schönes“ schreibt man groß: Indefinitpronomen „viel“ steht davor. „sehen“ schreibt man klein: Verb mit „zu“ davor (zu + Infinitiv). „Beste“ schreibt man groß: Artikel „Das“ steht davor. „Luft“ schreibt man groß: Artikel „die“ und Adjektiv „frische“ stehen davor.",
+   "wortbank": [
+    "Junge",
+    "Alte",
+    "Vergnügen",
+    "Gebirge",
+    "Schönes",
+    "sehen",
+    "Beste",
+    "Luft",
+    "junge",
+    "alte",
+    "vergnügen",
+    "gebirge",
+    "schönes",
+    "Sehen",
+    "beste",
+    "luft"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Basteln).",
+   "text": "Mara bastelt gern. Zum {{Basteln}} braucht sie {{Papier}} und etwas {{Kleber}}. Das {{Schneiden}} fällt ihr {{leicht}}. Beim {{Kleben}} ist sie am {{genauesten}}.",
+   "info": "„Basteln“ schreibt man groß: Begleiter „Zum“ (zu dem) steht davor. „Papier“ schreibt man groß: Nomen ohne Begleiter, Probe: das bunte Papier. „Kleber“ schreibt man groß: Indefinitpronomen „etwas“ steht davor, Nomen. „Schneiden“ schreibt man groß: Artikel „Das“ steht davor. „leicht“ schreibt man klein: Adjektiv, kein Nomen. „Kleben“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „genauesten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?).",
+   "wortbank": [
+    "Basteln",
+    "Papier",
+    "Kleber",
+    "Schneiden",
+    "leicht",
+    "Kleben",
+    "genauesten",
+    "basteln",
+    "papier",
+    "kleber",
+    "schneiden",
+    "Leicht",
+    "kleben",
+    "Genauesten"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Zirkus).",
+   "text": "Der {{Zirkus}} kommt jedes Jahr in unsere {{Stadt}}. Das {{Aufregendste}} ist der {{Auftritt}} der Artisten. Sie zeigen viel {{Mutiges}} und manches {{Lustige}}. Am {{besten}} gefällt uns das {{Jonglieren}}.",
+   "info": "„Zirkus“ schreibt man groß: Artikel „Der“ steht davor. „Stadt“ schreibt man groß: Pronomen „unsere“ steht davor. „Aufregendste“ schreibt man groß: Artikel „Das“ steht davor. „Auftritt“ schreibt man groß: Artikel „der“ steht davor. „Mutiges“ schreibt man groß: Indefinitpronomen „viel“ steht davor. „Lustige“ schreibt man groß: Indefinitpronomen „manches“ steht davor. „besten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?). „Jonglieren“ schreibt man groß: Artikel „das“ steht davor.",
+   "wortbank": [
+    "Zirkus",
+    "Stadt",
+    "Aufregendste",
+    "Auftritt",
+    "Mutiges",
+    "Lustige",
+    "besten",
+    "Jonglieren",
+    "zirkus",
+    "stadt",
+    "aufregendste",
+    "auftritt",
+    "mutiges",
+    "lustige",
+    "Besten",
+    "jonglieren"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Gemischte Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Ein Regentag).",
+   "text": "Im {{Herbst}} ist das {{Wetter}} oft {{kalt}} und {{nass}}. Ich bleibe dann im {{Warmen}} und lese ein {{Buch}}. Das {{Lesen}} macht mir {{Spaß}}. Etwas {{Spannendes}} ist mir am {{liebsten}}.",
+   "info": "„Herbst“ schreibt man groß: Begleiter „Im“ (in dem) steht davor. „Wetter“ schreibt man groß: Artikel „das“ steht davor. „kalt“ schreibt man klein: Adjektiv, kein Nomen. „nass“ schreibt man klein: Adjektiv, kein Nomen. „Warmen“ schreibt man groß: Begleiter „im“ (in dem), nominalisiert: das Warme. „Buch“ schreibt man groß: Artikel „ein“ steht davor. „Lesen“ schreibt man groß: Artikel „Das“ steht davor. „Spaß“ schreibt man groß: Nomen ohne Begleiter, Probe: der große Spaß. „Spannendes“ schreibt man groß: Indefinitpronomen „Etwas“ steht davor. „liebsten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?).",
+   "wortbank": [
+    "Herbst",
+    "Wetter",
+    "kalt",
+    "nass",
+    "Warmen",
+    "Buch",
+    "Lesen",
+    "Spaß",
+    "Spannendes",
+    "liebsten",
+    "herbst",
+    "wetter",
+    "Kalt",
+    "Nass",
+    "warmen",
+    "buch",
+    "lesen",
+    "spaß",
+    "spannendes",
+    "Liebsten"
+   ],
+   "gross": true
+  }
+ ],
+ "nachlesen": {
+  "A – Adjektiv oder nominalisiert?": [
+   "Adjektive als Nomen",
+   "Begleiter nominalisierter Adjektive"
+  ],
+  "B – Begleiter nominalisierter Adjektive": "Begleiter nominalisierter Adjektive",
+  "C – Indefinitpronomen": "Indefinitpronomen",
+  "D – Superlativ: am … oder das …ste?": "Superlativ mit „am“ oder nominalisiert?",
+  "E – Fallen: Adjektiv vor dem Nomen": "Fallen: Adjektiv, Nomen oder Verb?",
+  "F – Gemischte Texte": [
+   "Adjektive als Nomen",
+   "Indefinitpronomen",
+   "Superlativ mit „am“ oder nominalisiert?",
+   "Fallen: Adjektiv, Nomen oder Verb?"
+  ]
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 3,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Adjektiv-Profi",
+  "motiv": "🌟",
+  "text": "Etwas Neues, im Dunkeln, das Schönste – und „am schnellsten“ bleibt klein."
+ }
+}

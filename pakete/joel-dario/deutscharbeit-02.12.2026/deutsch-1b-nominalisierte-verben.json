@@ -1,0 +1,870 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-1b-nominalisierte-verben",
+ "titel": "Deutsch Teil 1b: Verben als Nomen (Nominalisierung)",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Nominalisierte Verben: Begleiter erkennen, Verben in der Grundform nominalisieren, mehrteilige Verben, Fallen (Modalverb, zu + Verb), sachlich formulieren. Mit Lernblatt und Übungsaufgaben.",
+ "hinweis": "Alle Sätze, Texte und Namen sind selbst ausgedacht, nicht aus dem Deutschbuch, dem Nominalisierungsheft oder dem Aufgabenheft. Bei den Groß-/Kleinschreibungs-Aufgaben zählt jeder Buchstabe: Tippe das Wort genau so, wie es im Satz stehen muss.",
+ "lernblatt": [
+  {
+   "titel": "Verben als Nomen",
+   "text": "Ein Verb in der **Grundform** (Infinitiv) kann wie ein **Nomen** gebraucht werden. Man nennt das **Nominalisierung**. Das nominalisierte Verb schreibt man **groß**.\n\n- Wir **spielen** draußen. (Verb, klein)\n- Das **Spielen** macht Spaß. (nominalisiert, groß)\n\nWeitere Beispiele: das Singen, beim Lesen, zum Plantschen, sein Lachen.\nDas nominalisierte Verb steht in der **Grundform**. Aus „er singt“ wird „das Singen“, nicht „das Singt“.",
+   "merke": "Wird ein Verb wie ein Nomen gebraucht, schreibt man es groß: das Lesen, beim Singen."
+  },
+  {
+   "titel": "Die Begleiter erkennen",
+   "text": "Nominalisierte Verben haben dieselben **Begleiter** wie Nomen:\n\n- **Artikel**: das Spielen, ein Lachen\n- **Adjektiv**: fröhliches Spielen, lautes Lachen\n- **Pronomen**: ihr Spielen, dein Zögern, unser Singen\n- **Präposition** (oft verschmolzen): beim (bei dem) Spielen, zum (zu dem) Singen, vom (von dem) Lesen, am (an dem) Basteln, im (in dem) Sitzen\n\nMit der **Artikelprobe** prüfst du es: Kannst du einen Artikel davorsetzen? gehen → das Gehen, zögern → dein Zögern, singen → beim (bei dem) Singen.",
+   "merke": "Begleiter vor dem Verb in der Grundform (das, beim, zum, dein, lautes …) zeigen: Das Verb ist nominalisiert, schreib groß."
+  },
+  {
+   "titel": "Mehrteilige Verben",
+   "text": "Manche Verben bestehen aus **mehreren Teilen**: aufgeben, aufstehen, hineinspringen, nachdenken.\nWird so ein Verb nominalisiert, steht es in der Grundform und die Teile bleiben **zusammen**: Ich gebe auf → **das Aufgeben**. Wir stehen früh auf → **das Aufstehen**. Sie springen hinein → **das Hineinspringen**.\nMan schreibt nur den **Anfang groß**: das Hineinspringen, nicht „das HineinSpringen“ und nicht „das hinein Springen“.",
+   "merke": "Bei mehrteiligen Verben bleibt die Grundform zusammen: aufgeben → das Aufgeben."
+  },
+  {
+   "titel": "Fallen: Verb bleibt Verb",
+   "text": "Nicht jedes Verb in der Grundform ist nominalisiert. Diese Fälle bleiben **Verben** und werden **klein** geschrieben:\n\n- Verb nach einem **Modalverb** (können, wollen, müssen, dürfen, sollen): Wir wollen **spielen**. Sie kann gut **singen**.\n- Verb mit **zu** davor: Ich habe Lust **zu lesen**. Um die Prüfung **zu bestehen**, übe ich. Es gibt viel **zu entdecken**.\n\nAber: **zum**, **beim**, **vom** bestehen aus Präposition und Artikel. Danach steht ein nominalisiertes Verb: **zum Aufgeben** zwingen, **beim Lesen**.\nVergleiche: Sie kann herzlich **lachen** (Verb) – ihr **Lachen** steckt an (nominalisiert).",
+   "merke": "Nach Modalverb und nach „zu“ bleibt das Verb klein. Nach Begleiter (das, beim, zum, dein …) schreibt man es groß."
+  },
+  {
+   "titel": "Sachlich formulieren mit Nominalisierungen",
+   "text": "Mit Nominalisierungen kann man etwas **kurz und sachlich** sagen. Aus einem Nebensatz mit „dass“ wird ein Nomen:\n\n- Dass ich die Käfer im Garten beobachte, finde ich interessant. → **Das Beobachten** der Käfer im Garten ist interessant.\n\nAuch **Handlungsanweisungen** schreibt man so: Man soll messen. → **Das Messen** der Temperatur ist wichtig. Man soll die Blätter sammeln. → **Das Sammeln** der Blätter gehört dazu.\nNach dem nominalisierten Verb steht oft ein **Genitiv** (der Käfer, der Blätter) oder eine **Präposition** (im Garten).",
+   "merke": "Artikel + nominalisiertes Verb + Rest = sachlicher Ausdruck: Das Messen der Temperatur."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Verb oder nominalisiertes Verb? Ordne zu.",
+   "info": "Mit Begleiter (Das, Beim, Zum) und in der Grundform ist das Verb nominalisiert. Als Personalform (lese, backen, tanzt) mit Subjekt bleibt es ein Verb.",
+   "paare": [
+    [
+     "Das Lesen macht mir Freude.",
+     "nominalisiert"
+    ],
+    [
+     "Ich lese ein Buch.",
+     "Verb"
+    ],
+    [
+     "Beim Backen riecht es gut.",
+     "nominalisiert"
+    ],
+    [
+     "Wir backen einen Kuchen.",
+     "Verb"
+    ],
+    [
+     "Zum Tanzen braucht man Musik.",
+     "nominalisiert"
+    ],
+    [
+     "Sie tanzt gern.",
+     "Verb"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "In welchem Satz wird „schwimmen“ wie ein Nomen gebraucht?",
+   "info": "„Beim“ (= bei dem) ist ein Begleiter, deshalb ist „Schwimmen“ nominalisiert und groß. In den anderen Sätzen ist „schwimmen“ ein Verb.",
+   "antworten": [
+    "Beim Schwimmen vergesse ich die Zeit.",
+    "Wir wollen im See schwimmen.",
+    "Ole kann gut schwimmen.",
+    "Sie schwimmt jeden Tag."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Ein nominalisiertes Verb steht in der Grundform: das Spielen.",
+   "info": "Aus „er spielt“ wird beim Nominalisieren „das Spielen“. Die Grundform endet meist auf -en oder -n.",
+   "richtig": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Nominalisierte Verben schreibt man klein.",
+   "info": "Ein Verb, das wie ein Nomen gebraucht wird, schreibt man groß: das Lesen.",
+   "richtig": false
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Woran erkennt man das nominalisierte Verb in „Sein Zögern war nicht zu übersehen.“?",
+   "info": "Wie bei Nomen sind die Begleiter das Signal. „Sein“ steht vor „Zögern“. Mit der Artikelprobe geht es auch: das Zögern.",
+   "antworten": [
+    "An dem Pronomen „Sein“ davor",
+    "An der Endung -ern",
+    "Am Verb „war“",
+    "Daran, dass es am Satzende steht"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Wir freuen uns auf das Wiedersehen mit euch. Welches Wort ist ein nominalisiertes Verb?",
+   "info": "„das“ ist der Artikel von „Wiedersehen“ (von wiedersehen). „freuen“ ist ein Verb, „uns“ und „euch“ sind Pronomen.",
+   "antworten": [
+    "Wiedersehen",
+    "freuen",
+    "uns",
+    "euch"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Schreibe die Wortgruppe mit der verschmolzenen Form.",
+   "info": "bei dem → beim, zu dem → zum, von dem → vom, an dem → am, in dem → im.",
+   "paare": [
+    [
+     "bei dem Singen",
+     "beim Singen"
+    ],
+    [
+     "zu dem Lesen",
+     "zum Lesen"
+    ],
+    [
+     "von dem Spielen",
+     "vom Spielen"
+    ],
+    [
+     "an dem Basteln",
+     "am Basteln"
+    ],
+    [
+     "in dem Rechnen",
+     "im Rechnen"
+    ]
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Welche Schreibweise ist richtig?",
+   "info": "„beim“ ist ein Begleiter (bei dem). Das Verb danach ist nominalisiert: beim Singen.",
+   "antworten": [
+    "beim Singen",
+    "beim singen",
+    "Beim singen",
+    "beim SINGEN"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Aus „er singt“ wird beim Nominalisieren „das Singt“.",
+   "info": "Nominalisiert wird die Grundform: singen → das Singen. Die Personalform „singt“ kann man nicht nominalisieren.",
+   "richtig": false
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "A – Verb oder Nomen?",
+   "frage": "Setze das Verb „reiten“ als Nomen ein: Das … macht ihr Spaß.",
+   "info": "Mit dem Artikel „Das“ davor wird das Verb nominalisiert: Das Reiten macht ihr Spaß.",
+   "richtig": "Reiten",
+   "gross": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Welcher Begleiter steht vor dem nominalisierten Verb?",
+   "info": "das = Artikel, fröhliches = Adjektiv, ihr = Pronomen, beim = Präposition und Artikel (bei dem).",
+   "paare": [
+    [
+     "das Spielen",
+     "Artikel"
+    ],
+    [
+     "fröhliches Spielen",
+     "Adjektiv"
+    ],
+    [
+     "ihr Spielen",
+     "Pronomen"
+    ],
+    [
+     "beim Spielen",
+     "Präposition (mit Artikel)"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Setze die passende verschmolzene Form ein.",
+   "text": "Ole hilft {{beim}} Aufräumen. Mia freut sich {{aufs}} Schwimmen. Wir gehen {{zum}} Wandern in die Berge.",
+   "info": "beim = bei dem, aufs = auf das, zum = zu dem. Danach folgt das nominalisierte Verb.",
+   "wortbank": [
+    "beim",
+    "aufs",
+    "zum",
+    "vom",
+    "im",
+    "am"
+   ],
+   "nachsicht": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "In „zum Üben“ ist „zum“ ein Begleiter.",
+   "info": "„zum“ ist zu dem. Es begleitet das nominalisierte Verb „Üben“.",
+   "richtig": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Welche Wortgruppe enthält ein nominalisiertes Verb mit zwei Begleitern?",
+   "info": "„beim“ (Präposition mit Artikel) und „lauten“ (Adjektiv) stehen vor „Singen“.",
+   "antworten": [
+    "beim lauten Singen",
+    "das Singen",
+    "laut singen",
+    "zum Singen"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Welcher Satz ist richtig geschrieben?",
+   "info": "„Dein“ steht am Satzanfang, danach ist „Zögern“ nominalisiert (Pronomen als Begleiter). „geärgert“ ist ein Verb und bleibt klein.",
+   "antworten": [
+    "Dein Zögern hat uns geärgert.",
+    "Dein zögern hat uns geärgert.",
+    "dein Zögern hat uns geärgert.",
+    "Dein zögern hat uns Geärgert."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Wir freuen uns auf das Treffen mit Freunden. Welcher Artikel steht vor „Treffen“?",
+   "info": "Der Artikel „das“ ist der Begleiter des nominalisierten Verbs: das Treffen.",
+   "richtig": "das",
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Welche Wörter können vor einem nominalisierten Verb stehen? (mehrere Antworten sind richtig)",
+   "info": "Artikel (das), Präposition mit Artikel (beim), Pronomen (dein) und Adjektiv (lautes) sind Begleiter. „sie“ und „wir“ sind Personalpronomen für das Subjekt, keine Begleiter.",
+   "antworten": [
+    "das",
+    "beim",
+    "dein",
+    "lautes",
+    "sie",
+    "wir"
+   ],
+   "richtig": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Wörter wie „dein“, „unser“ und „ihr“ können vor einem nominalisierten Verb stehen.",
+   "info": "Possessivpronomen sind Begleiter: dein Zögern, unser Singen, ihr Lachen.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "B – Die Begleiter nominalisierter Verben",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "{{Fröhliches}} {{Singen}} macht uns gute Laune.",
+   "tipp": "Der Begleiter steht direkt vor dem Verb in der Grundform.",
+   "info": "„Fröhliches“ schreibt man groß: Satzanfang. „Singen“ schreibt man groß: Adjektiv „Fröhliches“ steht davor.",
+   "wortbank": [
+    "Fröhliches",
+    "Singen",
+    "fröhliches",
+    "singen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Schreibe das Verb „lachen“ nominalisiert mit dem Artikel „das“.",
+   "info": "Artikel + Verb in der Grundform, das Verb wird großgeschrieben: das Lachen.",
+   "richtig": [
+    "das Lachen",
+    "Das Lachen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Schreibe „singen“ nominalisiert mit „beim“.",
+   "info": "beim = bei dem. Danach schreibt man das nominalisierte Verb groß: beim Singen.",
+   "richtig": [
+    "beim Singen",
+    "Beim Singen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Schreibe „schwimmen“ nominalisiert mit „zum“.",
+   "info": "zum = zu dem. Danach folgt das nominalisierte Verb: zum Schwimmen.",
+   "richtig": [
+    "zum Schwimmen",
+    "Zum Schwimmen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Schreibe „zeichnen“ nominalisiert mit „vom“.",
+   "info": "vom = von dem. Danach: vom Zeichnen.",
+   "richtig": [
+    "vom Zeichnen",
+    "Vom Zeichnen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Schreibe „zögern“ nominalisiert mit dem Pronomen „ihr“.",
+   "info": "Pronomen als Begleiter, das Verb wird großgeschrieben: ihr Zögern.",
+   "richtig": [
+    "ihr Zögern",
+    "Ihr Zögern"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Schreibe „sitzen“ nominalisiert mit „im“.",
+   "info": "im = in dem. Danach: im Sitzen.",
+   "richtig": [
+    "im Sitzen",
+    "Im Sitzen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Schreibe „singen“ nominalisiert mit dem Adjektiv „fröhliches“.",
+   "info": "Adjektiv als Begleiter, das Verb wird großgeschrieben: fröhliches Singen.",
+   "richtig": [
+    "fröhliches Singen",
+    "Fröhliches Singen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Wie schreibt man „das (kochen)“ richtig?",
+   "info": "Nach dem Artikel „das“ wird das Verb nominalisiert und großgeschrieben: das Kochen.",
+   "antworten": [
+    "das Kochen",
+    "das kochen",
+    "Das kochen",
+    "das KOCHEN"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "C – Verben nominalisieren",
+   "frage": "Wie schreibt man „zum (üben)“ richtig?",
+   "info": "zum = zu dem. Danach folgt das nominalisierte Verb, es wird großgeschrieben: zum Üben.",
+   "antworten": [
+    "zum Üben",
+    "zum üben",
+    "Zum üben",
+    "zumÜben"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Mehrteilige Verben",
+   "frage": "Ich gebe nicht auf. Nominalisiere „aufgeben“: Das … fällt mir schwer.",
+   "info": "Die Teile des Verbs bleiben zusammen, nur der Anfang wird großgeschrieben: das Aufgeben.",
+   "richtig": "Aufgeben",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Mehrteilige Verben",
+   "frage": "Wir stehen früh auf. Nominalisiere „aufstehen“: Das … fällt ihm schwer.",
+   "info": "Grundform von „stehen früh auf“ ist „aufstehen“. Nominalisiert: das Aufstehen.",
+   "richtig": "Aufstehen",
+   "gross": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "D – Mehrteilige Verben",
+   "frage": "Nominalisiere „hineinspringen“: Das … ins kalte Wasser macht Mut.",
+   "info": "Bei mehrteiligen Verben bleibt die Grundform zusammen: das Hineinspringen.",
+   "richtig": "Hineinspringen",
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "D – Mehrteilige Verben",
+   "frage": "Wie schreibt man das nominalisierte Verb „nachdenken“ richtig?",
+   "info": "Die Verbteile bleiben zusammen, nur der erste Buchstabe wird großgeschrieben: das Nachdenken.",
+   "antworten": [
+    "das Nachdenken",
+    "das nachdenken",
+    "das Nach denken",
+    "das NachDenken"
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "D – Mehrteilige Verben",
+   "frage": "Schreibe das nominalisierte Verb mit „das“.",
+   "info": "Verb in der Grundform zusammen lassen und großschreiben: das Aufräumen, das Einkaufen, das Mitmachen, das Vorlesen, das Zusehen.",
+   "paare": [
+    [
+     "aufräumen",
+     "das Aufräumen"
+    ],
+    [
+     "einkaufen",
+     "das Einkaufen"
+    ],
+    [
+     "mitmachen",
+     "das Mitmachen"
+    ],
+    [
+     "vorlesen",
+     "das Vorlesen"
+    ],
+    [
+     "zusehen",
+     "das Zusehen"
+    ]
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "D – Mehrteilige Verben",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Beim {{Aufräumen}} hilft jeder mit. Wir wollen heute das Zimmer {{aufräumen}}.",
+   "info": "„Aufräumen“ schreibt man groß: Begleiter „beim“ (bei dem) steht davor. „aufräumen“ schreibt man klein: Verb nach dem Modalverb „wollen“.",
+   "wortbank": [
+    "Aufräumen",
+    "aufräumen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "D – Mehrteilige Verben",
+   "frage": "Bei „das Aufstehen“ bleiben die Verbteile zusammen, nur der Anfang wird großgeschrieben.",
+   "info": "So schreibt man mehrteilige Verben nominalisiert: das Aufstehen, das Hineinspringen, das Nachdenken.",
+   "richtig": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Zum {{Schwimmen}} braucht man Badesachen, aber ich will heute nicht {{schwimmen}}.",
+   "info": "„Schwimmen“ schreibt man groß: Begleiter „zum“ (zu dem) steht davor. „schwimmen“ schreibt man klein: Verb nach dem Modalverb „will“.",
+   "wortbank": [
+    "Schwimmen",
+    "schwimmen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Das {{Lesen}} macht Mia Spaß, deshalb {{liest}} sie jeden Abend.",
+   "info": "„Lesen“ schreibt man groß: Artikel „Das“ steht davor. „liest“ schreibt man klein: Verb in der Personalform.",
+   "wortbank": [
+    "Lesen",
+    "liest",
+    "lesen",
+    "Liest"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Ole hat Lust, zu {{singen}}. Beim {{Singen}} vergisst er die Zeit.",
+   "info": "„singen“ schreibt man klein: Verb mit „zu“ davor (zu + Infinitiv). „Singen“ schreibt man groß: Begleiter „beim“ (bei dem) steht davor.",
+   "wortbank": [
+    "singen",
+    "Singen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Um die Prüfung zu {{bestehen}}, braucht man regelmäßiges {{Üben}}.",
+   "info": "„bestehen“ schreibt man klein: Verb mit „zu“ davor (zu + Infinitiv). „Üben“ schreibt man groß: Adjektiv „regelmäßiges“ steht davor.",
+   "wortbank": [
+    "bestehen",
+    "Üben",
+    "Bestehen",
+    "üben"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Wir dürfen heute {{spielen}}, aber das {{Spielen}} im Flur ist verboten.",
+   "info": "„spielen“ schreibt man klein: Verb nach dem Modalverb „dürfen“. „Spielen“ schreibt man groß: Artikel „das“ steht davor.",
+   "wortbank": [
+    "spielen",
+    "Spielen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Sein {{Lachen}} steckt alle an, denn er kann herzlich {{lachen}}.",
+   "info": "„Lachen“ schreibt man groß: Pronomen „Sein“ steht davor. „lachen“ schreibt man klein: Verb nach dem Modalverb „kann“.",
+   "wortbank": [
+    "Lachen",
+    "lachen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Mia hat Freude am {{Zuhören}}, aber sie möchte nicht immer nur {{zuhören}}.",
+   "info": "„Zuhören“ schreibt man groß: Begleiter „am“ (an dem) steht davor. „zuhören“ schreibt man klein: Verb nach dem Modalverb „möchte“.",
+   "wortbank": [
+    "Zuhören",
+    "zuhören"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Nach dem {{Essen}} müssen wir den Tisch {{abräumen}}.",
+   "info": "„Essen“ schreibt man groß: Artikel „dem“ steht davor. „abräumen“ schreibt man klein: Verb nach dem Modalverb „müssen“.",
+   "wortbank": [
+    "Essen",
+    "abräumen",
+    "essen",
+    "Abräumen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Wir mussten lange {{warten}}. Das {{Warten}} fiel uns schwer.",
+   "info": "„warten“ schreibt man klein: Verb nach dem Modalverb „mussten“. „Warten“ schreibt man groß: Artikel „Das“ steht davor.",
+   "wortbank": [
+    "warten",
+    "Warten"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "E – Fallen: groß oder klein?",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Zum {{Glück}} gibt es beim {{Wandern}} immer etwas zu {{entdecken}}.",
+   "info": "„Glück“ schreibt man groß: Begleiter „zum“ (zu dem) steht davor. „Wandern“ schreibt man groß: Begleiter „beim“ (bei dem) steht davor. „entdecken“ schreibt man klein: Verb mit „zu“ davor (zu + Infinitiv).",
+   "wortbank": [
+    "Glück",
+    "Wandern",
+    "entdecken",
+    "glück",
+    "wandern",
+    "Entdecken"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Sporttag).",
+   "text": "Am {{Freitag}} ist Sporttag. Das {{Laufen}} fällt mir leicht, aber das {{Werfen}} muss ich noch üben. Beim {{Springen}} zählt jeder Zentimeter. Zum {{Abschluss}} dürfen alle {{mitmachen}}.",
+   "info": "„Freitag“ schreibt man groß: Begleiter „Am“ (an dem) steht davor. „Laufen“ schreibt man groß: Artikel „Das“ steht davor. „Werfen“ schreibt man groß: Artikel „das“ steht davor. „Springen“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „Abschluss“ schreibt man groß: Begleiter „Zum“ (zu dem) steht davor. „mitmachen“ schreibt man klein: Verb nach dem Modalverb „dürfen“.",
+   "wortbank": [
+    "Freitag",
+    "Laufen",
+    "Werfen",
+    "Springen",
+    "Abschluss",
+    "mitmachen",
+    "freitag",
+    "laufen",
+    "werfen",
+    "springen",
+    "abschluss",
+    "Mitmachen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Ein Tag im Wald).",
+   "text": "Im {{Wald}} gibt es viel zu {{entdecken}}. Das {{Sammeln}} von {{Zapfen}} macht uns {{Spaß}}. Beim {{Bauen}} der Hütte hilft jeder mit.",
+   "info": "„Wald“ schreibt man groß: Begleiter „Im“ (in dem) steht davor. „entdecken“ schreibt man klein: Verb mit „zu“ davor (zu + Infinitiv). „Sammeln“ schreibt man groß: Artikel „Das“ steht davor. „Zapfen“ schreibt man groß: Präposition „von“ steht davor. „Spaß“ schreibt man groß: Nomen ohne Begleiter, Probe: der große Spaß. „Bauen“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor.",
+   "wortbank": [
+    "Wald",
+    "entdecken",
+    "Sammeln",
+    "Zapfen",
+    "Spaß",
+    "Bauen",
+    "wald",
+    "Entdecken",
+    "sammeln",
+    "zapfen",
+    "spaß",
+    "bauen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Kuchen).",
+   "text": "Vor dem {{Backen}} wiegt Mia die {{Zutaten}} ab. Das {{Rühren}} des Teigs dauert lange, aber sie will nicht {{aufgeben}}. Nach dem {{Aufgehen}} kommt der Kuchen in den {{Ofen}}.",
+   "info": "„Backen“ schreibt man groß: Artikel „dem“ steht davor. „Zutaten“ schreibt man groß: Artikel „die“ steht davor. „Rühren“ schreibt man groß: Artikel „Das“ steht davor. „aufgeben“ schreibt man klein: Verb nach dem Modalverb „will“. „Aufgehen“ schreibt man groß: Artikel „dem“ steht davor. „Ofen“ schreibt man groß: Artikel „den“ steht davor.",
+   "wortbank": [
+    "Backen",
+    "Zutaten",
+    "Rühren",
+    "aufgeben",
+    "Aufgehen",
+    "Ofen",
+    "backen",
+    "zutaten",
+    "rühren",
+    "Aufgeben",
+    "aufgehen",
+    "ofen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Hobby).",
+   "text": "Ole liebt das {{Zeichnen}}. Beim {{Malen}} hört er gern {{Musik}}. Seine {{Schwester}} schaut ihm beim {{Zusehen}} über die Schulter. Er kann gut {{zeichnen}}.",
+   "info": "„Zeichnen“ schreibt man groß: Artikel „das“ steht davor. „Malen“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „Musik“ schreibt man groß: Nomen ohne Begleiter, Probe: die leise Musik. „Schwester“ schreibt man groß: Pronomen „Seine“ steht davor. „Zusehen“ schreibt man groß: Begleiter „beim“ (bei dem) steht davor. „zeichnen“ schreibt man klein: Verb nach dem Modalverb „kann“.",
+   "wortbank": [
+    "Zeichnen",
+    "Malen",
+    "Musik",
+    "Schwester",
+    "Zusehen",
+    "zeichnen",
+    "malen",
+    "musik",
+    "schwester",
+    "zusehen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Vor der Arbeit).",
+   "text": "Das {{Lernen}} für die Arbeit fällt manchmal {{schwer}}. Zum {{Üben}} nehme ich mir {{Zeit}}. Nach dem {{Lesen}} schreibe ich Stichwörter auf. So kann ich mir viel {{merken}}.",
+   "info": "„Lernen“ schreibt man groß: Artikel „Das“ steht davor. „schwer“ schreibt man klein: Adjektiv, kein Nomen. „Üben“ schreibt man groß: Begleiter „Zum“ (zu dem) steht davor. „Zeit“ schreibt man groß: Nomen ohne Begleiter, Probe: die nötige Zeit. „Lesen“ schreibt man groß: Artikel „dem“ steht davor. „merken“ schreibt man klein: Verb nach dem Modalverb „kann“.",
+   "wortbank": [
+    "Lernen",
+    "schwer",
+    "Üben",
+    "Zeit",
+    "Lesen",
+    "merken",
+    "lernen",
+    "Schwer",
+    "üben",
+    "zeit",
+    "lesen",
+    "Merken"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "F – Kleine Texte",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Am Abend).",
+   "text": "Vor dem {{Einschlafen}} liest Papa uns oft vor. Das {{Vorlesen}} gefällt uns, aber wir müssen leise {{sein}}. Beim {{Zuhören}} fallen uns die Augen zu. Am {{Morgen}} ist das {{Aufstehen}} schwer.",
+   "info": "„Einschlafen“ schreibt man groß: Artikel „dem“ steht davor. „Vorlesen“ schreibt man groß: Artikel „Das“ steht davor. „sein“ schreibt man klein: Verb nach dem Modalverb „müssen“. „Zuhören“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „Morgen“ schreibt man groß: Begleiter „Am“ (an dem) steht davor. „Aufstehen“ schreibt man groß: Artikel „das“ steht davor.",
+   "wortbank": [
+    "Einschlafen",
+    "Vorlesen",
+    "sein",
+    "Zuhören",
+    "Morgen",
+    "Aufstehen",
+    "einschlafen",
+    "vorlesen",
+    "Sein",
+    "zuhören",
+    "morgen",
+    "aufstehen"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "G – Sachlich formulieren",
+   "frage": "Wie kann man „Dass ich die Vögel am Futterhaus beobachte, finde ich spannend.“ sachlicher sagen?",
+   "info": "Aus dem Verb wird ein Nomen: Das Beobachten (Artikel + nominalisiertes Verb), danach folgt der Genitiv „der Vögel“ und „am Futterhaus“.",
+   "antworten": [
+    "Das Beobachten der Vögel am Futterhaus ist spannend.",
+    "Das beobachten der Vögel am Futterhaus ist spannend.",
+    "Ich beobachte die Vögel am Futterhaus spannend.",
+    "Beobachten ist Futterhaus spannend."
+   ],
+   "richtig": 0
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "G – Sachlich formulieren",
+   "frage": "Formuliere als Anweisung: „Man soll die Pflanzen gießen.“ → Das … der Pflanzen ist wichtig.",
+   "info": "Aus „gießen“ wird mit Artikel das nominalisierte Verb: Das Gießen der Pflanzen ist wichtig.",
+   "richtig": "Gießen",
+   "gross": true
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "G – Sachlich formulieren",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Das {{Messen}} der Temperatur und das {{Notieren}} der Werte gehören zum Versuch.",
+   "info": "„Messen“ schreibt man groß: Artikel „Das“ steht davor. „Notieren“ schreibt man groß: Artikel „das“ steht davor.",
+   "wortbank": [
+    "Messen",
+    "Notieren",
+    "messen",
+    "notieren"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "zuordnen",
+   "abschnitt": "G – Sachlich formulieren",
+   "frage": "Welche sachliche Formulierung passt zu dem Satz?",
+   "info": "Aus dem Nebensatz mit „dass“ wird ein Nomen: aufräumen → das Aufräumen, zeichnen → das Zeichnen, singen → das Singen.",
+   "paare": [
+    [
+     "Dass wir die Zimmer aufräumen, ist nötig.",
+     "Das Aufräumen der Zimmer ist nötig."
+    ],
+    [
+     "Dass ich zeichne, entspannt mich.",
+     "Das Zeichnen entspannt mich."
+    ],
+    [
+     "Dass die Kinder singen, gefällt allen.",
+     "Das Singen der Kinder gefällt allen."
+    ]
+   ],
+   "extra": [
+    "Das Spielen der Kinder gefällt allen."
+   ]
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "G – Sachlich formulieren",
+   "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Das {{Sammeln}} der Blätter ist die erste Aufgabe. Danach folgt das {{Trocknen}} auf Zeitungspapier. Vor dem {{Aufkleben}} muss man die Blätter pressen.",
+   "info": "„Sammeln“ schreibt man groß: Artikel „Das“ steht davor. „Trocknen“ schreibt man groß: Artikel „das“ steht davor. „Aufkleben“ schreibt man groß: Artikel „dem“ steht davor.",
+   "wortbank": [
+    "Sammeln",
+    "Trocknen",
+    "Aufkleben",
+    "sammeln",
+    "trocknen",
+    "aufkleben"
+   ],
+   "gross": true
+  },
+  {
+   "typ": "frei",
+   "abschnitt": "G – Sachlich formulieren",
+   "frage": "Forme den Satz mit einem nominalisierten Verb um: „Dass wir miteinander reden, hilft bei Streit.“",
+   "info": "Aus „dass wir miteinander reden“ wird „das Reden miteinander“. Auch „Das Miteinanderreden“ wäre möglich.",
+   "punkte": 2,
+   "muster": "Das Reden miteinander hilft bei Streit.",
+   "kriterien": [
+    "Das Verb „reden“ ist nominalisiert und großgeschrieben (Das Reden).",
+    "Der Satz hat keinen „dass“-Nebensatz mehr.",
+    "Der Sinn bleibt gleich."
+   ]
+  }
+ ],
+ "nachlesen": {
+  "A – Verb oder Nomen?": [
+   "Verben als Nomen",
+   "Die Begleiter erkennen"
+  ],
+  "B – Die Begleiter nominalisierter Verben": "Die Begleiter erkennen",
+  "C – Verben nominalisieren": "Die Begleiter erkennen",
+  "D – Mehrteilige Verben": "Mehrteilige Verben",
+  "E – Fallen: groß oder klein?": [
+   "Fallen: Verb bleibt Verb",
+   "Die Begleiter erkennen"
+  ],
+  "F – Kleine Texte": [
+   "Die Begleiter erkennen",
+   "Fallen: Verb bleibt Verb"
+  ],
+  "G – Sachlich formulieren": "Sachlich formulieren mit Nominalisierungen"
+ },
+ "termin": "2026-12-02",
+ "reihenfolge": 2,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Verben-Verwandler",
+  "motiv": "🔄",
+  "text": "Aus Verben werden Nomen: beim Lesen, zum Essen, das Schwimmen."
+ }
+}

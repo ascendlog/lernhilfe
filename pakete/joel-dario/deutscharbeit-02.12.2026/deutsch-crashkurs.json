@@ -1,0 +1,251 @@
+{
+ "typ": "lernpaket",
+ "version": 1,
+ "person": [
+  "joel",
+  "dario",
+  "lio",
+  "luca"
+ ],
+ "id": "deutsch-crashkurs",
+ "titel": "Deutsch Klasse 6: Crashkurs (das Wichtigste kurz gefasst)",
+ "fach": "Deutsch",
+ "klasse": "6",
+ "beschreibung": "Das Wichtigste kurz gefasst, für den letzten Blick vor der Arbeit: Lernblatt, Checkliste und ein Blitz-Check mit 12 Kurzaufgaben.",
+ "hinweis": "Kein neuer Stoff: Alles steht auch in den Lernblättern der Übungspakete. Die Beispiele sind selbst ausgedacht, nicht aus dem Deutschbuch oder Aufgabenheft.",
+ "lernblatt": [
+  {
+   "titel": "So nutzt du den Crashkurs",
+   "text": "Das ist dein **letzter Blick** am Tag vor der Arbeit: einmal in Ruhe lesen (etwa 10 Minuten), danach den **Blitz-Check** machen (etwa 5 Minuten). Hier steht nichts Neues. Wenn du unsicher bist, geh in das passende Übungspaket zurück. Das Diktat und die Aufgaben der echten Arbeit kennen wir nicht, die Regeln aber schon."
+  },
+  {
+   "titel": "Nomen und Begleiter",
+   "text": "- **Nomen** schreibt man groß, Namen auch.\n- Vor einem Nomen steht oft ein **Begleiter**: **Artikel** (der, ein), **Adjektiv** (kleine), **Pronomen** (mein), **Präposition** (mit, auf) oder **Zahlwort** (zwei).\n- Verschmolzene Wörter sind auch Begleiter: im, beim, zum, zur, vom, am, ins (in dem, bei dem, zu dem …).\n- Steht kein Begleiter da, hilft die **Artikel-Adjektiv-Probe**: Geht „der große …“, ist es ein Nomen (der große Hunger).\n- Bei gern, schnell, heute geht die Probe nicht, diese Wörter schreibt man klein.",
+   "merke": "Erst den Begleiter suchen, dann die Probe machen."
+  },
+  {
+   "titel": "Nominalisierte Verben",
+   "text": "- Ein **Verb** in der **Grundform** wird zum Nomen, wenn ein **Begleiter** davorsteht: beim Lesen, zum Essen, das Schwimmen, ihr Lachen. Man nennt das **Nominalisierung**.\n- Bei mehrteiligen Verben bleibt die Grundform zusammen: aufgeben, das Aufgeben.\n- **Falle:** Nach einem **Modalverb** (wollen, können, müssen) und nach **zu** bleibt das Verb klein: Wir wollen spielen. Es gibt viel zu entdecken.\n- Vergleiche: Sie kann lachen (Verb). Ihr Lachen steckt an (nominalisiert).",
+   "merke": "Nach Begleiter groß, nach Modalverb und nach „zu“ klein."
+  },
+  {
+   "titel": "Nominalisierte Adjektive",
+   "text": "- Ein **Adjektiv**, das wie ein Nomen gebraucht wird, ist **nominalisiert** und wird großgeschrieben: das Neue, im Dunkeln, aufs Neue.\n- Begleiter sind **Artikel**, **Präposition** (im, aufs, für …) und **Indefinitpronomen** (etwas, nichts, alles, viel): etwas Schönes, nichts Neues, alles Gute, viel Schönes.\n- Das Indefinitpronomen selbst schreibt man klein.\n- **Falle:** Folgt noch ein Nomen, bleibt das Adjektiv klein: ein furchtloser Held. Auch bei „Er singt laut.“ bleibt es klein.",
+   "merke": "Indefinitpronomen plus Adjektiv: groß. Folgt ein Nomen: klein."
+  },
+  {
+   "titel": "Superlativ: am oder das?",
+   "text": "- **am schönsten, am spannendsten** (Superlativ mit „am“) schreibt man **klein**. Die Frage lautet **Wie?** Mia läuft am schnellsten.\n- **das Schönste, das Spannendste** (nominalisiert) schreibt man **groß**. Davor steht ein Artikel. Die Frage lautet **Was?** Das Spannendste war der Schluss.\n- Auch mit Zusatz davor schreibt man groß: mit Abstand das Gruseligste.\n- Typische Fälle: am liebsten und am besten schreibt man klein.",
+   "merke": "Wie? am …sten, klein. Was? das …ste, groß."
+  },
+  {
+   "titel": "Satzreihe und Komma",
+   "text": "- Ein **Hauptsatz** kann allein stehen. Die **Personalform** steht an zweiter Stelle.\n- Eine **Satzreihe** besteht aus zwei oder mehr Hauptsätzen. Es gibt **nebenordnende Konjunktionen**: und, oder, aber, sondern, denn, doch.\n- Vor **aber, sondern, denn, doch** steht **immer** ein Komma: Ich lese, denn das Buch ist spannend.\n- Vor **und** und **oder** darf das Komma **wegfallen**.\n- Ohne Konjunktion steht immer ein Komma. Verbindet „und“ nur Wörter (Äpfel und Birnen), steht keins.",
+   "merke": "Komma immer vor aber, sondern, denn, doch. Vor und und oder darf es fehlen."
+  },
+  {
+   "titel": "Satzgefüge, Relativsatz und Komma",
+   "text": "- Ein **Satzgefüge** besteht aus **Hauptsatz** und **Nebensatz**. Im Nebensatz steht die Personalform am **Ende**: Ole bleibt zu Hause, weil er krank ist.\n- Es gibt **unterordnende Konjunktionen**: weil, da, obwohl, damit, wenn, dass, sodass, nachdem, während, bevor, indem.\n- Zwischen Hauptsatz und Nebensatz steht **immer ein Komma**. Steht der Nebensatz vorn, folgt das Komma hinter ihm.\n- Steht er in der Mitte, setzt man **zwei Kommas**. Das gilt auch für den **Relativsatz** (der, die, das): Der Hund, der gern bellt, gehört Mia.",
+   "merke": "Satzgefüge: immer ein Komma. Mitten im Satz: zwei Kommas."
+  },
+  {
+   "titel": "Silben, Doppelkonsonanten und s-Laute",
+   "text": "- Beim **Schwingen** sprichst du in Silben. Eine Silbe ist **offen** (endet auf einen Vokal: Ho-se) oder **geschlossen** (endet auf einen Konsonanten: Kan-ne).\n- **Doppelkonsonant:** erste Silbe geschlossen und nur ein Konsonant zu hören (Kan-ne). Zwei verschiedene Konsonanten: nicht verdoppeln (Hil-fe). Statt kk schreibt man **ck**, statt zz **tz**.\n- **s-Laut:** offene Silbe und summend: s (Ha-se). Offene Silbe und zischend: ß (Stra-ße). Geschlossene Silbe: ss (Tas-se).",
+   "merke": "s summt, ß zischt in offener Silbe, ss in geschlossener Silbe."
+  },
+  {
+   "titel": "i, ie, h und Doppelvokale",
+   "text": "- **ie:** oft bei offener erster Silbe und langem i (Zie-le, Wie-se). Bei geschlossener Silbe steht **i** (Kin-der).\n- Merkwörter: mir, dir, wir, ihr, ihm, ihn, ihnen. Verben auf -ieren schreibt man mit ie (probieren).\n- **h:** Das silbenöffnende h hörst du beim Verlängern am Anfang der zweiten Silbe (zie-hen, Mü-he).\n- Vor l, m, n, r steht ein h, das man nicht hört. Das sind Merkwörter: Zahl, Wohnung, Lehrer.\n- Doppelvokale sind Merkwörter: See, Meer, Boot, Haar.",
+   "merke": "ie bei offener Silbe, i bei geschlossener Silbe. Das h beim Verlängern hören."
+  },
+  {
+   "titel": "Verlängern, Zerlegen, Ableiten",
+   "text": "- **Verlängern:** Bei b/p, d/t und g/k am Wortende verlängerst du: Korb – Körbe, Hund – Hunde, Zug – Züge. Nomen in die Mehrzahl, Verben in die Grundform.\n- **Zerlegen:** Bei zusammengesetzten Wörtern trennst du die Teile und verlängerst den unklaren Teil: Land|karte – Länder.\n- **Ableiten:** Gibt es ein verwandtes Wort mit a oder au, schreibt man **ä** oder **äu**: Bäume (Baum), Häuser (Haus). Gibt es keins, schreibt man e oder eu: Keller, Leuchte.",
+   "merke": "Unsicher? Verlängern, zerlegen oder ableiten."
+  },
+  {
+   "titel": "Tipps für die Arbeit",
+   "text": "- Lies jede Aufgabe **zweimal**.\n- **Diktat:** zuhören, Satz für Satz schreiben, unsichere Wörter **einkreisen**, am Ende mit einer Strategie prüfen.\n- Bei groß oder klein erst den **Begleiter** suchen, dann die Probe machen.\n- **am** plus Superlativ bleibt klein.\n- Bei Kommas hilft die **Verbprobe**: Steht die Personalform am Ende, ist es ein Nebensatz und davor steht ein Komma.\n- Lies am Ende alles noch einmal Wort für Wort."
+  },
+  {
+   "titel": "Checkliste für morgen",
+   "text": "**Ich kann:**\n\n- Begleiter von Nomen erkennen und die Artikel-Adjektiv-Probe machen.\n- nominalisierte Verben und Adjektive großschreiben.\n- am plus Superlativ und das plus Superlativ unterscheiden.\n- Satzreihe und Satzgefüge erkennen und die Kommas setzen.\n- einen Relativsatz mit Kommas abtrennen.\n- Wörter mit Verlängern, Zerlegen und Ableiten klären.\n- ein Diktat schreiben und unsichere Wörter prüfen."
+  }
+ ],
+ "aufgaben": [
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, groß oder klein: Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
+   "text": "Zum {{Backen}} braucht Papa {{Mehl}}.",
+   "info": "„Backen“ schreibt man groß: Begleiter „zum“ (zu dem). „Mehl“ schreibt man groß: Nomen ohne Begleiter, Probe: das feine Mehl.",
+   "wortbank": [
+    "Backen",
+    "Mehl",
+    "backen",
+    "mehl"
+   ],
+   "gross": true,
+   "lesen": [
+    "Nominalisierte Verben",
+    "Nomen und Begleiter"
+   ]
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Adjektiv: Welche Schreibweise stimmt im Satz über den Sommer?",
+   "info": "Nach „viel“ ist das Adjektiv nominalisiert und wird großgeschrieben. Nach „zu“ bleibt das Verb klein.",
+   "antworten": [
+    "Im Sommer gibt es viel Schönes zu erleben.",
+    "Im Sommer gibt es viel schönes zu erleben.",
+    "Im Sommer gibt es viel Schönes zu Erleben."
+   ],
+   "richtig": 0,
+   "lesen": "Nominalisierte Adjektive"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Superlativ: In dem Satz „Der Hase läuft am schnellsten.“ schreibt man „schnellsten“ klein.",
+   "info": "Die Frage „Wie läuft der Hase?“ führt zu „am schnellsten“. Superlative mit „am“ schreibt man klein.",
+   "richtig": true,
+   "lesen": "Superlativ: am oder das?"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Satzreihe: Welches Wort passt? Mia ist müde, … sie geht noch nicht ins Bett.",
+   "info": "„aber“ ist eine nebenordnende Konjunktion und verbindet zwei Hauptsätze. „weil“, „dass“ und „damit“ leiten Nebensätze ein.",
+   "antworten": [
+    "aber",
+    "weil",
+    "dass",
+    "damit"
+   ],
+   "richtig": 0,
+   "lesen": "Satzreihe und Komma"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Komma: Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Ich lerne heute {{Komma}} denn morgen schreiben wir eine Arbeit. Mia lernt mit {{Komma|kein Komma}} und Ole liest.",
+   "info": "Vor „denn“ steht immer ein Komma. Vor „und“ zwischen zwei Hauptsätzen darf es wegfallen.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "lesen": "Satzreihe und Komma",
+   "nachsicht": true
+  },
+  {
+   "typ": "kurz",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Satzgefüge: Verbinde mit „obwohl“: Mia schwimmt im See. Das Wasser ist kalt.",
+   "info": "Im Nebensatz mit „obwohl“ steht die Personalform am Ende. Zwischen Hauptsatz und Nebensatz steht immer ein Komma.",
+   "richtig": [
+    "Mia schwimmt im See, obwohl das Wasser kalt ist.",
+    "Obwohl das Wasser kalt ist, schwimmt Mia im See."
+   ],
+   "gross": true,
+   "lesen": "Satzgefüge, Relativsatz und Komma"
+  },
+  {
+   "typ": "luecke",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Relativsatz: Wähle bei jeder Lücke „Komma“ oder „kein Komma“.",
+   "text": "Das Buch {{Komma}} das auf dem Tisch liegt {{Komma}} gehört Ole.",
+   "info": "Der Relativsatz steht mitten im Hauptsatz. Deshalb steht davor und dahinter ein Komma.",
+   "auswahl": [
+    "Komma",
+    "kein Komma"
+   ],
+   "lesen": "Satzgefüge, Relativsatz und Komma",
+   "nachsicht": true
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, s-Laut: Welches Wort ist richtig geschrieben? Zum Nachtisch gibt es …",
+   "info": "süß – sü-ße: Die erste Silbe ist offen und der s-Laut zischt. Dann schreibt man ß.",
+   "antworten": [
+    "Süßigkeiten",
+    "Süsigkeiten",
+    "Süssigkeiten"
+   ],
+   "richtig": 0,
+   "lesen": "Silben, Doppelkonsonanten und s-Laute"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, ie oder i: Welches Wort ist richtig geschrieben? Wir singen gern …",
+   "info": "Lie-der: Die erste Silbe ist offen und das i klingt lang. Dann schreibt man oft ie.",
+   "antworten": [
+    "Lieder",
+    "Lider",
+    "Lihder"
+   ],
+   "richtig": 0,
+   "lesen": "i, ie, h und Doppelvokale"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Verlängern: Welches Wort ist richtig geschrieben? Der … fährt in den Bahnhof.",
+   "info": "Zug – Züge: Beim Verlängern hörst du ein g. Deshalb schreibt man auch am Wortende g.",
+   "antworten": [
+    "Zug",
+    "Zuk",
+    "Zuck"
+   ],
+   "richtig": 0,
+   "lesen": "Verlängern, Zerlegen, Ableiten"
+  },
+  {
+   "typ": "mc",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Ableiten: Welches Wort ist richtig geschrieben? Im Dorf stehen viele alte …",
+   "info": "Häuser – Haus: Es gibt ein verwandtes Wort mit au, also schreibt man äu.",
+   "antworten": [
+    "Häuser",
+    "Heuser",
+    "Hauser"
+   ],
+   "richtig": 0,
+   "lesen": "Verlängern, Zerlegen, Ableiten"
+  },
+  {
+   "typ": "tf",
+   "abschnitt": "Blitz-Check",
+   "frage": "Blitz-Check, Verb: Der Satz „Wir wollen draußen Spielen.“ ist richtig geschrieben.",
+   "info": "Nach einem Modalverb (wollen) bleibt das Verb klein. Richtig ist: Wir wollen draußen spielen.",
+   "richtig": false,
+   "lesen": "Nominalisierte Verben"
+  }
+ ],
+ "nachlesen": {
+  "Blitz-Check": [
+   "Nomen und Begleiter",
+   "Nominalisierte Verben",
+   "Nominalisierte Adjektive",
+   "Superlativ: am oder das?",
+   "Satzreihe und Komma",
+   "Satzgefüge, Relativsatz und Komma",
+   "Silben, Doppelkonsonanten und s-Laute",
+   "i, ie, h und Doppelvokale",
+   "Verlängern, Zerlegen, Ableiten"
+  ]
+ },
+ "probe": false,
+ "termin": "2026-12-02",
+ "reihenfolge": 11,
+ "gruppe": "Deutscharbeit 02.12.2026",
+ "dauerhaft": false,
+ "karte": {
+  "titel": "Spickzettel",
+  "motiv": "⚡",
+  "text": "Das Wichtigste kurz gefasst – schnell wiederholt."
+ }
+}
