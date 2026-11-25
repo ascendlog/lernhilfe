@@ -17,6 +17,7 @@ import re
 
 import geo_lib
 from geo_lib import mc, tf, zuordnen, reihenfolge, frei, lb, check_pack, _gaps   # noqa: F401
+from geo_lib import tausche as _tausche, pruefe_tausch as _pruefe_tausch
 from gesch_lib import _normalisiere, punkte_von, nachlesen                       # noqa: F401
 
 FACH = "Deutsch"
@@ -34,42 +35,6 @@ def kurz(frage, richtig, abschnitt, info=None, tipp=None, gross=False, vorlesen=
     if vorlesen:
         t["vorlesen"] = {"text": vorlesen, "sprache": SPRACHE}
     return t
-
-_LUECKE = re.compile(r"\{\{([^{}]+)\}\}")
-_VERBINDER = re.compile(r"\{\{([^{}]+)\}\}(\s*(?:,|und|oder|sowie)\s*)\{\{([^{}]+)\}\}")
-
-
-def _tausche(text, gruppen):
-    """Wörter einer Gruppe dürfen die Lücken tauschen: jede Lücke bekommt die anderen Wörter der Gruppe als Alternative."""
-    if not gruppen:
-        return text
-    erste = [m.group(1).split("|")[0].strip() for m in _LUECKE.finditer(text)]
-    for gruppe in gruppen:
-        gruppe = list(gruppe)
-        assert len(gruppe) >= 2 and len(set(gruppe)) == len(gruppe), f"tauschbar: Gruppe {gruppe}"
-        for w in gruppe:
-            assert erste.count(w) == 1, f"tauschbar: „{w}“ steht nicht genau einmal als Lücke im Text: {text}"
-
-    def rep(m):
-        teile = [x.strip() for x in m.group(1).split("|")]
-        for gruppe in gruppen:
-            if teile[0] in gruppe:
-                teile += [w for w in gruppe if w not in teile]
-        return "{{" + "|".join(teile) + "}}"
-
-    return _LUECKE.sub(rep, text)
-
-
-def _pruefe_tausch(text, fest):
-    """Zwei Lücken, die nur durch „und“, „oder“ oder Komma getrennt sind, müssen als tauschbar oder als fest gekennzeichnet sein."""
-    if fest:
-        return
-    for m in _VERBINDER.finditer(text):
-        a = [x.strip() for x in m.group(1).split("|")]
-        b = [x.strip() for x in m.group(3).split("|")]
-        assert (b[0] in a and a[0] in b) or (len(a) > 1 and len(b) > 1), (
-            f"Lücken „{a[0]}“{m.group(2)}„{b[0]}“ stehen nebeneinander: tauschbar=[(\"{a[0]}\", \"{b[0]}\")] angeben, "
-            f"wenn die Wörter die Plätze tauschen dürfen, sonst fest=True. Text: {text}")
 
 
 def luecke(frage, text, abschnitt, extra=(), info=None, tipp=None, wortbank=True, gross=False, auswahl=None, vorlesen=None,

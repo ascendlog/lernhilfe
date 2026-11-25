@@ -334,7 +334,7 @@
    "typ": "luecke",
    "abschnitt": "Teil C – Grammar (18 Punkte)",
    "frage": "Aufgabe 16: Ergänze die richtige Form des Adjektivs. (3 Punkte)",
-   "text": "My bag is {{heavier}} than your bag. This book is {{more interesting}} than that book. February is the {{shortest}} month of the year.",
+   "text": "My bag is {{heavier|more interesting}} than your bag. This book is {{more interesting|heavier}} than that book. February is the {{shortest}} month of the year.",
    "info": "heavy → heavier (y wird zu i). interesting ist lang: more interesting. short → shortest (Superlativ mit the).",
    "wortbank": [
     "heavier",

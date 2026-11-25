@@ -118,7 +118,7 @@
    "typ": "luecke",
    "abschnitt": "Blitz-Check",
    "frage": "Blitz-Check, Possessivpronomen: Ergänze mine, hers oder ours.",
-   "text": "These books are not {{mine}}. They are {{hers}}.",
+   "text": "These books are not {{mine|hers}}. They are {{hers|mine}}.",
    "info": "Nach mine und hers steht kein Nomen. my und her stehen dagegen vor einem Nomen.",
    "wortbank": [
     "mine",

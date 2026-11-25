@@ -24,6 +24,48 @@ def _gaps(text):
     return re.findall(r"\{\{([\s\S]*?)\}\}", text)
 
 
+# ---------------------------------------------------------------- vertauschbare Lücken (Deutsch und Englisch)
+# Die App wertet jede Lücke an ihrer Stelle im Text. Dürfen zwei Wörter die Plätze tauschen („Hunger und Durst“, „a knife, a fork and a spoon“),
+# werden sie gegenseitig zu Alternativen: {{Hunger|Durst}} und {{Durst|Hunger}}. Siehe deutsch_lib.luecke / eng_lib.luecke (tauschbar=, fest=).
+
+_LUECKE = re.compile(r"\{\{([^{}]+)\}\}")
+
+
+def tausche(text, gruppen):
+    """Wörter einer Gruppe dürfen die Lücken tauschen: jede Lücke bekommt die anderen Wörter der Gruppe als Alternative."""
+    if not gruppen:
+        return text
+    erste = [m.group(1).split("|")[0].strip() for m in _LUECKE.finditer(text)]
+    for gruppe in gruppen:
+        gruppe = list(gruppe)
+        assert len(gruppe) >= 2 and len(set(gruppe)) == len(gruppe), f"tauschbar: Gruppe {gruppe}"
+        for w in gruppe:
+            assert erste.count(w) == 1, f"tauschbar: „{w}“ steht nicht genau einmal als Lücke im Text: {text}"
+
+    def rep(m):
+        teile = [x.strip() for x in m.group(1).split("|")]
+        for gruppe in gruppen:
+            if teile[0] in gruppe:
+                teile += [w for w in gruppe if w not in teile]
+        return "{{" + "|".join(teile) + "}}"
+
+    return _LUECKE.sub(rep, text)
+
+
+def pruefe_tausch(text, fest, verbinder=r",|und|oder|sowie", artikel=r""):
+    """Zwei Lücken, die nur durch Verbinder (Komma, und, oder, and, or) und evtl. einen Artikel getrennt sind, müssen als tauschbar
+    oder als fest gekennzeichnet sein. Sonst wird die vertauschte, aber richtige Antwort falsch gewertet (Meldung 25.11.2026: „Hunger und Durst“)."""
+    if fest:
+        return
+    mitte = r"(\s*(?:" + verbinder + r")\s*" + (r"(?:(?:" + artikel + r")\s+)?" if artikel else "") + r")"
+    for m in re.finditer(r"\{\{([^{}]+)\}\}" + mitte + r"\{\{([^{}]+)\}\}", text):
+        a = [x.strip() for x in m.group(1).split("|")]
+        b = [x.strip() for x in m.group(3).split("|")]
+        assert (b[0] in a and a[0] in b) or (len(a) > 1 and len(b) > 1), (
+            f"Lücken „{a[0]}“{m.group(2)}„{b[0]}“ stehen nebeneinander: tauschbar=[(\"{a[0]}\", \"{b[0]}\")] angeben, "
+            f"wenn die Wörter die Plätze tauschen dürfen, sonst fest=True. Text: {text}")
+
+
 # ---------------------------------------------------------------- Aufgaben
 
 

@@ -187,7 +187,7 @@
    "typ": "luecke",
    "abschnitt": "B – Mein Schultag",
    "frage": "Ergänze die Wörter.",
-   "text": "{{First}}, I get up at seven o'clock. {{Then}} I have breakfast. {{After that}} I go to school by bus. {{Finally}}, I am at school at eight.",
+   "text": "{{First}}, I get up at seven o'clock. {{Then|After that}} I have breakfast. {{After that|Then}} I go to school by bus. {{Finally}}, I am at school at eight.",
    "info": "first = zuerst, then = dann, after that = danach, finally = zum Schluss.",
    "wortbank": [
     "First",

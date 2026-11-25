@@ -483,7 +483,7 @@
    "typ": "luecke",
    "abschnitt": "D – Dinge und Orte",
    "frage": "Ergänze die Wörter.",
-   "text": "My bedroom is {{upstairs}}, the kitchen is {{downstairs}}.",
+   "text": "My bedroom is {{upstairs|downstairs}}, the kitchen is {{downstairs|upstairs}}.",
    "info": "upstairs = oben (im oberen Stockwerk), downstairs = unten.",
    "wortbank": [
     "upstairs",
@@ -496,7 +496,7 @@
    "typ": "luecke",
    "abschnitt": "D – Dinge und Orte",
    "frage": "Ergänze das Besteck.",
-   "text": "For dinner we use a {{knife}}, a {{fork}} and a {{spoon}}.",
+   "text": "For dinner we use a {{knife|fork|spoon}}, a {{fork|knife|spoon}} and a {{spoon|knife|fork}}.",
    "info": "knife = Messer, fork = Gabel, spoon = Löffel.",
    "wortbank": [
     "knife",

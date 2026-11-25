@@ -176,7 +176,7 @@ def aufgaben():
                          info="Die Wörter then und after that zeigen die Reihenfolge: aufstehen, frühstücken, zur Schule fahren, Unterricht."))
     a.append(luecke("Ergänze die Wörter.",
                     "{{First}}, I get up at seven o'clock. {{Then}} I have breakfast. {{After that}} I go to school by bus. {{Finally}}, I am at school at eight.",
-                    B_B, extra=["because", "but"],
+                    B_B, extra=["because", "but"], tauschbar=[("Then", "After that")],
                     info="first = zuerst, then = dann, after that = danach, finally = zum Schluss."))
     a.append(mc("Welcher Satz ist richtig?", "I have lunch at half past twelve.",
                 ["I have lunch on half past twelve.", "I have lunch in half past twelve.", "I have lunch to half past twelve."], B_B,

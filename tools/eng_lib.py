@@ -30,7 +30,14 @@ def kurz(frage, richtig, abschnitt, info=None, tipp=None, vorlesen=None, einheit
     return t
 
 
-def luecke(frage, text, abschnitt, extra=(), info=None, tipp=None, wortbank=True, auswahl=None, vorlesen=None):
+def luecke(frage, text, abschnitt, extra=(), info=None, tipp=None, wortbank=True, auswahl=None, vorlesen=None,
+           tauschbar=(), fest=False):
+    """Lückentext. tauschbar=[("knife", "fork", "spoon")]: diese Wörter dürfen die Plätze tauschen (gegenseitige Alternativen),
+    fest=True: Reihenfolge ist Pflicht (z. B. „read aloud and label“). Zwei Lücken nur durch Komma/and/or (und evtl. a/an/the) getrennt
+    brauchen eine der beiden Angaben, sonst bricht der Build ab."""
+    text = geo_lib.tausche(text, tauschbar)
+    if not auswahl:
+        geo_lib.pruefe_tausch(text, fest, verbinder=r",|and|or|but|und|oder", artikel=r"a|an|the|some")
     if wortbank and not auswahl:   # jedes Wort der Wortbank wird nur einmal gebraucht
         ersten = [g.split("|")[0].strip().lower() for g in _gaps(text)]
         assert len(set(ersten)) == len(ersten), f"gleiche Antwort in zwei Lücken mit Wortbank: {ersten}"

@@ -138,7 +138,7 @@ def aufgaben():
            info="theatre schreibt man im britischen Englisch mit -re am Ende. Das Wort ist ein Merkwort."),
         T_WORT, ["theatre (nicht theater)"])
     neu(luecke("Blitz-Check, Possessivpronomen: Ergänze mine, hers oder ours.",
-               "These books are not {{mine}}. They are {{hers}}.", S, extra=["her", "my"],
+               "These books are not {{mine}}. They are {{hers}}.", S, extra=["her", "my"], tauschbar=[("mine", "hers")],
                info="Nach mine und hers steht kein Nomen. my und her stehen dagegen vor einem Nomen."),
         T_GET, ["mine steht allein", "kein apostroph"])
     neu(mc("Blitz-Check, get: Was bedeutet get in „It gets cold in winter“?", "werden", ["bekommen", "holen", "gehen"], S,

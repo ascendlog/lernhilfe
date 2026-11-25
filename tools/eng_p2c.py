@@ -182,11 +182,11 @@ def aufgaben():
                 info="stairs ist ein Pluralwort (Treppe, Treppenstufen)."))
     a.append(luecke("Ergänze die Wörter.",
                     "My bedroom is {{upstairs}}, the kitchen is {{downstairs}}.",
-                    B_D, extra=["stairs", "plane"],
+                    B_D, extra=["stairs", "plane"], tauschbar=[("upstairs", "downstairs")],
                     info="upstairs = oben (im oberen Stockwerk), downstairs = unten."))
     a.append(luecke("Ergänze das Besteck.",
                     "For dinner we use a {{knife}}, a {{fork}} and a {{spoon}}.",
-                    B_D, extra=["paw", "stairs"],
+                    B_D, extra=["paw", "stairs"], tauschbar=[("knife", "fork", "spoon")],
                     info="knife = Messer, fork = Gabel, spoon = Löffel."))
     a.append(kurz("Wie schreibt man „Quadratkilometer“ auf Englisch? Schreibe das ganze Wort (zwei Wörter).", ["square kilometre", "square kilometer", "sq km"], B_D,
                   info="square kilometre (Abkürzung sq km) = Quadratkilometer."))
