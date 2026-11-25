@@ -31,11 +31,15 @@ def _gaps(text):
 _LUECKE = re.compile(r"\{\{([^{}]+)\}\}")
 
 
-def tausche(text, gruppen):
-    """Wörter einer Gruppe dürfen die Lücken tauschen: jede Lücke bekommt die anderen Wörter der Gruppe als Alternative."""
-    if not gruppen:
+def tausche(text, gruppen, auch=None):
+    """Wörter einer Gruppe dürfen die Lücken tauschen: jede Lücke bekommt die anderen Wörter der Gruppe als Alternative.
+    auch={"zeichnen": ["malen"]}: zusätzliche richtige Wörter für eine Lücke (die nicht selbst eine Lücke sind)."""
+    auch = auch or {}
+    if not gruppen and not auch:
         return text
     erste = [m.group(1).split("|")[0].strip() for m in _LUECKE.finditer(text)]
+    for w in auch:
+        assert erste.count(w) == 1, f"auch: „{w}“ steht nicht genau einmal als Lücke im Text: {text}"
     for gruppe in gruppen:
         gruppe = list(gruppe)
         assert len(gruppe) >= 2 and len(set(gruppe)) == len(gruppe), f"tauschbar: Gruppe {gruppe}"
@@ -47,6 +51,7 @@ def tausche(text, gruppen):
         for gruppe in gruppen:
             if teile[0] in gruppe:
                 teile += [w for w in gruppe if w not in teile]
+        teile += [w for w in auch.get(teile[0], []) if w not in teile]
         return "{{" + "|".join(teile) + "}}"
 
     return _LUECKE.sub(rep, text)

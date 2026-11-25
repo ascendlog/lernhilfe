@@ -94,7 +94,8 @@ def aufgaben():
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Auf dem {{Weg}} liegt ein {{Stab}} und ein {{Hut}}.",
                     B_A, extra=["Wek", "Stap", "Hud"], gross=True,
-                    info="Wege (g), Stä-be (b), Hü-te (t): Beim Verlängern hörst du die Buchstaben."))
+                    info="Wege (g), Stä-be (b), Hü-te (t): Beim Verlängern hörst du die Buchstaben.",
+                tauschbar=[("Stab", "Hut")]))
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Mein Hund ist {{gesund}}, {{stark}} und {{beliebt}}.",
                     B_A, extra=["gesunt", "starg", "beliept"], gross=True, tauschbar=[("gesund", "stark", "beliebt")],
@@ -176,7 +177,8 @@ def aufgaben():
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Im Herbst fallen die Blätter von den {{Bäumen}}, und die {{Mäuse}} suchen Futter in den {{Wäldern}}.",
                     B_C, extra=["Beumen", "Mäse", "Welder"], gross=True,
-                    info="Bäume – Baum, Mäuse – Maus, Wälder – Wald: Es gibt jeweils ein verwandtes Wort mit a oder au."))
+                    info="Bäume – Baum, Mäuse – Maus, Wälder – Wald: Es gibt jeweils ein verwandtes Wort mit a oder au.",
+                tauschbar=[("Bäumen", "Wäldern")]))
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Der {{Läufer}} wird {{kräftiger}}, denn er trainiert {{täglich}}.",
                     B_C, extra=["Leufer", "kreftiger", "teglich"], gross=True,
@@ -214,11 +216,13 @@ def aufgaben():
     a.append(luecke("Schreibe die Wörter richtig auf (Text: Im Keller).",
                     "Im {{Keller}} liegt ein alter {{Koffer}} mit {{Wäsche}}, und im {{Schrank}} stehen bunte {{Gläser}}.",
                     B_D, extra=["Käller", "Kofer", "Wesche", "Schrang", "Gleser"], gross=True,
-                    info="Keller (e), Koffer (ff nach kurzem Vokal), Wäsche – waschen (ä), Schrank – Schränke (k), Gläser – Glas (ä)."))
+                    info="Keller (e), Koffer (ff nach kurzem Vokal), Wäsche – waschen (ä), Schrank – Schränke (k), Gläser – Glas (ä).",
+                tauschbar=[("Keller", "Schrank")]))
     a.append(luecke("Schreibe die Wörter richtig auf (Text: Im Garten).",
                     "Die {{Mädchen}} spielen mit einem {{Ball}} im {{Garten}}. Plötzlich {{liegt}} er im {{Beet}}.",
                     B_D, extra=["Medchen", "Bal", "Garden", "ligt", "Bet"], gross=True,
-                    info="Mädchen ist ein Merkwort mit ä. Ball – Bälle (ll). Garten (r und t, kein Doppelkonsonant). liegt – liegen (ie, g). Beet hat Doppelvokal ee."))
+                    info="Mädchen ist ein Merkwort mit ä. Ball – Bälle (ll). Garten (r und t, kein Doppelkonsonant). liegt – liegen (ie, g). Beet hat Doppelvokal ee.",
+                tauschbar=[("Garten", "Beet")]))
     a.append(mc("Welcher Satz ist richtig geschrieben?",
                 "Der Hund bellt laut, weil ein Dieb über den Zaun klettert.",
                 ["Der Hunt bellt laut, weil ein Dieb über den Zaun klettert.", "Der Hund bellt laut, weil ein Diep über den Zaun klettert."], B_D,

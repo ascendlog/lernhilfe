@@ -38,9 +38,9 @@ def kurz(frage, richtig, abschnitt, info=None, tipp=None, gross=False, vorlesen=
 
 
 def luecke(frage, text, abschnitt, extra=(), info=None, tipp=None, wortbank=True, gross=False, auswahl=None, vorlesen=None,
-           tauschbar=(), fest=False):
+           tauschbar=(), fest=False, auch=None):
     """Lückentext. tauschbar=[("Hunger", "Durst")]: diese Wörter dürfen die Plätze tauschen. fest=True: Reihenfolge ist Pflicht."""
-    text = _tausche(text, tauschbar)
+    text = _tausche(text, tauschbar, auch)
     if not auswahl:
         _pruefe_tausch(text, fest)
     t = geo_lib.luecke(frage, text, abschnitt, extra=extra, info=info, tipp=tipp, wortbank=bool(wortbank and not auswahl))
@@ -67,7 +67,7 @@ def flip(w):
     return (w[0].lower() if w[0].isupper() else w[0].upper()) + w[1:]
 
 
-def gk(satz, abschnitt, frage=GK_FRAGE, extra=(), tipp=None, info_zusatz=None, tauschbar=(), fest=False):
+def gk(satz, abschnitt, frage=GK_FRAGE, extra=(), tipp=None, info_zusatz=None, tauschbar=(), fest=False, auch=None):
     """Lückentext Groß/klein. Im Satz steht jedes zu entscheidende Wort als [Wort|Grund] in seiner RICHTIGEN Schreibweise.
 
     Die Wortbank enthält die richtigen Wörter plus die jeweils andere Schreibweise (und extra). info entsteht aus den Gründen.
@@ -94,7 +94,7 @@ def gk(satz, abschnitt, frage=GK_FRAGE, extra=(), tipp=None, info_zusatz=None, t
     for w, why in gaps:
         teile.append(f"„{w}“ schreibt man {'groß' if w[0].isupper() else 'klein'}: {why}.")
     info = " ".join(teile) + ((" " + info_zusatz) if info_zusatz else "")
-    return luecke(frage, text, abschnitt, extra=ex, info=info, tipp=tipp, gross=True, tauschbar=tauschbar, fest=fest)
+    return luecke(frage, text, abschnitt, extra=ex, info=info, tipp=tipp, gross=True, tauschbar=tauschbar, fest=fest, auch=auch)
 
 
 # ------------------------------------------------------------------ Kommas setzen (kommas)

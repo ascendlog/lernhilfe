@@ -413,7 +413,7 @@
    "typ": "luecke",
    "abschnitt": "B – Doppelkonsonanten, ck und tz",
    "frage": "Schreibe die Wörter richtig auf.",
-   "text": "Mia stellt einen {{Teller}} auf den Tisch und legt einen {{Löffel}} daneben. Dazu gibt es {{Pfannkuchen}} mit {{Butter}}.",
+   "text": "Mia stellt einen {{Teller|Löffel}} auf den Tisch und legt einen {{Löffel|Teller}} daneben. Dazu gibt es {{Pfannkuchen}} mit {{Butter}}.",
    "info": "Tel-ler (ll), Löf-fel (ff), Pfann-ku-chen (nn), But-ter (tt): Nach kurzem Vokal steht ein Doppelkonsonant.",
    "wortbank": [
     "Teller",
@@ -725,7 +725,7 @@
    "typ": "luecke",
    "abschnitt": "D – i, ie oder ih?",
    "frage": "Schreibe die Wörter richtig auf.",
-   "text": "Auf der {{Wiese}} summt eine {{Biene}}, und eine {{Fliege}} sitzt auf einem {{Pilz}}.",
+   "text": "Auf der {{Wiese}} summt eine {{Biene|Fliege}}, und eine {{Fliege|Biene}} sitzt auf einem {{Pilz}}.",
    "info": "Wie-se, Bie-ne und Flie-ge: offene erste Silbe, langer Vokal, also ie. Pilz hat einen kurzen Vokal (Pil-ze), deshalb nur i.",
    "wortbank": [
     "Wiese",
@@ -771,7 +771,7 @@
    "typ": "luecke",
    "abschnitt": "D – i, ie oder ih?",
    "frage": "Schreibe die Wörter richtig auf.",
-   "text": "Mama erzählt {{ihr}} eine Geschichte, schenkt {{ihm}} ein Buch und singt {{ihnen}} ein Lied.",
+   "text": "Mama erzählt {{ihr|ihm|ihnen}} eine Geschichte, schenkt {{ihm|ihr|ihnen}} ein Buch und singt {{ihnen|ihr|ihm}} ein Lied.",
    "info": "Die Wörter ihr, ihm, ihn, ihnen und ihre sind Merkwörter. Man schreibt sie mit ih.",
    "wortbank": [
     "ihr",
@@ -917,7 +917,7 @@
    "typ": "luecke",
    "abschnitt": "E – Das h und Wörter mit Doppelvokal",
    "frage": "Schreibe die Wörter richtig auf.",
-   "text": "Der {{Lehrer}} {{zählt}} die Kinder, und die Klasse {{wählt}} ihre Sprecherin.",
+   "text": "Der {{Lehrer}} {{zählt|wählt}} die Kinder, und die Klasse {{wählt|zählt}} ihre Sprecherin.",
    "info": "Leh-rer, zäh-len (Zahl), wäh-len (Wahl): Das h steht vor l oder r und ist ein Merkwort-h.",
    "wortbank": [
     "Lehrer",

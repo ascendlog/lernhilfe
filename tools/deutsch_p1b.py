@@ -171,17 +171,22 @@ def aufgaben():
 
     # ---------------------------------------------------------------- F
     a.append(gk("Am [Freitag|Begleiter „Am“ (an dem) steht davor] ist Sporttag. Das [Laufen|Artikel „Das“ steht davor] fällt mir leicht, aber das [Werfen|Artikel „das“ steht davor] muss ich noch üben. Beim [Springen|Begleiter „Beim“ (bei dem) steht davor] zählt jeder Zentimeter. Zum [Abschluss|Begleiter „Zum“ (zu dem) steht davor] dürfen alle [mitmachen|Verb nach dem Modalverb „dürfen“].",
-                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Sporttag)."))
+                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Sporttag).",
+                tauschbar=[("Laufen", "Werfen", "Springen")]))
     a.append(gk("Im [Wald|Begleiter „Im“ (in dem) steht davor] gibt es viel zu [entdecken|Verb mit „zu“ davor (zu + Infinitiv)]. Das [Sammeln|Artikel „Das“ steht davor] von [Zapfen|Präposition „von“ steht davor] macht uns [Spaß|Nomen ohne Begleiter, Probe: der große Spaß]. Beim [Bauen|Begleiter „Beim“ (bei dem) steht davor] der Hütte hilft jeder mit.",
                 B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Ein Tag im Wald)."))
     a.append(gk("Vor dem [Backen|Artikel „dem“ steht davor] wiegt Mia die [Zutaten|Artikel „die“ steht davor] ab. Das [Rühren|Artikel „Das“ steht davor] des Teigs dauert lange, aber sie will nicht [aufgeben|Verb nach dem Modalverb „will“]. Nach dem [Aufgehen|Artikel „dem“ steht davor] kommt der Kuchen in den [Ofen|Artikel „den“ steht davor].",
-                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Kuchen)."))
+                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Kuchen).",
+                tauschbar=[("Backen", "Rühren")]))
     a.append(gk("Ole liebt das [Zeichnen|Artikel „das“ steht davor]. Beim [Malen|Begleiter „Beim“ (bei dem) steht davor] hört er gern [Musik|Nomen ohne Begleiter, Probe: die leise Musik]. Seine [Schwester|Pronomen „Seine“ steht davor] schaut ihm beim [Zusehen|Begleiter „beim“ (bei dem) steht davor] über die Schulter. Er kann gut [zeichnen|Verb nach dem Modalverb „kann“].",
-                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Hobby)."))
+                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Hobby).",
+                tauschbar=[("Zeichnen", "Malen", "Zusehen")], auch={"zeichnen": ["malen"]}))
     a.append(gk("Das [Lernen|Artikel „Das“ steht davor] für die Arbeit fällt manchmal [schwer|Adjektiv, kein Nomen]. Zum [Üben|Begleiter „Zum“ (zu dem) steht davor] nehme ich mir [Zeit|Nomen ohne Begleiter, Probe: die nötige Zeit]. Nach dem [Lesen|Artikel „dem“ steht davor] schreibe ich Stichwörter auf. So kann ich mir viel [merken|Verb nach dem Modalverb „kann“].",
-                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Vor der Arbeit)."))
+                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Vor der Arbeit).",
+                tauschbar=[("Lernen", "Üben", "Lesen")]))
     a.append(gk("Vor dem [Einschlafen|Artikel „dem“ steht davor] liest Papa uns oft vor. Das [Vorlesen|Artikel „Das“ steht davor] gefällt uns, aber wir müssen leise [sein|Verb nach dem Modalverb „müssen“]. Beim [Zuhören|Begleiter „Beim“ (bei dem) steht davor] fallen uns die Augen zu. Am [Morgen|Begleiter „Am“ (an dem) steht davor] ist das [Aufstehen|Artikel „das“ steht davor] schwer.",
-                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Am Abend)."))
+                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Am Abend).",
+                tauschbar=[("Vorlesen", "Zuhören")]))
 
     # ---------------------------------------------------------------- G
     a.append(mc("Wie kann man „Dass ich die Vögel am Futterhaus beobachte, finde ich spannend.“ sachlicher sagen?",
@@ -190,7 +195,8 @@ def aufgaben():
                 info="Aus dem Verb wird ein Nomen: Das Beobachten (Artikel + nominalisiertes Verb), danach folgt der Genitiv „der Vögel“ und „am Futterhaus“."))
     a.append(kurz("Formuliere als Anweisung: „Man soll die Pflanzen gießen.“ → Das … der Pflanzen ist wichtig.", "Gießen", B_G, gross=True,
                   info="Aus „gießen“ wird mit Artikel das nominalisierte Verb: Das Gießen der Pflanzen ist wichtig."))
-    a.append(gk("Das [Messen|Artikel „Das“ steht davor] der Temperatur und das [Notieren|Artikel „das“ steht davor] der Werte gehören zum Versuch.", B_G))
+    a.append(gk("Das [Messen|Artikel „Das“ steht davor] der Temperatur und das [Notieren|Artikel „das“ steht davor] der Werte gehören zum Versuch.", B_G,
+                tauschbar=[("Messen", "Notieren")]))
     a.append(zuordnen("Welche sachliche Formulierung passt zu dem Satz?",
                       [("Dass wir die Zimmer aufräumen, ist nötig.", "Das Aufräumen der Zimmer ist nötig."),
                        ("Dass ich zeichne, entspannt mich.", "Das Zeichnen entspannt mich."),

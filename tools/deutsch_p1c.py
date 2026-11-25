@@ -86,7 +86,8 @@ def aufgaben():
     a.append(mc("Ich wünsche dir alles Gute zum Geburtstag! Welches Wort ist das nominalisierte Adjektiv?",
                 "Gute", ["wünsche", "alles", "Geburtstag"], B_A,
                 info="„alles“ ist das Indefinitpronomen und der Begleiter, „Gute“ ist das nominalisierte Adjektiv (gut). „Geburtstag“ ist ein Nomen, „wünsche“ ein Verb."))
-    a.append(gk("Das [Geheimnisvolle|Artikel „Das“ steht davor] und das [Spannende|Artikel „das“ steht davor] mag ich [gern|Adverb, kein Nomen].", B_A))
+    a.append(gk("Das [Geheimnisvolle|Artikel „Das“ steht davor] und das [Spannende|Artikel „das“ steht davor] mag ich [gern|Adverb, kein Nomen].", B_A,
+                tauschbar=[("Geheimnisvolle", "Spannende")]))
 
     # ---------------------------------------------------------------- B
     a.append(zuordnen("Welcher Begleiter steht vor dem nominalisierten Adjektiv?",
@@ -183,7 +184,8 @@ def aufgaben():
                 B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Wandern).",
                 tauschbar=[("Junge", "Alte")]))
     a.append(gk("Mara bastelt gern. Zum [Basteln|Begleiter „Zum“ (zu dem) steht davor] braucht sie [Papier|Nomen ohne Begleiter, Probe: das bunte Papier] und etwas [Kleber|Indefinitpronomen „etwas“ steht davor, Nomen]. Das [Schneiden|Artikel „Das“ steht davor] fällt ihr [leicht|Adjektiv, kein Nomen]. Beim [Kleben|Begleiter „Beim“ (bei dem) steht davor] ist sie am [genauesten|Superlativ mit „am“ (Frage: Wie?)].",
-                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Basteln)."))
+                B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Basteln).",
+                tauschbar=[("Basteln", "Schneiden", "Kleben"), ("Papier", "Kleber")]))
     a.append(gk("Der [Zirkus|Artikel „Der“ steht davor] kommt jedes Jahr in unsere [Stadt|Pronomen „unsere“ steht davor]. Das [Aufregendste|Artikel „Das“ steht davor] ist der [Auftritt|Artikel „der“ steht davor] der Artisten. Sie zeigen viel [Mutiges|Indefinitpronomen „viel“ steht davor] und manches [Lustige|Indefinitpronomen „manches“ steht davor]. Am [besten|Superlativ mit „am“ (Frage: Wie?)] gefällt uns das [Jonglieren|Artikel „das“ steht davor].",
                 B_F, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Zirkus)."))
     a.append(gk("Im [Herbst|Begleiter „Im“ (in dem) steht davor] ist das [Wetter|Artikel „das“ steht davor] oft [kalt|Adjektiv, kein Nomen] und [nass|Adjektiv, kein Nomen]. Ich bleibe dann im [Warmen|Begleiter „im“ (in dem), nominalisiert: das Warme] und lese ein [Buch|Artikel „ein“ steht davor]. Das [Lesen|Artikel „Das“ steht davor] macht mir [Spaß|Nomen ohne Begleiter, Probe: der große Spaß]. Etwas [Spannendes|Indefinitpronomen „Etwas“ steht davor] ist mir am [liebsten|Superlativ mit „am“ (Frage: Wie?)].",

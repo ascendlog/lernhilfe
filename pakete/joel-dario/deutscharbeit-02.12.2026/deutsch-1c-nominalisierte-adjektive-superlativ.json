@@ -166,7 +166,7 @@
    "typ": "luecke",
    "abschnitt": "A – Adjektiv oder nominalisiert?",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
-   "text": "Das {{Geheimnisvolle}} und das {{Spannende}} mag ich {{gern}}.",
+   "text": "Das {{Geheimnisvolle|Spannende}} und das {{Spannende|Geheimnisvolle}} mag ich {{gern}}.",
    "info": "„Geheimnisvolle“ schreibt man groß: Artikel „Das“ steht davor. „Spannende“ schreibt man groß: Artikel „das“ steht davor. „gern“ schreibt man klein: Adverb, kein Nomen.",
    "wortbank": [
     "Geheimnisvolle",
@@ -812,7 +812,7 @@
    "typ": "luecke",
    "abschnitt": "F – Gemischte Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Basteln).",
-   "text": "Mara bastelt gern. Zum {{Basteln}} braucht sie {{Papier}} und etwas {{Kleber}}. Das {{Schneiden}} fällt ihr {{leicht}}. Beim {{Kleben}} ist sie am {{genauesten}}.",
+   "text": "Mara bastelt gern. Zum {{Basteln|Schneiden|Kleben}} braucht sie {{Papier|Kleber}} und etwas {{Kleber|Papier}}. Das {{Schneiden|Basteln|Kleben}} fällt ihr {{leicht}}. Beim {{Kleben|Basteln|Schneiden}} ist sie am {{genauesten}}.",
    "info": "„Basteln“ schreibt man groß: Begleiter „Zum“ (zu dem) steht davor. „Papier“ schreibt man groß: Nomen ohne Begleiter, Probe: das bunte Papier. „Kleber“ schreibt man groß: Indefinitpronomen „etwas“ steht davor, Nomen. „Schneiden“ schreibt man groß: Artikel „Das“ steht davor. „leicht“ schreibt man klein: Adjektiv, kein Nomen. „Kleben“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „genauesten“ schreibt man klein: Superlativ mit „am“ (Frage: Wie?).",
    "wortbank": [
     "Basteln",

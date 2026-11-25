@@ -142,7 +142,8 @@ def aufgaben():
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Mia stellt einen {{Teller}} auf den Tisch und legt einen {{Löffel}} daneben. Dazu gibt es {{Pfannkuchen}} mit {{Butter}}.",
                     B_B, extra=["Teler", "Löfel", "Pfankuchen", "Buter"], gross=True,
-                    info="Tel-ler (ll), Löf-fel (ff), Pfann-ku-chen (nn), But-ter (tt): Nach kurzem Vokal steht ein Doppelkonsonant."))
+                    info="Tel-ler (ll), Löf-fel (ff), Pfann-ku-chen (nn), But-ter (tt): Nach kurzem Vokal steht ein Doppelkonsonant.",
+                tauschbar=[("Teller", "Löffel")]))
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Die {{Katze}} springt auf die {{Decke}} und putzt ihren {{Rücken}}.",
                     B_B, extra=["Kaze", "Deke", "Rüken"], gross=True,
@@ -214,7 +215,8 @@ def aufgaben():
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Auf der {{Wiese}} summt eine {{Biene}}, und eine {{Fliege}} sitzt auf einem {{Pilz}}.",
                     B_D, extra=["Wise", "Bine", "Flige", "Pielz"], gross=True,
-                    info="Wie-se, Bie-ne und Flie-ge: offene erste Silbe, langer Vokal, also ie. Pilz hat einen kurzen Vokal (Pil-ze), deshalb nur i."))
+                    info="Wie-se, Bie-ne und Flie-ge: offene erste Silbe, langer Vokal, also ie. Pilz hat einen kurzen Vokal (Pil-ze), deshalb nur i.",
+                tauschbar=[("Biene", "Fliege")]))
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Mia schreibt einen {{Brief}} mit blauer {{Tinte}} und hat dabei {{viel}} Spaß.",
                     B_D, extra=["Brif", "Tiente", "fil"], gross=True,
@@ -225,7 +227,8 @@ def aufgaben():
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Mama erzählt {{ihr}} eine Geschichte, schenkt {{ihm}} ein Buch und singt {{ihnen}} ein Lied.",
                     B_D, extra=["ir", "inen"], gross=True,
-                    info="Die Wörter ihr, ihm, ihn, ihnen und ihre sind Merkwörter. Man schreibt sie mit ih."))
+                    info="Die Wörter ihr, ihm, ihn, ihnen und ihre sind Merkwörter. Man schreibt sie mit ih.",
+                tauschbar=[("ihr", "ihm", "ihnen")]))
     a.append(tf("Die Wörter mir, dir und wir schreibt man nur mit i.", True, B_D,
                 info="mir, dir und wir sind Merkwörter und werden nur mit einfachem i geschrieben (anders als ihr, ihm, ihn)."))
     a.append(mc("Bei welchen Wörtern klingt das i lang, obwohl nur ein i geschrieben wird? (mehrere Antworten sind richtig)",
@@ -254,7 +257,8 @@ def aufgaben():
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Der {{Lehrer}} {{zählt}} die Kinder, und die Klasse {{wählt}} ihre Sprecherin.",
                     B_E, extra=["Lerer", "zält", "wält"], gross=True,
-                    info="Leh-rer, zäh-len (Zahl), wäh-len (Wahl): Das h steht vor l oder r und ist ein Merkwort-h."))
+                    info="Leh-rer, zäh-len (Zahl), wäh-len (Wahl): Das h steht vor l oder r und ist ein Merkwort-h.",
+                tauschbar=[("zählt", "wählt")]))
     a.append(luecke("Schreibe die Wörter richtig auf.",
                     "Mein Onkel {{wohnt}} schon ein {{Jahr}} in der {{Nähe}}.",
                     B_E, extra=["wont", "Jar", "Nehe"], gross=True,

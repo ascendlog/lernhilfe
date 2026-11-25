@@ -626,7 +626,7 @@
    "typ": "luecke",
    "abschnitt": "F – Kleine Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Sporttag).",
-   "text": "Am {{Freitag}} ist Sporttag. Das {{Laufen}} fällt mir leicht, aber das {{Werfen}} muss ich noch üben. Beim {{Springen}} zählt jeder Zentimeter. Zum {{Abschluss}} dürfen alle {{mitmachen}}.",
+   "text": "Am {{Freitag}} ist Sporttag. Das {{Laufen|Werfen|Springen}} fällt mir leicht, aber das {{Werfen|Laufen|Springen}} muss ich noch üben. Beim {{Springen|Laufen|Werfen}} zählt jeder Zentimeter. Zum {{Abschluss}} dürfen alle {{mitmachen}}.",
    "info": "„Freitag“ schreibt man groß: Begleiter „Am“ (an dem) steht davor. „Laufen“ schreibt man groß: Artikel „Das“ steht davor. „Werfen“ schreibt man groß: Artikel „das“ steht davor. „Springen“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „Abschluss“ schreibt man groß: Begleiter „Zum“ (zu dem) steht davor. „mitmachen“ schreibt man klein: Verb nach dem Modalverb „dürfen“.",
    "wortbank": [
     "Freitag",
@@ -670,7 +670,7 @@
    "typ": "luecke",
    "abschnitt": "F – Kleine Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Der Kuchen).",
-   "text": "Vor dem {{Backen}} wiegt Mia die {{Zutaten}} ab. Das {{Rühren}} des Teigs dauert lange, aber sie will nicht {{aufgeben}}. Nach dem {{Aufgehen}} kommt der Kuchen in den {{Ofen}}.",
+   "text": "Vor dem {{Backen|Rühren}} wiegt Mia die {{Zutaten}} ab. Das {{Rühren|Backen}} des Teigs dauert lange, aber sie will nicht {{aufgeben}}. Nach dem {{Aufgehen}} kommt der Kuchen in den {{Ofen}}.",
    "info": "„Backen“ schreibt man groß: Artikel „dem“ steht davor. „Zutaten“ schreibt man groß: Artikel „die“ steht davor. „Rühren“ schreibt man groß: Artikel „Das“ steht davor. „aufgeben“ schreibt man klein: Verb nach dem Modalverb „will“. „Aufgehen“ schreibt man groß: Artikel „dem“ steht davor. „Ofen“ schreibt man groß: Artikel „den“ steht davor.",
    "wortbank": [
     "Backen",
@@ -692,7 +692,7 @@
    "typ": "luecke",
    "abschnitt": "F – Kleine Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Das Hobby).",
-   "text": "Ole liebt das {{Zeichnen}}. Beim {{Malen}} hört er gern {{Musik}}. Seine {{Schwester}} schaut ihm beim {{Zusehen}} über die Schulter. Er kann gut {{zeichnen}}.",
+   "text": "Ole liebt das {{Zeichnen|Malen|Zusehen}}. Beim {{Malen|Zeichnen|Zusehen}} hört er gern {{Musik}}. Seine {{Schwester}} schaut ihm beim {{Zusehen|Zeichnen|Malen}} über die Schulter. Er kann gut {{zeichnen|malen}}.",
    "info": "„Zeichnen“ schreibt man groß: Artikel „das“ steht davor. „Malen“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „Musik“ schreibt man groß: Nomen ohne Begleiter, Probe: die leise Musik. „Schwester“ schreibt man groß: Pronomen „Seine“ steht davor. „Zusehen“ schreibt man groß: Begleiter „beim“ (bei dem) steht davor. „zeichnen“ schreibt man klein: Verb nach dem Modalverb „kann“.",
    "wortbank": [
     "Zeichnen",
@@ -712,7 +712,7 @@
    "typ": "luecke",
    "abschnitt": "F – Kleine Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Vor der Arbeit).",
-   "text": "Das {{Lernen}} für die Arbeit fällt manchmal {{schwer}}. Zum {{Üben}} nehme ich mir {{Zeit}}. Nach dem {{Lesen}} schreibe ich Stichwörter auf. So kann ich mir viel {{merken}}.",
+   "text": "Das {{Lernen|Üben|Lesen}} für die Arbeit fällt manchmal {{schwer}}. Zum {{Üben|Lernen|Lesen}} nehme ich mir {{Zeit}}. Nach dem {{Lesen|Lernen|Üben}} schreibe ich Stichwörter auf. So kann ich mir viel {{merken}}.",
    "info": "„Lernen“ schreibt man groß: Artikel „Das“ steht davor. „schwer“ schreibt man klein: Adjektiv, kein Nomen. „Üben“ schreibt man groß: Begleiter „Zum“ (zu dem) steht davor. „Zeit“ schreibt man groß: Nomen ohne Begleiter, Probe: die nötige Zeit. „Lesen“ schreibt man groß: Artikel „dem“ steht davor. „merken“ schreibt man klein: Verb nach dem Modalverb „kann“.",
    "wortbank": [
     "Lernen",
@@ -734,7 +734,7 @@
    "typ": "luecke",
    "abschnitt": "F – Kleine Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Am Abend).",
-   "text": "Vor dem {{Einschlafen}} liest Papa uns oft vor. Das {{Vorlesen}} gefällt uns, aber wir müssen leise {{sein}}. Beim {{Zuhören}} fallen uns die Augen zu. Am {{Morgen}} ist das {{Aufstehen}} schwer.",
+   "text": "Vor dem {{Einschlafen}} liest Papa uns oft vor. Das {{Vorlesen|Zuhören}} gefällt uns, aber wir müssen leise {{sein}}. Beim {{Zuhören|Vorlesen}} fallen uns die Augen zu. Am {{Morgen}} ist das {{Aufstehen}} schwer.",
    "info": "„Einschlafen“ schreibt man groß: Artikel „dem“ steht davor. „Vorlesen“ schreibt man groß: Artikel „Das“ steht davor. „sein“ schreibt man klein: Verb nach dem Modalverb „müssen“. „Zuhören“ schreibt man groß: Begleiter „Beim“ (bei dem) steht davor. „Morgen“ schreibt man groß: Begleiter „Am“ (an dem) steht davor. „Aufstehen“ schreibt man groß: Artikel „das“ steht davor.",
    "wortbank": [
     "Einschlafen",
@@ -777,7 +777,7 @@
    "typ": "luecke",
    "abschnitt": "G – Sachlich formulieren",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
-   "text": "Das {{Messen}} der Temperatur und das {{Notieren}} der Werte gehören zum Versuch.",
+   "text": "Das {{Messen|Notieren}} der Temperatur und das {{Notieren|Messen}} der Werte gehören zum Versuch.",
    "info": "„Messen“ schreibt man groß: Artikel „Das“ steht davor. „Notieren“ schreibt man groß: Artikel „das“ steht davor.",
    "wortbank": [
     "Messen",

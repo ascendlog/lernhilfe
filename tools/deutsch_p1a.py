@@ -98,7 +98,8 @@ def aufgaben():
                 info="„zum“ ist zu dem. Danach steht das Nomen „Schwimmbad“."))
     a.append(luecke("Setze die verschmolzene Form ein.",
                     "Die Katze sitzt {{am}} Fenster. Ole spielt {{im}} Garten. Mia geht {{ins}} Bett.", B_B,
-                    extra=["beim", "zum", "vom"], info="am = an dem Fenster, im = in dem Garten, ins = in das Bett."))
+                    extra=["beim", "zum", "vom"], info="am = an dem Fenster, im = in dem Garten, ins = in das Bett.",
+                tauschbar=[("am", "im")]))
     a.append(luecke("Setze die verschmolzene Form ein.",
                     "Tom geht {{zum}} Training. Seine Mutter holt ihn {{vom}} Sportplatz ab. Sie fahren dann {{zur}} Oma.", B_B,
                     extra=["beim", "im", "ins"], info="zum Training = zu dem Training, vom Sportplatz = von dem Sportplatz, zur Oma = zu der Oma."))
@@ -148,7 +149,8 @@ def aufgaben():
     a.append(gk("In der [Pause|Artikel „der“] essen wir [Brötchen|Nomen ohne Begleiter, Probe: die leckeren Brötchen] und trinken [Saft|Nomen ohne Begleiter, Probe: der kalte Saft].", B_D))
     a.append(gk("Unser [Nachbar|Pronomen „unser“] hat einen [Garten|Artikel „einen“] mit bunten [Blumen|Adjektiv „bunten“ steht davor].", B_D))
     a.append(gk("Mit [Freude|Präposition „mit“ steht davor] helfen die [Schüler|Artikel „die“] ihrer [Lehrerin|Pronomen „ihrer“] im [Klassenzimmer|Begleiter „im“].", B_D))
-    a.append(gk("Ich lese [gern|Adverb, kein Nomen] ein [Buch|Artikel „ein“] über [Piraten|Präposition „über“ steht davor] und große [Schiffe|Adjektiv „große“ steht davor].", B_D))
+    a.append(gk("Ich lese [gern|Adverb, kein Nomen] ein [Buch|Artikel „ein“] über [Piraten|Präposition „über“ steht davor] und große [Schiffe|Adjektiv „große“ steht davor].", B_D,
+                tauschbar=[("Piraten", "Schiffe")]))
 
     # ---------------------------------------------------------------- E (kleine Texte)
     a.append(gk("Am [Morgen|Begleiter „am“ (an dem)] packt [Mia|Name einer Person] ihren [Rucksack|Pronomen „ihren“]. Sie legt eine [Flasche|Artikel „eine“] mit [Wasser|Präposition „mit“] und zwei [Äpfel|Zahlwort „zwei“] hinein. Dann geht sie zum [Bahnhof|Begleiter „zum“ (zu dem)].",
@@ -156,7 +158,8 @@ def aufgaben():
     a.append(gk("Im [Zoo|Begleiter „im“ (in dem)] sehen die [Kinder|Artikel „die“] einen [Löwen|Artikel „einen“]. Er liegt [faul|Adjektiv, kein Nomen] auf einem großen [Felsen|Artikel „einem“ und Adjektiv „großen“ stehen davor]. Ein [Wärter|Artikel „ein“] bringt [Fleisch|Nomen ohne Begleiter, Probe: das frische Fleisch].",
                 B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Im Zoo)."))
     a.append(gk("Bei schönem [Wetter|Adjektiv „schönem“ steht davor] fahren wir mit dem [Rad|Artikel „dem“ steht davor] zum [See|Begleiter „zum“ (zu dem)]. Unterwegs machen wir eine [Pause|Artikel „eine“] und essen [Brot|Nomen ohne Begleiter, Probe: das frische Brot] mit [Käse|Präposition „mit“ steht davor].",
-                B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Die Radtour)."))
+                B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Die Radtour).",
+                tauschbar=[("Brot", "Käse")]))
     a.append(gk("Ole [kauft|Verb, kein Nomen] auf dem [Flohmarkt|Artikel „dem“ steht davor] ein altes [Buch|Artikel „ein“ und Adjektiv „altes“ stehen davor] und eine [Mütze|Artikel „eine“]. Die [Verkäuferin|Artikel „die“] gibt ihm einen [Beutel|Artikel „einen“] dazu. Seine [Schwester|Pronomen „seine“] freut sich über die [Überraschung|Artikel „die“ steht davor].",
                 B_E, frage="Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Auf dem Flohmarkt)."))
     a.append(gk("Am [Abend|Begleiter „am“ (an dem)] schauen wir einen [Film|Artikel „einen“ steht davor] im [Wohnzimmer|Begleiter „im“ (in dem)]. Mama bringt [Popcorn|Nomen ohne Begleiter, Probe: das süße Popcorn] und [Saft|Nomen ohne Begleiter, Probe: der kalte Saft]. Wir [lachen|Verb, kein Nomen] [laut|Adjektiv oder Adverb, kein Nomen] über die [Szenen|Artikel „die“ steht davor].",

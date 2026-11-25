@@ -256,7 +256,7 @@
    "typ": "luecke",
    "abschnitt": "B – Präposition und Artikel in einem Wort",
    "frage": "Setze die verschmolzene Form ein.",
-   "text": "Die Katze sitzt {{am}} Fenster. Ole spielt {{im}} Garten. Mia geht {{ins}} Bett.",
+   "text": "Die Katze sitzt {{am|im}} Fenster. Ole spielt {{im|am}} Garten. Mia geht {{ins}} Bett.",
    "info": "am = an dem Fenster, im = in dem Garten, ins = in das Bett.",
    "wortbank": [
     "am",
@@ -638,7 +638,7 @@
    "typ": "luecke",
    "abschnitt": "D – Groß oder klein: einzelne Sätze",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise.",
-   "text": "Ich lese {{gern}} ein {{Buch}} über {{Piraten}} und große {{Schiffe}}.",
+   "text": "Ich lese {{gern}} ein {{Buch}} über {{Piraten|Schiffe}} und große {{Schiffe|Piraten}}.",
    "info": "„gern“ schreibt man klein: Adverb, kein Nomen. „Buch“ schreibt man groß: Artikel „ein“. „Piraten“ schreibt man groß: Präposition „über“ steht davor. „Schiffe“ schreibt man groß: Adjektiv „große“ steht davor.",
    "wortbank": [
     "gern",
@@ -704,7 +704,7 @@
    "typ": "luecke",
    "abschnitt": "E – Kleine Texte",
    "frage": "Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise (Text: Die Radtour).",
-   "text": "Bei schönem {{Wetter}} fahren wir mit dem {{Rad}} zum {{See}}. Unterwegs machen wir eine {{Pause}} und essen {{Brot}} mit {{Käse}}.",
+   "text": "Bei schönem {{Wetter}} fahren wir mit dem {{Rad}} zum {{See}}. Unterwegs machen wir eine {{Pause}} und essen {{Brot|Käse}} mit {{Käse|Brot}}.",
    "info": "„Wetter“ schreibt man groß: Adjektiv „schönem“ steht davor. „Rad“ schreibt man groß: Artikel „dem“ steht davor. „See“ schreibt man groß: Begleiter „zum“ (zu dem). „Pause“ schreibt man groß: Artikel „eine“. „Brot“ schreibt man groß: Nomen ohne Begleiter, Probe: das frische Brot. „Käse“ schreibt man groß: Präposition „mit“ steht davor.",
    "wortbank": [
     "Wetter",

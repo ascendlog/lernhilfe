@@ -62,7 +62,7 @@
    "typ": "luecke",
    "abschnitt": "Teil A – Nominalisierung: groß oder klein (23 Punkte)",
    "frage": "Aufgabe 3: Groß oder klein? Ziehe in jede Lücke das Wort in der richtigen Schreibweise. (4 Punkte)",
-   "text": "Zum {{Lernen}} braucht Mia {{Ruhe}}. Beim {{Rechnen}} hilft ihr der {{Taschenrechner}}.",
+   "text": "Zum {{Lernen|Rechnen}} braucht Mia {{Ruhe}}. Beim {{Rechnen|Lernen}} hilft ihr der {{Taschenrechner}}.",
    "info": "„Lernen“ schreibt man groß: Begleiter „zum“ (zu dem). „Ruhe“ schreibt man groß: Nomen ohne Begleiter, Probe: die große Ruhe. „Rechnen“ schreibt man groß: Begleiter „beim“ (bei dem). „Taschenrechner“ schreibt man groß: Artikel „der“ steht davor.",
    "wortbank": [
     "Lernen",

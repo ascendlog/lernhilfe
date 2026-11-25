@@ -227,7 +227,7 @@
    "typ": "luecke",
    "abschnitt": "A – Verlängern: b/p, d/t, g/k",
    "frage": "Schreibe die Wörter richtig auf.",
-   "text": "Auf dem {{Weg}} liegt ein {{Stab}} und ein {{Hut}}.",
+   "text": "Auf dem {{Weg}} liegt ein {{Stab|Hut}} und ein {{Hut|Stab}}.",
    "info": "Wege (g), Stä-be (b), Hü-te (t): Beim Verlängern hörst du die Buchstaben.",
    "wortbank": [
     "Weg",
@@ -605,7 +605,7 @@
    "typ": "luecke",
    "abschnitt": "C – Ableiten: e/ä und eu/äu",
    "frage": "Schreibe die Wörter richtig auf.",
-   "text": "Im Herbst fallen die Blätter von den {{Bäumen}}, und die {{Mäuse}} suchen Futter in den {{Wäldern}}.",
+   "text": "Im Herbst fallen die Blätter von den {{Bäumen|Wäldern}}, und die {{Mäuse}} suchen Futter in den {{Wäldern|Bäumen}}.",
    "info": "Bäume – Baum, Mäuse – Maus, Wälder – Wald: Es gibt jeweils ein verwandtes Wort mit a oder au.",
    "wortbank": [
     "Bäumen",
@@ -777,7 +777,7 @@
    "typ": "luecke",
    "abschnitt": "D – Strategien und Mischtexte",
    "frage": "Schreibe die Wörter richtig auf (Text: Im Keller).",
-   "text": "Im {{Keller}} liegt ein alter {{Koffer}} mit {{Wäsche}}, und im {{Schrank}} stehen bunte {{Gläser}}.",
+   "text": "Im {{Keller|Schrank}} liegt ein alter {{Koffer}} mit {{Wäsche}}, und im {{Schrank|Keller}} stehen bunte {{Gläser}}.",
    "info": "Keller (e), Koffer (ff nach kurzem Vokal), Wäsche – waschen (ä), Schrank – Schränke (k), Gläser – Glas (ä).",
    "wortbank": [
     "Keller",
@@ -797,7 +797,7 @@
    "typ": "luecke",
    "abschnitt": "D – Strategien und Mischtexte",
    "frage": "Schreibe die Wörter richtig auf (Text: Im Garten).",
-   "text": "Die {{Mädchen}} spielen mit einem {{Ball}} im {{Garten}}. Plötzlich {{liegt}} er im {{Beet}}.",
+   "text": "Die {{Mädchen}} spielen mit einem {{Ball}} im {{Garten|Beet}}. Plötzlich {{liegt}} er im {{Beet|Garten}}.",
    "info": "Mädchen ist ein Merkwort mit ä. Ball – Bälle (ll). Garten (r und t, kein Doppelkonsonant). liegt – liegen (ie, g). Beet hat Doppelvokal ee.",
    "wortbank": [
     "Mädchen",
