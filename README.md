@@ -39,7 +39,7 @@ Zum Ausprobieren reicht es auch, `index.html` per Doppelklick zu öffnen. Nur �
 1. In Claude ein **Lernpaket** erstellen lassen (für Joels Schulaufgaben im Projekt „Schulaufgaben“), zum Beispiel: „Erstelle ein Lernpaket im Lernhilfe-Format für Joel, Mathe Klasse 6, Thema Brüche. Hier ist die Themenliste vom Lehrer: …“
 2. Die JSON-Datei herunterladen.
 3. In der App zuerst die Person wählen, dann oben auf **Verwalten** tippen und auf **Lernpaket importieren** klicken oder die Datei in das Fenster ziehen. Alternativ **Text einfügen**. (Ohne Pakete sind die Importknöpfe gleich sichtbar.)
-4. Gibt es ein Paket mit derselben `id` schon, fragt die App, ob die neue Fassung die alte ersetzen soll. Ergebnisse bleiben dabei erhalten. So lassen sich Korrekturen leicht einspielen.
+4. Gibt es ein Paket mit derselben `id` schon, fragt die App, ob die neue Fassung die alte ersetzen soll. Ergebnisse bleiben dabei erhalten. So lassen sich Korrekturen leicht einspielen. **Eine laufende Sitzung geht danach weiter:** Die App erkennt die Aufgaben der neuen Fassung am Inhalt wieder (ganze Aufgabe, sonst Frage bzw. Text ohne die Lösungen) und behält Antworten, Prüfung, Selbstbewertung und Punkte. Wurde nur eine Lösung oder Alternative korrigiert, bleibt die Antwort stehen und wird neu bewertet. Neue Aufgaben kommen unbeantwortet dazu, Aufgaben mit geändertem Wortlaut (Frage, Text, Antwortmöglichkeiten) gelten als neu und werden noch einmal gestellt. Fehler-üben-Durchgänge bekommen keine neuen Aufgaben, ein bereits abgegebener Durchgang wird beendet (sein Ergebnis bleibt gespeichert).
 
 Fehlerhafte Pakete werden nicht importiert. Die App nennt dann die Stelle (z. B. „Aufgabe 4 (mc): …“). Diese Meldung einfach an Claude schicken.
 
