@@ -720,6 +720,69 @@ function fremd(o) { /* Namen der Person(en), für die ein Paket oder eine Sicher
   const ns = vals.map(v => { const w = fold(v); const q = PERSONEN.find(x => w === fold(x.id) || w === fold(x.name)); return q ? q.name : v.trim(); });
   return undListe(ns);
 }
+/* Paket aktualisieren, während jemand übt: Die Aufgaben der neuen Fassung werden denen der alten zugeordnet – zuerst an der ganzen Aufgabe, dann am „Gerüst“
+   (Frage bzw. Text ohne die Lösungen). So bleibt die Antwort auch erhalten, wenn nur eine Lösung oder Alternative korrigiert wurde; sie wird dann neu bewertet.
+   Zugeordnete Aufgaben behalten Antwort, Prüfung, Selbstbewertung und Punkte. Neue Aufgaben kommen unbeantwortet dazu; Aufgaben, deren Frage oder Text sich geändert hat,
+   gelten als neu und werden noch einmal gestellt (lieber einmal zu viel fragen als eine Antwort der falschen Aufgabe zuordnen). */
+const aufgabenGeruest = t => fnv(JSON.stringify([t.typ, t.frage, typeof t.text === 'string' ? t.text.replace(/\{\{[\s\S]*?\}\}/g, '{{}}') : t.text, t.antworten, t.paare, t.schritte]));
+function aufgabenZuordnen(alt, neu) { /* Map: alter Index → neuer Index */
+  const map = new Map(), used = new Set();
+  [aufgabenKey, aufgabenGeruest].forEach(kf => {
+    const nk = neu.aufgaben.map(kf);
+    alt.aufgaben.forEach((t, i) => {
+      if (map.has(i)) return;
+      const k = kf(t); let best = -1;
+      nk.forEach((k2, j) => { if (k2 === k && !used.has(j) && (best < 0 || Math.abs(j - i) < Math.abs(best - i))) best = j; });
+      if (best >= 0) { map.set(i, best); used.add(best); }
+    });
+  });
+  return map;
+}
+function punkteMitnehmen(alt, neu, map) { /* die Punkte einer Aufgabe hängen an ihrer Inhaltskennung; ändert sich diese, ziehen sie mit um (sonst gäbe es sie ein zweites Mal) */
+  const m = db.punkte && db.punkte.a && db.punkte.a[alt.id]; if (!m) return;
+  const bleibt = new Set(neu.aufgaben.map(aufgabenKey));
+  map.forEach((j, i) => {
+    const ko = aufgabenKey(alt.aufgaben[i]), kn = aufgabenKey(neu.aufgaben[j]);
+    if (ko !== kn && m[ko] !== undefined && m[kn] === undefined && !bleibt.has(ko)) { m[kn] = m[ko]; delete m[ko]; }
+  });
+}
+function sitzungUebertragen(s, alt, neu, map) { /* schreibt die laufende Sitzung s auf die neue Fassung um; liefert { erhalten, neu } oder null, wenn nichts zu retten ist */
+  const felder = ['answers', 'checked', 'self', 'touched', 'shuf', 'hint', 'pk', 'pkb'];
+  const form = t => JSON.stringify([t.wortbank, t.auswahl, t.antworten, t.paare, t.extra, t.schritte]); /* Mischung der Wörter/Antworten passt nur zur gleichen Form */
+  const nach = {}; felder.forEach(k => { if (s[k] && typeof s[k] === 'object') nach[k] = {}; });
+  let erhalten = 0;
+  map.forEach((j, i) => {
+    const ta = alt.aufgaben[i], tn = neu.aufgaben[j], a = s.answers && s.answers[i];
+    if (a !== undefined && !antwortOk(tn, a)) return; /* passt nicht mehr: gilt als neu */
+    let hat = false;
+    felder.forEach(k => {
+      if (!nach[k] || s[k][i] === undefined) return;
+      if (k === 'shuf' && form(ta) !== form(tn)) return;
+      nach[k][j] = s[k][i]; if (k === 'answers' || k === 'checked') hat = true;
+    });
+    if (hat) erhalten++;
+  });
+  const alleNeu = neu.aufgaben.map((_, j) => j);
+  const order = s.teil ? (s.order || []).filter(i => map.has(i)).map(i => map.get(i)) : alleNeu; /* Teil-Durchgänge (Fehler üben …) bekommen keine neuen Aufgaben dazu */
+  if (!order.length) return null;
+  let pos = 0; const q0 = Number.isInteger(s.pos) ? s.pos : 0;
+  if (map.has(s.order[q0])) pos = Math.max(0, order.indexOf(map.get(s.order[q0])));
+  else for (let q = q0 - 1; q >= 0; q--) if (map.has(s.order[q])) { pos = Math.min(order.length - 1, order.indexOf(map.get(s.order[q])) + 1); break; } /* die aktuelle Aufgabe ist weg oder geändert: weiter mit dem, was hinter der letzten erhaltenen kommt */
+  felder.forEach(k => { if (nach[k]) s[k] = nach[k]; });
+  s.order = order; s.pos = pos;
+  const bekannt = new Set(map.values()); /* neu = in der alten Fassung nicht vorhanden oder im Wortlaut geändert */
+  return { erhalten, neu: order.filter(j => !bekannt.has(j)).length };
+}
+function paketAktualisiert(alt, neu) { /* gibt einen Satz für die Meldung zurück (oder '') */
+  const map = aufgabenZuordnen(alt, neu);
+  rw(() => punkteMitnehmen(alt, neu, map));
+  const s = db.session; if (!s || s.id !== neu.id) return '';
+  if (s.done) { db.session = null; return ''; } /* ein abgegebener Durchgang bleibt mit seinen Ergebnissen gespeichert, die Ergebnisseite gehört aber zur alten Fassung */
+  let r = null;
+  try { r = sitzungUebertragen(s, alt, neu, map); } catch (err) { console.warn('Sitzung übertragen:', err); }
+  if (!r) { db.session = null; return ''; }
+  return r.erhalten ? 'Deine laufende Sitzung geht weiter: ' + r.erhalten + (r.erhalten === 1 ? ' Aufgabe bleibt' : ' Aufgaben bleiben') + ' erledigt' + (r.neu ? ', ' + r.neu + (r.neu === 1 ? ' ist neu oder geändert.' : ' sind neu oder geändert.') : '.') : '';
+}
 function importObj(o, label, force) {
   const res = { added: 0, updated: 0, skipped: 0, errors: [] };
   const isBackup = o && !Array.isArray(o) && o.typ === 'sicherung';
@@ -739,9 +802,12 @@ function importObj(o, label, force) {
     const ix = db.pakete.findIndex(x => x.id === p.id);
     if (ix >= 0) {
       if (isBackup) { res.skipped++; return; }
-      if (!force && !confirm('„' + p.titel + '“ ist schon vorhanden. Durch die neue Fassung ersetzen? (Bisherige Ergebnisse bleiben erhalten.)')) { res.skipped++; return; }
+      if (!force && !confirm('„' + p.titel + '“ ist schon vorhanden. Durch die neue Fassung ersetzen? (Bisherige Ergebnisse bleiben erhalten, eine laufende Sitzung geht weiter.)')) { res.skipped++; return; }
+      const alt = db.pakete[ix];
       db.pakete[ix] = p; res.updated++;
-      if (db.session && db.session.id === p.id) db.session = null;
+      let satz = '';
+      try { satz = paketAktualisiert(alt, p); } catch (err) { console.warn('Paket aktualisieren:', err); if (db.session && db.session.id === p.id) db.session = null; }
+      if (satz) res.weiter = satz;
     } else { db.pakete.push(p); res.added++; }
   });
   if (isBackup && o.ergebnisse && typeof o.ergebnisse === 'object') {
@@ -766,7 +832,7 @@ function reportImport(res) {
   if (res.added) bits.push(res.added + ' neu');
   if (res.updated) bits.push(res.updated + ' aktualisiert');
   if (res.skipped) bits.push(res.skipped + ' übersprungen');
-  if (bits.length) toast('Import: ' + bits.join(', ') + '.');
+  if (bits.length) toast('Import: ' + bits.join(', ') + '.' + (res.weiter ? ' ' + res.weiter : ''), res.weiter ? 6500 : 0);
   if (res.errors.length) {
     dialog('<h2>Das hat nicht geklappt</h2><div class="errs">' + res.errors.map(x => '<strong>' + esc(x.name) + '</strong><ul>' + x.errs.map(m => '<li>' + esc(m) + '</li>').join('') + '</ul>').join('') + '</div><p class="muted">Schick diese Meldung an Claude (am besten in dem Chat oder Projekt, in dem das Paket erstellt wurde), dann wird es korrigiert.</p><div class="row"><button class="btn" data-act="dlg-close">OK</button></div>');
   }
@@ -2433,7 +2499,7 @@ document.addEventListener('click', e => {
     case 'lib-toggle': { const g = el.dataset.g, m = g.startsWith('arbeit/') ? libZu : libOffen; if (m.has(g)) m.delete(g); else m.add(g); renderLib(); break; }
     case 'lib-add-all': { /* alle neuen und geänderten Pakete einer Arbeit auf einmal */
       const res = { added: 0, updated: 0, skipped: 0, errors: [] };
-      libItems.forEach(x => { const gr = libGruppe(x.f); if (!gr || gr[0] !== 'arbeit' || gr[1] !== el.dataset.g || x.errs.length || !x.p || libStatus(x).same) return; const r = importObj(JSON.parse(JSON.stringify(x.p)), x.f, true); res.added += r.added; res.updated += r.updated; res.skipped += r.skipped; res.errors.push(...r.errors); });
+      libItems.forEach(x => { const gr = libGruppe(x.f); if (!gr || gr[0] !== 'arbeit' || gr[1] !== el.dataset.g || x.errs.length || !x.p || libStatus(x).same) return; const r = importObj(JSON.parse(JSON.stringify(x.p)), x.f, true); res.added += r.added; res.updated += r.updated; res.skipped += r.skipped; res.errors.push(...r.errors); if (r.weiter) res.weiter = r.weiter; });
       reportImport(res); renderLib(); break;
     }
     case 'dlg-close': closeDialog(); break;
